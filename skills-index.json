@@ -1,0 +1,2334 @@
+{
+  "version": 1,
+  "generatedAt": 1787133464420,
+  "skills": [
+    {
+      "id": "anthropics/skills@academy-guide",
+      "trust": "trusted",
+      "name": "academy-guide",
+      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/academy-guide",
+      "contentHash": "29e4a3ea",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cefeaeb20cc29a803af0335d7c7155b066d8770f"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/academy-guide"
+    },
+    {
+      "id": "anthropics/skills@algorithmic-art",
+      "trust": "trusted",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/algorithmic-art",
+      "contentHash": "a1cce4f7",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "634f6fa42e4e697fa6afd293acd7fb8246574876"
+        },
+        {
+          "path": "templates/generator_template.js",
+          "sha": "e263fbde985cd4b84b28e6a8eaf07fca3fcd3557"
+        },
+        {
+          "path": "templates/viewer.html",
+          "sha": "630cc1f62df51deac69b3246b2dfeb1e68dae024"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/algorithmic-art"
+    },
+    {
+      "id": "anthropics/skills@brand-guidelines",
+      "trust": "trusted",
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/brand-guidelines",
+      "contentHash": "23c50050",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "47c72c607bdb5dd81bdea5de2b5e4f3992a5fd59"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/brand-guidelines"
+    },
+    {
+      "id": "anthropics/skills@canvas-design",
+      "trust": "trusted",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/canvas-design",
+      "contentHash": "a083569a",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "9f63fee82de84cd4230e1d0e322247b61eb4c94c"
+        },
+        {
+          "path": "canvas-fonts/ArsenalSC-OFL.txt",
+          "sha": "1dad6ca6de2b041ef35c0f5009239ede4567e1f4"
+        },
+        {
+          "path": "canvas-fonts/ArsenalSC-Regular.ttf",
+          "sha": "fe5409b22e6b22a0ce80c65bdbb333d7d96e7a6a"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-Bold.ttf",
+          "sha": "fc5f8fddee4c9e5810b1ab0e518a69acee3d2c50"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-OFL.txt",
+          "sha": "b220280e780d0b52a1efb259f44f332cfa9dcab4"
+        },
+        {
+          "path": "canvas-fonts/BigShoulders-Regular.ttf",
+          "sha": "de8308ce32f3d6759e491dcdce37f65f538d6ac7"
+        },
+        {
+          "path": "canvas-fonts/Boldonse-OFL.txt",
+          "sha": "1890cb1c226f32e581a9ca30cb06e01f2d251168"
+        },
+        {
+          "path": "canvas-fonts/Boldonse-Regular.ttf",
+          "sha": "43fa30affce39b3649e6e94122fbe17cc5536dd2"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-Bold.ttf",
+          "sha": "f3b1deda1c594859a1f5197644142f73e2a85868"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-OFL.txt",
+          "sha": "fc2b2167c3ccc6fa6f41ab38cb5bde9b3b808769"
+        },
+        {
+          "path": "canvas-fonts/BricolageGrotesque-Regular.ttf",
+          "sha": "0674ae3e4fc8c3f7baa53dbb582dd420ea73f224"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Bold.ttf",
+          "sha": "58730fb4c7b999b46537d613ab629b8e465251ad"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Italic.ttf",
+          "sha": "786a1bd66d38006d94a7cb96db1f93a2f439b08e"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-OFL.txt",
+          "sha": "f976fdc910257e3de8f4b24475963edb81b6ba46"
+        },
+        {
+          "path": "canvas-fonts/CrimsonPro-Regular.ttf",
+          "sha": "f5666b9beb8fb808ee56e78726a5b754e67d1ae7"
+        },
+        {
+          "path": "canvas-fonts/DMMono-OFL.txt",
+          "sha": "5b17f0c628c0a76ceb057e1b44d0112ab9a63ad2"
+        },
+        {
+          "path": "canvas-fonts/DMMono-Regular.ttf",
+          "sha": "7efe813da72c7b1c0294cae782e88f262ecb75be"
+        },
+        {
+          "path": "canvas-fonts/EricaOne-OFL.txt",
+          "sha": "490d012017f42bee136a3d3cb0d79ef9c3ba4561"
+        },
+        {
+          "path": "canvas-fonts/EricaOne-Regular.ttf",
+          "sha": "8bd91d11773f5b035a9e6b6d1bab2e59b08051e3"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-Bold.ttf",
+          "sha": "736ff7c3b1483081322cacc7c64e0995b52d8af6"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-OFL.txt",
+          "sha": "679a685a2343079632b0dd836fecb7cefbea6f0d"
+        },
+        {
+          "path": "canvas-fonts/GeistMono-Regular.ttf",
+          "sha": "1a30262ab749ea7a56aedd91410d8be3787db548"
+        },
+        {
+          "path": "canvas-fonts/Gloock-OFL.txt",
+          "sha": "363acd33d9e37e60b9941229448244b6a2d22461"
+        },
+        {
+          "path": "canvas-fonts/Gloock-Regular.ttf",
+          "sha": "3e58c4e455cc143e9b02d05fdcb054fac62ed7ab"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-Bold.ttf",
+          "sha": "247979caeb26c286a33cfd33234188d370c1c0ff"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-OFL.txt",
+          "sha": "e423b74780b16934a073769bd147d46479ceb8b2"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexMono-Regular.ttf",
+          "sha": "601ae945ebe1a717ac3ab7ed393288975da83b32"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Bold.ttf",
+          "sha": "78f6e500de7faaec05bbbc60ccfc81083440b1c8"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-BoldItalic.ttf",
+          "sha": "369b89d261b2d6d186e46b49a5b1959d9e95b5d4"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Italic.ttf",
+          "sha": "a4d859a77f0e52e36bf699cf55469c31a4664c18"
+        },
+        {
+          "path": "canvas-fonts/IBMPlexSerif-Regular.ttf",
+          "sha": "35f454ceac6b101ea3f9bed9f57a68a61519b401"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Bold.ttf",
+          "sha": "f602dcef23bb96d8d2f5c74c595ecf400c5ec722"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-BoldItalic.ttf",
+          "sha": "122b27305b6de88f6946bb171c055bd428124fc3"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Italic.ttf",
+          "sha": "4b98fb8dd753453f6e355a6dd1d4f483961c4017"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-OFL.txt",
+          "sha": "4bb99142f612dfaa0053377934b47e466800b20e"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSans-Regular.ttf",
+          "sha": "14c6113cdd3abcfa360f8d27bb42034aa91accc0"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSerif-Italic.ttf",
+          "sha": "8fa958d9baf94bdf86c45d5340dc2ba171e2eb2c"
+        },
+        {
+          "path": "canvas-fonts/InstrumentSerif-Regular.ttf",
+          "sha": "976303184a522174d92bc8d1a82d7960850a94b0"
+        },
+        {
+          "path": "canvas-fonts/Italiana-OFL.txt",
+          "sha": "ba8af215bb486cc7f3f9acfa5df895d5ba2d89ae"
+        },
+        {
+          "path": "canvas-fonts/Italiana-Regular.ttf",
+          "sha": "a9b828c0f308eaf07a172cbf2aae823e0f762210"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-Bold.ttf",
+          "sha": "1926c804b95bcd44835689b0ddf1ac10d0b7a805"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-OFL.txt",
+          "sha": "5ceee0025da23d2cd5fd14b28569708a8db4db2b"
+        },
+        {
+          "path": "canvas-fonts/JetBrainsMono-Regular.ttf",
+          "sha": "436c982ff3209357305892181e61565d1e01d439"
+        },
+        {
+          "path": "canvas-fonts/Jura-Light.ttf",
+          "sha": "dffbb3397409ebc91d53f4c4b29b7988c26a49f6"
+        },
+        {
+          "path": "canvas-fonts/Jura-Medium.ttf",
+          "sha": "4bf91a33951b960e4d579eb2e57cce624e4aec0a"
+        },
+        {
+          "path": "canvas-fonts/Jura-OFL.txt",
+          "sha": "64ad4c67d29fb44d037a400881c3c7a3d227cacf"
+        },
+        {
+          "path": "canvas-fonts/LibreBaskerville-OFL.txt",
+          "sha": "8c531fa56848a48577f9aa3b3e8051f3682e87f4"
+        },
+        {
+          "path": "canvas-fonts/LibreBaskerville-Regular.ttf",
+          "sha": "c1abc2645f623b8ab8d71724df32746b1aa627aa"
+        },
+        {
+          "path": "canvas-fonts/Lora-Bold.ttf",
+          "sha": "edae21eb689cda1c1a7b7b1a69277b3c01112a4c"
+        },
+        {
+          "path": "canvas-fonts/Lora-BoldItalic.ttf",
+          "sha": "12dea8c6f5f3af6c7e066b9c6ae5c8b33741e45e"
+        },
+        {
+          "path": "canvas-fonts/Lora-Italic.ttf",
+          "sha": "e24b69b26b0e14a48fdbb65fd29db51ce1e95aad"
+        },
+        {
+          "path": "canvas-fonts/Lora-OFL.txt",
+          "sha": "4cf1b950d308edaee72401989e45410ea99e76a4"
+        },
+        {
+          "path": "canvas-fonts/Lora-Regular.ttf",
+          "sha": "dc751db00dc171fc19737d9da800d7a583bb2c6d"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-Bold.ttf",
+          "sha": "f4d7c021b6e0edd88bb152d8cee73154efa086c1"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-OFL.txt",
+          "sha": "f4ec3fba915df6e072b72fed691f1032d440544d"
+        },
+        {
+          "path": "canvas-fonts/NationalPark-Regular.ttf",
+          "sha": "e4cbfbf5eb9569b2f0bcfe2f55ea1625123fc14c"
+        },
+        {
+          "path": "canvas-fonts/NothingYouCouldDo-OFL.txt",
+          "sha": "c81eccdee9a75cebdd400cc39ff5a0bb7bd1eaa3"
+        },
+        {
+          "path": "canvas-fonts/NothingYouCouldDo-Regular.ttf",
+          "sha": "b086bced91e7b587e8cbe5d7e13e3363e18bc812"
+        },
+        {
+          "path": "canvas-fonts/Outfit-Bold.ttf",
+          "sha": "f9f2f72afdee8011d61048072576ceee2f95ea60"
+        },
+        {
+          "path": "canvas-fonts/Outfit-OFL.txt",
+          "sha": "fd0cb995c0cadfa28394e7f9b88b7e43c783b453"
+        },
+        {
+          "path": "canvas-fonts/Outfit-Regular.ttf",
+          "sha": "3939ab246e0736f7283a571a458db274088ed7b6"
+        },
+        {
+          "path": "canvas-fonts/PixelifySans-Medium.ttf",
+          "sha": "95cd372534b533c9cb7ce35b782f0623ecb4de00"
+        },
+        {
+          "path": "canvas-fonts/PixelifySans-OFL.txt",
+          "sha": "b02d1b6767c0cd44a3a3afeddef03778f10e6ad2"
+        },
+        {
+          "path": "canvas-fonts/PoiretOne-OFL.txt",
+          "sha": "607bdad3fd41bf7915b74271cd4c67f3319c00e6"
+        },
+        {
+          "path": "canvas-fonts/PoiretOne-Regular.ttf",
+          "sha": "b339511b02ea2c25722c8c975e7018e8efcaa217"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-Bold.ttf",
+          "sha": "a6e3cf157ad71c0620620c9da48a8c8d0ca26cdf"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-OFL.txt",
+          "sha": "16cf394bb1bd5100686703ebc4a3772a568e0e6a"
+        },
+        {
+          "path": "canvas-fonts/RedHatMono-Regular.ttf",
+          "sha": "3bf6a698bbb3ab2caefdd2cd0456fc08b35ecf1d"
+        },
+        {
+          "path": "canvas-fonts/Silkscreen-OFL.txt",
+          "sha": "a1fe7d5fbe4182d1071a23f8a8c46b9766eec81c"
+        },
+        {
+          "path": "canvas-fonts/Silkscreen-Regular.ttf",
+          "sha": "8abaa7c500d4555073f9e303ec2e5e343d3b8f3f"
+        },
+        {
+          "path": "canvas-fonts/SmoochSans-Medium.ttf",
+          "sha": "0af9ead07bc2b95a691a63c72d328595b93183a0"
+        },
+        {
+          "path": "canvas-fonts/SmoochSans-OFL.txt",
+          "sha": "4c2f033ac0e041f61d88d255c4bb02ee28b6f3cb"
+        },
+        {
+          "path": "canvas-fonts/Tektur-Medium.ttf",
+          "sha": "34fc797195169923bad8e76181d60ae02019fef0"
+        },
+        {
+          "path": "canvas-fonts/Tektur-OFL.txt",
+          "sha": "2cad55f1b2d239571560773c92801166cb2be635"
+        },
+        {
+          "path": "canvas-fonts/Tektur-Regular.ttf",
+          "sha": "f280fba407441453779b16f7021a286219421486"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Bold.ttf",
+          "sha": "5c97989292020632435b96e6622c74b1f1c6e5cd"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-BoldItalic.ttf",
+          "sha": "54418b8a6303d1b0cd6b6a206ca3014eba71bc3a"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Italic.ttf",
+          "sha": "40529b68f7784c96872fa7ed9bfb46d72bf699e2"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-OFL.txt",
+          "sha": "070f3416c4767c3396120b5942627f6d3d5bab10"
+        },
+        {
+          "path": "canvas-fonts/WorkSans-Regular.ttf",
+          "sha": "d24586cc0336949d49a1c2bf3fb3b306c47b431e"
+        },
+        {
+          "path": "canvas-fonts/YoungSerif-OFL.txt",
+          "sha": "f09443cbe4dfca41153edf6f9dd8fd63138a24b3"
+        },
+        {
+          "path": "canvas-fonts/YoungSerif-Regular.ttf",
+          "sha": "f454fbedd4c8b00833d17fffa1f89acb5149b02c"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/canvas-design"
+    },
+    {
+      "id": "anthropics/skills@discernment-nudge",
+      "trust": "trusted",
+      "name": "discernment-nudge",
+      "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/discernment-nudge",
+      "contentHash": "7dd05c69",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "49ebbcad692ffdf70e518087468609a5c4ab9e22"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/discernment-nudge"
+    },
+    {
+      "id": "anthropics/skills@doc-coauthoring",
+      "trust": "trusted",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/doc-coauthoring",
+      "contentHash": "9a517602",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "a5a69839ef4a161131d80b6daef10037a9686f4a"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/doc-coauthoring"
+    },
+    {
+      "id": "anthropics/skills@docx",
+      "trust": "trusted",
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/docx",
+      "contentHash": "cee3f717",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "fb954a460a1ea2294e9595e87fecce8df043eeba"
+        },
+        {
+          "path": "scripts/__init__.py",
+          "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+        },
+        {
+          "path": "scripts/accept_changes.py",
+          "sha": "8e363161915d3720409bb8b6ef9bc4ade33b64e4"
+        },
+        {
+          "path": "scripts/comment.py",
+          "sha": "46ed5f52eb639934a8ead383976eecc2a6867fa7"
+        },
+        {
+          "path": "scripts/merge_runs.py",
+          "sha": "4c7c1bf261b1ec3febe4112e30f46c2aa9f4a141"
+        },
+        {
+          "path": "scripts/office/helpers/__init__.py",
+          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_chart.py",
+          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_slide.py",
+          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_theme.py",
+          "sha": "84466201cf22ca237cd640c80a08e9e2cabcce90"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "sha": "6454ef9a94d52512e4905df61280a3fd1dafc0a4"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "sha": "afa4f463e3140a3f626c73f7966d689270d89b2c"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "sha": "64e66b8abd496d2e450c08110e40607e90b3fe13"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "sha": "687eea8297caa298581aa06c40ca40ef7b8a58bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "sha": "6ac81b06b7a3ef916d677953084ae225504a77bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "sha": "1dbf05140d07fa014f18a5630acc0613d8058e52"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "sha": "f1af17db4e83b1c40152577eca4a575ab63a1ca7"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "sha": "0a185ab6ed0c2dd9b383a403c56c909bbab8b9a1"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "sha": "14ef488865f3ae6150776220ebbcf4788f89066a"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "sha": "c20f3bf14720d34247e8e1302dc3c40f7b832099"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "sha": "ac60252262534e7b87523fd04d252f085b38bec0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "sha": "424b8ba8d1f9ebb22ba72cdd174c8a2ade0ecf89"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "sha": "2bddce29214882eb9fdf2be8a50ed5bdd0c69dfc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "sha": "8a8c18ba2d5caa7e60a365e77ae0d1b872141bb0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "sha": "5c42706a0d53c5e8b96818d9c29a292d1504f720"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "sha": "853c341c87feb51e10d757aea28b4185ae4c2731"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "sha": "da835ee82d5cc31be9fa9792512930f7ae3fb5ce"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "sha": "87ad2658fa51cb4c172f82d0fdf33a492a750eca"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "sha": "9e86f1b2be0d431cd3c250ddeaf4efabdbcb088b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "sha": "d0be42e757f3cce533c1c80770239f0097d3de6b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "sha": "8821dd183caf9c8c3b809e0e2d9e0df56c4e9ed9"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "sha": "ca2575c753be78cdaa96de56b3ff8770173c324d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "sha": "dd079e603f5770176212776a1d565b108875cf64"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "sha": "3dd6cf625a740398c2a4dc8abbe18e25e0ac5e9f"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "sha": "f1041e34ef365926f5670b896f5bb23e553ac36d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "sha": "9c5b7a633411c2313ce839f748e4623bb0a70efe"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "sha": "0f13678d80a762375223f060e23b56c7b2eac89e"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "sha": "a6de9d2733d3f0eea12ae87b24122495df1f0928"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "sha": "10e978b661fc291cbeea9ab0c248601cf216f96d"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "sha": "4248bf7a39c793c9f319bae7d09f92983efe5368"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "sha": "56497467120b52b742756379959d4b2536be6df7"
+        },
+        {
+          "path": "scripts/office/schemas/mce/mc.xsd",
+          "sha": "ef725457cf39116672e285d021be69b7ad022574"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "sha": "f65f777730d82162f4248f03c703b1b85fda5fe2"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "sha": "6b00755a9a8733f0fb171a47b25d0d7b4c70dee8"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "sha": "f321d333a5e6ef98cbdfeeeaa334923e4cfc8a6c"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "sha": "364c6a9b8df6e252bb5ae39e2ca031fcbfc4e8a5"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "sha": "fed9d15b7f504e14ac82793d79db2d7ad83d56ed"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "sha": "680cf15400cd57ce2bf17a58ecd29caa0d8a8422"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "sha": "89ada90837b2db3f3d453212ae426520acedbbea"
+        },
+        {
+          "path": "scripts/office/soffice.py",
+          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+        },
+        {
+          "path": "scripts/office/validate.py",
+          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+        },
+        {
+          "path": "scripts/office/validators/__init__.py",
+          "sha": "db092ece7e21de98f87bd81471578259a1bc642f"
+        },
+        {
+          "path": "scripts/office/validators/base.py",
+          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+        },
+        {
+          "path": "scripts/office/validators/docx.py",
+          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+        },
+        {
+          "path": "scripts/office/validators/pptx.py",
+          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+        },
+        {
+          "path": "scripts/office/validators/redlining.py",
+          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+        },
+        {
+          "path": "scripts/templates/comments.xml",
+          "sha": "cd01a7d7155f9a78cf3d11470e2ce2b5ccdac640"
+        },
+        {
+          "path": "scripts/templates/commentsExtended.xml",
+          "sha": "411003cc485356c560e29687ca359d64cd89d4b4"
+        },
+        {
+          "path": "scripts/templates/commentsExtensible.xml",
+          "sha": "f5572d710826dd7a1f455af7487e2157ef01ada0"
+        },
+        {
+          "path": "scripts/templates/commentsIds.xml",
+          "sha": "32f1629f2a8bb9aafebb0699349d0d799edce9f3"
+        },
+        {
+          "path": "scripts/templates/people.xml",
+          "sha": "3803d2de0faa635687a48947b52ab98b9655f631"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/docx"
+    },
+    {
+      "id": "anthropics/skills@frontend-design",
+      "trust": "trusted",
+      "name": "frontend-design",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/frontend-design",
+      "contentHash": "d2c46195",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "f433b1a53f5b830a205fd2df78e2b34974656c7b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "decdff43d05908b4c1fc2cfd2d80fc5743440934"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/frontend-design"
+    },
+    {
+      "id": "anthropics/skills@internal-comms",
+      "trust": "trusted",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/internal-comms",
+      "contentHash": "43fa6060",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "56ea935b74f371bfeb4c7d3c19d5139df866e73b"
+        },
+        {
+          "path": "examples/3p-updates.md",
+          "sha": "5329bfbf3b47035946a3995dd63025799b582f8c"
+        },
+        {
+          "path": "examples/company-newsletter.md",
+          "sha": "4997a072b62ed7f65a9fd113903db3d9eba34b98"
+        },
+        {
+          "path": "examples/faq-answers.md",
+          "sha": "395262a860636434593cd3c3da258000231ea4f6"
+        },
+        {
+          "path": "examples/general-comms.md",
+          "sha": "0ea977018ca8167d39bfc9adb253f80336819578"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/internal-comms"
+    },
+    {
+      "id": "anthropics/skills@mcp-builder",
+      "trust": "trusted",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/mcp-builder",
+      "contentHash": "be03797b",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "8a1a77a47d141967b246adb4da4f91037578ff7d"
+        },
+        {
+          "path": "reference/evaluation.md",
+          "sha": "87e9bb78840fac113d93b4a27ab5b229a18cf226"
+        },
+        {
+          "path": "reference/mcp_best_practices.md",
+          "sha": "b9d343cc3ae89b1fc139dae96bdb2b7e29ba3648"
+        },
+        {
+          "path": "reference/node_mcp_server.md",
+          "sha": "f6e5df982adc0848bf261c47ab8d65a1e0469391"
+        },
+        {
+          "path": "reference/python_mcp_server.md",
+          "sha": "cf7ec996d2e6e3655bc75ff6902738d03a37334e"
+        },
+        {
+          "path": "scripts/connections.py",
+          "sha": "ffcd0da3fbe1539320d022017ae83b61a9587a5c"
+        },
+        {
+          "path": "scripts/evaluation.py",
+          "sha": "41778569c45a458e0eea839b8917692ad65be2d5"
+        },
+        {
+          "path": "scripts/example_evaluation.xml",
+          "sha": "41e4459b5af861e61f1ca87d2f8f5ab5543dc054"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "e73e5d1e356edafadb9dc9243e6f300f2c5529b3"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/mcp-builder"
+    },
+    {
+      "id": "anthropics/skills@pdf",
+      "trust": "trusted",
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/pdf",
+      "contentHash": "83f91e7f",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d3e046a5ae107a6cb23cfb16c219837094ab35d3"
+        },
+        {
+          "path": "forms.md",
+          "sha": "6e7e1e0d9e6ae17215db3e130aea3c3c546487e6"
+        },
+        {
+          "path": "reference.md",
+          "sha": "41400bf4fc67f15fb062d43695ec92f078226023"
+        },
+        {
+          "path": "scripts/check_bounding_boxes.py",
+          "sha": "2cc5e348f359b7aa7179e6a26772dacfdbbeba53"
+        },
+        {
+          "path": "scripts/check_fillable_fields.py",
+          "sha": "36dfb9513e2f54e051820b58c3cdd1f09bc6ff37"
+        },
+        {
+          "path": "scripts/convert_pdf_to_images.py",
+          "sha": "7939cef56c1220dd9dd0d04ec9594b2fe089ee74"
+        },
+        {
+          "path": "scripts/create_validation_image.py",
+          "sha": "10eadd8124b1f94f9b1a78708c2d947a3f6773e7"
+        },
+        {
+          "path": "scripts/extract_form_field_info.py",
+          "sha": "64cd4703a4af80bf6abe16f4c3065d8abd55d173"
+        },
+        {
+          "path": "scripts/extract_form_structure.py",
+          "sha": "f219e7d5b5e30616b2259abb924253afd0240aee"
+        },
+        {
+          "path": "scripts/fill_fillable_fields.py",
+          "sha": "51c2600f3895723cac15ec3ffcd8a482e42f95d7"
+        },
+        {
+          "path": "scripts/fill_pdf_form_with_annotations.py",
+          "sha": "b430069fd016cff11560d0f2b95c63074736e5e4"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/pdf"
+    },
+    {
+      "id": "anthropics/skills@pptx",
+      "trust": "trusted",
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/pptx",
+      "contentHash": "7f69526d",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "41cd2306977f269bb1d8169a9643b35053aa66bd"
+        },
+        {
+          "path": "scripts/__init__.py",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "scripts/add_slide.py",
+          "sha": "f013ea94d1785c8cf767fb69284ffb5b8dd9d390"
+        },
+        {
+          "path": "scripts/clean.py",
+          "sha": "551dd23192f6eae8e79d4b59b08a3cd9d10feadd"
+        },
+        {
+          "path": "scripts/office/helpers/__init__.py",
+          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_chart.py",
+          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_slide.py",
+          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_theme.py",
+          "sha": "84466201cf22ca237cd640c80a08e9e2cabcce90"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "sha": "6454ef9a94d52512e4905df61280a3fd1dafc0a4"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "sha": "afa4f463e3140a3f626c73f7966d689270d89b2c"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "sha": "64e66b8abd496d2e450c08110e40607e90b3fe13"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "sha": "687eea8297caa298581aa06c40ca40ef7b8a58bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "sha": "6ac81b06b7a3ef916d677953084ae225504a77bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "sha": "1dbf05140d07fa014f18a5630acc0613d8058e52"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "sha": "f1af17db4e83b1c40152577eca4a575ab63a1ca7"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "sha": "0a185ab6ed0c2dd9b383a403c56c909bbab8b9a1"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "sha": "14ef488865f3ae6150776220ebbcf4788f89066a"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "sha": "c20f3bf14720d34247e8e1302dc3c40f7b832099"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "sha": "ac60252262534e7b87523fd04d252f085b38bec0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "sha": "424b8ba8d1f9ebb22ba72cdd174c8a2ade0ecf89"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "sha": "2bddce29214882eb9fdf2be8a50ed5bdd0c69dfc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "sha": "8a8c18ba2d5caa7e60a365e77ae0d1b872141bb0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "sha": "5c42706a0d53c5e8b96818d9c29a292d1504f720"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "sha": "853c341c87feb51e10d757aea28b4185ae4c2731"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "sha": "da835ee82d5cc31be9fa9792512930f7ae3fb5ce"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "sha": "87ad2658fa51cb4c172f82d0fdf33a492a750eca"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "sha": "9e86f1b2be0d431cd3c250ddeaf4efabdbcb088b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "sha": "d0be42e757f3cce533c1c80770239f0097d3de6b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "sha": "8821dd183caf9c8c3b809e0e2d9e0df56c4e9ed9"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "sha": "ca2575c753be78cdaa96de56b3ff8770173c324d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "sha": "dd079e603f5770176212776a1d565b108875cf64"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "sha": "3dd6cf625a740398c2a4dc8abbe18e25e0ac5e9f"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "sha": "f1041e34ef365926f5670b896f5bb23e553ac36d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "sha": "9c5b7a633411c2313ce839f748e4623bb0a70efe"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "sha": "0f13678d80a762375223f060e23b56c7b2eac89e"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "sha": "a6de9d2733d3f0eea12ae87b24122495df1f0928"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "sha": "10e978b661fc291cbeea9ab0c248601cf216f96d"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "sha": "4248bf7a39c793c9f319bae7d09f92983efe5368"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "sha": "56497467120b52b742756379959d4b2536be6df7"
+        },
+        {
+          "path": "scripts/office/schemas/mce/mc.xsd",
+          "sha": "ef725457cf39116672e285d021be69b7ad022574"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "sha": "f65f777730d82162f4248f03c703b1b85fda5fe2"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "sha": "6b00755a9a8733f0fb171a47b25d0d7b4c70dee8"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "sha": "f321d333a5e6ef98cbdfeeeaa334923e4cfc8a6c"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "sha": "364c6a9b8df6e252bb5ae39e2ca031fcbfc4e8a5"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "sha": "fed9d15b7f504e14ac82793d79db2d7ad83d56ed"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "sha": "680cf15400cd57ce2bf17a58ecd29caa0d8a8422"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "sha": "89ada90837b2db3f3d453212ae426520acedbbea"
+        },
+        {
+          "path": "scripts/office/soffice.py",
+          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+        },
+        {
+          "path": "scripts/office/validate.py",
+          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+        },
+        {
+          "path": "scripts/office/validators/__init__.py",
+          "sha": "db092ece7e21de98f87bd81471578259a1bc642f"
+        },
+        {
+          "path": "scripts/office/validators/base.py",
+          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+        },
+        {
+          "path": "scripts/office/validators/docx.py",
+          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+        },
+        {
+          "path": "scripts/office/validators/pptx.py",
+          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+        },
+        {
+          "path": "scripts/office/validators/redlining.py",
+          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+        },
+        {
+          "path": "scripts/thumbnail.py",
+          "sha": "d49cac0e1a138fd0cbf46dece32b0da153cdc4f7"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/pptx"
+    },
+    {
+      "id": "anthropics/skills@skill-creator",
+      "trust": "trusted",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/skill-creator",
+      "contentHash": "3c886477",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "65b3a402dbd09b8e83f9d637c6b553875189085c"
+        },
+        {
+          "path": "agents/analyzer.md",
+          "sha": "14e41d6068635f4dd3fb878fd1626312395dda63"
+        },
+        {
+          "path": "agents/comparator.md",
+          "sha": "80e00eb45db3ee53a132fc2ba97fd59a7339e563"
+        },
+        {
+          "path": "agents/grader.md",
+          "sha": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4"
+        },
+        {
+          "path": "assets/eval_review.html",
+          "sha": "938ff32aed9bffabf723bd5492d720f4736c8e4d"
+        },
+        {
+          "path": "eval-viewer/generate_review.py",
+          "sha": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08"
+        },
+        {
+          "path": "eval-viewer/viewer.html",
+          "sha": "6d8e96348a02e66c3363d2ff3b3ae58ac11e6382"
+        },
+        {
+          "path": "references/schemas.md",
+          "sha": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe"
+        },
+        {
+          "path": "scripts/__init__.py",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "scripts/aggregate_benchmark.py",
+          "sha": "3e66e8c105be9bab9f0e9c61f0d1482619401580"
+        },
+        {
+          "path": "scripts/generate_report.py",
+          "sha": "959e30a0014ec165c41a2bb7420b7dfe1416bbac"
+        },
+        {
+          "path": "scripts/improve_description.py",
+          "sha": "06bcec76122446986e3610c20a39c466de36f495"
+        },
+        {
+          "path": "scripts/package_skill.py",
+          "sha": "f48eac444656ddc41204aac1760a217951ce609e"
+        },
+        {
+          "path": "scripts/quick_validate.py",
+          "sha": "ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c"
+        },
+        {
+          "path": "scripts/run_eval.py",
+          "sha": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87"
+        },
+        {
+          "path": "scripts/run_loop.py",
+          "sha": "30a263d674ef19de11c756d6f7537f91a421909e"
+        },
+        {
+          "path": "scripts/utils.py",
+          "sha": "51b6a07dd57174197a937034b7eecebd5768ff8a"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/skill-creator"
+    },
+    {
+      "id": "anthropics/skills@slack-gif-creator",
+      "trust": "trusted",
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/slack-gif-creator",
+      "contentHash": "51df4a20",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "16660d8ceb77af47986bba1c9176c2ff3f287a91"
+        },
+        {
+          "path": "core/easing.py",
+          "sha": "772fa830235dac37ba995ee66778111f59c2ee31"
+        },
+        {
+          "path": "core/frame_composer.py",
+          "sha": "1afe434811bd4a8a1bdb4df7961147f2c9afd130"
+        },
+        {
+          "path": "core/gif_builder.py",
+          "sha": "5759f144fe3cef50f3dfd3b8911e612e80099cea"
+        },
+        {
+          "path": "core/validators.py",
+          "sha": "a6f5bdf28ddd0a9613f2e076e37d940e03ad997c"
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "8bc4493e9163cb513d4be38ab9fe5c1ff763e0d7"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/slack-gif-creator"
+    },
+    {
+      "id": "anthropics/skills@theme-factory",
+      "trust": "trusted",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/theme-factory",
+      "contentHash": "7895c39a",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "90dfceaf2ecdc191a4dcfb0069768a9560638998"
+        },
+        {
+          "path": "theme-showcase.pdf",
+          "sha": "24495d145c95917aba3a3445f7105444b6f7cfcc"
+        },
+        {
+          "path": "themes/arctic-frost.md",
+          "sha": "e9f1eb0574e377ec8be59a71a1c206958f8b253e"
+        },
+        {
+          "path": "themes/botanical-garden.md",
+          "sha": "0c95bf7349c26996c7d43d6c0276a285287a9ffe"
+        },
+        {
+          "path": "themes/desert-rose.md",
+          "sha": "ea7c74eb80794fe15f870e12c5588b2a988f77a1"
+        },
+        {
+          "path": "themes/forest-canopy.md",
+          "sha": "90c2b26518d8d7ff1d58981def5e93e2eca01780"
+        },
+        {
+          "path": "themes/golden-hour.md",
+          "sha": "ed8fc256f4e9b2dfffd46e82fdc451c32f87dbb1"
+        },
+        {
+          "path": "themes/midnight-galaxy.md",
+          "sha": "97e1c5f380eba51cd8956ec96114629c6540b76e"
+        },
+        {
+          "path": "themes/modern-minimalist.md",
+          "sha": "6bd26a29beb09e663a1c049f5f8ec86189ae2db2"
+        },
+        {
+          "path": "themes/ocean-depths.md",
+          "sha": "b675126f53c49af7b6c3e00793a6d4773fb77af6"
+        },
+        {
+          "path": "themes/sunset-boulevard.md",
+          "sha": "df799a0cc0e61c9226e52725afb45a1c6388f242"
+        },
+        {
+          "path": "themes/tech-innovation.md",
+          "sha": "e029a435fb02647e6fd0b440618ae21f326d35e1"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/theme-factory"
+    },
+    {
+      "id": "anthropics/skills@web-artifacts-builder",
+      "trust": "trusted",
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/web-artifacts-builder",
+      "contentHash": "80637112",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "8b39b19f259b4216ecb07574741dd8eaa9863a07"
+        },
+        {
+          "path": "scripts/bundle-artifact.sh",
+          "sha": "c13d229e0523623a23f979771ccf99ac149c8bfb"
+        },
+        {
+          "path": "scripts/init-artifact.sh",
+          "sha": "7d1022d88bec529f00ef385e10ed6084601d710b"
+        },
+        {
+          "path": "scripts/shadcn-components.tar.gz",
+          "sha": "cdbe7cdd1e724a7c9840387e17a6a7f26d3477e1"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/web-artifacts-builder"
+    },
+    {
+      "id": "anthropics/skills@webapp-testing",
+      "trust": "trusted",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/webapp-testing",
+      "contentHash": "5b0c27f3",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "4726215301db64a0cc4d41fc3219c61f37a30f4a"
+        },
+        {
+          "path": "examples/console_logging.py",
+          "sha": "9329b5e232ed53d944bfe95e750070117d31b9ab"
+        },
+        {
+          "path": "examples/element_discovery.py",
+          "sha": "917ba72f52421a1b324f93ae8e38af72010a87b9"
+        },
+        {
+          "path": "examples/static_html_automation.py",
+          "sha": "90bbedcc08cdb345c74fb938ebad02c0baf56603"
+        },
+        {
+          "path": "scripts/with_server.py",
+          "sha": "431f2eba16b268b7f3e2ae4daae9db41c0289b6d"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/webapp-testing"
+    },
+    {
+      "id": "anthropics/skills@xlsx",
+      "trust": "trusted",
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "repo": "anthropics/skills",
+      "ref": "HEAD",
+      "path": "skills/xlsx",
+      "contentHash": "2129552d",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "9da54804cc8c938586f89363c8da3b3a6e2a563d"
+        },
+        {
+          "path": "scripts/office/helpers/__init__.py",
+          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_chart.py",
+          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_slide.py",
+          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+        },
+        {
+          "path": "scripts/office/helpers/pptx_theme.py",
+          "sha": "84466201cf22ca237cd640c80a08e9e2cabcce90"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "sha": "6454ef9a94d52512e4905df61280a3fd1dafc0a4"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "sha": "afa4f463e3140a3f626c73f7966d689270d89b2c"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "sha": "64e66b8abd496d2e450c08110e40607e90b3fe13"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "sha": "687eea8297caa298581aa06c40ca40ef7b8a58bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "sha": "6ac81b06b7a3ef916d677953084ae225504a77bc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "sha": "1dbf05140d07fa014f18a5630acc0613d8058e52"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "sha": "f1af17db4e83b1c40152577eca4a575ab63a1ca7"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "sha": "0a185ab6ed0c2dd9b383a403c56c909bbab8b9a1"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "sha": "14ef488865f3ae6150776220ebbcf4788f89066a"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "sha": "c20f3bf14720d34247e8e1302dc3c40f7b832099"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "sha": "ac60252262534e7b87523fd04d252f085b38bec0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "sha": "424b8ba8d1f9ebb22ba72cdd174c8a2ade0ecf89"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "sha": "2bddce29214882eb9fdf2be8a50ed5bdd0c69dfc"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "sha": "8a8c18ba2d5caa7e60a365e77ae0d1b872141bb0"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "sha": "5c42706a0d53c5e8b96818d9c29a292d1504f720"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "sha": "853c341c87feb51e10d757aea28b4185ae4c2731"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "sha": "da835ee82d5cc31be9fa9792512930f7ae3fb5ce"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "sha": "87ad2658fa51cb4c172f82d0fdf33a492a750eca"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "sha": "9e86f1b2be0d431cd3c250ddeaf4efabdbcb088b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "sha": "d0be42e757f3cce533c1c80770239f0097d3de6b"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "sha": "8821dd183caf9c8c3b809e0e2d9e0df56c4e9ed9"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "sha": "ca2575c753be78cdaa96de56b3ff8770173c324d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "sha": "dd079e603f5770176212776a1d565b108875cf64"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "sha": "3dd6cf625a740398c2a4dc8abbe18e25e0ac5e9f"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "sha": "f1041e34ef365926f5670b896f5bb23e553ac36d"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "sha": "9c5b7a633411c2313ce839f748e4623bb0a70efe"
+        },
+        {
+          "path": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "sha": "0f13678d80a762375223f060e23b56c7b2eac89e"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "sha": "a6de9d2733d3f0eea12ae87b24122495df1f0928"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "sha": "10e978b661fc291cbeea9ab0c248601cf216f96d"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "sha": "4248bf7a39c793c9f319bae7d09f92983efe5368"
+        },
+        {
+          "path": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "sha": "56497467120b52b742756379959d4b2536be6df7"
+        },
+        {
+          "path": "scripts/office/schemas/mce/mc.xsd",
+          "sha": "ef725457cf39116672e285d021be69b7ad022574"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "sha": "f65f777730d82162f4248f03c703b1b85fda5fe2"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "sha": "6b00755a9a8733f0fb171a47b25d0d7b4c70dee8"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "sha": "f321d333a5e6ef98cbdfeeeaa334923e4cfc8a6c"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "sha": "364c6a9b8df6e252bb5ae39e2ca031fcbfc4e8a5"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "sha": "fed9d15b7f504e14ac82793d79db2d7ad83d56ed"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "sha": "680cf15400cd57ce2bf17a58ecd29caa0d8a8422"
+        },
+        {
+          "path": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "sha": "89ada90837b2db3f3d453212ae426520acedbbea"
+        },
+        {
+          "path": "scripts/office/soffice.py",
+          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+        },
+        {
+          "path": "scripts/office/validate.py",
+          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+        },
+        {
+          "path": "scripts/office/validators/__init__.py",
+          "sha": "db092ece7e21de98f87bd81471578259a1bc642f"
+        },
+        {
+          "path": "scripts/office/validators/base.py",
+          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+        },
+        {
+          "path": "scripts/office/validators/docx.py",
+          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+        },
+        {
+          "path": "scripts/office/validators/pptx.py",
+          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+        },
+        {
+          "path": "scripts/office/validators/redlining.py",
+          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+        },
+        {
+          "path": "scripts/recalc.py",
+          "sha": "6232be2deea56cc97c1d8996e4d68adf2457059c"
+        }
+      ],
+      "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/xlsx"
+    },
+    {
+      "id": "vercel-labs/agent-skills@deploy-to-vercel",
+      "trust": "trusted",
+      "name": "deploy-to-vercel",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "HEAD",
+      "path": "skills/deploy-to-vercel",
+      "contentHash": "a90446ae",
+      "files": [
+        {
+          "path": "Archive.zip",
+          "sha": "2945baff93ab08448289fb377b453806281323f9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a0251ce89a7636230be9c5b989a81e1a54a52a96"
+        },
+        {
+          "path": "resources/deploy-codex.sh",
+          "sha": "af07d0fd77bc52fae1f1d97a2565f9b8f7b74283"
+        },
+        {
+          "path": "resources/deploy.sh",
+          "sha": "a458da6316678e6163a3a007a2ea9df20133982b"
+        }
+      ],
+      "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/deploy-to-vercel",
+      "version": "3.0.0"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-cli-with-tokens",
+      "trust": "trusted",
+      "name": "vercel-cli-with-tokens",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "HEAD",
+      "path": "skills/vercel-cli-with-tokens",
+      "contentHash": "0762cf41",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "814423d0c40f56853e0f4f2f64d03a02266dadf4"
+        }
+      ],
+      "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/vercel-cli-with-tokens",
+      "version": "1.0.0"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-optimize",
+      "trust": "trusted",
+      "name": "vercel-optimize",
+      "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "HEAD",
+      "path": "skills/vercel-optimize",
+      "contentHash": "ff38ffb1",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha": "224505b4ac6d0e2bc0c8a38d2a7ea39dbe5e9852"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha": "361b5bc5d526f2b0f553fe0ffdbd3075a62ce9fb"
+        },
+        {
+          "path": "README.md",
+          "sha": "75d7327b416aaaef4b17ec3358b3b8376d40c7a0"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "c8a6d6d7075b2cc3f7921da89de86e6926f78985"
+        },
+        {
+          "path": "lib/auth-route.mjs",
+          "sha": "96fd45767c26524cfcdb320257db7ec40cf4fb3b"
+        },
+        {
+          "path": "lib/budget-summary.mjs",
+          "sha": "fcb1aaadaf157f845f419e1c19e47ed69a055564"
+        },
+        {
+          "path": "lib/citations.mjs",
+          "sha": "4d6f362a69141ac0d8faa2a0e1f04d7887962af6"
+        },
+        {
+          "path": "lib/cost-coverage.mjs",
+          "sha": "09a8b1986db5f963bf8cca2b43ae96cc9811c7b5"
+        },
+        {
+          "path": "lib/dedup-recs.mjs",
+          "sha": "c5e30c2cb6787ddcccadbf17f99190aa385d0894"
+        },
+        {
+          "path": "lib/deep-dive.mjs",
+          "sha": "3d1c02ea0b2221cbf119b0f474ed462432d235d5"
+        },
+        {
+          "path": "lib/display-labels.mjs",
+          "sha": "e8f90f86b0f69c44d173c4c6f2bc4e624da3bc69"
+        },
+        {
+          "path": "lib/extract-claims.mjs",
+          "sha": "6ddecfd7eead23f6ba4f4c71649d81dec30bc630"
+        },
+        {
+          "path": "lib/framework-support.mjs",
+          "sha": "79fe0a123f07ef8267796e5ca982cd2d906f7dab"
+        },
+        {
+          "path": "lib/gates/build-minutes-fanout.mjs",
+          "sha": "060d3c4d07e5d6edc2d54d508c24e5dc78b592a5"
+        },
+        {
+          "path": "lib/gates/cold-start.mjs",
+          "sha": "f048151a9d9c35746935b2db390a03a2ce0bee5a"
+        },
+        {
+          "path": "lib/gates/contract.mjs",
+          "sha": "6044dc8bae0d036f24cb0c5f49fe581db495b10a"
+        },
+        {
+          "path": "lib/gates/cwv-poor.mjs",
+          "sha": "8eadd8dacd700c5acef49b2315ada6e3617e7a60"
+        },
+        {
+          "path": "lib/gates/external-api-slow.mjs",
+          "sha": "b47ba5bf1f5e3367db27fa664f79d937b9dd432a"
+        },
+        {
+          "path": "lib/gates/hard-gates.mjs",
+          "sha": "6d08dedbdcc6f3920a9ae19d69318674addfe724"
+        },
+        {
+          "path": "lib/gates/index.mjs",
+          "sha": "345c1e777b18d003d37d83aaafdc70ce2197f80a"
+        },
+        {
+          "path": "lib/gates/isr-overrevalidation.mjs",
+          "sha": "86769a9c0b6af1b863073a089298403f591db2cb"
+        },
+        {
+          "path": "lib/gates/middleware-heavy.mjs",
+          "sha": "416605cd2b55cfbb47de42fa054d018c0a7ada2c"
+        },
+        {
+          "path": "lib/gates/observability-events-attribution.mjs",
+          "sha": "85a1f94a2f51b4cf924a0e2b5d67037bb8a85f12"
+        },
+        {
+          "path": "lib/gates/platform-bot-protection.mjs",
+          "sha": "035f06353e9d132c6b6458c4cc789166c1f430de"
+        },
+        {
+          "path": "lib/gates/platform-fluid-compute.mjs",
+          "sha": "6985698bf79a5f77186625693763317130cf5ca2"
+        },
+        {
+          "path": "lib/gates/region-misconfig.mjs",
+          "sha": "354b99c683d21ec907110fcf8ae0295cd5ffb657"
+        },
+        {
+          "path": "lib/gates/route-errors.mjs",
+          "sha": "98b819aa79314b527c2d4f8de8b12a57d492ba7b"
+        },
+        {
+          "path": "lib/gates/scanner-driven.mjs",
+          "sha": "a698f18e103cb86e05e825ff5db5850c74f3b026"
+        },
+        {
+          "path": "lib/gates/select-candidates.mjs",
+          "sha": "b52a9eb17038e068aa3082166d1a0436fddaf775"
+        },
+        {
+          "path": "lib/gates/slow-route.mjs",
+          "sha": "262e5b5ae9f893d49750fd7e75b781c7172c685a"
+        },
+        {
+          "path": "lib/gates/types.d.ts",
+          "sha": "ac454dc5bf334263c318764c5c0432c6acdf3047"
+        },
+        {
+          "path": "lib/gates/uncached-route.mjs",
+          "sha": "3898f59890a52955c5eefcf7c82f9b70ad6d1ad2"
+        },
+        {
+          "path": "lib/gates/usage-spike-triage.mjs",
+          "sha": "feff90c59aa41d8b4830bd5d19e9f43563c25455"
+        },
+        {
+          "path": "lib/grade-recommendation.mjs",
+          "sha": "ca577e9354d0bc88a5036a77c7da3f4dc1d5bf63"
+        },
+        {
+          "path": "lib/impact-label.mjs",
+          "sha": "b9bb61e62b2dfee152eb9b7d189ebc225cf02877"
+        },
+        {
+          "path": "lib/impact-magnitude.mjs",
+          "sha": "e81c0ead2d09ad21f79dce9462ec1da603965a04"
+        },
+        {
+          "path": "lib/investigation-brief.mjs",
+          "sha": "d5267236a3ca2785d16e5bb355e6a8a9ce4293b2"
+        },
+        {
+          "path": "lib/observation-safety.mjs",
+          "sha": "1a628cd0dad19b74de37e3eadc1636ac744d428c"
+        },
+        {
+          "path": "lib/project-facts.mjs",
+          "sha": "279635a87829060e6f6e537056d6544eadce2c0a"
+        },
+        {
+          "path": "lib/queries.mjs",
+          "sha": "77503b013b9613d529f04878a11bdc1860fbda52"
+        },
+        {
+          "path": "lib/reconcile-candidates.mjs",
+          "sha": "472b089bc33b2f1b6d53042eb3a8e59d4c12f90d"
+        },
+        {
+          "path": "lib/render-report.mjs",
+          "sha": "864fd0bfbb8c80fc64725bc39023734c28b2b907"
+        },
+        {
+          "path": "lib/repo-root.mjs",
+          "sha": "696f9cb3654f30d77b246c21f167ce965556065f"
+        },
+        {
+          "path": "lib/route-normalize.mjs",
+          "sha": "2116252d8b1aaaa82f7dd73ff60c8744deba89b3"
+        },
+        {
+          "path": "lib/sanitizers/bot-protection-certainty.mjs",
+          "sha": "5de9a711b0c3468e5c89f10c8c219e15b7c7287f"
+        },
+        {
+          "path": "lib/sanitizers/cache-tag-invalidation-certainty.mjs",
+          "sha": "b635a57c51cc36752b56b7d4707436b27a2c1329"
+        },
+        {
+          "path": "lib/sanitizers/count-correct.mjs",
+          "sha": "b28e17bf649e3bb411fe6ee14aaca71fec64d1d1"
+        },
+        {
+          "path": "lib/sanitizers/function-duration-invocations.mjs",
+          "sha": "69bd0b1d414e7df2d5d213f3a8763e144dd74d61"
+        },
+        {
+          "path": "lib/sanitizers/index.mjs",
+          "sha": "93f0a1fa0d3dc34bb99192930ffb303c871345d3"
+        },
+        {
+          "path": "lib/sanitizers/middleware-conflict.mjs",
+          "sha": "83abb4a8f6c863c8ba904295b887afa978263074"
+        },
+        {
+          "path": "lib/sanitizers/missing-citation.mjs",
+          "sha": "2442d846002ac9582256fd2c7a19f8b70bf91ca3"
+        },
+        {
+          "path": "lib/sanitizers/pre-release.mjs",
+          "sha": "c401da6c8f9ccc856d16791b6234a263a398195d"
+        },
+        {
+          "path": "lib/sanitizers/rate-limit.mjs",
+          "sha": "9809a649eecdfb23732fd7cbae851df1e16129a8"
+        },
+        {
+          "path": "lib/sanitizers/rendering-mode-mislabel.mjs",
+          "sha": "27e5c372f72ae3a311e6c8fd65031406b9e0ac51"
+        },
+        {
+          "path": "lib/sanitizers/undeclared-dep.mjs",
+          "sha": "5dee0feb5eb77ee093ca5836ec44c9affbe6ea26"
+        },
+        {
+          "path": "lib/sanitizers/vercel-directive-strip.mjs",
+          "sha": "604f8afed8154b7fa180a4b04b1d250e57dbeff1"
+        },
+        {
+          "path": "lib/sanitizers/window-units.mjs",
+          "sha": "f03bed6ab4cba26be657a8ee2ffdf3cccef5f921"
+        },
+        {
+          "path": "lib/scanners/cache-components-suspense-dedupe.mjs",
+          "sha": "c28b202ea3aab848b2b1478420175c7f04c33fb4"
+        },
+        {
+          "path": "lib/scanners/edge-heavy-import.mjs",
+          "sha": "f42273dd0342b168e1656bca881ff68659e3d350"
+        },
+        {
+          "path": "lib/scanners/force-dynamic.mjs",
+          "sha": "746cafd8b2436de95c74b4680b20b9183947fd4e"
+        },
+        {
+          "path": "lib/scanners/headers-in-page.mjs",
+          "sha": "cc91d06bf3432ffaf944558671a82739bd62090f"
+        },
+        {
+          "path": "lib/scanners/index.mjs",
+          "sha": "9a35bf0e29dea3e43a85600baa8f5056eff65b49"
+        },
+        {
+          "path": "lib/scanners/large-static-asset.mjs",
+          "sha": "62b2d272f3484796b03e909bd0b683b4401644b7"
+        },
+        {
+          "path": "lib/scanners/max-age-without-s-maxage.mjs",
+          "sha": "91ee2959ca052a4ecd14d3ce88c4ab78caba99e9"
+        },
+        {
+          "path": "lib/scanners/middleware-broad-matcher.mjs",
+          "sha": "1ab1beec6aba51d11edd44794b28fdad53eae181"
+        },
+        {
+          "path": "lib/scanners/missing-cache-headers.mjs",
+          "sha": "1ea3c63d72cd8b6cb98872a5e414a4d5a5082b70"
+        },
+        {
+          "path": "lib/scanners/prisma-include-tree.mjs",
+          "sha": "1b3a2edbaaa327be2f6dac76f28c5dbe6d25592c"
+        },
+        {
+          "path": "lib/scanners/region-pin-in-config.mjs",
+          "sha": "6ac6c0665875de39dd6e0e1d543f9ba80a6cf4ad"
+        },
+        {
+          "path": "lib/scanners/source-maps-production.mjs",
+          "sha": "e3c50ed0ba69c9b23257cec0aa381447d339f7d7"
+        },
+        {
+          "path": "lib/scanners/sveltekit-prerender-missing.mjs",
+          "sha": "e61a62360e33fa0e9dcf2c21cfd0bc324574dce9"
+        },
+        {
+          "path": "lib/scanners/turbo-force-bypass.mjs",
+          "sha": "62de072cb6e71675e2e931bdbcab6886d726ab48"
+        },
+        {
+          "path": "lib/scanners/unoptimized-image.mjs",
+          "sha": "1f5824d6ee5ae4b74bffc6132260751883b9f236"
+        },
+        {
+          "path": "lib/scanners/use-cache-date-stamp.mjs",
+          "sha": "69d46aa6ac290a5014fdd180a6f907cf13982dc1"
+        },
+        {
+          "path": "lib/support-topics.mjs",
+          "sha": "781bee5a3528eca77218cf0bb2c0e0d51bb861d2"
+        },
+        {
+          "path": "lib/throttle.mjs",
+          "sha": "9e8d5195790afa708f7baa0bf9856b86b7f51193"
+        },
+        {
+          "path": "lib/util.mjs",
+          "sha": "c7031d3ab43a4273b0cb9925b4a9d717d69c4566"
+        },
+        {
+          "path": "lib/vercel.mjs",
+          "sha": "0810c70927c6b1b40f4fb3ba29ae1eb08143cfaf"
+        },
+        {
+          "path": "lib/verify-claim.mjs",
+          "sha": "b8e68a91a30e7f8054cba0384edb046c70dbecd3"
+        },
+        {
+          "path": "lib/workspace-resolver.mjs",
+          "sha": "4d5b7677afff8876f09e2fecdd623ada1692fb9e"
+        },
+        {
+          "path": "metadata.json",
+          "sha": "8287bade0e6d76374813225ea77397523f4dceb2"
+        },
+        {
+          "path": "references/candidates.md",
+          "sha": "9bcc87fe4fe69df8cf3a73f8f658c139a3700405"
+        },
+        {
+          "path": "references/data-collection.md",
+          "sha": "140c7872b4c68ab91cf6b52f71a1e180a9fd60a1"
+        },
+        {
+          "path": "references/docs-library.json",
+          "sha": "ad4e3306e1ffb0a1052f8a184c16bec9d0266698"
+        },
+        {
+          "path": "references/doctrine.md",
+          "sha": "91428a3a8cbcecfd162d97b32a7cd51bc5a53a62"
+        },
+        {
+          "path": "references/observability-plus.md",
+          "sha": "908ca8c7a429c73d9e5f5987f7ff773bd14814f8"
+        },
+        {
+          "path": "references/playbooks/README.md",
+          "sha": "35e7d99984fa0a223846a3dfecf26026695d5156"
+        },
+        {
+          "path": "references/playbooks/ai-application.md",
+          "sha": "038bf091c1e66f005407c6ae2d1c861a082a60b6"
+        },
+        {
+          "path": "references/playbooks/api-service.md",
+          "sha": "7cac1101e7de20050a1d0a6da167e69a1b0b57d8"
+        },
+        {
+          "path": "references/playbooks/content-site.md",
+          "sha": "d4c1f68b99fc34f4c1a1311514bbdcccaa8897f9"
+        },
+        {
+          "path": "references/playbooks/ecommerce.md",
+          "sha": "0942a9718ff1ac3bce97c7d06c3bd9976cbc6efc"
+        },
+        {
+          "path": "references/playbooks/marketing.md",
+          "sha": "b9f8b6d71866905ed79bd98efb9c88b1b632125a"
+        },
+        {
+          "path": "references/playbooks/saas.md",
+          "sha": "633737704b25f4c07f5f8527e9e4272271714bae"
+        },
+        {
+          "path": "references/playbooks/sveltekit.md",
+          "sha": "e7ea0ad2818c70799175ad4dd064306df57f872e"
+        },
+        {
+          "path": "references/recommendations.md",
+          "sha": "cd1ae07976cc42c0c8abebddec4e5043ae233e2c"
+        },
+        {
+          "path": "references/scanner-patterns.md",
+          "sha": "26ae4d1c3f956f991f9cd6760beeabe6098e7c0c"
+        },
+        {
+          "path": "references/scoring.md",
+          "sha": "a988493bde00db568dd25b2e0e3651af39c10961"
+        },
+        {
+          "path": "references/support-topics/README.md",
+          "sha": "cfa8eeb465d59bb82980a1a321926d3e661fb46d"
+        },
+        {
+          "path": "references/support-topics/astro-edge-middleware-scope.md",
+          "sha": "967ca82acdd310d809c0c597375f9dde8428f84b"
+        },
+        {
+          "path": "references/support-topics/astro-output-mode-and-isr.md",
+          "sha": "b9d0e36e5a1293d51beb50c41825b489b8290ebd"
+        },
+        {
+          "path": "references/support-topics/auth-preserving-parallelization.md",
+          "sha": "f6ea6d5f3c6c74cc0634d723938ac749f220219d"
+        },
+        {
+          "path": "references/support-topics/bot-protection-product-guardrails.md",
+          "sha": "658f2ec9f33c155d3ee4bf46d4afa81951bec98a"
+        },
+        {
+          "path": "references/support-topics/build-minutes-monorepo-fanout.md",
+          "sha": "56f1ce274d4f4047d846a856f0161a89553a11e5"
+        },
+        {
+          "path": "references/support-topics/cache-components-static-shell-boundaries.md",
+          "sha": "aee0a9addc6ebaf3b672360510e8bc3ebc1a373a"
+        },
+        {
+          "path": "references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+          "sha": "5aacb91aae50b1ecc48e4748f8a851d5f2e8959b"
+        },
+        {
+          "path": "references/support-topics/cdn-cache-auth-safety.md",
+          "sha": "7ee59d1381fe674c872524fe470208f21e78aa52"
+        },
+        {
+          "path": "references/support-topics/cold-start-initialization-bundle.md",
+          "sha": "c99c495946243d3476c43e9a9170d486e86e8d27"
+        },
+        {
+          "path": "references/support-topics/core-web-vitals-client-bottlenecks.md",
+          "sha": "470e313ffb602205732e8b3f42dee88714b3c94c"
+        },
+        {
+          "path": "references/support-topics/database-egress-pooling-region.md",
+          "sha": "431f3a1dd6a021a55319b5ef5cad65cf454e5f86"
+        },
+        {
+          "path": "references/support-topics/dynamic-rendering-traps.md",
+          "sha": "cd9d62daa181c427faa2cbb72cc6398fe3106692"
+        },
+        {
+          "path": "references/support-topics/external-api-critical-path-platform.md",
+          "sha": "6f0d93de909e8b9c746b404838b602c0e1e9f67b"
+        },
+        {
+          "path": "references/support-topics/external-api-critical-path.md",
+          "sha": "d7303f4d67d56864ffe811f50f3a30fe6e6e8522"
+        },
+        {
+          "path": "references/support-topics/fast-data-transfer-payloads.md",
+          "sha": "8a5e49bcef1d12bc32aa525dc1e6fa3b71be4e96"
+        },
+        {
+          "path": "references/support-topics/fluid-compute-caveats.md",
+          "sha": "952b947d101a92ecaa8d1cb3229528a91df9b3c4"
+        },
+        {
+          "path": "references/support-topics/function-duration-io-and-after.md",
+          "sha": "3e835dc296a2bd6b31157e55c147fbaa333e11a0"
+        },
+        {
+          "path": "references/support-topics/function-invocation-reduction.md",
+          "sha": "6e9f4da3c8201056dea9bca3fcfe2b3a6c240815"
+        },
+        {
+          "path": "references/support-topics/function-region-misconfiguration-ttfb.md",
+          "sha": "127fde4297abb0ffde83d2e96f9f0169fae80331"
+        },
+        {
+          "path": "references/support-topics/image-optimization-cost-control.md",
+          "sha": "e2a683c73a8f553fcaa0a56f7578a02c4efd7d8a"
+        },
+        {
+          "path": "references/support-topics/isr-revalidation-static-generation.md",
+          "sha": "e0938c87f45c32dc4b2a460007fc280cc553130b"
+        },
+        {
+          "path": "references/support-topics/middleware-proxy-edge-cost.md",
+          "sha": "7cd2b3b19425b1ec31f88255961a3c6ef1803663"
+        },
+        {
+          "path": "references/support-topics/next-fetch-revalidate-floor.md",
+          "sha": "352d54812635e7559f8268457dd73792254503a4"
+        },
+        {
+          "path": "references/support-topics/next-font-cls-self-hosting.md",
+          "sha": "59e4fe28cdb8bc2e3656ef76b930ae3364d3ae70"
+        },
+        {
+          "path": "references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+          "sha": "470b0106551f5283cf27f96495a712691ad4ad7c"
+        },
+        {
+          "path": "references/support-topics/next-image-lcp-preload-sizes.md",
+          "sha": "7471ee62cb43dc440018960b311f441993d6cb16"
+        },
+        {
+          "path": "references/support-topics/next-route-handler-get-cache-defaults.md",
+          "sha": "9d0f97c35a6aeed70f8a5edf9c721fbab13b7c31"
+        },
+        {
+          "path": "references/support-topics/next-script-third-party-strategy.md",
+          "sha": "75ac81ac0140445b92d73504a259b5c431709389"
+        },
+        {
+          "path": "references/support-topics/nextjs-version-cache-semantics.md",
+          "sha": "7f9297575ef8f25dcce6b4bf5dcbac2d96f83a67"
+        },
+        {
+          "path": "references/support-topics/not-found-catchall-request-waste.md",
+          "sha": "babbae9d2e60663d2614317ccf9a70c6ea760ff4"
+        },
+        {
+          "path": "references/support-topics/nuxt-route-rules-cache-isr.md",
+          "sha": "822537d3daadb4366eb94c6ff085a6ac08d047af"
+        },
+        {
+          "path": "references/support-topics/observability-events-cost-attribution.md",
+          "sha": "758c639f075b5e01e477abd2dc176be33fd2d3c0"
+        },
+        {
+          "path": "references/support-topics/post-response-work-waituntil.md",
+          "sha": "87609926c91adf4fb1145c76bdee29a9ed8bf2bb"
+        },
+        {
+          "path": "references/support-topics/route-error-durable-offload.md",
+          "sha": "1bb93957cb4781a7567b828d29e11f6c27444d80"
+        },
+        {
+          "path": "references/support-topics/route-error-runtime-limits.md",
+          "sha": "69b25447f7a75babc7de35e1b4b06bc26f67462a"
+        },
+        {
+          "path": "references/support-topics/runtime-cache-reusable-data.md",
+          "sha": "fa54468a6ff44c7fa50d4589deceab748f830a80"
+        },
+        {
+          "path": "references/support-topics/sveltekit-isr-prerender-safety.md",
+          "sha": "787c44777eddc2a1b5c6079dec573e4bb132e3cd"
+        },
+        {
+          "path": "references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+          "sha": "ff5c685a0acd9d855e735be221fc754f4eca8922"
+        },
+        {
+          "path": "references/support-topics/usage-spike-triage.md",
+          "sha": "b1b7a3f86f14830425c417e48867ec4167eeb1a9"
+        },
+        {
+          "path": "references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+          "sha": "3cd709d5a538c464d643e5c2afc92bbe2caffa65"
+        },
+        {
+          "path": "references/support-topics/use-cache-remote-shared-origin-data.md",
+          "sha": "b4037ee2f5d241b082e2bc880fd9a2ed8ae982ee"
+        },
+        {
+          "path": "references/support-topics/workflow-resumable-stream-routes.md",
+          "sha": "efb2993cc02187a5187854f7f81c1e959b2f8a76"
+        },
+        {
+          "path": "references/verification.md",
+          "sha": "fbb502487ead6c6cb87bc9f87d9820a6b46a81ec"
+        },
+        {
+          "path": "references/voice.md",
+          "sha": "aa927f04a6d8e823c6b63dd7997fb9f921ed7722"
+        },
+        {
+          "path": "scripts/budget-summary.mjs",
+          "sha": "9837e22d0505f54765b3eacd13996c80bfa1f51d"
+        },
+        {
+          "path": "scripts/build-docs.mjs",
+          "sha": "22c81c49730ff47422938ffecffc75ba89804ccc"
+        },
+        {
+          "path": "scripts/check-citations.mjs",
+          "sha": "2305d5cb0c4970109c7a3853815df0e809027142"
+        },
+        {
+          "path": "scripts/check-docs-fresh.mjs",
+          "sha": "baf5720102eafe0cb2d5e6cf6a864830dc9500fe"
+        },
+        {
+          "path": "scripts/collect-signals.mjs",
+          "sha": "2831fb9412453d6b789adcf565c930ddc529022e"
+        },
+        {
+          "path": "scripts/collect-sub-agent-outputs.mjs",
+          "sha": "86998745bf84bc2d9472e19711062b015557c9d9"
+        },
+        {
+          "path": "scripts/deep-dive.mjs",
+          "sha": "497d32aee28113355c234e2ec4ca17b8c8f98ae4"
+        },
+        {
+          "path": "scripts/gate-investigations.mjs",
+          "sha": "936060e1e29b87e458af78d473f5c0b036bc61f8"
+        },
+        {
+          "path": "scripts/merge-signals.mjs",
+          "sha": "06e305cb5fd8a7045ffc57d8f53ea9bb4f4801de"
+        },
+        {
+          "path": "scripts/prepare-investigation-brief.mjs",
+          "sha": "3e49476ccc50157b362b3186bfbcd392143642a3"
+        },
+        {
+          "path": "scripts/reconcile-candidates.mjs",
+          "sha": "1f80104b798fa8958484965c789397cce10cc2fc"
+        },
+        {
+          "path": "scripts/render-report.mjs",
+          "sha": "542a99216276a059cdc4664baf642581073c7f1c"
+        },
+        {
+          "path": "scripts/scan-codebase.mjs",
+          "sha": "9d416b54b0170f50c9a210d77e261683b61ea212"
+        },
+        {
+          "path": "scripts/verify-and-regen.mjs",
+          "sha": "45973c3fa195f58f75dc5638695dd3575a8f8ce0"
+        },
+        {
+          "path": "scripts/verify-finding.mjs",
+          "sha": "4e7fedc78c5fa8cdb6793ba670983d94dd346ca0"
+        }
+      ],
+      "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/vercel-optimize",
+      "version": "1.2.0"
+    },
+    {
+      "id": "vercel-labs/agent-skills@web-design-guidelines",
+      "trust": "trusted",
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "HEAD",
+      "path": "skills/web-design-guidelines",
+      "contentHash": "0f4a5dbb",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "ceae92ab319216a68274168fba9b63b998b65997"
+        }
+      ],
+      "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/web-design-guidelines",
+      "version": "1.0.0"
+    },
+    {
+      "id": "vercel-labs/agent-skills@writing-guidelines",
+      "trust": "trusted",
+      "name": "writing-guidelines",
+      "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "HEAD",
+      "path": "skills/writing-guidelines",
+      "contentHash": "831a3f75",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "63facf310252a990d154bed12b3dcdd295ba771a"
+        }
+      ],
+      "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/writing-guidelines",
+      "version": "1.0.0"
+    }
+  ]
+}

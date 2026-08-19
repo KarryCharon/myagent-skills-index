@@ -1,0 +1,21 @@
+{
+  "name": "myagent-skills-index",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MyAgent 技能市场集中索引构建(GitHub Actions 定时产出 skills-index.json)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsx src/build.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}

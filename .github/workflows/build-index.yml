@@ -1,0 +1,50 @@
+name: build-skills-index
+
+on:
+  schedule:
+    # 每 6 小时构建一次(避开整点高峰)
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - repos.json
+      - src/**
+      - .github/workflows/build-index.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-skills-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 构建索引
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交索引更新(无变化则跳过)
+        run: |
+          if [ -z "$(git status --porcelain skills-index.json)" ]; then
+            echo "索引无变化,跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skills-index.json
+          git commit -m "chore: 更新技能索引"
+          git push

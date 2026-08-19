@@ -1,0 +1,7 @@
+{
+  "$comment": "技能来源仓库清单。trust: trusted=白名单仓,community=社区仓;新增源直接加条目即可,CI 会在下次构建纳入。",
+  "repos": [
+    { "repo": "anthropics/skills", "trust": "trusted" },
+    { "repo": "vercel-labs/agent-skills", "trust": "trusted" }
+  ]
+}
