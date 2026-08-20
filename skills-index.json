@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787209717484,
+  "generatedAt": 1787252576479,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -16228,6 +16228,88 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-automodel-recipe-development"
     },
     {
+      "id": "NVIDIA/skills@nemo-fabric-build-adapter",
+      "trust": "trusted",
+      "name": "nemo-fabric-build-adapter",
+      "description": "Build, migrate, review, and maintain third-party NVIDIA NeMo Fabric adapters against the public adapter contract. Use when creating adapter or target descriptors, mapping AgentConfig into an agent harness or custom-agent runtime, implementing start/invoke/stop, declaring schemas and capabilities, packaging discovery metadata, or assessing adapter conformance. Do not use for consumer applications that only call the NVIDIA NeMo Fabric SDK.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nemo-fabric-build-adapter",
+      "contentHash": "ddd87c38",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ff3a92f8481c426456724c10553b1cc0a7483038"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "fa29d157a6cc969aab525b0996f0a1ff799ae0f0"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "aea15270cca475f09c7199f05948e7a1b33b8cb1"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "737844e49cd4884cb407fa36618d3cbf13b9ff50"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "3cd2365a5a5bfec992a81c2a292a2c4174b9d6e6"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ca290c71cc68ff0d4617a8f9ef0981361377b63d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-build-adapter"
+    },
+    {
+      "id": "NVIDIA/skills@nemo-fabric-integrate",
+      "trust": "trusted",
+      "name": "nemo-fabric-integrate",
+      "description": "Use this skill when integrating NVIDIA NeMo Fabric into a consumer application, service, evaluation harness, or platform through the typed Python SDK — translating the consumer's own application, job, or deployment config into an in-memory FabricConfig, choosing the single-invocation convenience API or an explicitly started runtime, validating with plan and doctor, and consuming normalized results, artifacts, and telemetry.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nemo-fabric-integrate",
+      "contentHash": "5a5a5a0e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4b32184a2e26217f559d57e99142a6355148f3b5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ddd6ea434359ea4b16cdf2345bff4e3f30dc27c9"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "35a181c19bc08c7a8e78a7643f62e0d4718464cb"
+        },
+        {
+          "path": "references/config-mapping.md",
+          "sha": "ea55f726585e13134404c05a9ab1fe54e488fdea"
+        },
+        {
+          "path": "references/results-and-errors.md",
+          "sha": "4ff6bfbf780f4066f1d5d3f81d31123ba9bbe37e"
+        },
+        {
+          "path": "references/sdk-api-inventory.md",
+          "sha": "29861af5884521815c8f78a77b7109e65cec0765"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "6c81cc7bfd404927f659f49824a39f77cd0cf7e7"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "3b7c37abd25221c6547ba3a25b457d3e630556f6"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-integrate"
+    },
+    {
       "id": "NVIDIA/skills@nemo-mbridge-mlm-bridge-training",
       "trust": "trusted",
       "name": "nemo-mbridge-mlm-bridge-training",
@@ -17941,15 +18023,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-speech",
-      "contentHash": "44c40560",
+      "contentHash": "1f68403d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "606da36b60eb907c8f6e8956830c4c86ad00c144"
+          "sha": "98e179bd624572e4ee29b8de96e850ce6078638d"
         },
         {
           "path": "SKILL.md",
-          "sha": "bb5a5b8dfcfc092f24d6ee17d068199407c629f9"
+          "sha": "ae0bac8c7e7de31c13edb742f14d1596d2c4ec2e"
         },
         {
           "path": "evals/EVAL.md",
@@ -17957,15 +18039,15 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "112c7ff320fe3106d7e4a47b64ec5090497c08b8"
+          "sha": "553742f36d1566d818f3b7a27830b19501eafb22"
         },
         {
           "path": "references/asr-custom.md",
-          "sha": "1931e5fa30c7ff01116fde5b940fc342fb41d649"
+          "sha": "d8b122ae0095b78653c94f2084b67d5bc7ff1d44"
         },
         {
           "path": "references/asr.md",
-          "sha": "85aecfe9aace84b5b22fb502c97e14cf67d0d457"
+          "sha": "2ad40e5c6213e7f3cb576e04ab0fa8e80a3e6534"
         },
         {
           "path": "references/deployment-readiness-checks.md",
@@ -17973,35 +18055,47 @@
         },
         {
           "path": "references/model-selection.md",
-          "sha": "15e6560ef0a4e2fe75da003af8635c85235608d1"
+          "sha": "566a50e11df4416a3854d1b5e15ff6e41d660928"
         },
         {
           "path": "references/nmt.md",
-          "sha": "53c3f40df71cbecf2e0ee54c5466088593d7b7ab"
+          "sha": "446600b5232f2f3cd1545a6e35d8455f9fa05820"
         },
         {
           "path": "references/pipelines.md",
-          "sha": "a1e59f785c66fa48947a72f4c41f00dfcbe2a8ad"
+          "sha": "870543fdd14a4a1c4fee9c48e2cadb8ec8785cbf"
         },
         {
           "path": "references/setup.md",
-          "sha": "8f2413ff564bf1f62b4ca3b28f34434ed480d6ce"
+          "sha": "d1c731b488eba215bf708300ef6ab40145631c88"
+        },
+        {
+          "path": "references/tts-custom.md",
+          "sha": "a004936e5493301fea8e5cc23de5276c6faac01f"
+        },
+        {
+          "path": "references/tts-pipelines.md",
+          "sha": "0591f363868b5142b9268c740ca5fcf7fedcb5c7"
+        },
+        {
+          "path": "references/tts-pronunciation.md",
+          "sha": "e5b226c48d6175c5cbf99d054ee6d651a0df460b"
         },
         {
           "path": "references/tts.md",
-          "sha": "8bd5faad7b57afb3c2665f35b9a2fbb0e2ca3b18"
+          "sha": "c84d177e069f6a8f3d00b488a5afe4d876968b02"
         },
         {
           "path": "scripts/main.py",
-          "sha": "6feef59799a4e96ec028e53d058acec5a9de9130"
+          "sha": "0798c32f0608a2e9fcc0ae103c6e99e420e19b73"
         },
         {
           "path": "skill-card.md",
-          "sha": "f0ba822c779631696cd93a513f099ba9a73a2e94"
+          "sha": "10030674582abf02a23101d83511fb66af67f685"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "3ab3c4191cea8b597199d47fabc6d487cf6ead79"
+          "sha": "7c9a8ff377bdc4784cdb7fdbcd47593de437d782"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-speech"
