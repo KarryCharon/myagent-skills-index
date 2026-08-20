@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787165780340,
+  "generatedAt": 1787209717484,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -29086,7 +29086,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "9f96331a",
+      "contentHash": "c48969c2",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -29174,7 +29174,7 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "0827c8ae6f17f2bdac8a88975564548f0d2914db"
+          "sha": "8a361fa95c23db99e1fa76d79d70c0b3c06940a7"
         },
         {
           "path": "src/commands.ts",
@@ -29306,7 +29306,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "f42af1a455d13895cbfc5a36009c2e7ac7153819"
+          "sha": "40d5b6c62c32da7e97fc1d1c8fe2a2c226ed9c57"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -29318,7 +29318,7 @@
         },
         {
           "path": "src/skill-token.ts",
-          "sha": "e58f2f61977688f07cdb869e21870ceb89f22029"
+          "sha": "4cf876081f385daedd913e0eb26bae9267793dda"
         },
         {
           "path": "src/snapshot.ts",
@@ -29358,7 +29358,7 @@
         },
         {
           "path": "src/token-registry.ts",
-          "sha": "161b26b6d54c148e32a3bc65a6af90ecd7dc37c0"
+          "sha": "23c9a388fb9fa406ce8bfc7c4b6ef34028e5c894"
         },
         {
           "path": "src/tunnel-denial-log.ts",
@@ -29702,7 +29702,7 @@
         },
         {
           "path": "test/pair-agent-e2e.test.ts",
-          "sha": "2f5c9169e99766e341f5c2736e98b153ee067af6"
+          "sha": "5a59dce4ee5e009209b92b1f3834b84d7ba7bb78"
         },
         {
           "path": "test/pair-agent-optin-gate.test.ts",
@@ -29814,7 +29814,7 @@
         },
         {
           "path": "test/server-auth.test.ts",
-          "sha": "76bd0445ae3483a42b05b7f9af52744dd1b8ea54"
+          "sha": "5949f1f13d057ff70f60fef0673ffa436655e2a9"
         },
         {
           "path": "test/server-embedder-terminal-port.test.ts",
@@ -29998,11 +29998,15 @@
         },
         {
           "path": "test/token-registry.test.ts",
-          "sha": "0435aa3358af0cffca128f610cea4150a9e75258"
+          "sha": "fb5adbfa2a8692b2ddf3367e1b64ad5ea3ba4914"
         },
         {
           "path": "test/tunnel-gate-unit.test.ts",
           "sha": "6fcdd9e51895897959f337c9340222f4a5659fd9"
+        },
+        {
+          "path": "test/tunnel-revoke-cli.test.ts",
+          "sha": "0f5d9b94dd8df8af3c087069abf9c54f6bbc2a37"
         },
         {
           "path": "test/url-validation.test.ts",
@@ -31174,15 +31178,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "pair-agent",
-      "contentHash": "6868e9b8",
+      "contentHash": "db29f66a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c9fa6b47f12cd8c58ca25eeea9164afbddf2d3f3"
+          "sha": "8650396e650717dff06fb84b924fe60bb46d281b"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "31e5d4f46b18798299d35444f2e9247c4a4e39d1"
+          "sha": "188bc5e91145be54b9eca219fd67f26716c7cb7b"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/pair-agent"
