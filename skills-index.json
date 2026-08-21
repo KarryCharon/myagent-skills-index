@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787252576479,
+  "generatedAt": 1787277660312,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -19311,15 +19311,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/omniverse-realtime-viewer",
-      "contentHash": "f827c42e",
+      "contentHash": "79ca9f80",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3592c30fc05589b780487d12b3ae0cfd91019554"
+          "sha": "a155dae59b5b5a0b49defe441833b3ccb0b71e06"
         },
         {
           "path": "SKILL.md",
-          "sha": "3aabd8e04ac51bd3e2e69e618c768aa735b8ef42"
+          "sha": "da49f034877c07dab76e22fa87fa6b8fffab2d39"
         },
         {
           "path": "agents/openai.yaml",
@@ -19330,40 +19330,120 @@
           "sha": "60427180a8ef0cc1f809f29ca5e36b69d07c29b5"
         },
         {
+          "path": "references/a2ui-scene-copilot/README.md",
+          "sha": "242609915a321681f6788f8eaaa1cadf4e2770d9"
+        },
+        {
           "path": "references/aov-switching/README.md",
-          "sha": "2a5ff1da6cfc998db1e3f4ac305f71e51afb2e4b"
+          "sha": "1b25fe5e424b091b19fe2bbf39adf938daf7e491"
+        },
+        {
+          "path": "references/cae-cfd-visualization/README.md",
+          "sha": "2fe4dba85c68df7b6b22604debc46aeb7c4a11fa"
+        },
+        {
+          "path": "references/cae-cfd-visualization/cae-data-ingestion.md",
+          "sha": "6e99e29fc4c421af0ac72ed19bd38099761a526d"
+        },
+        {
+          "path": "references/cae-cfd-visualization/coordinate-systems-and-up-axis.md",
+          "sha": "75fdd198bf44bc8d814de49f8044cccd9edbbb66"
+        },
+        {
+          "path": "references/cae-cfd-visualization/data-and-operators.md",
+          "sha": "b14dddebe0f12b9f55416369626931d3183c9bfb"
+        },
+        {
+          "path": "references/cae-cfd-visualization/driving-cae-viz-via-ovstage.md",
+          "sha": "1e46248c01faeb3313caef32f8572fb5d303f891"
+        },
+        {
+          "path": "references/cae-cfd-visualization/emitter-and-seed-sources.md",
+          "sha": "8746e9185ae37795b2ff1f71f13522784ae5fb51"
+        },
+        {
+          "path": "references/cae-cfd-visualization/glyphs.md",
+          "sha": "3376c28a0e0d3af6a627cf0833652166f19b354a"
+        },
+        {
+          "path": "references/cae-cfd-visualization/ovstage-render-and-camera.md",
+          "sha": "ca5cf866eaa970308dafcba924ac43dd80e094f3"
+        },
+        {
+          "path": "references/cae-cfd-visualization/ovui-controls.md",
+          "sha": "c75a039f93b65c6bc3398327e9ef4758f721525a"
+        },
+        {
+          "path": "references/cae-cfd-visualization/rtwt-blueprint-recreation.md",
+          "sha": "8937590fc9fd2bf746d9d954079280880bacb763"
+        },
+        {
+          "path": "references/cae-cfd-visualization/streaming-cae-viewer.md",
+          "sha": "59451170608967964b53da46f5d6fd07ed955df0"
+        },
+        {
+          "path": "references/cae-cfd-visualization/temporal-playback.md",
+          "sha": "84c5efb25103e81a447275a103ebf3319314d733"
+        },
+        {
+          "path": "references/cae-cfd-visualization/usd-authoring-and-materials.md",
+          "sha": "de8deb4612edbacf5560d85b8e120c37f12e1891"
+        },
+        {
+          "path": "references/cae-cfd-visualization/volume-rendering.md",
+          "sha": "cf81fa1d8cf0dbef5d40eaaa67bda872200a0da7"
         },
         {
           "path": "references/camera-auto-select/README.md",
-          "sha": "d51ed7ac6efb9847785ee11f2b6aeb382ddef744"
+          "sha": "edcaa195b405ebb0b17521f7f7f89d48b61f8274"
         },
         {
           "path": "references/camera-controls/README.md",
-          "sha": "076413afec102c99317177e46849e0dbadd1b9c5"
+          "sha": "f1a86b2929e603f7fa42c8a0c90f1868497118e4"
         },
         {
           "path": "references/camera-picker/README.md",
-          "sha": "27f054e864e264a40dccb43df166d4a3c05d7416"
+          "sha": "000ecea0f1d5e6c47d245c7f1dd6d82a63748b6b"
         },
         {
           "path": "references/cloud-assets/README.md",
-          "sha": "6de17391843d689a553ef861fcd2903a68bcb627"
+          "sha": "6a8941c8763219622d0e81a164ced1c2c054b585"
         },
         {
           "path": "references/cloud-deployment/README.md",
-          "sha": "453aaeb5b5d7cd1b6b4ef0a2ae005991167b0a24"
+          "sha": "287643f4b71e72eff2d1f8bdc91426e8b60f7ecc"
+        },
+        {
+          "path": "references/cloud-deployment/container-image-build.md",
+          "sha": "7dbd771585e1673dcbae86d9208062954bbd4108"
+        },
+        {
+          "path": "references/cloud-deployment/gpu-container-runtime.md",
+          "sha": "f277c465ac4466c4eccc52a1fa3f2706f8cd7807"
+        },
+        {
+          "path": "references/cloud-deployment/nvcf-self-hosted.md",
+          "sha": "ee783f9ab790e3e00de9707ee792ae91be2ded63"
+        },
+        {
+          "path": "references/cloud-deployment/nvcf-viewer-container-contract.md",
+          "sha": "87b6b85b3ee669d41fb61f38f21f61925a53d088"
+        },
+        {
+          "path": "references/cloud-deployment/webrtc-network-diagnostics.md",
+          "sha": "28597c24ab3ffdabb70853a3f44cdf761aa139a8"
         },
         {
           "path": "references/conventions.md",
-          "sha": "31e20f3393950b0f4bf541cfa33c2442e05996f7"
+          "sha": "fa38662570a0c83a86966516b27e1dd5dbbb74ca"
         },
         {
           "path": "references/cpp-native-viewer/README.md",
-          "sha": "18c343ca0263832e952cc0b34f0a5b81ca24b905"
+          "sha": "68958bdbeadafc912bdd111239b1be16374ee8d9"
         },
         {
           "path": "references/cpp-native-viewer/interaction-features.md",
-          "sha": "c2530d7dffe56c2bd63b619a624c023047356af4"
+          "sha": "f7257cef2666ba8078a55205aa3fefdc07831b8e"
         },
         {
           "path": "references/cpp-native-viewer/presentation-loop.md",
@@ -19375,15 +19455,15 @@
         },
         {
           "path": "references/cpp-native-viewer/renderer-session.md",
-          "sha": "60f331a812072d2f90bdb85b16fb49b0f252044b"
+          "sha": "3edf9192e1293ff4176fe6d2d2a6c4e82b83b75a"
         },
         {
           "path": "references/cpp-native-viewer/validation.md",
-          "sha": "8bbc59f51bd0d319bd36b835207d34f3562c5161"
+          "sha": "6315d64e21a1b0ce27ff0cb873a4dc5372d4d7b6"
         },
         {
           "path": "references/dependencies/README.md",
-          "sha": "586995652a98c9240dda354d8093135680ac7015"
+          "sha": "a6bdcc87c2abd7454b5fcb2e6994891066b6950c"
         },
         {
           "path": "references/dependencies/electron-shm.md",
@@ -19391,7 +19471,7 @@
         },
         {
           "path": "references/dependencies/environment-validation.md",
-          "sha": "7f91980a9308effd9122f108f88bc45ada02fc44"
+          "sha": "bf152d96d9d8830ca537f49c57ff0276b9fa5626"
         },
         {
           "path": "references/dependencies/frontend.md",
@@ -19399,27 +19479,27 @@
         },
         {
           "path": "references/dependencies/local-openusd-gpu.md",
-          "sha": "edec1d21217c0498367d372979482261c81b9413"
+          "sha": "26cf39892652b90f17f95b006df6a2134177f7b6"
         },
         {
           "path": "references/dependencies/nvidia-runtime.md",
-          "sha": "9c1a997b99ff9630f22f1dfec05bd5598ac620b5"
+          "sha": "ccb262209b378296d4f9209d021084fec4af983d"
         },
         {
           "path": "references/dependencies/ovrtx.md",
-          "sha": "a3ee259c871ad931f6c39542507e7007e3db85b8"
+          "sha": "868d79cbc130b24ae9bb87dda8bd76535256e088"
         },
         {
           "path": "references/dependencies/ovstream.md",
-          "sha": "d22c4890878c44f8bb599efa81da466b62b48ded"
+          "sha": "e0273b61e0f5e923cbfc7ac7172adfcb9158ebe6"
         },
         {
           "path": "references/dependencies/quick-setup.md",
-          "sha": "0732564e726d2ae8e3d3e08059cfb20c0f06cba3"
+          "sha": "9027b3948250032abf970fc1ad3dd0f26386797d"
         },
         {
           "path": "references/electron-shm-viewer/README.md",
-          "sha": "d1f21a203a29b603962756380f57b98bf500e08d"
+          "sha": "e997f4217909342aac1aca86f7fbf0e56a174428"
         },
         {
           "path": "references/electron-shm-viewer/architecture-project.md",
@@ -19427,15 +19507,15 @@
         },
         {
           "path": "references/electron-shm-viewer/electron-client.md",
-          "sha": "ba5e5a47d1de8300fa4c51240357b23863792931"
+          "sha": "9f7445532236e2fa11f49a26526b0cd2b0f889c0"
         },
         {
           "path": "references/electron-shm-viewer/protocol-interaction-lifecycle.md",
-          "sha": "e017055ae85b8bc126df20d22d17bd6569d6d13a"
+          "sha": "1d1e9cb270e2ad87dfef8d20b36801910696ad3b"
         },
         {
           "path": "references/electron-shm-viewer/python-shm-server.md",
-          "sha": "b2cc7fda952a5f5798dbf3e12b157bf7c57e45fc"
+          "sha": "1424a2729db8cbb61ad3367c6ab45d517f5c5037"
         },
         {
           "path": "references/electron-shm-viewer/validation.md",
@@ -19471,19 +19551,35 @@
         },
         {
           "path": "references/local-viewer/README.md",
-          "sha": "43498acb1b6257979bab49c7e47c1156dc30f582"
+          "sha": "05ff1340eb7d1b88f45e0943c64a3a1e9f3eb719"
         },
         {
           "path": "references/native-picking-selection/README.md",
-          "sha": "0e913444bfea2b2032a911401e4af07a300ebde1"
+          "sha": "59724e79b1a8d2bc7c84c6403ea2f35aa1cced4a"
         },
         {
           "path": "references/object-selection/README.md",
-          "sha": "0a0ba67d0cd8775dbb08d48f981386abdf3ba630"
+          "sha": "834e589c6d2cb4b7e8abea9f5c5396062c0c3282"
         },
         {
           "path": "references/ovrtx-rendering/README.md",
-          "sha": "084696cc9278ce5002a3e7e03bdb5296e910bf5e"
+          "sha": "f4b94d14679f6de98ea45071670197609b3b0613"
+        },
+        {
+          "path": "references/ovstage-data-plane/README.md",
+          "sha": "75dd6f70016d356b6e618560d23fba96f12cfee0"
+        },
+        {
+          "path": "references/ovstage-ovrtx-integration/README.md",
+          "sha": "8c25b530c8a239ba99eeb9a8417ee6f913e65463"
+        },
+        {
+          "path": "references/ovstage-population/README.md",
+          "sha": "a17bccfec6f6174aefaedc9cb2ffb06af0e89fab"
+        },
+        {
+          "path": "references/ovstage-runtime/README.md",
+          "sha": "85f1ecebda40bbb76cb3320f591cdd99e558599b"
         },
         {
           "path": "references/ovui-library/README.md",
@@ -19499,11 +19595,11 @@
         },
         {
           "path": "references/ovui-local-viewer-recipe/README.md",
-          "sha": "85e39d68a5f18d1eb9f85f2988f7e8448154dd31"
+          "sha": "f9364810923d99c9ec73b5b29b4b2d760ce5e3f3"
         },
         {
           "path": "references/ovui-local-viewer-recipe/interaction-features.md",
-          "sha": "9402ef1fbe3ea344a3a0ffbd4e08e53830ccfca6"
+          "sha": "0ab2a457d34257c7e8874543e23d6c1a5f2ca11a"
         },
         {
           "path": "references/ovui-local-viewer-recipe/project-structure.md",
@@ -19511,55 +19607,59 @@
         },
         {
           "path": "references/ovui-local-viewer-recipe/setup-shell-renderer.md",
-          "sha": "eff7c1efdc4b53f6bada4e31c88fb4a47c5ac5cf"
+          "sha": "0da46d5170c157890aab88fca6a1e3db193a0a9e"
         },
         {
           "path": "references/ovui-local-viewer-recipe/validation-build-order.md",
-          "sha": "850be3312a919e4b9b81c10a143bbdf5ecd9f721"
+          "sha": "d914b68a4f799f3e9e7a47d0a27c912778d163b5"
         },
         {
           "path": "references/ovwidgets-editor-shell/README.md",
-          "sha": "0deeafea9c107e1770384459f3330a82aea951c4"
+          "sha": "1fee5d8b683ad914b9d55b1309fb4614ab511783"
+        },
+        {
+          "path": "references/physics-simulation/README.md",
+          "sha": "70d56f9960a4a92ab408f6237098210f0d258028"
         },
         {
           "path": "references/prim-info-display/README.md",
-          "sha": "90761ec2acdc91b405064b4eed9a6d98be92fc59"
+          "sha": "d4fadb82fd25bf2d956bf8e8908fade132249295"
         },
         {
           "path": "references/prim-pick-effects/README.md",
-          "sha": "fa60a089eaa2105e8a9e55f77f1b4e885d5f9362"
+          "sha": "4bc2e991f82bc54daf194d35f500c58546e2d1a8"
         },
         {
           "path": "references/prim-transform-safety/README.md",
-          "sha": "66973fc1253f4a57f210b72223ce937d6b1fd9b3"
+          "sha": "959640d83c656879099e8090dacf12a76ef31f09"
         },
         {
           "path": "references/render-settings/README.md",
-          "sha": "9b65324c3fe08ab2cdd302bd3d356f91246f0e3d"
+          "sha": "c51f12e780a4e5ed0c20b6777ce50250c7bded33"
         },
         {
           "path": "references/routing.md",
-          "sha": "5f4c130ad70ea63c23c895c52a0877864727f512"
+          "sha": "19b8b6ee08dd2aa80e3ced3b94173d6a32b1282b"
         },
         {
           "path": "references/seg-outline-highlight/README.md",
-          "sha": "5423605b3766f5a151c46facf37f24a0a0a7d9de"
+          "sha": "6568c7c482b6633a11196582065c401c2c2658c4"
         },
         {
           "path": "references/selection-animation/README.md",
-          "sha": "7752ed5ee5131ebde0577c618e3b8ae14e16b066"
+          "sha": "8f550631b656c7dcb87369722b99f5de12096b92"
         },
         {
           "path": "references/selection-feedback/README.md",
-          "sha": "ac89d98aafdbb037216a9b3136e3f6f5dffc71a8"
+          "sha": "792fb1c21767b032c31d1d15fbfc829e17826395"
         },
         {
           "path": "references/stage-attribute-reads/README.md",
-          "sha": "c3dc321b5708c8373df3d7eaeb8772e5c370051d"
+          "sha": "3b693e4bbf033d2f6302d7645de60bc4c0406047"
         },
         {
           "path": "references/stage-hierarchy/README.md",
-          "sha": "2a4023a823124181c0771d908f2bd0a0f6a51088"
+          "sha": "91d16bb159262f93e09a83b83151a8c184c2a89c"
         },
         {
           "path": "references/stage-hierarchy/fallback-worker-protocol.md",
@@ -19567,27 +19667,27 @@
         },
         {
           "path": "references/stage-loading/README.md",
-          "sha": "7118a9f899005303ca61800965d5904e2117ca54"
+          "sha": "6eec915b0436c4450726bdfc54b1fcfbbd33c8f7"
         },
         {
           "path": "references/stage-management/README.md",
-          "sha": "7d3bd222348a7dfbe7b5299e96bbcf7d835a67ff"
+          "sha": "e18861e352839932e8d8d973c0ccac6bac0c99f6"
         },
         {
           "path": "references/stage-queries/README.md",
-          "sha": "fad13c800f89bd982d6a8afa08f5ad03efcb1eab"
+          "sha": "09bdda1981d7025a4deb78039bf67badfda7db02"
         },
         {
           "path": "references/streaming-client/README.md",
-          "sha": "cd8762b43003201a0a4a72be18a8d5c6480db31c"
+          "sha": "498485e59ce37809070b27e9b6310ed4a78bb105"
         },
         {
           "path": "references/streaming-lifecycle/README.md",
-          "sha": "06ee11270d6483fe984e330ce8615550ffbf7b86"
+          "sha": "0fd635bb721b72fe3d04a73f2e932e328842e5b0"
         },
         {
           "path": "references/streaming-messages/README.md",
-          "sha": "e95e167f816a10387787ac1321b7692fae93b15e"
+          "sha": "cf397c220ea8924f80313b9dc05b0e45161bbaea"
         },
         {
           "path": "references/streaming-messages/server-handler-map.md",
@@ -19595,43 +19695,43 @@
         },
         {
           "path": "references/streaming-server/README.md",
-          "sha": "3d4ee3fa69d6e88cbf9161c0b6f7dfce494f37ad"
+          "sha": "8cc9737b742eb866ad8859c9119ce4a01071cfe8"
         },
         {
           "path": "references/streaming-server/frame-loop-and-continuity.md",
-          "sha": "45e03bf2c8ba8fecacd300bf440ba11e95aec6ac"
+          "sha": "dd99473e57d97cb0b2068bb0475cc97abd8ef246"
         },
         {
           "path": "references/streaming-viewer-recipe/README.md",
-          "sha": "60beed7335abf76e82f6002f9859f86f05c28fdd"
+          "sha": "ae2c5aea430ef434c223698a4f3adae04878d611"
         },
         {
           "path": "references/streaming-viewer-recipe/client-protocol.md",
-          "sha": "a7f3cbc389eb3b24b9bd3a4b93e67fa95a8baec5"
+          "sha": "4f4b3fdcdee878c7b43e08dbd56c519aeba14a0e"
         },
         {
           "path": "references/streaming-viewer-recipe/interaction-features.md",
-          "sha": "7460dc517b57c228d51644372764a153c2744f16"
+          "sha": "46f04df3015f48eda9ad0598e9251e899f2568ed"
         },
         {
           "path": "references/streaming-viewer-recipe/project-structure.md",
-          "sha": "ce0848c5023a4f8a346cf519c42d0064868543bf"
+          "sha": "c85e88879f06f69f6a312ef9403c0b22ecffbdd5"
         },
         {
           "path": "references/streaming-viewer-recipe/server-runtime.md",
-          "sha": "4ea425b6e766f24895ce63cf571cda3ca9d53d17"
+          "sha": "9b48f042404bb9bac780644214bd2a8488da5117"
         },
         {
           "path": "references/streaming-viewer-recipe/validation-build-order.md",
-          "sha": "a096122f3e3553fd3ff9ce7890c165e73c46e617"
+          "sha": "0dbac30d05e5ee97c27af14b3be179f43423b228"
         },
         {
           "path": "references/streaming-vs-local/README.md",
-          "sha": "6397a825cf08807a3592d0208a30c1c22378a8fe"
+          "sha": "87f5c7f657624f28b6d94eecc59624615b8732b0"
         },
         {
           "path": "references/tauri-local-viewer/README.md",
-          "sha": "011e480883a51fd2d931c05bb7dfb7711f86703f"
+          "sha": "0287c9f04f145f840038c5cd075a91cc89332235"
         },
         {
           "path": "references/tauri-shm-transform-gizmo/README.md",
@@ -19639,31 +19739,31 @@
         },
         {
           "path": "references/transform-manipulator/README.md",
-          "sha": "2d69bc8f1f00e9ea6da024e762bcffe4560cd326"
+          "sha": "20c27122e4a82545b97c98e85858ba175e61848c"
         },
         {
           "path": "references/troubleshooting/README.md",
-          "sha": "31cad61da4a55a9895b299cce027f9358a4bdef0"
+          "sha": "7482f9283f738f88a7d906c3073883549323c402"
         },
         {
           "path": "references/troubleshooting/scenario-playbooks.md",
-          "sha": "8506e0bc04abd9c96bf3c557bc06912f250fac96"
+          "sha": "8ae16c5a96d292e207e2316a547694d48a522573"
         },
         {
           "path": "references/usd-sample-data/README.md",
-          "sha": "8440774af89a2267924031cf522a475c253755c3"
+          "sha": "4f1275a80294ccf622d042c2bed736e9d3565976"
         },
         {
           "path": "references/usd-viewer-app/README.md",
-          "sha": "f63dbb32669d63e63fe9cc7efecf98050d49c814"
+          "sha": "0923b8c50a47442fd2449caf5efef38e0d6e69e0"
         },
         {
           "path": "references/validation.md",
-          "sha": "9c29f27880a957d584a57d016f90f88613299fa6"
+          "sha": "120a41fca649a60aa7e9a52165b9bdf8f29c05e3"
         },
         {
           "path": "references/viewer-backend-interface/README.md",
-          "sha": "cde39e49fb9b87ed3ab5c563fb52df13a7b1eec2"
+          "sha": "5f42bc9dcce0747f9b24df66f38673389c11fa76"
         },
         {
           "path": "references/viewer-control-patterns/README.md",
@@ -19679,7 +19779,7 @@
         },
         {
           "path": "references/viewer-input-routing/README.md",
-          "sha": "b2737379e55a86aed78aaad4bb22722dfc1a719a"
+          "sha": "6fe712dbcd9cab799eba8951558b547cc887f34a"
         },
         {
           "path": "references/viewer-layout-patterns/README.md",
@@ -19691,7 +19791,7 @@
         },
         {
           "path": "references/viewport-overlays/README.md",
-          "sha": "abe6f2a29abb3135dff46a60034b5d7561869d88"
+          "sha": "bcd2a5c72767878176e5a71363b9cce21e6649c4"
         },
         {
           "path": "references/viewport-resize/README.md",
@@ -19703,15 +19803,15 @@
         },
         {
           "path": "references/windows-native-setup/README.md",
-          "sha": "ee0b0db14d9a637753d4bc8089782c94751c8b15"
+          "sha": "2e6988d7b950c324d3aa9efb904310d782b0c2fd"
         },
         {
           "path": "skill-card.md",
-          "sha": "b768fa8332be0cc4e1454963d2ba4510a2060c68"
+          "sha": "c8aa7fa7bd4b01f558e59f5031ab0683226fae03"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5d14a9a296f89df5d85db85aa1d3000d7463aa96"
+          "sha": "33ea3a67e778bf6aa0c1cc6b1076fb847c898ac3"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-realtime-viewer"
@@ -20482,6 +20582,112 @@
       "version": "1.0.1"
     },
     {
+      "id": "NVIDIA/skills@physical-ai-image-attribute-augmentation",
+      "trust": "trusted",
+      "name": "physical-ai-image-attribute-augmentation",
+      "description": "Use when running image attribute augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, Image Attribute Augmentation, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/physical-ai-image-attribute-augmentation",
+      "contentHash": "796cfe0e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "15bc2c36ca6e6f662fd9397ba5ff900d7547ec16"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "8c7d86adf1d69d5a0890f464f95b33f5e17c1c84"
+        },
+        {
+          "path": "assets/configs/osmo/augmentation.yaml",
+          "sha": "06c0ff99145b300390ae9b2632a0928eab515ca2"
+        },
+        {
+          "path": "assets/configs/osmo/auto_labeling.yaml",
+          "sha": "f8f292b869303fae854008f27a7c40dbfbb6aada"
+        },
+        {
+          "path": "assets/configs/osmo/e2e.yaml",
+          "sha": "2c09dcbba392802825197eac1ea6504b5262abc4"
+        },
+        {
+          "path": "assets/cookbooks/default/README.md",
+          "sha": "8fc2d61c9cd04d7fee906536270c1a28d957bf50"
+        },
+        {
+          "path": "assets/cookbooks/default/augmentation_config.yaml",
+          "sha": "d2a900f9db45c4627bdf4f74cfdcb7dbbe045436"
+        },
+        {
+          "path": "assets/cookbooks/default/distribution_config.yaml",
+          "sha": "166d81a2646c6d2226c36c24d2d93fc9c4ddbfdc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b3817cb3c6804dfef33f494faf9e4442c846f9f7"
+        },
+        {
+          "path": "references/container-images.md",
+          "sha": "4a9d7e246fcc98543f5e04e6d7740dff4d725e08"
+        },
+        {
+          "path": "references/flows/augmentation.md",
+          "sha": "657aae432c1cd31810ece9776ea304dc21e755e8"
+        },
+        {
+          "path": "references/flows/auto_labeling.md",
+          "sha": "ec1fcae06781e2932346f780e0524e314846bd4b"
+        },
+        {
+          "path": "references/flows/e2e.md",
+          "sha": "4b1bce2bc876ced23b390c14caf06bbfee015a92"
+        },
+        {
+          "path": "references/nim/README.md",
+          "sha": "ede2c762e2af408cee6655b8152621cbb230097b"
+        },
+        {
+          "path": "references/nim/qwen-image-edit-2511.yaml",
+          "sha": "552ff45b700b63bee158a980efb29f17b67d16ce"
+        },
+        {
+          "path": "references/setup.md",
+          "sha": "03c3f48ceccf761330b0b41f78308e48edae2560"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "a01e720843aa40cc9aada3ef36c703c9d8257e30"
+        },
+        {
+          "path": "scripts/augmentation_worker.sh",
+          "sha": "5e263062a5d07b818b62a3ae0b2026e8a033508a"
+        },
+        {
+          "path": "scripts/auto_labeling_worker.sh",
+          "sha": "64945625ebc5bdcfaa425aaa93b05253759b99fd"
+        },
+        {
+          "path": "scripts/endpoint_common.sh",
+          "sha": "3c5882bf9448e306ffcd2e4fab2903951b063c9f"
+        },
+        {
+          "path": "scripts/preflight_credentials.sh",
+          "sha": "2054a73ced755951583325e53454e7da5f0fc47f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2e19201f1180f2f3857b904af7276bfcfd4e4735"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8dbb67f626f28cb46df5f1efd723faa49115b41a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-image-attribute-augmentation",
+      "version": "1.0.0"
+    },
+    {
       "id": "NVIDIA/skills@physical-ai-infrastructure-setup-and-resilient-scaling",
       "trust": "trusted",
       "name": "physical-ai-infrastructure-setup-and-resilient-scaling",
@@ -20822,112 +21028,6 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-neural-reconstruction"
-    },
-    {
-      "id": "NVIDIA/skills@physical-ai-people-attribute-search",
-      "trust": "trusted",
-      "name": "physical-ai-people-attribute-search",
-      "description": "Use when running people attribute search (PAS) image augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, PAS, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/physical-ai-people-attribute-search",
-      "contentHash": "8fecfc7f",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "e310037344c5f42b6124c1e7ac4f655858f9a71f"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "0b8ad3d79cbbdde3b212d85b56f7a2a252d9548e"
-        },
-        {
-          "path": "assets/configs/osmo/augmentation.yaml",
-          "sha": "2bd19e316385d8a2f5cb8875da67282c689b21d8"
-        },
-        {
-          "path": "assets/configs/osmo/auto_labeling.yaml",
-          "sha": "afa66414e05326cb3c5fb73f552062d8a36d4bc1"
-        },
-        {
-          "path": "assets/configs/osmo/e2e.yaml",
-          "sha": "2c05008e10a235023b9651e560fe3ba9dc2dfd17"
-        },
-        {
-          "path": "assets/cookbooks/default/README.md",
-          "sha": "962f2059aaed6e7789a27591e2b0dd28db6d6562"
-        },
-        {
-          "path": "assets/cookbooks/default/augmentation_config.yaml",
-          "sha": "02b9510b58b13b2a564b7bfe86709bb7124abdb9"
-        },
-        {
-          "path": "assets/cookbooks/default/distribution_config.yaml",
-          "sha": "c7760ff2bcbf8df191cbe8b088c7dc23370b1355"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "53d31c3472bc35c7f2ab368d7e3aec94303adeae"
-        },
-        {
-          "path": "references/container-images.md",
-          "sha": "b56f8ba576d359ac81cb23ecf545d69f3ea7a357"
-        },
-        {
-          "path": "references/flows/augmentation.md",
-          "sha": "657aae432c1cd31810ece9776ea304dc21e755e8"
-        },
-        {
-          "path": "references/flows/auto_labeling.md",
-          "sha": "0d08b90f6a934eae7b8acc4a41e960f903115186"
-        },
-        {
-          "path": "references/flows/e2e.md",
-          "sha": "c8b01cdda77bb85eebd101836c289159ffe4f3a5"
-        },
-        {
-          "path": "references/nim/README.md",
-          "sha": "8056908b6608287b7c581be69a99202a26426fd0"
-        },
-        {
-          "path": "references/nim/qwen-image-edit-2511.yaml",
-          "sha": "928b4b290e73dbeb6fe7e493147b13d453e6c600"
-        },
-        {
-          "path": "references/setup.md",
-          "sha": "1eecb49cf5ff708e0cac44d82efb57fb7ce61794"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "784f115853e328662f1d38953538b1a664474df0"
-        },
-        {
-          "path": "scripts/augmentation_worker.sh",
-          "sha": "4b98d93e22b3c4735c832c43d9e2af8bddc457cb"
-        },
-        {
-          "path": "scripts/auto_labeling_worker.sh",
-          "sha": "1ad40ad71c29372c6d57e450b05e64ce81d8533d"
-        },
-        {
-          "path": "scripts/endpoint_common.sh",
-          "sha": "a9e19b5f68a4eb9b79f2c7984f4b19ffcd0f4713"
-        },
-        {
-          "path": "scripts/preflight_credentials.sh",
-          "sha": "2e8c763f98d41cd869bf2ac1970459d7a996e08a"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "017ffdcc3bc9708c41e7d3ccce5f9597fecd8914"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "cd468023d54506c505451c3450f8e9b9b5fed949"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-people-attribute-search",
-      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@physical-ai-video-data-augmentation",
