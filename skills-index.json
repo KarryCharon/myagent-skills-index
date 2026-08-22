@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787277660312,
+  "generatedAt": 1787363622689,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -29280,7 +29280,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "c48969c2",
+      "contentHash": "15c253a9",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -29324,7 +29324,7 @@
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "6a0050a7d41327e17b5f306ddb5de009a1ce4127"
+          "sha": "60c478842f4aa4356f122ac70f7803a4385c8f8a"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -29368,7 +29368,7 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "8a361fa95c23db99e1fa76d79d70c0b3c06940a7"
+          "sha": "55c69c6707607ad8cfa01940120910a2397457f4"
         },
         {
           "path": "src/commands.ts",
@@ -29500,7 +29500,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "40d5b6c62c32da7e97fc1d1c8fe2a2c226ed9c57"
+          "sha": "47c2e2e4df82b2c0236a42a4d307f420f6900338"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -29552,7 +29552,7 @@
         },
         {
           "path": "src/token-registry.ts",
-          "sha": "23c9a388fb9fa406ce8bfc7c4b6ef34028e5c894"
+          "sha": "89b0a990c31e26188275295e3d2d60f5908c5033"
         },
         {
           "path": "src/tunnel-denial-log.ts",
@@ -29896,7 +29896,7 @@
         },
         {
           "path": "test/pair-agent-e2e.test.ts",
-          "sha": "5a59dce4ee5e009209b92b1f3834b84d7ba7bb78"
+          "sha": "3891c3c118c9f77dde1061469ebe211a374395f1"
         },
         {
           "path": "test/pair-agent-optin-gate.test.ts",
@@ -30016,7 +30016,7 @@
         },
         {
           "path": "test/server-factory.test.ts",
-          "sha": "474fa17e74d03f9b659191770adf34d8a54974a0"
+          "sha": "b6c1dc44d96a8cbfa950b860a8eced6f8cb8ecfa"
         },
         {
           "path": "test/server-flush-trackers.test.ts",
@@ -30128,7 +30128,7 @@
         },
         {
           "path": "test/tab-isolation.test.ts",
-          "sha": "b995bb4e3cc9620dcde8b4da70eef5e9c50b4e37"
+          "sha": "698dd1ac8b0c750df4d03632925195e6458e1118"
         },
         {
           "path": "test/tab-session-frame-detach.test.ts",
@@ -30192,7 +30192,7 @@
         },
         {
           "path": "test/token-registry.test.ts",
-          "sha": "fb5adbfa2a8692b2ddf3367e1b64ad5ea3ba4914"
+          "sha": "3d2639b83b4f3b829c3a127d395dba3bd847fcaa"
         },
         {
           "path": "test/tunnel-gate-unit.test.ts",
@@ -30200,7 +30200,7 @@
         },
         {
           "path": "test/tunnel-revoke-cli.test.ts",
-          "sha": "0f5d9b94dd8df8af3c087069abf9c54f6bbc2a37"
+          "sha": "251c128808b49c3dbbf5b1f4aa812cce33dbb365"
         },
         {
           "path": "test/url-validation.test.ts",
@@ -31372,15 +31372,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "pair-agent",
-      "contentHash": "db29f66a",
+      "contentHash": "3dda88f2",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8650396e650717dff06fb84b924fe60bb46d281b"
+          "sha": "2f82460685eef839dbc39585d14c49ed1a1f242b"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "188bc5e91145be54b9eca219fd67f26716c7cb7b"
+          "sha": "2f66ec44b63ba24e6a0ba4023a042f66342edefc"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/pair-agent"
