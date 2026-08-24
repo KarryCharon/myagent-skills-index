@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787363622689,
+  "generatedAt": 1787598134150,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -16909,19 +16909,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-mbridge-perf-sequence-packing",
-      "contentHash": "518c1109",
+      "contentHash": "eedb7359",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "fd76567f0737ac2dbf44ca8080594d17a4ec3176"
+          "sha": "6b3edd9f0baab27e030af90b2d9603a3512ac0cf"
         },
         {
           "path": "SKILL.md",
-          "sha": "c1f8f61c3163f7cc45e773ecef9a50e03a4cd837"
+          "sha": "2c57721f16e46104b106951db0fb7edfb3dcc395"
         },
         {
           "path": "card.yaml",
-          "sha": "e19fdc93b831f113b64d0cc1cf857af3d0135e73"
+          "sha": "4956a591d0f9eb0d4e6faf81cd6813a3895942af"
         },
         {
           "path": "evals/evals.json",
@@ -16929,11 +16929,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b4da121247e7764b204e44304e424af968b8775a"
+          "sha": "9c14de9837636463aec1afb9687cdc85e75c6229"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f927fd0aa3ec5dbc25e9aaad29c7c154aa8b9c69"
+          "sha": "63829267335e2263fe9f24b8d0bf7f65db19ba8d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-mbridge-perf-sequence-packing"
@@ -17090,15 +17090,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-relay-get-started",
-      "contentHash": "efb47d23",
+      "contentHash": "c209f273",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "af9a9466fbae94115bddefdb1284d2a0e986075b"
+          "sha": "5429a29a0b912e9d5411fa6a950876850ab5cea9"
         },
         {
           "path": "SKILL.md",
-          "sha": "a85ea5e5603cd12294b9c69e415b29020c0531cf"
+          "sha": "5ffdafd2b2428cb23a946043885c143e71fd49b9"
         },
         {
           "path": "evals/evals.json",
@@ -17118,11 +17118,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "0fa7f13e0f979e742f853f46bfc1cad818008c72"
+          "sha": "ab673effd368bf1c5fdd6df81aba2f9dd8379a6c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7fab99af1cd3e43f2b0dd5e75de678fc62baf443"
+          "sha": "43e584571990050ccb3d21bdbd00fed1eccb59d7"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-relay-get-started"
@@ -19824,15 +19824,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/omniverse-usd-performance-tuning",
-      "contentHash": "630810ba",
+      "contentHash": "0712b2af",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2114af57467782c138b9f96861213b8550491e92"
+          "sha": "3fdd32852870f82d8c095a88e2c9f51b23ab9490"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "8a2a9b66dd22fa96bd63a57f86a11038d8a7b651"
         },
         {
           "path": "SKILL.md",
-          "sha": "3b857c72b8f85051397e55fe9dc2ee1121717f82"
+          "sha": "d882f32f579f0698edf76a9c7182fe3a64720ab6"
         },
         {
           "path": "agents/openai.yaml",
@@ -19840,7 +19844,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "818f7d0d2628428caf244a2845f3beebd91d3f8b"
+          "sha": "04c5662ecbf95cf96160eff252385deb3b91eb60"
         },
         {
           "path": "references/_shared/standard-instructions.md",
@@ -19849,6 +19853,10 @@
         {
           "path": "references/_shared/standard-output-format.md",
           "sha": "d72ce87d753186767e8bb49a3ebf7f8830291ef3"
+        },
+        {
+          "path": "references/briefing-the-skill.md",
+          "sha": "eb68dde23710823af150322866c8e2c856d1d184"
         },
         {
           "path": "references/cad-conversion/README.md",
@@ -19860,11 +19868,11 @@
         },
         {
           "path": "references/compare-profiles.md",
-          "sha": "802ff9d6ce092129d62bdd324eb39317538ad8ee"
+          "sha": "ec2232bf5211a5c74527ae4422b5a4a2074dd356"
         },
         {
           "path": "references/compare-profiles/README.md",
-          "sha": "b0d39a0062c8f06d42b8e6306df19a5175857803"
+          "sha": "b790ce9d02eaf7a7872aecec766db811cf82f01b"
         },
         {
           "path": "references/omniverse-authentication/README.md",
@@ -19872,39 +19880,43 @@
         },
         {
           "path": "references/operations/CLASSIFICATION.md",
-          "sha": "4629bba0e1c997d5e8f369ceffd50cd15a01fe32"
+          "sha": "76c483b46e8cd103162118b6b7da58dbb941376c"
         },
         {
           "path": "references/operations/EXECUTION.md",
-          "sha": "29114aa0902350631e3d0a9020c394c87a3d278d"
+          "sha": "ceaef39cbea05577caf94ef71bb300c2b2cfd5c0"
         },
         {
           "path": "references/operations/README.md",
-          "sha": "89b2b4fbc1158359349baed24f75c12a8415efad"
+          "sha": "2168822a3c9bc05b7ccb2d6847358debfbd34ae4"
         },
         {
           "path": "references/operations/operations.json",
-          "sha": "492ee67220d4a06cc4884d9305ef649563cfc247"
+          "sha": "9dcf4b469ef1644e229478dfc55fd932f7126f79"
         },
         {
           "path": "references/operations/probe-snapshots/usd-optimize-1.0.4.json",
-          "sha": "807b8cf0c69f96ec02243ce3448672d994dbac8e"
+          "sha": "080fde4ac00824fb6c252526ea20b8f0bbfb627e"
         },
         {
-          "path": "references/operations/probe-snapshots/usd-optimize-1.1.1.json",
-          "sha": "e1d75375146164622ab131fedda8714ea49e52bb"
+          "path": "references/operations/probe-snapshots/usd-optimize-1.1.0.json",
+          "sha": "ef9262d18a45b09fde98cfecc23c8f9cd521923c"
+        },
+        {
+          "path": "references/operations/registry-args.json",
+          "sha": "261a5717b76a366522f104e0eeb39c05a1a32b49"
         },
         {
           "path": "references/operations/scripts/operations.schema.json",
-          "sha": "98ed90cbfefc66297c3f9e870b2a6d4ace38c82a"
+          "sha": "5e51bb00258ae189b8c60b6cc6c3c01a914f475f"
         },
         {
           "path": "references/optimization-report/README.md",
-          "sha": "df8c0952141fea28cf2c795962f2333a3fa017e8"
+          "sha": "083b202cce2abeb222c68aeeb9b30b2a14724966"
         },
         {
           "path": "references/optimization-report/references/optimization-report-template.md",
-          "sha": "9b9b97a2f5bae28196cc0b87197a4664d17fd38e"
+          "sha": "92c630f363f2cec3a5865e0124684ae2d4c3f502"
         },
         {
           "path": "references/optimization-report/scripts/descent_convergence_common.py",
@@ -19912,23 +19924,23 @@
         },
         {
           "path": "references/optimization-report/scripts/optimization-report.schema.json",
-          "sha": "3262328809febf28572b8fd8caf93c419bc50f9f"
+          "sha": "055017909d7beae6851e77b7c4bafe5d40977e00"
         },
         {
           "path": "references/optimization-report/scripts/test_validate_report_descent.py",
-          "sha": "ce09473ff6bb2cda5000ffe092491cba9c944390"
+          "sha": "9e56f0be1e2861414811250f098f136ef583a316"
         },
         {
           "path": "references/optimization-report/scripts/validate_report.py",
-          "sha": "a00baa22ee33b589da203dd6148f3c9ddee7f592"
+          "sha": "286824fe8380dc9e73f5023d24658397f8e5e0e6"
         },
         {
           "path": "references/output-workspace.md",
-          "sha": "90d2a6d33f5fbd6fafc2fe11cc5c5969eb215e56"
+          "sha": "f117926f57a730526cd3ec2750e54fb892553551"
         },
         {
           "path": "references/profile-stage/README.md",
-          "sha": "6d5e1cb565fcbbadfe981040d8c9b1e06c54e1ea"
+          "sha": "5ee11de9306429d1b905fa99680d4798d66f2c11"
         },
         {
           "path": "references/report-templates/README.md",
@@ -19944,11 +19956,11 @@
         },
         {
           "path": "references/report-templates/optimization-report.html.template",
-          "sha": "a810ec7e55d36b6a713c74746b57d8fb8d93dc73"
+          "sha": "166e5469cb582811b6c88f6017869d31d21df95f"
         },
         {
           "path": "references/report-templates/optimization-report.md.template",
-          "sha": "75fbab1ae77ff933a5d6bca876b1370f3567d454"
+          "sha": "777254e9efd3decee86f83fac21cb89323eed3b6"
         },
         {
           "path": "references/report-templates/optimization-report.structural-only-fixture.json",
@@ -19956,15 +19968,15 @@
         },
         {
           "path": "references/report-templates/render_preview.py",
-          "sha": "91ef1982df2354d7521a6eb22cf6067025696ef8"
+          "sha": "7aca48c73d21e59695e38db80e9152de62752871"
         },
         {
           "path": "references/runtime-artifact-token-budget.md",
-          "sha": "d7a92525e92c3f4ed0725ebc088715ff782f980c"
+          "sha": "698c57e3aeded48bfd050ad7675b56fa22e58797"
         },
         {
           "path": "references/setup-usd-performance-tuning/README.md",
-          "sha": "f92ca7893148481d57ceb8dcc20ab7462a681a1a"
+          "sha": "d3d40189e285a3f85b46a32cb0e5c645360fc759"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/install-kit/README.md",
@@ -19972,11 +19984,11 @@
         },
         {
           "path": "references/setup-usd-performance-tuning/references/install-usd-optimize-standalone/README.md",
-          "sha": "39793da9881c12289fa840b878056fd07711217d"
+          "sha": "66a1bf4717bc3b72f3e019db7ffce3b0d070af8d"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/install-usd-validation-nvidia-standalone/README.md",
-          "sha": "b351609bc671b999142ebd2a855490aeb1e831c4"
+          "sha": "674d1257f42109fab2dccf069ac79480afb2a906"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/kit-discovery.md",
@@ -19984,19 +19996,19 @@
         },
         {
           "path": "references/setup-usd-performance-tuning/references/runtime-context-header.md",
-          "sha": "a8714352c10268638f05d1388c433b762eef0852"
+          "sha": "cea8040140a219eda6fff79f6a75997d595f5063"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/runtime-probe.md",
-          "sha": "929b2cae03392e189cc3410f62d4fc963d68690e"
+          "sha": "5df72048c4d880a52e8c4b947fbbe370684f2991"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/so-validator-auto-registration.md",
-          "sha": "9762eaccbd5e870f49840e5c13500ca43c6e9887"
+          "sha": "ce69ea39ace66da1cb9b71020a53307cb86f8854"
         },
         {
           "path": "references/setup-usd-performance-tuning/references/standalone-runtime.md",
-          "sha": "2f1b3842f6d140b0e93e72f8306b2a59e60d78da"
+          "sha": "401160d386b5f0f77ef9913527415e052dcaceb1"
         },
         {
           "path": "references/setup-usd-performance-tuning/scripts/probe-snapshot.schema.json",
@@ -20004,11 +20016,11 @@
         },
         {
           "path": "references/setup-usd-performance-tuning/scripts/setup-preflight.schema.json",
-          "sha": "db5bef24b010a661cde9eeb90f4fac7bbfff19e0"
+          "sha": "2a11e71a60b77195835ffc8588ec53dfca87b687"
         },
         {
           "path": "references/skill-map.md",
-          "sha": "444671300d90d60e7dc837b06f59744e1dbd925b"
+          "sha": "d87fd8008e4559af0e45706ed4599c76d8803b2e"
         },
         {
           "path": "references/upstreams/README.md",
@@ -20016,11 +20028,11 @@
         },
         {
           "path": "references/upstreams/usd-optimize.md",
-          "sha": "368db5fb4496dc3671de32e8f0f73b797321697e"
+          "sha": "28a01b8ea92bfe6e6796950fe4a73d1c2926f69e"
         },
         {
           "path": "references/usd-optimize-run-operations/README.md",
-          "sha": "57588d910d31b1937a59e47304ef2feda34583c3"
+          "sha": "352ab237bb8a4e2e78a681e1a57577e2cf500f40"
         },
         {
           "path": "references/usd-optimize-run-operations/references/batch-mode.md",
@@ -20028,7 +20040,7 @@
         },
         {
           "path": "references/usd-optimize-run-operations/references/config-from-evidence.md",
-          "sha": "884c3c89d0a381171a70f2b552dfc0d8bda7249b"
+          "sha": "555adb08c623b86db746440ffce88d1a17d90210"
         },
         {
           "path": "references/usd-optimize-run-operations/references/invocation.md",
@@ -20036,7 +20048,7 @@
         },
         {
           "path": "references/usd-optimize-run-operations/references/operation-safety.md",
-          "sha": "41e14ff49bf9bd02a4ce837b79c0fafb9bd5184d"
+          "sha": "a85676f23621c470170ece9131e4c301bd2ec4ad"
         },
         {
           "path": "references/usd-optimize-run-operations/references/pipelines.md",
@@ -20044,7 +20056,7 @@
         },
         {
           "path": "references/usd-optimize-run-operations/references/units-and-tolerances.md",
-          "sha": "e700d7eef677343058a7e42f127508d2bab94d15"
+          "sha": "0836212511e6ad93dbfc66b4084996c626235eab"
         },
         {
           "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/README.md",
@@ -20080,7 +20092,7 @@
         },
         {
           "path": "references/usd-structure-assessment/README.md",
-          "sha": "e7517564cc9b52f9c6462f3e83fc874ca9f74b7c"
+          "sha": "bef299030d5e5a91551efdf79bc564092d6ad664"
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/README.md",
@@ -20088,11 +20100,11 @@
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/references/mesh-merge-rewrite-spec.md",
-          "sha": "0ad3d202e931e1a7635e37bb0f420a8a3c6cddad"
+          "sha": "4eda5bd22485b7a57b3897af2427c191a62cc6f4"
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/references/ref-remap-mode.md",
-          "sha": "a378f514a5a038180a353f273a65159abc893aed"
+          "sha": "0ac48f27073829c9a07772fe64db5e22386cf0bb"
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/references/restructure-mode.md",
@@ -20100,7 +20112,7 @@
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/scripts/apply-restructure-manifest.schema.json",
-          "sha": "6de093f945ac2adaa4b1bc8ef175ded181cc115a"
+          "sha": "f420d3cee0e3cfc0b80ab7e2c071c86db3b3a802"
         },
         {
           "path": "references/usd-structure-assessment/references/asset-structure-principles.md",
@@ -20136,7 +20148,7 @@
         },
         {
           "path": "references/usd-structure-assessment/references/restructure-decision/README.md",
-          "sha": "0fa0f5cc1359a48b045210862e26788621e68265"
+          "sha": "de62b8d6a00e586d72f29b65de8c1e2855239ff2"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-edit-target-planner/README.md",
@@ -20156,15 +20168,15 @@
         },
         {
           "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/references/instance-candidate-finder-spec.md",
-          "sha": "a698bfafdaab28dec256625851b3728be3f8a9fd"
+          "sha": "7aa65ef594001173877d143bd9930325a0302fa3"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/scripts/instance_candidate_finder.py",
-          "sha": "446c0b81417f22f168bab5491eafde551e65d16a"
+          "sha": "440067c18b681e54e02b6e8c0b56d2d77a23ffa2"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/scripts/select_frontier.py",
-          "sha": "690ccaead79b0a7cb465ed1cfd7b60e6623fd0b3"
+          "sha": "2506d6deccd9810d1534fbad574b804c5165896e"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-mesh-fragmentation-candidates/README.md",
@@ -20176,7 +20188,7 @@
         },
         {
           "path": "references/usd-structure-assessment/references/usd-mesh-fragmentation-candidates/scripts/mesh_fragmentation_finder.py",
-          "sha": "4ac77ce9a65ac2f1d2abd5b2911d4a0c1fd78e0d"
+          "sha": "91dd41b9b96f04c0c87e4c73d077142394f81ced"
         },
         {
           "path": "references/usd-structure-assessment/scripts/audit-report.schema.json",
@@ -20192,11 +20204,11 @@
         },
         {
           "path": "references/usd-validation-runner/README.md",
-          "sha": "6a8d22f8543c9f248e3ca3dca02a3d199a87edfc"
+          "sha": "4636e2596d49ba6a877560e49d0d818f08849e2b"
         },
         {
           "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/README.md",
-          "sha": "df0f227bacb9c57cb5d8788bd04d682a9a872a25"
+          "sha": "cd048756222c807b0d4d536571854d4de8d9a73f"
         },
         {
           "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/references/follow-up-queries.md",
@@ -20204,27 +20216,27 @@
         },
         {
           "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/references/rule-reference.md",
-          "sha": "428dc9a458851a0a0606c2bf62da95f5f9a022c1"
+          "sha": "5d77c3cf02d8a7bf37e2e0f48598fc35bf3f2c37"
         },
         {
           "path": "references/usd-validation-runner/references/usd-optimize-run-validators/README.md",
-          "sha": "a093039e5828c50033b4a8233185cb5ddd2e028b"
+          "sha": "d8a5a8e68c9bd1853ce417bb64dbea0a1846f5d4"
         },
         {
           "path": "references/usd-validation-runner/references/usd-optimize-run-validators/references/infrastructure.md",
-          "sha": "a2df5189591b2ce40b3a6e1f1525085667d8cdac"
+          "sha": "88987397c87df788eec17efba980ba83acd40824"
         },
         {
           "path": "references/usd-validation-runner/references/validate-usd-validation-nvidia.md",
-          "sha": "1b238d7f8f77da85a929fd7e3e0693cf358f0ffd"
+          "sha": "da6843e55764510f75e0ec954c7f6274f19890e2"
         },
         {
           "path": "references/usd-validation-runner/references/validator-concepts.json",
-          "sha": "4d78690c4182452b451eaa1cc4140be520e3c542"
+          "sha": "b97cb3bbda1605b9ca6cb04a9547b2da41913a8e"
         },
         {
           "path": "references/usd-validation-runner/scripts/usd_validation_executor.py",
-          "sha": "3fc28a7a72867f0792555f705a5ae7eb3f39eb49"
+          "sha": "c3e9b814887aa4fafdaa9d9665aea3942e7f36a4"
         },
         {
           "path": "references/usd-validation-runner/scripts/validation-report.schema.json",
@@ -20232,23 +20244,23 @@
         },
         {
           "path": "references/usd-validation-runner/scripts/validation-scope-note.schema.json",
-          "sha": "d620a0486203bba31e6f54e53f47ce91927e2b49"
+          "sha": "ce2cbc275b3d6c3626fb08c86fb4c0689a26138a"
         },
         {
           "path": "references/usd-validation-runner/scripts/validator-concepts.schema.json",
-          "sha": "a0d95cb1e15dafb8a2eeded791b35c06efd9cf05"
+          "sha": "76a29060a3f83a78d4fe5a84320ff50a2b5538c7"
         },
         {
           "path": "references/workflow.md",
-          "sha": "3a90227a4471bb350d4597f9674074a653af1c89"
+          "sha": "bab76754006724f3e80da1d9dae70ccfcb5313de"
         },
         {
           "path": "skill-card.md",
-          "sha": "2fe14d117b76cf49706fdde1d442954146defeec"
+          "sha": "21080ad7234f28d27a6b0685a6336d59ad2235d0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "432edcb9325036e5f43752a9da101e1e027a6f00"
+          "sha": "f9a24369dc1b49e48c56dca8e8bb3338f4099790"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-usd-performance-tuning"
@@ -30645,7 +30657,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "gstack-upgrade",
-      "contentHash": "66f6a1f0",
+      "contentHash": "90270cac",
       "files": [
         {
           "path": "SKILL.md",
@@ -30677,11 +30689,11 @@
         },
         {
           "path": "migrations/v1.27.0.0.sh",
-          "sha": "021c6a5661b0f17da1e5ccd7f4a1237c79d05411"
+          "sha": "65ac82890b109924b3fa5fc928ae56df40bab622"
         },
         {
           "path": "migrations/v1.37.0.0.sh",
-          "sha": "b173f5844a7392300f9e8925b78280753863884a"
+          "sha": "b60b8530c2e7184d2c919e8304592f2253bdd577"
         },
         {
           "path": "migrations/v1.38.1.0.sh",
@@ -31026,15 +31038,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "e9ff4940",
+      "contentHash": "050bf0a9",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b4121d972a8f17d4361ceb533d500cbe8d07b303"
+          "sha": "a6079237d59359ab81dd698a013bacda46c47e46"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4a45510380d5e4fb1c40d3bf9be26a4f779b162a"
+          "sha": "b43fbf39dece2969e37c5ec5241bff0a1f8a538c"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/land-and-deploy"
@@ -31089,7 +31101,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "cf00cba6",
+      "contentHash": "f1262cfe",
       "files": [
         {
           "path": "SKILL.md",
@@ -31101,7 +31113,7 @@
         },
         {
           "path": "src/browseClient.ts",
-          "sha": "099760c8c0b689b5377c63ffc550ee93d14ba61c"
+          "sha": "9ab8d6e9c2c7ed1e8d0f77364d33d33d16bc607d"
         },
         {
           "path": "src/cli.ts",
@@ -31153,7 +31165,7 @@
         },
         {
           "path": "test/browseClient.test.ts",
-          "sha": "b59068e8ba7fed5a47c93c435ea69f4a11f3b333"
+          "sha": "4bf6f1687511c41a53b7fcd5103cf79ad600d993"
         },
         {
           "path": "test/cli-args.test.ts",
@@ -31749,15 +31761,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-gbrain",
-      "contentHash": "7f2d87e3",
+      "contentHash": "fc5e9b70",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8c2c6efccf3269c05509b2ae4e14a4f002c6d4bc"
+          "sha": "327184b08ef1ef7b039ab22f8b174f2ed8c4c925"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "3636a4f9b77f896e9fa02758b8d0d9554598a53b"
+          "sha": "8115f9d87235c0f1e5e975ec0a506613e6092b3d"
         },
         {
           "path": "memory.md",
