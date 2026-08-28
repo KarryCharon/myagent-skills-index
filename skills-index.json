@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787869128731,
+  "generatedAt": 1787916490118,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7967,71 +7967,71 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cuopt-server-api-python",
-      "contentHash": "8ecf7a59",
+      "contentHash": "69375abe",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "cc0dda87e037ac9f3a532a7d7c6af3d05bce79b7"
+          "sha": "a0e3db287ca65b2676e264baa716f04e193bd902"
         },
         {
           "path": "SKILL.md",
-          "sha": "ffaee3f792348da3c25a66e572ffdc1246056cb7"
+          "sha": "d952e856e7def7d60539b10b9dc053e4c3d506e5"
         },
         {
           "path": "assets/README.md",
-          "sha": "1389f3eb7b4e473a500073ce4440d9d79072fd46"
+          "sha": "0bc8fb2821b5ce3ebd3b680a54e996f7472fc074"
         },
         {
           "path": "assets/lp_basic/README.md",
-          "sha": "34c10fb35013f41a1e7237ebf60b9165fff108ae"
+          "sha": "ad313bf0b9733d9feaaa24270f5f813687793574"
         },
         {
           "path": "assets/lp_basic/client.py",
-          "sha": "bca7b1529529e97b693b148c084674e22762853c"
+          "sha": "8d15502c23401eb71be2563d31cd13995459e600"
         },
         {
           "path": "assets/milp_basic/README.md",
-          "sha": "e490840557a9a4e3755fec002155555c0c93cd63"
+          "sha": "8f528865c1703b294c724f4665e12fd4a59386f5"
         },
         {
           "path": "assets/milp_basic/client.py",
-          "sha": "1c18de60e9e55bdee0455e933ef72b1a18966b17"
+          "sha": "998cadd91300150ef433e0f2fe04bcbce541374e"
         },
         {
           "path": "assets/pdp_basic/README.md",
-          "sha": "ca6c174c6ce076db66767fb3459e8a80024c68b1"
+          "sha": "e5c8a5aabb1843c3b044848e569e74f2486b47b8"
         },
         {
           "path": "assets/pdp_basic/client.py",
-          "sha": "52e5290988ab49e2a5b7d4019f71393b1c724830"
+          "sha": "c3cb1fc0a93b2455f0211d31bfd8b158e2c159b0"
         },
         {
           "path": "assets/vrp_basic/README.md",
-          "sha": "84b46f72406d9970720b6f0d4463fb811ae3e81a"
+          "sha": "35c2d6859e9e1374159e1fbcda79bc064be86fcb"
         },
         {
           "path": "assets/vrp_basic/client.py",
-          "sha": "9285eb05cdfd678bb5b56563ddf8e2a40bc0ba83"
+          "sha": "dce9eb8ba9245c0a1e5eb20bb00c1172895e2855"
         },
         {
           "path": "assets/vrp_simple/README.md",
-          "sha": "f9de54a24c6f36503db3207a770cc39eba4735f8"
+          "sha": "77af6d1869e0dbb5c6328447d48b6422ea489ceb"
         },
         {
           "path": "assets/vrp_simple/client.py",
-          "sha": "35f37f5c7228c7093b9afde65901b99e5a09db78"
+          "sha": "029752de39ef5d443e59cb21f8e9d95c1da87762"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c4d43365bc5d4ca1d3da4c11c275147aea28eb74"
+          "sha": "a741499cee4cb51a82f17063d45a3ab3bf3891b8"
         },
         {
           "path": "skill-card.md",
-          "sha": "e8754b2d764c4f03bd77ff0680a2d149ca573d63"
+          "sha": "15ed0b683f1dae311f8e52a4fd42544ab0a7beac"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7a336c4da8ae8782f797410f9696b4f7e8a079b2"
+          "sha": "42caf467000a359dd687ec178d717482e2981f64"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-server-api-python"
@@ -21449,15 +21449,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/portfolio-optimization",
-      "contentHash": "8c3fe25f",
+      "contentHash": "d7ac9d1f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "140ea77c3f7578b27e15dc519473102af2803a2a"
+          "sha": "28fe5b1f3c3c02f42a7c23c3ea216ffdc840a4e6"
         },
         {
           "path": "SKILL.md",
-          "sha": "40a8f662a02eebc97a57b757435591b88b332425"
+          "sha": "c57901ef04461252d23b5b74c38b3684c2a1aead"
         },
         {
           "path": "evals/EVAL.md",
@@ -21465,11 +21465,11 @@
         },
         {
           "path": "evals/evals-full.json",
-          "sha": "c04c2bdbbd72681f8e49a1c0ab610dd91dfb74c5"
+          "sha": "d711737453790b1f05fba4338a4d2c3b2d988f60"
         },
         {
           "path": "evals/evals.json",
-          "sha": "9aa427648e1f34ad669f0480d2d8aecca9bad53e"
+          "sha": "e70749245e0a48d9d4fc07f172ef785c902be3b9"
         },
         {
           "path": "references/workflows/agent_recipes.md",
@@ -21477,11 +21477,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "7f55a4989798aaa8cfe269ae1c2c85c189f8edda"
+          "sha": "c9335fe901a18e7b737b05b2cf43a17c7a98dd62"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4bcfbd70f659c7302bc2dd9a3523f52aae897ecd"
+          "sha": "f8bc0581e407099506c28e2a5bfbf540f418907d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/portfolio-optimization"
