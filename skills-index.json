@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1787955824835,
+  "generatedAt": 1788021952636,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -29344,7 +29344,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "0abf514b",
+      "contentHash": "a20affc5",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -29400,7 +29400,7 @@
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "60c478842f4aa4356f122ac70f7803a4385c8f8a"
+          "sha": "5a380071806a52508e67575b4ac63385ec242780"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -29484,7 +29484,7 @@
         },
         {
           "path": "src/file-permissions.ts",
-          "sha": "6d2512502314d5df1d63b485a2e6b6451fb447fa"
+          "sha": "01a14f529c2b93975aa0c2041ea18f8eca15e21f"
         },
         {
           "path": "src/find-browse.ts",
@@ -29576,7 +29576,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "47c2e2e4df82b2c0236a42a4d307f420f6900338"
+          "sha": "f0823cc973883deb0f48b04649c2f0605277594f"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -29664,7 +29664,7 @@
         },
         {
           "path": "test/batch.test.ts",
-          "sha": "452f60e08f463cd61a0ec90ca0f8b8eeb4f3beb9"
+          "sha": "f8d924f5ba82e8dfdcebd054f3a43b4923ccede7"
         },
         {
           "path": "test/bridge-chromium-e2e.test.ts",
@@ -29684,7 +29684,7 @@
         },
         {
           "path": "test/browser-skill-commands.test.ts",
-          "sha": "c93a908e2ec86215fc9f5e7db59165b0c2fdd687"
+          "sha": "9d200e10d1667552fc74865d6e7bd70422f45fdf"
         },
         {
           "path": "test/browser-skill-write.test.ts",
@@ -29724,7 +29724,7 @@
         },
         {
           "path": "test/cdp-e2e.test.ts",
-          "sha": "c2d731350fe63734f251deada3e0e76c016024dd"
+          "sha": "d5d2e26c1b8f08bf531dd4b4bed06b85d153458e"
         },
         {
           "path": "test/cdp-inspector-history-cap.test.ts",
@@ -29760,11 +29760,11 @@
         },
         {
           "path": "test/commands.test.ts",
-          "sha": "83ae4707cc8db7ddc8b2fe163a491d16a2ee51ab"
+          "sha": "762dda6749ca2fd0cef7dab4e04b2deac4365ba4"
         },
         {
           "path": "test/compare-board.test.ts",
-          "sha": "10130d94bcfc758ccfbed3c7d6fcb9f6f560eeda"
+          "sha": "664e3e38084c989275ba5e6f14bbf2f810982e76"
         },
         {
           "path": "test/config.test.ts",
@@ -29772,7 +29772,7 @@
         },
         {
           "path": "test/content-security.test.ts",
-          "sha": "69de52497df208a77c9bcc1165f904788f411649"
+          "sha": "823a90294119a91df60acd0cb75ddc48a23087de"
         },
         {
           "path": "test/cookie-import-browser.test.ts",
@@ -29796,11 +29796,11 @@
         },
         {
           "path": "test/domain-skills-e2e.test.ts",
-          "sha": "29d33c4bc821a39cc74c6f1cbbda86894f861491"
+          "sha": "4347e6c167a4a604006258664fe836ca9b60b798"
         },
         {
           "path": "test/domain-skills-storage.test.ts",
-          "sha": "df53d8bc9230eede65e3070d08c0f333f0b07d23"
+          "sha": "07a0a3d4ca6a6e250e95b0a4e9ea45409c10db6c"
         },
         {
           "path": "test/dual-listener.test.ts",
@@ -29816,7 +29816,7 @@
         },
         {
           "path": "test/extension-sender-auth.test.ts",
-          "sha": "238356abf2c0529d2a53241a09817146bca75cd4"
+          "sha": "ba5d4781cf9264021e921ea3184a740afd4799dd"
         },
         {
           "path": "test/extension-token.test.ts",
@@ -29828,11 +29828,11 @@
         },
         {
           "path": "test/file-permissions.test.ts",
-          "sha": "f3e1ea72700bef1da5064ad0a7ece942afbff165"
+          "sha": "057d164fd2ccecb6ad1fa4fc62a9904ad83d79f6"
         },
         {
           "path": "test/fill-change-event.test.ts",
-          "sha": "c11c88e10dd8583012f43bdcb8b49ab47dc7a96e"
+          "sha": "6209b67d5a56abcf290a97f914558358239d50b8"
         },
         {
           "path": "test/find-browse.test.ts",
@@ -29952,7 +29952,7 @@
         },
         {
           "path": "test/handoff.test.ts",
-          "sha": "22d87b3af7cbac81cca1259eba297ecfe362e88d"
+          "sha": "bbdee9e51b7778769390bc0fdd50f7dd1a4f7643"
         },
         {
           "path": "test/launch-signal-flags.test.ts",
@@ -29961,6 +29961,10 @@
         {
           "path": "test/learnings-injection.test.ts",
           "sha": "17dd33713e523a755c73514117cdf9e7edca1972"
+        },
+        {
+          "path": "test/media-extract-unit.test.ts",
+          "sha": "9bd20865604659c50b1f3e166447e770fb7ccb15"
         },
         {
           "path": "test/memory-command.test.ts",
@@ -30072,7 +30076,7 @@
         },
         {
           "path": "test/security-live-playwright.test.ts",
-          "sha": "4150739771ba2269a1bb459e373d955e3938b762"
+          "sha": "131f58441cb40d42e7ac0769ca3a33a694f90948"
         },
         {
           "path": "test/security-sidecar-client.test.ts",
@@ -30127,8 +30131,12 @@
           "sha": "4234ae1ba051e462694be6af70f9d95c2d0c00c0"
         },
         {
+          "path": "test/session-cookie-store.test.ts",
+          "sha": "a9e90f8e97253177d886ec88e3a1d41f974e37ec"
+        },
+        {
           "path": "test/session-persist.test.ts",
-          "sha": "88f98a26bd3277f850d9d95e77074ffe33e76c74"
+          "sha": "bf7bfa8bdec2633d160ff4122f33ede8869f283a"
         },
         {
           "path": "test/sidebar-tabs.test.ts",
@@ -30156,7 +30164,7 @@
         },
         {
           "path": "test/snapshot.test.ts",
-          "sha": "96a8b170eac0139822f5b0d056474a761caace23"
+          "sha": "61a28290e0177811e461966e84276606358b3d09"
         },
         {
           "path": "test/socks-bridge.test.ts",
@@ -30192,7 +30200,7 @@
         },
         {
           "path": "test/stop-dead-daemon.test.ts",
-          "sha": "b92a669d33afa465574434689dc65cdad747443e"
+          "sha": "e8ededa43e57419dac4f67780dfa81e3f99cadea"
         },
         {
           "path": "test/tab-each.test.ts",
@@ -30216,7 +30224,7 @@
         },
         {
           "path": "test/telemetry.test.ts",
-          "sha": "d3cd3219c99f01c093d587efdf49b337d7a2e9cc"
+          "sha": "71a182eee36f3569403bc0a1e09d1ebc527c90fb"
         },
         {
           "path": "test/terminal-agent-detach-reattach.test.ts",
@@ -30236,7 +30244,7 @@
         },
         {
           "path": "test/terminal-agent-owner-watchdog.test.ts",
-          "sha": "e28502964d1653070ec31ef09455703af378f430"
+          "sha": "386718d2cb3aec45da1ae52277ab172ccaa43426"
         },
         {
           "path": "test/terminal-agent-pid-identity.test.ts",
@@ -30288,7 +30296,7 @@
         },
         {
           "path": "test/watchdog.test.ts",
-          "sha": "56201779e1e1492d1cb62ddb866a51000a25c9ec"
+          "sha": "ff4cfb84f11927d2310332c98d2483592ae79451"
         },
         {
           "path": "test/welcome-page.test.ts",
@@ -31253,7 +31261,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "bd524a32",
+      "contentHash": "c68d7839",
       "files": [
         {
           "path": "SKILL.md",
@@ -31332,6 +31340,10 @@
           "sha": "eac3e645decb95ae959c9209802cbf64202b506c"
         },
         {
+          "path": "test/e2e/ci-prereqs.test.ts",
+          "sha": "e5618c8ff309853b8f0d2c5000d9f3872838fd7e"
+        },
+        {
           "path": "test/e2e/combined-gate.test.ts",
           "sha": "562d46e4932622c0dd2a4b9e9137814157606c0e"
         },
@@ -31349,7 +31361,7 @@
         },
         {
           "path": "test/e2e/landscape-gate.test.ts",
-          "sha": "91c4f645df2bd44b407341cb6ce828d9bd8a6221"
+          "sha": "7cc23c45a8ecdfb6155fa4829b13abc187b1760b"
         },
         {
           "path": "test/fixtures/combined-gate.expected.txt",
