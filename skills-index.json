@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788154835081,
+  "generatedAt": 1788216871903,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -9165,7 +9165,7 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-metadata-extract",
-      "contentHash": "5c50c1fc",
+      "contentHash": "f4b4004d",
       "files": [
         {
           "path": "AGENTS.md",
@@ -9173,11 +9173,11 @@
         },
         {
           "path": "BENCHMARK.md",
-          "sha": "b5d7381deb871b2289a24848b77b2206502e5d3a"
+          "sha": "de70c2cc44b230391163076d489b572402636f76"
         },
         {
           "path": "SKILL.md",
-          "sha": "63838253ffecb12aeffd14c418d1b5b69f9e787d"
+          "sha": "db83aeb2190c0f0ee72e4e05b30473579d504b13"
         },
         {
           "path": "evals/baseline.yaml",
@@ -9197,15 +9197,15 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "83143ba59252f595a953c5e67a423b9b90990205"
+          "sha": "07cc714649a08f5ce18a4899b1fbb9625fbb8e47"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f6fc6538a6f13d3b8fb1a04a7234c7632618d23a"
+          "sha": "379bfe9b51709d245000c9eb42060f00ddb115bd"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "d8445660cb5345561e6d769dcb5c2f7ac89fcf08"
+          "sha": "cffd604580db3c0ecb8636cfcc96c573cd4095d8"
         },
         {
           "path": "tests/test_basic.py",
@@ -9226,15 +9226,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-preflight",
-      "contentHash": "591832b1",
+      "contentHash": "d22be652",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "91517bde10b364f24077b89fb94d5fd91aedba21"
+          "sha": "b029626a5da010614863ddad130db7f3d690dc17"
         },
         {
           "path": "SKILL.md",
-          "sha": "b6c04f993c7c13d81138a7d53b9d9a89d4d89cd7"
+          "sha": "343b41c09bc882f4645b047eb0a17f37335cd9ae"
         },
         {
           "path": "evals/evals.json",
@@ -9250,15 +9250,15 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "ad124be19e3057a7458be71e84daee8c4e298ecc"
+          "sha": "4c3d3b6e5c57113f914dd2a488d35a5378dffecd"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "3ddfdfb6420d6c66264904b22188dd5a5b7e8e61"
+          "sha": "ca626f56141e5af3f5432544db9c16f403a79f4d"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "429e9ed6d079b4db69339ffeaf2a855b03c26fbd"
+          "sha": "3370916413b4c2eb7dbf9dbc16df5a653f13b1a9"
         },
         {
           "path": "tests/test_preflight_series.py",
@@ -9279,15 +9279,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-to-volume",
-      "contentHash": "70901af1",
+      "contentHash": "efa66020",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9a72d037d7549c33b3c54a060126942792d4f01e"
+          "sha": "9b55e23b81048040e9668abc6522f1bfa72ed01e"
         },
         {
           "path": "SKILL.md",
-          "sha": "248f507d030a2d1da7eb790e2b24ce34ee0ef0ee"
+          "sha": "77f611031c142f63fa1b0cc7d6ffe322dfba848e"
         },
         {
           "path": "evals/evals.json",
@@ -9303,15 +9303,19 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "032b834e29693c533d44deb66a62432fee365b71"
+          "sha": "beebb369ef7c29b22907e1717c0fe4b1fbed2958"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5c1940e08e4e5c3645f529e2e62ebfe64247a08a"
+          "sha": "e46bb38735f5768647a7c784f150f661dcd3dad3"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "8e03a658790d237aac7327366be9377e2ac2fb19"
+          "sha": "37fae58635bd6fbb48c667c1dcc82096278a1dc4"
+        },
+        {
+          "path": "tests/test_orientation_regression.py",
+          "sha": "f496c9e6a8c0d0fdc247c2187c0a74c3c21795d1"
         },
         {
           "path": "validators/output_schema.json",
@@ -16080,6 +16084,79 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/mcore-testing"
     },
     {
+      "id": "NVIDIA/skills@medtech-model-evidence-export",
+      "trust": "trusted",
+      "name": "medtech-model-evidence-export",
+      "description": "Exports sanitized metadata, parameters, reproducibility details, quality metrics, and optional review artifacts from Medical AI inference runs or evidence packs to MLflow. Use after inference, including NV-Generate runs; not for live training tracking, model registration, or clinical use.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/medtech-model-evidence-export",
+      "contentHash": "36b2297a",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "fe2f01e0818ce45add34a8dee03c153be75da0f5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "66bff504528c150565cd1871f6f0e6502562c47a"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4edaf30c0d6c78be9ee4d2c4e13827251d1cd558"
+        },
+        {
+          "path": "fixtures/sample_pack/integrity_check.json",
+          "sha": "e5c1a1034f71c99110345b01de54e6a3158c2159"
+        },
+        {
+          "path": "fixtures/sample_pack/manifest.json",
+          "sha": "13f3a0645710f7480303d07ec876d55a35ec9207"
+        },
+        {
+          "path": "fixtures/sample_pack/output.json",
+          "sha": "2a34aba4aecb7231edb00bd28063cd0fac9a829c"
+        },
+        {
+          "path": "fixtures/sample_pack/runtime_profile.json",
+          "sha": "d39b46c30d9c54780bddbdfc4dbeb3e5836a79dc"
+        },
+        {
+          "path": "fixtures/sample_pack/validation_summary.json",
+          "sha": "ee7b4dda1d73511b45f56d68fd7721176d8703b0"
+        },
+        {
+          "path": "fixtures/sample_result.json",
+          "sha": "a8344ac983353e4d3d20bb62ffc64fd8e7b9bfd9"
+        },
+        {
+          "path": "scripts/export_evidence_pack.py",
+          "sha": "919a4285493681057ca1f7ee5913bd2619d1a644"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4f8d1d3455123b822c25f78f12ae6e4c7aa27d72"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ef630a100f5241fe0d69839cccecd36a7f75798e"
+        },
+        {
+          "path": "skill_manifest.yaml",
+          "sha": "d84f8ee5a3dc411bf6af22b563c818b43bfda63e"
+        },
+        {
+          "path": "tests/test_export_evidence_pack.py",
+          "sha": "d1dac5b0494aa50468420aede2a5c7905d880297"
+        },
+        {
+          "path": "validators/output_schema.json",
+          "sha": "108dc269cb0a908c4aa6d2de829782b06d6c9fd3"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/medtech-model-evidence-export"
+    },
+    {
       "id": "NVIDIA/skills@nemo-automodel-distributed-training",
       "trust": "trusted",
       "name": "nemo-automodel-distributed-training",
@@ -18249,23 +18326,23 @@
       "id": "NVIDIA/skills@nv-generate-mr-brain-finetune",
       "trust": "trusted",
       "name": "nv-generate-mr-brain-finetune",
-      "description": "Used for finetuning NV-Generate-CTMR MR-brain diffusion UNet from a NIfTI datalist. Not for clinical or production data approval.",
+      "description": "Used for finetuning NV-Generate-CTMR MR-Brain v1 for T1, T2, FLAIR, SWI, or MRA data from a NIfTI datalist. Not for clinical or production data approval.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain-finetune",
-      "contentHash": "6cbc8be7",
+      "contentHash": "34719f3a",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "566799f2fc668cb862f67652cf59a76a8ae68c2d"
+          "sha": "d96d67279cbb5fa0634b852f1161d63200256020"
         },
         {
           "path": "SKILL.md",
-          "sha": "b91e8359d5509d49954897c45373f9bad43aabbb"
+          "sha": "88a6419f41f67100d53b8a4f0127a08372dacd53"
         },
         {
           "path": "evals/evals.json",
-          "sha": "ab3942a408fd5e7206c5a1cd9e82060143fb3de3"
+          "sha": "4707fee10b5581d2c950dec412bdf45e5748b38e"
         },
         {
           "path": "fixtures/README.md",
@@ -18281,27 +18358,27 @@
         },
         {
           "path": "scripts/run_mr_brain_finetune.py",
-          "sha": "d5df1bcf4d1630874d2c668b36b1e06353ca696e"
+          "sha": "39bf4b93951f7b8ac922600cc26e0d95fdd8ca27"
         },
         {
           "path": "skill-card.md",
-          "sha": "25ade1c3f892f9d539709af0a86cabecc850a27e"
+          "sha": "a1c85584e170e314fa10f6d8b4f66720a43b1ebe"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6b27c88728a8ce4ca1b6079463b8a991e4aac2a6"
+          "sha": "52790c27dafb221946eb77f0d89cd45e443b524a"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "9ad04db9f7596bb1422503cb56840aaefc243837"
+          "sha": "360eb6ff4dd30ef74d679e3744abab639111f8a5"
         },
         {
           "path": "tests/test_run_mr_brain_finetune.py",
-          "sha": "2d59ae710d0fe6b3d0d694a69c3da805f5d362f4"
+          "sha": "ddad8428a3f993d576dce78704e829762d6c25ea"
         },
         {
           "path": "validators/output_schema.json",
-          "sha": "5120097fcbfa79bed0cf09d9f4c5dc8647d0acca"
+          "sha": "d00fa2f79fb3bcc998f62a60a0c4b8c4f661f926"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-generate-mr-brain-finetune"
@@ -18310,67 +18387,71 @@
       "id": "NVIDIA/skills@nv-generate-mr-brain",
       "trust": "trusted",
       "name": "nv-generate-mr-brain",
-      "description": "Used for generating synthetic brain MRI volumes with NV-Generate-CTMR rflow-mr-brain. Not for production training data.",
+      "description": "Used for generating synthetic T1, T2, FLAIR, SWI, or MRA brain MRI volumes with NV-Generate-CTMR MR-Brain v1. Not for production training data.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain",
-      "contentHash": "87ad5a1d",
+      "contentHash": "9ecc11a5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7b6cefeb586a9d27b516ad92cd29d517ea1fac68"
+          "sha": "a424cd496d30002d42821ed7bbf491568a18f82f"
         },
         {
           "path": "SKILL.md",
-          "sha": "4fb685cd668ff906e966ac3ec4bdd7c2897dd646"
+          "sha": "b38bbd8525527f42a515a2a0870f87608b296a7f"
         },
         {
           "path": "evals/evals.json",
-          "sha": "1409449a9082ffb3a05429c01919a76e37a9b54d"
+          "sha": "cf2502bfb380618a889a998da59637e5744ccd2a"
         },
         {
           "path": "fixtures/README.md",
-          "sha": "5f154c429178dfef2c0f1399bd2184070be849dc"
+          "sha": "4ae62fd4e965003be3777904a5c2c0c6d8b2d39f"
         },
         {
           "path": "fixtures/default_mri_t1.json",
-          "sha": "8d17a7301f80d0219dce883bfba10f67e8ff40f6"
+          "sha": "454343104c05f4a6bd576aaea9ff374610511786"
         },
         {
           "path": "fixtures/mri_flair_skull_stripped.json",
-          "sha": "15e27a8b24f6be6f689bb3869e72a369288400c4"
+          "sha": "bfef2a2ec1a704e1bd8a60100596151bdb73783e"
+        },
+        {
+          "path": "fixtures/mri_mra.json",
+          "sha": "f4f599962338d3cd45e54b6cfe5b2a60c55afcc1"
         },
         {
           "path": "fixtures/mri_t2.json",
-          "sha": "b22973947ba54338ec553475f619627076960cb6"
+          "sha": "bb359dffee97b13105605e3c6e775973edc3c543"
         },
         {
           "path": "references/fov-and-downloads.md",
-          "sha": "bfe9f0718fb58c9f5d8c581a036a19d45711bf65"
+          "sha": "ce3a45768ec69385a2e4c9c213ba702b143bad9c"
         },
         {
           "path": "scripts/run_mr_brain.py",
-          "sha": "00194511a9db004abfc1cd281675c7facdccd556"
+          "sha": "049907cf8b8ddc6d91f40162802d64cfaf00be69"
         },
         {
           "path": "skill-card.md",
-          "sha": "35690ec4d9d23b06ad988b2d1bfa65c8c7c79a42"
+          "sha": "70258bb2da9f18375d6d95975110dcf585054df9"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "92b57dfda9b97c6f371d068d271b4abbae108497"
+          "sha": "f01fdacfef90196706e0783b91fbb85e0b622b67"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "f9e8cfd06f02a751f598cf3edf4e62636d23b5c7"
+          "sha": "b54d86ce32df3ef99b7dd5cb3091ea0cf56f0c67"
         },
         {
           "path": "tests/test_run_mr_brain.py",
-          "sha": "9c8ec1f9a829b3d0fc224cce5fd0f8a69847725b"
+          "sha": "08f5262b0e42fc8f0799d7919f31d80045b61e10"
         },
         {
           "path": "validators/output_schema.json",
-          "sha": "3a8513639bd61113a4feaa6b583138d39aecc629"
+          "sha": "059d5575d351f0dd0a08d56d4baf28d637e48896"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-generate-mr-brain"
@@ -18566,23 +18647,23 @@
       "id": "NVIDIA/skills@nv-segment-ct-finetune",
       "trust": "trusted",
       "name": "nv-segment-ct-finetune",
-      "description": "Used for smoke or dataset finetuning of NV-Segment-CT VISTA3D on CT NIfTI labels. Not for clinical validation.",
+      "description": "Runs standard or fixed-channel softmax finetuning of NV-Segment-CT VISTA3D on CT NIfTI image/label datasets, with optional MONAI-native MLflow tracking and checkpoint evidence. Uses softmax for predefined, mutually exclusive classes; keeps the standard workflow when point prompts or runtime-variable classes are needed. Not for clinical validation.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ct-finetune",
-      "contentHash": "7e0543c1",
+      "contentHash": "d04edcb9",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "6553ae1bc1c03a2ac89da58a4e56d0c1a9d5f6a7"
+          "sha": "d040df566fbce393f29184dc3f740e91d45edbc5"
         },
         {
           "path": "SKILL.md",
-          "sha": "1c469fe515900e0e089e7d9b6081556c7a0733a6"
+          "sha": "2e9e5768abeadb90bb743ce4e1d82c92baa6e8f3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "dc6fd5de2340fd01bc2ec05aa255179479bf3f20"
+          "sha": "2647f4677e390fa55c69d4ff08564d98d8067300"
         },
         {
           "path": "fixtures/spleen_micro/datalist.json",
@@ -18590,31 +18671,31 @@
         },
         {
           "path": "references/task06-and-results.md",
-          "sha": "2cbd1ea707ed126f63b2283a2586272f3e3e7269"
+          "sha": "fc1c3311fa9495c9881e7932717f92b14956eb08"
         },
         {
           "path": "scripts/run_finetune.py",
-          "sha": "422799a164c668671b61121f6ace68e2afa9d4bc"
+          "sha": "4a29e56b3241449f978f1e26928aae18f2df1fbd"
         },
         {
           "path": "skill-card.md",
-          "sha": "3828696c041e235c25b9fbe1d03471b3eb461d6c"
+          "sha": "105eb998e3f1f73f48843055f48593f3fcf35992"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c67a211cabc3ddc24a8fe34e430d769aa71778f2"
+          "sha": "241815317ba0360e8e7177dd73fd2f0de5b7f967"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "c99a3f6d2cf9d259a1691d71ca3e4bc04ddae07b"
+          "sha": "8066974391eb8fbcefe2c1bcaa179c68cea419b3"
         },
         {
           "path": "tests/test_run_finetune.py",
-          "sha": "1e24301ce2b153c8db169ad8006bbacd80bafd88"
+          "sha": "2a0fa315245878041974106737f3bb254baf2d0c"
         },
         {
           "path": "validators/output_schema.json",
-          "sha": "fa3a1a332c30e5720668ef12d1d3547b3642dfff"
+          "sha": "9c2a49ae233e3fb50d3ca51dae4821e479dccce9"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-segment-ct-finetune"
@@ -18684,15 +18765,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ctmr",
-      "contentHash": "c7570636",
+      "contentHash": "006def99",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "8d9b83d44e6346f07a514e3428a0912df471f620"
+          "sha": "4d926cd8edcb338ca6c12653b801b812f913f0de"
         },
         {
           "path": "SKILL.md",
-          "sha": "196347a720ec7e42899ce24d84d1fd5536bbb2d4"
+          "sha": "605b4227a514abb05708504fe191679a2bf6060d"
         },
         {
           "path": "evals/evals.json",
@@ -18704,23 +18785,23 @@
         },
         {
           "path": "scripts/run_ctmr.py",
-          "sha": "31ec291c461e0ddbe481a85ec6cf2f03c224ef21"
+          "sha": "e78633baad36a363334d86f65465d6eb410ffafd"
         },
         {
           "path": "skill-card.md",
-          "sha": "7c769e8f7abd5dfccbbaa56000c6727ad99f8fac"
+          "sha": "e2e6baf983732b1964bfe08a56f7f7eb2b10bc6d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7a53fcc426eb815432052155c071305bdbe04fde"
+          "sha": "1fbb97aec7815c92d3925d65444ad3d2b5911b2c"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "167ede99e698a1742277741df024b071c857686f"
+          "sha": "9ddf53d3262c50248a926c9a5f43a70450602047"
         },
         {
           "path": "tests/test_run_ctmr.py",
-          "sha": "830808b947be5f47a7ea749004346f2b609d8315"
+          "sha": "8d0fd0cf503bf1f4a2817223be14fcbd448f35e8"
         },
         {
           "path": "validators/output_schema.json",
@@ -28094,15 +28175,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/vss-manage-alerts",
-      "contentHash": "9cf7f582",
+      "contentHash": "d21699a3",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4cdf2bf0506518c4087eb2b6622075e9e29b93d2"
+          "sha": "1af0fdcfc342e438445de48ae89e2f217b7f6fd1"
         },
         {
           "path": "SKILL.md",
           "sha": "395c9bd288a6032d0ba59211bd83cf85e8d5ae2f"
+        },
+        {
+          "path": "config/skillspector-baseline.yml",
+          "sha": "37f6d8aba3eaae0abf37a7ddb00d960f85229cdc"
         },
         {
           "path": "evals/alerts_vlm_real_time.json",
@@ -28126,23 +28211,19 @@
         },
         {
           "path": "references/alert-notify.md",
-          "sha": "2a5038739cda6bb2ae5afe26d79990207e499d1b"
+          "sha": "9f9c462f4017200010b29cc7ad3d2439bd37f133"
         },
         {
           "path": "references/alert-subscriptions.md",
-          "sha": "4ca763de043c0f35daed8518482ec8cc3b587182"
+          "sha": "87c1456fd791b665acbedc38fcc4717f92e0d485"
         },
         {
           "path": "references/cv-verifier-prompts.md",
           "sha": "a687baac4c0cab6fd7d85a36ff17574018e7e00a"
         },
         {
-          "path": "scripts/alert-notify/.env.example",
-          "sha": "10531e275c45d5226f71d2c30f7140592fa40585"
-        },
-        {
           "path": "scripts/alert-notify/.gitignore",
-          "sha": "567d2bf3e6d5c2aadca5c42ebc956d292fc0fe93"
+          "sha": "ff7f20339c18e7ba4dab2179e66edf69414d981c"
         },
         {
           "path": "scripts/alert-notify/incident_utils.py",
@@ -28158,11 +28239,11 @@
         },
         {
           "path": "scripts/alert-notify/requirements.txt",
-          "sha": "98dcd00c3e2b8fbfe676088db772d113edd07c94"
+          "sha": "a4521fbce8ec25aee75288991cdb1757b5490901"
         },
         {
           "path": "scripts/alert-notify/server.py",
-          "sha": "fa4edba90f0a86e3615181e18e29c5de83428c26"
+          "sha": "8467d0e38bff5095a5ef96ed96b58f179f22f129"
         },
         {
           "path": "scripts/alert-notify/slack_notifier.py",
@@ -28170,11 +28251,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "debfacf8c104397dd21123b3b2cbe05e99894335"
+          "sha": "df3cf7afb1f3ac39ba6a21af187dd8d00d221b27"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f0e78a80d3534414e252b0b6f6e87f9d1ddbbcd6"
+          "sha": "8c40323239f18561f7a7a8d68866a3420a0a1640"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-manage-alerts",
@@ -29344,7 +29425,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "4896d5c4",
+      "contentHash": "c9d16a36",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -29704,11 +29785,11 @@
         },
         {
           "path": "test/build.test.ts",
-          "sha": "050f3576447e566094eee4441c1047dd58a63c8a"
+          "sha": "38e3b1891a4ac38c81920c2d54e258003e33f751"
         },
         {
           "path": "test/bun-polyfill.test.ts",
-          "sha": "21ab985cb3365e12945223aac23c760fa51e046c"
+          "sha": "7df28b0d42f9d7d8b10ecb606efe4f2d3a4794fa"
         },
         {
           "path": "test/busy-daemon-iron-rule.test.ts",
@@ -29768,7 +29849,7 @@
         },
         {
           "path": "test/config.test.ts",
-          "sha": "09aa40d15a5252197685c465c3a1bedd22352611"
+          "sha": "c20bad8f2f0bc31f4260c2a2946c1be7f581be94"
         },
         {
           "path": "test/content-security.test.ts",
@@ -29828,7 +29909,7 @@
         },
         {
           "path": "test/file-permissions.test.ts",
-          "sha": "057d164fd2ccecb6ad1fa4fc62a9904ad83d79f6"
+          "sha": "6a86e7f4d0718d0ed360e4cd73802ba4d1f47893"
         },
         {
           "path": "test/fill-change-event.test.ts",
@@ -29840,7 +29921,7 @@
         },
         {
           "path": "test/findport.test.ts",
-          "sha": "3255d240cb5ebf41c90a68e927d1f51fdcc32513"
+          "sha": "47c0182d8b9969e42db0a0dc41a63bb9e11f50ca"
         },
         {
           "path": "test/fixtures/basic.html",
@@ -29944,11 +30025,11 @@
         },
         {
           "path": "test/gstack-config.test.ts",
-          "sha": "097e25f755ca22f3dfd15bf0bbcc38571c23160d"
+          "sha": "323eefad3f4b8e1ab50c669b761e82d4aee398bc"
         },
         {
           "path": "test/gstack-update-check.test.ts",
-          "sha": "16bf7b851a2566257a3f438e8efb89b09b64445c"
+          "sha": "6b78263f721f22589fbc15a530d14bebd5e2a7d9"
         },
         {
           "path": "test/handoff.test.ts",
@@ -30228,7 +30309,7 @@
         },
         {
           "path": "test/temp-dirs.test.ts",
-          "sha": "c3ee14ffe46dd9e0611f27751c31f272eedb1a0a"
+          "sha": "f534a2cb67f269bb1b8bbcd13519ca35d84b97fe"
         },
         {
           "path": "test/terminal-agent-detach-reattach.test.ts",
@@ -30308,7 +30389,7 @@
         },
         {
           "path": "test/windows-spawn-hide.test.ts",
-          "sha": "512279446e03ef83084c08f727e93898579e9c31"
+          "sha": "10d538aae4f4ae182573a81a25ef5b5d582ebfbb"
         },
         {
           "path": "test/xprotect-heal.test.ts",
@@ -30316,7 +30397,7 @@
         },
         {
           "path": "test/xvfb.test.ts",
-          "sha": "dab242a8dc2a51992fdd6bad570ddddec4992e3a"
+          "sha": "840aa43c520b66387070f725d4c69b4518695c7f"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/browse"
@@ -30988,7 +31069,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "7d64df21",
+      "contentHash": "3ad21420",
       "files": [
         {
           "path": "SKILL.md",
@@ -31060,7 +31141,7 @@
         },
         {
           "path": "daemon/test/cli-mint.test.ts",
-          "sha": "f5416bf8852dac74ab1697681a3928af03c07f85"
+          "sha": "53c07d0126ba31166e67825bc30a2923158135a4"
         },
         {
           "path": "daemon/test/daemon-integration.test.ts",
@@ -31100,11 +31181,11 @@
         },
         {
           "path": "scripts/gen-accessors.test.ts",
-          "sha": "0c5df37d5ba8353b1c09545664c9cd375d3a1509"
+          "sha": "1ed68e6532681f56d5f77ad328872ada95d2724b"
         },
         {
           "path": "scripts/gen-accessors.ts",
-          "sha": "738e08364542c075e6cb9d2c4300a00d425c8165"
+          "sha": "315f2bde615e8b6254cc439cdc651264190ab504"
         },
         {
           "path": "templates/Bridges.swift.template",
@@ -31265,7 +31346,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "c68d7839",
+      "contentHash": "5e780ac1",
       "files": [
         {
           "path": "SKILL.md",
@@ -31349,11 +31430,11 @@
         },
         {
           "path": "test/e2e/combined-gate.test.ts",
-          "sha": "562d46e4932622c0dd2a4b9e9137814157606c0e"
+          "sha": "fcaff4265e5fed9fd6bc9849fb265934c04e07f5"
         },
         {
           "path": "test/e2e/diagram-gate.test.ts",
-          "sha": "a3473592a1529084b72ece7d2bab2859517cb248"
+          "sha": "37d7ffdf05cad3f8cf8892ea36318f461b5c21d3"
         },
         {
           "path": "test/e2e/emoji-gate.test.ts",
