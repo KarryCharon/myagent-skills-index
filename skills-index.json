@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788239718537,
+  "generatedAt": 1788281009500,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -18859,11 +18859,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/omniverse-cad-to-simready",
-      "contentHash": "fceca58d",
+      "contentHash": "aa5b2ee0",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4b0d7c2ca2fc0eca23cf6d399471b0acb3979074"
+          "sha": "d0d832c63518f35bb00189f98e437927462ea4b3"
         },
         {
           "path": "CHANGELOG.md",
@@ -18871,7 +18871,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "0ef92ad04f5aa4cd174bb74370a3503958372253"
+          "sha": "d4d02d50f3bdd6d9a245465fdec19e23178a9a05"
         },
         {
           "path": "agents/openai.yaml",
@@ -18911,11 +18911,11 @@
         },
         {
           "path": "references/content-agents/README.md",
-          "sha": "4d1390987da8fbcc09ef87b41be332668f93f003"
+          "sha": "f1b8412095be40bbe98b22525c7cc551433f4863"
         },
         {
           "path": "references/content-agents/references/material-agent-client/README.md",
-          "sha": "19fa10906827dae3ab3d2f0b03cf10ff8b30003a"
+          "sha": "9acef4638a734fd6b3ccd8579f5a8089738b03ce"
         },
         {
           "path": "references/content-agents/references/material-agent-client/scripts/check_dependencies.py",
@@ -18931,7 +18931,7 @@
         },
         {
           "path": "references/content-agents/references/physics-agent-client/README.md",
-          "sha": "6944eb59ba9fb730879a15293384357e2f2e4639"
+          "sha": "914da108df62d0c5d0892856a93674f54b38c6e1"
         },
         {
           "path": "references/content-agents/references/physics-agent-client/scripts/check_dependencies.py",
@@ -18947,7 +18947,7 @@
         },
         {
           "path": "references/content-agents/references/texture-agent-client/README.md",
-          "sha": "edbcfc0929b0aa064944c60e5218ebf111a4dc4f"
+          "sha": "f144e8b8e01a7a77989e397a40132c781806861d"
         },
         {
           "path": "references/content-agents/references/texture-agent-client/scripts/check_dependencies.py",
@@ -18971,7 +18971,7 @@
         },
         {
           "path": "references/content-agents/scripts/content_agent_client.py",
-          "sha": "2c0962dab7f3aedc4c802c9d8e553a78ab56eaac"
+          "sha": "0b83f7c330f0ce50c69b38f53a5e1e2dfc720ff6"
         },
         {
           "path": "references/content-agents/scripts/content_agent_material_cleanup.py",
@@ -18980,6 +18980,10 @@
         {
           "path": "references/content-agents/scripts/content_agent_report_schema.json",
           "sha": "0cb2a7c88f9e66e7de3d3f4f1b1e387e8709b11d"
+        },
+        {
+          "path": "references/content-agents/scripts/openusd_upload_prep.py",
+          "sha": "b3d2e730e522f3b9eda4c416c427bb41b0461ef1"
         },
         {
           "path": "references/content-agents/scripts/report_schema.json",
@@ -19371,11 +19375,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b77aec81de09b6158866c62e036aa6be714b4921"
+          "sha": "3c725ed10c24814a1ec2672708d7b3a9aa0b3744"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "3c7924e07238c942a7e11fb8ac97e09210cd8b9e"
+          "sha": "9f1b41137894ce4c1ed783d9e380429a680bf9ee"
         },
         {
           "path": "upstream-versions.lock.json",
