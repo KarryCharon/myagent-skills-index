@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788367111221,
+  "generatedAt": 1788383195420,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21486,19 +21486,19 @@
       "id": "NVIDIA/skills@physical-ai-neural-reconstruction",
       "trust": "trusted",
       "name": "physical-ai-neural-reconstruction",
-      "description": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
+      "description": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, carline adaptation, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/physical-ai-neural-reconstruction",
-      "contentHash": "024b2fbf",
+      "contentHash": "921453b5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c77375fa6d95f8f92aa5469e1af3b8f99e1e23f0"
+          "sha": "7d90a4ed34115738890f511b55cd8d5a48410201"
         },
         {
           "path": "SKILL.md",
-          "sha": "06cc7d02f11d0ce0c4d6567831883e8708098ed4"
+          "sha": "8304cb4f0b218ebb03ae61a2dadb47095fcde884"
         },
         {
           "path": "evals/evals.json",
@@ -21506,35 +21506,35 @@
         },
         {
           "path": "references/maintenance.md",
-          "sha": "4a09a85042f039e96503666e3c25112a85af55ba"
+          "sha": "53e1224f3f5854bffb3f2991914f9285ba291b14"
         },
         {
           "path": "references/mix-ups.md",
-          "sha": "03be5616b56d89765dbd8cb4a8e1bee0dffcf229"
+          "sha": "450d5b493402751fdb3e9326bda0e7a04353b94d"
         },
         {
           "path": "references/secrets-handling.md",
-          "sha": "666d4cdd7cdd50b4541018eb7eb65017147b5af2"
+          "sha": "a6ac8b0e07577ed5cf660295c71ba62722035c59"
         },
         {
           "path": "references/teardown.md",
-          "sha": "d5dadb6dff3c0fe09cb9edfc6463b6936050d224"
+          "sha": "5196189512e9acc5bfe4901159fa1c2a1f24f1a7"
         },
         {
           "path": "references/upstream-fetch.md",
-          "sha": "e6c2e12550f26b76d30ee65bb03f365b61c9ac10"
+          "sha": "2142c5c62da1cef87850290c6443e48999d8e38d"
         },
         {
           "path": "references/workflows.md",
-          "sha": "0c1881f49c8889ec8a7be734ef1f8d04639b568c"
+          "sha": "e333a7cd8bb595b01df2f41d2bef44e43cbdbfaa"
         },
         {
           "path": "skill-card.md",
-          "sha": "aaeb4e55b16d3e38bb4eee05c3f375a175100826"
+          "sha": "41517b3b2a905efcc55a27d417ba97e8060e3ad8"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "88df860d2b5ca1844c9168101f99e90dcaee7bfb"
+          "sha": "304d65d384e956be1ff84f8a9183564035b4c4e9"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-neural-reconstruction"
