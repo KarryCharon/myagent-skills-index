@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788323977870,
+  "generatedAt": 1788367111221,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -20720,6 +20720,102 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-auto-labeling"
     },
     {
+      "id": "NVIDIA/skills@paidf-orchestration-setup",
+      "trust": "trusted",
+      "name": "paidf-orchestration-setup",
+      "description": "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for requests to set up, install, deploy, configure, or check a PAIDF Orchestration environment; run a workflow on a new or unverified GPU host; connect via kubeconfig; validate GPU compute; deploy the Airflow controller; or choose external versus in-cluster model services. A plain SSH host is not a supported backend.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/paidf-orchestration-setup",
+      "contentHash": "55f47609",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "eb98baed8430f0c14d2ed2ba89956a460d785731"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "521db65110aa88d962d1fba4ee1f34fb47ddff1b"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "a90a3d59c932bc0319cd26646ef442d658d91753"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5f011475825798674dd3095451935aed636c3c10"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ca7dfbcc828431803dbd00deba81b3c503f8b511"
+        },
+        {
+          "path": "references/controller-connection.md",
+          "sha": "f2c69ec642110a7ceb6f6d001b708b9924a48c53"
+        },
+        {
+          "path": "references/deploy-controller.md",
+          "sha": "5ce8827ce025d9e37eb44f864e6483952d49da39"
+        },
+        {
+          "path": "references/topologies.md",
+          "sha": "80dae266edb3a91ee13bf1f25815de5577d07982"
+        },
+        {
+          "path": "scripts/remote_k8s.py",
+          "sha": "f491417a5da29a1f9150f43bcf7d69319b29c9d9"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "6691919b7c4a4fd5025657402eb6460d736eaff9"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "c6c2d20da4c38f1de9521ed3cf60e14ed9de09ef"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-orchestration-setup",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@paidf-orchestration-write-dag",
+      "trust": "trusted",
+      "name": "paidf-orchestration-write-dag",
+      "description": "Use when a user describes a custom PAIDF Orchestration pipeline — a specific ordered combination of stages such as augmentation only, auto-labeling only, detection+captioning only, or image attribute augmentation without full auto-labeling — that no existing DAG in airflow/dags/workflows/ covers, and asks for a new Kubernetes DAG. Also use to check that a generated or existing DAG's model/container/prompt choices match an external spec document (e.g. a PAIDF `launchable.md`).",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/paidf-orchestration-write-dag",
+      "contentHash": "a1ccba12",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "1b33cefb3f88eeafce90f41c5cefa528e5d61216"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "567e0df58a3be4b18b6b97d81d8614a71bfdebe3"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "5e3bd7272d8d53a32487a4b25aa9f9409034f246"
+        },
+        {
+          "path": "references/component-skills-excerpt.md",
+          "sha": "c1c472b93fb18440829bdf1b9391cdeb09dbdea3"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "8b01226f23b89a4868e12f11688ed684fa818313"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "cb0d8bda7ca4863aa7636364345f552d04d21842"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-orchestration-write-dag",
+      "version": "1.0.0"
+    },
+    {
       "id": "NVIDIA/skills@physical-ai-defect-image-generation",
       "trust": "trusted",
       "name": "physical-ai-defect-image-generation",
@@ -20950,106 +21046,152 @@
       "version": "1.0.1"
     },
     {
-      "id": "NVIDIA/skills@physical-ai-image-attribute-augmentation",
+      "id": "NVIDIA/skills@physical-ai-event-video-generation",
       "trust": "trusted",
-      "name": "physical-ai-image-attribute-augmentation",
-      "description": "Use when running image attribute augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, Image Attribute Augmentation, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
+      "name": "physical-ai-event-video-generation",
+      "description": "Run the PAIDF Orchestration Event Video Generation DAG on Kubernetes - image-to-video anomaly generation, auto-labeling, and anomaly dataset generation. Select for requests about event video generation, anomaly video generation, image-to-video synthesis, Cosmos3 image2video, anomaly dataset creation, safety/surveillance SDG, or generating person-falling, person-climbing, person-running, fighting, smoking/vaping, fire/smoke, or shoplifting video clips from a seed image. Runs environment setup first when controller readiness is unknown. Not for person-crop clothing/attribute augmentation (that is image-attribute-augmentation-workflow) and not for video style transfer.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
-      "path": "skills/physical-ai-image-attribute-augmentation",
-      "contentHash": "796cfe0e",
+      "path": "skills/physical-ai-event-video-generation",
+      "contentHash": "c96ead9e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "15bc2c36ca6e6f662fd9397ba5ff900d7547ec16"
+          "sha": "0085af3f938c2f86205525586d17d3cc08c52fc2"
         },
         {
           "path": "SKILL.md",
-          "sha": "8c7d86adf1d69d5a0890f464f95b33f5e17c1c84"
+          "sha": "8e83d312a76c55d5a52bd0e361927380d040a445"
         },
         {
-          "path": "assets/configs/osmo/augmentation.yaml",
-          "sha": "06c0ff99145b300390ae9b2632a0928eab515ca2"
+          "path": "agents/openai.yaml",
+          "sha": "252300c807561034215dc1bb8c45daf4b79a3ff3"
         },
         {
-          "path": "assets/configs/osmo/auto_labeling.yaml",
-          "sha": "f8f292b869303fae854008f27a7c40dbfbb6aada"
-        },
-        {
-          "path": "assets/configs/osmo/e2e.yaml",
-          "sha": "2c09dcbba392802825197eac1ea6504b5262abc4"
-        },
-        {
-          "path": "assets/cookbooks/default/README.md",
-          "sha": "8fc2d61c9cd04d7fee906536270c1a28d957bf50"
-        },
-        {
-          "path": "assets/cookbooks/default/augmentation_config.yaml",
-          "sha": "d2a900f9db45c4627bdf4f74cfdcb7dbbe045436"
-        },
-        {
-          "path": "assets/cookbooks/default/distribution_config.yaml",
-          "sha": "166d81a2646c6d2226c36c24d2d93fc9c4ddbfdc"
+          "path": "assets/variable-distribution.json",
+          "sha": "4440e414807472f879684eb49321042177624a72"
         },
         {
           "path": "evals/evals.json",
-          "sha": "b3817cb3c6804dfef33f494faf9e4442c846f9f7"
+          "sha": "d8820a1325894fbe54a425b8b3e16b12d57b74d0"
         },
         {
-          "path": "references/container-images.md",
-          "sha": "4a9d7e246fcc98543f5e04e6d7740dff4d725e08"
+          "path": "references/airflow-direct-api.md",
+          "sha": "7c790cea44d4a8a4fe739206716a41c0eb4228b4"
         },
         {
-          "path": "references/flows/augmentation.md",
-          "sha": "657aae432c1cd31810ece9776ea304dc21e755e8"
+          "path": "references/outputs.md",
+          "sha": "c4ac3a77c9bea526dc7ff1cf980bf4d898e111af"
         },
         {
-          "path": "references/flows/auto_labeling.md",
-          "sha": "ec1fcae06781e2932346f780e0524e314846bd4b"
+          "path": "references/payload-contract.md",
+          "sha": "a3c747e1b6dd0f0e3d13e4317f72c4c5614ecb74"
         },
         {
-          "path": "references/flows/e2e.md",
-          "sha": "4b1bce2bc876ced23b390c14caf06bbfee015a92"
-        },
-        {
-          "path": "references/nim/README.md",
-          "sha": "ede2c762e2af408cee6655b8152621cbb230097b"
-        },
-        {
-          "path": "references/nim/qwen-image-edit-2511.yaml",
-          "sha": "552ff45b700b63bee158a980efb29f17b67d16ce"
-        },
-        {
-          "path": "references/setup.md",
-          "sha": "03c3f48ceccf761330b0b41f78308e48edae2560"
+          "path": "references/setup-and-preflight.md",
+          "sha": "27754f470487df394af6703c2a70b447776b1247"
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "a01e720843aa40cc9aada3ef36c703c9d8257e30"
+          "sha": "7abace1a33961c2abd8be09dfa2ee0fde38e1dd8"
         },
         {
-          "path": "scripts/augmentation_worker.sh",
-          "sha": "5e263062a5d07b818b62a3ae0b2026e8a033508a"
+          "path": "scripts/payload.py",
+          "sha": "804e0fe5215b2d585bfab9bb1758720c7c54f465"
         },
         {
-          "path": "scripts/auto_labeling_worker.sh",
-          "sha": "64945625ebc5bdcfaa425aaa93b05253759b99fd"
+          "path": "scripts/summarize_results.py",
+          "sha": "05dcfefcd7577bd6b738fcf1e214721f1fae31e6"
         },
         {
-          "path": "scripts/endpoint_common.sh",
-          "sha": "3c5882bf9448e306ffcd2e4fab2903951b063c9f"
-        },
-        {
-          "path": "scripts/preflight_credentials.sh",
-          "sha": "2054a73ced755951583325e53454e7da5f0fc47f"
+          "path": "scripts/upload_images.py",
+          "sha": "afbc73d4afbc4e48f5da999db6dd5550816d66a2"
         },
         {
           "path": "skill-card.md",
-          "sha": "2e19201f1180f2f3857b904af7276bfcfd4e4735"
+          "sha": "d809b83fe45ad54dfc6302d42e8b3e879f57e140"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8dbb67f626f28cb46df5f1efd723faa49115b41a"
+          "sha": "51613609b553deb664e3449dbe5f84fd93b7c522"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-event-video-generation",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@physical-ai-image-attribute-augmentation",
+      "trust": "trusted",
+      "name": "physical-ai-image-attribute-augmentation",
+      "description": "Run the PAIDF Orchestration Image Attribute Augmentation DAG on Kubernetes - person-crop clothing augmentation, attribute search, and augmented dataset generation. Select for requests about image attribute augmentation, person attribute search, person re-identification data, clothing augmentation, attribute captions, augmentation payloads, run status, or result retrieval. Runs environment setup first when controller readiness is unknown. Not for video or defect-image generation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/physical-ai-image-attribute-augmentation",
+      "contentHash": "c84769c6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "05ead7762225a28cf6e126587d626aa043d3f77d"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "7842095ba25656ccbbebc76b3b30c0ffcbb6e221"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "4dd17a2704b0d87a83746eca55d3380980e1f0a6"
+        },
+        {
+          "path": "assets/variable-distribution.json",
+          "sha": "131d30804203959af4c4014a391074601be3a8cc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "a69144a9f2864131e2ff281cbe269626b2d4fb8f"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "bac778c42dde86d76d686c9dc9c9a0a2014d872e"
+        },
+        {
+          "path": "references/outputs.md",
+          "sha": "4da31974838fd3d4b5edd864708d7413dd7cdd98"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "fced3715e65d1806fd14ea28214b205b5a541102"
+        },
+        {
+          "path": "references/setup-and-preflight.md",
+          "sha": "3a86a4fe38085803cd5f4aabfb3f10c5615c0a03"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "dd89dd497464c99e2813ef71725a84643203d2ba"
+        },
+        {
+          "path": "scripts/payload.py",
+          "sha": "7661fa70326d690b63a18fe94503417c7e01a3b3"
+        },
+        {
+          "path": "scripts/summarize_results.py",
+          "sha": "2481f60e80c9e2e939cdf7db22d413dc9d075412"
+        },
+        {
+          "path": "scripts/upload_images.py",
+          "sha": "0af0b97fc6f7ca49174628181be46b23a9529890"
+        },
+        {
+          "path": "scripts/workflow.py",
+          "sha": "f13d121b0b935ea1923a0812454c60908e991718"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "0ab39fdd77fa7f719f24e72bf7a4b0517b70e99d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "845ad3b475ffcf977e4bfda45c797c30bbf863b9"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-image-attribute-augmentation",
