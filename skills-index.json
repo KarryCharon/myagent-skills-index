@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788434373779,
+  "generatedAt": 1788452947975,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -12763,11 +12763,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holohub-app-lifecycle",
-      "contentHash": "5e02e997",
+      "contentHash": "cfbcd9e0",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "95523f50ddfa29c14a8dd70fb87070e75fff8b8a"
+          "sha": "34f5db5076f0bbe443a2181fa2827bd66cbcabd5"
         },
         {
           "path": "SKILL.md",
@@ -12775,11 +12775,11 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "9323170bd438470f285027f276949a6edee6f9c6"
+          "sha": "20afe1c2b9c6ff1d33147c67c0514bd4bbc47071"
         },
         {
           "path": "evals/extended-evals.json",
-          "sha": "500b90f2c281734767590bb1e86d2a35b45b1341"
+          "sha": "19c766499a4a6724c0c50428f2f13b4be8069dc5"
         },
         {
           "path": "references/application-workflow.md",
@@ -12791,15 +12791,15 @@
         },
         {
           "path": "references/holohub-cli-contract.md",
-          "sha": "53736b70ce554cb370a50abf336c7eeb30b8dc8f"
+          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
         },
         {
           "path": "skill-card.md",
-          "sha": "51081da48f722b9b0a624d5c96fd79038da4d35f"
+          "sha": "8f216ae9ba698bed2739f5df4317c28df1a7652c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d319eab913dbe4ca7f69a4f7a9ec0c673e8d0180"
+          "sha": "c0123ceb13161b4175336016099e5977de35ad02"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-app-lifecycle"
@@ -12812,11 +12812,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holohub-debug-build-run",
-      "contentHash": "93a6a694",
+      "contentHash": "b8f6487e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "bb37a6228f89232b76514146467771fcb49be835"
+          "sha": "4b25bab319aecefd32015e6f2a73910bc1e6d094"
         },
         {
           "path": "SKILL.md",
@@ -12824,11 +12824,11 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "03b3dea4c2f93281f5793b10b1581c250459c40d"
+          "sha": "d7be00cea3b26f9c272f9ca85bf3ee54cff3e120"
         },
         {
           "path": "evals/extended-evals.json",
-          "sha": "890a75dcf38c9ae27779fbdffbadd1922f589891"
+          "sha": "4ee6babeabea0ff08832adfebf8ccd38c8cd6246"
         },
         {
           "path": "references/debug-workflow.md",
@@ -12836,19 +12836,19 @@
         },
         {
           "path": "references/holohub-cli-contract.md",
-          "sha": "53736b70ce554cb370a50abf336c7eeb30b8dc8f"
+          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
         },
         {
           "path": "references/known-issues.md",
-          "sha": "1d71b0e9e99661fd5ce6ec2e2502dc4d7af440f3"
+          "sha": "7d131651e36e7d347b1aaf0563a46c9e6f609574"
         },
         {
           "path": "skill-card.md",
-          "sha": "f1072eca7304e69bc2a800cfb6106042c6f304f6"
+          "sha": "a1489b82b25de76d4cc4bd4777696ca4cbf19aa3"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4b2793700dcda794db2779f2bba392e54d715590"
+          "sha": "0fc12af2c0c032fb9fd486de52fa3fbc840ba44c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-debug-build-run"
@@ -12861,11 +12861,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holohub-module-lifecycle",
-      "contentHash": "d38da65f",
+      "contentHash": "65c5435f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "38e3a210494d5f4ede00b173b79dd7f620a87339"
+          "sha": "2e0a80fcd3e81bd20a40beaa2c3d01e091adadb6"
         },
         {
           "path": "SKILL.md",
@@ -12873,15 +12873,15 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "31a9661dfd0e54ee1ab7978d2d0c75fead6f907f"
+          "sha": "d1397d8917cbefb07846ff939b51051234c87e79"
         },
         {
           "path": "evals/extended-evals.json",
-          "sha": "f3b1af6af191412de8112ca86f7aa7d5575d1d65"
+          "sha": "88715cc581bfa37e2b8831ddbbb5c0bbbb1f2b5c"
         },
         {
           "path": "references/holohub-cli-contract.md",
-          "sha": "53736b70ce554cb370a50abf336c7eeb30b8dc8f"
+          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
         },
         {
           "path": "references/module-consumer-packaging.md",
@@ -12893,11 +12893,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "d6d5f25c9374e18999adf721a330bf0cb79ae027"
+          "sha": "3585a22bdb782dbc82a13dd20025b176034c70f8"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f424eb48d468b5c79a74849db606a59c49e125dd"
+          "sha": "d3419de518a13f1cd6aa374024fd42085ca8cec6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-module-lifecycle"
