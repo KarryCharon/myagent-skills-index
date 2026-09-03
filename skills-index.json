@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788452947975,
+  "generatedAt": 1788469562782,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -721,7 +721,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/frontend-design",
-      "contentHash": "d2c46195",
+      "contentHash": "3cafaa91",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -729,7 +729,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "decdff43d05908b4c1fc2cfd2d80fc5743440934"
+          "sha": "a5333457c414d20d625f307df945842c0952ecc3"
         }
       ],
       "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/frontend-design"
@@ -20718,6 +20718,112 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-auto-labeling"
+    },
+    {
+      "id": "NVIDIA/skills@paidf-curation-and-retrieval",
+      "trust": "trusted",
+      "name": "paidf-curation-and-retrieval",
+      "description": "Use when operating PAIDF Curation and Retrieval or NVIDIA Cosmos Curator pipelines (split, filter, caption, embed, dedup, shard, image annotate) or PAIDF Data Mining nearest-neighbor matching on Curator embeddings. Activate for Make or CLI pipeline config, GPU run preflight, FFmpeg sidecar, SAM3 keys, or Curator-to-TAO handoff. Do not use for generic ETL, vector-database RAG, model training, orchestration, or embeddings outside Cosmos Curator and PAIDF Data Mining.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/paidf-curation-and-retrieval",
+      "contentHash": "ce5a1097",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "01d022d20c9cedf8922798fae184b7d5bb821e11"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "08d3166ff2c1456b7f75eb1a3cd843bbccdb5277"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "9eb669d97ee0b73426f778204e0aa65314d67b8c"
+        },
+        {
+          "path": "references/calibration-config.md",
+          "sha": "dde215f2aba58b5f99b84dd6c355e4fc2bc3ba52"
+        },
+        {
+          "path": "references/capabilities.md",
+          "sha": "0a0d2ec334c6651ee3a37211f20a928ea5331115"
+        },
+        {
+          "path": "references/configuration-decision-tree.md",
+          "sha": "570c5a16bcb624f38b609df89921033fd8ca1610"
+        },
+        {
+          "path": "references/context-understanding.md",
+          "sha": "837b95583eab26817d0040cfa9310c442f424b72"
+        },
+        {
+          "path": "references/cosmos-curator.md",
+          "sha": "85ba4b531848617340ff0893a46061e45f97d2a5"
+        },
+        {
+          "path": "references/curation-retrieval-workflow.md",
+          "sha": "108cc7e2893f96006e5c63fe1740a42f8dcbd6fe"
+        },
+        {
+          "path": "references/data-mining.md",
+          "sha": "a8631f9c3ad2d7e96f2793131e6b642f6234bd38"
+        },
+        {
+          "path": "references/distribution-analysis.md",
+          "sha": "2cb2f0f0cc7dc6bb4d5e61d3bb90134895d9acb8"
+        },
+        {
+          "path": "references/distribution-aware-curation.md",
+          "sha": "d95a57e7e375d96c8829d213fb1c5ad3579825bf"
+        },
+        {
+          "path": "references/ffmpeg-sidecar.md",
+          "sha": "f6da3203a0e0389f93550fe519605148dd756dd3"
+        },
+        {
+          "path": "references/gotchas.md",
+          "sha": "fcf535778cefb0c727185b64b62afe42023c1856"
+        },
+        {
+          "path": "references/image-curation.md",
+          "sha": "bf493b9e50c9ff8ce8418a55a4c7d9b95f4a5b53"
+        },
+        {
+          "path": "references/kpi-metrics.md",
+          "sha": "8d8580374b73a9556ca40ad0edbcc7743681da98"
+        },
+        {
+          "path": "references/restrictive-curation.md",
+          "sha": "a973cadf6fa16778dca8d8ce87a88c991fc921ca"
+        },
+        {
+          "path": "references/running-pipelines.md",
+          "sha": "a7a5dcd3d9d87bcab92ba0b069ff1ba5b43e7755"
+        },
+        {
+          "path": "references/sam3-config.md",
+          "sha": "83f7d824032bcf721837457dbfbc8e454769776a"
+        },
+        {
+          "path": "references/video-curation.md",
+          "sha": "787992b6b1048a673af8125a228737f34649b46d"
+        },
+        {
+          "path": "references/video-lake-curation.md",
+          "sha": "cdb848eadecee21700eef44b0068a7d3f5f1b43d"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "1b97fe8a6288ce670b4939c36ec4898b75ccb29d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "4ab517bf53d52d34a88e95f050fd394269cbe51a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-curation-and-retrieval",
+      "version": "1.1.0"
     },
     {
       "id": "NVIDIA/skills@paidf-orchestration-setup",
