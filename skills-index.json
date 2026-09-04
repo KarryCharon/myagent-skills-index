@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788469562782,
+  "generatedAt": 1788539136250,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7324,15 +7324,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/amc-run-rtsp-calibration",
-      "contentHash": "ac6127a4",
+      "contentHash": "371f9903",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2f80d0ff9c6153b3f578edc159bc57963d153738"
+          "sha": "8aecdcab53ac4e02fa16140c0a0a0b5a484480fa"
         },
         {
           "path": "SKILL.md",
-          "sha": "0a03f90840f0b5fd723347d47df4a1d8174ccd1f"
+          "sha": "dffda5de0de7fa0f57d0c1ae46a31dea4bcdd35b"
         },
         {
           "path": "evals/evals.json",
@@ -7340,15 +7340,15 @@
         },
         {
           "path": "scripts/run_rtsp_calibration.py",
-          "sha": "40fb32f26124c09d006e1e8a8a3144fd87c1f4bd"
+          "sha": "b91a18207160d9cf8bb30054e93c0246945ab140"
         },
         {
           "path": "skill-card.md",
-          "sha": "272a21b91426182b9c30323e2f77f8fecb92867c"
+          "sha": "5a4aa8030b1918c40844b3b4d0e6b06d15561832"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6baa751fe7d5ce7f7a32a6796dfb36014deffb72"
+          "sha": "0231c1c6502208ff9c26e54e35a42cf580aaf1b6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-run-rtsp-calibration"
@@ -7361,15 +7361,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/amc-run-sample-calibration",
-      "contentHash": "27adc20f",
+      "contentHash": "495ae656",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "24c494026f4b0eb5f8ea99d7e914d45f88c8915b"
+          "sha": "e5162ebb47caabb42f2ce792eb596a200e6df81d"
         },
         {
           "path": "SKILL.md",
-          "sha": "bc31b4336dff257fa9820e41998d5fc36f4f18e5"
+          "sha": "e5abc564e448640acf67fc67d89fc9a26ed1bcfa"
         },
         {
           "path": "evals/evals.json",
@@ -7377,15 +7377,15 @@
         },
         {
           "path": "scripts/run_sample_calibration.py",
-          "sha": "2754a7a4b999126c845fa6043ad0d70edf88f48c"
+          "sha": "81cae299df3801ea6effebfe9b06c6e8aab96f79"
         },
         {
           "path": "skill-card.md",
-          "sha": "2e56a18e7edd6b9d3923618e2c308cca9acc45f3"
+          "sha": "5e4798d74bdf9dd6a3416e3f0195409f12650b96"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8a0438e819e3366f80007b122f7453140e807e57"
+          "sha": "01cf896efac0bc7631b16e6c209b28f334bc7e6b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-run-sample-calibration"
@@ -7394,19 +7394,19 @@
       "id": "NVIDIA/skills@amc-run-video-calibration",
       "trust": "trusted",
       "name": "amc-run-video-calibration",
-      "description": "Calibrate a new dataset from pre-recorded video files via the AutoMagicCalib REST API. Use when user has local MP4s and says 'calibrate my videos', 'run AMC on these videos', or similar. For RTSP/live streams, use amc-run-rtsp-calibration instead.",
+      "description": "Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-calibration`.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/amc-run-video-calibration",
-      "contentHash": "8ea887a1",
+      "contentHash": "3195f8eb",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4bd65b18d7abdb92e3b100ca1144a98ab1878091"
+          "sha": "39b753c017d808f7302942917c59cb08ddc389c7"
         },
         {
           "path": "SKILL.md",
-          "sha": "9073214f9dd811ee853324ac034cb3b156db8ebb"
+          "sha": "f7889bbe840de0d9b986c3ce0fb2b602cad2e4cf"
         },
         {
           "path": "evals/evals.json",
@@ -7414,18 +7414,19 @@
         },
         {
           "path": "scripts/run_video_calibration.py",
-          "sha": "148f5e4c22d712382920c651d092d8fd99f1d40b"
+          "sha": "e72037b83bcbf5aad4727eca147ae8845da3bb15"
         },
         {
           "path": "skill-card.md",
-          "sha": "42f0a445e45d18d7e69ee4f905e40b4ecbca6090"
+          "sha": "83b998ab47f5441ab48f78a74f65b5bcda956257"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4e85dad6325fefe6fd8104dc8b00ddc4aea1018d"
+          "sha": "2ba177b8e6ef875db06ca29ecef7a70fb4fc59db"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-run-video-calibration"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-run-video-calibration",
+      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@amc-setup-calibration-stack",
@@ -8442,35 +8443,31 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/deepstream-dev",
-      "contentHash": "2149e02f",
+      "contentHash": "617e77b8",
       "files": [
         {
-          "path": ".claude-plugin/plugin.json",
-          "sha": "007ecf3b8fecfb3999bcc619307a08ade8375902"
-        },
-        {
           "path": "BENCHMARK.md",
-          "sha": "86f547bce44266657122647f7e549f15dac680b6"
+          "sha": "d4f6d890cba042b64e83f2b3d33b1d9c67358975"
         },
         {
           "path": "SKILL.md",
-          "sha": "be30155d412010646714c8d42bf5f9734200ea84"
+          "sha": "1669cc520321e87c3da753a94ad37472c7cbcbb6"
         },
         {
           "path": "evals/evals.json",
-          "sha": "723435b29383186322e3557dd425ad31f592b1df"
+          "sha": "cbca50d7b0c0e276907a2342e5e0155e9621a3be"
         },
         {
           "path": "references/best_practices.md",
-          "sha": "f034e84049aeea1d7091eb058d7b0da5211db506"
+          "sha": "923ff7af478c3585f079cdad6bb3e4478fec1fd5"
         },
         {
           "path": "references/buffer_apis.md",
-          "sha": "0c169d462677fe0ceeef182cc38fba674fb4af0e"
+          "sha": "40ce5853ebc9341c4f06567b1f370a741fa19e17"
         },
         {
           "path": "references/docker_containers.md",
-          "sha": "d7efb2627fb1299b90ab07828b3985b15b456bfa"
+          "sha": "c519a73095884537d8f68b63a77f468777ac2c11"
         },
         {
           "path": "references/gstreamer_plugins.md",
@@ -8478,7 +8475,7 @@
         },
         {
           "path": "references/kafka_messaging.md",
-          "sha": "eac0d7ebce262291143280d113cbe6205ee779fc"
+          "sha": "50aebea4f59c8578b05e79250b50908ee58cae75"
         },
         {
           "path": "references/media_extractor_advanced.md",
@@ -8490,7 +8487,7 @@
         },
         {
           "path": "references/nvds_msgapi_adapter.md",
-          "sha": "e2a458d8d8f49b2a75f81c5430a32211c6eb394f"
+          "sha": "5bb7c55d1c95ebba40b7eda61c307c7b2f8d7cd3"
         },
         {
           "path": "references/nvinfer_config.md",
@@ -8526,11 +8523,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "a35a0dcf2e11655be898162e8110471c33ad5714"
+          "sha": "edfdca5ed389dbdc06a26b12fa43b892e1f84f16"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "493c217ece972190814315d74d552ee081d7d0dc"
+          "sha": "71b96cfcf95757c3de7887b382df798f5edb7c15"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/deepstream-dev"
@@ -8632,43 +8629,79 @@
       "id": "NVIDIA/skills@deepstream-import-vision-model",
       "trust": "trusted",
       "name": "deepstream-import-vision-model",
-      "description": "Use this skill to bring any vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: ONNX download, SafeTensors export, TRT engine build, custom nvinfer bbox parser, multi-stream benchmark, and PDF report. Object detection models only.",
+      "description": "Use this skill to bring a supported object-detection vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: ONNX download, SafeTensors export, TRT engine build, custom nvinfer bbox parser, multi-stream benchmark, and PDF report. Object detection models only.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/deepstream-import-vision-model",
-      "contentHash": "84622c89",
+      "contentHash": "072cd8d1",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha": "8ba2eb133a577e44c90fbbb9f80c9ce7f55a2fbd"
+        },
+        {
+          "path": ".gitignore",
+          "sha": "3837149b80249d54daf2d39296396a8baf4ac8bb"
+        },
+        {
           "path": "BENCHMARK.md",
-          "sha": "43fa1279d6a8c1d49b4b8f0574546e24942eb2f5"
+          "sha": "2276e3d5af84787a4b875c792f7a267ed21716d2"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "85173fc3dea50507088edc1a93a62a3f1b901c98"
+        },
+        {
+          "path": "README.md",
+          "sha": "021c936dd70d226a54767e6de91a7bc85442a474"
         },
         {
           "path": "SKILL.md",
-          "sha": "6f7ce2b66c4cd55ae92ae9aa704635edc076a007"
+          "sha": "6a89bb82a99f36477f50dd7e5822340ad764f777"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "d76e1eae6a75acbf143b75717753af277d2087e1"
         },
         {
           "path": "evals/evals.json",
-          "sha": "69251089b84da91c783b0636919e6cd24bc86d4f"
+          "sha": "a4291988dfc8d0bd286b403e21b13bdcec53a3aa"
+        },
+        {
+          "path": "install.ps1",
+          "sha": "c46c9bdeb95a8cff14b73bdfa0cec414c523049b"
+        },
+        {
+          "path": "install.sh",
+          "sha": "1cfe1c589b1280af760fbee8147052e5642ae536"
+        },
+        {
+          "path": "references/README.md",
+          "sha": "f54deb5bd7e467c6d79d4898d6ea05d1dfbd9fad"
         },
         {
           "path": "references/engine-build.md",
-          "sha": "4d99962bb642fadb6b564fbc70dda189869fbbda"
+          "sha": "3e7effa6f08d3a85a8475ba349866d8edba221df"
         },
         {
           "path": "references/model-acquire.md",
-          "sha": "c5305afe397b8df5c29ba39ef0aa080e51936b40"
+          "sha": "70a3fa8faa840942958a18fb5501f95a664a6c4a"
         },
         {
           "path": "references/pipeline-run.md",
-          "sha": "cb1709f64b544fda824934b98868f7eabec1721d"
+          "sha": "4e9739b32a76de36fdb30285d9567ec4c4e8e9eb"
         },
         {
           "path": "references/report-generation.md",
-          "sha": "2f386c81ff5bb6e79afab0d4a205a681562f29b6"
+          "sha": "8253987a15c87e3a4373f13ac46809b7fa4dad6e"
+        },
+        {
+          "path": "references/windows.md",
+          "sha": "71d845dbefb86c96bd381c148b90bc9feb3b4c01"
         },
         {
           "path": "scripts/deepstream/benchmark-ds.sh",
-          "sha": "6103bbcea91f557ad34e75b05b11e793a5fc5d95"
+          "sha": "e3d9459c0bb3275c5c2c2f4782945404402a06a9"
         },
         {
           "path": "scripts/deepstream/ds-kitti-dump.sh",
@@ -8684,19 +8717,27 @@
         },
         {
           "path": "scripts/deepstream/ds-sweep.sh",
-          "sha": "e486d557648e70ced64e6b7dbcd0253e7fd8e1b7"
+          "sha": "1de00d4cdcec832333947316fc16877c764bf869"
         },
         {
           "path": "scripts/deepstream/extract-frame.sh",
           "sha": "4eba591981a2e24667c4ddab49051c864242aeb0"
         },
         {
+          "path": "scripts/dsrun.sh",
+          "sha": "a0ec3eba60bde8d253c4f6bb16de7cc66de89058"
+        },
+        {
           "path": "scripts/engine/benchmark-trtexec.sh",
-          "sha": "50bde6e1226eca7a5a32377cd066addc1f57bc94"
+          "sha": "a11537e23594be3c606ef2f0a711bd6a6ff246aa"
         },
         {
           "path": "scripts/model/cleanup.sh",
           "sha": "1ada608dea387228f0ede26bcfb62fe4e3b007d2"
+        },
+        {
+          "path": "scripts/model/config-to-labels.py",
+          "sha": "e7ff6b2e48cbf7fd46749763edb42262e8048436"
         },
         {
           "path": "scripts/model/hf-download-config.sh",
@@ -8704,11 +8745,11 @@
         },
         {
           "path": "scripts/model/hf-list-files.sh",
-          "sha": "aaa75c1a309d6c38546930ddc4777e8df57979ed"
+          "sha": "224a12de575d8df0b63c088d5b4715baad1bb0fa"
         },
         {
           "path": "scripts/model/inspect-onnx.py",
-          "sha": "0678d0bc420566e47b5c7c03aff93779bbed44b1"
+          "sha": "370bfef394f5b560f294d427e6c96067b8211577"
         },
         {
           "path": "scripts/model/make-static-batch-onnx.py",
@@ -8720,15 +8761,27 @@
         },
         {
           "path": "scripts/model/ngc-list-files.sh",
-          "sha": "b348ae6525d85b14a10281b85aba7a260f8408a1"
+          "sha": "a2ece66970f02adb313a8c366e6e2d46a1668d5f"
+        },
+        {
+          "path": "scripts/model/resolve-engine.sh",
+          "sha": "f29e71c0eab58a05c64d9a41527727430eb6c564"
         },
         {
           "path": "scripts/model/safetensors-to-onnx.sh",
-          "sha": "9be3029872dc0d8f09eb746afbf46419a46e6a52"
+          "sha": "8866e5fb9c2f567203fc1295b7fb104cfd21c97a"
+        },
+        {
+          "path": "scripts/model/safetensors_to_onnx.py",
+          "sha": "3c9ff213f39103ad239de223be7f4adffb43bbc1"
+        },
+        {
+          "path": "scripts/preflight.sh",
+          "sha": "57f44a95da676d6165d62f318cc31599a82f09e5"
         },
         {
           "path": "scripts/report/generate-benchmark-charts.py",
-          "sha": "f7b22d5f751974b94acc0f396e21fa69e3a922c4"
+          "sha": "81415213f48b644bd90dfb597f1aeabeee0d3002"
         },
         {
           "path": "scripts/report/latex-pdf-wrap.tex",
@@ -8736,7 +8789,7 @@
         },
         {
           "path": "scripts/report/md-to-html-pdf.py",
-          "sha": "b6f6a6da9ed53d674a8302b248c1cd80a731c5e5"
+          "sha": "6edd7ed5275c02b9e6957b3a3b29636dfd9e4f1d"
         },
         {
           "path": "scripts/report/md-to-pdf.sh",
@@ -8760,19 +8813,55 @@
         },
         {
           "path": "scripts/report/report-style.css",
-          "sha": "0448d67342b0113fdb91de18de4f209d279bc5c8"
+          "sha": "65a6764d50edfcdc6d6298a79f95600978e04d1c"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "e892733de60a9560284c6dd44d0b8c66ee6887bb"
+        },
+        {
+          "path": "setup.sh",
+          "sha": "0eb3d454c746c703b901595d13867ee49e1316b8"
         },
         {
           "path": "skill-card.md",
-          "sha": "7a0f194fe16db4cb54c5ea5b22855ad937abb8a1"
+          "sha": "817255fa9b1953a5820de8c1f96c2075dcb9a78c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1f98309ecc16171598e6bd25911e8836b6079786"
+          "sha": "b94b852d7d4ba691d08d2326880a2843032d69d9"
+        },
+        {
+          "path": "tests/README.md",
+          "sha": "5a1435e9735f31d1d3df2d67bda2340d933ec347"
+        },
+        {
+          "path": "tests/__init__.py",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "tests/test_evals_contract.py",
+          "sha": "33d93d516fcb67887e81202a0bb3cd0329497a0c"
+        },
+        {
+          "path": "tests/test_hardened_scripts.py",
+          "sha": "9bf812bf7b712060ce52bcc3b8ea84bd47297476"
+        },
+        {
+          "path": "tests/test_onnx_export_contract.py",
+          "sha": "2565115719ae0ad25ceec55edd78f1357fa899e3"
+        },
+        {
+          "path": "tests/test_powershell_installer.py",
+          "sha": "37313c250006ff7976953e82e3a1816d4db25d06"
+        },
+        {
+          "path": "tests/test_skill_model_intake.py",
+          "sha": "dde22a81ab6df7c9aa05000a7702b5fe0f85c0b3"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/deepstream-import-vision-model",
-      "version": "1.2.2"
+      "version": "1.5.2"
     },
     {
       "id": "NVIDIA/skills@deepstream-profile-pipeline",
@@ -8916,15 +9005,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/deepstream-sop",
-      "contentHash": "0b267850",
+      "contentHash": "79c23462",
       "files": [
         {
-          "path": ".claude-plugin/plugin.json",
-          "sha": "0edf33552b7921ce623d0d622323f54fe4557ba4"
-        },
-        {
           "path": "BENCHMARK.md",
-          "sha": "76680c9fe85aa7bdd1c67cd0a5369b650459852b"
+          "sha": "158defcaf536f720dafcb00e5a379f0cb282b862"
         },
         {
           "path": "SKILL.md",
@@ -8948,11 +9033,11 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "6481793dce4c17c236834c297edb0d491e3f6cf6"
+          "sha": "f5c26b0d36e782e78daf1827686924876455d51e"
         },
         {
           "path": "references/Dockerfile_reference",
-          "sha": "9f2c6d326daa19754d772bba84dd186d3a476320"
+          "sha": "db48810e1c23864a37a90a628f3f51f949ecc417"
         },
         {
           "path": "references/Emulation_0815-0000.pfs",
@@ -9052,11 +9137,11 @@
         },
         {
           "path": "references/skill_05_triton_ddm_model.md",
-          "sha": "c46fb730053dc024856fe2d7cc36992b5a3114e5"
+          "sha": "b9c529c41f6cacb61c6787de44109f2ecf2d0e41"
         },
         {
           "path": "references/skill_05b_custom_postprocess.md",
-          "sha": "0ec443b707c494d36628815f8aa4c721ee6b8d69"
+          "sha": "f74911ffb45426fa7c798574ab6f59d78b42e06b"
         },
         {
           "path": "references/skill_06_sop_process_manager.md",
@@ -9076,7 +9161,7 @@
         },
         {
           "path": "references/skill_09_docker_build_deploy.md",
-          "sha": "cde4723552ae4a5ab51814b3ef42f83ba60042f6"
+          "sha": "46e77280e20b4edf12dce6f355480d7271b0b5b5"
         },
         {
           "path": "references/skill_10_test_suite.md",
@@ -9096,7 +9181,7 @@
         },
         {
           "path": "references/skill_14_implementation_checklist.md",
-          "sha": "dea8bc4d4a89af5f277483d06230cdc8b50a9df1"
+          "sha": "6ea89a1f05eea836f5127215a26192ab9bfbca00"
         },
         {
           "path": "references/skill_15_latency_measurement.md",
@@ -9112,7 +9197,7 @@
         },
         {
           "path": "references/skill_18_rtsp_streaming_output.md",
-          "sha": "d4fcee1a54ac3aca2a4b449b3fbded7b9a9a308e"
+          "sha": "dfcdaf395c6402379a6591f8ce2392637d396225"
         },
         {
           "path": "references/sop_architecture.svg",
@@ -9148,11 +9233,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "8cff4ed23e3149cdab3e2a3de8d6036a4a51cb4c"
+          "sha": "92c5c916f5abb7f936bee63abd783d99db878b2f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "164e68e538612f38f1a687d80928478c3a2f1ca8"
+          "sha": "d29239045c9d3d8ea95374aba5218f453bff0c9d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/deepstream-sop"
