@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788539136250,
+  "generatedAt": 1788582885446,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13855,19 +13855,19 @@
       "id": "NVIDIA/skills@i4h-lerobot-viz",
       "trust": "trusted",
       "name": "i4h-lerobot-viz",
-      "description": "Serve the LeRobot HTML visualizer for a converted dataset in a browser. Use when asked to visualize, inspect, or open a LeRobot dataset; not for converting HDF5 (use [[i4h-workflow-dataset-convert]]).",
+      "description": "Serve and visually inspect a converted LeRobot dataset in the browser. Use for videos and state/action timelines; do not use for raw workflow HDF5 or incomplete conversion output.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-lerobot-viz",
-      "contentHash": "3a4339d6",
+      "contentHash": "d4b10ce6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "543f00f91170470163b5970dccc5b54192b61868"
+          "sha": "9f61d1835775f2b8c727137f1195a7800ee5a2a0"
         },
         {
           "path": "SKILL.md",
-          "sha": "4bcccbf205b4f986a58484a521b0994e7de61f6a"
+          "sha": "bbd5763c1a9212a854e9f89860d2c706e8bb59fa"
         },
         {
           "path": "evals/evals.json",
@@ -13875,450 +13875,439 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "071c5042f65a757b6fda7fab28781684b6c3774f"
+          "sha": "dadd3e7b9cf69bfdc2a73b8ebe743d6b81168134"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "eb33635d9d3d982136fe4eeac929432c8256b77f"
+          "sha": "86ea84945e614ed7175a8cf6e7c38172845b4f06"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-lerobot-viz"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-lerobot-viz",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-create",
       "trust": "trusted",
       "name": "i4h-workflow-create",
-      "description": "Create a new agentic env by forking an existing env. Use for new env/task scaffolding, not scene edits or baking.",
+      "description": "Create a minimal blank Workflow scaffold with a Scene containing ground and light plus an idle run mode. Use for fast new Workflow scaffolding.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-create",
-      "contentHash": "bd5e03ca",
+      "contentHash": "eeaeb725",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "e65c43c1556dd33e0bfcf1ec6e251439ca9704e8"
+          "sha": "28e1e61ff196a16356dc374a19dca1971eca856f"
         },
         {
           "path": "SKILL.md",
-          "sha": "8feeeec03c9aac3e49d70b25e841844a05eebc27"
+          "sha": "712ee7540168409733cc88745df1712e3d3810ff"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8f62790755d2511082181db21de3abf99062d8ec"
-        },
-        {
-          "path": "references/create-contract.md",
-          "sha": "b9ffcce6c330dcf327a8bcc67db89d9032f80a7c"
-        },
-        {
-          "path": "references/create-validation.md",
-          "sha": "5d4f66db0e93bbc534519449ac4c6087ebc2951b"
-        },
-        {
-          "path": "references/env-authoring-patterns.md",
-          "sha": "85a0d0285f9138959bb8aad937f9f6c57520ba36"
-        },
-        {
-          "path": "references/g1-surgical-tool-sort.md",
-          "sha": "8cc3ecc4d4830c7903098dd7d82b3cf72bceec07"
-        },
-        {
-          "path": "references/hybrid-layout-rules.md",
-          "sha": "33707cd437de9c78448f2d7eeaa5eb5cf865a027"
+          "sha": "771a5689e0f3834d4cb5ed2442d4af24cc114593"
         },
         {
           "path": "skill-card.md",
-          "sha": "35559d0023edf9953e616165934b67501346b802"
+          "sha": "68d4327e6ebd5bd0b001b8fc49f8fd7c167b2141"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2971edcf363dc40e0a6ea41fd4f8a73ccbde25b1"
+          "sha": "64909558017b1dfdafd5e81cd60d825eba20ccd4"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-create"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-create",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-dataset-annotate",
       "trust": "trusted",
       "name": "i4h-workflow-dataset-annotate",
-      "description": "Use a VLM to verify whether each episode satisfies the env's task description. Use when the user asks to annotate, label episodes, filter demos, or gate finetuning on a success classifier.",
+      "description": "Grade or filter workflow HDF5 episodes with an OpenAI-compatible vision model. Use for visual success labels; do not use for replay, policy evaluation, or recordings without frames.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-annotate",
-      "contentHash": "83827fd8",
+      "contentHash": "6949c12d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9fcfc667dc925e8412a2fffeb0d1982804ed35f9"
+          "sha": "04a89d06d04121d8e29fdc6fa07189bcac088781"
         },
         {
           "path": "SKILL.md",
-          "sha": "d3e0e5da39bfa6dbb8e3b91a371cbe93593fd488"
+          "sha": "f739a3abeef14e705e3cf76d43d0a2f174a60571"
         },
         {
           "path": "evals/evals.json",
-          "sha": "d0a643b3dde2513f92c094b639144378f7255dec"
+          "sha": "b686602ae0a1aeb7aa7157e9b154d2531944fd45"
         },
         {
           "path": "skill-card.md",
-          "sha": "ffe72a3a710c30a0a5a0cea8247ada58373adb53"
+          "sha": "69918561a74d20849f00980cb467e8786682199c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c2fda89f36571927c67d40d83fdb2254ff90c4a6"
+          "sha": "d2207e6e92e034c46d7da390d10a5fa70a864b27"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-annotate"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-annotate",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-dataset-convert",
       "trust": "trusted",
       "name": "i4h-workflow-dataset-convert",
-      "description": "Convert an agentic HDF5 recording into a LeRobot dataset (parquet, meta, videos). Use when asked to convert HDF5, prepare for training, or export to LeRobot; not for viewing — use [[i4h-lerobot-viz]].",
+      "description": "Convert workflow HDF5 recordings to LeRobot datasets for training or browser inspection. Use for conversion; do not use for replay, augmentation, or raw-data repair.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-convert",
-      "contentHash": "34eddd1d",
+      "contentHash": "b653f714",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "26b5a5a7ee6433bae67d8176471db32758d9f44c"
+          "sha": "f47d85460890f91ee86fcc5e0122b920f81a094b"
         },
         {
           "path": "SKILL.md",
-          "sha": "5c8816948ca4f10a02929afdd5ea97c9e36214ca"
+          "sha": "b891266ad568dd2fdbf5ef36d944273865265426"
         },
         {
           "path": "evals/evals.json",
-          "sha": "d299ea81764ef833aa6f7114b72d93a555a42c7c"
+          "sha": "61628674891b4a9228fc3e5a3b3df765cf324830"
         },
         {
           "path": "skill-card.md",
-          "sha": "fa6bfe708338118c5babe9a6cc532bdd7251f7da"
+          "sha": "b2473bb74631cfb936201ff803e6f4c0fad9fff0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6d9e98b3c6a10290f71eff82f1df5bc76db6e38e"
+          "sha": "1c084458ebf5d6270ca4d6220f9139142935ec4b"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-convert"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-convert",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-dataset-mimic",
       "trust": "trusted",
       "name": "i4h-workflow-dataset-mimic",
-      "description": "Expand an HDF5 recording by cloning trajectories with action/state noise. Use when asked to mimic, expand, or augment a dataset; not for recording new demos (use [[i4h-workflow-dataset-teleop]]).",
+      "description": "Expand workflow HDF5 demonstrations with action jitter, optionally scoped to node segments. Use for synthetic variants; do not use to collect data, alter state directly, or generate new images.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-mimic",
-      "contentHash": "637eb052",
+      "contentHash": "3532dfe7",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a5cf5ad88628c583cb3f3fbe34a6af8b467344bd"
+          "sha": "f9e96182887e285cc3cae347aa091b5bee73b7a6"
         },
         {
           "path": "SKILL.md",
-          "sha": "fdabf867bb97413bbac1fc851a0ae340a22ebf85"
+          "sha": "f4731023880c7925276adf2b103008a3e3946350"
         },
         {
           "path": "evals/evals.json",
-          "sha": "ad03964c4721ea41ec682df478a424e7828baac5"
+          "sha": "ceb5fd00859bd3561dcbaeeab48edb24f5de25fd"
         },
         {
           "path": "skill-card.md",
-          "sha": "c0b5ed0df54445bae90fd53a6339d956f0d52611"
+          "sha": "355dff44f120bc1dd719a70a1825c8b8bc52248d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2ae09da235a16aee478788859d60319e3ad9f2dd"
+          "sha": "f826dd51cc0e74bcbd4e464998344a0ef2c47bd1"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-mimic"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-mimic",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-dataset-replay",
       "trust": "trusted",
       "name": "i4h-workflow-dataset-replay",
-      "description": "Replay a recorded HDF5 episode inside Isaac Sim for visual verification. Use when the user asks to replay, play back, or step through an HDF5 recording.",
+      "description": "Replay a workflow HDF5 episode through its original Scene. Use for visual trajectory and recording verification; do not use for policy evaluation or LeRobot data.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-replay",
-      "contentHash": "b5282540",
+      "contentHash": "93307fa1",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "368e8f2a40c79e67f233d7bf5797c32ab3e040f5"
+          "sha": "b0673cffbcd019d5e23c0562cc1be99f59ceb2fc"
         },
         {
           "path": "SKILL.md",
-          "sha": "5ad6ed71fd7554d49969ba70fdbbab4b8c5e76e2"
+          "sha": "5693c0877279c4c39b19043360a40357723d478e"
         },
         {
           "path": "evals/evals.json",
-          "sha": "5282bbbc93e2f65a58e38ba65e26372e736512c6"
+          "sha": "1462f0cfc7e619174fd7643fe66cb0ac42136214"
         },
         {
           "path": "skill-card.md",
-          "sha": "84498201fe7adaf7b54a56c41f1ac17ae3f0c4dd"
+          "sha": "3da2a510e174f576fd45bacf877a8052c2d033ec"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b9457310165c58d3fafe74c49ed7c035e775d4fb"
+          "sha": "e79ccdca0dfff0c922ca20b6e27524f20a54581a"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-replay"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-replay",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-dataset-teleop",
       "trust": "trusted",
       "name": "i4h-workflow-dataset-teleop",
-      "description": "Record episodes for an agentic env via teleoperation (keyboard, SO-ARM leader, or VR) into HDF5. Use when the user wants to teleop or record human demos.",
+      "description": "Record demonstrations through a workflow's teleop Task into workflow HDF5. Use for keyboard, leader, VR, or bus input; do not use for policy evaluation or autonomous rule-based Tasks.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-teleop",
-      "contentHash": "b62e173a",
+      "contentHash": "a0e4d2b1",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f2a7211d27d4e6960a3d9e5298c03f7b805bbfb8"
+          "sha": "0fe3d3626ede14005363fa296adf20e86d4efd8f"
         },
         {
           "path": "SKILL.md",
-          "sha": "2d68bd98a6bdb0a8ad45e8286685ec249c0290ec"
+          "sha": "74729c2a9cba75dff0d633c304988e21364fc64a"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8c91342c90c5581b4d72b05cbb6ef667d26c738b"
+          "sha": "c249884228fa770ab7bbc3ca9ff6811b585104b4"
         },
         {
           "path": "skill-card.md",
-          "sha": "0eaad3d13f0bfa8bedb0e3b304744e576c3fe952"
+          "sha": "adb70d0a4fd6c24bd4ce8d886e7ce05862bd5258"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "bb3280c992566e7006a2d3853d68a569baebec3d"
+          "sha": "57dd82555521d6bf1032b202981a94ebc90a68e9"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-teleop"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-teleop",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-e2e",
       "trust": "trusted",
       "name": "i4h-workflow-e2e",
-      "description": "Run the full end-to-end agentic pipeline (record → mimic → annotate → replay → convert → visualize → finetune → validate). Use when asked to run the whole pipeline or do an e2e, smoke, or demo run.",
+      "description": "Run the maintained workflow data-to-policy pipeline from recording through checkpoint validation. Use for full end-to-end requests; do not use for one individual stage.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-e2e",
-      "contentHash": "2586978c",
+      "contentHash": "99ccbfef",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "704dbf29ed0a633d51d10ced162a6dbe22709c02"
+          "sha": "c4944f65efd42ba797b9e3e906d385ebf6e073a8"
         },
         {
           "path": "SKILL.md",
-          "sha": "7479921f6ac2e459580d025293d49ded26f073d6"
+          "sha": "71202cb23f8d319c961b3752d1c7b79916148512"
         },
         {
           "path": "evals/evals.json",
-          "sha": "e185eff41c44873afd21c00069daa79732c5220c"
+          "sha": "309d6b6c746ff6b012345cfbd6f64520e95aa41a"
         },
         {
           "path": "skill-card.md",
-          "sha": "0e7963e2608166957625a96715294305b9526101"
+          "sha": "e16d173ef932ad6e2ca73b4f7eed3ba2b265a470"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5037874b88ef12927af23bdf983acaaaf75d6b4e"
+          "sha": "ff27ec010ee0ceac73b21974fd30cc0ae2c6d061"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-e2e"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-e2e",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-finetune",
       "trust": "trusted",
       "name": "i4h-workflow-finetune",
-      "description": "Fine-tune a GR00T or openpi PI0 policy on a LeRobot dataset. Use when asked to finetune, train, or post-train a policy on demos; not for evaluating a checkpoint (use [[i4h-workflow-validate]]).",
+      "description": "Fine-tune a manifest-backed GR00T or openpi remote Task on compatible LeRobot data. Use for training; do not use for inference-only Tasks or checkpoint rollout.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-finetune",
-      "contentHash": "4af1e318",
+      "contentHash": "f006bb93",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7a3a5677e2c4eec427b729a2f31de162edf8b275"
+          "sha": "9d95053b87221d009aa9bd2d17b889f9c981a797"
         },
         {
           "path": "SKILL.md",
-          "sha": "231b72a582ae2e09efc669a2eab016d7291e8303"
+          "sha": "a5e91d7601863deeb24eae4e133648b9c7e8aab1"
         },
         {
           "path": "evals/evals.json",
-          "sha": "4f8be554688c129c18f9133ccd93fd89f24d11e1"
+          "sha": "3d5dcb7ca38c96e2c1b01f889a515c77934fa4c2"
         },
         {
           "path": "skill-card.md",
-          "sha": "bceda0c83bd040ce5621e735ae21253cbc60df64"
+          "sha": "9c7aa5584c810f48d7ec1432fc779a715ea31cf4"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "df1010e84dc75be65380abacde170d9cefe1ea04"
+          "sha": "50aa18ff277aa409fa416f31344663bebe84b666"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-finetune"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-finetune",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-scene-edit",
       "trust": "trusted",
       "name": "i4h-workflow-scene-edit",
-      "description": "Edit an env's scene in place — objects, cameras, task, success bounds, randomization. Use when asked to edit a scene or launch/run/open an env in edit mode (`--bridge`), incl. a just-created env.",
+      "description": "Edit an existing workflow Scene or task contract. Use for assets, layout, cameras, randomization, task text, or success rules; do not use to create a new workflow.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-scene-edit",
-      "contentHash": "2daee20e",
+      "contentHash": "371aa119",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "5b79e26e6e9405bff05da3e08e4a4a7fca33175f"
+          "sha": "f909e5eda55f1f4237bff0faab49133447eb66bc"
         },
         {
           "path": "SKILL.md",
-          "sha": "0a544b489a1fcc8414744131a7c0b283962b8094"
+          "sha": "2db3a6cf649e8c013e8330f26ff0b9618ca4a4d7"
         },
         {
           "path": "evals/evals.json",
-          "sha": "d6415b7976bd1aa176d292764a7ef16e08e2535c"
+          "sha": "977601dc36b7ae8be4a7fb51e43048a850db162b"
         },
         {
-          "path": "references/asset-snippets.md",
-          "sha": "c117388c732a89b8f49c407359a26309d221e9ed"
+          "path": "references/existing-scene-assets.md",
+          "sha": "e8eb583b2b9484c7539327479261bb2d7cd406f8"
         },
         {
-          "path": "references/bake-checklist.md",
-          "sha": "802054d4dfd007e83044681e9592773d3094f5a6"
+          "path": "references/g1-reach-and-contact.md",
+          "sha": "fac1b734944d03f1d73ceb3134f821d62929b6fc"
         },
         {
-          "path": "references/camera-snippets.md",
-          "sha": "a2d903f053f9b0c1a32bfc8a2351fa25211f8681"
-        },
-        {
-          "path": "references/scene-edit-patterns.md",
-          "sha": "880717b5e41b0d24bd9e93b5f8e560c8d844af5b"
+          "path": "references/isaacsim-skill-routing.md",
+          "sha": "893aac91f0bd917e235ac731083e81a9545f278b"
         },
         {
           "path": "skill-card.md",
-          "sha": "51a31acf8f55274460a5ecb0e55a3b86326e4758"
+          "sha": "736782edc3e7253d1c54d2bc887c8bfd9c787e54"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "da8d0cf5d5e08e96ead6315613238e0edaed19ca"
+          "sha": "8e97cad5e02ad52d45b5d48ad44719306e1c9362"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-scene-edit"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-scene-edit",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-setup",
       "trust": "trusted",
       "name": "i4h-workflow-setup",
-      "description": "Verify host requirements and run `workflows/agentic/setup.sh`. Use when asked to set up, install, or bootstrap the agentic workflow, or hits missing `.venv`, third-party checkout, or engine errors.",
+      "description": "Preflight and set up the root-level workflow runtime. Use for installation, missing component environments, or third-party failures; do not use for rollout validation.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-setup",
-      "contentHash": "8982f961",
+      "contentHash": "343d68b5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "01702f561107bd01e29f7d214078da27bf90e143"
+          "sha": "30e1411d9a4e19c0454ab2ba6537d88a295bc8f5"
         },
         {
           "path": "SKILL.md",
-          "sha": "42ab5b3c028158e0cdd84dde2e40f5145d97909f"
+          "sha": "6222a8177945748405aa87e8e05883e76993eff3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "4aaf3a4b3491c9d79bb874a47a7cf05016c0f081"
+          "sha": "a83fec6bceeccfd565c4c696fff409cd13cf084e"
         },
         {
           "path": "skill-card.md",
-          "sha": "835a5890b2529acf585c76222171de28330b2440"
+          "sha": "271417b8f431c9ed8b8e2148fe3cb46d70e5eb42"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8e698c4407f3f7c9241c9ecd454e7f203d03d116"
+          "sha": "c6ddaa9c25106f5b00504633c0ced5263f501e4d"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-setup"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-setup",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow-validate",
       "trust": "trusted",
       "name": "i4h-workflow-validate",
-      "description": "Validate, evaluate, or run i4h envs. Use for policy/checkpoint rollouts and scripted state-machine smoke runs.",
+      "description": "Run the root-level workflow runtime policy or rule-based rollouts and verify simulator success. Use for evaluation, checkpoints, or local controllers; do not use for replay or dataset annotation.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-validate",
-      "contentHash": "6588130c",
+      "contentHash": "e5f62871",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "af8f7966b1a610b86964906f6e8450b2353f5646"
+          "sha": "c287548740cd03d9c4b9b65305a6ca0e64560262"
         },
         {
           "path": "SKILL.md",
-          "sha": "1ba40618d429ee10a1ccd30a2ffb519670149eba"
+          "sha": "f70cfdd0fff2f641210406be461a65eded6af597"
         },
         {
           "path": "evals/evals.json",
-          "sha": "ae0bfcab3739432812a8b5dc5c1852f008c4f4e7"
+          "sha": "5080d18faa09ba1fababc8b9d48d65da79527fa1"
         },
         {
           "path": "skill-card.md",
-          "sha": "0e7aa98357ab03da05594db84656a70ab6b6ac98"
+          "sha": "4dc57908d933698d806817c322c1000284e6c27a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "a0f6252392423d70efdaf4c71f662884a038b715"
+          "sha": "6589781492fd36f48d55b5cef10c5c23b939ef27"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-validate"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-validate",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@i4h-workflow",
       "trust": "trusted",
       "name": "i4h-workflow",
-      "description": "Overview of `workflows/agentic/` (IsaacLab-Arena + GR00T/openpi). Use when the user asks what i4h workflow is, what's supported, or where to start.",
+      "description": "Orient users to the i4h workflow runtime and route them to the correct stage skill. Use for architecture, support, or where-to-start questions; do not execute a known stage.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow",
-      "contentHash": "3d909adc",
+      "contentHash": "27dfbe62",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c72021e5cd9aac609d89a9a7b871fc2943beebe2"
+          "sha": "b74b3d4ba9ee2ee769270d31086559782396dffa"
         },
         {
           "path": "SKILL.md",
-          "sha": "c24bd6052a50dca8a88a1e0fbd00c078c6abebab"
+          "sha": "ee515e09d65be320d0af1bbe0a7cc4a6d5474553"
         },
         {
           "path": "evals/evals.json",
-          "sha": "cea4d8ba4bb05f2248ace4b0d3d283cdb7c7333d"
+          "sha": "3911922f9551a276519fb98d5f533d153689931c"
         },
         {
           "path": "references/repo-map.md",
-          "sha": "b89296c481975b2c05b45335df5e31c36320643b"
+          "sha": "9a643fe1b8179448ad3e4209741e6293768e2100"
         },
         {
           "path": "skill-card.md",
-          "sha": "266d166230bfe5e22fea0fa65d0fa228f25b3c3a"
+          "sha": "f441f62a74df30ba87e58ce87afcedb5ac456488"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "65f9cbcdf1f03ba00be93ae57c7521c39d611e97"
+          "sha": "d8781b390748c2a7768e0e10dd9228947256fef4"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow",
+      "version": "0.8.0"
     },
     {
       "id": "NVIDIA/skills@jetson-build-source",
