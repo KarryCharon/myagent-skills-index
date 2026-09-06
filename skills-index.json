@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788582885446,
+  "generatedAt": 1788669809917,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -31173,7 +31173,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "careful",
-      "contentHash": "de895b1d",
+      "contentHash": "11ab44f0",
       "files": [
         {
           "path": "SKILL.md",
@@ -31185,11 +31185,11 @@
         },
         {
           "path": "bin/check-careful.sh",
-          "sha": "b6bebb9d3cc74758a292dd779361a7b5f49fff0b"
+          "sha": "11993f110e6d460877004fd7a631827d0080fd8e"
         },
         {
           "path": "bin/hook-extract.sh",
-          "sha": "6ab8d611ed114e41b301e16b18b99d4598ccb974"
+          "sha": "594b4d6c00db0a1224ed44b6b92bf70757e713a3"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/careful"
@@ -31558,7 +31558,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "freeze",
-      "contentHash": "272f4eaf",
+      "contentHash": "d2970bcb",
       "files": [
         {
           "path": "SKILL.md",
@@ -31570,7 +31570,7 @@
         },
         {
           "path": "bin/check-freeze.sh",
-          "sha": "6c6e62e76395a4cb568a13f7578f4222ae0bb26d"
+          "sha": "02ac381ca974532e62181000a8630dcf70244c40"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/freeze"
