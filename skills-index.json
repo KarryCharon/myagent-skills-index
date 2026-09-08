@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788885713542,
+  "generatedAt": 1788901990441,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13619,72 +13619,6 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/hsb-test"
-    },
-    {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-e2e",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-e2e",
-      "description": "End-to-end smoke for catheter navigation covering setup, digital twin, DRR, and unit tests. Use when asked to run the full catheter workflow smoke or demo the v0.7 pipeline.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-e2e",
-      "contentHash": "abc5c154",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "0cffec1284bffff4aa73757d036cdcefa2383f54"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "9999aa908e35fbcfe0b2c5f3bd9bf9dfba3f2489"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "abcb4498be39cadf828b8f70328e808e6d90d38f"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "017965daa363d93b111e6d4067cd9fb94fd6a6d3"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "c22bdafd4f478b44d650b19d718f1d37cdc0c90d"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-e2e"
-    },
-    {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-smoke",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-smoke",
-      "description": "Run CPU-only fluorosim smoke tests (imports, preprocessing, CLI parsers). Use when asked to smoke-test catheter navigation in CI or without a GPU.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-smoke",
-      "contentHash": "e478641a",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "1400b10cb27726f9680b40ab9046f4580788238c"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "a13eb5c706993e60933f33563a55aa04ae465477"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "5a94e47e93e6470cdaa8c895b8ee1df1f8043eff"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "762579955e4e76d74cf6b74be2ce73323916d6e4"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "a783753484574404a9a417eb62ad285442a6c4be"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-smoke"
     },
     {
       "id": "NVIDIA/skills@i4h-lerobot-viz",
