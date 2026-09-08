@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788726427193,
+  "generatedAt": 1788885713542,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13621,39 +13621,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/hsb-test"
     },
     {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-digital-twin",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-digital-twin",
-      "description": "Build a patient vasculature digital twin from CT (preprocess + segment). Use when asked to preprocess CT, segment vessels, extract centerline, or prepare ct_cache for viewport/DRR.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-digital-twin",
-      "contentHash": "cb793247",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "7ac6e66babd4697f2df3fb577bed1c1c6a661b6c"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "542a338bf4e74419973a015d6011ced488f6dff7"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d1505dc58db2981da9f8a0ef8ad899bd54f4df4b"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "a2ceb132db92678f9f244e68d902b1e706d57930"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "0e89f0278bea68da4cff279515f79413689fb5cf"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-digital-twin"
-    },
-    {
       "id": "NVIDIA/skills@i4h-catheter-navigation-e2e",
       "trust": "trusted",
       "name": "i4h-catheter-navigation-e2e",
@@ -13687,72 +13654,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-e2e"
     },
     {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-render-drr",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-render-drr",
-      "description": "Render a single DRR fluoroscopy frame from a CT cache or synthetic phantom. Use when asked to render DRR, generate a fluoro image, or smoke-test the Slang renderer.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-render-drr",
-      "contentHash": "3102784e",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "1f546afc9c428b7a8046c25f3be3c8d87936b37f"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "790680b1fb06a25cf617abd1dd5d0d624e55ca8f"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "4f1146d87427d4e9281baf7d9b5b48337729c968"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "9355cc8ddc0d2e8dd3755459e0c52da34bdea49d"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "85cce2f94b572e78d18d1061e52d87c7baada0e8"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-render-drr"
-    },
-    {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-setup",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-setup",
-      "description": "Verify host/GPU requirements and PYTHONPATH for the catheter navigation workflow. Use when asked to set up, install, or bootstrap catheter_navigation, or when hitting import/GPU/slangpy errors.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-setup",
-      "contentHash": "6b7b4c0c",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "c9657e4f4202bc20e30ef577e12e6fe478884e27"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "4e9b21e4d786c117f6561dd3fc00bf2d2ac3394f"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d233a13675768b909ade19dc5870313f599d3019"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "dc3979fb87196e076d2d1da0ab41e7e00485465d"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "dc8471c4c2213255a4044387f83d9d1f56621c4b"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-setup"
-    },
-    {
       "id": "NVIDIA/skills@i4h-catheter-navigation-smoke",
       "trust": "trusted",
       "name": "i4h-catheter-navigation-smoke",
@@ -13784,72 +13685,6 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-smoke"
-    },
-    {
-      "id": "NVIDIA/skills@i4h-catheter-navigation-viewport",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation-viewport",
-      "description": "Launch the interactive Slang fluoroscopy viewport with XPBD catheter physics. Use when asked to open the viewport, teleop a catheter, or demo fluoro navigation.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation-viewport",
-      "contentHash": "3449ebd0",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "f27668799a58d678e4c5997c47c66691a42b8cc2"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "fa4ab62d502352e2411ad542b6a96a09cd83218f"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "c0523a6f473febef105175f6d0b088800440902d"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "0bcc13723c4db2c0bc94dc579e0f1bd001c3c168"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "002ac90557d2de636edf208e8f4425824f574df2"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation-viewport"
-    },
-    {
-      "id": "NVIDIA/skills@i4h-catheter-navigation",
-      "trust": "trusted",
-      "name": "i4h-catheter-navigation",
-      "description": "Overview of `workflows/catheter_navigation/` (fluorosim DRR, XPBD physics, vasculature digital twin). Use when the user asks what the catheter navigation workflow is, what's supported, or where to start.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/i4h-catheter-navigation",
-      "contentHash": "85ab3a2b",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "ee259d5f42ca5bf674ada767fca241d49952e955"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "09cfc14869304700be871851207df1c34c0e4989"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "f3dd178fdf0f51574ea837d81a1bfd58a0b22703"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "1bdea59137403c2815574df75fc4a0d8630351fd"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "24da835a2ec6a4d790acbb5d77ac7bdc035af58d"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-catheter-navigation"
     },
     {
       "id": "NVIDIA/skills@i4h-lerobot-viz",
@@ -14235,6 +14070,44 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-setup",
+      "version": "0.8.0"
+    },
+    {
+      "id": "NVIDIA/skills@i4h-workflow-train-rl",
+      "trust": "trusted",
+      "name": "i4h-workflow-train-rl",
+      "description": "Use when training, evaluating, or exporting Workflow policies with online RSL-RL or RLinf, including RL checkpoint and Workflow handoff.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/i4h-workflow-train-rl",
+      "contentHash": "80674e0e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "af5f4eca3d4a58f6b76be0fa9e8a3f1263b95886"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "6e5fdaa9a211494e9c8a21579b1793cf1c5502d8"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "3fe284e304285d4b58fc667b13a0d80dde0838dd"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b05dcf3911df86465137a92387ad732199a21c97"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "43cd149fe2270ed4520e84bdc481a0509bad61a8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "4675b8c28b3e37cf7d8747423cfa8b9cf40de0f1"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-train-rl",
       "version": "0.8.0"
     },
     {
