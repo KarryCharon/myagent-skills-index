@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788901990441,
+  "generatedAt": 1788953284169,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -31137,15 +31137,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-consultation",
-      "contentHash": "d4160302",
+      "contentHash": "389f2eb3",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "faef6627324070b6a0e7ccd6db4a8f9d85aef97e"
+          "sha": "d8838fe9f0dcee99868ec7e944170389979b53e4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a3ad1cdef0816217ce3c33ff51a849a406f0ab4f"
+          "sha": "2f79e0ae34392a0cb44916ec9ed4aa3e0c9850bd"
         },
         {
           "path": "sections/manifest.json",
@@ -31153,11 +31153,11 @@
         },
         {
           "path": "sections/proposal-and-preview.md",
-          "sha": "fbd421fef536fb5821076dd064eff17ce43a4f17"
+          "sha": "686e9f2816e5f1ad4117f9c8f4db4d2d4a21e05d"
         },
         {
           "path": "sections/proposal-and-preview.md.tmpl",
-          "sha": "5d2d13a7024365d24f926cc49e99f3a980d57059"
+          "sha": "68f1c4de7f0507162601c0a469da775c1963da5d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-consultation"
@@ -31170,15 +31170,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-html",
-      "contentHash": "11cac1da",
+      "contentHash": "aab8cf5f",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b197aca60076b49458ed55dc1b7312c50dc67580"
+          "sha": "069d59f1e46d6dd39a280e3fca511b0866bbf8f6"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "9405824845fd06509e77e16756b81315c1a5d09e"
+          "sha": "38cd6bc9b53b0c050eae2f3e30728de63e89d9bc"
+        },
+        {
+          "path": "sections/detector-install-offer.md",
+          "sha": "7df9190e25591352bb117b9d9183d8f04e110565"
+        },
+        {
+          "path": "sections/detector-install-offer.md.tmpl",
+          "sha": "4118c7c36862f2f1ecca6b3d5ee50a0df745e20a"
         },
         {
           "path": "sections/doctrine.md",
@@ -31190,7 +31198,7 @@
         },
         {
           "path": "sections/manifest.json",
-          "sha": "caa6940dedd1796769b0a696e638261d7026c6d0"
+          "sha": "3adf8c19b53844f82eba54ddea8144afa9c32186"
         },
         {
           "path": "sections/pretext-patterns.md",
@@ -31215,15 +31223,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-review",
-      "contentHash": "7f5df985",
+      "contentHash": "e0266451",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4c3d90a19115a542e795200b1ae07be0853ae6ac"
+          "sha": "6311f2a28f37582ce0a567cde7c55dc4299b93bf"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "25592b0e2fd11289d6575cae48c64a3c0cf16857"
+          "sha": "a01f05b31fa6f1d25bf882d372958464c13d8915"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-review"
@@ -31236,15 +31244,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-shotgun",
-      "contentHash": "265104bf",
+      "contentHash": "ff98caa4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6c3dd57e01c4fb6b16d796d3c6f1a9207dc788fc"
+          "sha": "de9d12fe0142fb8539315078c7242e49cdae9f3a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "0340825722d8959ba3bf145efa1787124153639c"
+          "sha": "6931178a0913ac1a3609757265d4fad40d548c3e"
         },
         {
           "path": "sections/doctrine.md",
@@ -32235,11 +32243,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "7171200b",
+      "contentHash": "c63f7d86",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "e703cae792959e735f90af672b20f31a8055562e"
+          "sha": "0897e71a232f673c20155f2717712a93a6d1007c"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32251,11 +32259,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "e533a332699e4de109bd1b1209689e2c8aeee66d"
+          "sha": "52040638cf2688cc4535c19a100c671c200c87aa"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "8b9c0c4bc37bf056319fdfa5e6e64df7e2c63232"
+          "sha": "5fca2bbd93e9e4dbebf6e644d5f5654b240953e3"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-design-review"
@@ -32462,7 +32470,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "6d1f118d",
+      "contentHash": "42758fbe",
       "files": [
         {
           "path": "SKILL.md",
@@ -32482,7 +32490,7 @@
         },
         {
           "path": "design-checklist.md",
-          "sha": "e9d2b7117c039f82b78daec8f7db63998ee1480c"
+          "sha": "fab8a7637682330770390001b80311dd2cd2d00a"
         },
         {
           "path": "greptile-triage.md",
@@ -32510,7 +32518,7 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "f37fb5d738106c063bdcf784078535d714723bc5"
+          "sha": "a68e36578fe8c494458bfe7623cdbbf9af289bed"
         },
         {
           "path": "sections/review-army.md.tmpl",
@@ -32683,7 +32691,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "272aa3b8",
+      "contentHash": "2ad1cb7a",
       "files": [
         {
           "path": "SKILL.md",
@@ -32739,15 +32747,15 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "ef91acb6b44f0a775e2fc75a580d19b1038ec54b"
+          "sha": "d68e87dc05d369afe382f81ef766f00933aaf720"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "a585509ca11d89e63d3477a47e7ac14b0e04b7e9"
+          "sha": "f34b65fb54a7b34b9d70adff491c8cb326b9fbce"
         },
         {
           "path": "sections/review-army.md",
-          "sha": "bb1c3b82910ebaccf1beecfa10bf0771cc777601"
+          "sha": "bc7e129abeba35348aaf519f8f8b8d4e09da03c4"
         },
         {
           "path": "sections/review-army.md.tmpl",
