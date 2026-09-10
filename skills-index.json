@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1788972110895,
+  "generatedAt": 1789039456909,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6127,11 +6127,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-cloud-sagemaker-iam-preflight",
-      "contentHash": "17e3abf2",
+      "contentHash": "64037d8f",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8f15164327ff28e8086ae275a54b068ff32025e8"
+          "sha": "ca0fe8b8dfb0e7b307b1b3f0dc612f3da279750d"
         },
         {
           "path": "references/minimum-permissions.json",
@@ -6147,7 +6147,7 @@
         },
         {
           "path": "scripts/create_role.py",
-          "sha": "a7cbd5f9f8b711606b40b82bc18cccc838b1c5a5"
+          "sha": "608483ac2c4803b5feed9bb9016c3a19cce7bb18"
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/hf-cloud-sagemaker-iam-preflight"
@@ -6160,11 +6160,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-cloud-sagemaker-production-defaults",
-      "contentHash": "6e600902",
+      "contentHash": "6a47e47f",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cb6b72048486b72c154c77b5df5cba542ceccf3d"
+          "sha": "0161c21c4a12e0f79ff231d3e04871fa61e15bc7"
         },
         {
           "path": "references/deployment-template.md",
@@ -6176,15 +6176,15 @@
         },
         {
           "path": "scripts/deploy.py",
-          "sha": "823e241de03e1b6154d9d486115f0af16b3d2b99"
+          "sha": "f870cc5fb0bd2c82f875c818152060f54ef91e27"
         },
         {
           "path": "scripts/deploy_async.py",
-          "sha": "5ec28b84a85fffd2d5a73201327625b63841a755"
+          "sha": "779a301b6d10c1f6fabff3b4bdef0c17682d0ac5"
         },
         {
           "path": "scripts/deploy_ic.py",
-          "sha": "f7b93e13a72b7548d25622f18e8925f4b0094623"
+          "sha": "223801574e42beae53d164aab3e323bf60f40d4e"
         },
         {
           "path": "scripts/invoke_endpoint.py",
@@ -6205,11 +6205,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-cloud-serving-image-selection",
-      "contentHash": "3a520e47",
+      "contentHash": "8e7860ae",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "05f70d82c00da9160a086f477f31ff77e9bddea5"
+          "sha": "1709fff53a6fe3005a3bc3120f91019482cd0e23"
         },
         {
           "path": "references/model-to-image.md",
