@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789039456909,
+  "generatedAt": 1789144349755,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7465,19 +7465,19 @@
       "id": "NVIDIA/skills@cudaq-guide",
       "trust": "trusted",
       "name": "cudaq-guide",
-      "description": "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.",
+      "description": "Use for CUDA-Q setup, simulation targets, QPU access, and @cudaq.kernel authoring guidance.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cudaq-guide",
-      "contentHash": "2f74f5cd",
+      "contentHash": "8870f63d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "49455064468bbe2dceedd8993d1e8019c0b6cd57"
+          "sha": "f3b7c17075c7a80154daa35829f2347983cbc04e"
         },
         {
           "path": "SKILL.md",
-          "sha": "51af53bf3f37f5691ab6e38e372f4459a93bb35f"
+          "sha": "c7935eb3d30e314bb4aa18953a5fbdf2393e394c"
         },
         {
           "path": "evals/EVAL.md",
@@ -7489,15 +7489,23 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "c2a8b44f15fc6eb231ce78d4b06523ba0a9701d9"
+          "sha": "fdfaf3c1d97ac207ea275ac036b03e2e843d4eee"
+        },
+        {
+          "path": "references/authoring.md",
+          "sha": "1fd7c94c25c16fba6e5d569e9f85132ad3c610ab"
+        },
+        {
+          "path": "references/onboarding.md",
+          "sha": "205bcca73f8fd5f052a5e23766dd4e12c756dcac"
         },
         {
           "path": "skill-card.md",
-          "sha": "d328fb757067450a100d8176be3e100322ef0375"
+          "sha": "9bbc6eef3607140ebcf549ecc1e241b739a0a547"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "16572261301bf0490e16850b84636a47fd5be8b9"
+          "sha": "64a6730b4104d1c6ca9e654513a0960f5daa4350"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-guide"
