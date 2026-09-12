@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789144349755,
+  "generatedAt": 1789210301420,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7469,15 +7469,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cudaq-guide",
-      "contentHash": "8870f63d",
+      "contentHash": "df83459b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f3b7c17075c7a80154daa35829f2347983cbc04e"
+          "sha": "2f684c794893b76c26b01f28ea6174c99dd29a15"
         },
         {
           "path": "SKILL.md",
-          "sha": "c7935eb3d30e314bb4aa18953a5fbdf2393e394c"
+          "sha": "10504b5d473ed277355621012cb1633fef92f5c2"
         },
         {
           "path": "evals/EVAL.md",
@@ -7501,14 +7501,51 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "9bbc6eef3607140ebcf549ecc1e241b739a0a547"
+          "sha": "4fa85ac3764c17bb44415e47655294898d8a7727"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "64a6730b4104d1c6ca9e654513a0960f5daa4350"
+          "sha": "d9059cd2f447f863c2272b13c637c15a62f7b22f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-guide"
+    },
+    {
+      "id": "NVIDIA/skills@cudaq-importing",
+      "trust": "trusted",
+      "name": "cudaq-importing",
+      "description": "Use when porting circuits from another framework (e.g. Qiskit) into CUDA-Q kernels while preserving the source algorithm and validation fidelity.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cudaq-importing",
+      "contentHash": "7aaf16f5",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ae450e830081633b9a465540748c50d9c4a38bc5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "15d7334b507d57a5cf8e99caee464afde2517bcb"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "f1a8b3b93765faae4029faf5804cd6678d5c339e"
+        },
+        {
+          "path": "references/porting-reference.md",
+          "sha": "3c82119663442c572fa7e6ff98c30bd27614cafa"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "e12a9dbaaa6b86b3deb8a6be292b42a9bbab7919"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "cda829ceb488150805633be3d5f21a89ba95135f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-importing"
     },
     {
       "id": "NVIDIA/skills@cuopt-developer",
@@ -16119,15 +16156,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-automodel-model-onboarding",
-      "contentHash": "454676be",
+      "contentHash": "0d6091e9",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "512093f04ab8174c18694f770535380f9fa9c80e"
+          "sha": "95fba9c95d1d1dcf40da47099e3d46358118386e"
         },
         {
           "path": "SKILL.md",
-          "sha": "23bef141387bb12122aa8c7d6910f6061a5c858d"
+          "sha": "6788a517e1079af787ca413dfbe985d63b9dd5a5"
         },
         {
           "path": "capabilities-and-precision.md",
@@ -16139,19 +16176,19 @@
         },
         {
           "path": "llm-patterns.md",
-          "sha": "19e1ae044ed2a1355e14fa1359ce43ba468f0286"
+          "sha": "9ad39a3fbb0498e79ac14215fa2f01275430f075"
         },
         {
           "path": "moe-patterns.md",
-          "sha": "ad48b84d57fdf46c52e41934e6146ca647cf1163"
+          "sha": "577d154f991a62d39cfb08d4d6f2dfff2aafe4ea"
         },
         {
           "path": "skill-card.md",
-          "sha": "9cfbbb9dce437c4a3f57c5a90a880ec190817c6c"
+          "sha": "d24d031aa0abea8fe82a27b13fbd2843eac5f16b"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d1772d864cfa33f4fec58fe6ad22e0bc97f2e609"
+          "sha": "ba3090a6b5dca17a7017995d1b711208f34f2360"
         },
         {
           "path": "vlm-patterns.md",
@@ -16168,27 +16205,27 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-automodel-recipe-development",
-      "contentHash": "6b155794",
+      "contentHash": "aa151fcf",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "64e14c039b30c554f764afeac313235ac75eb53d"
+          "sha": "a993d4022a2d311e0652bfbf48a36b84d32907d0"
         },
         {
           "path": "SKILL.md",
-          "sha": "547f103d292a15cb480dfba76d98fc76b35066af"
+          "sha": "1d54bb7a2466661211b30e122aee456db9620342"
         },
         {
           "path": "evals/evals.json",
-          "sha": "3ef837f370cb804cb52c1adb85041ca0ef49e97f"
+          "sha": "e21c24336223a0079103c3f34c189d0c68b84c0e"
         },
         {
           "path": "skill-card.md",
-          "sha": "8ef4cfc983e17ee985b5216da90170266da5614e"
+          "sha": "1d96b4c3eaa4c2cfd14fe3859063316666f72315"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1da7ee0fed3e018df78e63f75a954a7b38ebe29e"
+          "sha": "dbcae7c50e1854856b373d3204473e95b04b041c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-automodel-recipe-development"
@@ -17402,66 +17439,67 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-relay-plugin-observability"
     },
     {
-      "id": "NVIDIA/skills@nemo-retriever",
+      "id": "NVIDIA/skills@nemo-retriever-mcp",
       "trust": "trusted",
-      "name": "nemo-retriever",
-      "description": "Use when the user wants to search, query, extract, transcribe, describe, quote, filter, or aggregate across documents — PDFs, scanned forms / images (`.jpg` `.png` `.tiff`), Office (`.docx` `.pptx`), text (`.html` `.txt`), audio (`.mp3` `.wav` `.m4a`), or video (`.mp4` `.mov`). Prefer this over native Read / Grep for multi-file or non-PDF corpora. Not for: editing files, web browsing, single-file plain-text lookups, fine-tuning.",
+      "name": "nemo-retriever-mcp",
+      "description": "Use when a task needs to search or add documents through NeMo Retriever MCP.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
-      "path": "skills/nemo-retriever",
-      "contentHash": "1c485078",
+      "path": "skills/nemo-retriever-mcp",
+      "contentHash": "88e01787",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "23acb09711cd418e210c903fc0ff8a4e250e8ca6"
+          "sha": "47cff57eee11b47bffa518857a15579d33d7e5be"
         },
         {
           "path": "SKILL.md",
-          "sha": "48289a5aea3cc789ac4e645fad0f9861a1f85eeb"
+          "sha": "2df4995913e71ce58ed2a711d465aa3d8b681076"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "67b17638e0b867c3315d75d68d6fd4b0dd4f4e2f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9d0f285be79bd72ad1681ca91d1a487c9b1a61d8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "9e1b98b09b9012604c88e57c506fe182a4e59128"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-retriever-mcp"
+    },
+    {
+      "id": "NVIDIA/skills@nemo-retriever",
+      "trust": "trusted",
+      "name": "nemo-retriever",
+      "description": "Use when searching, extracting, ingesting, or querying a document collection with the NeMo Retriever 26.8.1 CLI, including local LanceDB indexes and deployed Retriever services. Use for PDFs, images, Office files, HTML, text, audio, and video; not for editing documents or web search.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nemo-retriever",
+      "contentHash": "b6de17b3",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4725e514588f0c86036b8f9ab8ac848c4e7d916b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "f35badee5781315eed6b89c7a839367fc39b7c39"
         },
         {
           "path": "evals/evals.json",
           "sha": "91146d22c9f6b219882f4af29ca8449ddd0ec1fc"
         },
         {
-          "path": "references/cli/ingest.md",
-          "sha": "222129b3c740b3c81971aad72add12ca8c6301d5"
-        },
-        {
-          "path": "references/cli/query.md",
-          "sha": "07243f951d006a29b00a00fe02c88c3beaa51e6e"
-        },
-        {
-          "path": "references/install.md",
-          "sha": "0609b8a41404c7024465cf064a06002a7f8214ef"
-        },
-        {
-          "path": "references/query.md",
-          "sha": "b42cadae5d26dd7d82a2cc2b08d929daff0adaf0"
-        },
-        {
-          "path": "references/setup.md",
-          "sha": "6938ff173b5c2e33ed8d3ca26bff82877dbeb5fd"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "cdb399bffa6b8caa97fdc69558108c1e59a38ab5"
-        },
-        {
-          "path": "scripts/filename_fast_path.py",
-          "sha": "f11bfd8223b33e25b0b2c63c18487b85bdd9d6fd"
-        },
-        {
-          "path": "scripts/grep_corpus.py",
-          "sha": "1471b6e4c0b7a664d70a9ea17bb3c5396c2a2d50"
-        },
-        {
           "path": "skill-card.md",
-          "sha": "7216002994ac677f3a9ca32466b30456410a7225"
+          "sha": "8a92d2f65cc0562acaaab4ebb1535223dde8710d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "715cce95b6ec573d93c0089179e1c884aaea47d6"
+          "sha": "bb6b7d86150b212f7fc1169587e103d7c362fb9f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-retriever"
