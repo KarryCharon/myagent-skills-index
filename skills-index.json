@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789210301420,
+  "generatedAt": 1789316507593,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -18736,6 +18736,808 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-segment-ctmr"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-autofl-report",
+      "trust": "trusted",
+      "name": "nvflare-autofl-report",
+      "description": "Generate a reproducible final report, literature-outcome synthesis, JSON summary, and refreshed progress plot for a stopped or interrupted NVFLARE Auto-FL campaign.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-autofl-report",
+      "contentHash": "da03c544",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "cbadfdad87f0ace3fd8ff8f34b113813d9e7edf1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b60239f5466d9b350b5ca6dd4c8e7d132e1b5978"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "e858ec20cc1952bb24e618dc96c6400288f4d842"
+        },
+        {
+          "path": "references/report-contract.md",
+          "sha": "6e387a3480e064e90b37e0ff9a4dfda536f87f62"
+        },
+        {
+          "path": "scripts/generate_report.py",
+          "sha": "1c2aeb1cd19953b21b5ec5492dc174c5c793bee7"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "b2c12f7fbceb58bbe67c78a0048bb5c343b6f59a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "a700c4c8b30711561065fab1633d3a68afac3493"
+        },
+        {
+          "path": "tests/helper_scripts.md",
+          "sha": "5c2cabe051c0c677bed0764822dfcef734a81c51"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-autofl-report",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-autofl",
+      "trust": "trusted",
+      "name": "nvflare-autofl",
+      "description": "Use for agent-assisted Auto-FL optimization of an existing NVFLARE job in simulation, POC, or production. Do not use for code conversion, diagnosis-only work, or deployment setup.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-autofl",
+      "contentHash": "dfd7752c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "92d191402100dbaa4fc0c8cff80ad2771ec2070b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "36cd186c04ae6bf90c984ef9aa60aed754f7b301"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "cc77adaad6ed44302ad20438c7db278b0ef9aa2e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "7631894dad31a80072d70bc9e770e602cc3d863e"
+        },
+        {
+          "path": "evals/files/SOURCE.md",
+          "sha": "833788ce5ec04404fcb7c8aeafba6b7d2f354b63"
+        },
+        {
+          "path": "evals/files/develop_literature_batch_results.tsv",
+          "sha": "09a7d1fd07758f0241879ddb86acd118e37dd361"
+        },
+        {
+          "path": "evals/files/develop_literature_batch_state.json",
+          "sha": "317d5539bba032acf0c750ec9fb37c0973a875f1"
+        },
+        {
+          "path": "evals/files/diversify_candidates_results.tsv",
+          "sha": "dc8d09e7357266622804830aeee9f1740e4e2137"
+        },
+        {
+          "path": "evals/files/diversify_candidates_state.json",
+          "sha": "b05150f0f1e2dfc810e3e962643ddf5e0754a2e2"
+        },
+        {
+          "path": "references/bounded-campaign-example.md",
+          "sha": "f1130c1c4e72392804c1c6af5d80ac8d905cfd72"
+        },
+        {
+          "path": "references/continuous-campaigns.md",
+          "sha": "947a80d48066a3f2eca07b3e4d8fa56d6ecc0bc1"
+        },
+        {
+          "path": "references/experiment-comparability.md",
+          "sha": "1e64ae5f9cf0154ef1438e53d37d9b7e0d90d948"
+        },
+        {
+          "path": "references/job-import-contract.md",
+          "sha": "da787b4920d2acd9966c824ceefab14beab1e982"
+        },
+        {
+          "path": "scripts/campaign_guard.py",
+          "sha": "8ce7bb1e58162a22b9c620d98c34f2cf62b17665"
+        },
+        {
+          "path": "scripts/job_importer.py",
+          "sha": "ff193ddcd9520fc923595c2fba481d2a8829384c"
+        },
+        {
+          "path": "scripts/plot_progress.py",
+          "sha": "45d62b090fe46fe2edfbe9651c3f2dd7a5a1f0a9"
+        },
+        {
+          "path": "scripts/run_job_campaign.py",
+          "sha": "45b26e3001cd4cca1dda7f2ac7c296709975e04a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "ed4f0357002f193b46633d9f80d8a8cc434bac8d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "5b8d02d0e0e45464c25579ece323b96116e8b60f"
+        },
+        {
+          "path": "tests/helper_scripts.md",
+          "sha": "d54ca72c70e1cef1e2c4cf307d9fba0dd3249f83"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-autofl",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-convert-huggingface",
+      "trust": "trusted",
+      "name": "nvflare-convert-huggingface",
+      "description": "Convert existing Hugging Face Transformers Trainer or TRL SFTTrainer training code into an NVFLARE federated job using flare.patch(trainer), local validation, and job export; use when the user names Hugging Face or preliminary source inspection identifies one Hugging Face owner, and not for manual PyTorch loops, Lightning, inference-only pipelines, deployment, or experiment workflows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-convert-huggingface",
+      "contentHash": "3024a485",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "8ec733d37c3f5b7bd5c83673ac02c44fbda3d8dc"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ef9c1501be1b15334425db8f270763b061dd6553"
+        },
+        {
+          "path": "assets/client_with_eval.py",
+          "sha": "ccf886649c19065d7b194bd1f0b4029fb0efdbce"
+        },
+        {
+          "path": "assets/job.py",
+          "sha": "3c6f2a59237357c6b073f331be39ef8029981ce9"
+        },
+        {
+          "path": "assets/server_model.py",
+          "sha": "83a5b3db14fdf69f0b3f9659d589ba1735ba1a57"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6fa1c15b2b30858a3c67ad65d62b8a23be30ec0a"
+        },
+        {
+          "path": "evals/files/SOURCE.md",
+          "sha": "bf5ab388d384518cefcd180452e67a92d9586170"
+        },
+        {
+          "path": "evals/files/external-data-hf/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/external-data-hf/train.py",
+          "sha": "0f249841439dd8d7dc77ab96afeca3280c1d1861"
+        },
+        {
+          "path": "evals/files/factory-distributed/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/factory-distributed/train.py",
+          "sha": "70cbd9006a4bc8eb92e44c0b77b212d371fb822a"
+        },
+        {
+          "path": "evals/files/factory-evaluated/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/factory-evaluated/train.py",
+          "sha": "e49c60255fb7bddd7e7f634cd8f6fdbba40802a0"
+        },
+        {
+          "path": "evals/files/factory-peft-sft/model.py",
+          "sha": "1ea4049ece09acafc0a68495ca18120cd0bcf76e"
+        },
+        {
+          "path": "evals/files/factory-peft-sft/train.py",
+          "sha": "5b1ac3cd0da9d4e7087a415df9373d325af3bc28"
+        },
+        {
+          "path": "evals/files/factory-train-only/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/factory-train-only/train.py",
+          "sha": "194c865ee179e39bb9946f834f24a2ea6567f35c"
+        },
+        {
+          "path": "evals/files/injection-hf/DATASET_CARD.md",
+          "sha": "f8ef71854018a1d2a6d3217a48fb6e41e25f31af"
+        },
+        {
+          "path": "evals/files/injection-hf/MODEL_CARD.md",
+          "sha": "e064b825b58e775b651fefcbb7e6ed44183a5d28"
+        },
+        {
+          "path": "evals/files/injection-hf/README.md",
+          "sha": "0188d86419dbd0a667a13a203d6dff5f7bda6614"
+        },
+        {
+          "path": "evals/files/injection-hf/config.yaml",
+          "sha": "08d8303792a0ed7a0caebf5fd558e0acccc6919e"
+        },
+        {
+          "path": "evals/files/injection-hf/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/injection-hf/requirements.txt",
+          "sha": "b41db25a9de4e3d9c3c6e34554b63d574731a566"
+        },
+        {
+          "path": "evals/files/injection-hf/train.py",
+          "sha": "14d4b02bdaecc3e1b3a97e09facfd5e636586f19"
+        },
+        {
+          "path": "evals/files/peft-sft/model.py",
+          "sha": "a9cba48b732cc71081695529328a632220037948"
+        },
+        {
+          "path": "evals/files/peft-sft/train.py",
+          "sha": "8fbc6bd4b1eeed1797654f8ed9c001541ba9f969"
+        },
+        {
+          "path": "evals/files/relative-data-hf/model.py",
+          "sha": "630a81c3fe59f6aef1417e88e51aefe6a720970a"
+        },
+        {
+          "path": "evals/files/relative-data-hf/train.py",
+          "sha": "996ef9a0ff494ee43dafaf5a6ff01dc8944f61b3"
+        },
+        {
+          "path": "evals/files/trainer-basic/model.py",
+          "sha": "992581dca634494cc8886b74b4091b90d006e1b3"
+        },
+        {
+          "path": "evals/files/trainer-basic/train.py",
+          "sha": "069a8861e8e90bc3e0be0959a202e9a1a999893a"
+        },
+        {
+          "path": "references/huggingface-conversion.md",
+          "sha": "34b3065d8c5d4dc5a37e07e2fe70bdacdcd9ba3b"
+        },
+        {
+          "path": "references/huggingface-detection.md",
+          "sha": "99adac333215053b09c635e61eaf3b7b66cab74a"
+        },
+        {
+          "path": "references/huggingface-state-and-distributed.md",
+          "sha": "2e343d22b00ed3a6fc80bc89752bd9ac8cbcf3f4"
+        },
+        {
+          "path": "references/huggingface-validation.md",
+          "sha": "69e81d726817b7a06c0dcae9f83fbf33280f2c1b"
+        },
+        {
+          "path": "scripts/resolve_model_snapshot.py",
+          "sha": "9c828842c4f3f81cc7c100f73233d1a762c5d75f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "914d898428cb674b41a7127f0ab06ff349853d42"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "18b5ff10bdddea4d445541e21dd5d3f8428d4785"
+        },
+        {
+          "path": "tests/helper_scripts.md",
+          "sha": "236a8febef048a481f4b9f56688d718bce21ab95"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-convert-huggingface",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-convert-lightning",
+      "trust": "trusted",
+      "name": "nvflare-convert-lightning",
+      "description": "Convert existing PyTorch Lightning training code into an NVFLARE federated job using the Lightning Client API patch, local validation, and job export; use only when the request names federated/NVFLARE conversion or asks multiple sites to train collaboratively while keeping each site's data local, and either names PyTorch Lightning or preliminary source inspection identifies one Lightning owner; do not use for non-federated Lightning work such as DDP, profiling, inference serving, or training-loop changes, nor for plain PyTorch, TensorFlow/Keras, other frameworks, deployment, POC/production lifecycle, or experiment workflows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-convert-lightning",
+      "contentHash": "737e15e6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "09ee15cb7409895c0c48d27b201d7af483444a6b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ecaf04010de3497c566762b192abeb0f268d43dd"
+        },
+        {
+          "path": "assets/lightning_client.py",
+          "sha": "290a38a49065e01dc44622882e57987bfbeed6a4"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "13939e8637bf4e19a5683a5ed1c7dceddc522141"
+        },
+        {
+          "path": "evals/files/SOURCE.md",
+          "sha": "f1f5a1846177e13e3037e570e7d68c61bebe6779"
+        },
+        {
+          "path": "evals/files/external-data-lightning/model.py",
+          "sha": "fe96004518a6927a5e3bed06477c63ecc3f5a701"
+        },
+        {
+          "path": "evals/files/external-data-lightning/train.py",
+          "sha": "d1cfe52e5ce6ec09961ff9e86c04e6a8e2bc9595"
+        },
+        {
+          "path": "evals/files/factory-lightning/train.py",
+          "sha": "2f1648ce3fb8bcba78df631f67ecc38d54a85273"
+        },
+        {
+          "path": "evals/files/gpu-device-lightning/model.py",
+          "sha": "ca8222b0dcb5dfcd8be235f3ffd69e872103b9b6"
+        },
+        {
+          "path": "evals/files/gpu-device-lightning/train.py",
+          "sha": "a3f353ec09403845e2458521e8a3a7d14fea225c"
+        },
+        {
+          "path": "evals/files/hello-lightning/model.py",
+          "sha": "fe96004518a6927a5e3bed06477c63ecc3f5a701"
+        },
+        {
+          "path": "evals/files/hello-lightning/train.py",
+          "sha": "08ee90d674659939d75fa78ea5e197ba1656bc75"
+        },
+        {
+          "path": "evals/files/routing-dual/train_huggingface.py",
+          "sha": "8adc6007da709a6553ea2eb8644b6b5b40435237"
+        },
+        {
+          "path": "evals/files/routing-dual/train_lightning.py",
+          "sha": "e67e2ff5d03c2e0fb84b55b2edd50b0f5711714d"
+        },
+        {
+          "path": "evals/files/vocab-lightning/model.py",
+          "sha": "ae8adcd86d87b72d42f58e455074645a654c4438"
+        },
+        {
+          "path": "evals/files/vocab-lightning/train.py",
+          "sha": "81248fff32b8a14a6b52e77daa387511c4190309"
+        },
+        {
+          "path": "references/lightning-conversion.md",
+          "sha": "9b3c70cd800e90f5cdb15734328051d504543279"
+        },
+        {
+          "path": "references/lightning-ddp-and-tracking.md",
+          "sha": "934f403092a94a8a69357a44b68db32652eee958"
+        },
+        {
+          "path": "references/lightning-detection.md",
+          "sha": "4655d0c9ce89417a7e845c3a69fb8740e20a0f35"
+        },
+        {
+          "path": "references/lightning-validation.md",
+          "sha": "9faa59f2712eac9d12540cae9c9bf2c7f98de199"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "81f994fdc46112947f051796799e1a937834345b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "4ef11df12e2c128f61ee83b7c64a9548c8e1496f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-convert-lightning",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-convert-pytorch",
+      "trust": "trusted",
+      "name": "nvflare-convert-pytorch",
+      "description": "Convert existing plain or manual PyTorch training code into an NVFLARE federated job using Client API model exchange, local validation, and job export; use when the user names plain PyTorch or preliminary source inspection identifies one plain-PyTorch owner, and not for Lightning, other frameworks, deployment, POC/production lifecycle, or experiment workflows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-convert-pytorch",
+      "contentHash": "2d5618cc",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "f3aeb6cec28bdc14c3d621caf9448799531be9f8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "1266b59e08b64b741c158f603eda9740e95c3c3f"
+        },
+        {
+          "path": "assets/client_with_eval.py",
+          "sha": "3e054a60199e463c78643af55eeb38c4edd67f24"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "9d5019f12fd0409d31b089b6b4879a2543fa530f"
+        },
+        {
+          "path": "evals/files/SOURCE.md",
+          "sha": "89b91a8647eea264a154e7a2ad15185549ee3426"
+        },
+        {
+          "path": "evals/files/checkpoint-pt/model.py",
+          "sha": "bfdbd9910c88e8b77c1422fe2147491ab29e65b4"
+        },
+        {
+          "path": "evals/files/checkpoint-pt/train.py",
+          "sha": "c72dc0ca1b738dd9cbe153d22b4877ed9c01d7d3"
+        },
+        {
+          "path": "evals/files/data-parallel-pt/model.py",
+          "sha": "423026a3dcf14ed06c37d0faeeecf6b46412eca4"
+        },
+        {
+          "path": "evals/files/data-parallel-pt/train.py",
+          "sha": "41733329d05f9b6c503140a21bd7c1294503eb74"
+        },
+        {
+          "path": "evals/files/eval-pt/model.py",
+          "sha": "c6940452b99126a5b7575057e2ccde93d58c4d41"
+        },
+        {
+          "path": "evals/files/eval-pt/train.py",
+          "sha": "bfe0317f94c54a409fe308259c5af2c6cd5563d9"
+        },
+        {
+          "path": "evals/files/external-data-pt/model.py",
+          "sha": "77e1517ad18895bdf40c6833beb0b395c9f2dd7d"
+        },
+        {
+          "path": "evals/files/external-data-pt/train.py",
+          "sha": "f4b99e3282fc6750c3d73d2e28d94daab400fdf4"
+        },
+        {
+          "path": "evals/files/factory-optimizer/train.py",
+          "sha": "df32876183f431d4991dbe22fce9c81612a6b284"
+        },
+        {
+          "path": "evals/files/gpu-device-pt/model.py",
+          "sha": "c7168c68a540491d4a2b4c21e9e004a811ea496b"
+        },
+        {
+          "path": "evals/files/gpu-device-pt/train.py",
+          "sha": "658fcef8e3f3cf32eac88c457518c4b2747336b4"
+        },
+        {
+          "path": "evals/files/hello-pt/model.py",
+          "sha": "77e1517ad18895bdf40c6833beb0b395c9f2dd7d"
+        },
+        {
+          "path": "evals/files/hello-pt/train.py",
+          "sha": "b17263daaffa4a3cbacdcea23ced14a9c3f609e1"
+        },
+        {
+          "path": "evals/files/injection-pt/README.md",
+          "sha": "6c9b0feb179860a4e8f4faab95de707cbd4a76e9"
+        },
+        {
+          "path": "evals/files/injection-pt/config.yaml",
+          "sha": "9bd3d83613977d0f4519f03f560e2823a46ee4ae"
+        },
+        {
+          "path": "evals/files/injection-pt/model.py",
+          "sha": "77e1517ad18895bdf40c6833beb0b395c9f2dd7d"
+        },
+        {
+          "path": "evals/files/injection-pt/requirements.txt",
+          "sha": "27a066a44ff5f1b07323624a46b8b6253abc2fcc"
+        },
+        {
+          "path": "evals/files/injection-pt/train.py",
+          "sha": "b36648cd4b418c3bea65228a0ef646c14e9a38f3"
+        },
+        {
+          "path": "evals/files/state-mismatch-pt/checkpoint_manifest.json",
+          "sha": "b5e880abcbd3626976e69d0420ef949df73ce63a"
+        },
+        {
+          "path": "evals/files/state-mismatch-pt/model.py",
+          "sha": "7ae3079cb74d1c76671e4323549b0f5e9a574b7a"
+        },
+        {
+          "path": "evals/files/state-mismatch-pt/train.py",
+          "sha": "41d9f3c0a1ae9f7b77e747f18b1537bc50547c23"
+        },
+        {
+          "path": "references/job-validation.md",
+          "sha": "597a8cd1ec996301440f9d881af91335b0784d85"
+        },
+        {
+          "path": "references/pytorch-client-api-conversion.md",
+          "sha": "99eceb5045e29656b52329b4e3701efe8e3b8f70"
+        },
+        {
+          "path": "references/recipe-selection.md",
+          "sha": "6393e082bcbd0832852391433dda93946e90eb90"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "90107ee7baf5f93cb3486b5b80a9b6a83ae5e9c0"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "739fa29d10cb22f4e58cc8bfd3ad73a8cb80e12c"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-convert-pytorch",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-diagnose-job",
+      "trust": "trusted",
+      "name": "nvflare-diagnose-job",
+      "description": "Use when the user asks why a reported NVFLARE job failure signal occurred: the job failed, stalled, timed out, lost clients, ended with EXECUTION_EXCEPTION, or produced suspicious errors. Diagnose in simulation, POC, or production by collecting bounded evidence and mapping failure patterns to recovery actions.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-diagnose-job",
+      "contentHash": "25364509",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "aab67f2728342bf28f97682e296b2c4f47d16011"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d110bd580dbf11433150aeef297d7f4264c05aec"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "bd7d60ef9a3f9ea36f1b9eed080ac1b20473811e"
+        },
+        {
+          "path": "evals/files/SOURCE.md",
+          "sha": "3ea0fa9312896ca3511d001c040085370b7e9d3b"
+        },
+        {
+          "path": "evals/files/partial_log_visibility.json",
+          "sha": "b501dec3e7611bafe836cf3da35c57de4e47d4f3"
+        },
+        {
+          "path": "evals/files/poc_component_not_authorized.log",
+          "sha": "8d93243b973ca62b51a45db456fb9c77ddd4715d"
+        },
+        {
+          "path": "evals/files/poisoned_log_injection.log",
+          "sha": "b957ed3a7425be97e27194cde9d39c5ccbc0933b"
+        },
+        {
+          "path": "evals/files/simulation_import_error.log",
+          "sha": "0dd14c111458cf1f4324352ee908c56897b08920"
+        },
+        {
+          "path": "evals/files/transfer_progress_timeout.log",
+          "sha": "2c8cf3600a0d04760842dcbc51fde3b6a73db572"
+        },
+        {
+          "path": "references/evidence-collection.md",
+          "sha": "e65fa53be77c481ab40f35d48a7b2f5d3a9865b6"
+        },
+        {
+          "path": "references/failure-patterns.md",
+          "sha": "17d91cba0a931827912fdbe692206bb6b3572851"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "5241fa8d8d1c3d2fd2e457c942945cfb0adc8534"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "2335208c1231330ea1b7472e76a4b8c07825f5fc"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-diagnose-job",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-fed-stats",
+      "trust": "trusted",
+      "name": "nvflare-fed-stats",
+      "description": "Compute federated statistics over tabular data (count, sum, mean, stddev, var, histogram, quantile, noise-protected min/max) and image data (count, failure_count, pixel-intensity histogram) across NVFLARE sites via FedStatsRecipe — automatic and non-interactive from the dataset, feature names (header or supplied), and optionally a README or notes declaring which statistics to compute; do not use for model training conversion, hierarchical statistics, deployment, POC/production lifecycle, or failed-job diagnosis.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-fed-stats",
+      "contentHash": "7aa07441",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2fbd5b71f2a8a9a335b1e6eb2fca44c41e461953"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b32d0bd4efb5877e851f53663ae6dd97ebb1af4f"
+        },
+        {
+          "path": "assets/df_stats_client.py",
+          "sha": "e1e2370c1e20d20ac731335999058dd3279ed4f8"
+        },
+        {
+          "path": "assets/image_stats_client.py",
+          "sha": "80be823872613de7a842afa3887f889f3b71b7c8"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "8a099c8e55bd7dceba5c564e523aca8d50270c12"
+        },
+        {
+          "path": "evals/files/README.md",
+          "sha": "7977d6e5ed82b2b23982e110bceb6106f79afc67"
+        },
+        {
+          "path": "evals/files/generate_csv.py",
+          "sha": "bf8c20f220c96edca13d2aea4816cfaf200342c3"
+        },
+        {
+          "path": "evals/files/images-intensity/generate_images.py",
+          "sha": "8006fe02bd18ee30bb1e6df8f368d0b10025c869"
+        },
+        {
+          "path": "evals/files/readme-injection/README.md",
+          "sha": "a73e60790ed94c66d438d1e178cfa2ee1ff3596d"
+        },
+        {
+          "path": "references/image-statistics.md",
+          "sha": "923545033c13aae65baa2ea88ac26f13926b7d0a"
+        },
+        {
+          "path": "references/statistics-mapping.md",
+          "sha": "10e0845d04a354144d4de0304d2831ddf7e4cb82"
+        },
+        {
+          "path": "references/stats-job-validation.md",
+          "sha": "2e9c7c4a9c1e02a65ce081cdf0da7f3e8b45543c"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "c4a029cdc123f7434e22e18f7908dda5ce77e25f"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "06ef29a04a4bbdb99ea451fa505215a471d522a7"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-fed-stats",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-orient",
+      "trust": "trusted",
+      "name": "nvflare-orient",
+      "description": "Route open-ended NVFLARE advice and only conversion requests whose preliminary source inspection reports unresolved or conflicting ownership; never load this skill merely to inspect a concrete conversion request before selecting its detected framework converter.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-orient",
+      "contentHash": "0f94d2af",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2d2dd2c4593b9316d8710957e0f18f21a2cbd3ba"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "8902778d1ccc616784248362c7d57d8eb2b8c26a"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "df171940f3f51c6ea7da52af400d291d80a6baa7"
+        },
+        {
+          "path": "references/orientation-routing.md",
+          "sha": "ef6089bc63614088b1a64dc4630c3ada36ed1ac4"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "1cbe43a339df475664b04c167cdb6ca9ac7ef6e3"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "709c41f258c08154a3c5aed654c52e77fb3938d0"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-orient",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvflare-shared",
+      "trust": "trusted",
+      "name": "nvflare-shared",
+      "description": "Internal NVFLARE conversion references and templates. Use only when another NVFLARE skill directs you to a shared workflow, policy, or asset.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvflare-shared",
+      "contentHash": "358d061d",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "eeca43ea693177d9523bd6fb5c48151a9a98dbc8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "6adeb438f279ee6caabe44a45beccf95be437277"
+        },
+        {
+          "path": "assets/aggregator.py",
+          "sha": "b1d01f6f763036da3b5f16a34d0ae29a67b82f53"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "6a50bbdf2b5d47c6aecee8c80c100b4fa60a8dd9"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "8d24b0d539d2be021a11a090fea48935a7e80a95"
+        },
+        {
+          "path": "references/conversion-common.md",
+          "sha": "fccedd4d6177951d6f2533c706bcc691b94c735e"
+        },
+        {
+          "path": "references/conversion-workflow.md",
+          "sha": "c5d46456d539cb8d174ad7272acd8781d0d9505b"
+        },
+        {
+          "path": "references/dependency-install.md",
+          "sha": "8a6f0e83e972db5697d16d96b15b5cd9e8ce5359"
+        },
+        {
+          "path": "references/metrics-and-artifact-reporting.md",
+          "sha": "f3294c96a6643bd18fafbdc088ec95538b69c197"
+        },
+        {
+          "path": "references/pytorch-family-recipe-construction.md",
+          "sha": "39e4dcf601fb00bc2ab60010b5054e541eeb17c3"
+        },
+        {
+          "path": "references/pytorch-family-recipe-selection.md",
+          "sha": "d4b16ef369047041923b845e35fed96795755715"
+        },
+        {
+          "path": "references/pytorch-model-exchange.md",
+          "sha": "f11321ae3c70713521b66c2fa9d20d921f3e84a1"
+        },
+        {
+          "path": "references/runtime-output-guidance.md",
+          "sha": "5b88cd3a6be582494b54aecc13f570ed78b5f112"
+        },
+        {
+          "path": "references/site-data-and-paths.md",
+          "sha": "12821e598813fade46052b496bcdc809ddfa8df6"
+        },
+        {
+          "path": "references/validation-evidence.md",
+          "sha": "39eac60d296e4b1632eea3105b783886e68eee54"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "5a71dfb9c49652c5ee3ac4f13685e85662d14a5c"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "6e472ffe604644dc92307d1e9e9ada8d9fb7df61"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvflare-shared",
+      "version": "0.1.0"
     },
     {
       "id": "NVIDIA/skills@nvidia-skill-finder",
