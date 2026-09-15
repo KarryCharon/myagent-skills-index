@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789448313839,
+  "generatedAt": 1789507495487,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7047,19 +7047,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/accelerated-computing-cudf",
-      "contentHash": "9541d0eb",
+      "contentHash": "22999a3d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "64e1906be594f40bc8277095632750263c800b78"
+          "sha": "81c752aad877671fda11440d1f5d6d47aac0b8c6"
         },
         {
           "path": "SKILL.md",
-          "sha": "41fcff67caaf3d569636c1fdddad1fc58d28ea3a"
+          "sha": "dc2d100f4d49580eefbdb59e7c890c3a2a6643e3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c7494decabad6e8d28c2d8a204f1e482684a31ab"
+          "sha": "97f0e949b29a55263755ebc9b112d795efe3e9e4"
         },
         {
           "path": "evals/files/cudf-apply-udf/code/generate_data.py",
@@ -7103,7 +7103,7 @@
         },
         {
           "path": "evals/files/cudf-native-stream-handoff-boundary/code/threaded_handoff.cu",
-          "sha": "6e0284c72fc6d553c078035bb6c8226f6b3c8f62"
+          "sha": "270e0e3b5d5274b48e98aa61d1dc44722999e1ba"
         },
         {
           "path": "evals/files/cudf-null-handling/code/generate_data.py",
@@ -7111,7 +7111,7 @@
         },
         {
           "path": "evals/files/cudf-null-handling/code/null_pipeline.py",
-          "sha": "9faaa172a7be85220ce8cc29eb2cbddfb2580d82"
+          "sha": "f11b185bfc321ac09ba90728a898828ac4d3d05c"
         },
         {
           "path": "evals/files/cudf-parquet-io/code/generate_data.py",
@@ -7127,7 +7127,7 @@
         },
         {
           "path": "evals/files/cudf-pivot-melt/code/reshape_analysis.py",
-          "sha": "64ed36a702f57abcb8d435bf2d9ae34819ca2a20"
+          "sha": "04f6900f8bb68b46254c000bbe1bbaa17a7d0a7a"
         },
         {
           "path": "evals/files/cudf-string-ops/code/clean_contacts.py",
@@ -7159,7 +7159,7 @@
         },
         {
           "path": "evals/files/source-cudf-null-fillna-semantics/NOTICE.md",
-          "sha": "bf77166c3d9b57d03dd7efaba9ff7ea47a0a2596"
+          "sha": "791570030a5302252a3a08b93985f04ce5a701c0"
         },
         {
           "path": "evals/files/source-cudf-null-fillna-semantics/code/null_cleanup.py",
@@ -7179,11 +7179,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "7097caaa744a13db80bf432940df6d2b0a9c10a9"
+          "sha": "66c8b180975c35d3fe35c75851115e8cafd04852"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "30c7a3feff2a3f44287143cd29218d1e019316f7"
+          "sha": "8ba376ec8db51c68be8b50288e03e4061f7ba1e1"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/accelerated-computing-cudf"
@@ -8013,15 +8013,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cuopt-server-api-python",
-      "contentHash": "69375abe",
+      "contentHash": "1efd48e8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a0e3db287ca65b2676e264baa716f04e193bd902"
+          "sha": "75491d8b7202bcf11d5f2d758bdf387e3a74208e"
         },
         {
           "path": "SKILL.md",
-          "sha": "d952e856e7def7d60539b10b9dc053e4c3d506e5"
+          "sha": "b79d76d6d74e1d383bcbbd0c4e1615919f8afab4"
         },
         {
           "path": "assets/README.md",
@@ -8073,11 +8073,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "15ed0b683f1dae311f8e52a4fd42544ab0a7beac"
+          "sha": "75795483f27e63f6449ceceeb43996091b9cd04e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "42caf467000a359dd687ec178d717482e2981f64"
+          "sha": "d697dd55568283655e9b37f6b992587b36556e99"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-server-api-python"
@@ -9295,7 +9295,7 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-metadata-extract",
-      "contentHash": "f4b4004d",
+      "contentHash": "c23933d1",
       "files": [
         {
           "path": "AGENTS.md",
@@ -9303,11 +9303,11 @@
         },
         {
           "path": "BENCHMARK.md",
-          "sha": "de70c2cc44b230391163076d489b572402636f76"
+          "sha": "70d1c1f7f487d08a4275314f6b16d25afbafc7ba"
         },
         {
           "path": "SKILL.md",
-          "sha": "db83aeb2190c0f0ee72e4e05b30473579d504b13"
+          "sha": "1fe5ccbceac7d6ec30d7bc6fd945d754d2cf1c78"
         },
         {
           "path": "evals/baseline.yaml",
@@ -9327,11 +9327,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "07cc714649a08f5ce18a4899b1fbb9625fbb8e47"
+          "sha": "58b51e201dee61a10f0b58f618141027209d9bd5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "379bfe9b51709d245000c9eb42060f00ddb115bd"
+          "sha": "7c3b5abdfc7902c73dce091a5ca311c6d0a5d2fc"
         },
         {
           "path": "skill_manifest.yaml",
@@ -9356,15 +9356,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-preflight",
-      "contentHash": "d22be652",
+      "contentHash": "9cf0eaf5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b029626a5da010614863ddad130db7f3d690dc17"
+          "sha": "9b3d5763ce5cbc448e3e08640c9570f6e648db86"
         },
         {
           "path": "SKILL.md",
-          "sha": "343b41c09bc882f4645b047eb0a17f37335cd9ae"
+          "sha": "0b7222d5d808b2154f04edc72d625c9b7562082d"
         },
         {
           "path": "evals/evals.json",
@@ -9380,11 +9380,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "4c3d3b6e5c57113f914dd2a488d35a5378dffecd"
+          "sha": "1b9b0c8cfd15c9dfcebfb5bae7f3ac5d58537bc2"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ca626f56141e5af3f5432544db9c16f403a79f4d"
+          "sha": "87d880697f40f46569b31968504fcdfb0b532daa"
         },
         {
           "path": "skill_manifest.yaml",
@@ -9409,15 +9409,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-to-volume",
-      "contentHash": "efa66020",
+      "contentHash": "02ab8c83",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9b55e23b81048040e9668abc6522f1bfa72ed01e"
+          "sha": "2b5e3630c58dd64c079a3c62a823289ae7ce1e1f"
         },
         {
           "path": "SKILL.md",
-          "sha": "77f611031c142f63fa1b0cc7d6ffe322dfba848e"
+          "sha": "dd2acfeca0edc589d9e2ccbbbbfe441ed9ad8e5b"
         },
         {
           "path": "evals/evals.json",
@@ -9433,11 +9433,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "beebb369ef7c29b22907e1717c0fe4b1fbed2958"
+          "sha": "0b773078136dc171c760a84e20cf69d576d04c5f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e46bb38735f5768647a7c784f150f661dcd3dad3"
+          "sha": "2b746345f273308f466104ae68ddd2878c4fe9bb"
         },
         {
           "path": "skill_manifest.yaml",
@@ -12886,6 +12886,106 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/earth2studio-install"
     },
     {
+      "id": "NVIDIA/skills@foundationpose-pipeline",
+      "trust": "trusted",
+      "name": "foundationpose-pipeline",
+      "description": "Adapt BOP datasets, run the FoundationPose perception pipeline with TAO depth, and evaluate or re-score pose results. Use for dataset runs and result comparisons; environment installation belongs to foundationpose-setup.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/foundationpose-pipeline",
+      "contentHash": "ccd32060",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "a20ecfc3598d2ce00443d98716d4e23744398766"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "01a9628d3256587778ff7c05460fdb39e0b66419"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "2c2f6f1ed6795d12b8b9eecb6b0cb40b81c4d57d"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "94ff1dbe2c0e62b1ec8082353558f94d4aa26a58"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "5d0bd46f9b291a33706aabc46749c4de381e1bf2"
+        },
+        {
+          "path": "evals/files/baseline.json",
+          "sha": "7a3d7cde93fd3981ad0ac9feaf6e530762469301"
+        },
+        {
+          "path": "evals/files/candidate.json",
+          "sha": "bfc12c555aec90eb801418f5dae4a4c5b24d316d"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2cb3511edf978f4eab38d2e92e971b62cdc81636"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "e5d5802f92d20c2843deed89fcf435e70484e756"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/foundationpose-pipeline",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@foundationpose-setup",
+      "trust": "trusted",
+      "name": "foundationpose-setup",
+      "description": "Install or repair the FoundationPose perception pipeline and build its FoundationStereo TensorRT engines. Use for SAM3/TAO dependency conflicts, CUDA library failures, and depth-engine shape or precision decisions.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/foundationpose-setup",
+      "contentHash": "3f00d204",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4157b01c3c8bae16218edb4ce8716ca61abd2f3c"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d06d4b2846d1621ac0a80311e3afba035c54a058"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "f829ef7dea8bb7c1f14efa3bcfe90c4ba4456165"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "94ff1dbe2c0e62b1ec8082353558f94d4aa26a58"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "7c3579d31a99c2b35382348633ba732f34dcabdb"
+        },
+        {
+          "path": "references/engine.md",
+          "sha": "700e5935d6d094b5820c7be00ee46eed4e33b0a3"
+        },
+        {
+          "path": "references/installation.md",
+          "sha": "583a3eed70b6f1f49456165b8c9ef59c8fdfe2b2"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "0a4904be3c98fe7ffe4236e9e230bbd7a2ad3d7c"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "6283032d6112010218de03077fa6cf9872d7673f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/foundationpose-setup",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@holohub-app-lifecycle",
       "trust": "trusted",
       "name": "holohub-app-lifecycle",
@@ -16017,15 +16117,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/medtech-model-evidence-export",
-      "contentHash": "36b2297a",
+      "contentHash": "e242be3c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "fe2f01e0818ce45add34a8dee03c153be75da0f5"
+          "sha": "49d92097d2fb63f937e5ba054dc2b7233b797453"
         },
         {
           "path": "SKILL.md",
-          "sha": "66bff504528c150565cd1871f6f0e6502562c47a"
+          "sha": "3b9c5c879b2695096ec6d2588b10ba2f5660ed09"
         },
         {
           "path": "evals/evals.json",
@@ -16061,11 +16161,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "4f8d1d3455123b822c25f78f12ae6e4c7aa27d72"
+          "sha": "ee1f633fe32668df0e4dbd93b005f2813c4cd7a2"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ef630a100f5241fe0d69839cccecd36a7f75798e"
+          "sha": "73ec6c7ee2014f8ba3c1627357bbec373f4817a4"
         },
         {
           "path": "skill_manifest.yaml",
@@ -17689,55 +17789,59 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-asr-finetune",
-      "contentHash": "0d2ab7c6",
+      "contentHash": "734a1412",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3afbe893c4ba638bbfecc6984571fb6463b4df56"
+          "sha": "8233f85e91091b5701226d8d988df8f612da3ad9"
         },
         {
           "path": "SKILL.md",
-          "sha": "5ad40fa11b0fc4c9bda7bf95aa83ebaf9809c5e3"
+          "sha": "e6a3d2942b672fe3319c0b414fcf935ebaeef5ce"
         },
         {
           "path": "assets/experiment-ledger-template.md",
-          "sha": "325e97911c7b5133fb626fa8474821c8230ad089"
+          "sha": "54bd8cf348ea55d7b138d220f9aa062b85d839d9"
         },
         {
           "path": "evals/EVAL.md",
-          "sha": "6b96a1c90b2431d497308fc7c48a451f6b09aceb"
+          "sha": "7111d7c4410776a7e813c0b877cc04a0e1025c0f"
         },
         {
           "path": "evals/evals.json",
-          "sha": "6430128214d6f351d11cca1fdf795c3d0bfc58ac"
+          "sha": "eaeaea32652eca7f58d66290d9267e3d484ad486"
         },
         {
           "path": "references/path-selection.md",
-          "sha": "cadab7c01f19cf6cf157cdff3a0efbb98eb87c9c"
+          "sha": "c615af874c7b3e3c2a3265bc4aabf04ced12db41"
         },
         {
           "path": "references/planning-answers.md",
-          "sha": "3951951c046d78dd02257b04de0daa33ed2dc2d6"
+          "sha": "e290ba4c20d02bc933de153ec1b6bae5984d39be"
         },
         {
           "path": "references/sub-skills.md",
-          "sha": "a73b86a2ef926ca7a43c844580f3f8eeef8fea19"
+          "sha": "907f4532752cd0d5d0802c602e08f7708c0300e9"
         },
         {
           "path": "references/workflow.md",
-          "sha": "7831cd9bbf7e913c3a1f7936403d9389b7898d98"
+          "sha": "739521309ff0710ef5ff681dd3f976cc4e107cb0"
+        },
+        {
+          "path": "scripts/link-nemo-subskill.sh",
+          "sha": "572d39cf3b442af829dbff0e39f833179ce6cfc4"
         },
         {
           "path": "scripts/main.py",
-          "sha": "da672e600dcbbe267eeca6942daff74e45689cf8"
+          "sha": "55504743efe23a06ca86ead6c8fa1e27becfead9"
         },
         {
           "path": "skill-card.md",
-          "sha": "d8b402b5c782a0c5e568c0af71a33fd58795aa9f"
+          "sha": "31fa27aa22afb95c8e2f932eb2ba03b7b932b4a7"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d9b46ca60687d293837d9da9d0c2cef2937a3701"
+          "sha": "60043a25dfd0a62c0fef052b265d6e0a598a0050"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-asr-finetune"
@@ -18023,19 +18127,19 @@
       "id": "NVIDIA/skills@nemotron-speech",
       "trust": "trusted",
       "name": "nemotron-speech",
-      "description": "Routes NVIDIA Nemotron Speech (Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
+      "description": "Routes NVIDIA Nemotron Speech (Formerly Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-speech",
-      "contentHash": "1f68403d",
+      "contentHash": "d8a225de",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "98e179bd624572e4ee29b8de96e850ce6078638d"
+          "sha": "239290bf3251a12ab73fd6db21eaba585947f36e"
         },
         {
           "path": "SKILL.md",
-          "sha": "ae0bac8c7e7de31c13edb742f14d1596d2c4ec2e"
+          "sha": "7cd11d18ee270d2f252a524198fa138125d36441"
         },
         {
           "path": "evals/EVAL.md",
@@ -18051,7 +18155,7 @@
         },
         {
           "path": "references/asr.md",
-          "sha": "2ad40e5c6213e7f3cb576e04ab0fa8e80a3e6534"
+          "sha": "8b7577a464fd8c09a93af4e9e2b7cc6aa66ef9a3"
         },
         {
           "path": "references/deployment-readiness-checks.md",
@@ -18059,11 +18163,11 @@
         },
         {
           "path": "references/model-selection.md",
-          "sha": "566a50e11df4416a3854d1b5e15ff6e41d660928"
+          "sha": "3ec5ae2665c4e878e286ae91fffd6b17ef0649e8"
         },
         {
           "path": "references/nmt.md",
-          "sha": "446600b5232f2f3cd1545a6e35d8455f9fa05820"
+          "sha": "63bcdd151eaf8214c35f30d5f1c17774cf2b61a9"
         },
         {
           "path": "references/pipelines.md",
@@ -18087,7 +18191,7 @@
         },
         {
           "path": "references/tts.md",
-          "sha": "c84d177e069f6a8f3d00b488a5afe4d876968b02"
+          "sha": "c654ba15a7ddb90057af93f6cc965fba8bbed68e"
         },
         {
           "path": "scripts/main.py",
@@ -18095,11 +18199,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "10030674582abf02a23101d83511fb66af67f685"
+          "sha": "7cf6f919993311840ddbe436c373719ced408e18"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7c9a8ff377bdc4784cdb7fdbcd47593de437d782"
+          "sha": "073744a3af1d2a23ea10608d507da08e4d75f6d8"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-speech"
@@ -18257,15 +18361,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain-finetune",
-      "contentHash": "34719f3a",
+      "contentHash": "46d92c30",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d96d67279cbb5fa0634b852f1161d63200256020"
+          "sha": "a157db9dccbdec6a36bdff0cfd40c5f76b1a589e"
         },
         {
           "path": "SKILL.md",
-          "sha": "88a6419f41f67100d53b8a4f0127a08372dacd53"
+          "sha": "8e5a8e14a70d818d4b028023059481e2e0019f86"
         },
         {
           "path": "evals/evals.json",
@@ -18289,11 +18393,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "a1c85584e170e314fa10f6d8b4f66720a43b1ebe"
+          "sha": "c0277771a6ad6306119174496631a110fdb7a382"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "52790c27dafb221946eb77f0d89cd45e443b524a"
+          "sha": "5b0f70e7fcd9533a0140e82de9e036f43f824937"
         },
         {
           "path": "skill_manifest.yaml",
@@ -18318,15 +18422,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain",
-      "contentHash": "9ecc11a5",
+      "contentHash": "852ef26d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a424cd496d30002d42821ed7bbf491568a18f82f"
+          "sha": "fc8586d048ce8bc80a05cd1748f24e67ef3e3207"
         },
         {
           "path": "SKILL.md",
-          "sha": "b38bbd8525527f42a515a2a0870f87608b296a7f"
+          "sha": "3fc99cab7b4fe1de0169fb98046b842e02f7d982"
         },
         {
           "path": "evals/evals.json",
@@ -18362,11 +18466,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "70258bb2da9f18375d6d95975110dcf585054df9"
+          "sha": "29710a27fb5f1de7deb79edd968024c826c23aed"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f01fdacfef90196706e0783b91fbb85e0b622b67"
+          "sha": "adde154cbf05757fab0073a530acc9b0e602995a"
         },
         {
           "path": "skill_manifest.yaml",
@@ -18578,15 +18682,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ct-finetune",
-      "contentHash": "d04edcb9",
+      "contentHash": "0f88d660",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d040df566fbce393f29184dc3f740e91d45edbc5"
+          "sha": "33d3e7e5d3c11a2df8dad6b18e84e20853b8d2e1"
         },
         {
           "path": "SKILL.md",
-          "sha": "2e9e5768abeadb90bb743ce4e1d82c92baa6e8f3"
+          "sha": "8ca09883ee1a9d0d530aec5adbdbc1f31549ef31"
         },
         {
           "path": "evals/evals.json",
@@ -18602,15 +18706,15 @@
         },
         {
           "path": "scripts/run_finetune.py",
-          "sha": "4a29e56b3241449f978f1e26928aae18f2df1fbd"
+          "sha": "f6e39c5ea77f9075f8d0a87fa432d2a393bf1901"
         },
         {
           "path": "skill-card.md",
-          "sha": "105eb998e3f1f73f48843055f48593f3fcf35992"
+          "sha": "b6cf1cbb9ecab051713ced6e8d45c0c1106e4f9c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "241815317ba0360e8e7177dd73fd2f0de5b7f967"
+          "sha": "6c554ebb1c14725eaabeb9fd3fa8b47e8a99b2f3"
         },
         {
           "path": "skill_manifest.yaml",
@@ -18618,7 +18722,7 @@
         },
         {
           "path": "tests/test_run_finetune.py",
-          "sha": "2a0fa315245878041974106737f3bb254baf2d0c"
+          "sha": "0533b15bfc0302d814fa27fc4bdd4a084e38c444"
         },
         {
           "path": "validators/output_schema.json",
@@ -18692,15 +18796,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ctmr",
-      "contentHash": "006def99",
+      "contentHash": "6a70cb92",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4d926cd8edcb338ca6c12653b801b812f913f0de"
+          "sha": "ab7693995ea99b232943e3aa6d0870bc17b9544e"
         },
         {
           "path": "SKILL.md",
-          "sha": "605b4227a514abb05708504fe191679a2bf6060d"
+          "sha": "6f91d440c71151e2ceb6ee7bb71bd6f1d210d17e"
         },
         {
           "path": "evals/evals.json",
@@ -18716,11 +18820,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e2e6baf983732b1964bfe08a56f7f7eb2b10bc6d"
+          "sha": "c9582b40868cff52f6bcf2fd80dc91a8bcc4c1ef"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1fbb97aec7815c92d3925d65444ad3d2b5911b2c"
+          "sha": "5f38595f4614fe31f5c6b316bde03bce39497510"
         },
         {
           "path": "skill_manifest.yaml",
@@ -22325,15 +22429,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/physical-ai-neural-reconstruction",
-      "contentHash": "921453b5",
+      "contentHash": "8988c0b7",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7d90a4ed34115738890f511b55cd8d5a48410201"
+          "sha": "57991ad724a709faf79e09f872ad490000b45475"
         },
         {
           "path": "SKILL.md",
-          "sha": "8304cb4f0b218ebb03ae61a2dadb47095fcde884"
+          "sha": "858cf4d7a6fa1e766f018233ab08cf0b15ec7785"
         },
         {
           "path": "evals/evals.json",
@@ -22341,11 +22445,15 @@
         },
         {
           "path": "references/maintenance.md",
-          "sha": "53e1224f3f5854bffb3f2991914f9285ba291b14"
+          "sha": "b45f02ccd5161db2233886031116696e05742d8b"
         },
         {
           "path": "references/mix-ups.md",
           "sha": "450d5b493402751fdb3e9326bda0e7a04353b94d"
+        },
+        {
+          "path": "references/prerequisites.md",
+          "sha": "a5b99f43021ac33eacc921fcc766ad12431ee836"
         },
         {
           "path": "references/secrets-handling.md",
@@ -22353,23 +22461,31 @@
         },
         {
           "path": "references/teardown.md",
-          "sha": "5196189512e9acc5bfe4901159fa1c2a1f24f1a7"
+          "sha": "4f188c228e8a12bff039ff5f6275a0099ea40489"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "cd52dd028388dea3416b886936b21b722ed2b77a"
         },
         {
           "path": "references/upstream-fetch.md",
-          "sha": "2142c5c62da1cef87850290c6443e48999d8e38d"
+          "sha": "044c17f3836398328701e474d13aab3d0bb140fc"
+        },
+        {
+          "path": "references/what-is-nurec.md",
+          "sha": "f909afdb93305d606fa9c8f928a352aa3698a0cb"
         },
         {
           "path": "references/workflows.md",
-          "sha": "e333a7cd8bb595b01df2f41d2bef44e43cbdbfaa"
+          "sha": "9a22b0b6b923add8edc8a75078c1ea5fc49ab42e"
         },
         {
           "path": "skill-card.md",
-          "sha": "41517b3b2a905efcc55a27d417ba97e8060e3ad8"
+          "sha": "eb9cc8bcefc4f937a548ee07109b5a663456f33f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "304d65d384e956be1ff84f8a9183564035b4c4e9"
+          "sha": "38b695fc726ed7cd35d4d699273ecd2cf1c4ef05"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-neural-reconstruction"
@@ -22782,15 +22898,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/portfolio-optimization",
-      "contentHash": "d7ac9d1f",
+      "contentHash": "eafd2d96",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "28fe5b1f3c3c02f42a7c23c3ea216ffdc840a4e6"
+          "sha": "4785a2c53d7c04a9ecff83b5e03f71c9a30781cb"
         },
         {
           "path": "SKILL.md",
-          "sha": "c57901ef04461252d23b5b74c38b3684c2a1aead"
+          "sha": "456741081b4b37fd83eddc5d74338e3496bd7b4b"
         },
         {
           "path": "evals/EVAL.md",
@@ -22810,11 +22926,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "c9335fe901a18e7b737b05b2cf43a17c7a98dd62"
+          "sha": "b87ca3dbc9ad064fac970d2d5f405e6e8c79779c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f8bc0581e407099506c28e2a5bfbf540f418907d"
+          "sha": "3738eaac02c3bf7f09f716066e3ebd78fa5803c4"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/portfolio-optimization"
@@ -30781,7 +30897,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "3bca7a62",
+      "contentHash": "419a59ad",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -30881,7 +30997,7 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "c5b875755f788a755f2d5ccca3a1d5e9e98ea576"
+          "sha": "e367281897cc7f9ff002e7938f2f883cb2d90768"
         },
         {
           "path": "src/commands.ts",
@@ -31013,7 +31129,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "87192bcdcfaaf57e5899f2a9c3645930017c1b8c"
+          "sha": "47f7249ef194ced221cc433660a5e05f31486476"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -31178,6 +31294,10 @@
         {
           "path": "test/cdp-session-cleanup.test.ts",
           "sha": "f474df9f63ae888f7b047c369e433f80969fc8e8"
+        },
+        {
+          "path": "test/chromium-profile-isolation.test.ts",
+          "sha": "2330020fe4c4456e49fbe56f8d521dbd158ed5b5"
         },
         {
           "path": "test/claude-bin.test.ts",
@@ -31541,7 +31661,7 @@
         },
         {
           "path": "test/server-factory.test.ts",
-          "sha": "b6c1dc44d96a8cbfa950b860a8eced6f8cb8ecfa"
+          "sha": "bed2a70c8803f8aebb01b584bd822500938a0354"
         },
         {
           "path": "test/server-flush-trackers.test.ts",
@@ -31857,7 +31977,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "0de2df39",
+      "contentHash": "a5e89f93",
       "files": [
         {
           "path": "SKILL.md",
@@ -31889,11 +32009,11 @@
         },
         {
           "path": "sections/review-mode.md",
-          "sha": "51cf6fde2c84c53aa092a2c683b3b326ac2c25c1"
+          "sha": "84dc1f6172cb40fc3c260ca23d3b8dd432a43e89"
         },
         {
           "path": "sections/review-mode.md.tmpl",
-          "sha": "7ef603dd38983315f056e1115e47cd583ddcaa21"
+          "sha": "7f1e92d13e0f8a195ddb3fc016b2f6d6dd1d3b1d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/codex"
@@ -32125,11 +32245,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "devex-review",
-      "contentHash": "ca59a7b0",
+      "contentHash": "5118adb1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4eaf9af64e793c384bc00ff6bbcb0e6fbbed415d"
+          "sha": "082a3f45c0a46b480dd8d75f7ce9f0178fedd90d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32635,7 +32755,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "cd3d33ef",
+      "contentHash": "47f57d68",
       "files": [
         {
           "path": "SKILL.md",
@@ -32667,11 +32787,11 @@
         },
         {
           "path": "sections/readiness-gate.md",
-          "sha": "7054accfd82f48d039cf4c115be6e6dc8d97ee11"
+          "sha": "7e7a137dc83fedb577a530052008bdd8c66aa59b"
         },
         {
           "path": "sections/readiness-gate.md.tmpl",
-          "sha": "6946280969750429eb781b41a875bb71678dd679"
+          "sha": "2b39c98646d34bf9d20ddcb0a3aaf431875a87dc"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/land-and-deploy"
@@ -33062,7 +33182,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "326d09e3",
+      "contentHash": "a4a4b2db",
       "files": [
         {
           "path": "SKILL.md",
@@ -33078,7 +33198,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "fedab95cf17ca86bb7d579b4433656fa9c6d14a3"
+          "sha": "228b518baa6761e97a75605b53873c0caa9062fd"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -33095,7 +33215,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "1b9c90f3",
+      "contentHash": "9bf4204a",
       "files": [
         {
           "path": "SKILL.md",
@@ -33111,7 +33231,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "a0844664146a10cf29c945f8cd8466ff96f7a881"
+          "sha": "4c938c47dd6b742b8d0a3ebfaf98263fdb9b85be"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -33128,7 +33248,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-devex-review",
-      "contentHash": "e41640db",
+      "contentHash": "baa3ab50",
       "files": [
         {
           "path": "SKILL.md",
@@ -33148,7 +33268,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "cc71ae95362e5e918b973c5a8d6b52cf408e986e"
+          "sha": "7be194580e1f263a32a5a206c31974a77fb2f2d7"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -33165,7 +33285,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "a0434dfa",
+      "contentHash": "37bab016",
       "files": [
         {
           "path": "SKILL.md",
@@ -33181,7 +33301,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "03ff7cfa8aa01fc6eb70944efcf312d3ef7135a7"
+          "sha": "4a12d9b3d82eb7907cc806866d999f5341907f4e"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -33322,15 +33442,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "1fdddc68",
+      "contentHash": "b29a5f8a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b89bd3d1788b7e167105dd90d45bd015378d223d"
+          "sha": "8d46f64c574809a16b064b6472215f9a4dbbe3f8"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "b3834be926232c39f77559ab8c978e807285d699"
+          "sha": "7b266e9fcefd0fbcdaaf7739c1a319277639c7fc"
         },
         {
           "path": "TODOS-format.md",
@@ -33350,11 +33470,11 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "6eb7aff178356a2393f7b9ed6db3dbb6a2268880"
+          "sha": "f14c43b1f8ba3e604ec12bef80e4adcb51f49203"
         },
         {
           "path": "sections/adversarial.md.tmpl",
-          "sha": "dd691cd575866f466e48ce0ce8f858c9619e03c0"
+          "sha": "ad7f054b9cfcaaa22988c5c3544bd261f5e3f8c6"
         },
         {
           "path": "sections/manifest.json",
@@ -33543,11 +33663,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "32a791e8",
+      "contentHash": "4b4fe235",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2acf0b963f557772877df5f044dbabcc5525e1e9"
+          "sha": "b12db06b2882f8c23acc12752b0f8890ab302640"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33555,7 +33675,7 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "4c16dab4be66b203549ca6053270d0824f51b21e"
+          "sha": "8727bdbc15937ee8c1ff8aafbcd90bba2602e818"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -33607,11 +33727,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "048d5a46b9a29535f05bbc064ce82e0e357265a1"
+          "sha": "a75f2b9fe8284c45f58c4e2e53518f596a12890b"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "843e1ba9a2d9e2e861df3afe9cf1bb020db46da2"
+          "sha": "b2d6127c1ad146018ef891881117bf427a566ea4"
         },
         {
           "path": "sections/test-coverage.md",
