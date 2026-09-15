@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789422780082,
+  "generatedAt": 1789448313839,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -30781,7 +30781,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "8fe191a1",
+      "contentHash": "3bca7a62",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -31477,7 +31477,7 @@
         },
         {
           "path": "test/regression-pr1169-pdf-from-file-invalid-json.test.ts",
-          "sha": "834bce078c21ab56a67a3d39478bb03ba6c538fa"
+          "sha": "56fea46c81d5b23533417ea4fb392261bce25c12"
         },
         {
           "path": "test/restart-env.test.ts",
@@ -31944,35 +31944,35 @@
       "id": "garrytan/gstack@cso",
       "trust": "trusted",
       "name": "cso",
-      "description": "Chief Security Officer mode. (gstack)",
+      "description": "Security audit: supported static findings; qualified profiles add reproduction and repair candidates. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "306c0e1d",
+      "contentHash": "e82bd0c6",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
-          "sha": "c4b89aebd4d6d129bc508215f2b07ce21014e933"
+          "sha": "a07f0860c8085eec8b69785fd496d099e5887e75"
         },
         {
           "path": "SKILL.md",
-          "sha": "6fa6428ca2ac0dd1b5ab5fbc992f16477c114fa5"
+          "sha": "e8fdfa52b6d5dc10edf41d257e4be2d84c939e02"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "0cfb6da79d8ec822cbe68e2fb17ce98bbfc53d67"
+          "sha": "246b16f7780662a89e2078cfd32e4765ce616487"
         },
         {
           "path": "sections/audit-phases.md",
-          "sha": "419cc5332afe99ec83934ff500196e0605623b80"
+          "sha": "ef80711b3fe05d61df12fde9db146961cafc7175"
         },
         {
           "path": "sections/audit-phases.md.tmpl",
-          "sha": "e2e9db0a7688ee80e2f82d55eb73633e6c038375"
+          "sha": "6578ca2cba0f18d92200d28a1ba9c8b75c3bbddd"
         },
         {
           "path": "sections/manifest.json",
-          "sha": "2888b9c1a4542fd36c0e09aed1d4cc895ca0dbd4"
+          "sha": "1b463c8f57069152b6b10960f8db5b2e751f7a8d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/cso"
