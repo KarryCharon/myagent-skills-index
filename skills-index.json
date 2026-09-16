@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789534391808,
+  "generatedAt": 1789578241007,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -12943,15 +12943,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/foundationpose-setup",
-      "contentHash": "3f00d204",
+      "contentHash": "43eb4692",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4157b01c3c8bae16218edb4ce8716ca61abd2f3c"
+          "sha": "0cc1e10a4990b0f8ba07090de4be36340e8aed03"
         },
         {
           "path": "SKILL.md",
-          "sha": "d06d4b2846d1621ac0a80311e3afba035c54a058"
+          "sha": "4f34859088ea36ce763634000007315df7d7c020"
         },
         {
           "path": "agents/openai.yaml",
@@ -12967,19 +12967,19 @@
         },
         {
           "path": "references/engine.md",
-          "sha": "700e5935d6d094b5820c7be00ee46eed4e33b0a3"
+          "sha": "9e811d2c7e4715b760f59e25406f6b8bc56a805e"
         },
         {
           "path": "references/installation.md",
-          "sha": "583a3eed70b6f1f49456165b8c9ef59c8fdfe2b2"
+          "sha": "0880b27f159ecdd80707c096f8e13de53f5d8f93"
         },
         {
           "path": "skill-card.md",
-          "sha": "0a4904be3c98fe7ffe4236e9e230bbd7a2ad3d7c"
+          "sha": "36a3400805929c7fc2fe6919c474cd25baa60679"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6283032d6112010218de03077fa6cf9872d7673f"
+          "sha": "d600cbb8e1116a4aa66cd66ab53764e39b70331c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/foundationpose-setup",
@@ -17789,15 +17789,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-asr-finetune",
-      "contentHash": "734a1412",
+      "contentHash": "c3142dd5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "8233f85e91091b5701226d8d988df8f612da3ad9"
+          "sha": "7ff7f8605edbea879ae75a193e1bf9d137a4b414"
         },
         {
           "path": "SKILL.md",
-          "sha": "e6a3d2942b672fe3319c0b414fcf935ebaeef5ce"
+          "sha": "9d96f251b5f8b5410afb136325d892c1edb9d994"
         },
         {
           "path": "assets/experiment-ledger-template.md",
@@ -17837,11 +17837,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "31fa27aa22afb95c8e2f932eb2ba03b7b932b4a7"
+          "sha": "3fdee2b2f5d2f6a08629c6cb892f764f03465684"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "60043a25dfd0a62c0fef052b265d6e0a598a0050"
+          "sha": "ec28aae05884c6fdcc470fe103fa6b80ae78e27f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-asr-finetune"
