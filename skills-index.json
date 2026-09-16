@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789507495487,
+  "generatedAt": 1789534391808,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -32464,15 +32464,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "health",
-      "contentHash": "a00483a9",
+      "contentHash": "44c1eca0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "56d948dabed07e890abed1efb0f049c2699bd1fc"
+          "sha": "39f086aeda5b0afbffea836deb1560e3109809cb"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f92eb7347ec4f77dd8dbf464d63fcdf6a3459908"
+          "sha": "a60800522338868f910be75227a08d7b1d527a58"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/health"
