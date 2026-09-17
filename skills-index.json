@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789578241007,
+  "generatedAt": 1789621164106,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21359,15 +21359,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/paidf-auto-labeling",
-      "contentHash": "3cb0d1c0",
+      "contentHash": "4feccef3",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c02fdcfe6a496a1b4655c4844d446fc3bcdc87be"
+          "sha": "8a9edf356ea96051abd851ae59e9254bd5f3fd4f"
         },
         {
           "path": "SKILL.md",
-          "sha": "ec4f60026b8138e360e09fe2193661e327377808"
+          "sha": "89ebff5d90d5f28f8800e042a666658ac99d0f33"
         },
         {
           "path": "evals/evals.json",
@@ -21543,11 +21543,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "6357d9d75668affdd4675f528d11e576acb32340"
+          "sha": "5ca3cf0aad5dd6a50b047bb23eec96fc0c21cc66"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b927fab5d4880b47871a5807902e87f4b4291cae"
+          "sha": "25751578be7682dd75d0d02a34036860bd51f993"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-auto-labeling"
@@ -21560,15 +21560,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/paidf-curation-and-retrieval",
-      "contentHash": "ce5a1097",
+      "contentHash": "fa9eefe4",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "01d022d20c9cedf8922798fae184b7d5bb821e11"
+          "sha": "f1253e91bf022ad1fcc66cf6d881e6094c6382e7"
         },
         {
           "path": "SKILL.md",
-          "sha": "08d3166ff2c1456b7f75eb1a3cd843bbccdb5277"
+          "sha": "40471272c9ad843af5f131c4e9712a147455e0df"
         },
         {
           "path": "evals/evals.json",
@@ -21648,11 +21648,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "1b97fe8a6288ce670b4939c36ec4898b75ccb29d"
+          "sha": "16b7831ffb64c374cc5be86734059b14929a2680"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4ab517bf53d52d34a88e95f050fd394269cbe51a"
+          "sha": "690cca904c6368b540732704cedf04079ed067e7"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-curation-and-retrieval",
