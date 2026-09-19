@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789664608996,
+  "generatedAt": 1789792893664,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -14265,19 +14265,19 @@
       "id": "NVIDIA/skills@isaac-mission-control-showcase",
       "trust": "trusted",
       "name": "isaac-mission-control-showcase",
-      "description": "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Python server, with Nova Carter SIL. Use for demos, showcase replays, Mission Control driving a simulated robot, or diagnosing the integrated small-warehouse scenario. Detect existing Isaac Sim installations without modifying them, automatically select a usable runtime without prompting whenever compatibility can be confirmed, and delegate requested installation or version changes to isaac-sim-installation. Defaults to a canonical Isaac 6.0 warehouse and deterministic circular route when the user does not specify another scenario.",
+      "description": "Run and validate an end-to-end Mission Control showcase with a locally installed Isaac Sim launched in its GUI window, driven through the isaac-sim-remote Python server, with Nova Carter SIL. Use for demos, showcase replays, Mission Control driving a simulated robot, or diagnosing the integrated small-warehouse scenario. Detect existing Isaac Sim installations without modifying them, automatically select a usable runtime without prompting whenever compatibility can be confirmed, and delegate requested installation or version changes to isaac-sim-installation. Defaults to a canonical Isaac 6.1 warehouse and deterministic circular route when the user does not specify another scenario.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/isaac-mission-control-showcase",
-      "contentHash": "ecec752d",
+      "contentHash": "4530b88f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "795dd8c7db7d75e3c31082ad4017eaf9dbd9d400"
+          "sha": "c0b79aa08938032db3a241d1427ec4bc068b8326"
         },
         {
           "path": "SKILL.md",
-          "sha": "8e4c119c2c8d47e7db75ae5684da719cc2eb63ff"
+          "sha": "d582dcd0249136a8f8aeb651a291b8f5b04e315c"
         },
         {
           "path": "assets/carter_warehouse_navigation.png",
@@ -14289,11 +14289,11 @@
         },
         {
           "path": "config/skillspector-baseline.yaml",
-          "sha": "860cc497bddbdea15f9845e098606ce036aee9f9"
+          "sha": "d591892e38105d58f5ceb24810a1ac5570d0f663"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c0fe49806742def7b328b8dc26ab72778b3e11a7"
+          "sha": "d9feb9679b355540ec2d625c4201777c426a154d"
         },
         {
           "path": "references/bring-up-cloud-stack/README.md",
@@ -14337,7 +14337,7 @@
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "3bc0a89dd1fc2278f5f458bbd37b05c2840d65b0"
+          "sha": "be419935fee5dbfa208d5c7bd726d4800a2d979d"
         },
         {
           "path": "references/workflow.md",
@@ -14349,11 +14349,11 @@
         },
         {
           "path": "scripts/restore_isaac_scene.py",
-          "sha": "1ba1272a8ae1d5a43f5b2ed5ae79d543432a858e"
+          "sha": "effff22f2c88330c1b51f786a853469d8b8333bf"
         },
         {
           "path": "scripts/run.sh",
-          "sha": "7f1be546ded41406cd1dc60166c3eba150aaf3fd"
+          "sha": "947f81fe01d639725282315e18241331da718736"
         },
         {
           "path": "scripts/run_state.py",
@@ -14369,18 +14369,19 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "2144ed1b9996b143fef236c6cd7a7c5876dc0edc"
+          "sha": "e6b878c3076f1b96a6a3657de63fb9548704bed4"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c65aee5b9c65cbc96860adc2014e2eed76f569f0"
+          "sha": "af2934c084573928b28da25d857e51321dcfd78b"
         },
         {
           "path": "upstream-versions.lock.json",
           "sha": "8feae12c7316c5cb356ca7c60ebbefbeb8fafec0"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-mission-control-showcase"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-mission-control-showcase",
+      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@jetson-build-source",
