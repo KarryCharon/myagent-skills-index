@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1789792893664,
+  "generatedAt": 1790028070428,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -31019,7 +31019,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "419a59ad",
+      "contentHash": "995e2b21",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -31266,8 +31266,12 @@
           "sha": "4cf876081f385daedd913e0eb26bae9267793dda"
         },
         {
+          "path": "src/snapshot-flags.ts",
+          "sha": "68c3b7a023e81e5ad70138ec7fa77609ea3c15ef"
+        },
+        {
           "path": "src/snapshot.ts",
-          "sha": "22ea345f93ba811fde8c3843ba2ee9a68109798b"
+          "sha": "cb5312800749ae0856875a1cf985f77cd676197f"
         },
         {
           "path": "src/socks-bridge.ts",
@@ -31291,7 +31295,7 @@
         },
         {
           "path": "src/telemetry.ts",
-          "sha": "094f6a2f1f5649e3d4b46f355561b1a361ac31f9"
+          "sha": "c71ca8ae2ace7b33eba01541174238c7037a3cbe"
         },
         {
           "path": "src/terminal-agent-control.ts",
@@ -31387,7 +31391,7 @@
         },
         {
           "path": "test/bun-polyfill.test.ts",
-          "sha": "7df28b0d42f9d7d8b10ecb606efe4f2d3a4794fa"
+          "sha": "4028630e18bd1e13ab7c491a0feb7e7869d0fa38"
         },
         {
           "path": "test/busy-daemon-iron-rule.test.ts",
@@ -31463,7 +31467,7 @@
         },
         {
           "path": "test/cookie-picker-routes.test.ts",
-          "sha": "c1934cd86ceb0c20f5eb1424bac1d914e92da295"
+          "sha": "b7119b894f3c21c9fa291539e7cd646c96314793"
         },
         {
           "path": "test/daemon-log-hygiene.test.ts",
@@ -31907,11 +31911,11 @@
         },
         {
           "path": "test/telemetry-optout.test.ts",
-          "sha": "0c4626c16a898be4f43540748a6098947f57f67d"
+          "sha": "1f0185fd5ad726c4fb11eddb1f00ba7bd65cfe61"
         },
         {
           "path": "test/telemetry.test.ts",
-          "sha": "71a182eee36f3569403bc0a1e09d1ebc527c90fb"
+          "sha": "0e0b600e22158b448ae5b094a6563513c7d44fbb"
         },
         {
           "path": "test/temp-dirs.test.ts",
@@ -31987,7 +31991,7 @@
         },
         {
           "path": "test/watchdog.test.ts",
-          "sha": "66ead77cd679063a46b2c42173cc7be2fd02fa15"
+          "sha": "e8d54378146da594eac533a26a6cb779c2f8b28d"
         },
         {
           "path": "test/welcome-page.test.ts",
@@ -32070,7 +32074,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "careful",
-      "contentHash": "11ab44f0",
+      "contentHash": "3f2a96fa",
       "files": [
         {
           "path": "SKILL.md",
@@ -32082,7 +32086,7 @@
         },
         {
           "path": "bin/check-careful.sh",
-          "sha": "11993f110e6d460877004fd7a631827d0080fd8e"
+          "sha": "a336958daf9e0e5c66fc9d128fd49938d0835c8b"
         },
         {
           "path": "bin/hook-extract.sh",
