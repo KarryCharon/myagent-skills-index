@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790096406382,
+  "generatedAt": 1790112227526,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21010,108 +21010,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-usd-performance-tuning"
     },
     {
-      "id": "NVIDIA/skills@paidf-anomalygen",
-      "trust": "trusted",
-      "name": "paidf-anomalygen",
-      "description": "Full PAIDF AnomalyGen pipeline — fine-tune on a new anomaly dataset, generate synthetic anomaly images (SDG), evaluate quality (nn_score), and search per-sample (guidance, crop_ratio) parameters. Three modes: full (Phase 0→7: finetune then generate), finetune_only (Phase 0→1: train only), inference_only (Phase 0, 2→7: generate from an existing checkpoint). Use when the user asks to \"fine-tune AnomalyGen\", \"generate anomaly images\", \"run PAIDF SDG\", \"evaluate SDG output quality\", \"run per-sample search\", or run any part of the AnomalyGen pipeline, even if they only mention one phase.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-anomalygen",
-      "contentHash": "36ad16d1",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "30490526dd895073f76f76bb0f57a1f02d7b0f4d"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "891e6a97cd1425fb4878874e973695df0675616d"
-        },
-        {
-          "path": "assets/ag_config.yaml",
-          "sha": "26ba4d982088c832d7d1f9c1524c02b7b1bdb011"
-        },
-        {
-          "path": "assets/defect_spec_template.jsonl",
-          "sha": "bb40d511078da27db94ccb5c3585c2aa39836ac8"
-        },
-        {
-          "path": "config/skillspector-baseline.yaml",
-          "sha": "67bcc59afece77c17e7a8fcf6db6cc00dc68796c"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "fe62d47d433777efb1cddae54723f7d8aa1c7e8b"
-        },
-        {
-          "path": "references/datasets.md",
-          "sha": "136ba98700c150c85f3788fe430a89b209d9ebb1"
-        },
-        {
-          "path": "references/docker.md",
-          "sha": "61535938dd738994f3d4ca0616d688b19b1334d0"
-        },
-        {
-          "path": "references/error-handling.md",
-          "sha": "921787c98673f256f291027dc60dd240ebcc33bd"
-        },
-        {
-          "path": "references/eval.md",
-          "sha": "a098b1b900b42ff740d74068e35650e6f05b257e"
-        },
-        {
-          "path": "references/finetune-commands.md",
-          "sha": "67c05fe89baa5fa77b34f17671f3f10f4ac1ba28"
-        },
-        {
-          "path": "references/finetune.md",
-          "sha": "1095729544ebfb50bf4e3d6346a3842686c85bc0"
-        },
-        {
-          "path": "references/guard-and-custom-counts.md",
-          "sha": "bf0ffdc320b4b7309ffcf99d9d625f7219d08d82"
-        },
-        {
-          "path": "references/inference-commands.md",
-          "sha": "5638fdd811cd1cf513fe9cc781d853c35ec4f3a1"
-        },
-        {
-          "path": "references/inference.md",
-          "sha": "f52244ea4385474b637143156a54f037616d0163"
-        },
-        {
-          "path": "references/output-layout.md",
-          "sha": "41e4656f0a40bf54bc1ef867f4c864efa32ded64"
-        },
-        {
-          "path": "references/prep-testcase.md",
-          "sha": "8d80cd5d9869ee2860cca9d3bf9596c20093b89d"
-        },
-        {
-          "path": "references/sdg-inference.md",
-          "sha": "8897bee8e5daee8aedefeca9fe0afb050cbd9bff"
-        },
-        {
-          "path": "references/sdg-refine.md",
-          "sha": "d64e02ff81b240679f33f4ed52ddeea45048292d"
-        },
-        {
-          "path": "references/setup.md",
-          "sha": "24f1d35c41ae57f5f3e4c97a72501b31bc09d97f"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "e4f50ba29af66863873eaefaaf755d58e8d6d1a3"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "ebdaf5286bedd5c1b5d04379bbc3251d9f7158db"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-anomalygen",
-      "version": "0.1.0"
-    },
-    {
       "id": "NVIDIA/skills@paidf-augmentation",
       "trust": "trusted",
       "name": "paidf-augmentation",
@@ -23345,6 +23243,110 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-analyze-detection-kpi",
+      "trust": "trusted",
+      "name": "tao-analyze-detection-kpi",
+      "description": "Run TAO Data Services KPI analysis for object detection, comparing inference annotations against ground truth to compute per-class TP/FP/FN/TN, precision, recall, accuracy, and AP at a fixed IoU. Use when an object detection workflow needs per-class mAP reported after inference, or when the user asks to \"run KPI analyze\", \"compute detection mAP\", or \"score my OD predictions against ground truth\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-analyze-detection-kpi",
+      "contentHash": "253c3422",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "cdf3a87681a47378ba12bc786e901e69bb79e76d"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "f9d5f09cab5d01295c9ba7deb3cc5da1fb3c610a"
+        },
+        {
+          "path": "assets/default_kpi_analyze.yaml",
+          "sha": "94dc9b5c712ab49aec2f2d094b398342de00b62f"
+        },
+        {
+          "path": "assets/example_mapping.yaml",
+          "sha": "ab77a70cfd88fb54db928ce952750a55f68e08dc"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "4d39c955ec4f3c73ce1d5278d120ad9e5dbde530"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1cf67f95ea5702a6e65b104cabe01753bd545265"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "6dd0b93b1be2ada8783ff055a67ebf9fe6eaa6a3"
+        },
+        {
+          "path": "scripts/verify_kpi_analyze_spec.py",
+          "sha": "d7a2ffd626da95818f489d2852937a48c1f41ffb"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "ede4a26fce473a12320196f9c0ee9feade65a596"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "730994a0fb64e878187c089469e8b3b300f9cce2"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-analyze-detection-kpi",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-analyze-gaps-od-map",
+      "trust": "trusted",
+      "name": "tao-analyze-gaps-od-map",
+      "description": "Run TAO Data Services object-detection gap analysis from ground-truth and inference annotations. Use when an object detection workflow needs to identify weak images by comparing model predictions against ground truth using per-class recall, precision, and AP50 thresholds. Use when the user asks to \"analyze OD gaps\", \"find weak OD images\", or \"run mAP gap analysis\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-analyze-gaps-od-map",
+      "contentHash": "89ea36b2",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "669578604c81af5a5171aafcecdfbf696074a935"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "c06d3ace9c3edd12a771bef18df8b59d4de6a8ba"
+        },
+        {
+          "path": "assets/default_object_detection.yaml",
+          "sha": "8e7d6ec4adfc951c88095b6aa0601d1431bf4218"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5e8144f39299d3fce9b5c7df5e619493ce1443b8"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "caf707c188973d8ed8242709e0c2e669432f438d"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "9c4877974b7504a1ba9abe1978dfda5d6248a9e6"
+        },
+        {
+          "path": "scripts/verify_object_detection_spec.py",
+          "sha": "253398f9af214e657b913dc1f5b58dda3ceecf85"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "698f7e88c1e4c489b9a585e691b33f0bb170d222"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "f2fb58bc7d43d674e089ceab6c5c79a967b271b2"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-analyze-gaps-od-map",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tao-analyze-gaps-visual-changenet",
       "trust": "trusted",
       "name": "tao-analyze-gaps-visual-changenet",
@@ -23477,6 +23479,64 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-artifacts",
+      "trust": "trusted",
+      "name": "tao-artifacts",
+      "description": "The contract home for TAO's SDK-free execution pipeline — authoritative JSON Schemas for the four typed artifacts (spec-bundle, job-record, results_dir layout, best_rec) plus the fixed job-status vocabulary and the nested-not-dotted spec rule. Use when authoring or validating a spec-bundle before submit, writing or reading a .tao/jobs job-record, resolving where results land, or consuming AutoML's best_rec.json. Trigger phrases include \"validate the spec bundle\", \"job record schema\", \"status vocabulary\", \"results_dir layout\", \"best_rec schema\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-artifacts",
+      "contentHash": "20b47e3e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "eeeb17ee7da8db135875138756c494bb8fb00755"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "767d0c0c1226fe7fb94f6a40b400e6cba3304f9c"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5ffb047d8895b9b43c9c96227ddf03b8d4abfb1c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4febb4af060156c2f0a1a82e258d98b217c768ee"
+        },
+        {
+          "path": "references/best_rec.schema.json",
+          "sha": "53f44ae5b3cc0f0913ad68040ac289fb8087bfff"
+        },
+        {
+          "path": "references/job_record.schema.json",
+          "sha": "83c480b8e6c9fafceafba5eb9d9851a2d34c6e4c"
+        },
+        {
+          "path": "references/results_dir.contract.md",
+          "sha": "bd09b9cc5a81b3033a79368cdfbf49524014e1fa"
+        },
+        {
+          "path": "references/spec_bundle.schema.json",
+          "sha": "b1381fa187e31f11c48e64dfcf762f5cabf9c471"
+        },
+        {
+          "path": "references/tests/test_artifact_schemas.py",
+          "sha": "5e9cf34eca5fb6280746e151e6ad489140615d3e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "d8d298340b6cab171f496a144ab7ae64865a5e80"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "b78c47548dea835f4d2b8e6c00343726e8f33d8d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-artifacts",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tao-convert-dataset-format",
       "trust": "trusted",
       "name": "tao-convert-dataset-format",
@@ -23512,6 +23572,52 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-convert-dataset-format",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-data-io",
+      "trust": "trusted",
+      "name": "tao-data-io",
+      "description": "The data-mover for TAO jobs — decides the storage tier (A pre-positioned mount with zero fetch / B volume-from-S3 / C ephemeral in-compute fetch), stages inputs (bulk + annotation-selective + archive extract + HF/NGC PTM), maps credentials to env, routes outputs 3-way with upload-excludes, and runs the compute-frame verify gate. A support skill other platform skills (docker, kubernetes, slurm, brev, virtualenv) call to get data to and from the compute container without the TAO SDK. Trigger phrases include \"stage inputs\", \"mount the dataset\", \"upload TAO results\", \"download only referenced files\", \"resolve results_dir\", \"verify the container can read the data\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-data-io",
+      "contentHash": "114c1325",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "8fd24b16c45c11c9f114b7c577df52083e25363f"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ef8a0c0d7777ecbcbbc096a5d33e505133071ea2"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "8a306472fa130d949a7ea0480f35feac7c188905"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "840c029ac4a575848b7ababdd330c1ec60a2c61a"
+        },
+        {
+          "path": "references/selective_download.py",
+          "sha": "68db48869da860369eb1d52401fbb8e20afebf94"
+        },
+        {
+          "path": "references/tests/test_selective_download.py",
+          "sha": "e44eb911dfa16a6e1f1dbd0677d8c674be0ad0ed"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "21cfe44aaaa925e94bb4b4ac9adce678750a58fe"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "1784db04dbd8b53462d9f9f4099cf7ba0d329ed6"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-data-io",
       "version": "0.1.0"
     },
     {
@@ -23995,6 +24101,262 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-finetune-nv-tesseract-ad-diffusion",
+      "trust": "trusted",
+      "name": "tao-finetune-nv-tesseract-ad-diffusion",
+      "description": "NV-Tesseract AD Diffusion — diffusion-based anomaly detection and fine-tuning for multivariate time series. Use when the user asks to \"fine-tune NV-Tesseract\", \"run AD diffusion inference\", \"detect anomalies with diffusion\", \"time series anomaly detection\", \"finetune ad-diffusion\", \"use perform_anomaly_analysis_with_diffusion\", \"automl ad-diffusion\", \"hyperparameter search ad-diffusion\", \"hyperparameter optimization\" or mentions \"curriculum_medium.yaml\", \"final_model.pth\", \"nv-tesseract-ad-diffusion\", \"ad_diffusion\", or \"TSDiffuser_Generic\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-finetune-nv-tesseract-ad-diffusion",
+      "contentHash": "b07ccf1e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b207b2318c5d75707eb2b3d6d3ab6050f337c06f"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a52148ae6a1e6a25b4d2c7ab71d079df1eeae06f"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5ffb047d8895b9b43c9c96227ddf03b8d4abfb1c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "d3c5ab15a37a5846aae4ea8ef543ccc91f5bf82a"
+        },
+        {
+          "path": "references/automl.md",
+          "sha": "88df2e52d03b32fc42a3fda704e400059dfbc59b"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "26680db7e9abb2644cf0ca024336dc1d8281a433"
+        },
+        {
+          "path": "references/spec_template_inference_hpo.yaml",
+          "sha": "76fb462f7fc7666cbe8a76e3695c09a05463c213"
+        },
+        {
+          "path": "references/spec_template_train.yaml",
+          "sha": "1db4c24b9be08d068e386f722c1f846d982fe021"
+        },
+        {
+          "path": "schemas/inference_hpo.schema.json",
+          "sha": "86a1adb751e2c89a928e2daf971bb139eb878576"
+        },
+        {
+          "path": "schemas/train.schema.json",
+          "sha": "46efe4e4d97540122aba590392d286993608124a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "680de0e69579cbeaa0a4fc0d674edfd84cff4ea0"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "dffe52187cb67b8d72532c530b39d8639848d8df"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-nv-tesseract-ad-diffusion",
+      "version": "0.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-finetune-nv-tesseract-forecasting",
+      "trust": "trusted",
+      "name": "tao-finetune-nv-tesseract-forecasting",
+      "description": "NV-Tesseract Forecasting — transformer-based multivariate time series forecasting with DARR (context-enhanced kNN retrieval), interpretability, and fine-tuning. Use when the user asks to \"forecast with NV-Tesseract\", \"run forecasting inference\", \"use perform_forecasting\", \"DARR mode\", \"context-enhanced forecasting\", \"lag horizon attribution\", \"interpretability\", \"fine-tune forecasting\", \"fine-tune forecasting with automl\", \"hyper-parameter optimization with forecasting\", or or mentions \"nv-tesseract-forecasting\", \"moment_head_512_6hr\", or \"run8_best_model_cr\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-finetune-nv-tesseract-forecasting",
+      "contentHash": "b5a5fbd4",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "6dff9c88e92b8ad69ecb22293cbbc752cca57358"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d437102dc6dba743d8ff01beb0830d468ee5c4e8"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5ffb047d8895b9b43c9c96227ddf03b8d4abfb1c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "499c07ebc38d1ef951157c2d224fa15bd5ef7414"
+        },
+        {
+          "path": "references/automl.md",
+          "sha": "e6263db5859d22902243dba64a317cd47d53c2fd"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "1d30c06734da0ca50c90173b817436101a516c30"
+        },
+        {
+          "path": "references/spec_template_inference_hpo.yaml",
+          "sha": "d1e3d7e7f43749d9ba34e77cc2feb9a1914e1a29"
+        },
+        {
+          "path": "references/spec_template_train.yaml",
+          "sha": "0f127b7d3c9010a9bd8a1584b14109ddb23823f7"
+        },
+        {
+          "path": "schemas/inference_hpo.schema.json",
+          "sha": "275df1777c5bc6f2300718c4239a7b6ca7cfad94"
+        },
+        {
+          "path": "schemas/train.schema.json",
+          "sha": "9b18da413603465cc5508b39d1c2de350136af9c"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "db8d4ca92e2596f1805e4435341e5737ee821790"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "c9557c07798b3dd61a57c2624e4f2767b712d158"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-nv-tesseract-forecasting",
+      "version": "0.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-finetune-video-clip",
+      "trust": "trusted",
+      "name": "tao-finetune-video-clip",
+      "description": "InternVideo2-CLIP L14 (TAO video_clip) for video-text retrieval, zero-shot classification, embedding extraction, LoRA fine-tuning, ONNX export, and TensorRT deployment. Use when the user asks to \"fine-tune IV2CLIP\", \"run video_clip train/evaluate/inference/export\", \"build a Video-CLIP TensorRT engine\", \"InternVideo2-CLIP on KPI chunks\", or \"TAO video_clip on vadr1_chunks JSON\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-finetune-video-clip",
+      "contentHash": "01a3cea0",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "c636be7b2f7e5ad544cb7103e5e38c113b2d111d"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b215629d7ba1364a719266706e9630b19551e159"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "c76543d0ab8dddce1785ec1f52345a9d43ba2ef6"
+        },
+        {
+          "path": "eval.config",
+          "sha": "c65e82cf8ea9fbf92534584b322ff653c385fbdd"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "180f81da58811f3dfde77d5a043eac26c1d80ec1"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "09954e53212feab563eaeb5c04154ea4623be798"
+        },
+        {
+          "path": "references/spec_template_deploy_evaluate.yaml",
+          "sha": "bfea3ce4293a8c80759bcbcd0c5bfef926bc2cfa"
+        },
+        {
+          "path": "references/spec_template_deploy_inference.yaml",
+          "sha": "40b841709341534ed79b999d275ea9b2c445bb85"
+        },
+        {
+          "path": "references/spec_template_evaluate.yaml",
+          "sha": "d0bef1664c7e9c28bd32db0eaa9e9f09a8b9fe1a"
+        },
+        {
+          "path": "references/spec_template_export.yaml",
+          "sha": "4e83231eae5acc71ad86cf46ec6efc46b30f5063"
+        },
+        {
+          "path": "references/spec_template_gen_trt_engine.yaml",
+          "sha": "df6951d1363c089141a3c38659c24cedbf55112f"
+        },
+        {
+          "path": "references/spec_template_inference.yaml",
+          "sha": "98a979e39d384d1ce0f431adb1d9af1192562c36"
+        },
+        {
+          "path": "references/spec_template_train.yaml",
+          "sha": "02fa1f3da52f7be41f998d5a03796d833b4c100e"
+        },
+        {
+          "path": "references/tao-deploy-video-clip.md",
+          "sha": "80b022bf7314b25f47b5e073d98d06adb35f3016"
+        },
+        {
+          "path": "references/tao-deploy-video-clip.skill_info.yaml",
+          "sha": "ec404bbaa8b99e54c006d4034f93eaa5230ae0fb"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "b31bb7e647dde8733c04d62e5444dc133908ad3a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "0229e35914316aea855d793c5851c155547daeb6"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-video-clip",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-generate-image-embeddings",
+      "trust": "trusted",
+      "name": "tao-generate-image-embeddings",
+      "description": "Run TAO Data Services image embedding to turn a parquet of image filepaths into an embedding parquet using CLIP, SigLIP, or a TAO checkpoint. Use when a workflow needs embeddings before nearest-neighbor or unique-neighbor mining, or when the user asks to \"embed images\", \"compute image embeddings\", or \"generate SigLIP embeddings\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-generate-image-embeddings",
+      "contentHash": "072ed116",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "0e9313d3888d5764212b3b6e117144ffc4de85a8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "aba255254040036f15184db0f9e6a8f552bf747e"
+        },
+        {
+          "path": "assets/default_image_embeddings.yaml",
+          "sha": "943ce0e5a584fbeeff80e86e17eae3e6e5856f5b"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "3253fc5df33b112493f8ce263d5c9aac6e5bf2a0"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "04c2ff6ec193bb802500d80f0f5c5c765f9b9a46"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "b263b50d4492abb13d32d69a1c0ab243c7ab4c1c"
+        },
+        {
+          "path": "scripts/verify_image_embeddings_spec.py",
+          "sha": "736dbace05073ff4f7665bf755629c8cc5969c76"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4743a2988083d0a47000d20cc193ef738e6ac96c"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "dab32cf53a2f118028764f171db5054a7c50e26f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-generate-image-embeddings",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tao-generate-image-grounding",
       "trust": "trusted",
       "name": "tao-generate-image-grounding",
@@ -24327,6 +24689,110 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-mine-nearest-neighbors",
+      "trust": "trusted",
+      "name": "tao-mine-nearest-neighbors",
+      "description": "Run TAO Data Services TMM nearest-neighbor mining from embedding parquet files. Use when a workflow needs to mine source samples closest to target samples.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-mine-nearest-neighbors",
+      "contentHash": "d73fe0ad",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2a95494ee746a64b02b2db935fdebc782afab887"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "29e4bbd3d7719c0d061b50621ad8692c491b7e8a"
+        },
+        {
+          "path": "assets/default_nearest_neighbors.yaml",
+          "sha": "94a84a836d30a5d1aa23b0f2c31cf630823a07de"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "ae776a72c3859766651ada256a8ed2a732d85aa3"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "f4ed026cf980ea9571ca7eb64b4860a8b09b2f7b"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "8d7137113388ce48fed1f6287bb4128793082dc9"
+        },
+        {
+          "path": "scripts/prepare_nearest_neighbors_spec.py",
+          "sha": "4a3310529064f96978affd67d0a49d1b51d0a179"
+        },
+        {
+          "path": "scripts/verify_nearest_neighbors_spec.py",
+          "sha": "365dc1100fe480eb2117ce08a375003d9bbf342e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "c6549a61ae36fb71cc69f02b2278b9ee7c0afd46"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "e869304cdc33e31c69420ca7e4f5ec374dec5959"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-mine-nearest-neighbors",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-mine-od-images",
+      "trust": "trusted",
+      "name": "tao-mine-od-images",
+      "description": "Run TAO Data Services TMM unique-neighbor matching mining from embedding parquet files for object detection workflows. Use when an object detection workflow needs to mine a bijectively-assigned set of unique source images closest to target samples. Use global allocation when mining without class constraints. Use class_stratified when rare classes are specified.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-mine-od-images",
+      "contentHash": "7cefa484",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "5d092cfa12a69568204aeb650ca647f4cbe15304"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "5fe98505803dadabb86ccd283a7197abc1495048"
+        },
+        {
+          "path": "assets/default_unique_neighbor_matching.yaml",
+          "sha": "6e0a2d1dc2ce00da56e5333e5434c7280488aeda"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5e8144f39299d3fce9b5c7df5e619493ce1443b8"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "a2b10b884849a4bc0404e6110e4144a7dc37d6ef"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "8ee38a14e66839b50492dd392c8d98d4714850ee"
+        },
+        {
+          "path": "scripts/verify_unique_neighbor_matching_spec.py",
+          "sha": "806e7dfe81333e3ed2f1f139635c6f7b7d867b3c"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9a638b7227d93d0bf8e83195452c5eff5436fbf6"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "7372ed4bc388b38757b67ba0977feab911b4618a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-mine-od-images",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tao-port-huggingface-model",
       "trust": "trusted",
       "name": "tao-port-huggingface-model",
@@ -24639,6 +25105,240 @@
       "version": "0.1.1"
     },
     {
+      "id": "NVIDIA/skills@tao-run-deft-aoi-cosmos3",
+      "trust": "trusted",
+      "name": "tao-run-deft-aoi-cosmos3",
+      "description": "Run the disk-backed DEFT AOI improvement loop for NVIDIA Cosmos Reason 3 / Cosmos3 models, using Nano by default and Edge or Super when explicitly requested: evaluate the base model on Proxy and frozen Benchmark splits, mine real image pairs from Proxy gaps, assemble a per-iteration Train JSON from selected Mining samples, train with cosmos-rl LoRA SFT, and repeat through the selected platform's submit/status/logs/cancel contract. This migration supports bare labels only: the assistant response must be exactly OK or NG. Use for \"run Cosmos3 DEFT AOI\", \"CR3 AOI loop\", or \"improve Cosmos3 PCB inspection with bare OK/NG\"; do not use for rich/reasoning annotation, one-off Cosmos training, or generic anomaly generation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-run-deft-aoi-cosmos3",
+      "contentHash": "89e48ba1",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "bea5d9b03ce4be6b42b49b65219f46737cf8a82b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "901d61bf07b3c40d7c4fd4085c6afb8083904683"
+        },
+        {
+          "path": "agents/reporter.md",
+          "sha": "fc04fb653b24e0e2366aa669bfe72559e82ee91a"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "574b2db87ad5f87594230dba3bcef391b6617170"
+        },
+        {
+          "path": "eval.config",
+          "sha": "b1b8b50a83013e80aaf39e0ce8984e5aab602da3"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "db1b5f32e3a4cc8d3230b3f120737114469e1578"
+        },
+        {
+          "path": "references/DEFT_Loop_Report.html",
+          "sha": "cd375606c8215a8857a7085f4e7783a00086e462"
+        },
+        {
+          "path": "references/RCCA_REPORT_TEMPLATE.md",
+          "sha": "928db63eac402a8a6417687c22ee1f6d8ef20955"
+        },
+        {
+          "path": "references/REPORT_RENDERING.md",
+          "sha": "2ad679e39d9bb9b8a13d8505814e873ce84604ed"
+        },
+        {
+          "path": "references/air-gap.md",
+          "sha": "f471384e9ae8328dad3f976ad10754eba56c6c15"
+        },
+        {
+          "path": "references/aoi-annotation.md",
+          "sha": "44cb6f30a6d2867c59d865061cce2776ec287183"
+        },
+        {
+          "path": "references/cosmos-reason.md",
+          "sha": "5bee1b3349ab5bd23ab94e30071833a8094c1b15"
+        },
+        {
+          "path": "references/data-layout.md",
+          "sha": "d5121bb9d490623bcd6a5cde1b8707da1f409f99"
+        },
+        {
+          "path": "references/deft_state.json",
+          "sha": "aae9f48e84ec38380164f8876b87ed5b5d0b84d5"
+        },
+        {
+          "path": "references/example_lora_config.toml",
+          "sha": "72a787b0a4f5e039d82b091fe241018fa6438777"
+        },
+        {
+          "path": "references/example_sft_config.toml",
+          "sha": "aa110b31ee168e953c86ac6392ce9561867dfd5d"
+        },
+        {
+          "path": "references/gap-analysis.md",
+          "sha": "34ab1ec0c8fea7b45a0c4d03fced15ce4f2510c2"
+        },
+        {
+          "path": "references/metric-contract.md",
+          "sha": "ccb789d9a86366877b1a1e64dcfff5259efa9294"
+        },
+        {
+          "path": "references/network-bootstrap.md",
+          "sha": "8a7b8e4b93a6bb2b2ae3afa60961d843aca718a1"
+        },
+        {
+          "path": "references/pipeline-and-state.md",
+          "sha": "e69cc6d75404ebce150ba0b56ab7b9f884e10271"
+        },
+        {
+          "path": "references/preflight.md",
+          "sha": "94910a9c1da9897a10e57a0ecb648ccf0f56353e"
+        },
+        {
+          "path": "references/rcca-artifact-manifest.json",
+          "sha": "7330a98dbcc64ea923b807fff965e6c6e7e07a11"
+        },
+        {
+          "path": "references/scripts-and-agents.md",
+          "sha": "b17e071e1759532d52b1d3ad025cb06161481c75"
+        },
+        {
+          "path": "references/tao-generate-anomalies.md",
+          "sha": "1ae36e80898429c592f65684d2bfaa61933e9deb"
+        },
+        {
+          "path": "references/tao-mine-aoi-images.md",
+          "sha": "18b395e610a2b50712c1f85698b5b1d4bd158237"
+        },
+        {
+          "path": "scripts/align_token_usage.py",
+          "sha": "751fbd2366fedc757c6943027f25728ea3c3dd3b"
+        },
+        {
+          "path": "scripts/analyze_gaps.py",
+          "sha": "4d839dfb572523a5eb376f67c3b28300efd02988"
+        },
+        {
+          "path": "scripts/assemble_training_json.py",
+          "sha": "7ee7af4520819e86834741fdd64862fc27a40083"
+        },
+        {
+          "path": "scripts/check_annotations.py",
+          "sha": "f18e35fbd816f07a4400676c12dfa8738a169049"
+        },
+        {
+          "path": "scripts/commit_stage.py",
+          "sha": "3246a267de2166e52f279febaeebeb0d14fa3c23"
+        },
+        {
+          "path": "scripts/deft_context.py",
+          "sha": "534bffbd764d2aeb70d1f1c54b9c6d6c404a917e"
+        },
+        {
+          "path": "scripts/deft_exec.py",
+          "sha": "32a4d7a46724a60550b49683acdf81ac4299c595"
+        },
+        {
+          "path": "scripts/deft_python.sh",
+          "sha": "434a59240fc428347c1d8d6f29a79340e1b63b0d"
+        },
+        {
+          "path": "scripts/emit_mined_sharegpt.py",
+          "sha": "d5005ec855564b5f4405cda74fa9fe8972ec7731"
+        },
+        {
+          "path": "scripts/emit_sdg_sharegpt.py",
+          "sha": "2eefa9c3f8516703d2e735b94deb2d2b318cc10d"
+        },
+        {
+          "path": "scripts/filter_mined_by_cosine.py",
+          "sha": "1ea54483085be2f0b9ded5420fdea4dee6d81ecb"
+        },
+        {
+          "path": "scripts/finalize_run.py",
+          "sha": "b2de7b13d79a338b549d50798893bcf6b52c9034"
+        },
+        {
+          "path": "scripts/init_deft_state.py",
+          "sha": "a604c1a783c1dd940a124c602650338d58596afe"
+        },
+        {
+          "path": "scripts/metric_contract.py",
+          "sha": "c93dd79519825aba8bbb9d2c64afdb432288aa45"
+        },
+        {
+          "path": "scripts/patch_eval_image_cap.py",
+          "sha": "4135413b9edf984bc7b6a8a4c732fad89a0d8524"
+        },
+        {
+          "path": "scripts/record_metric_result.py",
+          "sha": "fc2ee8a1b0a896037f4ff7d690cc33a60473024a"
+        },
+        {
+          "path": "scripts/render_report.py",
+          "sha": "2fa46654763c71cb2d34fc20146a6c48aa703318"
+        },
+        {
+          "path": "scripts/validate_sharegpt.py",
+          "sha": "f68f4c59ba5d7a90940859b223fa8cdfd7878327"
+        },
+        {
+          "path": "scripts/validate_split_contract.py",
+          "sha": "fa610913a542cd283b41b097aa5941eccff3aff7"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "53871cb6eaa3dd6b40a1ec160fdb96282acd065e"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "cd57949fced1088257eb423008e6c994de3e72eb"
+        },
+        {
+          "path": "tests/test_checkpoint_conversion_cli_contracts.py",
+          "sha": "2092425eeebc09116e9d2dec2d23ae50876d6022"
+        },
+        {
+          "path": "tests/test_cosmos3_bare.py",
+          "sha": "7ec6fc7d2d07c8481917cc095c575880d9e92a92"
+        },
+        {
+          "path": "tests/test_cosmos3_init_state_contract.py",
+          "sha": "85f4fad4534f5f4f5fd78b2f984c19cf71cf08b8"
+        },
+        {
+          "path": "tests/test_cosmos3_rcca_report_contract.py",
+          "sha": "75bcadafed381173a97d6df1ad20e9eb14c2892a"
+        },
+        {
+          "path": "tests/test_cosmos3_report_rendering.py",
+          "sha": "78a5b1ea17beb408fb14c5bedd2afa83bf99c0e0"
+        },
+        {
+          "path": "tests/test_eval_image_cap_compat.py",
+          "sha": "c3cfcded542153026f235cb5aa95d23c219474bd"
+        },
+        {
+          "path": "tests/test_execbit_packaging.py",
+          "sha": "389b362b38b4db044b15c217c5cf804200d50a77"
+        },
+        {
+          "path": "tests/test_sdg_path_compat.py",
+          "sha": "0433ebc3d3b6357a746e0f77a754e9b64b4e6f4e"
+        },
+        {
+          "path": "tests/test_validator_truthfulness.py",
+          "sha": "fe1640905af879e1846e9abea0e3ccdba5f48a50"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-aoi-cosmos3",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tao-run-deft-aoi",
       "trust": "trusted",
       "name": "tao-run-deft-aoi",
@@ -24846,6 +25546,370 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-aoi",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-run-deft-cr-its-mining",
+      "trust": "trusted",
+      "name": "tao-run-deft-cr-its-mining",
+      "description": "Run the mining-based DEFT improvement workflow for ITS Cosmos-Reason binary video questions, focused on the non-reasoning classification/evaluation path. Use when the user asks for a DEFT CR ITS mining workflow, traffic-camera Cosmos Reason improvement loop, collision-identification workflow with data mining, or iterative Cosmos-RL refinement driven by gap analysis.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-run-deft-cr-its-mining",
+      "contentHash": "378e33b2",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "226f708d3c8a59363b47303e1b69ef2908e36b1d"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "96fff61977317e4be232524c9bcc7d6b74957dbd"
+        },
+        {
+          "path": "assets/cr_base_evaluate.toml",
+          "sha": "9b9228179f731d668c41ed2d44412396d5ef57bc"
+        },
+        {
+          "path": "assets/cr_base_train.toml",
+          "sha": "7e505da8744fe30d66d27919aabc93a170e0d559"
+        },
+        {
+          "path": "assets/default_cosmos_embed_inference.yaml",
+          "sha": "8893dacb9b6423669f82f4cf215b73ad0f9b4bb1"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "d55a896d3a0617e0293b216453af1c71b4037a97"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "330759ec5759b0a81f1e13a3d437501b90e4caf2"
+        },
+        {
+          "path": "references/host-prerequisites.md",
+          "sha": "f0a22162057dd1a64772ad067f6899404ca6b279"
+        },
+        {
+          "path": "references/mining-loop.md",
+          "sha": "79ab8b7f875a7bb729a75881dcdb6e91acdf1bbe"
+        },
+        {
+          "path": "scripts/cleanup_cosmos_reason_training.py",
+          "sha": "5e39e748a4569d6235b065d4998d64c82ef36c0f"
+        },
+        {
+          "path": "scripts/compute_bcq_accuracy_metrics.py",
+          "sha": "7d1d11ca2388a494ebe107d3de3897a7c87f0e38"
+        },
+        {
+          "path": "scripts/cosmos_embed_outputs_to_parquet.py",
+          "sha": "ad2e0d874b5ce55c13760af0d65141ae3d240e8b"
+        },
+        {
+          "path": "scripts/deft_python.sh",
+          "sha": "187d388e6bb1a5634db7b80edd1fc2d3ab157c2d"
+        },
+        {
+          "path": "scripts/find_cosmos_reason_results.py",
+          "sha": "60644ea0c6708eb6198f3c35dced47ab063b4244"
+        },
+        {
+          "path": "scripts/initialize_workflow.py",
+          "sha": "e8c3188aff29fb65df034ab223ef0a8601bcf2f5"
+        },
+        {
+          "path": "scripts/log_stage.py",
+          "sha": "35e6bf6f13629701f90b4668ff6e05ba632b1b75"
+        },
+        {
+          "path": "scripts/prepare_cosmos_embed_inference.py",
+          "sha": "6a7516290fc1b6227485ba80eefa03a71e2b802b"
+        },
+        {
+          "path": "scripts/prepare_cosmos_reason_evaluate.py",
+          "sha": "c3cb2848a184cfd269cb4e11feb75c450373a9ef"
+        },
+        {
+          "path": "scripts/prepare_cosmos_reason_train.py",
+          "sha": "12410d199c6788f3489c7dad4424a2e59adcd7b5"
+        },
+        {
+          "path": "scripts/prepare_gap_analysis_predictions.py",
+          "sha": "b503cd6d54e35d239720d288f686825bd494052d"
+        },
+        {
+          "path": "scripts/prepare_nearest_neighbor_mining.py",
+          "sha": "cd99f57bce91847507ef50902b398f7bae358139"
+        },
+        {
+          "path": "scripts/record_mined_paths.py",
+          "sha": "6840335c57388744daf58d1417e8c5f3dd8c94ef"
+        },
+        {
+          "path": "scripts/restore_docker_mount_permissions.py",
+          "sha": "221d291d9ae218317fd03ebc92306521eb479fbe"
+        },
+        {
+          "path": "scripts/resume_position.py",
+          "sha": "8ed65b2bc9ba490307d52f6114f788957a916af4"
+        },
+        {
+          "path": "scripts/summarize_bcq_accuracy_metrics.py",
+          "sha": "3a5e3e4737733b31798b4b904c2aa21b73d4f7ec"
+        },
+        {
+          "path": "scripts/validate_cosmos_embed_output.py",
+          "sha": "442fdf9390bd97f9afafa8dce4ccd1dac046a36e"
+        },
+        {
+          "path": "scripts/verify_workflow_yaml.py",
+          "sha": "e0fe617a46868a05c4c01a922102ba117f987eb9"
+        },
+        {
+          "path": "scripts/workflow_common.py",
+          "sha": "efa11030773c771c48f764a4d7960eef7552ab4a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2ecfca844100caa6960d85770597b590901cc236"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "f1763f6aa1d0b64a9d60d18c4fb1a2e085d07fe2"
+        },
+        {
+          "path": "tests/test_cosmos_embed_completion.py",
+          "sha": "8e22ad9db8d8f3384ba85188f5fec8e1a60a02b5"
+        },
+        {
+          "path": "tests/test_host_dependencies.py",
+          "sha": "8ec414052158e860d355b9c8da0a78e578ff02b6"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-cr-its-mining",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-run-deft-object-detection",
+      "trust": "trusted",
+      "name": "tao-run-deft-object-detection",
+      "description": "Run the full DEFT smart-data-augmentation loop for NVIDIA TAO Grounding DINO object detection: zero-shot baseline inference, KPI analysis, per-class gap analysis, SigLIP embedding of weak images, unique-neighbor mining against a source pool, ODVG dataset staging, and retraining — repeated for a fixed number of iterations. Also prepares the source pool the loop mines from, as a separate run: Co-DETR pseudo-labeling, folding to the target classes, KITTI→COCO→ODVG conversion, and embedding. Use for prompts like \"run the DEFT OD loop\", \"run smart data augmentation for grounding dino\", \"mine and retrain my detection model\", \"improve OD mAP with gap analysis and mining\", \"prep the source pool\", or \"pseudo-label my unlabeled images for mining\"; do not use for standalone TAO training, one-off inference, or gap analysis alone.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-run-deft-object-detection",
+      "contentHash": "ca97a27d",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "730f84a1606baa317ae8308e0d4bda0c7f722314"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "606a352506c149f2449e21d35742ffa893c0aefd"
+        },
+        {
+          "path": "agents/reporter.md",
+          "sha": "478b942b48c1e8470edfbc0a128e5d2079c26763"
+        },
+        {
+          "path": "assets/gap_analysis_object_detection.yaml",
+          "sha": "ad84c7ba1163f56ed66834236153d4efb2f34633"
+        },
+        {
+          "path": "assets/image_embeddings.yaml",
+          "sha": "89fd4f33d2f3930fc1d6b82aa6d5c0235b2cd663"
+        },
+        {
+          "path": "assets/overlays/coco_to_odvg.yaml",
+          "sha": "ec10220204780d9d366729fd0e2d7bc656be071a"
+        },
+        {
+          "path": "assets/overlays/codetr_inference.yaml",
+          "sha": "00c8c0c066f3e57de5273dfe319e0b5392ea102a"
+        },
+        {
+          "path": "assets/overlays/grounding_dino_inference.yaml",
+          "sha": "a4a21dbf17177137a907f8af1509edf8b3c6b9ef"
+        },
+        {
+          "path": "assets/overlays/kitti_to_coco.yaml",
+          "sha": "d315d00fec8d48df56d748ac932e29e1fe434f91"
+        },
+        {
+          "path": "assets/overlays/kpi_analyze.yaml",
+          "sha": "f08c69e585fbe0d12309c2cae793f8cf324d1885"
+        },
+        {
+          "path": "assets/tmm_unique_neighbor_matching.yaml",
+          "sha": "f5ac248258e087096b032ae4b815fefbe5822f46"
+        },
+        {
+          "path": "assets/train_grounding_dino.yaml",
+          "sha": "679972b38eeefb5bef4de84ae575fd2812873c39"
+        },
+        {
+          "path": "bugs.md",
+          "sha": "018d9a1e9dbdfc10303451fa4770113493ec6a1d"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "1446adb92a74cf6f347ac674d21387e6dcf9d979"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ff80b9df422c98cc1f0677b753037be24d8935e2"
+        },
+        {
+          "path": "references/data-layout.md",
+          "sha": "cc578491a57f2ef1745ef71f8e8b0fbb31523161"
+        },
+        {
+          "path": "references/example_classes_its.yaml",
+          "sha": "e5ef675fbef13ef512a69fe76888526e473ca0fb"
+        },
+        {
+          "path": "references/grounding-dino.md",
+          "sha": "e59e2449b62bfc0c47add74a511b1c7fd327cf72"
+        },
+        {
+          "path": "references/pipeline-and-state.md",
+          "sha": "780c08965df944ca11f93601193598c516e4fd4a"
+        },
+        {
+          "path": "references/preflight.md",
+          "sha": "246c767c86182a9849f6c1fc0609c6acf8349c37"
+        },
+        {
+          "path": "references/prep-source-pool.md",
+          "sha": "4e08fef803d3f4ee1f5fd167000f1ac9c5683171"
+        },
+        {
+          "path": "references/scripts-and-agents.md",
+          "sha": "d9d03cbee4afdbeabf8d80e34b2cd86398e60363"
+        },
+        {
+          "path": "references/stage-mined-data.md",
+          "sha": "00466f02f44b4cc0a95534652b9e1b704a0fd663"
+        },
+        {
+          "path": "references/tao-analyze-detection-kpi.md",
+          "sha": "a0cf514650c5a4935035aa7c7a0ecf50a16b1356"
+        },
+        {
+          "path": "references/tao-analyze-gaps-od-map.md",
+          "sha": "fda848a49d42de0f0a268646e79ce0538bd3d9a6"
+        },
+        {
+          "path": "references/tao-generate-image-embeddings.md",
+          "sha": "80d8f350766f8ed2653deb1a77d8e65b9ef3963b"
+        },
+        {
+          "path": "references/tao-mine-od-images.md",
+          "sha": "0ff0e9339cee8c60c5ac9630ed3dadb79f93c95b"
+        },
+        {
+          "path": "scripts/apply_spec_overrides.py",
+          "sha": "e0ebc67a9a329fca275c8b7b9d8ba7362c013db9"
+        },
+        {
+          "path": "scripts/audit_deft_run.py",
+          "sha": "c6ab683a1d9a9f9475cc066ef8d3bb1c6408a2a0"
+        },
+        {
+          "path": "scripts/await_stage.py",
+          "sha": "749689cc03fe13feedcb4ead8c1232812371182f"
+        },
+        {
+          "path": "scripts/commit_stage.py",
+          "sha": "d15007a634d6d4966a0f2347fd2bd109add3ff31"
+        },
+        {
+          "path": "scripts/deft_python.sh",
+          "sha": "1e2f8fb9277a83fae7ab7a363b74ff58a5a094be"
+        },
+        {
+          "path": "scripts/deft_stages.py",
+          "sha": "96f5bd4ad4b151d83f561efe507177424218c887"
+        },
+        {
+          "path": "scripts/emit_default_spec.py",
+          "sha": "14fa398635503aef5d044dc14340d97a5a579240"
+        },
+        {
+          "path": "scripts/fetch_gdino_checkpoint.py",
+          "sha": "d1569d336503d5f0268b3c1475639b34277e9e30"
+        },
+        {
+          "path": "scripts/init_deft_state.py",
+          "sha": "b21bb20bb0aced38cc3320c314a82edd434a9e85"
+        },
+        {
+          "path": "scripts/prepare_budget_for_mining.py",
+          "sha": "f5dbd53328da65c648de4e91c58a872d00e776bb"
+        },
+        {
+          "path": "scripts/prepare_class_mappings_for_mining_data_prep.py",
+          "sha": "c0ec6fa4ca8d5e930dacdf80acca33a53bbe5b44"
+        },
+        {
+          "path": "scripts/prepare_exclude_for_mining.py",
+          "sha": "990ca5ab6a61c8ecc5b65e41cac525c6a07239a4"
+        },
+        {
+          "path": "scripts/prepare_input_for_image_embeddings.py",
+          "sha": "163c02e9d43d9c09592e0a0d03bd0d011af665fd"
+        },
+        {
+          "path": "scripts/prepare_mapping_for_kpi_analyze.py",
+          "sha": "af9d6fefa56ee6bc2d79cd01e296ad1c7abafa98"
+        },
+        {
+          "path": "scripts/prepare_spec_for_train.py",
+          "sha": "29af0359cc50d8d65446eba89618a6a048fa0ead"
+        },
+        {
+          "path": "scripts/prepare_val_split_for_train.py",
+          "sha": "ce0d6e142d104411c9c4f0910df543af3e2bdec7"
+        },
+        {
+          "path": "scripts/stage_mined_odvg.py",
+          "sha": "fdf2607ef44fda3cfd11a81ba6574763381f9b8d"
+        },
+        {
+          "path": "scripts/summarize_kpi.py",
+          "sha": "e61c1c586dc5a7df59b65e370212e764c1f57502"
+        },
+        {
+          "path": "scripts/tests/test_state_machine.sh",
+          "sha": "97ae1744699d81c8fe983615036706738be37f8b"
+        },
+        {
+          "path": "scripts/validate_odvg_images.py",
+          "sha": "929c4a0dbd2647f8470d75b27adb89efc365adcf"
+        },
+        {
+          "path": "scripts/validate_pool_coco.py",
+          "sha": "211b4e26d9159eb07748b60b5bb0db0f72a4942c"
+        },
+        {
+          "path": "scripts/verify_class_contract.py",
+          "sha": "39902f963625f56f0c6183cc922f7ca028d99614"
+        },
+        {
+          "path": "scripts/verify_pseudo_labels.py",
+          "sha": "6d22e0f01aee589fcc63af133722963a65327479"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f1617f7a481910a37dcba203b60b280b5d85b7d5"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "2f1890817a55849c7d48812939030477991c60ff"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-object-detection",
       "version": "0.1.0"
     },
     {
@@ -25061,48 +26125,6 @@
       "version": "0.1.0"
     },
     {
-      "id": "NVIDIA/skills@tao-run-on-local-docker",
-      "trust": "trusted",
-      "name": "tao-run-on-local-docker",
-      "description": "Local or remote Docker execution for TAO SDK job containers using a Docker daemon with NVIDIA GPU runtime. Use when running TAO jobs on the current machine, a directly attached Docker host, or a remote GPU box exposed through DOCKER_HOST. Trigger phrases include \"run locally\", \"local Docker\", \"remote Docker\", \"use my GPU\", \"run on my machine\", \"host Docker daemon\".",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/tao-run-on-local-docker",
-      "contentHash": "a4f3d2c0",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "c63f4715c4091e19c8ed7708dd0b0df3e3b0e810"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "99a7fa1c9783737852a4bc9fe87e52ee52a485df"
-        },
-        {
-          "path": "config/skillspector-baseline.yaml",
-          "sha": "2cfa005c636ec8c77aa33902108a7fd692c8454a"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "9d39316d69252a662d4307f09600da1dad5ac7ac"
-        },
-        {
-          "path": "references/skill_info.yaml",
-          "sha": "adda6ac9a9fa028798dd76bd8e35bb6f240e3af6"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "049d11c93e6457558ec120067bcb2c302ac55c3f"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "f47eebf50c56d89ee61f1f8cc86b63530085139d"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-on-local-docker",
-      "version": "0.1.0"
-    },
-    {
       "id": "NVIDIA/skills@tao-run-on-slurm",
       "trust": "trusted",
       "name": "tao-run-on-slurm",
@@ -25165,61 +26187,53 @@
       "version": "0.1.1"
     },
     {
-      "id": "NVIDIA/skills@tao-run-platform",
+      "id": "NVIDIA/skills@tao-run-on-virtualenv",
       "trust": "trusted",
-      "name": "tao-run-platform",
-      "description": "TAO Execution SDK for submitting and monitoring GPU training jobs on supported platforms (Brev, SLURM, local Docker, Kubernetes). Use when the user wants to run TAO jobs through the SDK, get job tracking, S3 I/O wrapping, multi-node distributed training, or platform-specific features that docker-run can't provide. Trigger phrases include \"use the TAO SDK\", \"call tao_sdk\", \"AutoMLRunner\", \"ActionWorkflow\", \"Job handles\", \"S3 I/O wrapping\", \"TAO platform run\".",
+      "name": "tao-run-on-virtualenv",
+      "description": "Run a Python training/eval script directly in an existing local virtualenv — no docker, no container. Implements the four-verb consumer contract (submit/status/logs/cancel) over a vendored process-lifecycle runner with durable on-disk state, PID-reuse-safe identity, and process-group cleanup. Use for docker-free local execution, plain-Python model scripts, fast HPO/AutoML trial smokes, or hosts where containers are unavailable. Trigger phrases include \"run in my venv\", \"no docker\", \"virtualenv execution\", \"local python training\", \"run this training script directly\".",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
-      "path": "skills/tao-run-platform",
-      "contentHash": "55ad642e",
+      "path": "skills/tao-run-on-virtualenv",
+      "contentHash": "904b33ca",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9e2e842249b24907b0512af670f286a9687da5ac"
+          "sha": "787000b7bec904b8294d08988619239ddd1fd7fd"
         },
         {
           "path": "SKILL.md",
-          "sha": "5cc55330775bfb948b4f5c25fd676990cad46038"
+          "sha": "c3d0eb5e9fbb76fa6600bbe98714fc23ec443e74"
         },
         {
           "path": "config/skillspector-baseline.yaml",
-          "sha": "1fe6e33a34915208ed8f9ee2473d8619ca3da801"
+          "sha": "0b134258cb81d7bb91639a84492e34d680ef6575"
         },
         {
           "path": "evals/evals.json",
-          "sha": "30e4612e6aa3c1abb4a2d8f3d0f0283722f1243f"
+          "sha": "6628368286d7825e8cdb26db2d2929d2968d0dee"
         },
         {
-          "path": "references/error-patterns.md",
-          "sha": "fafb5e820bedc700bab95cce720eeeeec2a40b74"
+          "path": "references/skill_info.yaml",
+          "sha": "79d45798b9ff8f0b3ea1ec1188bd83c9504d9478"
         },
         {
-          "path": "references/orchestration-patterns.md",
-          "sha": "175e299508ecf3e11553e763326466c3119ceacc"
+          "path": "references/tests/test_virtualenv_runner.py",
+          "sha": "b4520909f3956178041873e596e239d7ba2c8a9f"
         },
         {
-          "path": "references/platform-notes.md",
-          "sha": "4b67fe2553d087c74938f40fac67acc976d03a83"
-        },
-        {
-          "path": "references/scope.md",
-          "sha": "fabda2ef23a150784d033102d5785632881412dc"
-        },
-        {
-          "path": "references/spec-construction.md",
-          "sha": "e74a628880c183eaab105a6c3a3a0cdfb8321117"
+          "path": "references/virtualenv_runner.py",
+          "sha": "a2b24df3805b381a4b5260d1f59ddaf476c45ff1"
         },
         {
           "path": "skill-card.md",
-          "sha": "ef639fdd59ec458f8c580087712ed480ac67702d"
+          "sha": "0cd0323c20a9b649b5909e3017c17b4449f2376b"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fc3eeffd53c24b93eb86e7a4f5e351bf9fad2a84"
+          "sha": "1903a3859320c7e2d467dc83143088733e707a2c"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-platform",
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-on-virtualenv",
       "version": "0.1.0"
     },
     {
@@ -25267,6 +26281,48 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-setup-nvidia-gpu-host",
       "version": "0.1.2"
+    },
+    {
+      "id": "NVIDIA/skills@tao-setup",
+      "trust": "trusted",
+      "name": "tao-setup",
+      "description": "One-time session setup and orchestration map for the TAO skill bank. Run this first when the TAO skills were installed individually (e.g. from a public skills catalog) so the session gets the cross-skill discovery flow, credential checks, and host preflight that the bundled plugin hook would otherwise inject automatically. Trigger phrases include \"set up TAO skills\", \"TAO session setup\", \"prepare TAO environment\", \"TAO getting started\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-setup",
+      "contentHash": "5d150e40",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ee27abfa91c5a93a873c43aa772db952f49001a0"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "28f650b2f9e1b99b8544019799d92ff96377574d"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "65c6673dca34396187e558bbc708b0bc59ff31b1"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "21c7b507365be1e1d2271bb38ce54ee9698ebf12"
+        },
+        {
+          "path": "scripts/install-codex-agents.sh",
+          "sha": "436d89e888a039cf2341615ffd1b6110365e99b8"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "d9459e76ed6e47e5b67f08e54fe3f06eea2ca41f"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "698673a81ed4c92173ebfdf5a1ac51dba0478f2b"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-setup",
+      "version": "0.1.0"
     },
     {
       "id": "NVIDIA/skills@tao-train-action-recognition",
@@ -25528,6 +26584,60 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-train-centerpose",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-train-codetr",
+      "trust": "trusted",
+      "name": "tao-train-codetr",
+      "description": "Co-DETR (CoDINO) for object detection. A DETR-family detector with collaborative hybrid assignment — auxiliary one-to-many heads supervise the encoder during training, giving strong closed-set accuracy at high inference cost. Use when training, evaluating, or running inference for a TAO Co-DETR model. Trigger phrases include \"train Co-DETR\", \"run CoDINO\", \"codetr inference\", \"collaborative DETR\", \"autolabel detections with Co-DETR\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-train-codetr",
+      "contentHash": "b675a8e4",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "6c82d1d242007bf59baa29d0fdee37ff8446bc42"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ec32ca94c765e39c9cbcb7c4dfa2dc96ae1ba6b3"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "c4999f880e8ee4c60a60bec5b022df629a3b1cda"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "3db83719847f3257f4828a72c42da1d1224490fc"
+        },
+        {
+          "path": "references/checkpoint-spec-pairing.md",
+          "sha": "55ee09637cee91ac821ceaa577953bcef845e2e9"
+        },
+        {
+          "path": "references/coco80_classmap.txt",
+          "sha": "941cb4e1392266f6a6c09b1fdc5f79503b2e5df6"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "672a5aa695128cf99524e5573bf849174cf18edf"
+        },
+        {
+          "path": "references/spec_template_inference.yaml",
+          "sha": "7db676fb316163b6fb80139fd8b4075fd2825a6c"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9f2186f6ebf41f065a091ca6cf6ab7e527a1d301"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "b45e8491ae7ccc348615e661eac491d6cf7cec80"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-train-codetr",
       "version": "0.1.0"
     },
     {
@@ -25906,6 +27016,96 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-train-dino",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-train-dinov3",
+      "trust": "trusted",
+      "name": "tao-train-dinov3",
+      "description": "DINOv3 continual self-supervised pre-training. Domain-adapts public DINOv3 ViT backbones on unlabeled images via teacher-student self-distillation (DINO + iBOT + KoLeo, optional Gram anchoring) and converts the EMA teacher into a timm-format backbone for downstream tasks. Trigger phrases include \"train DINOv3\", \"DINOv3 SSL\", \"domain-adapt a foundation backbone\", \"continual pretraining\", \"self-supervised finetune DINOv3\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-train-dinov3",
+      "contentHash": "4c451517",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "7db24ef8f3cc372473965a19c54911c0bc93779a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "1e37e680627ff3d4379ec519d1bcfb1876180cf0"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "26b16b07e07b5efb1ed594a07cf69af602860ba4"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "a77ec4546b97ea5952ce4bd542f0fc94d19da7a7"
+        },
+        {
+          "path": "references/dinov3-method.md",
+          "sha": "f703c0525aa421d94552baddcfdc7464b558390e"
+        },
+        {
+          "path": "references/dinov3-recipes.md",
+          "sha": "73d75ac6391b52497155755e8be241db329fb2e8"
+        },
+        {
+          "path": "references/skill_info.yaml",
+          "sha": "57c5b718d29a9ff53d46b9106df3e3e4bb14afa7"
+        },
+        {
+          "path": "references/spec_template_convert.yaml",
+          "sha": "8e12523c80cc13da9e1dd630ca94a23ff7e734e6"
+        },
+        {
+          "path": "references/spec_template_export.yaml",
+          "sha": "2449d60c9d7a051268c1dde5537d9739a345fab3"
+        },
+        {
+          "path": "references/spec_template_inference.yaml",
+          "sha": "c4ec9012afc83ddb31f1506ff26b971651b0dac9"
+        },
+        {
+          "path": "references/spec_template_train.yaml",
+          "sha": "5812beb7dfbe965820c449deea5e9335c8ee1914"
+        },
+        {
+          "path": "references/spec_template_train_highres.yaml",
+          "sha": "2d9d64707801ab64281ec87d4fedeae01e47c0f2"
+        },
+        {
+          "path": "schemas/convert.schema.json",
+          "sha": "e90b24c19e03b898ef37c3ba1a3c07ee8a967dba"
+        },
+        {
+          "path": "schemas/export.schema.json",
+          "sha": "46f3d0b3b202cd7fd27988d6e6157a5e76478d14"
+        },
+        {
+          "path": "schemas/inference.schema.json",
+          "sha": "0ec6fcd288f2cf5f3faaea8549e788f93cb2fa61"
+        },
+        {
+          "path": "schemas/manifest.json",
+          "sha": "92742101bc6c7decae3f990edb7b3c8006268522"
+        },
+        {
+          "path": "schemas/train.schema.json",
+          "sha": "24d1b1ab150d88126d178e019509311ea7368808"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f7511b38008fa6d723cf25eff930f83f4b23e391"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "504204c81cd0d7551e0c242596d094757d24db90"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-train-dinov3",
       "version": "0.1.0"
     },
     {
@@ -28501,6 +29701,92 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-validate-recipe-transfer",
+      "trust": "trusted",
+      "name": "tao-validate-recipe-transfer",
+      "description": "Port a published computer vision paper's official code and training recipe onto a customer's own dataset, or diagnose why such a transfer produced bad numbers. Use this whenever someone wants to reproduce a CV paper, run a paper's repo on their own images, fine-tune a published detection/segmentation/classification/keypoint model on customer data, adapt a training recipe to a new dataset, or figure out why a fine-tuned vision model scores well on validation but fails in production. Also use for post-mortems on any failed or disappointing CV training run, and whenever a user mentions mAP that looks too good, a model that \"worked in training but not in deployment\", or transferring hyperparameters from a paper to their own data. Trigger even if the user only says \"train a model on my dataset\" and a published architecture or repo is involved.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-validate-recipe-transfer",
+      "contentHash": "dbf74a07",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "935402045b4d052aa59367e7601fd787b1ac8d12"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "59750d41640098f4c468588f012c0e0d779fb15a"
+        },
+        {
+          "path": "assets/status.example.json",
+          "sha": "d51e3fb4b1d8f89da4d522782605c833057c91d6"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5ffb047d8895b9b43c9c96227ddf03b8d4abfb1c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "2cee174e9268b1126855851916bf4bd291980393"
+        },
+        {
+          "path": "references/failure-atlas.md",
+          "sha": "e11f5021e4151adba7bc6cd40c01f9f021d6766e"
+        },
+        {
+          "path": "references/port-gate.md",
+          "sha": "7b0142280972ff888fd056eaa21335cc15c060e7"
+        },
+        {
+          "path": "references/postmortem.md",
+          "sha": "92df49afdb0f4a0128d5471cb72b99eff9125bd7"
+        },
+        {
+          "path": "references/recipe-fields.md",
+          "sha": "584b8c09402c81a38cf32c2d828ca60a81118cf0"
+        },
+        {
+          "path": "references/recipe_spec.yaml",
+          "sha": "e79bb689bb948e58f42d51a2a9d1e9fe3880a597"
+        },
+        {
+          "path": "references/stacks.md",
+          "sha": "48bfbb91b958bfed2ce03c3f17e6409e3aa4997a"
+        },
+        {
+          "path": "references/verification-ladder.md",
+          "sha": "50540765236981fb6674aa8508f0ba8817f9055a"
+        },
+        {
+          "path": "scripts/domain_gap_report.py",
+          "sha": "d7bf85aeb59741cc62f34b44f4882f2c17f25405"
+        },
+        {
+          "path": "scripts/preprocess_parity.py",
+          "sha": "866a8384c295686b1e2dca9fd4d927cd2626534e"
+        },
+        {
+          "path": "scripts/render_status.py",
+          "sha": "ddd338019c66e29637c54866816cf98d98645313"
+        },
+        {
+          "path": "scripts/split_leakage_check.py",
+          "sha": "594edaaa49cf589d04806b24c6bab6110386ae08"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "04bc900cf07ea9ba6cde495871042b2763ce6084"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "21378c62c539c0692a1bb9aceb02bfa373a46c46"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-validate-recipe-transfer",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@tilegym-adding-cutile-kernel",
       "trust": "trusted",
       "name": "tilegym-adding-cutile-kernel",
@@ -30924,51 +32210,67 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "acbd4e14",
+      "contentHash": "0c1471ab",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "868a63b4932a5dbc6b8683fa7dd4b0cb6adc2927"
+          "sha": "6ca3a2f56fee9bc74de9c6be2914666e6314fa42"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "1a79b85471df061a3cce219ea1d219c4b84d3b68"
+          "sha": "6d0f624fb09ae5bb747486974e122ef9d29a83de"
+        },
+        {
+          "path": "bin/phase-publication-hook",
+          "sha": "3a871d9b991f3acb2fdb650be7b0502953c151f3"
+        },
+        {
+          "path": "bin/phase-publication-hook.ts",
+          "sha": "ce9649b0682d61272c879a8701d5197b4789b10d"
         },
         {
           "path": "sections/ceo-phase.md",
-          "sha": "3fc30fae6b665230cbfcef3d7af76a743dace6f5"
+          "sha": "9a0a826d65227bc8fc883c4d603e985a9caf412d"
         },
         {
           "path": "sections/ceo-phase.md.tmpl",
-          "sha": "19192cb71bc686bf84341399ad4a627951715cde"
+          "sha": "9a7b5cbee1cc889f374f78adcf9f71082a6a5cbf"
         },
         {
           "path": "sections/design-phase.md",
-          "sha": "5c7d661d2dac42fcc5ecb37f6fc859cd4b8a1652"
+          "sha": "6948a869d97bdf340daaa466c707f85c23a8299a"
         },
         {
           "path": "sections/design-phase.md.tmpl",
-          "sha": "9846b3cdcfb1a5d01b5c0780bb7f6aad0d72e9c9"
+          "sha": "e4aef97a77720d70b413ae959ba9d0cf5ca204e2"
         },
         {
           "path": "sections/dx-phase.md",
-          "sha": "b269d1eaa6680d1ec0868a36a74562e791897eaa"
+          "sha": "b7b48a352bbce7b84dcac666b79e666d844a4a73"
         },
         {
           "path": "sections/dx-phase.md.tmpl",
-          "sha": "de34a81b51b8d0c5ef0f1478cfa1984a5720fb35"
+          "sha": "94d8de6e224e1defeb87840e50578b5622087aeb"
         },
         {
           "path": "sections/eng-phase.md",
-          "sha": "a9f56e37b0a90d428ae3d2d7379adf98e7cef65a"
+          "sha": "4bb595d2716edf8b379b2cbe08f5c27e737324cf"
         },
         {
           "path": "sections/eng-phase.md.tmpl",
-          "sha": "38fdf648b36de2129e33f61b2bd2c4b1d1c3301b"
+          "sha": "b4463a55958a170b330cd2e4984f930bca955197"
         },
         {
           "path": "sections/manifest.json",
-          "sha": "85940b4c29fefab838ff3f69848d1701a2f6ff39"
+          "sha": "cd7bb295ae619022d514f1345c467c8d142ed604"
+        },
+        {
+          "path": "sections/phase-close.md",
+          "sha": "8b9d3c24ea428b423fa8775a6ba794ad85469a92"
+        },
+        {
+          "path": "sections/phase-close.md.tmpl",
+          "sha": "787b43e727e4049c9e4a41694d435f028577532e"
         },
         {
           "path": "sections/tasks-aggregator.md",
@@ -30989,11 +32291,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "benchmark-models",
-      "contentHash": "86a933a5",
+      "contentHash": "79fd8a93",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9954a5ad7d2747fb31c04c6c9fae5a4d2584284b"
+          "sha": "9cd6c8ba40f910e79bc42f3ea3bc3b7671a919c0"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -31010,11 +32312,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "benchmark",
-      "contentHash": "d4b87d3d",
+      "contentHash": "925b281d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2c5d9ded4bba580fa102ebd9eec66567d97e9ab5"
+          "sha": "9cba8bdb4c713898c072543ae5162d557fbb4824"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -31031,7 +32333,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "995e2b21",
+      "contentHash": "6184df77",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -31039,7 +32341,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "2e192e1a38f61c73620fdf685b19b6626592cf5f"
+          "sha": "311649466c6183ffe59178729ac8ecf149326ea6"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -31063,7 +32365,7 @@
         },
         {
           "path": "sections/command-list.md",
-          "sha": "b90a7b0f30988668d1ee1800cee1d787e7d8a014"
+          "sha": "f3fe9220e52470b5a0b084bc509d83bd31329857"
         },
         {
           "path": "sections/command-list.md.tmpl",
@@ -31135,7 +32437,7 @@
         },
         {
           "path": "src/commands.ts",
-          "sha": "73bc9ab1bf14cdac5b2e0432a4a527f0b68a3eae"
+          "sha": "a7c9cbb79425dee083aaa88c55db0bcd43da6439"
         },
         {
           "path": "src/config.ts",
@@ -31263,7 +32565,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "47f7249ef194ced221cc433660a5e05f31486476"
+          "sha": "e26450532d412f39806305ff1e46fe8dc6f0888a"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -31315,7 +32617,11 @@
         },
         {
           "path": "src/terminal-agent.ts",
-          "sha": "f75f6a28d72e3ad4d1d1b692a8c004e17ba485ca"
+          "sha": "33d0c09f153a82328137322c93c38c7dc98ae293"
+        },
+        {
+          "path": "src/terminal-pty-lifecycle.ts",
+          "sha": "635ee98ecc21edbde217c9d297d675bbc2366421"
         },
         {
           "path": "src/token-registry.ts",
@@ -31679,7 +32985,7 @@
         },
         {
           "path": "test/pair-agent-e2e.test.ts",
-          "sha": "a9e978c985e851fc594db9aa8ebe20ae92373a60"
+          "sha": "52f6bfe1809752ed7776f8a066670bb61ed9e7a4"
         },
         {
           "path": "test/pair-agent-optin-gate.test.ts",
@@ -31687,7 +32993,7 @@
         },
         {
           "path": "test/pair-agent-tunnel-eval.test.ts",
-          "sha": "f922afebeb0f06d966af6aa42229047d244cd6d6"
+          "sha": "309d6d78e7292f26a3e11eb1e6dd971e7b9552c2"
         },
         {
           "path": "test/path-validation.test.ts",
@@ -31795,11 +33101,11 @@
         },
         {
           "path": "test/server-embedder-terminal-port.test.ts",
-          "sha": "e9d01c52fb2c669a0e496f83b8e81b9f1ef7d756"
+          "sha": "53bf9f3b720cb1083e6b137f73b674d9aa61f3db"
         },
         {
           "path": "test/server-factory.test.ts",
-          "sha": "bed2a70c8803f8aebb01b584bd822500938a0354"
+          "sha": "58982b47f3f19896b3266956daf17334044e01a1"
         },
         {
           "path": "test/server-flush-trackers.test.ts",
@@ -31939,7 +33245,7 @@
         },
         {
           "path": "test/terminal-agent-integration.test.ts",
-          "sha": "c4a72c019d16269f6e9011ad4ae0d48f030e2523"
+          "sha": "102505f6ea0922b285a9627e2f2af185a2d66929"
         },
         {
           "path": "test/terminal-agent-internal-handler.test.ts",
@@ -31975,7 +33281,11 @@
         },
         {
           "path": "test/terminal-agent.test.ts",
-          "sha": "9dd54ffbbb8394b0ca21b26d44aa76d7375f9e14"
+          "sha": "dd3e4fcf1717b86d3e8833f4b6c7e9cbd10834be"
+        },
+        {
+          "path": "test/terminal-pty-lifecycle.test.ts",
+          "sha": "635606ad278acf8c8d3fb7f3354af46728c72ed1"
         },
         {
           "path": "test/test-server.ts",
@@ -32065,11 +33375,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "canary",
-      "contentHash": "99231a11",
+      "contentHash": "0a0db1e5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "96feda5e721fb95c27140bc767f945154700b8e6"
+          "sha": "9ae7bc16307071486b434c30b54829cef0f13857"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32115,11 +33425,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "a5e89f93",
+      "contentHash": "277fd06e",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5bea29291220f828846f2ac1bf41ba269cfb07a7"
+          "sha": "80398278afcdea97922b9399e37ac5f7ba9a38e9"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32164,11 +33474,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-restore",
-      "contentHash": "2bcf062e",
+      "contentHash": "8eab99df",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "379726df34631ef33ca282977bcf09a83e43a831"
+          "sha": "7c626df0106e4e16c364013ef405ad991d7fe1bd"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32185,11 +33495,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-save",
-      "contentHash": "627afe66",
+      "contentHash": "a9627962",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "17f12bd6c734b7803fec16a874c69ae62fb33620"
+          "sha": "4980c94f580df5956267c851c5bff7cd4bbdda41"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32243,15 +33553,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-consultation",
-      "contentHash": "969e46d5",
+      "contentHash": "1e806cf2",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a87e78c8e70451d129e4b8789819524b5e99cde8"
+          "sha": "cc928ea98920f7a47ea17e09dd0a539a257bcb46"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "5a54fa3cad0b46192c8999bb7a821e979652f77d"
+          "sha": "bc6a8b24add80f9d7f6f089a81a5b1b078cd831d"
         },
         {
           "path": "sections/manifest.json",
@@ -32259,11 +33569,11 @@
         },
         {
           "path": "sections/proposal-and-preview.md",
-          "sha": "6e8f4e84957014784cea4aed99da918908c96b64"
+          "sha": "e9df9d6a8d37c7a5883f1d9501af68395735fb55"
         },
         {
           "path": "sections/proposal-and-preview.md.tmpl",
-          "sha": "3b3f42335678db9468aa5224c84ec22de98b871b"
+          "sha": "78183fbdb2673799b14126460b7088a76b9a7a62"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-consultation"
@@ -32276,15 +33586,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-html",
-      "contentHash": "5066984e",
+      "contentHash": "1db916b5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f010758147b3e2dcf228211b19d5701f3a1948e4"
+          "sha": "65041e1d4b16dafffdaa6bcc63ae20cc97407ec4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "38cd6bc9b53b0c050eae2f3e30728de63e89d9bc"
+          "sha": "0233f244d2569ce70d76c544aed7869694dbd5db"
         },
         {
           "path": "sections/detector-install-offer.md",
@@ -32329,15 +33639,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-review",
-      "contentHash": "2b43eb5a",
+      "contentHash": "cb5d5c04",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "587fa6f047b894cfe6c5a15715303496136c3d0d"
+          "sha": "7144f4dcec60b2a8ef9d27377af7b70246a0bacb"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a01f05b31fa6f1d25bf882d372958464c13d8915"
+          "sha": "d73394c88637b583c58b860333ef88a50e9f6c06"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-review"
@@ -32350,15 +33660,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-shotgun",
-      "contentHash": "29e21df0",
+      "contentHash": "9f1b9be1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ff36154442d9aab98dde673194416d861d0fa087"
+          "sha": "31d1e0ea5471b3c6130d5bf593801a928fa969e2"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6931178a0913ac1a3609757265d4fad40d548c3e"
+          "sha": "e5e60b3b3f4e3252ae5be588bd6281c98d77ce9b"
         },
         {
           "path": "sections/doctrine.md",
@@ -32383,11 +33693,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "devex-review",
-      "contentHash": "5118adb1",
+      "contentHash": "3709c5ac",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "082a3f45c0a46b480dd8d75f7ce9f0178fedd90d"
+          "sha": "0d9149fa772252788f781b467049e07c34dc036b"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32404,11 +33714,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "diagram",
-      "contentHash": "e9d9b55d",
+      "contentHash": "bb83db0a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4639df1c3cd9c4db24a558a04837ae073ef46384"
+          "sha": "dc29118ce240e47d58a60d9c5cb171a514589ca1"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32425,11 +33735,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "document-generate",
-      "contentHash": "83bc560e",
+      "contentHash": "6ae4a563",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "42c5ae4d614c6cd44a06d3fe722952fae7a31579"
+          "sha": "c718d52dab9231303f145f7b3ae82ae22d3719da"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32446,11 +33756,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "document-release",
-      "contentHash": "e8d73121",
+      "contentHash": "b81a0347",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9a8abe1de205876d76fca68e4eab3e81c88fb917"
+          "sha": "05738b1c1b336d61730d13e68ceba40681f56ff1"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32462,7 +33772,7 @@
         },
         {
           "path": "sections/release-body.md",
-          "sha": "9d780dc24ffc361929500536cd3681cc7ae34f68"
+          "sha": "e04ec8c06af9c8a0afe27b3de3d4d10c161b0e20"
         },
         {
           "path": "sections/release-body.md.tmpl",
@@ -32602,11 +33912,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "health",
-      "contentHash": "44c1eca0",
+      "contentHash": "c7e29b3d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "39f086aeda5b0afbffea836deb1560e3109809cb"
+          "sha": "0f31ad1112d6fa2bc5778719dd653bdf1d50e708"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32623,11 +33933,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "investigate",
-      "contentHash": "98b4c874",
+      "contentHash": "41355cae",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "bb7a81da1eedf007cc30e5436ec88b49442ea1bd"
+          "sha": "d3b7b64c9c2027a280883d1d3945471ed067414c"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32644,11 +33954,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-clean",
-      "contentHash": "4cdfada6",
+      "contentHash": "40ddd120",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2612232df20ac71d227c2f5439f34ec16af79793"
+          "sha": "732932f9a493a420776a044178abc96d5a77f897"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32665,11 +33975,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-design-review",
-      "contentHash": "b1def437",
+      "contentHash": "6cd052b5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f283ce8deaafb5e74ec9e5c41484059d6b0a4b03"
+          "sha": "ef1d26eb969fbf2a729f8031ddef3666c93aed67"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32686,11 +33996,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-fix",
-      "contentHash": "e29440c3",
+      "contentHash": "979a7cc1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "66f897d4dba61f9be892885be942c7eea6a9b8e2"
+          "sha": "0dbd7b8c472489521a091e2ba3bb7212bd6adbcb"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32707,11 +34017,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "f1a259bc",
+      "contentHash": "d9cab881",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "db4c6b7cda2cf5c75b2c6d66ee0baaec5a40c7b0"
+          "sha": "f2dbd7327cab6a54d6875eef645d65723d3fd104"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32872,11 +34182,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-sync",
-      "contentHash": "0fee5541",
+      "contentHash": "dde85039",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a01eff344d9ec3a04da7666f9812088ae8a87d27"
+          "sha": "0ac2b2b14b6bcbad7eb9897091f1c1646c1317f4"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32893,11 +34203,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "47f57d68",
+      "contentHash": "914a9680",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b3ba1ade501d414053ed34fd51527fdfb399c166"
+          "sha": "3909ac2caf676fd15c370829b14c704708881d75"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32942,11 +34252,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "landing-report",
-      "contentHash": "da18140a",
+      "contentHash": "032bb1f8",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4344dc16b129b7573491f08b7e7a8c1a81c5e845"
+          "sha": "5f65dd039e4aad66f4c4536454f39362b01e9a50"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32963,11 +34273,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "learn",
-      "contentHash": "d6226302",
+      "contentHash": "69db0c95",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "dc734ce457a37de4f9e44bb7bcaac48f5897ffdc"
+          "sha": "27937e7d300539539ef3dbdc45aff370580bd075"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -32984,11 +34294,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "f93f10d4",
+      "contentHash": "e3194da6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "3d3db401e8bf8c47c4487b05f14968aab65f1bbe"
+          "sha": "4455afeac882f95c893178db6cb9bac71aee20d6"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33161,11 +34471,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "4e5130d8",
+      "contentHash": "66c95b9a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "774de6df883a8cc70e2931636faa6c8202bd2074"
+          "sha": "d58b556671e60efd5211a84e5d074c01242bbfb7"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33173,7 +34483,7 @@
         },
         {
           "path": "sections/design-and-handoff.md",
-          "sha": "22914a65606b588e43bc965ecaef4a37fb95aab1"
+          "sha": "de78c5761f7997ca3636132eb2827b81404a7de7"
         },
         {
           "path": "sections/design-and-handoff.md.tmpl",
@@ -33193,11 +34503,11 @@
         },
         {
           "path": "sections/phase-2b-builder-brainstorm.md",
-          "sha": "fa1ac9d82b5e7087bdfdaab042a235342e1bdbb4"
+          "sha": "0e1489b77d9751688e241adfd55e8ebd3bacd11c"
         },
         {
           "path": "sections/phase-2b-builder-brainstorm.md.tmpl",
-          "sha": "e49d6cd80b61b8b12cfc6e3d372b8b8c0857134b"
+          "sha": "0964eb7e5a27164179a5f932f15e125fd5e2bbf6"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/office-hours"
@@ -33210,11 +34520,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "open-gstack-browser",
-      "contentHash": "5ce5cabb",
+      "contentHash": "79665f49",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "846d90243071e576c5fbf0a7d6e7a13c9e0d634f"
+          "sha": "7120c85becda04f1f802dd38f288bd147aa5740c"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33299,11 +34609,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "pair-agent",
-      "contentHash": "8c47836d",
+      "contentHash": "b9dd43a3",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5f5b49631f301232c5616f250c885bf24cadd598"
+          "sha": "77ec9bf6009a7352e112fa120f5912304283a3d6"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33320,15 +34630,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "a4a4b2db",
+      "contentHash": "7f6323ec",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "69616bf8e01c427c58a5fb03d7819e8255578091"
+          "sha": "2fcbc1fe67193f84896ea0c3604a8bc8fbe3a0dd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7335e4d43f39609ed3412f0520d8624ba3dccda9"
+          "sha": "d4c87d51f096b7254fac8ef9c6a9568e752efcc8"
         },
         {
           "path": "sections/manifest.json",
@@ -33336,11 +34646,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "228b518baa6761e97a75605b53873c0caa9062fd"
+          "sha": "67ffad717de7c0dafd3cd0645fabd74cf9aebabe"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "17126b056c37c4b92760d51eeb18172b76a32b5e"
+          "sha": "9d3b02113ebc9e321afb260d4460e5e99c835fc3"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-ceo-review"
@@ -33353,15 +34663,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "9bf4204a",
+      "contentHash": "cda87882",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "726a0f6b656c1228b65418dcab9b5d9152a73e4f"
+          "sha": "e04aecd33e676de477c5a00e2ed01edf6428dec5"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "5f6c43786ef3ebabf77590eb342c979396b81b19"
+          "sha": "db88a19fbfe46e5db46697e6b054cd36e15bbcbd"
         },
         {
           "path": "sections/manifest.json",
@@ -33369,11 +34679,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "4c938c47dd6b742b8d0a3ebfaf98263fdb9b85be"
+          "sha": "bc58a18b9a05f918683051c7d967df7bca687012"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "44333035abd250e70254b24cdc3dd94301b13813"
+          "sha": "4495775730cbbcba62c4bb05394ad0ab6f0d86a3"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-design-review"
@@ -33386,15 +34696,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-devex-review",
-      "contentHash": "baa3ab50",
+      "contentHash": "a5d236af",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8543ffac5ae1be8f2c659fbec228435a743b1395"
+          "sha": "9dffd16f299f3ea4a7c1f0020177037247492ed2"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "752354d987537b93c47adea4b772b5233dcb5176"
+          "sha": "a29808d9d4e53dc945353e2afcfb9d6914d668f7"
         },
         {
           "path": "dx-hall-of-fame.md",
@@ -33406,11 +34716,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "7be194580e1f263a32a5a206c31974a77fb2f2d7"
+          "sha": "3692dbfd241a1639fe7f1ffdcb743663010ccc62"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "eca5dbccaab17ef1f1ecd6b624df6762b8e596fe"
+          "sha": "cea99b79b019f13c814d639cb3de9c8eced51851"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-devex-review"
@@ -33423,27 +34733,27 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "37bab016",
+      "contentHash": "d1767ccc",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c234f681f50daa3de46fd993cd0dc4323d54a8d2"
+          "sha": "ac32a9233dda9b33fed3067802f793be2de87054"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "210016da273a492a62cac28948f6e359bcb845cb"
+          "sha": "971d3ce2002bb84383328e0c90a8de9b459e1d33"
         },
         {
           "path": "sections/manifest.json",
-          "sha": "f76e8f95bf4b313cecc2797278440cfc8f0a90a5"
+          "sha": "869fa8c0a59f050ccdea7e1494a9f1948d5aa17e"
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "4a12d9b3d82eb7907cc806866d999f5341907f4e"
+          "sha": "d6b83fa22ee10589d0d5a7b4bcc9e43e788a8b52"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "277cbe0d22c9a06f7ad5d57fa38048f59d6cbf5c"
+          "sha": "863317b581f4d2dc561b6a8afd207b0f3e222d52"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-eng-review"
@@ -33456,11 +34766,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-tune",
-      "contentHash": "fb48810c",
+      "contentHash": "bd6e0e18",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "d40d0e80acc21560e4673aab6db828bc5e682b46"
+          "sha": "11235a3b3ba671812aa3b090717a5db1c7e69ee9"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33477,11 +34787,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa-only",
-      "contentHash": "4bfb8d2a",
+      "contentHash": "45238574",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4a6587b1f455e01c748f0dc6591085dc4d2860f0"
+          "sha": "bb7bdc4df8d2ae39c99215bfa0c8857a83ea8540"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33498,11 +34808,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "d2f197e2",
+      "contentHash": "df7b685d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a254c2a8b04682f2fd03af6a4af50fcc9b281b48"
+          "sha": "c9eecd84dedf4900ec9c22e8d06c395e17da2daa"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33526,7 +34836,7 @@
         },
         {
           "path": "sections/test-bootstrap.md",
-          "sha": "82e07d4e621e6b09d6252cd39f1221de610a5f3a"
+          "sha": "5e85b5114dda8394f857e9a41f84e40716b5e4d2"
         },
         {
           "path": "sections/test-bootstrap.md.tmpl",
@@ -33547,11 +34857,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "11a1235d",
+      "contentHash": "7acc8d66",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5a2072e6fd002472311e5f73ed6647d0d47a96ee"
+          "sha": "8a7b0a9dd19f39fbd96051397abf9812b01bd37d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33580,11 +34890,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "b29a5f8a",
+      "contentHash": "048d4c8a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8d46f64c574809a16b064b6472215f9a4dbbe3f8"
+          "sha": "76453e702d2ee4d8a8519460029f06691b9aca74"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33608,7 +34918,7 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "f14c43b1f8ba3e604ec12bef80e4adcb51f49203"
+          "sha": "2a91a7e5c2eecb156fb7c3821e7528c4a9735185"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -33664,7 +34974,7 @@
         },
         {
           "path": "specialists/testing.md",
-          "sha": "b2ea12e57c882ef307daee1abaa7066429b4425f"
+          "sha": "1e2f28ed4bc86cc0dd6de1f940b7e402e3ab41cf"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/review"
@@ -33677,11 +34987,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "scrape",
-      "contentHash": "02bd309e",
+      "contentHash": "036e1770",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "39383fd79144e293ed4f545793109efba04e9d6f"
+          "sha": "4ff53516a211d3f0d31a1cc642283dabba2e9ace"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33698,11 +35008,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-browser-cookies",
-      "contentHash": "57eba768",
+      "contentHash": "3ba900a4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6e1895b35273e75f0fabbf57776a28170bbe683a"
+          "sha": "b873e38da565a91fb41cd624c0e97155de2271b0"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33719,11 +35029,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-deploy",
-      "contentHash": "de4d52d0",
+      "contentHash": "138fd98c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9872be5716688ef624bbbe234ca4fcba5b0ef4f9"
+          "sha": "9990ed8e5ff9c1d2abc91987f1dc31b19ff1aa11"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33740,15 +35050,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-gbrain",
-      "contentHash": "af793537",
+      "contentHash": "10fb691c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "392d7ca4dae79f7b7fbe2a9ab8bdf6e367cc167d"
+          "sha": "381552d8263d33ac7da1ed2b008f5d1ceee00410"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "b24fa776c69328cf4eb0d7217137ad367ab71f20"
+          "sha": "4fb40d7505e82886c3c80ee9e0cc5c1640079a5c"
         },
         {
           "path": "memory.md",
@@ -33801,11 +35111,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "4b4fe235",
+      "contentHash": "1272930b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b12db06b2882f8c23acc12752b0f8890ab302640"
+          "sha": "10e9577165c8702397c9f41c2b76658eaba84d41"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33813,7 +35123,7 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "8727bdbc15937ee8c1ff8aafbcd90bba2602e818"
+          "sha": "3c482bfca687d1c7fec11b7718659a540e9df36e"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -33857,15 +35167,15 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "4225a5b3454c633589aa6fa24a4d57adb028b06f"
+          "sha": "6a1c02e83ff1c023df6ca44dd4c2fef651c3cc8b"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "034118a8f6b49ebe01495a5beb8bec045246127c"
+          "sha": "bdaae440a3b8074a4c6ff80369f0c34d578f0e55"
         },
         {
           "path": "sections/review-army.md",
-          "sha": "a75f2b9fe8284c45f58c4e2e53518f596a12890b"
+          "sha": "57f8e2559f47ea407a2578a9452879f40c6aa784"
         },
         {
           "path": "sections/review-army.md.tmpl",
@@ -33873,15 +35183,15 @@
         },
         {
           "path": "sections/test-coverage.md",
-          "sha": "3c703db130df141c688dd9e7c32034b4cdc53f84"
+          "sha": "6bc0346352a2d718cc3ae2ba98670918dc959889"
         },
         {
           "path": "sections/test-coverage.md.tmpl",
-          "sha": "b1f6e60ce5c3a3bc4039bd44a3ac319f92b2237b"
+          "sha": "d4c4274bc9f40689cf72d8d4d5a1b4780d4e9480"
         },
         {
           "path": "sections/tests.md",
-          "sha": "365ad1f3cab421a247c8260d5affc287fcecb2b4"
+          "sha": "128e58829d4810ce1b1f3ffdd1540966075c9779"
         },
         {
           "path": "sections/tests.md.tmpl",
@@ -33898,11 +35208,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "skillify",
-      "contentHash": "69012af0",
+      "contentHash": "9fd4fd31",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "fe779eb5c974383f565590a0fe67f447854df0b8"
+          "sha": "c54d8a930398d326c715096927a20298d2d2b376"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33919,11 +35229,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "spec",
-      "contentHash": "f8ef115c",
+      "contentHash": "4eb3e3e6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8703218de8db02ac4adbdbb838f95a14667f524f"
+          "sha": "f8c703625987885b6d5274c16780f0bf9c37ad38"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33931,7 +35241,7 @@
         },
         {
           "path": "sections/gate-and-file.md",
-          "sha": "f7c969ee177417683c59d29ba1a4b1d1c25b5589"
+          "sha": "95186ca9d61feace322700f1727bb31d230c3fb5"
         },
         {
           "path": "sections/gate-and-file.md.tmpl",
@@ -33952,11 +35262,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "sync-gbrain",
-      "contentHash": "80cf9d25",
+      "contentHash": "a97e80cf",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cc8990f4ab398dc048a40d9af76dfc45bca1db52"
+          "sha": "faae024f319a38d658e857ae080542232494070d"
         },
         {
           "path": "SKILL.md.tmpl",
