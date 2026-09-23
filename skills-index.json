@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790112227526,
+  "generatedAt": 1790138973229,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21013,67 +21013,67 @@
       "id": "NVIDIA/skills@paidf-augmentation",
       "trust": "trusted",
       "name": "paidf-augmentation",
-      "description": "Use when authoring or validating PAIDF augmentation YAML configs, or running remote Cosmos Transfer/Predict, image-edit, or image-to-video inference.",
+      "description": "Use when authoring or validating PAIDF augmentation YAML configs, or running remote Cosmos Transfer (including Cosmos3 WSM controls), Cosmos Predict, image-edit, or image-to-video inference.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/paidf-augmentation",
-      "contentHash": "459f9dac",
+      "contentHash": "29cf4fc8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f06f053f11652745516c58be097f4056dc7adb15"
+          "sha": "e4fb413269fbc3a43074aa7889a5ee0d597b5b1b"
         },
         {
           "path": "SKILL.md",
-          "sha": "e1f1648a56452a7343cd61d90f77dbfe37bff6d4"
+          "sha": "e6d8eb643e0f7bf5d9a6793eb82aa1c9013ffac3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "9abde8e80df1839b17e95ea0dfa6a433e0957f9d"
+          "sha": "e92331511d93c1316a0fc53223422511c503cafb"
         },
         {
           "path": "references/captioning-strategy-guide.md",
-          "sha": "6abcdc84c90cbc9c2e6042639abf807a8d9d19b6"
+          "sha": "da84d012cef91972e8183e428dc37b55e18de51a"
         },
         {
           "path": "references/config-decision-tree.md",
-          "sha": "aaf038e6ddc76134830da7afd6bdccc4b6f4e4a9"
+          "sha": "0e8aafc4186c8c235fb9e81d16dcb1b32e4f20fc"
         },
         {
           "path": "references/configuration-schema.md",
-          "sha": "61d8e6484edac605a2a5edefc0eb1336fc91a074"
+          "sha": "8ad3b4c0927563314327c9bc0bae528c6ffc1b82"
         },
         {
           "path": "references/evaluator-setup-guide.md",
-          "sha": "0aa0cffc1a83924b5a294e9c7b19cf3870141993"
+          "sha": "efdcbc04736aadb5ce2a5521565a644d5118406d"
         },
         {
           "path": "references/event-video-gen.md",
-          "sha": "154754d36cf68901a2a3aef3aa250eea7cb484b0"
+          "sha": "7e3ae4df60f79a133f2c3cc577c58758e1b1be9c"
         },
         {
           "path": "references/image-attribute-augmentation.md",
-          "sha": "73928606dcb51fcf87776fe7d444f0ae8f1e38f0"
+          "sha": "4f6076e18e987610ee36c1bcd9c5fc910ff79aca"
         },
         {
           "path": "references/pipeline-operations.md",
-          "sha": "2f372c01a6fee9a451b783e680369f15bb3c3815"
+          "sha": "6202f9bba0b092e8dd4637ca32775add52f96696"
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "cc8e9bd11328f8950cc301695dadd344f7381264"
+          "sha": "cf2d711dd8c5c9c2657e7a8f7900cd63a90a27ab"
         },
         {
           "path": "skill-card.md",
-          "sha": "e70bf5597fb8f2b986b59e795d73a7b089c22c6a"
+          "sha": "76044acee3aaf877e27426174aebd1e7b880cb3a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7d96abd7ecdc34da395e36cea5534571d4f10ff2"
+          "sha": "1c60105d0c7e6bf403ec690310e6b9ca5087539e"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-augmentation",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "NVIDIA/skills@paidf-auto-labeling",
