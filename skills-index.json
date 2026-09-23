@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790138973229,
+  "generatedAt": 1790183172852,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -18035,6 +18035,135 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-speech"
     },
     {
+      "id": "NVIDIA/skills@nemotron-voice-agent-builder",
+      "trust": "trusted",
+      "name": "nemotron-voice-agent-builder",
+      "description": "Create, refine, or fix NVIDIA voice agents (Cascaded or Omni) with Pipecat or LiveKit. Use when building, scaffolding, or iterating on a real-time voice-agent pipeline, including speech (ASR/TTS) customization and cloud or local deployment. Not for offline/batch speech-to-text, text-only chat or RAG, or generic Docker or CUDA work unrelated to a voice agent.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nemotron-voice-agent-builder",
+      "contentHash": "1d8d4682",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "6669c0a557782cb37aa24008df02e6c5fb0d85b8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "6455c48a2e21207deac4dd6ec5f131d7d55be379"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "6434e4c2e237ef475e3d39d60e89ab0c9e35b5fe"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1ff4c095fde9d193175a461875a48561ac8b8abf"
+        },
+        {
+          "path": "references/domain/agent-behavior.md",
+          "sha": "30f2294a932d72a050de8eca406890ed94692cdf"
+        },
+        {
+          "path": "references/domain/speech-customization.md",
+          "sha": "01001117b550a9b6fc2853b216bdc5fd59791c88"
+        },
+        {
+          "path": "references/frameworks/livekit.md",
+          "sha": "13ba1c6cf52497a9fe4b7d75cf91adb9d58c9fc1"
+        },
+        {
+          "path": "references/frameworks/omni.md",
+          "sha": "3a3c5e16d320d1b1d1f533d5a9260985784fbab3"
+        },
+        {
+          "path": "references/frameworks/pipecat.md",
+          "sha": "c6c0aa6df3da6a1cfe30dc1e82c6d33321a65174"
+        },
+        {
+          "path": "references/intake.md",
+          "sha": "58670cf73d182120e54ddca5fe97c6e7e42aafbd"
+        },
+        {
+          "path": "references/models/asr.md",
+          "sha": "1e5526c0de9c25c8a97b7f6003e2ec41c7f24751"
+        },
+        {
+          "path": "references/models/catalog.md",
+          "sha": "db3d1b77eaeb649f73b3b697669a49cfce6157e8"
+        },
+        {
+          "path": "references/models/language-routing.md",
+          "sha": "230b588481e24d96c60bb25b8a3b558e8032eaae"
+        },
+        {
+          "path": "references/models/llm.md",
+          "sha": "4bce4cd224f5913f7329330b821e8cbdce516c75"
+        },
+        {
+          "path": "references/models/tts.md",
+          "sha": "ccb6cbe9fc56e200ca7c8b9aabc268e5777b1fcd"
+        },
+        {
+          "path": "references/networking/remote-webrtc.md",
+          "sha": "638971c5dcaaac71310f70b073d43573a15cdf64"
+        },
+        {
+          "path": "references/operations/iterate.md",
+          "sha": "b1f01aad06f5132690b14fb2d252f1537fb4ca74"
+        },
+        {
+          "path": "references/operations/observability.md",
+          "sha": "53d9f58c986fa06b5de13596865771f8519024b3"
+        },
+        {
+          "path": "references/operations/run.md",
+          "sha": "8fd47fddd3de9d9f3f320df3473335ea9da2724a"
+        },
+        {
+          "path": "references/operations/troubleshoot.md",
+          "sha": "6ca9d2fcd974b4170de6b324f9d4e6aa941485fd"
+        },
+        {
+          "path": "references/output-contract.md",
+          "sha": "4e77086096ca8b0b102e638b8174d2328af41628"
+        },
+        {
+          "path": "references/platforms/deployment.md",
+          "sha": "eccfda91d091aa8e1ad10ab4383d2cfe42e9e54f"
+        },
+        {
+          "path": "references/platforms/dgx-spark.md",
+          "sha": "666de4ca51baac67c096240ada2d803ab0b6c87c"
+        },
+        {
+          "path": "references/platforms/jetson-thor.md",
+          "sha": "d11f17fac2f4edf3699bf47b25b650b94407a160"
+        },
+        {
+          "path": "references/platforms/readiness.md",
+          "sha": "02e6a29a1819992906abc4bdd3c8cc8344055801"
+        },
+        {
+          "path": "references/platforms/single-gpu.md",
+          "sha": "85e56dfd43016cd5fb9a053f7ef911708bfbcfcb"
+        },
+        {
+          "path": "references/preflight.md",
+          "sha": "57f332fcaccf467c172460973e6561fec8436347"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "0ffdd1c88c5540e2d873c3ad31a41a44dd09f1bd"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "36257c7c1a5bfee854da2b25215b8ea9adc48557"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-voice-agent-builder"
+    },
+    {
       "id": "NVIDIA/skills@nv-generate-ct-rflow",
       "trust": "trusted",
       "name": "nv-generate-ct-rflow",
@@ -23094,6 +23223,47 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/rtvi-vlm-customize-model",
       "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@rtx-remix-modding",
+      "trust": "trusted",
+      "name": "rtx-remix-modding",
+      "description": "Mod or remaster a game with RTX Remix - open and edit projects, swap textures and models. Connect to the Remix Toolkit App via MCP. Not for non-Remix game interaction.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/rtx-remix-modding",
+      "contentHash": "de3bb040",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "847db50cc5cc958d52cb22b581e37ff8a7b30ff8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "dd0bc9ea3a614989a8fdac0b7bb9b80c6cfdd76d"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "b1b9cad3bdf9652870cae0d1394e598662ae1fa0"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "8192b7121544cf50fc1b652a7c57f83d15f01e2b"
+        },
+        {
+          "path": "references/tool-mode.md",
+          "sha": "41c7968d705538a47973d351eccf4508d015452e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "1a4e437b943db86d0852a38924381dfe75ba3a66"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "5279c50dce7275210f3e02c23acabbdee4c0b108"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/rtx-remix-modding"
     },
     {
       "id": "NVIDIA/skills@skill-card-generator",
@@ -32333,7 +32503,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "6184df77",
+      "contentHash": "52bb300a",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -32433,7 +32603,7 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "e367281897cc7f9ff002e7938f2f883cb2d90768"
+          "sha": "7c32c7fd6c7c3bfe4b99de2e6c0cdc1fe8da4bde"
         },
         {
           "path": "src/commands.ts",
@@ -32565,7 +32735,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "e26450532d412f39806305ff1e46fe8dc6f0888a"
+          "sha": "4176a6716f271d4d0866430ebdd444ccb3bcdd54"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -32613,11 +32783,11 @@
         },
         {
           "path": "src/terminal-agent-control.ts",
-          "sha": "786d5a05bafa2ce2636f986e63d15aa0df450799"
+          "sha": "c5b70b96fffd8603e65df81c201abd4fccfc3a0e"
         },
         {
           "path": "src/terminal-agent.ts",
-          "sha": "33d0c09f153a82328137322c93c38c7dc98ae293"
+          "sha": "3f82bb3322d08c791b7a2f32e3bf45a6468f6518"
         },
         {
           "path": "src/terminal-pty-lifecycle.ts",
@@ -33017,7 +33187,7 @@
         },
         {
           "path": "test/process-liveness-windows.test.ts",
-          "sha": "de907af406397c4a37a44f269bcd973007fc5f31"
+          "sha": "b2f5f7e932ec5e454a1f947078cad5a169ce6b38"
         },
         {
           "path": "test/proxy-config.test.ts",
@@ -33101,11 +33271,11 @@
         },
         {
           "path": "test/server-embedder-terminal-port.test.ts",
-          "sha": "53bf9f3b720cb1083e6b137f73b674d9aa61f3db"
+          "sha": "d0c8f306052344fb05f09aca2a6c761fc307a820"
         },
         {
           "path": "test/server-factory.test.ts",
-          "sha": "58982b47f3f19896b3266956daf17334044e01a1"
+          "sha": "deefed76f30199f6c6a08b531de20733c0b35fd3"
         },
         {
           "path": "test/server-flush-trackers.test.ts",
@@ -33149,11 +33319,11 @@
         },
         {
           "path": "test/sidebar-tabs.test.ts",
-          "sha": "7f408d0ac67ba37f1cd3840421f4afb0af484de7"
+          "sha": "6dbc5e3c1c49696d63bf92090bc28d7cb8fb90fa"
         },
         {
           "path": "test/sidebar-ux.test.ts",
-          "sha": "c97412349ad8a84697fea6b5c9a94100667cb07c"
+          "sha": "5d339f2495f4955240e90327afc772431ff5153b"
         },
         {
           "path": "test/sidepanel-patient-autoconnect.test.ts",
@@ -33256,6 +33426,14 @@
           "sha": "2e944068131301600d4ccb54ec2dd9aaa5932b93"
         },
         {
+          "path": "test/terminal-agent-lifecycle.test.ts",
+          "sha": "8b2d4718865864871c30621cc0bfdf6a6d974489"
+        },
+        {
+          "path": "test/terminal-agent-native-observation.test.ts",
+          "sha": "374970a3490a07757a331d9315a04f6fdc391c39"
+        },
+        {
           "path": "test/terminal-agent-owner-watchdog.test.ts",
           "sha": "386718d2cb3aec45da1ae52277ab172ccaa43426"
         },
@@ -33277,7 +33455,7 @@
         },
         {
           "path": "test/terminal-agent-watchdog.test.ts",
-          "sha": "ff48b0bb3dd0ce3cbc4e82d541850e40fdc5c26e"
+          "sha": "2cabf130e67dcee7a1f490850e0a454c4791ee92"
         },
         {
           "path": "test/terminal-agent.test.ts",
