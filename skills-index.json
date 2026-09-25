@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790285647633,
+  "generatedAt": 1790312550709,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -15440,55 +15440,43 @@
       "id": "NVIDIA/skills@jetson-video-benchmark",
       "trust": "trusted",
       "name": "jetson-video-benchmark",
-      "description": "Use when measuring Jetson Video Codec SDK or PyNvVideoCodec encode/decode throughput, comparing presets or surfaces, testing codec-worker capacity with authenticated samples and user media, or producing a documented clock-scaled or clock-and-resolution-scaled planning estimate when representative content is unavailable. Also use for Jetson video requests asking only for PSNR or SSIM results, to apply this performance skill's scope-only response.",
+      "description": "Use when measuring Jetson Video Codec SDK or PyNvVideoCodec encode/decode throughput, comparing presets or surfaces, testing codec-worker capacity with authenticated samples and user media, or producing a clearly labeled documentation-derived planning estimate when representative media is absent. Also use for a video request limited to PSNR or SSIM, to apply the terminal scope response.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/jetson-video-benchmark",
-      "contentHash": "f911554a",
+      "contentHash": "6807ea8f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "726834636c5cab61322044ed8dae1fd3666afa56"
+          "sha": "f34fb0ed0d1d5830bb469e7ab4800d3ecc580ccd"
         },
         {
           "path": "SKILL.md",
-          "sha": "c4357e9e13312fdf032331668730f6ba7591578d"
+          "sha": "f91345c1b450fe2743063f9185837b85ff0e41c5"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c79c69f5939705f7ecf3c904a88010672bdf484e"
+          "sha": "c2b5bb766246746227b0ebc0a146f26672d8b136"
         },
         {
           "path": "references/benchmark-output-contract.md",
-          "sha": "18a1673abf85bba6082e7b888c0989c81ae7b5c8"
+          "sha": "7c8302f76b69047bf6c5ef078e6a2cd235394e79"
         },
         {
           "path": "references/benchmark-workflow.md",
-          "sha": "f9d8c052ebe37642a1ac7a4ec18a62aba23a1ec5"
+          "sha": "eb7fe76b437381d42a925a9b6252c93d699bb94b"
         },
         {
           "path": "references/documented-performance-estimates.md",
-          "sha": "816774ee3ee8316b646268868a4e362ffdde3248"
-        },
-        {
-          "path": "scripts/benchmark_controller.py",
-          "sha": "891455dd71f3a09d6fb6598564f7ac374a2b85b8"
-        },
-        {
-          "path": "scripts/benchmark_provenance.py",
-          "sha": "1abfa18e497e726c2937e1dfbf3f144ada47c148"
-        },
-        {
-          "path": "scripts/benchmark_runtime.py",
-          "sha": "eecdcc0bfb21af569df3c096367d293fb9a35b21"
+          "sha": "c527c860a71f241f14b8256324ee46722b9c2c72"
         },
         {
           "path": "skill-card.md",
-          "sha": "c1c4500e68ed1d1f9653e980f67c9c0204538171"
+          "sha": "42d435dcc1e41ceb71a5adccd931254e63ea45e5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "cf93d9917744697cd8b7c7c06933d646675b8b9b"
+          "sha": "1ff09ff614f2d35150b35a564330c77c40964e46"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/jetson-video-benchmark"
@@ -15497,59 +15485,39 @@
       "id": "NVIDIA/skills@jetson-video-capability",
       "trust": "trusted",
       "name": "jetson-video-capability",
-      "description": "Use when Jetson codec, profile, chroma, bit-depth, dimension, engine-count, or operational support must be reconciled using live SDK APIs, authenticated NVIDIA samples, and NVIDIA documentation. Also use for Jetson questions about Netflix, Widevine, or other DRM-protected streaming-service playback to apply the codec-scope boundary.",
+      "description": "Use when Jetson codec, profile, chroma, bit-depth, dimension, engine-count, or operational support must be reconciled from live APIs, authenticated NVIDIA samples, and NVIDIA documentation; also applies the content-DRM scope.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/jetson-video-capability",
-      "contentHash": "f55db62a",
+      "contentHash": "287b60c0",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "1e679598d7f622734248a55e1476e09d84efbeaa"
+          "sha": "d547c09dcb2c91833894eb5df1f3bd6d275b8f69"
         },
         {
           "path": "SKILL.md",
-          "sha": "12f79172733b15d31b9343f5b272bd2b253f0574"
+          "sha": "873d4522bd331fce95bc48ac08749aaf69e4c052"
         },
         {
           "path": "evals/evals.json",
-          "sha": "699f339e6275c66c258434b6e532191f81455327"
+          "sha": "594710b5de577591df84fd3dfd9eb3798466b724"
         },
         {
           "path": "references/capability-queries.md",
-          "sha": "956b556f8c1ce635bff735265852e993692b13dd"
+          "sha": "2b92924961b3bb3cef269771eac2dd0a33f3ee7c"
         },
         {
           "path": "references/surface-selection-contract.md",
-          "sha": "7909e041ec48a2fb3a3317034cbdbecea9de1132"
-        },
-        {
-          "path": "scripts/_capability_contract.py",
-          "sha": "4d1f51ef7724cea289a04f447c88c3382462a819"
-        },
-        {
-          "path": "scripts/query_decoder_caps.py",
-          "sha": "d45ff7f650324d6386a1e7ccd892fae4c8df271d"
-        },
-        {
-          "path": "scripts/query_encoder_caps.py",
-          "sha": "89e5950ea93b611fe008f2569640d9e74665704d"
-        },
-        {
-          "path": "scripts/query_native_sample_reports.py",
-          "sha": "e4a18bb013d719b3236567a98665c57d5e2c9c4a"
-        },
-        {
-          "path": "scripts/validate_appenc_av1_ivf.py",
-          "sha": "e9c0878f7d75e346c54952aebed65e23c9bb0921"
+          "sha": "3ef5b6f56f00b8757fc363144f11c766ded7d3c4"
         },
         {
           "path": "skill-card.md",
-          "sha": "6f7481b1737e576bf6f902bcce7a5d693056c2d2"
+          "sha": "1c37e65a5894699646b2e82ef6066b3be8fd8882"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c10dd85eb32a63d3f5324745978e9bec3938578e"
+          "sha": "c887d605a5ad6ce7b931215ebd27602e17124b0a"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/jetson-video-capability"
@@ -15558,59 +15526,47 @@
       "id": "NVIDIA/skills@jetson-video-pipeline",
       "trust": "trusted",
       "name": "jetson-video-pipeline",
-      "description": "Use when executing and verifying Jetson Video Codec SDK or PyNvVideoCodec encode/decode, transcode, segmentation, container decode, AV1, or acceptance workflows with exact artifact handoffs.",
+      "description": "Use when planning, executing, and independently validating Jetson Video Codec SDK or PyNvVideoCodec encode/decode, transcode, segmentation, container decode, AV1, or concise acceptance workflows.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/jetson-video-pipeline",
-      "contentHash": "47f9bdc9",
+      "contentHash": "0ea78120",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "54f7111693e47d793edd18d30cbef637ab4c1f0e"
+          "sha": "132f06e587613011a36d6071262c16ee0d640d45"
         },
         {
           "path": "SKILL.md",
-          "sha": "0db793585170b02dcf17d3bdfd748e60f31d5621"
+          "sha": "8420667dae54790331175f8ede8987a88e8424e4"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8b22226c91fe783b0a9da4571d8a3aa32d365ae8"
+          "sha": "401f479ddbcae1a90b1d6bd03729eb74dc514f8f"
+        },
+        {
+          "path": "references/buffer-sharing-and-synchronization.md",
+          "sha": "d217ad5814c25b8cebe220480d61a226eb1b5263"
+        },
+        {
+          "path": "references/in-process-codec-boundaries.md",
+          "sha": "e4c9508f2b4134304e509822aa6e7c53d17a2920"
         },
         {
           "path": "references/official-sample-contract.md",
-          "sha": "07e4cb6b724b51fcdb87ecdfd2f2bc6c9dd3ca75"
+          "sha": "db1a0573e59fcf69f795cf02bde9261f0750e062"
         },
         {
           "path": "references/pipeline-workflow.md",
-          "sha": "d9fa2dfc3790955baff78233fee810b5a5451c88"
-        },
-        {
-          "path": "scripts/_pipeline_provenance.py",
-          "sha": "410460434019f9f61cd5dd7c86b01ef1d476bce9"
-        },
-        {
-          "path": "scripts/_pipeline_runtime.py",
-          "sha": "093ae1a5c2db20b10f42dc7e43d02ac76a395ffd"
-        },
-        {
-          "path": "scripts/encode_controller.py",
-          "sha": "344da6ad68f2c594fa030ea91fe14ca7999aaf30"
-        },
-        {
-          "path": "scripts/pipeline_controller.py",
-          "sha": "7f19acefad1b8be7e6fbd5625d45d225e584e173"
-        },
-        {
-          "path": "scripts/validate_representative_content_summary.py",
-          "sha": "dd735e2df9ae2211ce71dd7cee1e7315fb61f4ff"
+          "sha": "9ee71cc1360bfb050a41678e73c55e300da296d7"
         },
         {
           "path": "skill-card.md",
-          "sha": "2c953bc33fad9d9177a1693d1d92198aa4304403"
+          "sha": "7c9530b8f302f8f1ab64b5767ba336542c90d572"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8b6d4ac00f242d55a1ed45226525f323ba0cca30"
+          "sha": "56ddf3b4edb519d0ff228efab444caa6f765c51c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/jetson-video-pipeline"
@@ -15619,47 +15575,39 @@
       "id": "NVIDIA/skills@jetson-video-recipe",
       "trust": "trusted",
       "name": "jetson-video-recipe",
-      "description": "Use when turning a Jetson encoder use case into one validated surface-neutral recipe with native and PyNvVideoCodec projections for codec, preset, rate control, bitrate, latency, format, and profile.",
+      "description": "Use when turning a Jetson encoder use case into one surface-neutral recipe with native Video Codec SDK and PyNvVideoCodec projections.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/jetson-video-recipe",
-      "contentHash": "65e4e5d4",
+      "contentHash": "96c5dfa7",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4996bd5ec423af6a9075f32312cb2201a61696ca"
+          "sha": "1bd70516e595d644c247203fd772c2eefac87ac9"
         },
         {
           "path": "SKILL.md",
-          "sha": "8fa5fd3706a3d26ea7cbd732c71f632405e3f603"
+          "sha": "3f2ded6b6471adcc8f1ce789ade33036220f7c2f"
         },
         {
           "path": "evals/evals.json",
-          "sha": "eed577b443e1587cc57982a7c672c6ddbbbfc543"
+          "sha": "785dfc7acd77d5140b5d3072e6fc6332daed4975"
         },
         {
           "path": "references/recipes-knobs-and-constraints.md",
-          "sha": "c4c39f772fa04740fa0d2c225fc7497555a2bf94"
+          "sha": "e1008492b99dd2b121117fdb2427aacbfc1797ed"
         },
         {
           "path": "references/recipes-workflow.md",
-          "sha": "b8b3dbc63edf6c2ce80387fa1408d30406794f4f"
-        },
-        {
-          "path": "scripts/recipes/data/encoder-intent-catalog.json",
-          "sha": "a1464199b8931a28d5991cb491c4d90aed959f84"
-        },
-        {
-          "path": "scripts/recipes/recipe_model.py",
-          "sha": "14fa046873469249a758c249d6b2933250a6a9de"
+          "sha": "9ad570241c61b6c039abec6383b602c363725d33"
         },
         {
           "path": "skill-card.md",
-          "sha": "a1a84d96239e18ee5860250c047f2c3202d5b9d6"
+          "sha": "ba27ff47e37adbd2f1348f66890824ac3dadd4cb"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "dfdf4156e9866b0bf1f6e1a2e71510c7b88a025e"
+          "sha": "0cd7e007b09515f0e2659f7a0d769c4222f920a4"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/jetson-video-recipe"
@@ -15668,71 +15616,47 @@
       "id": "NVIDIA/skills@jetson-video-setup",
       "trust": "trusted",
       "name": "jetson-video-setup",
-      "description": "Use when installing, repairing, probing, or verifying native NVIDIA Video Codec SDK or PyNvVideoCodec on Jetson with official encode-to-decode samples, including registered-environment recovery.",
+      "description": "Use when installing, repairing, reusing, inspecting, or verifying readiness of the native NVIDIA Video Codec SDK or PyNvVideoCodec on Jetson, including the one-frame encode/decode smoke test with official samples, and when interpreting what those readiness results, including CPU-buffer and device-memory sample modes, do and do not establish.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/jetson-video-setup",
-      "contentHash": "e74e1fe5",
+      "contentHash": "ba9ef073",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "167ad935620bffc2d5c70d1e993ff9101cc4668c"
+          "sha": "88c8d8ee1961d9396a9438c1cb9af9f2fffea7d0"
         },
         {
           "path": "SKILL.md",
-          "sha": "04b09662d4347267339c18119bcddfcc6075f44b"
+          "sha": "bd97e13fdc24089622d1796bfcf108e57c765ff3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "f4310de0662822bd31ac380c6e9f6614be7f1332"
+          "sha": "044bab864238f73d1d2c6e38959296a7bf6b8c02"
         },
         {
           "path": "references/setup-install.md",
-          "sha": "3d6b941180778e9d25c7c38d2a64d1808661c056"
+          "sha": "2c511c085dfff9d312a186bd6ad19580204ecbf5"
         },
         {
           "path": "references/setup-output-contract.md",
-          "sha": "e69230391422309b000970cececa9bf2f2c88a01"
+          "sha": "841c6c68dcb0bd22abccdc0fbf96519859617346"
         },
         {
           "path": "references/setup-workflow.md",
-          "sha": "c212aa3665869c18f0d5f8d65f3bdd49cae26ccd"
+          "sha": "4e9a1cf4cfa2ddf5e09fc1cf1b06224216c1b788"
         },
         {
           "path": "references/video-content.md",
-          "sha": "3ba22e0301b5cd2b5403f109f3bef320f627a765"
-        },
-        {
-          "path": "scripts/setup/lock_pip_reports.py",
-          "sha": "3af95d111c51a33f92596a9325624325bbe9f5a6"
-        },
-        {
-          "path": "scripts/setup/plan_install.py",
-          "sha": "46fe6a655f1d45d835eb938197df93f90b52a33a"
-        },
-        {
-          "path": "scripts/setup/probe_nvcodec.py",
-          "sha": "e936eefe157002bf42a54702c4996935850467b6"
-        },
-        {
-          "path": "scripts/setup/setup_contract.py",
-          "sha": "914ebd6a8601938a5102df5a5a7646603b1fa33d"
-        },
-        {
-          "path": "scripts/setup/verify_native.py",
-          "sha": "d22ab9564f5a08951c1ffb88a291e5c3546cff85"
-        },
-        {
-          "path": "scripts/setup/verify_pynvc_sample.py",
-          "sha": "c42864e1dbeb02d723fdba405c84b8e5ab08644e"
+          "sha": "d43f684a9d63220e8a0b9d3f2f11c275f2c06589"
         },
         {
           "path": "skill-card.md",
-          "sha": "f821cd612ca9b1e410b806de593c408405095067"
+          "sha": "2937219136cd872d2a42c72de3796ab9ed07069b"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8d849fe9685326cae3ae2c8cd94cd76ce73a6f53"
+          "sha": "e92ac3a469bca6c1c5eb54e6cae335706784997b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/jetson-video-setup"
