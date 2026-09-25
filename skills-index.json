@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790312550709,
+  "generatedAt": 1790356587269,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -32427,7 +32427,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "a132b49d",
+      "contentHash": "9e8d11c4",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -32435,11 +32435,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "311649466c6183ffe59178729ac8ecf149326ea6"
+          "sha": "d530575385948fe3364ba6ab540aec326c79bcdd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f16b1f60146f4375928670be5ce4a3874f2eeca5"
+          "sha": "6300bb750df86aba9ec537fc554250007258d30e"
         },
         {
           "path": "bin/find-browse",
@@ -32451,7 +32451,7 @@
         },
         {
           "path": "scripts/build-node-server.sh",
-          "sha": "c7b1b09b7cb89731ef0aacf3128dc13eaf0bf5d3"
+          "sha": "0694782a77bafa10421df5aea83b5cab79a08a5e"
         },
         {
           "path": "scripts/extension-id.ts",
@@ -32459,7 +32459,7 @@
         },
         {
           "path": "sections/command-list.md",
-          "sha": "f3fe9220e52470b5a0b084bc509d83bd31329857"
+          "sha": "4f15eb3e11e9c4441b47258842f55cea61624762"
         },
         {
           "path": "sections/command-list.md.tmpl",
@@ -32503,7 +32503,7 @@
         },
         {
           "path": "src/bun-polyfill.cjs",
-          "sha": "053113e2054b4fa22a28d7502b71f8b8c1a155e5"
+          "sha": "3b60cdd3fcf7130f277cefecaa4432cd12a12ac1"
         },
         {
           "path": "src/cdp-allowlist.ts",
@@ -32527,11 +32527,11 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "7c32c7fd6c7c3bfe4b99de2e6c0cdc1fe8da4bde"
+          "sha": "980a311ddcdfb8b6fd6178eea65fdd9f2ce81b49"
         },
         {
           "path": "src/commands.ts",
-          "sha": "a7c9cbb79425dee083aaa88c55db0bcd43da6439"
+          "sha": "d8301949039be4a293c0c235f1e2af645b9b342f"
         },
         {
           "path": "src/config.ts",
@@ -32542,16 +32542,48 @@
           "sha": "a185764583f73aaa7b8d979d8ff5942bf63c25f7"
         },
         {
+          "path": "src/cookie-auth-verification.ts",
+          "sha": "d8ef66b6a72f707bef3ddfa7175c714ae43ff589"
+        },
+        {
+          "path": "src/cookie-database.ts",
+          "sha": "ace69b88b97aaa2585bb3e3062a8052b38f216ed"
+        },
+        {
           "path": "src/cookie-import-browser.ts",
-          "sha": "2984d5772b772c98442e0cb6397ddab3520f7c2a"
+          "sha": "66f6fd6e21557178008b05f88e3592d15114ece2"
+        },
+        {
+          "path": "src/cookie-import-native-integrity.ts",
+          "sha": "ed8105dc7137748c3561712b571262509b520558"
+        },
+        {
+          "path": "src/cookie-import-native-job.ts",
+          "sha": "60c678d2f215237ac934dd00fe42bf7c740ab05c"
+        },
+        {
+          "path": "src/cookie-import-native-qualification.json",
+          "sha": "fe51488c7066f6687ef680d6bfaa4f7768ef205c"
+        },
+        {
+          "path": "src/cookie-import-native-worker.ts",
+          "sha": "afcc526865852f80886a0089e11d556c6fe326ea"
+        },
+        {
+          "path": "src/cookie-import-native.ts",
+          "sha": "95ccbc6bcac542a066edd6d18d3c2994876beb7e"
+        },
+        {
+          "path": "src/cookie-import-operation.ts",
+          "sha": "e33d072c00be409a8dc75fe40015e497889b68a7"
         },
         {
           "path": "src/cookie-picker-routes.ts",
-          "sha": "07ab5a2c266dd14978e2edd9e6f3888def7fe5f3"
+          "sha": "0d07933bb7fe91cab974c23dd33480137419b388"
         },
         {
           "path": "src/cookie-picker-ui.ts",
-          "sha": "bf151adbf7ebe524fd21b948181dcf62a3afd1eb"
+          "sha": "5f62886cba136930a369a7484ac7f56c9df35ba8"
         },
         {
           "path": "src/domain-skill-commands.ts",
@@ -32735,7 +32767,7 @@
         },
         {
           "path": "src/write-commands.ts",
-          "sha": "6382d8b03c927ad4885754d2c5501b51ad2d3e29"
+          "sha": "1132211028623f07a233ef851e66e684881b0b73"
         },
         {
           "path": "src/xprotect-heal.ts",
@@ -32803,7 +32835,7 @@
         },
         {
           "path": "test/bun-polyfill.test.ts",
-          "sha": "4028630e18bd1e13ab7c491a0feb7e7869d0fa38"
+          "sha": "0b852da7b2a6881364e15a087d73e36de9428880"
         },
         {
           "path": "test/busy-daemon-iron-rule.test.ts",
@@ -32874,12 +32906,72 @@
           "sha": "823a90294119a91df60acd0cb75ddc48a23087de"
         },
         {
+          "path": "test/cookie-auth-verification.test.ts",
+          "sha": "135d22d8d8ac3b4c9ad9b73952c92174cb2fb521"
+        },
+        {
+          "path": "test/cookie-credential-deadline.test.ts",
+          "sha": "c5c76f0912d5877e3d8ef0e5944621d439873b30"
+        },
+        {
+          "path": "test/cookie-database.test.ts",
+          "sha": "ed7c9a1abfdbdefa0b83511cd9261140fc6d3c98"
+        },
+        {
+          "path": "test/cookie-fixture-delete-lease.test.ts",
+          "sha": "1bb90ff31a33f601612da397f780427280e8af00"
+        },
+        {
           "path": "test/cookie-import-browser.test.ts",
           "sha": "ccf8e88b1648e10abe990a40017691cf4cde665c"
         },
         {
+          "path": "test/cookie-import-native-job.test.ts",
+          "sha": "2a8c753f950ffac1db08e692db1605a97be357db"
+        },
+        {
+          "path": "test/cookie-import-native-qualification.ts",
+          "sha": "950fcc39b92d08444fd819dfdadbb25f60e50945"
+        },
+        {
+          "path": "test/cookie-import-native.test.ts",
+          "sha": "400789e9a7acdbfb1901e01948294e6d0a4d695b"
+        },
+        {
+          "path": "test/cookie-import-node.test.ts",
+          "sha": "e0a068c3ccccbd475789664703a1b8a36c9d6739"
+        },
+        {
+          "path": "test/cookie-import-operation.test.ts",
+          "sha": "816af3d0cb84d277dbe47c0b38e660a205619cfb"
+        },
+        {
+          "path": "test/cookie-import-reliability.test.ts",
+          "sha": "8930760f53048ec7f24156f85988a2590f2ba543"
+        },
+        {
+          "path": "test/cookie-import-transport.test.ts",
+          "sha": "4351f4b845668f59a62f1140de95b922baea5bc6"
+        },
+        {
+          "path": "test/cookie-picker-binding-browser.test.ts",
+          "sha": "8985d6c8ce501b645df8cfd3a1558865304cb5b3"
+        },
+        {
+          "path": "test/cookie-picker-binding.test.ts",
+          "sha": "2b6f2cba1803fb426227a2fede69380a38a7c14d"
+        },
+        {
+          "path": "test/cookie-picker-csrf-browser.test.ts",
+          "sha": "dec838599dc434881edf37ee68d28a9c3f2631af"
+        },
+        {
           "path": "test/cookie-picker-routes.test.ts",
-          "sha": "b7119b894f3c21c9fa291539e7cd646c96314793"
+          "sha": "1fa2b227ad180fae0e529d9766116ebe51090c1d"
+        },
+        {
+          "path": "test/cookie-picker-ui.test.ts",
+          "sha": "3387a723eb32fa5f09f43260ace3635a7297727d"
         },
         {
           "path": "test/daemon-log-hygiene.test.ts",
@@ -32892,6 +32984,18 @@
         {
           "path": "test/data-platform.test.ts",
           "sha": "7dc0f5844c041307e67b5c66028ee95029a30947"
+        },
+        {
+          "path": "test/dia-gui-readiness.test.ts",
+          "sha": "c34ff3bf6d71dd9fd1d25c869d863b556f4e2f7a"
+        },
+        {
+          "path": "test/dia-launch-comparison.test.ts",
+          "sha": "871473c2a616c9000dad9b2a41fbc6297a3679cb"
+        },
+        {
+          "path": "test/dia-macos-qualification.test.ts",
+          "sha": "40e13bf6749b8d7c1456866b834dd64f31168a8d"
         },
         {
           "path": "test/domain-skills-e2e.test.ts",
@@ -32996,6 +33100,30 @@
         {
           "path": "test/fixtures/mock-claude/claude",
           "sha": "a3164a8dfb802ec45c8e8a43928e29dc9a780608"
+        },
+        {
+          "path": "test/fixtures/native-cookie-delete-lease.ts",
+          "sha": "f1b1d1d83fb6fa71fb015d32d5339d6a63796eb1"
+        },
+        {
+          "path": "test/fixtures/native-cookie-file-owners.ts",
+          "sha": "1a0399c09526810a03a55dbafca1c757f6f4c2be"
+        },
+        {
+          "path": "test/fixtures/native-cookie-launch.cjs",
+          "sha": "b05b94f32ad149b32eab9536a107145258645fd6"
+        },
+        {
+          "path": "test/fixtures/native-cookie-process-observer.ts",
+          "sha": "3eaaa967d80f23dc9b7b9956cf3f126e017445dc"
+        },
+        {
+          "path": "test/fixtures/native-cookie-process.cjs",
+          "sha": "b6530d6805c7fa3e34a8b425f6cfcbe69ba59c04"
+        },
+        {
+          "path": "test/fixtures/native-cookie-remove-fixture.cjs",
+          "sha": "cf2338c83c78c0ea10404a48fb9322cb7e8d7e7f"
         },
         {
           "path": "test/fixtures/network-idle.html",
@@ -33159,7 +33287,7 @@
         },
         {
           "path": "test/security-audit-r2.test.ts",
-          "sha": "fc827af531a8bcfd239a8908daed01972ee9c725"
+          "sha": "c079099e3161311d89ad58ca38f019658fbca55f"
         },
         {
           "path": "test/security-bench.test.ts",
@@ -33423,7 +33551,7 @@
         },
         {
           "path": "test/windows-spawn-hide.test.ts",
-          "sha": "10d538aae4f4ae182573a81a25ef5b5d582ebfbb"
+          "sha": "cfdddf205737ad17c95c19f723b1e320cf61746c"
         },
         {
           "path": "test/xprotect-heal.test.ts",
@@ -35131,15 +35259,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-browser-cookies",
-      "contentHash": "3ba900a4",
+      "contentHash": "f0111955",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b873e38da565a91fb41cd624c0e97155de2271b0"
+          "sha": "373242d75d6146331089bde4d124bf856c341bb3"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f812d9f56f27c32fb5f102083bbe418344c1a652"
+          "sha": "f6ed3f61e777b73745e28fc89c64bd2bafe2b92d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/setup-browser-cookies"
