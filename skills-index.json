@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790356587269,
+  "generatedAt": 1790372332864,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -34454,23 +34454,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "50060d4b",
+      "contentHash": "327e38e4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6757f1df90849e01b2be0a45f343a357dde278ef"
+          "sha": "bf23841bcf051b8d4503abb7abdae85aa00dda7d"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "65c2a04b78a3b468e2f3a58ab08ce5f7366d4965"
+          "sha": "22205a256fc2267412d052810ce258cee54755e5"
         },
         {
           "path": "sections/first-run-validation.md",
-          "sha": "19b9f5297a59397efe2744b6043133c749a85a41"
+          "sha": "fa94145441877912e29b5a6778d164c3ea66a8d1"
         },
         {
           "path": "sections/first-run-validation.md.tmpl",
-          "sha": "77f8aab9fb456f4d42dde62bc607794daca951e8"
+          "sha": "bf7b8786914d2cd89635d9a538fa4e65fb7f6680"
         },
         {
           "path": "sections/manifest.json",
@@ -34478,19 +34478,19 @@
         },
         {
           "path": "sections/merge-and-deploy.md",
-          "sha": "4ae5ee4265293f37625ea8a1d3433a3c0e6590f9"
+          "sha": "199f5478ab69f5a669fe63fa389612438856c063"
         },
         {
           "path": "sections/merge-and-deploy.md.tmpl",
-          "sha": "d951bdb395a73729cbce0ad22ad79740b1d14707"
+          "sha": "b9814a0bf98aa785ced1dddb71363852938e9208"
         },
         {
           "path": "sections/readiness-gate.md",
-          "sha": "7e7a137dc83fedb577a530052008bdd8c66aa59b"
+          "sha": "9c3d5d47681392863b7b59ada25fb3a0828d21cc"
         },
         {
           "path": "sections/readiness-gate.md.tmpl",
-          "sha": "2b39c98646d34bf9d20ddcb0a3aaf431875a87dc"
+          "sha": "b81aa51133831a00446204e98c0e7fc3e77ee881"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/land-and-deploy"
