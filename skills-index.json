@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790486570038,
+  "generatedAt": 1790637593282,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -32427,7 +32427,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "531f1632",
+      "contentHash": "f4c4f130",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -32459,7 +32459,7 @@
         },
         {
           "path": "sections/command-list.md",
-          "sha": "4f15eb3e11e9c4441b47258842f55cea61624762"
+          "sha": "24f7b93aff838c66b1fc3babba5d876e768f4f18"
         },
         {
           "path": "sections/command-list.md.tmpl",
@@ -32531,7 +32531,7 @@
         },
         {
           "path": "src/commands.ts",
-          "sha": "d8301949039be4a293c0c235f1e2af645b9b342f"
+          "sha": "8b9a7ea5d320138ae2dd973950ea5cb8a7b706ee"
         },
         {
           "path": "src/config.ts",
@@ -32551,7 +32551,7 @@
         },
         {
           "path": "src/cookie-import-browser.ts",
-          "sha": "66f6fd6e21557178008b05f88e3592d15114ece2"
+          "sha": "86de21b20b6f22153a0f87d80f15dbc3d50c4b18"
         },
         {
           "path": "src/cookie-import-native-integrity.ts",
@@ -32575,7 +32575,7 @@
         },
         {
           "path": "src/cookie-import-operation.ts",
-          "sha": "e33d072c00be409a8dc75fe40015e497889b68a7"
+          "sha": "888bd1d826a14378222665575de24752c2d7f228"
         },
         {
           "path": "src/cookie-picker-routes.ts",
@@ -32939,15 +32939,15 @@
         },
         {
           "path": "test/cookie-import-node.test.ts",
-          "sha": "e0a068c3ccccbd475789664703a1b8a36c9d6739"
+          "sha": "ab74b4aae9497d42d8b9171abfec4c63c14bd770"
         },
         {
           "path": "test/cookie-import-operation.test.ts",
-          "sha": "816af3d0cb84d277dbe47c0b38e660a205619cfb"
+          "sha": "d97c0dff9ed6745591db931f93cfbd404e76b705"
         },
         {
           "path": "test/cookie-import-reliability.test.ts",
-          "sha": "8930760f53048ec7f24156f85988a2590f2ba543"
+          "sha": "c6ea6ced3c420c5acfa9d6b8ff712e934bbd24bf"
         },
         {
           "path": "test/cookie-import-transport.test.ts",
@@ -33487,7 +33487,7 @@
         },
         {
           "path": "test/terminal-agent-lifecycle.test.ts",
-          "sha": "1b71a8bbc862f4735b7ee30370b3a7d6e88760e5"
+          "sha": "2d36b6c7df8b7c1a107dbfeebcaee380e626e8e6"
         },
         {
           "path": "test/terminal-agent-native-observation.test.ts",
