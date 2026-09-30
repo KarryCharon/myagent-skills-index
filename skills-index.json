@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790720404013,
+  "generatedAt": 1790746658828,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13973,15 +13973,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/isaac-mission-control-showcase",
-      "contentHash": "4530b88f",
+      "contentHash": "eaa7fdf6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c0b79aa08938032db3a241d1427ec4bc068b8326"
+          "sha": "25aff65b0cb4032a9a043130a5e9157696027fc2"
         },
         {
           "path": "SKILL.md",
-          "sha": "d582dcd0249136a8f8aeb651a291b8f5b04e315c"
+          "sha": "83e5cf69a502aee12b036f1585e069396ea8608d"
         },
         {
           "path": "assets/carter_warehouse_navigation.png",
@@ -13997,7 +13997,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "d9feb9679b355540ec2d625c4201777c426a154d"
+          "sha": "68b4534038df27afdcdf0ac40f3486e9781721b6"
         },
         {
           "path": "references/bring-up-cloud-stack/README.md",
@@ -14041,7 +14041,7 @@
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "be419935fee5dbfa208d5c7bd726d4800a2d979d"
+          "sha": "f9d647bb339904c96096846a95897a7eba75d5de"
         },
         {
           "path": "references/workflow.md",
@@ -14061,7 +14061,7 @@
         },
         {
           "path": "scripts/run_state.py",
-          "sha": "f417b4fdd0f0b576b8f55cffee589b377cd25f9a"
+          "sha": "731c274ff6c5ea0e96cf88c0172f6b4d0e331847"
         },
         {
           "path": "scripts/showcase.py",
@@ -14073,11 +14073,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e6b878c3076f1b96a6a3657de63fb9548704bed4"
+          "sha": "c2d1af9185ffa3254e5628f451dd713d6257dae6"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "af2934c084573928b28da25d857e51321dcfd78b"
+          "sha": "88b73c56b7af02fc91fe9dd68f94e14caf4a883f"
         },
         {
           "path": "upstream-versions.lock.json",
@@ -21399,6 +21399,72 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-auto-labeling"
     },
     {
+      "id": "NVIDIA/skills@paidf-cosmos-predict",
+      "trust": "trusted",
+      "name": "paidf-cosmos-predict",
+      "description": "Prepare and run PAIDF Cosmos Predict video generation for DEFT media samples.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/paidf-cosmos-predict",
+      "contentHash": "acebfbcf",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "a5d6363565e4c58da4e7579440792333ea598443"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "fe22ee50f0d2a7669400c5c08afd09174c52ca10"
+        },
+        {
+          "path": "assets/default_generation_settings.json",
+          "sha": "0cce23afd6feb078eb6004ac9d0f1d456806f346"
+        },
+        {
+          "path": "assets/paidf_config_template.yaml",
+          "sha": "e4037019337b6caa789dd76d7c010e62a84d062a"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "6905c029c1b7407926df3efb79288e0eac43753e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "7c6b55f5f5ba922bd4818969071e55138f4b146e"
+        },
+        {
+          "path": "scripts/paidf_common.py",
+          "sha": "53710d53d9c05c2b7910b233694665a55767f48d"
+        },
+        {
+          "path": "scripts/prepare_paidf_config.py",
+          "sha": "d78b88cd9919219eaa65b008164217c6725e5cec"
+        },
+        {
+          "path": "scripts/test_paidf_cosmos_predict.py",
+          "sha": "d0cd1ba45490f755c55995dab245b2391c0e742f"
+        },
+        {
+          "path": "scripts/verify_vlm_captioning_base_url.py",
+          "sha": "88d8d65d2a8435615d88169d1b901069e5ee867e"
+        },
+        {
+          "path": "scripts/write_paidf_handoff.py",
+          "sha": "9a6bd4f8a74540c08a868a6f020468299bfac696"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "bf4c08edf8017388906e699f731f308072d4e282"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "0a1ed9197dd7903ff58cf85dfb078a94f493ccbd"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-cosmos-predict",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@paidf-curation-and-retrieval",
       "trust": "trusted",
       "name": "paidf-curation-and-retrieval",
@@ -24470,6 +24536,108 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@tao-generate-anomalies",
+      "trust": "trusted",
+      "name": "tao-generate-anomalies",
+      "description": "Full PAIDF AnomalyGen pipeline — fine-tune on a new anomaly dataset, generate synthetic anomaly images (SDG), evaluate quality (nn_score), and search per-sample (guidance, crop_ratio) parameters. Three modes: full (Phase 0→7: finetune then generate), finetune_only (Phase 0→1: train only), inference_only (Phase 0, 2→7: generate from an existing checkpoint). Use when the user asks to \"fine-tune AnomalyGen\", \"generate anomaly images\", \"run PAIDF SDG\", \"evaluate SDG output quality\", \"run per-sample search\", or run any part of the AnomalyGen pipeline, even if they only mention one phase.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-generate-anomalies",
+      "contentHash": "2387b1fa",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "478e6f3fd1426725726a112cb4f90983b2d181ba"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "89fd232d2bcfdbc28d8d0672097a570cc0f1e720"
+        },
+        {
+          "path": "assets/ag_config.yaml",
+          "sha": "26ba4d982088c832d7d1f9c1524c02b7b1bdb011"
+        },
+        {
+          "path": "assets/defect_spec_template.jsonl",
+          "sha": "bb40d511078da27db94ccb5c3585c2aa39836ac8"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "ffcfe4a2c4ac1587a2b5b4f06fecf3efcfefb78f"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "662c1a4607b6d40434e097fc0ae16708f25eee05"
+        },
+        {
+          "path": "references/datasets.md",
+          "sha": "c00fc01c4ddec6178a5dd01dcc59d00afa1d6eba"
+        },
+        {
+          "path": "references/docker.md",
+          "sha": "edab47cd2fe91b27f5dca97d02d6a8a5d4e4cd68"
+        },
+        {
+          "path": "references/error-handling.md",
+          "sha": "17edd94371370737c5531feb225316281fbcab39"
+        },
+        {
+          "path": "references/eval.md",
+          "sha": "a098b1b900b42ff740d74068e35650e6f05b257e"
+        },
+        {
+          "path": "references/finetune-commands.md",
+          "sha": "a10f254ddfa5826594cb97e42ecab6399e965d49"
+        },
+        {
+          "path": "references/finetune.md",
+          "sha": "3cceb634ae067fc9c578341c423af1cf35400847"
+        },
+        {
+          "path": "references/guard-and-custom-counts.md",
+          "sha": "bf0ffdc320b4b7309ffcf99d9d625f7219d08d82"
+        },
+        {
+          "path": "references/inference-commands.md",
+          "sha": "f43e2dfd3f741b10876ea36e4e937dc9e66f03a0"
+        },
+        {
+          "path": "references/inference.md",
+          "sha": "08dc1eee9e7156273a5044d720ea40f3f004cd3f"
+        },
+        {
+          "path": "references/output-layout.md",
+          "sha": "d5b59fd5f3a2b7437a03a1a2869dd3eb9473c994"
+        },
+        {
+          "path": "references/prep-testcase.md",
+          "sha": "e76f8318f5bcc22170c937bf780debd82ce1c6e7"
+        },
+        {
+          "path": "references/sdg-inference.md",
+          "sha": "8897bee8e5daee8aedefeca9fe0afb050cbd9bff"
+        },
+        {
+          "path": "references/sdg-refine.md",
+          "sha": "5529541bcc31d5acbbf89b2f5d2a7d8d0ca87b55"
+        },
+        {
+          "path": "references/setup.md",
+          "sha": "6a14771cb1bad1ea0b59f2727944af7a0478ff9a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "3dd3289a6879452b7db596f925d67eb5eac7bb1b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "3e1cf5b5c9433fa900154b48a91070bb3428ff52"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-generate-anomalies",
+      "version": "1.0.1"
+    },
+    {
       "id": "NVIDIA/skills@tao-generate-image-embeddings",
       "trust": "trusted",
       "name": "tao-generate-image-embeddings",
@@ -26074,6 +26242,268 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-object-detection",
       "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@tao-run-deft-pas",
+      "trust": "trusted",
+      "name": "tao-run-deft-pas",
+      "description": "Run iterative improvement for NVIDIA TAO CLIP / SigLIP image-text retrieval on attribute-labelled data. Use when a request combines retrieval evaluation, weak-attribute or caption-pair mining, repeated retraining, and a stopping condition based on a retrieval KPI, validation plateau, or iteration budget; the customer need not know the DEFT or People Attribute Search (PAS) names. The self-contained workflow performs dataset preparation, zero-shot evaluation, attribute gap analysis, caption-space k-NN mining, history-aware selection, retraining, and re-evaluation. Treat `tao-deft-pas` as shorthand for this canonical `tao-run-deft-pas` workflow. Do not use for standalone CLIP training, one-off evaluation or embedding, generic k-NN mining, or AOI/ChangeNet DEFT workflows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/tao-run-deft-pas",
+      "contentHash": "81862b58",
+      "files": [
+        {
+          "path": ".env.example",
+          "sha": "dfb14cbf93440a8ddf52475e10e884da7a063b17"
+        },
+        {
+          "path": "BENCHMARK.md",
+          "sha": "abfec8697d4b64387810156c94a4b19ca1fa1032"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "bfd9a100c108214943dc41a37a0588576e934d9c"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "0a5c181a20fa928f1ebb1591f9854aa7d7b5a972"
+        },
+        {
+          "path": "eval.config",
+          "sha": "dd17844c3a2a63c6a212c5ad2582964c200c679d"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "9ff0c8082941506eacad5b48a40cdfbb684988c1"
+        },
+        {
+          "path": "patches/sitecustomize.py",
+          "sha": "3101c1594fc25923e9247c64d40fa8b5250b7507"
+        },
+        {
+          "path": "references/action-request.schema.json",
+          "sha": "a88ed1e7f12354803c1ac029a7fc12c0f618cf9d"
+        },
+        {
+          "path": "references/clip-train-eval.md",
+          "sha": "4f5d3387cbb6e02170104b19ed8c35f7cf782761"
+        },
+        {
+          "path": "references/data-layout.md",
+          "sha": "cef8c1a8bc02831d58e3f70cd1da2790810dc680"
+        },
+        {
+          "path": "references/gap-analysis.md",
+          "sha": "9fd212a354e145490cdd2d0df9136ce6d3d7885d"
+        },
+        {
+          "path": "references/job-binding.schema.json",
+          "sha": "31e630b35ba45c0c3e172a0de1d0fd772c4903ca"
+        },
+        {
+          "path": "references/metric-contract.md",
+          "sha": "240322c235b6e9471634abf05c19c84fb65a7911"
+        },
+        {
+          "path": "references/mining.md",
+          "sha": "ce70280a51d45cb2529cb045e826b62c20f28d80"
+        },
+        {
+          "path": "references/pipeline-and-state.md",
+          "sha": "9914062a0e349526740a5323e3720e2739e388de"
+        },
+        {
+          "path": "references/platform-action-status.schema.json",
+          "sha": "d479c0c57ff482714ad31309ce1bd68d308a4e30"
+        },
+        {
+          "path": "references/platform-execution.md",
+          "sha": "cc1c1699d77cbdf11ae26f01b0ca26085e2511d0"
+        },
+        {
+          "path": "references/preflight.md",
+          "sha": "cf47590df9bfb970adc37b04a15a9d5cbf9258a9"
+        },
+        {
+          "path": "references/scripts-and-agents.md",
+          "sha": "c62d4b22225786c7eb7002d6c369b73b87455844"
+        },
+        {
+          "path": "references/staging-receipt.schema.json",
+          "sha": "e6a45f0bfdf31b2fc200026e11fe37f89d1bc370"
+        },
+        {
+          "path": "references/virtualenv-runtime-manifest.json",
+          "sha": "ffc300f5703fffa5099e483d3d7e0a91da50e4b5"
+        },
+        {
+          "path": "references/virtualenv-runtime-manifest.schema.json",
+          "sha": "14cb91cd8d84e4bff4df987aa28c871642f4378c"
+        },
+        {
+          "path": "references/visualization.md",
+          "sha": "8a940c7456c2819161cca08a08a3289d8abd70d6"
+        },
+        {
+          "path": "scripts/audit_deft_run.py",
+          "sha": "d73302bfd7d39c9be973287fc795288d89b5b4ee"
+        },
+        {
+          "path": "scripts/check_pas_cuda_runtime.py",
+          "sha": "7cb943b29f7c636a2cc8f956214f9f8b0c81e386"
+        },
+        {
+          "path": "scripts/checkpoint_contract.py",
+          "sha": "21f89432c1ca00388cf7efa385b324c229f7936f"
+        },
+        {
+          "path": "scripts/command_contract.py",
+          "sha": "cabf167c228e87e2aafc5013db977b384e90f8ad"
+        },
+        {
+          "path": "scripts/commit_stage.py",
+          "sha": "d66736bf602806a04f998dd695215b4b4a387a8d"
+        },
+        {
+          "path": "scripts/deft_action_contract.py",
+          "sha": "5406d9b1cd21c8e4267a37b7aaf91850ae6fc556"
+        },
+        {
+          "path": "scripts/deft_python.sh",
+          "sha": "492a023bcf964c4b85aceea6cd408b8890e65da7"
+        },
+        {
+          "path": "scripts/init_deft_state.py",
+          "sha": "f0d0ce735c612e605c9cb9438809889eaaeab793"
+        },
+        {
+          "path": "scripts/log_stage.py",
+          "sha": "371f4ad70770e4b819ef24604e37a607e5ac8ef1"
+        },
+        {
+          "path": "scripts/manage_pas_virtualenv.py",
+          "sha": "3e77a2093f152e86d581bdf4ba9b5cebdbf5a62b"
+        },
+        {
+          "path": "scripts/metric_contract.py",
+          "sha": "5a0a398d48e1888acb20f69a550dfc5b2cf306fe"
+        },
+        {
+          "path": "scripts/parse_pas_metrics.py",
+          "sha": "4c3c621354ea1fb69a75876d41781228f64169e6"
+        },
+        {
+          "path": "scripts/pas_deft/__init__.py",
+          "sha": "c6b95b2a91c96e13249001faea4f0c198af430e6"
+        },
+        {
+          "path": "scripts/pas_deft/analyze_gaps.py",
+          "sha": "7e2b6da3d1439685ef561ee97d84a2364843dbeb"
+        },
+        {
+          "path": "scripts/pas_deft/config.py",
+          "sha": "434db7dd568c8560b7e14dc940c4e2aa806e9604"
+        },
+        {
+          "path": "scripts/pas_deft/config_fields.py",
+          "sha": "8f06928d0e4b4332c87f048313142c2e5e6cc3fe"
+        },
+        {
+          "path": "scripts/pas_deft/data_mining.py",
+          "sha": "ba4200223b0a3e069ac92ef9fb0999fdf204cc9b"
+        },
+        {
+          "path": "scripts/pas_deft/dataset_layout.py",
+          "sha": "b4bdd154efc8b63e28d782c700470e92dcfa1e46"
+        },
+        {
+          "path": "scripts/pas_deft/history_aware_mining.py",
+          "sha": "0576cc4d6e1861c1ecb72d5144479d22d27e0796"
+        },
+        {
+          "path": "scripts/pas_deft/pairs_io.py",
+          "sha": "65b2c6b8ee21e45780f9c55f9f556803aabf55a0"
+        },
+        {
+          "path": "scripts/pas_deft/pas_artifacts.py",
+          "sha": "97f17c5d0e7da92d8d0253550eea22991c9cb207"
+        },
+        {
+          "path": "scripts/pas_deft/utils.py",
+          "sha": "e43378fe44aa12c10cf6a448044da69e039c6ea2"
+        },
+        {
+          "path": "scripts/pas_deft/visualization.py",
+          "sha": "96edd8e5b2d9fa0f3daae268702b3908c2010fd4"
+        },
+        {
+          "path": "scripts/prepare_deft_config.py",
+          "sha": "169b71753b09ea21076ac9008fbfaa674d50e99a"
+        },
+        {
+          "path": "scripts/record_metric_result.py",
+          "sha": "be82cc48e1aa7fed90bdb066cc36b2f71d4862b7"
+        },
+        {
+          "path": "scripts/recover_commit.py",
+          "sha": "46424bea96c1562392f2d80465ac260efef23453"
+        },
+        {
+          "path": "scripts/render_deft_report.py",
+          "sha": "f3dd129136eddaad7ee34740963c0eb4a1c8489e"
+        },
+        {
+          "path": "scripts/run_deft_action.py",
+          "sha": "7f4e58e3ba5f86c1e7855b02df996cf14ac2d1ac"
+        },
+        {
+          "path": "scripts/run_deft_cli.py",
+          "sha": "aaa90c5c4bb857cf808ca80e362dffb90cade3ba"
+        },
+        {
+          "path": "scripts/run_deft_container.py",
+          "sha": "ad88c01101ee00d227a6daae7fe94f375c6d96c7"
+        },
+        {
+          "path": "scripts/run_pas_stage.py",
+          "sha": "dd5d4e238b2a8e6501b6b699b0624931235f00f7"
+        },
+        {
+          "path": "scripts/virtualenv_runtime.py",
+          "sha": "1ca8578fc2eeeec47146a57841a50773589e2e77"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "22a3fd5025c355b29f6f5a8fd1737cea8224bd54"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ef2007b601cf357d08b8f68a0483e292ffa08fcd"
+        },
+        {
+          "path": "specs/deft_config.yaml",
+          "sha": "beb2fd33bfd24dedf93f7b35ec95eec9ba5cc689"
+        },
+        {
+          "path": "specs/image_embed_spec.yaml",
+          "sha": "6206261ceffcc7414a0e193ff35f9ff003a1cc96"
+        },
+        {
+          "path": "specs/mining_spec.yaml",
+          "sha": "4270bccb2f03d809fbe926b6bf383e91d2febdb2"
+        },
+        {
+          "path": "specs/tao_spec.yaml",
+          "sha": "76564c98f035b724b85f9552785e5b25e9c28047"
+        },
+        {
+          "path": "specs/text_embed_spec.yaml",
+          "sha": "6206261ceffcc7414a0e193ff35f9ff003a1cc96"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-deft-pas",
+      "version": "0.4.0"
     },
     {
       "id": "NVIDIA/skills@tao-run-inference-service",
