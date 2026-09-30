@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1790746658828,
+  "generatedAt": 1790806806541,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7189,134 +7189,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/accelerated-computing-cudf"
     },
     {
-      "id": "NVIDIA/skills@aiq-deploy",
-      "trust": "trusted",
-      "name": "aiq-deploy",
-      "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/aiq-deploy",
-      "contentHash": "1337df48",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "dcee3931a29e0355aaa9e5d41ae99e05578737f6"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "7bb611d75ada64a80b6af1980c13717684828ba7"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "020d798401d02a9fbd40acad974fc100d7eb2900"
-        },
-        {
-          "path": "references/configs.md",
-          "sha": "81ad9f0dfcf0c22b3b8d46cf98b5cafdd39cbc1f"
-        },
-        {
-          "path": "references/docker-compose.md",
-          "sha": "c7f20a90dbfc1498275c37f0184406576c07ce77"
-        },
-        {
-          "path": "references/end-to-end-validation.md",
-          "sha": "7e92254b194c2c2566a43bbcb84bccea4a81ff48"
-        },
-        {
-          "path": "references/env-and-secrets.md",
-          "sha": "a38c94a3de5d5ae21367659dd095b5447f27b96e"
-        },
-        {
-          "path": "references/frag.md",
-          "sha": "72e61163284a7e5a8ea10a2bad4824ed49e312bd"
-        },
-        {
-          "path": "references/kubernetes-helm.md",
-          "sha": "69f6a0f136e7dfe3ac5bc184cb294a976f9c5250"
-        },
-        {
-          "path": "references/local-web.md",
-          "sha": "4376b48d3411c81a5dff9b42f866f33ccc9edf7b"
-        },
-        {
-          "path": "references/locate-or-clone.md",
-          "sha": "1586e485b87ab8982d7a1f419142a781f554d403"
-        },
-        {
-          "path": "references/shutdown.md",
-          "sha": "dc0feaf52c9d6e35eff961e859e2477afbbaa3bc"
-        },
-        {
-          "path": "references/skill-backend.md",
-          "sha": "206820a437ea5dc26f4b86d32b1f6df413d5bc22"
-        },
-        {
-          "path": "references/terminal-cli.md",
-          "sha": "d22885353c8977f1cea0b2d20187513357d60505"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "a4831e932cbcf2152d79b96d9e490b63748c8adf"
-        },
-        {
-          "path": "references/validation.md",
-          "sha": "06e42db0105627423fbe5c78ec0b33f6c21f0264"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "33b13a8a9ac552aaaf1665572506d5e40d839c85"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "7f70d5c5fb930782b01817c4a5bb8af2585c9958"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/aiq-deploy",
-      "version": "2.1.0"
-    },
-    {
-      "id": "NVIDIA/skills@aiq-research",
-      "trust": "trusted",
-      "name": "aiq-research",
-      "description": "Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/aiq-research",
-      "contentHash": "74e122b1",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "08e122ece47589dd85e3b2f2420ec084c1e6620c"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "670d8249cb3f1a3533100a7bdaaeb9a750dc19c7"
-        },
-        {
-          "path": "evals/basic-product.json",
-          "sha": "4993eeb17ea94ef9d83183fda9f4d3e1346738dc"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "a8269dd2677144107b292acff10d56d2a5bf55c9"
-        },
-        {
-          "path": "scripts/aiq.py",
-          "sha": "838c69bea9391194c860fdc6b245efdbbda33663"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "4924bcf315f84167720054b681ea238096251d98"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "25f983c816b0f89d6772a0a206e2c847595533c6"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/aiq-research",
-      "version": "2.1.0"
-    },
-    {
       "id": "NVIDIA/skills@amc-run-rtsp-calibration",
       "trust": "trusted",
       "name": "amc-run-rtsp-calibration",
@@ -13477,15 +13349,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-lerobot-viz",
-      "contentHash": "d4b10ce6",
+      "contentHash": "5829302b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9f61d1835775f2b8c727137f1195a7800ee5a2a0"
+          "sha": "378d9877bfc8851926f0a1257572cf3e28fce2c9"
         },
         {
           "path": "SKILL.md",
-          "sha": "bbd5763c1a9212a854e9f89860d2c706e8bb59fa"
+          "sha": "ff4b00b357aadd3a3709f85fa7b5d8c02dfe3e81"
         },
         {
           "path": "evals/evals.json",
@@ -13493,11 +13365,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "dadd3e7b9cf69bfdc2a73b8ebe743d6b81168134"
+          "sha": "f385e779e49a35f9994b1a6072c5236721445927"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "86ea84945e614ed7175a8cf6e7c38172845b4f06"
+          "sha": "ca523a997f847fe38b692548008fc2d9434b29b7"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-lerobot-viz",
@@ -13511,15 +13383,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-create",
-      "contentHash": "eeaeb725",
+      "contentHash": "d4303921",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "28e1e61ff196a16356dc374a19dca1971eca856f"
+          "sha": "0cb0c4690482e46286baf93cc5d09b314228bd31"
         },
         {
           "path": "SKILL.md",
-          "sha": "712ee7540168409733cc88745df1712e3d3810ff"
+          "sha": "b781921989878af625d38cf8d47e74245af95016"
         },
         {
           "path": "evals/evals.json",
@@ -13527,11 +13399,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "68d4327e6ebd5bd0b001b8fc49f8fd7c167b2141"
+          "sha": "bcb177f98ceee7336aaec200dbdff5fc2ce8c942"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "64909558017b1dfdafd5e81cd60d825eba20ccd4"
+          "sha": "1b48a28d65813de480174173d19f09bf2fd8fb43"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-create",
@@ -13545,15 +13417,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-annotate",
-      "contentHash": "6949c12d",
+      "contentHash": "4030dea6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "04a89d06d04121d8e29fdc6fa07189bcac088781"
+          "sha": "e40bf740c3c93f56b6b59c70fb44c38795fa2e9b"
         },
         {
           "path": "SKILL.md",
-          "sha": "f739a3abeef14e705e3cf76d43d0a2f174a60571"
+          "sha": "922bb085545e65065102217fd5df2b4b5cc0827a"
         },
         {
           "path": "evals/evals.json",
@@ -13561,11 +13433,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "69918561a74d20849f00980cb467e8786682199c"
+          "sha": "764cd370e162c5b1624f60f28aedb1b58cfa0eaa"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d2207e6e92e034c46d7da390d10a5fa70a864b27"
+          "sha": "1f24d3fbadaffc941ebc11080b3c9433f5fe915e"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-annotate",
@@ -13579,15 +13451,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-convert",
-      "contentHash": "b653f714",
+      "contentHash": "85403e63",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f47d85460890f91ee86fcc5e0122b920f81a094b"
+          "sha": "4d678ee2fd1f044e1ed267e230a569519ed204a8"
         },
         {
           "path": "SKILL.md",
-          "sha": "b891266ad568dd2fdbf5ef36d944273865265426"
+          "sha": "3953ff894cf955c4b1b2ac4f571d626e8a296b3c"
         },
         {
           "path": "evals/evals.json",
@@ -13595,11 +13467,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b2473bb74631cfb936201ff803e6f4c0fad9fff0"
+          "sha": "84f733513c27ffb8c9b57210c2ceab9881afba55"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1c084458ebf5d6270ca4d6220f9139142935ec4b"
+          "sha": "a8858f436ee0387b282d212fc8eb469d4989bdee"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-convert",
@@ -13613,15 +13485,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-mimic",
-      "contentHash": "3532dfe7",
+      "contentHash": "ff7478a6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f9e96182887e285cc3cae347aa091b5bee73b7a6"
+          "sha": "8dcbacf6b015959886a396a0830bd4708fe75590"
         },
         {
           "path": "SKILL.md",
-          "sha": "f4731023880c7925276adf2b103008a3e3946350"
+          "sha": "3e500f56f434018b54732728e4d3ca05013a6320"
         },
         {
           "path": "evals/evals.json",
@@ -13629,11 +13501,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "355dff44f120bc1dd719a70a1825c8b8bc52248d"
+          "sha": "9a440f7b26da4c11eb412685d6f3e98d48c64580"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f826dd51cc0e74bcbd4e464998344a0ef2c47bd1"
+          "sha": "095fc02f8c2fd8b65576ccac3b1990dae4226696"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-mimic",
@@ -13647,15 +13519,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-replay",
-      "contentHash": "93307fa1",
+      "contentHash": "76583d0c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b0673cffbcd019d5e23c0562cc1be99f59ceb2fc"
+          "sha": "e2d579a9652cfde11001d540113e97eabf17aaa6"
         },
         {
           "path": "SKILL.md",
-          "sha": "5693c0877279c4c39b19043360a40357723d478e"
+          "sha": "416865eaad1cb8121c2157ba16898e87e6920718"
         },
         {
           "path": "evals/evals.json",
@@ -13663,11 +13535,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "3da2a510e174f576fd45bacf877a8052c2d033ec"
+          "sha": "5ac241ce1bcd98ec89ad0347e6ca80b5648f23ae"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e79ccdca0dfff0c922ca20b6e27524f20a54581a"
+          "sha": "5e0b3d828156c17bfacebe75c4d7345040303eed"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-replay",
@@ -13681,15 +13553,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-dataset-teleop",
-      "contentHash": "a0e4d2b1",
+      "contentHash": "5a41ffbe",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0fe3d3626ede14005363fa296adf20e86d4efd8f"
+          "sha": "a59f9a1bc451304d6e55539c1aaf6914a733caf5"
         },
         {
           "path": "SKILL.md",
-          "sha": "74729c2a9cba75dff0d633c304988e21364fc64a"
+          "sha": "ee7e358caad41ffe9e7a914bba60909f4c950e7e"
         },
         {
           "path": "evals/evals.json",
@@ -13697,11 +13569,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "adb70d0a4fd6c24bd4ce8d886e7ce05862bd5258"
+          "sha": "85dcff7ba12010cb3449bf4fcf3b49835507bee1"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "57dd82555521d6bf1032b202981a94ebc90a68e9"
+          "sha": "315681a0541a49a6956a8a58ae0b3a3fb9b304ef"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-dataset-teleop",
@@ -13715,15 +13587,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-e2e",
-      "contentHash": "99ccbfef",
+      "contentHash": "e7c68506",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c4944f65efd42ba797b9e3e906d385ebf6e073a8"
+          "sha": "bb840638d32920ca38ef0d99140bae766bebcfd8"
         },
         {
           "path": "SKILL.md",
-          "sha": "71202cb23f8d319c961b3752d1c7b79916148512"
+          "sha": "79720ea82056c227c6ee294f80bcff6adfec325e"
         },
         {
           "path": "evals/evals.json",
@@ -13731,11 +13603,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e16d173ef932ad6e2ca73b4f7eed3ba2b265a470"
+          "sha": "c1c94c6e623101c53237eb733a4d3d74de5d9b49"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ff27ec010ee0ceac73b21974fd30cc0ae2c6d061"
+          "sha": "4daa3299e950f978a4c4b0b70c1a2174a640d91b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-e2e",
@@ -13749,15 +13621,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-finetune",
-      "contentHash": "f006bb93",
+      "contentHash": "f369af65",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9d95053b87221d009aa9bd2d17b889f9c981a797"
+          "sha": "89755b05d9adc3b1e137b48b0e9618ee77c8ae92"
         },
         {
           "path": "SKILL.md",
-          "sha": "a5e91d7601863deeb24eae4e133648b9c7e8aab1"
+          "sha": "c1a95f8e01eaa0a76f6200379fe78ce7e9453271"
         },
         {
           "path": "evals/evals.json",
@@ -13765,11 +13637,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "9c7aa5584c810f48d7ec1432fc779a715ea31cf4"
+          "sha": "7624ffef236ce96f2cda6c2cea6e2a6b79fa012a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "50aa18ff277aa409fa416f31344663bebe84b666"
+          "sha": "87fe0fe5014116269a167ec9ebf44a049512ff76"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-finetune",
@@ -13829,15 +13701,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-setup",
-      "contentHash": "343d68b5",
+      "contentHash": "4cdbff83",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "30e1411d9a4e19c0454ab2ba6537d88a295bc8f5"
+          "sha": "3354ac707880a068aafd510a19d6fb59ac9df64c"
         },
         {
           "path": "SKILL.md",
-          "sha": "6222a8177945748405aa87e8e05883e76993eff3"
+          "sha": "d89de08a426f73f8c467074cf811c038a4dc7c68"
         },
         {
           "path": "evals/evals.json",
@@ -13845,11 +13717,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "271417b8f431c9ed8b8e2148fe3cb46d70e5eb42"
+          "sha": "ccaeb8a86f3c79a447cf0d870210a5b550bebc54"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c6ddaa9c25106f5b00504633c0ced5263f501e4d"
+          "sha": "0a881594494b959143ea4dfaf1bd4d4c060fb0fc"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-setup",
@@ -13863,15 +13735,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow-train-rl",
-      "contentHash": "80674e0e",
+      "contentHash": "c0a23569",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "af5f4eca3d4a58f6b76be0fa9e8a3f1263b95886"
+          "sha": "b3f082cba8753c04aced54e4619019dff399a59d"
         },
         {
           "path": "SKILL.md",
-          "sha": "6e5fdaa9a211494e9c8a21579b1793cf1c5502d8"
+          "sha": "d49b14bd41eea2053b9655414c50c758e63a61ef"
         },
         {
           "path": "agents/openai.yaml",
@@ -13883,11 +13755,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "43cd149fe2270ed4520e84bdc481a0509bad61a8"
+          "sha": "1572ad14e1f5adc7b73720ef94570f65c04fbd5d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4675b8c28b3e37cf7d8747423cfa8b9cf40de0f1"
+          "sha": "22e432738f4c73107cadbe35ffaa0ecb5ac6cc56"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow-train-rl",
@@ -13935,15 +13807,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/i4h-workflow",
-      "contentHash": "27dfbe62",
+      "contentHash": "e31f8875",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b74b3d4ba9ee2ee769270d31086559782396dffa"
+          "sha": "4e2fb9b22043c9a98c40810af0df6827546d62c2"
         },
         {
           "path": "SKILL.md",
-          "sha": "ee515e09d65be320d0af1bbe0a7cc4a6d5474553"
+          "sha": "49ea553f4e82ea5b9258ccf74d29ba371192737d"
         },
         {
           "path": "evals/evals.json",
@@ -13955,11 +13827,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "f441f62a74df30ba87e58ce87afcedb5ac456488"
+          "sha": "b0ee5717d0fbe21ba580d34bc050ae61328bf4b0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d8781b390748c2a7768e0e10dd9228947256fef4"
+          "sha": "3d870a33d563428ebb170134243c46e6dcdca08f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/i4h-workflow",
