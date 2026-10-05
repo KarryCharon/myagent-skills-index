@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791149504487,
+  "generatedAt": 1791179221115,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -33145,7 +33145,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "8496fb06",
+      "contentHash": "a57202ee",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -33265,7 +33265,7 @@
         },
         {
           "path": "src/cookie-auth-verification.ts",
-          "sha": "d8ef66b6a72f707bef3ddfa7175c714ae43ff589"
+          "sha": "f54c35f79492e2fb837df94b4ea3a9e9c975b63c"
         },
         {
           "path": "src/cookie-database.ts",
@@ -33601,7 +33601,7 @@
         },
         {
           "path": "test/build.test.ts",
-          "sha": "f194d33878cd4ad92b79222558181daa091548c3"
+          "sha": "e91d7115512aeac75a8df35f435c2f4f678ca559"
         },
         {
           "path": "test/bun-polyfill.test.ts",
@@ -33669,7 +33669,7 @@
         },
         {
           "path": "test/compare-board.test.ts",
-          "sha": "664e3e38084c989275ba5e6f14bbf2f810982e76"
+          "sha": "65906b44b22d692063900577b94a27dd0475e052"
         },
         {
           "path": "test/config.test.ts",
@@ -33677,11 +33677,11 @@
         },
         {
           "path": "test/content-security.test.ts",
-          "sha": "823a90294119a91df60acd0cb75ddc48a23087de"
+          "sha": "fa86811465650c3609890e8db150e4a5944d933b"
         },
         {
           "path": "test/cookie-auth-verification.test.ts",
-          "sha": "135d22d8d8ac3b4c9ad9b73952c92174cb2fb521"
+          "sha": "742c1c2c7743a861091bc09bdbbdf177e35ca5d9"
         },
         {
           "path": "test/cookie-credential-deadline.test.ts",
@@ -33965,7 +33965,7 @@
         },
         {
           "path": "test/gstack-update-check.test.ts",
-          "sha": "5b6ea04e11f51ed3bd6f227d9e3cafa7be25efb3"
+          "sha": "1bb9dd76ad4208bf62ce9d6dbf4adb2becd8ca51"
         },
         {
           "path": "test/handoff.test.ts",
@@ -34121,7 +34121,7 @@
         },
         {
           "path": "test/security.test.ts",
-          "sha": "27c751b9884cdb0d57aeffea4dc74006145752e9"
+          "sha": "bd16919af80efb1a4b7b30758b09d5c796806e69"
         },
         {
           "path": "test/server-auth.test.ts",
@@ -35892,7 +35892,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa-only",
-      "contentHash": "a51fb6a7",
+      "contentHash": "bed03de1",
       "files": [
         {
           "path": "SKILL.md",
@@ -35904,7 +35904,7 @@
         },
         {
           "path": "sections/exploratory.md",
-          "sha": "859200b4ed35f52ffb6f21e9cc2cb9664d78c16a"
+          "sha": "cdc580b25a829c5e9d7f5f8f135ad58cc1fbbcfd"
         },
         {
           "path": "sections/exploratory.md.tmpl",
@@ -35933,15 +35933,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "57eacd87",
+      "contentHash": "cbce2733",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "59cfc8155f306f8a71efa969741bf630bb408c2e"
+          "sha": "e1e3d6a6b490bc5338e68f25980f42bc6d813718"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "5b390f79efc83c52d77f49836bc9583f9566a91f"
+          "sha": "22030876d71960b927b091331add065b5c4813d4"
         },
         {
           "path": "references/issue-taxonomy.md",
@@ -35965,7 +35965,7 @@
         },
         {
           "path": "sections/exploratory.md",
-          "sha": "29e0fb4dff058fa9172ca3b90462a9b18e49bf45"
+          "sha": "906cdee43f456f14acfa037f86600d17b69b4332"
         },
         {
           "path": "sections/exploratory.md.tmpl",
@@ -35977,7 +35977,7 @@
         },
         {
           "path": "sections/qa-patterns.md",
-          "sha": "d55e5bd6e5a8f8f763c65d74dfeb81b824b57c84"
+          "sha": "b9d40e55e099480391ca5acbe7d99b0c19488e4b"
         },
         {
           "path": "sections/qa-patterns.md.tmpl",
@@ -36009,11 +36009,11 @@
         },
         {
           "path": "templates/functional-report-template.md",
-          "sha": "f30e306082740a3a96573254eb5e2a77ac690b0a"
+          "sha": "294e5cbc99f76e9f813202bcb4da584e55df5d95"
         },
         {
           "path": "templates/qa-report-template.md",
-          "sha": "f827d758144734f9de9b0c43db86804cd112cc92"
+          "sha": "0b44a194da9dc2876ba1de7721c2d58f65a42923"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qa"
