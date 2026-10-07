@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791353229227,
+  "generatedAt": 1791414510732,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -16101,15 +16101,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-automodel-model-onboarding",
-      "contentHash": "0d6091e9",
+      "contentHash": "349d37ae",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "95fba9c95d1d1dcf40da47099e3d46358118386e"
+          "sha": "541612776e5d395d87ed87947cf5db73e2569e7c"
         },
         {
           "path": "SKILL.md",
-          "sha": "6788a517e1079af787ca413dfbe985d63b9dd5a5"
+          "sha": "1bd13e8fe34c555cd48c2aa1f7f21bccc397f70b"
         },
         {
           "path": "capabilities-and-precision.md",
@@ -16125,15 +16125,15 @@
         },
         {
           "path": "moe-patterns.md",
-          "sha": "577d154f991a62d39cfb08d4d6f2dfff2aafe4ea"
+          "sha": "4d8a6e40c02994d30b377a14fc467c336571679a"
         },
         {
           "path": "skill-card.md",
-          "sha": "d24d031aa0abea8fe82a27b13fbd2843eac5f16b"
+          "sha": "d6087c4059ba7c6b249a88ecbf4f36db16ec77da"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ba3090a6b5dca17a7017995d1b711208f34f2360"
+          "sha": "0cf03a1aaccdaf7d0384454e14b85d4f59e67e32"
         },
         {
           "path": "vlm-patterns.md",
@@ -23510,23 +23510,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/rtx-remix-modding",
-      "contentHash": "de3bb040",
+      "contentHash": "47ce4c0d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "847db50cc5cc958d52cb22b581e37ff8a7b30ff8"
+          "sha": "faade2e3fbdd90eb0313434b1f03aada147c71a8"
         },
         {
           "path": "SKILL.md",
-          "sha": "dd0bc9ea3a614989a8fdac0b7bb9b80c6cfdd76d"
+          "sha": "9a7400c2b66b16620c9925c014c23a1ed2f34f27"
         },
         {
           "path": "evals/EVAL.md",
-          "sha": "b1b9cad3bdf9652870cae0d1394e598662ae1fa0"
+          "sha": "6b35ca891e80b031fd103b1276ae71eda0d20ba5"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8192b7121544cf50fc1b652a7c57f83d15f01e2b"
+          "sha": "dbf060a046e6c2d050168cd40371b0f3de9eef52"
         },
         {
           "path": "references/tool-mode.md",
@@ -23534,11 +23534,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "1a4e437b943db86d0852a38924381dfe75ba3a66"
+          "sha": "101b06a3b706ce1487bfbb85ec5a75b8ade85446"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5279c50dce7275210f3e02c23acabbdee4c0b108"
+          "sha": "72c2c93e272d873ff3afc695cafec6053f9450af"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/rtx-remix-modding"
@@ -36308,7 +36308,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "1492a2e2",
+      "contentHash": "10bf1966",
       "files": [
         {
           "path": "SKILL.md",
@@ -36364,11 +36364,11 @@
         },
         {
           "path": "sections/measure.md",
-          "sha": "7246d3de598aea84d8b89e8c21d4f3888ef72d9f"
+          "sha": "1edcec7772a606edd088995d2578a2c74954cdbf"
         },
         {
           "path": "sections/measure.md.tmpl",
-          "sha": "8fcccf2a7f0c2f81dab738f5f509142da7b92faa"
+          "sha": "6dfd0e02a5bf953b3571d16b47f85dd9c401a7fb"
         },
         {
           "path": "sections/plan-completion.md",
