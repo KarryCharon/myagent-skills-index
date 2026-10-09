@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791501858971,
+  "generatedAt": 1791585743525,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -16183,15 +16183,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-fabric-build-adapter",
-      "contentHash": "d10e5e4a",
+      "contentHash": "f9845175",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "26836092262181be0192f0854576415da159f425"
+          "sha": "d497d0a4661c5fabcdd39e0d08e6da7a8e74fa85"
         },
         {
           "path": "SKILL.md",
-          "sha": "53e48df5c7372cd9ed451f7013477440b8fa22ea"
+          "sha": "523a6feecffab0472f64820e799299789a3bd561"
         },
         {
           "path": "agents/openai.yaml",
@@ -16199,15 +16199,15 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "2612133f3bfa8fa962f31a95e3b891b548e0a5a6"
+          "sha": "e2ca2608ca93d6709b65d5eecfc66d952e80b0f5"
         },
         {
           "path": "skill-card.md",
-          "sha": "88f7592928b8557c366460401c1560bb9a1e0c30"
+          "sha": "b3cf2db7233971d1b94168b956d46b91f254080d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "9499c47cf77833061da91bba26d680ca6c9ca75a"
+          "sha": "eef7587a20d53811ca9a6104b31d77705a6bf891"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-build-adapter"
@@ -16220,15 +16220,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-fabric-integrate",
-      "contentHash": "f9957376",
+      "contentHash": "41787816",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3de63468213f4d8663df412ac186bbd6d5fe01c5"
+          "sha": "02783fc6cd1d06bf063644b3f6b701690f184222"
         },
         {
           "path": "SKILL.md",
-          "sha": "f4b419ebbc960ba696edeaf7b8fdd2cf2d635a69"
+          "sha": "d697359ec3d0edd890ff557606be8b789f9b8f7d"
         },
         {
           "path": "evals/evals.json",
@@ -16236,23 +16236,23 @@
         },
         {
           "path": "references/config-mapping.md",
-          "sha": "6acdd81dfb24b2ce7b54e99e41802d1beba19825"
+          "sha": "d93cd7ec7beebd9a4be93facd90b53519d04ddde"
         },
         {
           "path": "references/results-and-errors.md",
-          "sha": "4ff6bfbf780f4066f1d5d3f81d31123ba9bbe37e"
+          "sha": "0e1311244c60fc1f8f5a3a8f31bf0b2b52a76dbf"
         },
         {
           "path": "references/sdk-api-inventory.md",
-          "sha": "29861af5884521815c8f78a77b7109e65cec0765"
+          "sha": "3e2f09c99f7d50aad495488deea3c76819680777"
         },
         {
           "path": "skill-card.md",
-          "sha": "250244b3d4d3cee01db2911993b546d5734687cd"
+          "sha": "c8f1d6caddccb5f365006f59427a99ffc6bfc450"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "17330504fd3b3f326141a8d2bd98d7361106aef8"
+          "sha": "80c0260f7b21db886128fe4d70ef4b22cdd8f05c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-integrate"
