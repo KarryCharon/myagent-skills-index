@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791697952069,
+  "generatedAt": 1791723387293,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -33176,11 +33176,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "ae154673",
+      "contentHash": "462c9b15",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "eaf9b03c20bf05cd1894362d4a9dfe0c61671334"
+          "sha": "a61f41b5afbbc44a7763ec25888d376e2c5f3f81"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -33212,7 +33212,7 @@
         },
         {
           "path": "sections/ceo-phase.md",
-          "sha": "e517cb61e8e76e304a555622c0b2cb00cd8f7722"
+          "sha": "6636d153b34256e1836e0840beb9bb54c6f9c1e1"
         },
         {
           "path": "sections/ceo-phase.md.tmpl",
@@ -33236,7 +33236,7 @@
         },
         {
           "path": "sections/eng-phase.md",
-          "sha": "118514059716814a034fe6357ecfe496ea60c88c"
+          "sha": "09fecd624577e8bace91afb93984517c356ed0ff"
         },
         {
           "path": "sections/eng-phase.md.tmpl",
@@ -36002,11 +36002,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "c57645c6",
+      "contentHash": "4aa42b21",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "29d5f7bb526786af3afd0e11ec9486ccdaf67bef"
+          "sha": "6373e7540e2daf384ce58241140f03003b6136f2"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -36137,7 +36137,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "6baeff62",
+      "contentHash": "3d665ed1",
       "files": [
         {
           "path": "SKILL.md",
@@ -36161,7 +36161,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "ce465d8a915f4a569d0e6478fafe84c559de50c5"
+          "sha": "cd7d5c5115e6af38c7aa2fc165f58dfa2c847c1a"
         },
         {
           "path": "sections/review-sections.md.tmpl",
