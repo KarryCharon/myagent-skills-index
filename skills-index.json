@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791852302399,
+  "generatedAt": 1791931788100,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -33176,15 +33176,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "42f101b8",
+      "contentHash": "8f7af84c",
       "files": [
         {
+          "path": "DRIVER.md",
+          "sha": "c84124c5d5f1a69e9473f503ef8f1f0c3341268f"
+        },
+        {
+          "path": "DRIVER.md.tmpl",
+          "sha": "884b482c44ac007a92087f852c3e0a19ce551229"
+        },
+        {
           "path": "SKILL.md",
-          "sha": "e83ecc6b59faa81e508e7d3a9764d7b0c3cf1787"
+          "sha": "bf46e2657e0d05f31eb3728f6761c7d485917ee4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "bfefd212a736e3d10c25c6e6306c9036a3a500e1"
+          "sha": "7244add036f8102f69abfc19f3a9d19ef5dbebcd"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -34655,6 +34663,27 @@
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/canary"
     },
     {
+      "id": "garrytan/gstack@gstack",
+      "trust": "trusted",
+      "name": "gstack",
+      "description": "Install and use gstack in Capy and Claude Code. Load at session start to check this machine, and for gstack planning, code review, debugging, QA, design, security, documentation, and shipping workflows.",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "capy/skill/gstack",
+      "contentHash": "c75b9870",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "397dba50c28e4b79300301b21456b2c7a0388b4d"
+        },
+        {
+          "path": "scripts/install.sh",
+          "sha": "b420e7c31c708c3733ebe2e839ad5f3077c36150"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/capy/skill/gstack"
+    },
+    {
       "id": "garrytan/gstack@careful",
       "trust": "trusted",
       "name": "careful",
@@ -35084,15 +35113,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "79fb2c32",
+      "contentHash": "0e3e3951",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "e4a390ff649e62813b26c764da36bfbeb76aa0da"
+          "sha": "2e8d741c09322f1553c1bad15c09a6562d8431ca"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "584ce2b45f8934bebd7153c4e63f478bcda664bb"
+          "sha": "2dcf76aed6fad832182c838b661345a344704850"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/eval-plan"
@@ -36777,7 +36806,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "spec",
-      "contentHash": "50575c61",
+      "contentHash": "dff6504a",
       "files": [
         {
           "path": "SKILL.md",
@@ -36789,7 +36818,7 @@
         },
         {
           "path": "sections/gate-and-file.md",
-          "sha": "6c65853564f778c4188d808cfae197f74133fdaa"
+          "sha": "8dde3becdce8e8d645ac4bba741204fc37a12e58"
         },
         {
           "path": "sections/gate-and-file.md.tmpl",
