@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791756135525,
+  "generatedAt": 1791852302399,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -34691,31 +34691,31 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "39f68e92",
+      "contentHash": "1170727d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a2d4ef2ea16edf67c37ebf38a8cdb4ddb5d8d7e8"
+          "sha": "72c04a24acbe97356486f0aeb60ee2c7bdbcbe78"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "dd2b3385491d6d779c5ec623259ffc4329c9bfb5"
+          "sha": "9f55d30529bba0929bb3c4595a1b41251e0a4114"
         },
         {
           "path": "sections/challenge-mode.md",
-          "sha": "ac43d023efc392ed319617300c21b41f6f3b6b86"
+          "sha": "b7e39c5b6d9eb2a726cb772eff8755ba2b422ce4"
         },
         {
           "path": "sections/challenge-mode.md.tmpl",
-          "sha": "16bbf84a977bf8165bcb56b718456de1b5bf1464"
+          "sha": "4fa7ddb6aeeb609bb431687eede3bfdcb1cf0b56"
         },
         {
           "path": "sections/consult-mode.md",
-          "sha": "12d3bcb1b90fb6c02c6bd45ac1e7bcf3356e88d2"
+          "sha": "dda883f6062e4484dedf563a3fe356b03c1faa0a"
         },
         {
           "path": "sections/consult-mode.md.tmpl",
-          "sha": "8c6c3bb48c000d3bb51664c2955ec9a748aa47fa"
+          "sha": "fa6587212e542a1cfdc0bf0240901048b8025b24"
         },
         {
           "path": "sections/manifest.json",
@@ -34723,11 +34723,11 @@
         },
         {
           "path": "sections/review-mode.md",
-          "sha": "ebf8f1a12c24d9b5d080af218860879afcc1fe9e"
+          "sha": "1c17d3d91fc13ebb74e7f9b3aba2311274182cd6"
         },
         {
           "path": "sections/review-mode.md.tmpl",
-          "sha": "34eb451cb8ad9614d146eecded8b4a8968b5996c"
+          "sha": "bf0e41380c44f7bad75ef8a1f12f7ab1676805b7"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/codex"
