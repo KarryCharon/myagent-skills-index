@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1791998180159,
+  "generatedAt": 1792014253878,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -33236,15 +33236,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "8f7af84c",
+      "contentHash": "7ce883d8",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "c84124c5d5f1a69e9473f503ef8f1f0c3341268f"
+          "sha": "3f29a58c0092ce85476cdd5c63b58d40d6e860f0"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "884b482c44ac007a92087f852c3e0a19ce551229"
+          "sha": "46a0ef6cee1e40b2837bbac1fca0d6d9f8b4168b"
         },
         {
           "path": "SKILL.md",
@@ -34730,11 +34730,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "c75b9870",
+      "contentHash": "5ae7f149",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "397dba50c28e4b79300301b21456b2c7a0388b4d"
+          "sha": "3be1861e6e2908914bffad2bcb946d172907feb4"
         },
         {
           "path": "scripts/install.sh",
@@ -36475,11 +36475,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "7950eb74",
+      "contentHash": "c273d6d0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4cd2d2cd83d8f47bc85ab549e95a2bad258bb4d2"
+          "sha": "f5786affa03bc4736014bd4dc76073b1f6155653"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -36708,7 +36708,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "81d9ec2c",
+      "contentHash": "fbe17cef",
       "files": [
         {
           "path": "SKILL.md",
@@ -36804,7 +36804,7 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "13a7b7e9cebebeda8821c33cf1ba94242bba1f48"
+          "sha": "3741b12cd0439038013eee1599bbb28f7d54b59f"
         },
         {
           "path": "sections/review-army.md.tmpl",
