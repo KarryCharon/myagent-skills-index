@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792014253878,
+  "generatedAt": 1792083948409,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7046,15 +7046,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/accelerated-computing-cudf",
-      "contentHash": "d419cc3e",
+      "contentHash": "91308b9e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f2e84441b91f805378d1e8ca5ae1cdf44fb0160a"
+          "sha": "d84b5a50fc51988b59e82f7844368aae4c8e188b"
         },
         {
           "path": "SKILL.md",
-          "sha": "722a15d5734386f158e26c04b53706c23d8aa96e"
+          "sha": "8245f13658d20a5fbd50d88e04143acb4291fb32"
         },
         {
           "path": "evals/evals.json",
@@ -7178,11 +7178,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "dcc3dc5d25efe9bba740eca7a33dea6ed19b237e"
+          "sha": "0d42241a6983a3b8542668777ad278fe0c691145"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5e8f4ae74ffefbc5bd25cd0853080f1f5f3901c9"
+          "sha": "6be26ae289aa66f8593f7dfe7ab3dcc472c66cb0"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/accelerated-computing-cudf"
