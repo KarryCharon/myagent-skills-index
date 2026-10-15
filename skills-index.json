@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792083948409,
+  "generatedAt": 1792099665882,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -12703,6 +12703,157 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/earth2studio-install"
     },
     {
+      "id": "NVIDIA/skills@ethos-explore",
+      "trust": "trusted",
+      "name": "ethos-explore",
+      "description": "Captures what an AI agent is supposed to do — its purpose, boundaries, and success criteria — as a durable snapshot for anyone building, evaluating, reviewing, or changing it. Explores the user's codebase and docs first, then asks one intent question at a time for what source cannot supply. Hands its answers to ethos-write, which writes ethos.md. Use over generic brainstorming when the goal is an agent's ethos.md.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/ethos-explore",
+      "contentHash": "3bc02004",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "42eede57d44530c6bf799e8865e6df7c770dc6f0"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d846eab716922cebc2c031761caad70836378f70"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "1b21f4096f4235bd3929076cb6655a31883ac37e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b066660f1b3317873ffe5eec1ab7dfd0b2c2c032"
+        },
+        {
+          "path": "evals/files/router-help/README.md",
+          "sha": "a862cbbf108851309165a16b107ef3ef743d1bc1"
+        },
+        {
+          "path": "evals/files/router-help/agent.yaml",
+          "sha": "edee92eccf23a700ef604ec1ead4bc4b25ca7ab9"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4abbc36c2a5b9a405432f20374c16b04bb9ddac6"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "b060cd984a80522f1a77455f7a20618d57ae8b55"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ethos-explore"
+    },
+    {
+      "id": "NVIDIA/skills@ethos-orchestrate",
+      "trust": "trusted",
+      "name": "ethos-orchestrate",
+      "description": "Entry point for an AI agent's ethos.md: a durable snapshot of what the agent is for, what it must not do, and what success looks like. Routes a request to explore and capture intent (ethos-explore), or write or edit the file (ethos-write), including renaming an Eval Author 0.1.0 ETHOS.md. Owns the standard every ethos sub-flow follows. Use when the user asks \"help me write an ethos.md\", \"does my agent have an ethos.md?\", \"update my agent's ethos.md\", or when you need to pick between the ethos sub-flows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/ethos-orchestrate",
+      "contentHash": "2b4b857f",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "0a358274c9ee506395efccf8cc8e489d32b7e35a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ed1dbf53ac2f2bf5680aa08e4c8427622e33ab53"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "1b21f4096f4235bd3929076cb6655a31883ac37e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "99b664f5bb73c52508a92b03c86c17cb7b6743e5"
+        },
+        {
+          "path": "evals/files/docs-qa/ETHOS.md",
+          "sha": "b174ff34dfc73ad22b3efaa866d6bb1f68a40158"
+        },
+        {
+          "path": "evals/files/router-help/README.md",
+          "sha": "a862cbbf108851309165a16b107ef3ef743d1bc1"
+        },
+        {
+          "path": "evals/files/router-help/agent.yaml",
+          "sha": "edee92eccf23a700ef604ec1ead4bc4b25ca7ab9"
+        },
+        {
+          "path": "evals/files/router-help/ethos.md",
+          "sha": "3529b586bc94f8611a37c2ad349176782968c622"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "a31d6add15c8fd9f332f9ba16ab26e2d8f142f69"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "e6c293ad179bdce6b4f9d27891fb5491890ed73e"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ethos-orchestrate"
+    },
+    {
+      "id": "NVIDIA/skills@ethos-write",
+      "trust": "trusted",
+      "name": "ethos-write",
+      "description": "Writes an AI agent's ethos.md — a durable snapshot of its purpose, intended behavior, boundaries, and success criteria — from the answers gathered by ethos-explore. Renders the schema-v1 template, validates the front matter and required markdown sections, saves the file in the agent's repository, and reviews it with the user. Also edits an existing ethos.md. Use over generic planning skills for an agent's ethos.md.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/ethos-write",
+      "contentHash": "6afc8356",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "7eaffeaa733a3c4dbd81620e4d03f49594cf740b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "1b730ca0a7a59feb9d3b07dc1ec847dbe6fcccc0"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "1b21f4096f4235bd3929076cb6655a31883ac37e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "f0747cb6515919dbd6aae1cf0a85346351a4a0d2"
+        },
+        {
+          "path": "evals/files/invoice-triage/explore-notes.md",
+          "sha": "46889ecbd6a3b4c05ea6475b4637c69b29025c49"
+        },
+        {
+          "path": "evals/files/router-help/ethos.md",
+          "sha": "3529b586bc94f8611a37c2ad349176782968c622"
+        },
+        {
+          "path": "references/templates/ethos.md",
+          "sha": "616fc03f7e2f05a6814883757ae632d1d4f63a46"
+        },
+        {
+          "path": "scripts/validate_ethos.py",
+          "sha": "e87c69f7de416f18ecbf9264a07d5e72dde99515"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "606e8427caa0cec9f24163aca2bfe030db0c39e7"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ce7f5cd456278d3a9f0f6f8f68aab7044c94516d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ethos-write"
+    },
+    {
       "id": "NVIDIA/skills@foundationpose-pipeline",
       "trust": "trusted",
       "name": "foundationpose-pipeline",
@@ -23724,23 +23875,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/rtx-remix-modding",
-      "contentHash": "47ce4c0d",
+      "contentHash": "ea9ec94e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "faade2e3fbdd90eb0313434b1f03aada147c71a8"
+          "sha": "73ea2838b23564587a012afdcf1c3489a265a997"
         },
         {
           "path": "SKILL.md",
-          "sha": "9a7400c2b66b16620c9925c014c23a1ed2f34f27"
+          "sha": "0831b352860e796ca020dfd67d34b43340b3caf2"
         },
         {
           "path": "evals/EVAL.md",
-          "sha": "6b35ca891e80b031fd103b1276ae71eda0d20ba5"
+          "sha": "53aab48f276f55b6edb5bbc49f96cebcd909e669"
         },
         {
           "path": "evals/evals.json",
-          "sha": "dbf060a046e6c2d050168cd40371b0f3de9eef52"
+          "sha": "ca36c3db128083320110aa09801587b326b9a327"
         },
         {
           "path": "references/tool-mode.md",
@@ -23748,11 +23899,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "101b06a3b706ce1487bfbb85ec5a75b8ade85446"
+          "sha": "c5dfef1425feb80785aab2e8e2d1def3c2f90e50"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "72c2c93e272d873ff3afc695cafec6053f9450af"
+          "sha": "9bb34f33669c53ff9cc52ae199ce3f8c7fafe241"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/rtx-remix-modding"
