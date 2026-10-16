@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792099665882,
+  "generatedAt": 1792169013582,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -31085,15 +31085,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/tilegym-converting-cutile-to-triton",
-      "contentHash": "142f7be1",
+      "contentHash": "421ad0f4",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "472f7a3b82f8887c2d01a039aafc616d1960db0f"
+          "sha": "6d67ea651cab2b73c8abe54fd0bd9f1ac2883fc7"
         },
         {
           "path": "SKILL.md",
-          "sha": "faef8433744d586babda916b8b46e74e8882228c"
+          "sha": "a4106e9fcb043a668109b188a097eb4c13b7c56d"
         },
         {
           "path": "evals/evals.json",
@@ -31169,11 +31169,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "766c49271e3851d8dcb28772c98bd65b5e0d1922"
+          "sha": "83d63121ade9d2c8d3b19af863c50fae7a8654db"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5f2372a4d8f9f48d17bfdefd898ef6779479742a"
+          "sha": "6bfb01c315a9f678c9c4adf0bff74dec6562d003"
         },
         {
           "path": "translations/advanced-patterns.md",
@@ -31188,7 +31188,8 @@
           "sha": "07134f95878a39358c885e282bc09b1f87f8ba2f"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tilegym-converting-cutile-to-triton"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tilegym-converting-cutile-to-triton",
+      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@tilegym-cutile-autotuning",
@@ -31283,15 +31284,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/tilegym-cutile-python",
-      "contentHash": "0f8578b0",
+      "contentHash": "feb07807",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "48624f0891fc3d207ed139b5230ad9567bd3dcb1"
+          "sha": "cbad3aa642711a8007eb0329010c98311df91a15"
         },
         {
           "path": "SKILL.md",
-          "sha": "64953b758c61452af0d4974ec53f5bbcb5a847e2"
+          "sha": "9508b737e3f9c6a4f67f8c26a841b33caf89e6fe"
         },
         {
           "path": "evals/evals.json",
@@ -31363,7 +31364,7 @@
         },
         {
           "path": "examples/tilegym_and_examples_guide.md",
-          "sha": "f8eb75eba469d0f542c0a4d85016db8eaf51fff5"
+          "sha": "3518274e75b76eabc0443e888dc20cc286204631"
         },
         {
           "path": "guidelines/01_implementation_lessons.md",
@@ -31399,11 +31400,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "290546c78f9f23f6cfae8ffe5ff8b2e90b32fd70"
+          "sha": "425367f26cdcb87ee45b20a2971b47664323d09f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8deb83e59bc6284b2dffa88e3132c58cb958fc23"
+          "sha": "54af5f36eedf6a4922493ca106a5cad8ec9c6dbd"
         },
         {
           "path": "torch-learner/examples/lstm_trace.md",
@@ -31434,7 +31435,8 @@
           "sha": "4292fdde18698c8d66ae6d309873037322f55d1e"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tilegym-cutile-python"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tilegym-cutile-python",
+      "version": "1.3.0"
     },
     {
       "id": "NVIDIA/skills@tilegym-improve-cutile-kernel-perf",
