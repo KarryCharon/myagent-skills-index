@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792169013582,
+  "generatedAt": 1792185231298,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -8066,15 +8066,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cuopt-server-api-python",
-      "contentHash": "1efd48e8",
+      "contentHash": "585847bd",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "75491d8b7202bcf11d5f2d758bdf387e3a74208e"
+          "sha": "0bd2c15c404fb9ea0151da091f0cb0fea63ea612"
         },
         {
           "path": "SKILL.md",
-          "sha": "b79d76d6d74e1d383bcbbd0c4e1615919f8afab4"
+          "sha": "97df54537eabafb99f8246ff2980e2a3318b2041"
         },
         {
           "path": "assets/README.md",
@@ -8122,15 +8122,15 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "a741499cee4cb51a82f17063d45a3ab3bf3891b8"
+          "sha": "029822f24ec3a78a4f26ff022fa308004bde377d"
         },
         {
           "path": "skill-card.md",
-          "sha": "75795483f27e63f6449ceceeb43996091b9cd04e"
+          "sha": "fb5e18e99dd50762ca30210b498f5043b40ccc77"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d697dd55568283655e9b37f6b992587b36556e99"
+          "sha": "19c84d722f70671b3fe32d465c5b5fe2eebe9c21"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-server-api-python"
@@ -12755,11 +12755,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/ethos-orchestrate",
-      "contentHash": "2b4b857f",
+      "contentHash": "bfb5fed5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0a358274c9ee506395efccf8cc8e489d32b7e35a"
+          "sha": "d5bf8ceb8178cda564b259266aa8d1a49e26e304"
+        },
+        {
+          "path": "README.md",
+          "sha": "7cc58bbfd0e62cc1bab7c679e3fa3f0054be93c2"
         },
         {
           "path": "SKILL.md",
@@ -12791,11 +12795,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "a31d6add15c8fd9f332f9ba16ab26e2d8f142f69"
+          "sha": "33ec4954b9684324791500045fada6b53510786e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e6c293ad179bdce6b4f9d27891fb5491890ed73e"
+          "sha": "e566dce07cc843c01a0b5ef16cf6fb7ad5a00540"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ethos-orchestrate"
@@ -33544,7 +33548,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "42ec4426",
+      "contentHash": "81e149e7",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -34752,7 +34756,7 @@
         },
         {
           "path": "test/terminal-agent-publication-lock.test.ts",
-          "sha": "a745cf25dbb5a711d16e1a2cba4fbf0f62feb739"
+          "sha": "0bbf5d801e58f89923240bd9905ee270dec1d513"
         },
         {
           "path": "test/terminal-agent-ring-buffer-runtime.test.ts",
