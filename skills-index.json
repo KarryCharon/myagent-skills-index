@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792251589948,
+  "generatedAt": 1792269585466,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35828,7 +35828,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "59006c5c",
+      "contentHash": "fb74db9e",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
@@ -35836,11 +35836,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "46e19240b4aa9c8d6cc17fac2000552b02c62d29"
+          "sha": "47293f45f005305552e8b43e8dc014774b9809f0"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "9f936311aa5aa5c7546d6b6ec416f99cc37d9397"
+          "sha": "765027bc538870fe750ade33cd8ec257dc6b6f8c"
         },
         {
           "path": "sections/audit-phases.md",
@@ -36724,7 +36724,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "3106585d",
+      "contentHash": "bbb609ad",
       "files": [
         {
           "path": "SKILL.md",
@@ -36751,8 +36751,16 @@
           "sha": "de84b6d38b99acf8eea86b4cb8448c7b10035ec9"
         },
         {
+          "path": "src/docx-images.ts",
+          "sha": "1df00b6d6ad36ac66169222f7089a7ddf1b507ff"
+        },
+        {
           "path": "src/html-to-docx.d.ts",
           "sha": "e0958f3849f3480f79efb558c845ed11f8f7e115"
+        },
+        {
+          "path": "src/html-to-vdom.d.ts",
+          "sha": "4224f4fdf0cb8f238d62931aaf7ca66d9d4a824c"
         },
         {
           "path": "src/image-policy.ts",
@@ -36764,7 +36772,7 @@
         },
         {
           "path": "src/orchestrator.ts",
-          "sha": "b392e63939c5b97eff7937313e26f314f5d3269a"
+          "sha": "4fe4405463b90853bb22a2cf89842f97c544d225"
         },
         {
           "path": "src/pdftotext.ts",
@@ -36809,6 +36817,10 @@
         {
           "path": "test/diagram-prepass.test.ts",
           "sha": "52115b6210cb3ed1762a5aad6697dd2114cb2606"
+        },
+        {
+          "path": "test/docx-image-size.test.ts",
+          "sha": "8301303c9819b6f2ebc2ceb395af8857415eac35"
         },
         {
           "path": "test/e2e/ci-prereqs.test.ts",
@@ -36865,6 +36877,26 @@
         {
           "path": "test/fixtures/diagram-gate.md",
           "sha": "c787b47a764e4e610d51c401dd285dbf9177d3b9"
+        },
+        {
+          "path": "test/fixtures/docx-images/doc.md",
+          "sha": "fd1fdec1abd8c93d502dbc57e57faf5e43cd2a90"
+        },
+        {
+          "path": "test/fixtures/docx-images/document.golden.xml",
+          "sha": "e9e4c4c04ca4a94cbff9960dc8fce3bc3192f97e"
+        },
+        {
+          "path": "test/fixtures/docx-images/square.gif",
+          "sha": "3fcc4a7c726df05cb9e8aeb6bcb57c4669478915"
+        },
+        {
+          "path": "test/fixtures/docx-images/tall.jpg",
+          "sha": "7bdd8c0a98ce53a72a4981bd72b2632e582ee6ca"
+        },
+        {
+          "path": "test/fixtures/docx-images/wide.png",
+          "sha": "f388b4ab726a390f111f63b50f3c572b2ea394f1"
         },
         {
           "path": "test/fixtures/emoji-gate.md",
