@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792298364406,
+  "generatedAt": 1792321957970,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -27966,68 +27966,6 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-on-kubernetes",
       "version": "0.1.0"
-    },
-    {
-      "id": "NVIDIA/skills@tao-run-on-slurm",
-      "trust": "trusted",
-      "name": "tao-run-on-slurm",
-      "description": "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed results. Use when running TAO training/eval/inference jobs on an on-prem or DGX SLURM cluster. Trigger phrases include \"run on SLURM\", \"submit sbatch\", \"DGX SLURM cluster\", \"Pyxis/Enroot container\", \"Lustre dataset\".",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/tao-run-on-slurm",
-      "contentHash": "846fdf32",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "8d68bd82383cf6b2f6988a73a72ade8574a66206"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "faad459bf7c4cd5567ec925f37dfc14662533179"
-        },
-        {
-          "path": "config/skillspector-baseline.yaml",
-          "sha": "3329c64dbb51412d17cd14e4e385063c8a106bd0"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "2cc3bac1f3f5b424297e38233bcf3cace9675ff8"
-        },
-        {
-          "path": "references/cosmos-slurm-guardrails.md",
-          "sha": "0465000507eed8178244b05c978c535bb56e219f"
-        },
-        {
-          "path": "references/detailed-guide.md",
-          "sha": "dccba37cf4dd95a26f5ccc75f39fefa27fc3e116"
-        },
-        {
-          "path": "references/skill_info.yaml",
-          "sha": "1c7226b4ed8edc1bac7c6d5bb11b72ababd48c7e"
-        },
-        {
-          "path": "references/slurm-container-execution.md",
-          "sha": "7e2b6e510215097ef40f60f487f3835c5a6f1d76"
-        },
-        {
-          "path": "references/slurm-preflight-storage.md",
-          "sha": "b4bd3efffea7edd28794cd616f37a7ce57b435c1"
-        },
-        {
-          "path": "references/slurm-ssh-credentials.md",
-          "sha": "83a2dcc5112b7c57cd9848c854b56947fcedcf61"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "355f5cbca4de012d27eda9ca348484f10850ef9c"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "89c909f72df5ab9faaeb03b5b54ca79f560c6b1d"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-on-slurm",
-      "version": "0.1.1"
     },
     {
       "id": "NVIDIA/skills@tao-run-on-virtualenv",
