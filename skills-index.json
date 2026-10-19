@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792385193056,
+  "generatedAt": 1792448695902,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7513,6 +7513,67 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-setup-calibration-stack"
+    },
+    {
+      "id": "NVIDIA/skills@compute-sanitizer-diagnose-cuda-bugs",
+      "trust": "trusted",
+      "name": "compute-sanitizer-diagnose-cuda-bugs",
+      "description": "Detect and diagnose CUDA correctness bugs with NVIDIA Compute Sanitizer. Routes GPU memory errors, shared-memory data races, uninitialized-memory reads, and synchronization/barrier bugs to the right sub-tool (memcheck, racecheck, initcheck, synccheck) and explains how to build, run, and read the report. Use when debugging illegal memory access, out-of-bounds, misaligned access, leaks, WAW/WAR/RAW races, __shared__ hazards, uninitialized reads, garbage results, hangs, divergent __syncthreads/__syncwarp, or cuda::barrier / wgmma issues. Do NOT use for host/CPU-side bugs (use valgrind or AddressSanitizer) or global-memory data races (out of scope). Trigger keywords - compute-sanitizer, memcheck, racecheck, initcheck, synccheck, CUDA memory error, OOB, race condition, uninitialized memory, __syncthreads, barrier, deadlock.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compute-sanitizer-diagnose-cuda-bugs",
+      "contentHash": "4c43db77",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "e0b069223580a254cd9b1d3202b795def32ec648"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "14da2afa514a564bb122dbaab2e647bde3b2a6e8"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "e86029cf2158630178082e246d0478ccd8045853"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "b11c5926d8a6f20e3afb36278ea9bacc622c8660"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "fd74bb9a82233287309eaaa02312cc7c904b74b8"
+        },
+        {
+          "path": "references/changelog.md",
+          "sha": "82c95f8be6ed25d8c2b6d2af3ec89c35a2715d74"
+        },
+        {
+          "path": "references/initcheck.md",
+          "sha": "399f848b946ddb569c40a1352c1d49b6ca7602eb"
+        },
+        {
+          "path": "references/memcheck.md",
+          "sha": "2b23f3be6541b89c349e485feb64a83657672f45"
+        },
+        {
+          "path": "references/racecheck.md",
+          "sha": "a98e5926bb47a3aae69ea63b416af49c46b8bada"
+        },
+        {
+          "path": "references/synccheck.md",
+          "sha": "7991d64bc024ebebf446f3699937fd6bf08fd39f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "7dd9da19948878b5a91a501778c2e989f9f98f8e"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "0a4a6985ed27fed06c4a50553c8f59d86dfe7944"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compute-sanitizer-diagnose-cuda-bugs"
     },
     {
       "id": "NVIDIA/skills@cudaq-guide",
@@ -18276,15 +18337,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-voice-agent-builder",
-      "contentHash": "1d8d4682",
+      "contentHash": "c66519dc",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "6669c0a557782cb37aa24008df02e6c5fb0d85b8"
+          "sha": "b0792116e1b293eb9d7d8edb910ce1888b31cf9e"
         },
         {
           "path": "SKILL.md",
-          "sha": "6455c48a2e21207deac4dd6ec5f131d7d55be379"
+          "sha": "858044b21b3c1a74c084b9d2b7399a6cc31420ce"
         },
         {
           "path": "evals/EVAL.md",
@@ -18308,7 +18369,7 @@
         },
         {
           "path": "references/frameworks/omni.md",
-          "sha": "3a3c5e16d320d1b1d1f533d5a9260985784fbab3"
+          "sha": "9b21444edb4ade3863db2ae6290f11bb7f65cb75"
         },
         {
           "path": "references/frameworks/pipecat.md",
@@ -18320,7 +18381,7 @@
         },
         {
           "path": "references/models/asr.md",
-          "sha": "1e5526c0de9c25c8a97b7f6003e2ec41c7f24751"
+          "sha": "f4be4b3d225f32d023e46173af02af8af6243efe"
         },
         {
           "path": "references/models/catalog.md",
@@ -18344,7 +18405,7 @@
         },
         {
           "path": "references/operations/iterate.md",
-          "sha": "b1f01aad06f5132690b14fb2d252f1537fb4ca74"
+          "sha": "71b26f5300cae41caf6986e4d23736c72f16e1ba"
         },
         {
           "path": "references/operations/observability.md",
@@ -18356,11 +18417,11 @@
         },
         {
           "path": "references/operations/troubleshoot.md",
-          "sha": "6ca9d2fcd974b4170de6b324f9d4e6aa941485fd"
+          "sha": "4fca8d66711aac6fd5bf197319cb4b36fd158ce3"
         },
         {
           "path": "references/output-contract.md",
-          "sha": "4e77086096ca8b0b102e638b8174d2328af41628"
+          "sha": "047462c8a43c77c0a5feeb3aa379ed381d17e5f5"
         },
         {
           "path": "references/platforms/deployment.md",
@@ -18388,11 +18449,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "0ffdd1c88c5540e2d873c3ad31a41a44dd09f1bd"
+          "sha": "2c9badfb868d1acc5c7681365419bf0d38bcfd96"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "36257c7c1a5bfee854da2b25215b8ea9adc48557"
+          "sha": "79a44ac4f6f4b910bfabc573587e7ff19e3ada0b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-voice-agent-builder"
@@ -20219,6 +20280,491 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-skill-finder"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-collect-performance-data",
+      "trust": "trusted",
+      "name": "nvshmem-collect-performance-data",
+      "description": "Collect and package NVSHMEM put/get bandwidth, latency, and other perftest results with system and topology evidence for performance sanity checks.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-collect-performance-data",
+      "contentHash": "afae8b47",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "429f5b62d3a5ea0e482639cee6893ff5001f1a61"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2ba462b9c9d3bb995566993a8a9211999784dfd3"
+        },
+        {
+          "path": "assets/performance-report-template.md",
+          "sha": "bdba6334faff4b686c2eb3de184f0a5a3b57933d"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6f3207d42dbb56dde460d5bf5eec32249ca26eb8"
+        },
+        {
+          "path": "references/perftest-catalog.md",
+          "sha": "573e3018e99f8b6fc7bd9d5ccebe720984d5c41d"
+        },
+        {
+          "path": "scripts/collect-performance-environment.sh",
+          "sha": "defaa71f2ac988cbef1b94282a206377c53f19b7"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "80d909fa8d310aabf38f79ce0063cd809ebd3a89"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "119d6a0f338964aad0dfbb8d1b6b905e05dcf3ab"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-collect-performance-data",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-configure-nic-pe-mapping",
+      "trust": "trusted",
+      "name": "nvshmem-configure-nic-pe-mapping",
+      "description": "Recommend NVSHMEM NIC-to-PE mappings and environment exports. Use for HCA selection, multi-NIC configuration, or topology-based mapping diagnostics.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-configure-nic-pe-mapping",
+      "contentHash": "6b2cec13",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "9491c6106158d7a52c531910ae615b9763d4d836"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a04b285e9e83bb3395e71101b54bec1c583eaa3d"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "9bdae01e316a00c664039cfea5065f6c38e36087"
+        },
+        {
+          "path": "evals/files/ambiguous-two-gpu-two-ib.txt",
+          "sha": "7334208369c122b8f6bc95c5ca2eef3b66589935"
+        },
+        {
+          "path": "evals/files/four-gpu-four-ib.txt",
+          "sha": "e38322540ce1c5ceb145535a0619d1f6aaaa4415"
+        },
+        {
+          "path": "evals/files/four-gpu-two-ib.txt",
+          "sha": "4867a34960a51b8f344b787ddc866b42c33a7237"
+        },
+        {
+          "path": "evals/files/mixed-link-inactive.txt",
+          "sha": "bc7aec40b70821b81de15f593741c36105a01a98"
+        },
+        {
+          "path": "evals/files/two-gpu-five-ib.txt",
+          "sha": "e9c2b88861b8cbae3473cb6ea42ea38eda42063a"
+        },
+        {
+          "path": "evals/files/two-gpu-four-ib.txt",
+          "sha": "0d85e40bceffb29ae65154f4daec1c6100f248b9"
+        },
+        {
+          "path": "references/topology-and-output.md",
+          "sha": "87984fa6e14f8ad1be73918d09147a778a259c3c"
+        },
+        {
+          "path": "references/version-transport-matrix.md",
+          "sha": "3576008526e0aa2213dd282a306ad8b61ec70fa0"
+        },
+        {
+          "path": "scripts/collect-nic-topology.sh",
+          "sha": "bcbcceac506cae939454a8b931da776de94b9402"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "af26cab06db40b567b784230ecc6a4119e109d37"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ca0b09e0fbab3ca375d3502859dedff390f60a1d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-configure-nic-pe-mapping",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-docs",
+      "trust": "trusted",
+      "name": "nvshmem-docs",
+      "description": "Find version-aware official NVSHMEM and NVSHMEM4Py documentation for releases, installation, APIs, runtime settings, transports, containers, and troubleshooting.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-docs",
+      "contentHash": "1a8221dd",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "67783fddfbcfd52e3ac567530b729173b6f83ba2"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a25410e1ae09fbe4f83eb1b369631592601fe155"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6fd059b579828acaaa021bfc2638d7814dc84cb6"
+        },
+        {
+          "path": "references/topic-map.md",
+          "sha": "71d4b6e0896c397dff254b1be91bd4efcf22d139"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "256b9600a848bae1133fbbdb048371e9dd55ff3b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "77edd99e57a2d1a4e8fd62b7d6f9c2b665611d62"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-docs",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-enable-tma",
+      "trust": "trusted",
+      "name": "nvshmem-enable-tma",
+      "description": "Prepare or review NVSHMEM CUDA kernels for TMA SMEM registration and direct-SMEM transfers. Do not use for unrelated CUDA tuning.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-enable-tma",
+      "contentHash": "81cbfce5",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2eb2e0ea11adeed96e8ba493f95852abfee58f39"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cadef964c699ce864949c336a9d17c2bec14153b"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "0317e3b4496e7aecd16f37e9052153ff5eb08e1a"
+        },
+        {
+          "path": "evals/files/cuda-transpose.cu",
+          "sha": "bda17bf1bb64030a5c2a357eb108a4c523ab356e"
+        },
+        {
+          "path": "evals/files/direct-smem-put.cu",
+          "sha": "ec2193bbdee42a34646345025e5e5dabf68cab86"
+        },
+        {
+          "path": "evals/files/gmem-staging.cu",
+          "sha": "4ea880aca8d358af855e7fc8bcb1f1ef61e00624"
+        },
+        {
+          "path": "evals/files/multi-node-put.cu",
+          "sha": "ab6094b4dec513f9c65d74de157341baedc0386a"
+        },
+        {
+          "path": "references/direct-smem-put.md",
+          "sha": "0e06e5e0727023723bb60b1f96deb6b2fe55ed15"
+        },
+        {
+          "path": "references/gmem-staging.md",
+          "sha": "6c675947a65b5d5f0974acbda600e06607c0fcf1"
+        },
+        {
+          "path": "references/registration-and-launch.md",
+          "sha": "288e2f1eece920c806d8eb024ec56613326b213f"
+        },
+        {
+          "path": "references/validation-and-troubleshooting.md",
+          "sha": "6995cf784e9a1d834816f1f75fd9d51fbdbd2ecc"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f7c4298cd6466996a79283c877cbcd32392f0e11"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "76e4513ba7626da40a1ceb6ad2e093189f0e03a2"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-enable-tma",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-get-started",
+      "trust": "trusted",
+      "name": "nvshmem-get-started",
+      "description": "Use when NVSHMEM beginners want a tutorial-style overview on assessment, mental models, first C/C++ or Python NVSHMEM programs, compilation, launching, and next steps.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-get-started",
+      "contentHash": "45a1c5f1",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "37025e383d047530c361fb818e6ef9a9001c4952"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "77d154e550ea2bc6a13dc720f1e1ebf3896f2aad"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b872b99dead1eda71c3fd08c6a83ac632bf448bd"
+        },
+        {
+          "path": "references/basic-api-calls.md",
+          "sha": "a9b02b836c2ba30b0f9d38b79177f74b6a5c6d95"
+        },
+        {
+          "path": "references/mental-model.md",
+          "sha": "62032bea6eadd5043bb280b3a57f72edc93493e0"
+        },
+        {
+          "path": "references/nvshmem4py-programs.md",
+          "sha": "52889fafce4f3c41409bc21afcfb5f1498d0be4a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "67575a0aec0cfd493767576124cee5cea615c587"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "46f0ed57c77e8067189583af2ee6df35108482fc"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-get-started"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-install",
+      "trust": "trusted",
+      "name": "nvshmem-install",
+      "description": "Plan and validate NVSHMEM and NVSHMEM4Py installations. Use for package, container, or source deployments.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-install",
+      "contentHash": "438ff35c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "fe2cca8dc0177c0226b19c13714ad4a80eeaef22"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "efd03c9e71dc5964e9905655b5638d2d48742004"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "8c50fd0dabdf60833108b321b4fb8e08a5935ef0"
+        },
+        {
+          "path": "references/execution-and-validation.md",
+          "sha": "769a27ea90361354b620f9d9723dec71a534ce48"
+        },
+        {
+          "path": "references/failure-handoff.md",
+          "sha": "36b1a9695d65f0efbdadc44fd3863a24ce1f4ed7"
+        },
+        {
+          "path": "references/installation-matrix.md",
+          "sha": "3c51ff6eee5926c2931b7e06a792914539010c45"
+        },
+        {
+          "path": "references/source-build.md",
+          "sha": "5019bc8a146ae8ca0e455dd5eec357b2e8720422"
+        },
+        {
+          "path": "scripts/collect-system-info.sh",
+          "sha": "fe6a53f629be7bccbb1707b1eba1e0b407b4bde1"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9ec3c2ca7148d0204e8de7ce332109864e25b1c2"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8f1a1d878f710dd34337bfaba1aacb6a2f8772a8"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-install",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-select-remote-transport",
+      "trust": "trusted",
+      "name": "nvshmem-select-remote-transport",
+      "description": "Select an NVSHMEM remote transport from target system and kernel evidence. Use for inter-node selection, compatibility checks, or configuration.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-select-remote-transport",
+      "contentHash": "5dd9def4",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b4962dd47b62e43d332da8c7c3b89e2b1fb157d8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b001a836977306dacf5e96e85ab794044c6d126c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1360f5c56f4b39dd632d5b3eb34590823f3bb049"
+        },
+        {
+          "path": "evals/files/efa.txt",
+          "sha": "5d92bb84b753fcb9e6e0b2345d3b3a644ae1954d"
+        },
+        {
+          "path": "evals/files/fine-grained.cu",
+          "sha": "07d6efbdf62fa754f6f921ed7e9553818e02391a"
+        },
+        {
+          "path": "evals/files/mellanox-gpunetio.txt",
+          "sha": "13081d738d335fd72f632a409b1c1e9ceb088ec6"
+        },
+        {
+          "path": "evals/files/mellanox-ibgda.txt",
+          "sha": "5f399f34b923fa829f88dd9cbeb0845ad624fd74"
+        },
+        {
+          "path": "evals/files/missing-plugin.txt",
+          "sha": "0744f953ec5f7249cc0c99692d99a95a4f4144d5"
+        },
+        {
+          "path": "evals/files/mixed-api.cu",
+          "sha": "79b639dc0d405cdc9985709b80d258b8c490fefd"
+        },
+        {
+          "path": "evals/files/nvlink-only.txt",
+          "sha": "c8f464a3e4a0fb18573636c10e0d5570c3925f5a"
+        },
+        {
+          "path": "evals/files/packed-put.cu",
+          "sha": "dd4b2d44cc4b387e9386fd2b9d56450fdf46b5ca"
+        },
+        {
+          "path": "evals/files/slingshot-cxi.txt",
+          "sha": "403b977417c93823f1947878c6ee297de25d0e87"
+        },
+        {
+          "path": "evals/files/ucx-only.txt",
+          "sha": "d6d2b1665d6cb3c67d425d1cb9d7ba5fbec193c7"
+        },
+        {
+          "path": "evals/files/unknown-version.txt",
+          "sha": "98cb279cd30dd97b64966f215966fe70806c55ec"
+        },
+        {
+          "path": "references/kernel-fit.md",
+          "sha": "e0dda055d7527c6fa1641b41fa2072e514fd2f23"
+        },
+        {
+          "path": "references/transport-matrix.md",
+          "sha": "faaef6ddbd5eda65d7cb93bcc32a0860d4d71a79"
+        },
+        {
+          "path": "scripts/collect-transport-facts.sh",
+          "sha": "a456e8bbe625488629b0a034629954516338c774"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "8a87f1639d48d46329176e32373b018fc9a948ca"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "af5a1f801b797070d8d307e294a12564efdf4516"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-select-remote-transport",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-troubleshoot-and-report-bugs",
+      "trust": "trusted",
+      "name": "nvshmem-troubleshoot-and-report-bugs",
+      "description": "Diagnose NVSHMEM runtime failures and prepare bug reports for launch, crashes, hangs, correctness, transport, or topology issues.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-troubleshoot-and-report-bugs",
+      "contentHash": "cf2c4b5f",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "79041d367be6a5f4a44d4171d6f687aef2a6335a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "68cbfbc61fd102baf675c49197852450e4cdaaad"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "e5087f9cb8d4a34909632bcbdb5756207eb0eade"
+        },
+        {
+          "path": "references/bug-report-template.md",
+          "sha": "59f9ec75d8bae9987e7a618d184f0d77bbc5d4b3"
+        },
+        {
+          "path": "references/troubleshooting-knowledge-base.md",
+          "sha": "daa4aadca739df149129e5f47bf1e0e0ebb11787"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "21a9b3403b7819d49c2cab6fbfd301779ca73a4b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "9b46c70de1ec8ea69c754b388d3fc75391012961"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-troubleshoot-and-report-bugs",
+      "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@nvshmem-tune-performance",
+      "trust": "trusted",
+      "name": "nvshmem-tune-performance",
+      "description": "Route NVSHMEM tuning to data collection, remote transport, NIC-to-PE mapping, or TMA. Do not use for unrelated CUDA, NCCL, or application tuning.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvshmem-tune-performance",
+      "contentHash": "88c1169c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ae1a7182eb14a47ce3cdb3db55df288a75bad80c"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "6504398cf18c94ba77047caae6e9bfbc335677e6"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "9bd3f33eea5de87d728b8208b1d46321719e2d85"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "16e989502b0bbc6633fc22a2deda14197f98456d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "89f1930b16c08903459640a61d650238a5a3fb8a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvshmem-tune-performance",
+      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@omniverse-cad-to-simready",
@@ -22989,6 +23535,64 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-neural-reconstruction"
+    },
+    {
+      "id": "NVIDIA/skills@physical-ai-physics-selection",
+      "trust": "trusted",
+      "name": "physical-ai-physics-selection",
+      "description": "Choose a physics engine and integration for robot learning, manipulation, assembly, differentiable optimization, or other Physical AI simulation. Compare Newton, PhysX, MuJoCo/MJX, Bullet/PyBullet, VSim Robotics, Genesis, and Drake. Evaluate Newton first for suitable new workflows, select ovnewton when supported shared-stage integration adds value, then verify setup. Use for simulator comparisons, migration decisions, and Newton/ovnewton first-run issues; preserve an explicitly chosen engine.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/physical-ai-physics-selection",
+      "contentHash": "fd89c854",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "c00472238d5a54a3eeb656308e3e92ecf85bdc18"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a673105b6a5f54ce8da9b546514f8f148b7e668a"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "3d12d794371e93d25dbc133e707bd68a04a71512"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "bd5d2a796f6d632afd826dc198f2a557948ce5ec"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "65ded2d5e638f0ebfad4f6fd69f5142634b65bf2"
+        },
+        {
+          "path": "references/engine-selection.md",
+          "sha": "befcad47b6cb15fc356be58bda881037add73337"
+        },
+        {
+          "path": "references/routing-and-runtime.md",
+          "sha": "788d7083e71aa452917e20e1e578bf071b0276cb"
+        },
+        {
+          "path": "references/selection-validation.md",
+          "sha": "ffcc091cffe74fe7aa1c811f7f2358b9ad9468f1"
+        },
+        {
+          "path": "scripts/probe_environment.py",
+          "sha": "0e3ab735f2d73ff9f2a3ef5a3d49430c6981999a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2a6476c630c1aeff4626e6e3520b44aab755b158"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "2ddefc2775b198918e18ba17733b0993a2b41243"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-physics-selection",
+      "version": "0.2.0"
     },
     {
       "id": "NVIDIA/skills@physical-ai-video-data-augmentation",
@@ -34336,7 +34940,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "20c5dc35",
+      "contentHash": "bc4e74ed",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -34392,7 +34996,7 @@
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "338c6dd6b2a5e5da2469721a1b39a5778dc69000"
+          "sha": "7ad4808132095fcbe049fcaf89bc79b5c53092ef"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -34444,7 +35048,7 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "d774d23d5398fb15d2a5ac4a1e915b33aa352e78"
+          "sha": "556947f0dedad786efa80bfe70c34a5bf89ab840"
         },
         {
           "path": "src/commands.ts",
@@ -34544,7 +35148,7 @@
         },
         {
           "path": "src/meta-commands.ts",
-          "sha": "8cc9e2e6c8917c102b50be3f5e5c754cba92c634"
+          "sha": "af49910a9b070028cf6cf653da9266815d04d7b7"
         },
         {
           "path": "src/network-capture.ts",
@@ -34596,7 +35200,7 @@
         },
         {
           "path": "src/routes/core.ts",
-          "sha": "491fc5f769eebe24922dea7857219681f8f4ef4f"
+          "sha": "611448594eb1ac9b6e925e7d3ed60738772ed8a6"
         },
         {
           "path": "src/routes/files.ts",
@@ -34807,6 +35411,10 @@
           "sha": "86e3c8e6619e4c08d87e2f589f65b88aabe476be"
         },
         {
+          "path": "test/busy-active-tab.test.ts",
+          "sha": "04a15861b146c4978758b49d56afc87dcc0a6676"
+        },
+        {
           "path": "test/busy-daemon-iron-rule.test.ts",
           "sha": "57aa7777cd5eaf215a4af80c311b5d4de32efc14"
         },
@@ -34869,6 +35477,10 @@
         {
           "path": "test/cli-supervisor.test.ts",
           "sha": "a689a025a603e0e1378ca50d7d69e107d3df5a8f"
+        },
+        {
+          "path": "test/command-timeout-report.test.ts",
+          "sha": "0505c0737b48aec86b9189fde4c989b3a0be4c81"
         },
         {
           "path": "test/commands.test.ts",
@@ -35572,7 +36184,7 @@
         },
         {
           "path": "test/terminal-agent.test.ts",
-          "sha": "f066d1a2392c2a55c74d958f9ba82bac8b33bcc6"
+          "sha": "c5b247ac1a01d2dee42f43bd1e080a87303466a4"
         },
         {
           "path": "test/terminal-pty-lifecycle.test.ts",
@@ -35786,15 +36398,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-restore",
-      "contentHash": "b6ac94c7",
+      "contentHash": "c361eca5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f69ce4a4a1654b552c6d9f1ee5a3690a38f6d050"
+          "sha": "ea94985f4b438450bb5fe2cda3981cd982634337"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "066594e6eaa3140a8474bbe76fdb072380b58dcd"
+          "sha": "dbebf92e547c75a81bd4da316e25d97f556f4a29"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/context-restore"
@@ -35807,15 +36419,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-save",
-      "contentHash": "f6cdadc8",
+      "contentHash": "fab88a92",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9998eb56b5eb8a31c66053f6b63ab0aeea2206f9"
+          "sha": "d68858b9c926911017fbae1f296806b9b3fea573"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "87dc9b42835a1ee3b1095eac72ac9dcbcd76b230"
+          "sha": "91fce9edf157b837007eb9bf1097c889a8feab6f"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/context-save"
@@ -37239,7 +37851,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "a5b07a3e",
+      "contentHash": "806dcdad",
       "files": [
         {
           "path": "SKILL.md",
@@ -37263,11 +37875,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "634a008eb56e1e0fb95df37ba4d51ea1c8708849"
+          "sha": "284817693875341b47db4770d46874417f2a99dd"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "737e3db3749650af7f34f3eac8d5d878878e6819"
+          "sha": "63f5787970a22d1ea682e335ae6e7eaef2c2a717"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-eng-review"
@@ -37602,15 +38214,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-browser-cookies",
-      "contentHash": "9e8b820d",
+      "contentHash": "30428453",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1aa2a0433e4b7457e00268a6be5021217e793468"
+          "sha": "830f9c7c22dde6ada230586cf68c6b4925232de6"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f6ed3f61e777b73745e28fc89c64bd2bafe2b92d"
+          "sha": "82313c668c4a511fadffdf831a78e2412c4d461a"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/setup-browser-cookies"
