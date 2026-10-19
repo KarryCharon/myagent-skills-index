@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792338941099,
+  "generatedAt": 1792385193056,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35828,7 +35828,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "fb74db9e",
+      "contentHash": "63723ea8",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
@@ -35836,11 +35836,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "47293f45f005305552e8b43e8dc014774b9809f0"
+          "sha": "1b8030423c485ca5af4a6296e0282073fbbe7d1f"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "765027bc538870fe750ade33cd8ec257dc6b6f8c"
+          "sha": "8030addaf086c029fd0a9df9645466000c61318e"
         },
         {
           "path": "sections/audit-phases.md",
