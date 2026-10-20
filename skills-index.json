@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792472197278,
+  "generatedAt": 1792516381799,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13061,151 +13061,57 @@
       "version": "1.0.0"
     },
     {
-      "id": "NVIDIA/skills@holohub-app-lifecycle",
+      "id": "NVIDIA/skills@holoscan-app-debug-build-run",
       "trust": "trusted",
-      "name": "holohub-app-lifecycle",
-      "description": "Use for non-failing HoloHub app work with ./holohub: scaffold, build, run, test, visual evidence, lint, and flow benchmarking.",
+      "name": "holoscan-app-debug-build-run",
+      "description": "Use when a concrete holoscan command in holoscan-applications or a standalone Module fails, hangs, regresses, or returns wrong output.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
-      "path": "skills/holohub-app-lifecycle",
-      "contentHash": "cfbcd9e0",
+      "path": "skills/holoscan-app-debug-build-run",
+      "contentHash": "4417aa9a",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "34f5db5076f0bbe443a2181fa2827bd66cbcabd5"
+          "sha": "eacf0099acf45bca266c2d00d2559f6bf005fe20"
         },
         {
           "path": "SKILL.md",
-          "sha": "478949691572fbec59162bb07164232b1d645909"
+          "sha": "0828adf7b58599eaa0938d01224078863b0270a3"
         },
         {
           "path": "evals/evals.json",
-          "sha": "20afe1c2b9c6ff1d33147c67c0514bd4bbc47071"
+          "sha": "b734660effa1da631b2cee0c9a3cb69e39c93e65"
         },
         {
           "path": "evals/extended-evals.json",
-          "sha": "19c766499a4a6724c0c50428f2f13b4be8069dc5"
-        },
-        {
-          "path": "references/application-workflow.md",
-          "sha": "ed87c2f0121ff27d0940df3f23131f2e0c22bae1"
-        },
-        {
-          "path": "references/flow-benchmarking.md",
-          "sha": "c963f3e4107f6e3d91ea45df21c290ee6133a4fa"
-        },
-        {
-          "path": "references/holohub-cli-contract.md",
-          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "8f216ae9ba698bed2739f5df4317c28df1a7652c"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "c0123ceb13161b4175336016099e5977de35ad02"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-app-lifecycle"
-    },
-    {
-      "id": "NVIDIA/skills@holohub-debug-build-run",
-      "trust": "trusted",
-      "name": "holohub-debug-build-run",
-      "description": "Use when a concrete ./holohub command fails, hangs, regresses, or returns wrong output and needs reproducible diagnosis and verification.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/holohub-debug-build-run",
-      "contentHash": "b8f6487e",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "4b25bab319aecefd32015e6f2a73910bc1e6d094"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "96fdc4f9ea8b915332a88f8b0577cbedac656a30"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d7be00cea3b26f9c272f9ca85bf3ee54cff3e120"
-        },
-        {
-          "path": "evals/extended-evals.json",
-          "sha": "4ee6babeabea0ff08832adfebf8ccd38c8cd6246"
+          "sha": "7c57b54da83f3e9c5c6b54aefb57687c9d0f94f0"
         },
         {
           "path": "references/debug-workflow.md",
-          "sha": "1edc5e9fe11e3fd2e0246275cf453eecd89f00ee"
+          "sha": "6051fb7ee44739e23e2147453a0b4032b05d762f"
         },
         {
-          "path": "references/holohub-cli-contract.md",
-          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
+          "path": "references/holoscan-cli-configuration.md",
+          "sha": "7d6f2d44b11a50f8b593abb8747d28746579958c"
+        },
+        {
+          "path": "references/holoscan-cli-contract.md",
+          "sha": "5d73055c1326c3989cb8826770a464c132435f1b"
         },
         {
           "path": "references/known-issues.md",
-          "sha": "7d131651e36e7d347b1aaf0563a46c9e6f609574"
+          "sha": "735a9ef5c5f307949a3bc387c186204fce9d5c85"
         },
         {
           "path": "skill-card.md",
-          "sha": "a1489b82b25de76d4cc4bd4777696ca4cbf19aa3"
+          "sha": "288006c4d07a6c9a78a500b783a21d12a130769e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "0fc12af2c0c032fb9fd486de52fa3fbc840ba44c"
+          "sha": "ae1408c39ff0f05d161834baa650f76a8af84599"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-debug-build-run"
-    },
-    {
-      "id": "NVIDIA/skills@holohub-module-lifecycle",
-      "trust": "trusted",
-      "name": "holohub-module-lifecycle",
-      "description": "Use for reusable Holoscan Module work with ./holohub: scaffold, tests, editable install, DEB/WHEEL packaging, and clean-consumer proof.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/holohub-module-lifecycle",
-      "contentHash": "65c5435f",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "2e0a80fcd3e81bd20a40beaa2c3d01e091adadb6"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "daa8857882d5bd4435395c566cd1fbab2f3498f6"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d1397d8917cbefb07846ff939b51051234c87e79"
-        },
-        {
-          "path": "evals/extended-evals.json",
-          "sha": "88715cc581bfa37e2b8831ddbbb5c0bbbb1f2b5c"
-        },
-        {
-          "path": "references/holohub-cli-contract.md",
-          "sha": "9a9769249c4e022448c7d5712b190695a9c7cbe8"
-        },
-        {
-          "path": "references/module-consumer-packaging.md",
-          "sha": "f1fe8d6c95bdee08851b1867c2fca278c5a89d36"
-        },
-        {
-          "path": "references/module-development.md",
-          "sha": "8432b92ea26fc119090ed7ba9ecc5795a29c5f7b"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "3585a22bdb782dbc82a13dd20025b176034c70f8"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "d3419de518a13f1cd6aa374024fd42085ca8cec6"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holohub-module-lifecycle"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-app-debug-build-run"
     },
     {
       "id": "NVIDIA/skills@holoscan-install-conda",
@@ -13371,6 +13277,59 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-wheel"
+    },
+    {
+      "id": "NVIDIA/skills@holoscan-module-lifecycle",
+      "trust": "trusted",
+      "name": "holoscan-module-lifecycle",
+      "description": "Develop external Holoscan Modules with the Holoscan CLI and use them in Holoscan applications: scaffold, test, Python bindings, DEB/WHEEL packaging, and clean-consumer proof.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/holoscan-module-lifecycle",
+      "contentHash": "78a8a85d",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "8d0c5a3ba1c241a4be2f5db4408feca5054f30d0"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "56c9ae714b5f071402cd4d3dca9b0acd8682591e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "c80591b7c6933b11bab9d0211ae08a211bc3fbde"
+        },
+        {
+          "path": "evals/extended-evals.json",
+          "sha": "0ce936bb6dde3fc7d055e636eb608d22acd41a69"
+        },
+        {
+          "path": "references/holoscan-cli-configuration.md",
+          "sha": "7d6f2d44b11a50f8b593abb8747d28746579958c"
+        },
+        {
+          "path": "references/holoscan-cli-contract.md",
+          "sha": "5d73055c1326c3989cb8826770a464c132435f1b"
+        },
+        {
+          "path": "references/module-consumer-packaging.md",
+          "sha": "fb21c4f61ff0412d58866de23f0b2129a96ce512"
+        },
+        {
+          "path": "references/module-development.md",
+          "sha": "8700844b68e5158f75bc6b1c1e3f214dbcdaf97e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "1ed148ff9576cf2b6a778692cdd84cf23098fb72"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "fe40702832fc1801eb21ac73cab273a92021f252"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-module-lifecycle"
     },
     {
       "id": "NVIDIA/skills@holoscan-setup",
@@ -34940,7 +34899,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "7c2a1b0f",
+      "contentHash": "74df46f2",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -36232,7 +36191,7 @@
         },
         {
           "path": "test/xvfb.test.ts",
-          "sha": "ff2164eda32fb37f917ac9d6ae927ab3eb0f69aa"
+          "sha": "d6c508541ed66a2268167f68ed97f703443a3915"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/browse"
