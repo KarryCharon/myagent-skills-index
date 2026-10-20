@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792516381799,
+  "generatedAt": 1792532457721,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -32906,1106 +32906,282 @@
       "version": "2026.06.03"
     },
     {
-      "id": "NVIDIA/skills@vss-ask-video",
+      "id": "NVIDIA/skills@vss-build-vision-ai",
       "trust": "trusted",
-      "name": "vss-ask-video",
-      "description": "Use this skill to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions.",
+      "name": "vss-build-vision-ai",
+      "description": "Add agent-ready vision capabilities — dense captioning, detection, search, alerting, summarization — to an agent or application through a customizable, self-contained vision stack built on the NVIDIA VSS Blueprint. Use this skill when a developer or agent wants to give their app vision: pick capabilities via guided intake (\"build a vision agent\", \"add vision capabilities\") or describe them in natural language (\"create a profile for streaming dense captioning\", \"add agentic search to my base deployment\", \"deploy warehouse 3d\"). Route, compose, configure, and deploy stock base, alerts, LVS, search developer profiles, or the warehouse industry profile and lean custom combinations expressed as delta overlays using one current developer profile as the Foundation. Not for operating a stack that is already deployed — searching, asking about a video, summarizing, managing alerts, or generating a report — and not for deploying a single microservice on its own; use the matching vss-* skill for those.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
-      "path": "skills/vss-ask-video",
-      "contentHash": "a0bd68e6",
+      "path": "skills/vss-build-vision-ai",
+      "contentHash": "6ac3040a",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "424fb91a829a8fcc0e56dd24522cbfb030fcee29"
+          "sha": "1da556c10e2a5c5d060693c823e723a214de9653"
         },
         {
           "path": "SKILL.md",
-          "sha": "b23555a22537387472386e714418325d79b4d7ab"
-        },
-        {
-          "path": "evals/base_profile_video_understanding.json",
-          "sha": "dd33b3a549c905aaa788fff45ede93679676d506"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d1d85b51ab6f9e9ac72f060c2640ccd739550f7a"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "18f03dfff262d73a1b562ad53f08089fed833649"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "bceb78144006be4302c32dbe733c96c46abcd9fd"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-ask-video",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-deploy-dense-captioning",
-      "trust": "trusted",
-      "name": "vss-deploy-dense-captioning",
-      "description": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-deploy-dense-captioning",
-      "contentHash": "9561a30e",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "ab1194090ab3ce6345f1cdeef3a99448d5d2b4d3"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "7b1f5c977f58e66ec840690b6056f4eefa9524fe"
-        },
-        {
-          "path": "evals/.gitkeep",
-          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
-        },
-        {
-          "path": "evals/alerts_profile_api.json",
-          "sha": "0ebf0694632be73eaa46f37b487981c4afcea38a"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "05cb957f560a007aaa5b37b34140502796b6d8b1"
-        },
-        {
-          "path": "evals/standalone_api.json",
-          "sha": "9342d9cbbbe0783c8f2a6730e874e9baa85192d5"
-        },
-        {
-          "path": "references/api-surface-26.05.md",
-          "sha": "a4d6cec6cf42461099f40155593eac5eeaad56cc"
-        },
-        {
-          "path": "references/deploy-rt-vlm-service.md",
-          "sha": "435488c9d057287de3339676dd10de2cad646b94"
-        },
-        {
-          "path": "references/kafka-workflows.md",
-          "sha": "23446db8d992a519c93eadf6d2c774fe1157a4f8"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "b70c40f17636c13b7313e3b517817d16c8514e53"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "45e413c09f8772e44015d6f793984679604b8f81"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-deploy-dense-captioning",
-      "version": "3.2.1"
-    },
-    {
-      "id": "NVIDIA/skills@vss-deploy-detection-tracking-2d",
-      "trust": "trusted",
-      "name": "vss-deploy-detection-tracking-2d",
-      "description": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like 'deploy rtvi-cv', 'start warehouse 2d', 'add a stream', 'check rtvi-cv health', or 'stop the perception container'. Not for VLM, embedding, or analytics — use the matching vss-* skill.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-deploy-detection-tracking-2d",
-      "contentHash": "2f644f12",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "2c93460e08b1335fcba7d0181a278fbb008a6751"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "cdeb2472aec62e3549941fc80ec4a0418d15c5fb"
-        },
-        {
-          "path": "assets/deploy-defaults.yml",
-          "sha": "45e827d7a2bf44cf53d9823a4df613a00e6574ed"
-        },
-        {
-          "path": "evals/deploy-evals.json",
-          "sha": "2612e9c80b75c9da4ed5aabb0f4dee4f10870b96"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "f67ba827156eea49fffb30b429fa2d8d80f81f09"
-        },
-        {
-          "path": "evals/usage-evals.json",
-          "sha": "0ff44329b0ad0be0de89c10f577bad30860e51b5"
-        },
-        {
-          "path": "references/api-reference.md",
-          "sha": "7d0bf427328e04f86aa1da30c8e496b9a9a03271"
-        },
-        {
-          "path": "references/apply-config.md",
-          "sha": "4cfdfed021bfcade4edbae863bb766d00ece9ebb"
-        },
-        {
-          "path": "references/container-reuse.md",
-          "sha": "5d76104aeb62bc80234a45f97eab8e4af70a8067"
-        },
-        {
-          "path": "references/deploy-vss-detection-tracking-2d.md",
-          "sha": "92cf042fbf6b6dbd07a364ea7ee9c782a756bf0d"
-        },
-        {
-          "path": "references/environment.md",
-          "sha": "31ec7041d206e0d47f0e1be44ecb0574beb1f813"
-        },
-        {
-          "path": "references/next-steps.md",
-          "sha": "b89da52f4f99faa33ce4e87fbbdab375b8f61921"
-        },
-        {
-          "path": "references/ngc-setup.md",
-          "sha": "8e91e00407c0438df8bbc085f0686da6e2134570"
-        },
-        {
-          "path": "references/pipeline-config.md",
-          "sha": "250fa36516a9de4c708add9b7f392174b737bc4a"
-        },
-        {
-          "path": "references/platforms.md",
-          "sha": "0f6ecbe767bc6e67ec8a5636954c72cb59ebd455"
-        },
-        {
-          "path": "references/resource-plan.md",
-          "sha": "17c06b002df0203da0e957a93b569a2d0f02298d"
-        },
-        {
-          "path": "references/start-app.md",
-          "sha": "705cbf93040c9f83670809322471f6bf920d1c79"
-        },
-        {
-          "path": "references/task-list.md",
-          "sha": "9496d7b6420835688399c81f2f07842957a01dcf"
-        },
-        {
-          "path": "references/teardown-flow.md",
-          "sha": "e58e33893498399244a890da08c682d71d02239e"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "27b4895cba7f9c730754f33ccb7dfbc8a1fa0093"
-        },
-        {
-          "path": "references/upgrade-rollback.md",
-          "sha": "26ce2a8bccbe3da014d118f5f7bf93ca1cf7ecd5"
-        },
-        {
-          "path": "references/usage-vss-detection-tracking-2d.md",
-          "sha": "8841f46cdd4c7c4482444d965b2817fc2e4a61bc"
-        },
-        {
-          "path": "references/usecases.md",
-          "sha": "852b7b5d68dcd634a2417c53f658bd43b7d434f4"
-        },
-        {
-          "path": "references/ux-conventions.md",
-          "sha": "96e641a9ff1c68809e17f9d51114dc6b2feb952c"
-        },
-        {
-          "path": "references/workflow-reference.md",
-          "sha": "42c11bf00c342c7301e81bf9a67c7d7066fc1fa9"
-        },
-        {
-          "path": "scripts/add_streams.sh",
-          "sha": "5a4634eea896f780dc11f1c928617f2e451e2643"
-        },
-        {
-          "path": "scripts/apply_config.sh",
-          "sha": "343c750ff27fc5d00e1d375cd0ad1f2fb568a665"
-        },
-        {
-          "path": "scripts/apply_in_container.sh",
-          "sha": "b585ab8306e8cb40e7b08b1d632eb5ae3ba334e3"
-        },
-        {
-          "path": "scripts/cache_nvinfer_engine.sh",
-          "sha": "1595e3b635b61891222d055c125b0a3c673887bc"
-        },
-        {
-          "path": "scripts/calibration_manager.py",
-          "sha": "a8550214228441d0bfe70385ad13730a5a26fb48"
-        },
-        {
-          "path": "scripts/check_container_gpu.sh",
-          "sha": "758b4cde787180089da0d723ac071db1570fae53"
-        },
-        {
-          "path": "scripts/clean_engine_cache.sh",
-          "sha": "44c699ddf327752cab8c7c9ce235c1b6b1dab32f"
-        },
-        {
-          "path": "scripts/collect_metrics.sh",
-          "sha": "2f99966bff5fa77c270cece3b195e8c70caf42b3"
-        },
-        {
-          "path": "scripts/common.sh",
-          "sha": "6f13dbf31f6c3f0ae3492e8b2c63aaa2d9aadf10"
-        },
-        {
-          "path": "scripts/discover_streams.sh",
-          "sha": "93abfa81c3cbf3c4b6af2e841465a037fe2a1c3f"
-        },
-        {
-          "path": "scripts/fetch_resources.sh",
-          "sha": "23dbf6d286e8c82b802850e5ecba04f1e93d5a3d"
-        },
-        {
-          "path": "scripts/load_defaults.sh",
-          "sha": "5d9ff22e91a162930becbfb33659d4586611f2f1"
-        },
-        {
-          "path": "scripts/prelaunch_nvinfer_engine.sh",
-          "sha": "4f431ba51219aca386f27cf2e7e459cd482c71f2"
-        },
-        {
-          "path": "scripts/render_box.sh",
-          "sha": "689909e21e2fc1d8e7641192e5d9cc4e79eaabff"
-        },
-        {
-          "path": "scripts/run_app_and_wait.sh",
-          "sha": "5696fa6e363790954eded454d69435f27a3e1e24"
-        },
-        {
-          "path": "scripts/setup_gdino.sh",
-          "sha": "31dd253c00853d1ed86188a19d5171d44476d2e0"
-        },
-        {
-          "path": "scripts/setup_sparse4d.sh",
-          "sha": "920ee5fb390cafdc0febb7f3b3e8b888757772be"
-        },
-        {
-          "path": "scripts/setup_tracker_reid.sh",
-          "sha": "e1a8d773c31d823dc296ab3717ff17ac808c0e5b"
-        },
-        {
-          "path": "scripts/start_app_in_container.sh",
-          "sha": "e353aca27a6bca4de3bc922b59f9c067b1f71235"
-        },
-        {
-          "path": "scripts/synthesize_docker_run.sh",
-          "sha": "e78a1044375fe0b4972c5227d5a562a6d3c6d650"
-        },
-        {
-          "path": "scripts/update_batch_size.sh",
-          "sha": "a925f948adc03077d6333f7a785fd2b0f40fb803"
-        },
-        {
-          "path": "scripts/update_output_sink.sh",
-          "sha": "421a8b3b4daa0e18a54adb895dfc7cfa7fc9fc7d"
-        },
-        {
-          "path": "scripts/update_stream_sources.sh",
-          "sha": "bf4b75ca3e933cd0442654cfaf81d963bf6e2e8b"
-        },
-        {
-          "path": "scripts/write_deployment_log.sh",
-          "sha": "66be017f7e6492e4d391a43e2e518488961b0e8f"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "0aa07ead23aff8f6015664ef8933002600cb0368"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "9d12a17978c145d12cb02cbdee11a65426fc89c1"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-deploy-detection-tracking-2d",
-      "version": "3.2.1"
-    },
-    {
-      "id": "NVIDIA/skills@vss-deploy-detection-tracking-3d",
-      "trust": "trusted",
-      "name": "vss-deploy-detection-tracking-3d",
-      "description": "Deploy and operate the RTVI-CV-3D microservice as MV3DT (`MODE=mv3dt`): per-camera DeepStream perception plus BEV Fusion over calibrated cameras. Supports the bundled sample dataset, custom video files, and RTSP streams, and chains to `vss-generate-video-calibration` when calibration is missing. Use `vss-deploy-profile` for the full warehouse blueprint and `vss-deploy-detection-tracking-2d` for single-camera 2D detection.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-deploy-detection-tracking-3d",
-      "contentHash": "154f9837",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "638cf08b13b62d6d7cfb7c55da554ea6a7bbce57"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "fadd7abcdd8be70112eb6f1a858d5335eacac25a"
-        },
-        {
-          "path": "evals/calibration-chain.json",
-          "sha": "81835914946d599f650159a961e0b6f3ad6a0c21"
-        },
-        {
-          "path": "evals/deploy.json",
-          "sha": "e64d3b5ee3f262826d52a194dae01f658e80dff8"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "6613c28da0875aa8fb7b8a6928c423c911674420"
-        },
-        {
-          "path": "evals/routing.json",
-          "sha": "1050d289f0d6b8c94813947f1e09f602c34c9836"
-        },
-        {
-          "path": "references/calibration-workflow.md",
-          "sha": "068b310911fd91fff745869fa54e50075f80ba6b"
-        },
-        {
-          "path": "references/configure-cameras.md",
-          "sha": "a5d352a7670624dd9837ea391a32a0677366f3bb"
-        },
-        {
-          "path": "references/deploy-rtvi-cv-3d-stack.md",
-          "sha": "0bf54f06a4543aa9f071cec4d4f7a3d397ae896f"
-        },
-        {
-          "path": "references/teardown.md",
-          "sha": "caa28443c1f4f5ffcf5e1a7d9249871f6c77ef92"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "e318bef8d26768bb72d2acaaec11f71eb115cd53"
-        },
-        {
-          "path": "references/verify-and-view.md",
-          "sha": "3fb2ea49bcf7f4e74a8658ecb11149e5e75a42ff"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "d8de76613be5bca3d3a6a1fa82936b8d4efa6096"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "88a2d9cc536e1d07af12b25d43759e0283019c07"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-deploy-detection-tracking-3d",
-      "version": "3.2.1"
-    },
-    {
-      "id": "NVIDIA/skills@vss-deploy-profile",
-      "trust": "trusted",
-      "name": "vss-deploy-profile",
-      "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-deploy-profile",
-      "contentHash": "34fbe8dc",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "ab97d3eb7486dd5180c5e35d013c05334c19aa89"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "155aad4f240f3a38aa3a2559af3a3ec8d704603b"
-        },
-        {
-          "path": "evals/alerts_cv.json",
-          "sha": "1d766e1e333e056668993232b2d9b572dc341a5a"
-        },
-        {
-          "path": "evals/alerts_vlm.json",
-          "sha": "89fd55e53909b8bfb0b1e5a1d9d1724f1e818cea"
-        },
-        {
-          "path": "evals/base.json",
-          "sha": "6ab1b405cf8f495ea0f4b625c7239baf6f0e4abe"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "e50a81bf61a9ec2683ce2ac097c517963f300df0"
-        },
-        {
-          "path": "evals/lvs.json",
-          "sha": "fe65a8e1359c1348edef5a747f21b3e01e9fee0c"
-        },
-        {
-          "path": "evals/search.json",
-          "sha": "bf870bc24a6c4638f35e83b00910c927cd955b55"
-        },
-        {
-          "path": "evals/warehouse.json",
-          "sha": "09009b82c96fd8370d61f77e547b8848f745bbac"
-        },
-        {
-          "path": "references/alerts.md",
-          "sha": "cd4e9878e25a04ca01d84497bebef8172aab6f5f"
-        },
-        {
-          "path": "references/base.md",
-          "sha": "c0879add3d65fea8291159018b098ecae25680b7"
-        },
-        {
-          "path": "references/brev.md",
-          "sha": "dce47196edd753df3d406c7a09181cc4348955b7"
-        },
-        {
-          "path": "references/credentials.md",
-          "sha": "9779f5f53ffd2317cfcc51477e04934525c54132"
-        },
-        {
-          "path": "references/data-directory.md",
-          "sha": "745fc4dcb31520cbad529e478594671ec4527db6"
-        },
-        {
-          "path": "references/edge.md",
-          "sha": "c555a177ae0246e10e95713b96548405f5a87148"
-        },
-        {
-          "path": "references/env-overrides.md",
-          "sha": "9c80716c1e7b6ff6c7a994895fa401a915e2122e"
-        },
-        {
-          "path": "references/lvs-profile.md",
-          "sha": "60db4adbe968d3e2932405f0fab14117fd900049"
-        },
-        {
-          "path": "references/ngc.md",
-          "sha": "271c45b17c75c2b962e6db8a04563ebb50a08ce4"
-        },
-        {
-          "path": "references/prerequisites.md",
-          "sha": "4f62186eb2129c9868a88bf89be5113e4a779623"
-        },
-        {
-          "path": "references/readiness.md",
-          "sha": "916daf5deef2d87d6e21853f0038d6ff0d290a68"
-        },
-        {
-          "path": "references/search.md",
-          "sha": "a6a279461a97cddc3ad720326ed966b8cdb237f5"
-        },
-        {
-          "path": "references/teardown.md",
-          "sha": "9ca176622379c98a5985016d07d791c2085d95b2"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "4fbead39220430d3d851fbac4d2e0d42427528e6"
-        },
-        {
-          "path": "references/warehouse-debug.md",
-          "sha": "585cbf1cad73d29cdc869f37e1a505068d850147"
-        },
-        {
-          "path": "references/warehouse.md",
-          "sha": "1a421972f41fb8d3f03196f6623d8b75e613e823"
-        },
-        {
-          "path": "scripts/check_credentials.sh",
-          "sha": "890bfd2379754bf692327dd39f7c5a13a7233618"
-        },
-        {
-          "path": "scripts/normalize_resolved_yml.py",
-          "sha": "ce862d9d39f1481ed51df8907e0bd81d04d31d32"
-        },
-        {
-          "path": "scripts/probe_remote_models.sh",
-          "sha": "e46205a735fb236a71c0a3effc654316c8ce1bf6"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "c99c82768ab6a81b6ecb0ac5b17d3af2bbd8856d"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "962053d6d3d463340ecd3e6c2a532c081e36f20b"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-deploy-profile",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-deploy-video-embedding",
-      "trust": "trusted",
-      "name": "vss-deploy-video-embedding",
-      "description": "Use this skill when deploying, operating, or integrating the VSS 3.2 GA RT-Embed Video Embedding microservice. Covers Docker Compose bring-up, GPU and storage prerequisites, the `/v1` REST API (file uploads, text and video embeddings, live RTSP streams, health and metrics), Redis/Kafka/OTel integration, common failure modes, and teardown.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-deploy-video-embedding",
-      "contentHash": "db561101",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "15e2c7a21479bccf2056d5d03d1f5feaefaf4b06"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "330986b6dee2172e63d1ffa5f80ed5793e98b8ca"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "41c05d83d52a00f452f07379f0e1827195a35f7d"
-        },
-        {
-          "path": "evals/standalone_deploy.json",
-          "sha": "01af7562dcd6cea4ca922ddf35f0d96cede823ab"
-        },
-        {
-          "path": "references/README.md",
-          "sha": "e6f9a213091dae6c60344fe2e90197d0142855a1"
-        },
-        {
-          "path": "references/deploy-vss-deploy-video-embedding.md",
-          "sha": "3595c3ff31abf135b01099230acd429190ee0909"
-        },
-        {
-          "path": "references/environment.md",
-          "sha": "e39745d762ceb4c17894cccb38d39ffd3433d517"
-        },
-        {
-          "path": "references/integrate-vss-deploy-video-embedding.md",
-          "sha": "cafd5cfd1b09d73a63a7c92babcccea1d8a591db"
-        },
-        {
-          "path": "references/rest-api.md",
-          "sha": "e0ec9d62c584c3340d3650a773d77669cc82cc9c"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "e963b349465c0d3d47d573acb186b24d8f47785b"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "2447c489380c6c4552e39a33bf5faf1fc8c94bda"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "e80bd469ac651fbbc1735151aea9a90003861541"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-deploy-video-embedding",
-      "version": "3.2.1"
-    },
-    {
-      "id": "NVIDIA/skills@vss-generate-video-calibration",
-      "trust": "trusted",
-      "name": "vss-generate-video-calibration",
-      "description": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-generate-video-calibration",
-      "contentHash": "210e7a48",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "5d64c1f732b830658ea056d13fd631719d8600bd"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "0e129c0b4938f1c3c7f8f1098242bf94946e6b98"
-        },
-        {
-          "path": "evals/auto-calibration.json",
-          "sha": "cce7db1ca7663b68f0405817c0e0ec208df108ac"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "b2911f6031c05cb93cbf0610861881b5416c664b"
-        },
-        {
-          "path": "references/calibration-tail.md",
-          "sha": "3f7943ea2d09ef1dce7bdc6f69a8b9095d3c14f9"
-        },
-        {
-          "path": "references/common-steps.md",
-          "sha": "e0e15e49bfcb5475e0bb234f2c3af297b13c006a"
-        },
-        {
-          "path": "references/deploy-auto-calibration-service.md",
-          "sha": "67915cb12c7b6cdf8fe1fae3c8aff0553caa7f68"
-        },
-        {
-          "path": "references/rtsp.md",
-          "sha": "36ee801d34f89fc411bfac8b6cd6cd30495de4d9"
-        },
-        {
-          "path": "references/sample-dataset.md",
-          "sha": "1f8a65e3250e19b9404e95a32ee83de9ce45ad31"
-        },
-        {
-          "path": "references/videos.md",
-          "sha": "c601af7ebd523cd0b5231b0855f1ae4c940aaa4e"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "ffee1ba4000c795cb4c7d60b630a913ae98fdc03"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "3d0e8e1eb9e6531dddf0f0c96fbe37b46df0e94b"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-generate-video-calibration",
-      "version": "3.2.1"
-    },
-    {
-      "id": "NVIDIA/skills@vss-generate-video-report",
-      "trust": "trusted",
-      "name": "vss-generate-video-report",
-      "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-generate-video-report",
-      "contentHash": "87111152",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "9596fab3c39ace54a4e6757e635fff799c05639f"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "08585b839e6830bdf44363ce98cf8e372f9c2101"
-        },
-        {
-          "path": "assets/incident-range-report.md",
-          "sha": "b477be4c5bc2201ae924df5000d70dfa15116a2f"
-        },
-        {
-          "path": "assets/video-analysis-report.md",
-          "sha": "9f553821a211355fe42b822946c0a83ccdb6d310"
-        },
-        {
-          "path": "evals/base_profile_report.json",
-          "sha": "25e6e0a9924c9c87532749c7d55b091a41ced2d7"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "fc9318ec8b9b97c4cb0b78c5703d7e92dfa6fac2"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "08b5a3e729c2493c087d9ed7401e6905ffda7beb"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "4d2a48af6c15f1436fe8ea6cbd9b622da62f7080"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-generate-video-report",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-manage-alerts",
-      "trust": "trusted",
-      "name": "vss-manage-alerts",
-      "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-manage-alerts",
-      "contentHash": "d21699a3",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "1af0fdcfc342e438445de48ae89e2f217b7f6fd1"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "395c9bd288a6032d0ba59211bd83cf85e8d5ae2f"
+          "sha": "9a0d3ad31fd91aedc22526a3bf1fc5e3c990969d"
         },
         {
           "path": "config/skillspector-baseline.yml",
-          "sha": "37f6d8aba3eaae0abf37a7ddb00d960f85229cdc"
+          "sha": "b4e70f802c22d96c58804477c7eefaf2da8b6a0c"
         },
         {
-          "path": "evals/alerts_vlm_real_time.json",
-          "sha": "892cc4e59432a9108678837980f38f5ec25b05ca"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "a4a8ceec02ab952fc5e451173c6b25eb2789c596"
-        },
-        {
-          "path": "evals/routing_vlm_c_vs_d.json",
-          "sha": "26898cc7ea367f2d721b6551511f92060577c6e6"
-        },
-        {
-          "path": "evals/subscriptions_create_phrasings.json",
-          "sha": "220d7eaeda88ae9a5c7c3aec758970754f215455"
-        },
-        {
-          "path": "evals/subscriptions_lifecycle.json",
-          "sha": "6d1ee82c7a78cf9b1a1ae667a8b196999f9c759d"
-        },
-        {
-          "path": "references/alert-notify.md",
-          "sha": "9f9c462f4017200010b29cc7ad3d2439bd37f133"
-        },
-        {
-          "path": "references/alert-subscriptions.md",
-          "sha": "87c1456fd791b665acbedc38fcc4717f92e0d485"
-        },
-        {
-          "path": "references/cv-verifier-prompts.md",
-          "sha": "a687baac4c0cab6fd7d85a36ff17574018e7e00a"
-        },
-        {
-          "path": "scripts/alert-notify/.gitignore",
-          "sha": "ff7f20339c18e7ba4dab2179e66edf69414d981c"
-        },
-        {
-          "path": "scripts/alert-notify/incident_utils.py",
-          "sha": "d99a166d674b69d983cb353d13e180845e2d5694"
-        },
-        {
-          "path": "scripts/alert-notify/notifier_base.py",
-          "sha": "4ea2ea0d8dba0968ee29ecfd912d85f1bb0f978b"
-        },
-        {
-          "path": "scripts/alert-notify/open_claw_dashboard_notifier.py",
-          "sha": "7b7ec1b0708553689c4c21a9b6057c50419855b1"
-        },
-        {
-          "path": "scripts/alert-notify/requirements.txt",
-          "sha": "a4521fbce8ec25aee75288991cdb1757b5490901"
-        },
-        {
-          "path": "scripts/alert-notify/server.py",
-          "sha": "8467d0e38bff5095a5ef96ed96b58f179f22f129"
-        },
-        {
-          "path": "scripts/alert-notify/slack_notifier.py",
-          "sha": "66511c23d19a7ccc8794269f84dde2e891b0292a"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "df3cf7afb1f3ac39ba6a21af187dd8d00d221b27"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "8c40323239f18561f7a7a8d68866a3420a0a1640"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-manage-alerts",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-manage-video-io-storage",
-      "trust": "trusted",
-      "name": "vss-manage-video-io-storage",
-      "description": "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-manage-video-io-storage",
-      "contentHash": "f2fb2bc6",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "eb74264151ec46a33b5001f4c4a928c019351fb2"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "5e2c3b456d1001636eba763520a66e2dda401b0c"
+          "path": "evals/alerts_vlm_lvs_subtitle.json",
+          "sha": "524a501c7f14c6b6f9396f7f01b78e47b141679a"
         },
         {
           "path": "evals/evals.json",
-          "sha": "3da090760f0089615d61adc29bd8ab321a909aab"
+          "sha": "aec9648a5e2e3b8c20d9a3dc6c9e7b2f4b6ac17c"
         },
         {
-          "path": "evals/nvstreamer_ops.json",
-          "sha": "20498257f6e04bf48a1e007e9bf3458f22329124"
+          "path": "evals/vdr_1_quickstart_vision_agent.json",
+          "sha": "429ad188b994aaf261b7e12e56e0af9f3959cac2"
         },
         {
-          "path": "evals/vios_ops.json",
-          "sha": "d836da080352698fc936dadbfc2c78b97c9c2306"
+          "path": "evals/vdr_2_add_alerting_summarization.json",
+          "sha": "88c5f83fa763cb8949f9e858e85eac6d2d8ad3d9"
         },
         {
-          "path": "references/api-reference.md",
-          "sha": "2557f5bd99f2259379a31923b1d066a60ca25e3f"
+          "path": "references/agent-harness.md",
+          "sha": "c37def62758076ace23b51a12d69128723731774"
         },
         {
-          "path": "references/deploy-vios-service.md",
-          "sha": "ad275cf56958cd96b6f5917b2511316c4f70d3fb"
+          "path": "references/brev.md",
+          "sha": "7c2e622a3fc7d02d193d9de375b40c9c864f7557"
         },
         {
-          "path": "references/integrate-vios-service.md",
-          "sha": "d995fe4d31326431f0e4dad8534266b25f8f3104"
+          "path": "references/composition.md",
+          "sha": "2e5acadf0e42f036d589967afe29c33b4f91142c"
         },
         {
-          "path": "references/nvstreamer-api-reference.md",
-          "sha": "ab5825067d12192819d96cac9108476fef98a6a7"
+          "path": "references/credentials.md",
+          "sha": "705c14d9179d3f5706b65f718d0f7c8d62ec7234"
         },
         {
-          "path": "skill-card.md",
-          "sha": "ef6b81ecddf44ae6e2c4361a6a9ec1fe0c542bda"
+          "path": "references/data-directory.md",
+          "sha": "447190d952cf6f8bfa585fffbf7be3fa6f1cc4b7"
         },
         {
-          "path": "skill.oms.sig",
-          "sha": "7648435fb7258cda1e930c7f18211138a09a80bc"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-manage-video-io-storage",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-query-analytics",
-      "trust": "trusted",
-      "name": "vss-query-analytics",
-      "description": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-query-analytics",
-      "contentHash": "f67c2c5c",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "10bc6cd06ca90c4160ce4395116054b5e072119e"
+          "path": "references/deployment.md",
+          "sha": "3c8e7a5d7b5121228a64229b4ba5a41a273a1bc5"
         },
         {
-          "path": "SKILL.md",
-          "sha": "ca506372c315ed84b4d6972ec97465c701277bbf"
+          "path": "references/deployment_resolution.md",
+          "sha": "046fe960ead1cad73dfd1bd395da8266093b17ac"
         },
         {
-          "path": "evals/evals.json",
-          "sha": "47187cf5fa9871e793898ac0d6ba2213c3d438b8"
+          "path": "references/edge.md",
+          "sha": "bdf510f161c769980da568cacdfe0a92fcd99593"
         },
         {
-          "path": "evals/query_analytics.json",
-          "sha": "5cd35700aad948ae41bd4dad30270517b4699546"
+          "path": "references/env-overrides.md",
+          "sha": "83fa58509cd015346ebdcecea5ab77dbdc30fd0e"
         },
         {
-          "path": "skill-card.md",
-          "sha": "4caa74f84dac32362b4fbcd4d373e8d989e71e71"
+          "path": "references/ngc.md",
+          "sha": "0f52f649ccb4e00f928e82fa2fa36c0773326c97"
         },
         {
-          "path": "skill.oms.sig",
-          "sha": "35b68a850016d295f719672acc82f3437613d7cf"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-query-analytics",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-search-archive",
-      "trust": "trusted",
-      "name": "vss-search-archive",
-      "description": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-search-archive",
-      "contentHash": "514713d7",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "e71209c587002cf9cc40528f757a3904dda37234"
+          "path": "references/prerequisites.md",
+          "sha": "c3e4ad70f878f91818b4ca13e6c5573c1d1e0eb3"
         },
         {
-          "path": "SKILL.md",
-          "sha": "0cc4a6db6d330230a3ee23d69c0de298e814dea1"
+          "path": "references/profiles/alerts.md",
+          "sha": "419ad9999f7ec43aa4f6c982670daebd229b5a00"
         },
         {
-          "path": "evals/evals.json",
-          "sha": "ead984d0854d7703f70b411381bfb05fe568d5c9"
+          "path": "references/profiles/base.md",
+          "sha": "1b9006e12052b6a14281d94ee657e4a5d1c13469"
         },
         {
-          "path": "evals/search.json",
-          "sha": "e5922a0815bd20aab7bcbbd3c36e738700d59019"
+          "path": "references/profiles/lvs.md",
+          "sha": "0dbfa6625a1b34d5ae5de4c2c715e6866644c94e"
         },
         {
-          "path": "references/discovery_modes.md",
-          "sha": "e8aa396adf0f50588610b4cfad670c5c33d4455b"
+          "path": "references/profiles/search.md",
+          "sha": "34292076877fc7e42dc42906e74f2c960345167b"
+        },
+        {
+          "path": "references/profiles/warehouse.md",
+          "sha": "c61d783edd46986b99ea9a1d7f1e77d1aee454fe"
+        },
+        {
+          "path": "references/readiness.md",
+          "sha": "5493e3dd5658f2cd19a3aa81d3d0718aceff371b"
+        },
+        {
+          "path": "references/services/agent.md",
+          "sha": "6787db16ebc1c30ccf43ad97292c4615517bf1c3"
+        },
+        {
+          "path": "references/services/alerts.md",
+          "sha": "51abcd32a542c9dc63d384d0d56e0a6ea25a28d9"
+        },
+        {
+          "path": "references/services/behavior-analytics.md",
+          "sha": "a2c7673409656ff51df4d10103db10fc16341a55"
+        },
+        {
+          "path": "references/services/configurator.md",
+          "sha": "3d0471f807e79730c24786624b0c0bb8b2134f8e"
+        },
+        {
+          "path": "references/services/elk.md",
+          "sha": "88424e2101c52d57af0889d3b6ac97e73dd923ab"
+        },
+        {
+          "path": "references/services/ingress.md",
+          "sha": "35d5b914eca2bddbadeeb06437317aa1d3f5d4c6"
+        },
+        {
+          "path": "references/services/llm-nim.md",
+          "sha": "61b0f3c9c8deae769cb7b3fb84655af1fcd1d4b6"
+        },
+        {
+          "path": "references/services/lvs.md",
+          "sha": "030a76a1d63bf65c7d551d0d4d7f8e13301e5785"
+        },
+        {
+          "path": "references/services/rt-cv.md",
+          "sha": "919bf50a6d90e14529ace81481ce9606dde13d48"
+        },
+        {
+          "path": "references/services/rt-embed.md",
+          "sha": "0d84246fe33cf8a6d9bee0cc3e90aa7ba9417659"
+        },
+        {
+          "path": "references/services/rt-vlm.md",
+          "sha": "dbe966cec0a0b8fff2f7031095574a7cdd206ed9"
+        },
+        {
+          "path": "references/services/search.md",
+          "sha": "9b7ec7140a7d99486cfb0ad2ab0ec42f8002d5a2"
+        },
+        {
+          "path": "references/services/sop.md",
+          "sha": "282e6e054d909f5a97d51936909aa9c3ddfb92be"
+        },
+        {
+          "path": "references/services/sop/build-ds-sop.md",
+          "sha": "505e30636a901fa0691731d0c98e0b5ee5356c6d"
+        },
+        {
+          "path": "references/services/sop/deploy-ds-sop.md",
+          "sha": "5acf1ff6366c1918472629a61f04d11ab6d5abe1"
+        },
+        {
+          "path": "references/services/sop/integrate-ds-sop.md",
+          "sha": "07ee3d13966b1e076c956df98cd98199a36b333a"
+        },
+        {
+          "path": "references/services/sop/sop-report/sop-report-override.yml",
+          "sha": "7cef5cc3e4ec16eb1da9da7b334b9ae30ae0ada5"
+        },
+        {
+          "path": "references/services/sop/sop-vlm-captions-json-logstash.conf",
+          "sha": "a088cfe2b37701084edc00c9c7035ca5a08792c1"
+        },
+        {
+          "path": "references/services/video-analytics-api.md",
+          "sha": "69ecd986b01ab58efd24319cef85cb6d2593dfa6"
+        },
+        {
+          "path": "references/services/vios.md",
+          "sha": "ff48b4475f922c73f66ce7e79a253eea3b43faeb"
+        },
+        {
+          "path": "references/services/vlm-nim.md",
+          "sha": "1847872856595822bac89b554600b196301e85df"
+        },
+        {
+          "path": "references/sizing.md",
+          "sha": "9ac9921b92ac7c45e35c4359689bb5c39c79df57"
+        },
+        {
+          "path": "references/teardown.md",
+          "sha": "8520060caceb8677ed10d0bc6e5b93836058d6ac"
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "5145b387ff62f79517e0f2e55364125082c9ace1"
+          "sha": "f8a46f09227a8d7a15eb9058183f0856a79d1376"
+        },
+        {
+          "path": "scripts/check_credentials.sh",
+          "sha": "6091f075d02f01213a386eb08736c5af782a5b5e"
+        },
+        {
+          "path": "scripts/normalize_resolved_yml.py",
+          "sha": "32980bc802083ff4f2013d9a97133d24adf17083"
+        },
+        {
+          "path": "scripts/probe_remote_models.sh",
+          "sha": "157808b4624dba851a7648a5cc5a3dc512a40f1c"
+        },
+        {
+          "path": "scripts/render_warehouse_configurator_env.py",
+          "sha": "648da8df226a81bf5d5613121429af6daea752e9"
+        },
+        {
+          "path": "scripts/resolve_service_graph.py",
+          "sha": "b1895b364c599c9cdb584c073e8caf8c93a6e2ec"
+        },
+        {
+          "path": "scripts/stage_vss_src.py",
+          "sha": "83f28cc7ca1923eed947803460f17e089aba9352"
+        },
+        {
+          "path": "scripts/sync_skills.py",
+          "sha": "838fc60995ff6569ea51bc74e14cc2dd57eac7c0"
+        },
+        {
+          "path": "scripts/tests/test_analytics_composition_contract.py",
+          "sha": "e32c647e82d6cfa72fc4fa09387fce32a918b372"
+        },
+        {
+          "path": "scripts/tests/test_apply_onboard_config.py",
+          "sha": "735e267d006ff1dc715a62c487c81aaae87e2d5b"
+        },
+        {
+          "path": "scripts/tests/test_check_credentials_gate.py",
+          "sha": "cd8419b64ea543f6b6e64fc46c8fcc6c9b503781"
+        },
+        {
+          "path": "scripts/tests/test_container_tag_override.py",
+          "sha": "b8c192a0f5788959d832f846b9d122e876dafc54"
+        },
+        {
+          "path": "scripts/tests/test_script_help.py",
+          "sha": "d94f62d01c42183424a755c49dae57b1eab721c3"
+        },
+        {
+          "path": "scripts/tests/test_stage_vss_src.py",
+          "sha": "56aacb624753df77d070e5754b270b93c476364f"
+        },
+        {
+          "path": "scripts/tests/test_sync_skills.py",
+          "sha": "f12771a175c53efbe8d925c58f7606c4a5a00595"
+        },
+        {
+          "path": "scripts/validate_resolved_yml.py",
+          "sha": "c856b2e9a4720da01dbc5a28af008b3ff060efdc"
+        },
+        {
+          "path": "scripts/validate_warehouse_env.py",
+          "sha": "c11b57e11041ef9f950de93c865e2526967b7ba8"
         },
         {
           "path": "skill-card.md",
-          "sha": "ec5c4b3ec42e68548568db3a85e1b90a585b537a"
+          "sha": "41196ed00b0d3e056b0c2707eb20ddc0d7df8e1a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "22dabe92ade3802078df394d8a12762cd172b1c7"
+          "sha": "b96b036326f5e8615bfbc2aa99ed2421d054f87e"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-search-archive",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-setup-behavior-analytics",
-      "trust": "trusted",
-      "name": "vss-setup-behavior-analytics",
-      "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-setup-behavior-analytics",
-      "contentHash": "3e0be9ab",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "40a033b975656fae295bd88e1355634fb682dbe4"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "c0d2199e7a02a42f27f08e975437314fd2cc71f5"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "554a558bb0c4940eeaa3330e9a1799a9ceee2e71"
-        },
-        {
-          "path": "evals/standalone_deploy.json",
-          "sha": "f9dca3a06850dacaee239ef42ad061ad27d0ccd7"
-        },
-        {
-          "path": "references/configuration.md",
-          "sha": "41bc748db56783faf6d3060470e50a0dbdb6ebdf"
-        },
-        {
-          "path": "references/deploy-behavior-analytics-service.md",
-          "sha": "f664cc1e40ec6dc6c0d0e72a3c29aead891f4623"
-        },
-        {
-          "path": "references/dynamic-calibration.md",
-          "sha": "e59784b85edf648a4bd91fda8c8134eb511148ee"
-        },
-        {
-          "path": "references/dynamic-config.md",
-          "sha": "435c6ea383292434262e9972f9bcd88202a35247"
-        },
-        {
-          "path": "references/ngc-api-key-registry-login.md",
-          "sha": "05e73365466b2ae4fd4cc0746383815a863429be"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "a141f84f880cad24037c914917d67177e00c1fc5"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "2093e76c61a5f23bce9e354ac200caf68dd6039a"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-setup-behavior-analytics",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-setup-video-analytics-api",
-      "trust": "trusted",
-      "name": "vss-setup-video-analytics-api",
-      "description": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-setup-video-analytics-api",
-      "contentHash": "fc746404",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "2b5dbca5a4cf31e2484cec35581c46a96f2cbaec"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "1d8990703efbeee3f07f8f4b14edb6a1f829b475"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "487d16e6a25df0d034acdb228d835829e875c4b9"
-        },
-        {
-          "path": "evals/standalone_deploy.json",
-          "sha": "e43ab89efad2dcef306dab614efb6e5eeb74d4cc"
-        },
-        {
-          "path": "references/configuration.md",
-          "sha": "221fa858ea34a0ce53f165f4ca8c853d8dcc92ff"
-        },
-        {
-          "path": "references/deploy-video-analytics-api-service.md",
-          "sha": "9be1a76563975268015c9cd2919e5b9ffc70bd72"
-        },
-        {
-          "path": "references/ngc-api-key-registry-login.md",
-          "sha": "4a694b36a97ff836563f35330d8b1ab7ed1afe66"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "7ae804d6815dc63dfb6c9a94ea740a237cb6e776"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "2a947ed7df7cf64cc940de25f521bcc0773339cb"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-setup-video-analytics-api",
-      "version": "3.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@vss-summarize-video",
-      "trust": "trusted",
-      "name": "vss-summarize-video",
-      "description": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/vss-summarize-video",
-      "contentHash": "9b797666",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "b9a93c53b6994f0019409609a25afc61a4201956"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "a4489c071337744c1b00be339af4810c6b39f761"
-        },
-        {
-          "path": "assets/video-summarization.env.example",
-          "sha": "5138b2cf2f6690f36ea8c76d659765af8d8bb493"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "6744cdc1b81aa013bdf07bc3d7d4669763b8af3b"
-        },
-        {
-          "path": "evals/lvs_api_ops.json",
-          "sha": "e93fb35106fcc1a3202bb3126e344bf021155de3"
-        },
-        {
-          "path": "evals/lvs_profile_summarize.json",
-          "sha": "9ffed0e0d2e3f83beb7a78e0d99e0dc8f1a20ac0"
-        },
-        {
-          "path": "references/end-to-end-example.md",
-          "sha": "bb8f8a5cec0496fd512a767eb80c3a318d668aaf"
-        },
-        {
-          "path": "references/hitl-prompts.md",
-          "sha": "33fde616d74773834db3103cbe46b4e65e6df46e"
-        },
-        {
-          "path": "references/video-summarization-api.md",
-          "sha": "a0dff7fd60642b51b0e10d6486f8e5a72a5700c7"
-        },
-        {
-          "path": "references/video-summarization-debugging.md",
-          "sha": "323c4f850a40e100474a8cb2ee617018bcd3ea69"
-        },
-        {
-          "path": "references/video-summarization-deployment.md",
-          "sha": "d21317ff8b20394b5826f6351fc678aac21f2d18"
-        },
-        {
-          "path": "references/video-summarization-environment-variables.md",
-          "sha": "d9e146037fa204b085f7f4575c1147cddd126e7f"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "ab55ef0a5cfdbe61d96a754ee6ca7284190ad8cd"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "d10077f43d63509fc59a0631b973bf434d44b3c9"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-summarize-video",
-      "version": "3.2.1"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-build-vision-ai",
+      "version": "3.3.0"
     },
     {
       "id": "NVIDIA/skills@warp-compile-time-optimizer",
@@ -34744,7 +33920,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "7da600eb",
+      "contentHash": "6eddcd9e",
       "files": [
         {
           "path": "DRIVER.md",
@@ -34784,7 +33960,7 @@
         },
         {
           "path": "bin/phase-publication-hook.ts",
-          "sha": "2569193b0a76c7e0f95589655e4b0a615520af13"
+          "sha": "41b95ec8344f035827c22041735b93df3e5dda2a"
         },
         {
           "path": "sections/ceo-phase.md",
@@ -37006,15 +36182,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "5d25954e",
+      "contentHash": "980397f6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "421abc1d22b9dcce2ed0dab09228a9f50edde03c"
+          "sha": "dfd43a37aa75cf90b10283cf6364e52c0c4642c2"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "b14a3349c951ea0b83c084c888322e5695dad78a"
+          "sha": "4c7b4a2c510ca33d94c7993342e7bda22a31f579"
         },
         {
           "path": "daemon/src/allowlist.ts",
@@ -37038,11 +36214,15 @@
         },
         {
           "path": "daemon/src/index.ts",
-          "sha": "b16643426c838e0e873345ae4744bfe2d728e334"
+          "sha": "8bcd4c4dd17aa4cb957d7e06f91ee67ef607cb7a"
         },
         {
           "path": "daemon/src/proxy.ts",
           "sha": "27788690ef2080ddb9ffe8d0197e5263bf304a34"
+        },
+        {
+          "path": "daemon/src/session-cache.ts",
+          "sha": "da950fe4ca160be4124180ba57da3997c2fc4840"
         },
         {
           "path": "daemon/src/session-tokens.ts",
@@ -37058,7 +36238,7 @@
         },
         {
           "path": "daemon/src/tunnel-bootstrap.ts",
-          "sha": "c1517f1b29a2c1278438db5ef4b85de1923e92a4"
+          "sha": "76d66b16bba6e84a56acdd792053f17970f189cc"
         },
         {
           "path": "daemon/src/types.ts",
@@ -37082,7 +36262,7 @@
         },
         {
           "path": "daemon/test/daemon-integration.test.ts",
-          "sha": "8db5bf5b0553a9b340931291537833772c8124ff"
+          "sha": "40a081e9019e59bbd49432f6dec9addcc68aef13"
         },
         {
           "path": "daemon/test/devicectl-launch-env.test.ts",
@@ -37099,6 +36279,10 @@
         {
           "path": "daemon/test/proxy-transport.test.ts",
           "sha": "210e066bbcd1ce29fe6e2c6cbaf81782a2555983"
+        },
+        {
+          "path": "daemon/test/session-cache.test.ts",
+          "sha": "842275fa3e88aaaa49f0a981a9a3771c5de600de"
         },
         {
           "path": "daemon/test/session-tokens.test.ts",
