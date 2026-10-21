@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792602975379,
+  "generatedAt": 1792619189902,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -33303,15 +33303,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/vss-build-vision-ai",
-      "contentHash": "6ac3040a",
+      "contentHash": "fb03eed7",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "1da556c10e2a5c5d060693c823e723a214de9653"
+          "sha": "3ee281b02a38170355de1935f25378799b9b6be5"
         },
         {
           "path": "SKILL.md",
-          "sha": "9a0d3ad31fd91aedc22526a3bf1fc5e3c990969d"
+          "sha": "cda23ceab99d4b62dbc69f95537ff17aaf53bc70"
         },
         {
           "path": "config/skillspector-baseline.yml",
@@ -33323,7 +33323,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "aec9648a5e2e3b8c20d9a3dc6c9e7b2f4b6ac17c"
+          "sha": "db8c74d1c2da2b30524470a5f244a3f09ed5b651"
         },
         {
           "path": "evals/vdr_1_quickstart_vision_agent.json",
@@ -33343,7 +33343,7 @@
         },
         {
           "path": "references/composition.md",
-          "sha": "2e5acadf0e42f036d589967afe29c33b4f91142c"
+          "sha": "18756e89f52f109c3d8b751f40d0c66f4520219e"
         },
         {
           "path": "references/credentials.md",
@@ -33375,11 +33375,11 @@
         },
         {
           "path": "references/prerequisites.md",
-          "sha": "c3e4ad70f878f91818b4ca13e6c5573c1d1e0eb3"
+          "sha": "8ea88923f9b8f0ebfa5c65a96b10e9c02921fd4f"
         },
         {
           "path": "references/profiles/alerts.md",
-          "sha": "419ad9999f7ec43aa4f6c982670daebd229b5a00"
+          "sha": "dc0a0d707f553e49675b66dd4f11106326bf9c56"
         },
         {
           "path": "references/profiles/base.md",
@@ -33443,7 +33443,7 @@
         },
         {
           "path": "references/services/rt-vlm.md",
-          "sha": "dbe966cec0a0b8fff2f7031095574a7cdd206ed9"
+          "sha": "095cc802b2e9374a7659db7443cd802a6bfe3d94"
         },
         {
           "path": "references/services/search.md",
@@ -33451,7 +33451,7 @@
         },
         {
           "path": "references/services/sop.md",
-          "sha": "282e6e054d909f5a97d51936909aa9c3ddfb92be"
+          "sha": "a088f370f4baa159f242bb802620109bbac6c0a6"
         },
         {
           "path": "references/services/sop/build-ds-sop.md",
@@ -33487,11 +33487,11 @@
         },
         {
           "path": "references/sizing.md",
-          "sha": "9ac9921b92ac7c45e35c4359689bb5c39c79df57"
+          "sha": "454bd687f2ca53dc21418a9cf0a22a6fd3499921"
         },
         {
           "path": "references/teardown.md",
-          "sha": "8520060caceb8677ed10d0bc6e5b93836058d6ac"
+          "sha": "cb8065589474b5650a84784f3b0e40f3a5057ac0"
         },
         {
           "path": "references/troubleshooting.md",
@@ -33563,11 +33563,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "41196ed00b0d3e056b0c2707eb20ddc0d7df8e1a"
+          "sha": "cd942c10880778336ca688b0b483fa806d24ca3e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b96b036326f5e8615bfbc2aa99ed2421d054f87e"
+          "sha": "74bb518764ef0610aa13e1e2ee3646c13617215a"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-build-vision-ai",
