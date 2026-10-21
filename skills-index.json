@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792558455417,
+  "generatedAt": 1792602975379,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -8398,6 +8398,56 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-orchestration-write-dag",
       "version": "1.0.1"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-simulation",
+      "trust": "trusted",
+      "name": "cdf-simulation",
+      "description": "Component-owned guidance for CDF Simulation requests submitted directly or through Airflow-triggered DIG Flow Catalog prompts — golden THT board, THT pin-geometry variation, good/clean SMT images, structural pose defects, and solder texture defects, from a board USD. Turns one matched prompt into one validated `cdf.CDFJob` build and its compiled JobOrder payload; it never executes a render itself. Requires a caller-supplied board USD and output root, asks for either when missing from an interactive request, and resolves optional details with fixed, documented defaults.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-simulation",
+      "contentHash": "11a2f472",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2f48d4a48634894389204d55efc0b9ce6a4627d6"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b726d2b69b75ec8f241586c5bef90910b25bf202"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6853c7c466c09844017821d495d68af1b14806e2"
+        },
+        {
+          "path": "references/class-filter-taxonomy.md",
+          "sha": "93d5013388b0c6f789daf1391b105ab55ad5fd47"
+        },
+        {
+          "path": "references/fixed-defaults.md",
+          "sha": "775de5c45ddafac3b736cb9f1cec4051c12c66cc"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "054af9a01629e25a4a3e1708130050cce1bda3c1"
+        },
+        {
+          "path": "references/reference-flows.md",
+          "sha": "4b2cf611254abd67a566bccc9f70a9a026729894"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "cb3fad29d879acf93d059b25542af603d720c2ea"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "824cea7330f06f236a42efee160811f033cb4ad1"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-simulation",
+      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@cdf-video-data-augmentation",
