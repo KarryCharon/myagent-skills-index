@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792532457721,
+  "generatedAt": 1792558455417,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -7515,6 +7515,965 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/amc-setup-calibration-stack"
     },
     {
+      "id": "NVIDIA/skills@cdf-anomalygen",
+      "trust": "trusted",
+      "name": "cdf-anomalygen",
+      "description": "Use when running the CDF AnomalyGen pipeline over a defect dataset — mask placement, fine-tuning, synthetic defect-image generation (SDG), evaluation, quality refinement, and pseudo-labeling — even when the user names only one stage.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-anomalygen",
+      "contentHash": "b66acec9",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "102967d5476b72aea0dd129ab02a6c3a08aaaefd"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2cb00a10c7c3aa59e1036d5ebe2cf84247a66fcf"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "0eddf990d3039e730e933aa40f592c18f156475b"
+        },
+        {
+          "path": "references/agentic-mask-generation.md",
+          "sha": "873120a18939456b83c07a4642c0a8b8dc57d145"
+        },
+        {
+          "path": "references/fine-tuning.md",
+          "sha": "14e69b99be6e69a22036ed12ff4ee5ffa3996262"
+        },
+        {
+          "path": "references/inputs.md",
+          "sha": "517cae4b9737ca12674a3ca9691dfa1ed3cd55b5"
+        },
+        {
+          "path": "references/mask-placement.md",
+          "sha": "97b82470c87d833805c57cf10ec8436fbcd5b2cc"
+        },
+        {
+          "path": "references/quality-refinement.md",
+          "sha": "e1ca1a6b77ec953bb5ed3da6b1f37fd0a347a3d8"
+        },
+        {
+          "path": "references/verification.md",
+          "sha": "3e18e72e45c943f76da000df682c1b8b80449e92"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "1fb64ec0d14c77b9f1fe8d909406156d42e9fce3"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ca32ba8c0040d70875ca48659f2d898946b76d6e"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-anomalygen",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-augmentation",
+      "trust": "trusted",
+      "name": "cdf-augmentation",
+      "description": "Use when authoring or validating Cosmos Data Factory (CDF) augmentation YAML configs, or running remote Cosmos Transfer (including Cosmos3 WSM controls), Cosmos Predict, image-edit, or image-to-video inference.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-augmentation",
+      "contentHash": "c5711eb5",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "abe9f335dbed3190194854c668d3d9826c3f4342"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d54beccf7dd58401ce14f8bc6a173152e9daa050"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6d62206b7d7413d43bc3ec853f9f1c91923809a0"
+        },
+        {
+          "path": "references/captioning-strategy-guide.md",
+          "sha": "da84d012cef91972e8183e428dc37b55e18de51a"
+        },
+        {
+          "path": "references/config-decision-tree.md",
+          "sha": "0e8aafc4186c8c235fb9e81d16dcb1b32e4f20fc"
+        },
+        {
+          "path": "references/configuration-schema.md",
+          "sha": "8ad3b4c0927563314327c9bc0bae528c6ffc1b82"
+        },
+        {
+          "path": "references/evaluator-setup-guide.md",
+          "sha": "efdcbc04736aadb5ce2a5521565a644d5118406d"
+        },
+        {
+          "path": "references/event-video-gen.md",
+          "sha": "d0d0497028e219dbbfb3cd9e0a7e3a851abbecdb"
+        },
+        {
+          "path": "references/image-attribute-augmentation.md",
+          "sha": "2d2a15b694742b6d8fd7ecafed2cbd4cfe29701d"
+        },
+        {
+          "path": "references/pipeline-operations.md",
+          "sha": "6202f9bba0b092e8dd4637ca32775add52f96696"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "02df22c1d14beb06021cd47b5dc88e4997b24aae"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4ee5c8ed3d969876d0fcc9fe50d62ba76bde57b8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "64c1269b673d50cb1615d9f27d544e8420d0ecba"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-augmentation",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-auto-labeling",
+      "trust": "trusted",
+      "name": "cdf-auto-labeling",
+      "description": "Use when a user needs to get started with CDF Auto-Labeling, plan a scenario, run or debug a shipped cookbook, author prompts or cookbooks, migrate a pipeline, configure a stage, or pull the prebuilt stage containers from NGC (nvcr.io). Confirm critical inputs (data path, output path, endpoints) and ask when any are missing. This is a router: read the matching reference instead of inventing a workflow.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-auto-labeling",
+      "contentHash": "857f45de",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "038a88a47cc490f3694ac0c70a9c043fcd3f7fe4"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "37ce32742beeed88837387c65264dd1b06453fbc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4b0b7979a012698710101408b6289be57aaebfb2"
+        },
+        {
+          "path": "references/README.md",
+          "sha": "63db15c54fc83ddc81cd62b068aea740c942ee0c"
+        },
+        {
+          "path": "references/cookbook-authoring.md",
+          "sha": "94d48598f306fc7c26f50f80f428679a0f5956bc"
+        },
+        {
+          "path": "references/cookbook-authoring/cookbook-schema.md",
+          "sha": "b62acf4d6668360bcfa5365fc1c809fbb04d6dd4"
+        },
+        {
+          "path": "references/cookbook-authoring/scenario-authoring.md",
+          "sha": "fad9835b9ccf5700be83b31b936a21b6f7832031"
+        },
+        {
+          "path": "references/event-and-person-attribute-search.md",
+          "sha": "039e9cf5369425499c11169eec8c0ff6d19db6d5"
+        },
+        {
+          "path": "references/event-and-person-attribute-search/run-reference.md",
+          "sha": "04e40f3133946a10419df7dd31854324be6c6828"
+        },
+        {
+          "path": "references/event-verification-reasoning.md",
+          "sha": "12c32bcddfb9d89466e897de8b01b499b30cee9c"
+        },
+        {
+          "path": "references/event-verification-reasoning/run-reference.md",
+          "sha": "28d3257cec2b25eab163879f0efb79f766b55bee"
+        },
+        {
+          "path": "references/ngc-containers.md",
+          "sha": "cc4fb49516856f5b4f5824bf827b0aa8a57afb15"
+        },
+        {
+          "path": "references/pipeline-migration.md",
+          "sha": "b2ac254b0ff1ac40f2eee6eab3f7648ec23211d1"
+        },
+        {
+          "path": "references/pipeline-migration/migration-playbook.md",
+          "sha": "8aa343ac281ee69653bc5bf962b7896d3f7c9acb"
+        },
+        {
+          "path": "references/pipeline-migration/nonlinear-video-pipeline-example.md",
+          "sha": "1fc8920e8adc74458a3d89ac3d29cc7c395b604a"
+        },
+        {
+          "path": "references/pipeline-migration/service-reuse-matrix.md",
+          "sha": "4f0bd1b67c8953214716576e0a6ed3aef469cce4"
+        },
+        {
+          "path": "references/pipeline-migration/sidecar-contracts.md",
+          "sha": "a2aaa6540d11402b430e0b1b3cae788f600eb1ab"
+        },
+        {
+          "path": "references/prompt-authoring.md",
+          "sha": "ca3cf56aa8f540da66c1aa1688b2eb70bec03650"
+        },
+        {
+          "path": "references/prompt-authoring/domain-evidence-checklists.md",
+          "sha": "0b71215abcc5f35749c32f85be8bef6685916c94"
+        },
+        {
+          "path": "references/prompt-authoring/prompt-patterns.md",
+          "sha": "e9a5d74585c6f2759c8199002eaf765a0e06da3b"
+        },
+        {
+          "path": "references/prompt-authoring/question-bank-authoring.md",
+          "sha": "7bc7f8382b192c8e3b488d0ada4e2090f086baa9"
+        },
+        {
+          "path": "references/scenario-planning.md",
+          "sha": "55007736788402797ef8dc65c09df135abcbfc8a"
+        },
+        {
+          "path": "references/scenario-planning/annotation-recommendations.md",
+          "sha": "456eb006d200e73dd78c5a0142087839fc3ad8bf"
+        },
+        {
+          "path": "references/scenario-planning/intake-and-decisions.md",
+          "sha": "708178d99996d71c84080f7fe3ea71f47b0b296d"
+        },
+        {
+          "path": "references/scenario-planning/pipeline-composition.md",
+          "sha": "89fdb1a5d514446fa91c48ba4977a5c278eb2ef8"
+        },
+        {
+          "path": "references/stages/captioning.md",
+          "sha": "21d42beb03ed1b1a23e56993a5f928dadf3de82d"
+        },
+        {
+          "path": "references/stages/detection-and-tracking.md",
+          "sha": "8cdd5e22d182fdfaf68764187555e9255c1f4c2c"
+        },
+        {
+          "path": "references/stages/detection-tracking-patterns.md",
+          "sha": "4f8b62b6f3981c34b853f55b23c9e4acfbde7419"
+        },
+        {
+          "path": "references/stages/grounding-2d-patterns.md",
+          "sha": "4b923cf3a84b31f3ba0cbd53d08235f8d722d108"
+        },
+        {
+          "path": "references/stages/grounding-2d.md",
+          "sha": "be82793fdcb08090bdcda7a8a22db7581a309eb4"
+        },
+        {
+          "path": "references/stages/guardrails.md",
+          "sha": "defa9ba63146cde108d72368a44edb35f0b69d88"
+        },
+        {
+          "path": "references/stages/person-attribute-search.md",
+          "sha": "e06b8d861d5e1e86c9978b5c1544a922592260dd"
+        },
+        {
+          "path": "references/stages/reasoning.md",
+          "sha": "54589da275cb044bb0ab8275905f4fbdb8daac82"
+        },
+        {
+          "path": "references/stages/referring-expressions-patterns.md",
+          "sha": "ce31f5474ccf297ab2b5e803b962ee4c775e5bc8"
+        },
+        {
+          "path": "references/stages/referring-expressions.md",
+          "sha": "6c66a93816f0b42a173cf14239d27f85c906d8fb"
+        },
+        {
+          "path": "references/stages/super-resolution.md",
+          "sha": "5bc81b9e6449546ed788e5175a75df4d2f9dca49"
+        },
+        {
+          "path": "references/stages/training-export.md",
+          "sha": "7dc878864f63f2d3881be8225775695a500976a9"
+        },
+        {
+          "path": "references/stages/visual-qa.md",
+          "sha": "3ff0b3044b9bbad8ce01c31b19ee7a2c60f4b763"
+        },
+        {
+          "path": "references/video-data-augmentation.md",
+          "sha": "60a80cf28d3301ee31467ea105d0a6368145e8de"
+        },
+        {
+          "path": "references/video-data-augmentation/run-reference.md",
+          "sha": "943a1abffed3fab03a4bd97d5c4c30b170e2d031"
+        },
+        {
+          "path": "references/workflow-runner-debugging.md",
+          "sha": "e8f62838eb4385e7281b5b7448c482af7b563d65"
+        },
+        {
+          "path": "references/workflow-runner-debugging/data-handoff.md",
+          "sha": "5920670423bb77bde8bdcfe0ff41a25b31171257"
+        },
+        {
+          "path": "references/workflow-runner-debugging/runner-debugging-patterns.md",
+          "sha": "1d0211e5b241e01de6a5207c656fbea26a55f673"
+        },
+        {
+          "path": "references/workflow-stage-integration.md",
+          "sha": "2e071a7cf394094e7a4e92a9c91ab1c27c7929ae"
+        },
+        {
+          "path": "references/workflow-stage-integration/stage-service-contract.md",
+          "sha": "7db0a8f09dc32e12d07b9953438c81d9accec42f"
+        },
+        {
+          "path": "references/workflow-stage-integration/validation-checklist.md",
+          "sha": "38a403546ae86e21cab4afeca87b40cec65d70d7"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "d4ca94a148afd00fe9304d05cc138802e588e865"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "3119eccd0abb40c4e51245758c9f44703e8e50e1"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-auto-labeling"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-autonomous-vehicle-dataset-generation",
+      "trust": "trusted",
+      "name": "cdf-autonomous-vehicle-dataset-generation",
+      "description": "Prepare payloads, run and monitor the Autonomous Vehicle Dataset Generation Airflow workflow, and inspect results for driving-clip retrieval and Cosmos3-Nano variants. Existing clips with no retrieval use cdf-video-data-augmentation; seed-image event or anomaly generation uses cdf-event-video-generation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-autonomous-vehicle-dataset-generation",
+      "contentHash": "da73bf5b",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "5ab0981915622ec3d8b216105f6b139882c3fef7"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "e4093843cb62ce9431bd31b25a7c7794fac96d0a"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "de146e4139428776b08618b91ba65c2a5aab1b5f"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "e79e026c48d11757ab3eb44b0fc473b903022ec2"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "eda81cad0d427777805b1db49e99ad40e8dc7659"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "f9ad9fc3c34c5141f56bd398ae86e2342c7d39a3"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-autonomous-vehicle-dataset-generation",
+      "version": "1.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-curation-and-retrieval",
+      "trust": "trusted",
+      "name": "cdf-curation-and-retrieval",
+      "description": "NVIDIA CDF curation and retrieval. Cosmos Curator video and image pipelines (split, dedup, shard, annotate) with filtering, captioning, and embedding. Cosmos Dataset Search ingest, search, and capability qualification. TAO data mining embeddings and neighbor matching. Ships domain event catalogs, including workplace employee conduct monitoring, which requires legal review before use. Use when a request names Cosmos Curator, Cosmos Dataset Search, CDF, or their Make and CLI surfaces. Not for model training, orchestration, or unrelated dataset questions.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-curation-and-retrieval",
+      "contentHash": "992f9e15",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b3c8464396c72049087eb629c1465c5ba416b74c"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "c54fc7bba46fcde29989fe94aed14f73e5cf7bfe"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "2fc9fa480b558a14e439923dc594088913ab7f6e"
+        },
+        {
+          "path": "references/calibration-config.md",
+          "sha": "8243f397e9a4d1b8c498c8e7c072a79edaf2d892"
+        },
+        {
+          "path": "references/capabilities.md",
+          "sha": "b64efdbad81c6bf38cffbda4b008747a81da3b87"
+        },
+        {
+          "path": "references/configuration-decision-tree.md",
+          "sha": "570c5a16bcb624f38b609df89921033fd8ca1610"
+        },
+        {
+          "path": "references/context-understanding.md",
+          "sha": "0777fddc9eaf3fa64c41bf588c1104dc9e72f3be"
+        },
+        {
+          "path": "references/cosmos-curator.md",
+          "sha": "d33a3f655fcb9b9145be1fabdb5080393b2227b2"
+        },
+        {
+          "path": "references/cosmos-dataset-search.md",
+          "sha": "ae48eefe7c6392028dbacfd2722552aa8ba187b6"
+        },
+        {
+          "path": "references/curation-retrieval-workflow.md",
+          "sha": "e02456d1b72d1f55b1b08a9b1c1eb3dd6ba06bb3"
+        },
+        {
+          "path": "references/data-mining.md",
+          "sha": "89372cbb9c60ba2173ba747942fa12a54361357e"
+        },
+        {
+          "path": "references/distribution-analysis.md",
+          "sha": "2cb2f0f0cc7dc6bb4d5e61d3bb90134895d9acb8"
+        },
+        {
+          "path": "references/distribution-aware-curation.md",
+          "sha": "a9199ef2c8283c7b3217b7f594845b2fbce6955c"
+        },
+        {
+          "path": "references/ffmpeg-sidecar.md",
+          "sha": "47ef1270cb04da03465f4fb36ae45be893a126e9"
+        },
+        {
+          "path": "references/gotchas.md",
+          "sha": "36f54d07578180d8aa0611478f3d49234c141ede"
+        },
+        {
+          "path": "references/image-curation.md",
+          "sha": "56895f9f3b3cb0e6d3b729683e95c7e191b6af33"
+        },
+        {
+          "path": "references/kpi-metrics.md",
+          "sha": "8d8580374b73a9556ca40ad0edbcc7743681da98"
+        },
+        {
+          "path": "references/restrictive-curation.md",
+          "sha": "a973cadf6fa16778dca8d8ce87a88c991fc921ca"
+        },
+        {
+          "path": "references/running-pipelines.md",
+          "sha": "c411b02f794c31adf5f3102596f032dc3b7f68d0"
+        },
+        {
+          "path": "references/sam3-config.md",
+          "sha": "e1ac3e01755650dcb58d4a66193ca7e875f81f59"
+        },
+        {
+          "path": "references/video-curation.md",
+          "sha": "40256631fd89157cc70d959a3916276a4def944f"
+        },
+        {
+          "path": "references/video-lake-curation.md",
+          "sha": "cdb848eadecee21700eef44b0068a7d3f5f1b43d"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9f5b8b1704a173c31413d43e17811635b0ea7f2b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "7b8075aec358fd666561135811bb6c7fb2c29f41"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-curation-and-retrieval",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-defect-image-generation",
+      "trust": "trusted",
+      "name": "cdf-defect-image-generation",
+      "description": "Generate synthetic PCB inspection images on Kubernetes with the SMT Defect Image Generation (DIG) DAG in CDF Orchestration. The DAG renders components in simulation, turns the renders into realistic golden images (sim2real), and uses AnomalyGen to add texture defects such as solder bridges, excess solder or missing components. Simulation can also render shift, tombstone and sideflip pose defects. Use it to build DIG payloads, pick a pipeline mode (full, simulation, sim2real or defect-only), check GPU readiness, follow a run, and match each defect image to its golden and simulated source. Not for running Simulation, Augmentation or AnomalyGen on their own.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-defect-image-generation",
+      "contentHash": "8e27ee8f",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4915151b46c2746db4c4d77fbf333a462f732e44"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "0181f5d54b9e58bd1941294f969780def59d63e4"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "128f38938139cf69d69b92b6afde5fd15fb42e5c"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "f367badf105f36c387ebc8b7e3a46aca065a2412"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "c3ac2e70c385b38696f22a18781f3d4184b9686e"
+        },
+        {
+          "path": "evals/test_payload.py",
+          "sha": "18f5e92e61cc4cd3ece2d6d337f2d6c7daff62bb"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "568ba1ae479df585f1db2c7fe81a9bdcaf1f6737"
+        },
+        {
+          "path": "references/outputs.md",
+          "sha": "17fe2e250c46e9b86fc75ba36d97d33f3d8aab8b"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "e8a841b39818b4a23e651665dd1d37b936c270df"
+        },
+        {
+          "path": "references/setup-and-preflight.md",
+          "sha": "d07201c689a6be2ed088ca611f5b68b1cb09b106"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "fb4fe9eaf594414af0f3a93cf19ec1496f9ab84a"
+        },
+        {
+          "path": "scripts/payload.py",
+          "sha": "1e7f662eccea3e0912f652ada882067974e7ec2b"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "af71cca03d3716ac1c4d0cdf25d384d621186f95"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "39ff6acd25fd6b9a70f0ee9cb3c57398aa89c6d2"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-defect-image-generation",
+      "version": "1.0.4"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-event-video-generation",
+      "trust": "trusted",
+      "name": "cdf-event-video-generation",
+      "description": "Run the CDF Orchestration Event Video Generation DAG on Kubernetes or OSMO - image-to-video anomaly generation, auto-labeling, and anomaly dataset generation. Select for requests about event video generation, anomaly video generation, image-to-video synthesis, Cosmos3 image2video, anomaly dataset creation, safety/surveillance SDG, or generating person-falling, person-climbing, person-running, fighting, smoking/vaping, fire/smoke, or shoplifting video clips from a seed image. Covers both event_video_generation_dag_k8s and the external-endpoints-only event_video_generation_dag_osmo. Runs environment setup first when controller readiness is unknown. Not for person-crop clothing/attribute augmentation (that is cdf-image-attribute-augmentation) and not for video style transfer.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-event-video-generation",
+      "contentHash": "0238c4e3",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2e097f9d5b2028fbd0b4cb396bfce4ab8fe7b066"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cdb66293c497dbc2fb1e813432b1f546516876c8"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "700709076e2f90888b1c955900052098f58bc7a7"
+        },
+        {
+          "path": "assets/variable-distribution.json",
+          "sha": "4440e414807472f879684eb49321042177624a72"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "01942f45b676c42ddf80e9cb6b71051b5d6cd3b5"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "80373de0e04bc5d71a761ae36ca66b51cf133c64"
+        },
+        {
+          "path": "references/outputs.md",
+          "sha": "a6e6ac7bb5f97bcce530e00d7c058c498278d5f2"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "012ab4c768f109779c5bc1d2ffc23565dc7ebeb2"
+        },
+        {
+          "path": "references/setup-and-preflight.md",
+          "sha": "4dcd4c8dd96f43e7fdf84fcc82e709b8c019e048"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "d833c043d446d6378eb820d8c5f5a44d89540ebb"
+        },
+        {
+          "path": "scripts/payload.py",
+          "sha": "d40ed441b5452c05ef5df723399582b9b9ef499f"
+        },
+        {
+          "path": "scripts/summarize_results.py",
+          "sha": "ce4d2666d7489576dae91b9f52ba405ae61d6c0c"
+        },
+        {
+          "path": "scripts/upload_images.py",
+          "sha": "7ef2023950f6e4513a5e6e2987545ecf2857fd62"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4e90f8f04910c5486c748fff913e34ccaeed826b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "1a5895d26cf77810ac65262f4a29304842d17d0e"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-event-video-generation",
+      "version": "1.0.2"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-image-attribute-augmentation",
+      "trust": "trusted",
+      "name": "cdf-image-attribute-augmentation",
+      "description": "Run the CDF Orchestration Image Attribute Augmentation DAG on Kubernetes - person-crop clothing augmentation, attribute search, and augmented dataset generation. Select for requests about image attribute augmentation, person attribute search, person re-identification data, clothing augmentation, attribute captions, augmentation payloads, run status, or result retrieval. Runs environment setup first when controller readiness is unknown. Not for video or defect-image generation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-image-attribute-augmentation",
+      "contentHash": "37bd2fce",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ae6cc78c8376b2478eede0d1f37b8995b3a5ab8f"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cdf7832bafaaf368632d0e97630d36278d17cb1a"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "58a638d381592ce30c2d352db7f1017a33101020"
+        },
+        {
+          "path": "assets/variable-distribution.json",
+          "sha": "131d30804203959af4c4014a391074601be3a8cc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "90442f9fe031eef9719efd3dd5f715f7e38b5cde"
+        },
+        {
+          "path": "evals/test_payload.py",
+          "sha": "caee6baa0c2cc450e9b806276ff0e8098302db45"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "f117d637f70e80249f511b84dab49ff58891fcc6"
+        },
+        {
+          "path": "references/outputs.md",
+          "sha": "27ec42ef2d9230a328073fc7441352e0990803ab"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "a40f2645d8e938cf78dce674a08a3d43caa5069e"
+        },
+        {
+          "path": "references/setup-and-preflight.md",
+          "sha": "52c8445ecd969fa48c17bd222def676d6e94d225"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "f8495008d7944fbb7dba916cd8c881688862712d"
+        },
+        {
+          "path": "scripts/payload.py",
+          "sha": "99ac61296bde7afeab4aff72cc25e3b5fa4c5ce5"
+        },
+        {
+          "path": "scripts/payload_schema.py",
+          "sha": "d274b33f99d86be3da0a7dac1d3ff09d92e26d70"
+        },
+        {
+          "path": "scripts/summarize_results.py",
+          "sha": "68ee9485b5c4de8a7af6656f7452d5b061ffc708"
+        },
+        {
+          "path": "scripts/upload_images.py",
+          "sha": "8bb6781f5834904caca6d01440638ed5f66f632a"
+        },
+        {
+          "path": "scripts/workflow.py",
+          "sha": "41e5ccd6a950bfd26917d514c97efda3dc046a2f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "89faa4d8f800322ac35231613e244572687597f2"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "d52f209a0b0751574387d148728d267befffb88b"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-image-attribute-augmentation",
+      "version": "1.0.1"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-orchestration-preflight",
+      "trust": "trusted",
+      "name": "cdf-orchestration-preflight",
+      "description": "Set up missing Linux prerequisites and audit whether a Cosmos Data Factory (CDF) Orchestration checkout and its Kubernetes or OSMO environment are ready to install the controller and run every packaged DAG. Use for prerequisite, pre-setup, Kubernetes, GPU, RWX/NFS, credential, controller-readiness, and quick-start checks. Not for deploying the controller (use cdf-orchestration-setup, which calls this audit first), authoring payloads, or running workflows.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-orchestration-preflight",
+      "contentHash": "83eb37e6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ddaf521097db1e7af1dc19ac9708ce75deaf0eed"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a9a52630e3a8b15db40875096e548a1521ddcf48"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "37ac423857568bf8447a0ea0255acf6e13439fd1"
+        },
+        {
+          "path": "config/readiness-profiles.json",
+          "sha": "86ae9e8a4e9ab45248e2e48f465affc3106a061f"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "98f7295e973fb7aeaa7fdd846ef15a9500bb2524"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "5a4bc06df7bd27c12486a3256f17585be9ce235c"
+        },
+        {
+          "path": "references/bootstrap.md",
+          "sha": "8c7f9ee9b057be598b301a4a43ec87f275833435"
+        },
+        {
+          "path": "references/nfs-remediation.md",
+          "sha": "0c23724f3f6f92f2600eb56219fd6b9f63a19c0d"
+        },
+        {
+          "path": "references/readiness-model.md",
+          "sha": "6191084ba4b328d8d813eee1f2aa4a6b19c21d73"
+        },
+        {
+          "path": "scripts/preflight.py",
+          "sha": "7fcfc887232c7e9310fb9716b08fa42ca3ff3ab5"
+        },
+        {
+          "path": "scripts/storage_check.py",
+          "sha": "35afd977f27e241b74a414342b1efafc0e91c426"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "7ef9eb6c37561439bf02afb3f7a1572ffdecbe52"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "5b5a9d8632cec07efb09edf6838464a9e05ae4e2"
+        },
+        {
+          "path": "tests/test_preflight.py",
+          "sha": "e74ccf9e5f19c3c6d957f707ae291d7ef20da3ca"
+        },
+        {
+          "path": "tests/test_storage_check.py",
+          "sha": "59ec3b6793b0b4fb56a8581cd9b4c926ae35170f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-orchestration-preflight",
+      "version": "1.1.2"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-orchestration-setup",
+      "trust": "trusted",
+      "name": "cdf-orchestration-setup",
+      "description": "Use when the user asks to deploy, install, reinstall, redeploy, upgrade, or connect to the CDF Orchestration Airflow controller. Owns the end-to-end deploy sequence and runs the cdf-orchestration-preflight audit first. Covers make setup, controller image builds, Helm installation, controller connection, port-forwarding, and post-install verification. Not for standalone prerequisite audits or remediation, K3s environments, authoring DAGs, or running workflow payloads.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-orchestration-setup",
+      "contentHash": "42c5c031",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "d8924f5d888a666e18645feff629dadb9e1795e4"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "f25d8b958b09bf3c08eb8e61f39ba7bb3b8c752e"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "46d8563e335dbadb750128a07b84f1b8c2c5805f"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "9e67700c8a9c447f8113f102fccc1f78df4b7545"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "58bbbc12f42b6ba4880cbd26cc2794023789ccb9"
+        },
+        {
+          "path": "references/controller-connection.md",
+          "sha": "686ce7bc41f9b66c8f0e3c4cb0c756092e6c07e8"
+        },
+        {
+          "path": "references/deploy-controller.md",
+          "sha": "a3322c788cd80c0c6311b0e629aa49fcb4f12066"
+        },
+        {
+          "path": "references/model-startup-timeouts.md",
+          "sha": "4055ef0044a199ad4099d86567e65606b6e8bb40"
+        },
+        {
+          "path": "references/topologies.md",
+          "sha": "d25c8b85c5d347d22f02fe60d4db2512bd239a1b"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "770625645cd8b831aea87292eaac7e5abf72cd6a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "bddcd5b02fc5417cadc6e56d63893e2efb1fec90"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-orchestration-setup",
+      "version": "1.1.3"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-orchestration-write-dag",
+      "trust": "trusted",
+      "name": "cdf-orchestration-write-dag",
+      "description": "Use when a user describes a custom CDF Orchestration pipeline — a specific ordered combination of stages such as augmentation only, auto-labeling only, detection+captioning only, or image attribute augmentation without full auto-labeling — that no existing DAG in airflow/dags/workflows/ covers, and asks for a new Kubernetes DAG. Also use to check that a generated or existing DAG's model/container/prompt choices match an external spec document (e.g. a CDF `launchable.md`). Not for requests that an existing DAG already covers, including payload-only changes such as different inputs, endpoints, models, or variant counts — route those to the matching workflow skill, unless the user still wants a separate DAG after being pointed to it.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-orchestration-write-dag",
+      "contentHash": "5a0c357d",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "50b4b6af53e1882a48742b5246968c605dd00419"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "6b844b360a9e928a19441d0f29b1b905fe9626b1"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "09068a5020403e189095f0c311e6bc65badea81a"
+        },
+        {
+          "path": "references/component-skills-excerpt.md",
+          "sha": "9ba0eba3563cf6d028dfc15dc84d455067c58e59"
+        },
+        {
+          "path": "references/gpu-footprint.md",
+          "sha": "07353b76b5aad1cf07e57d40dc1cd0875bec51cd"
+        },
+        {
+          "path": "references/trigger-examples.md",
+          "sha": "be105db6bdbf6f2deacc16bfb09aa10ed8ac8518"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "72437c8d04bdc4058f904bbad8f3f1b739aafd30"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "28b5118eca50296e31efc0a680a154284ceb41de"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-orchestration-write-dag",
+      "version": "1.0.1"
+    },
+    {
+      "id": "NVIDIA/skills@cdf-video-data-augmentation",
+      "trust": "trusted",
+      "name": "cdf-video-data-augmentation",
+      "description": "Run the CDF Video Data Augmentation Airflow workflow on Kubernetes or OSMO to create Cosmos video-to-video variants and auto-label both source and generated videos. Use for VDA payload authoring, preflight, execution, monitoring, output verification, or result retrieval. OSMO requires external endpoints. Standalone augmentation or auto-labeling configuration belongs to the respective component skill. Not for retrieval-driven CDF pipelines or image-to-video event generation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cdf-video-data-augmentation",
+      "contentHash": "9c9f9f2e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "1233c05bd61c0532c0f68b72fcd522de5cf86d86"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "810444aee4cf906b23c3fb1f411d40112dc6ae45"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha": "ba906796f02351730a1d06902427995f531fcb88"
+        },
+        {
+          "path": "assets/variable-distribution.json",
+          "sha": "cebea8e2c85446d057309795df24abe6270a2132"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "00448bd55ae94f527c5070096b8da04f32a8a0d6"
+        },
+        {
+          "path": "references/airflow-direct-api.md",
+          "sha": "a7836315f1d39be17d0d4bce6e8bf4db7a762b10"
+        },
+        {
+          "path": "references/outputs.md",
+          "sha": "2e45b1bc79b30e89ddac1019c25cbdca6f89bee1"
+        },
+        {
+          "path": "references/payload-contract.md",
+          "sha": "9ca0db272e5a7d523ae134cd606976595658dcd0"
+        },
+        {
+          "path": "references/setup-and-preflight.md",
+          "sha": "1ac99fc955485bcc9d3d43481fbb52de71d40230"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "1c3c53c72e291ab715e0fbc7cc6e706546e3be74"
+        },
+        {
+          "path": "scripts/payload.py",
+          "sha": "a77370eca0bc90795e9e819f5cff2ac5f1b75c5b"
+        },
+        {
+          "path": "scripts/summarize_results.py",
+          "sha": "1490a402eb4b3dc9dbc5abfaec360b9d9a0bc153"
+        },
+        {
+          "path": "scripts/upload_videos.py",
+          "sha": "1bf434462e330f59613363fb0346d2777ae0083b"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "eb918a503422bca4018206f55037dad0609ad6b8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "0147ab78f5e2b15850677e4e03e185acac5a0e8b"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-video-data-augmentation",
+      "version": "1.0.0"
+    },
+    {
       "id": "NVIDIA/skills@compute-sanitizer-diagnose-cuda-bugs",
       "trust": "trusted",
       "name": "compute-sanitizer-diagnose-cuda-bugs",
@@ -13117,166 +14076,171 @@
       "id": "NVIDIA/skills@holoscan-install-conda",
       "trust": "trusted",
       "name": "holoscan-install-conda",
-      "description": "Install Holoscan SDK v4.3+ via Conda in a CUDA 13 environment. Use for Conda installs; redirect CUDA 12 hosts to container/wheel.",
+      "description": "Handle Holoscan SDK 5.x Conda installation requests: explain 5.0 package unavailability, check later releases, and select a supported installation method.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-install-conda",
-      "contentHash": "609d845a",
+      "contentHash": "99679258",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a49e9852f6dbffeb5db585ccad9b42ea65290b40"
+          "sha": "5f49b7375003eedecac4030716ab281d85004399"
         },
         {
           "path": "SKILL.md",
-          "sha": "6259145d208609e4bf36082e1c928e61774e562e"
+          "sha": "4cecf61c46d0605a97e4b3399288d8671ad4d9c2"
         },
         {
           "path": "evals/evals.json",
-          "sha": "7ad345137a69a12300307b7c5bd084341d1c91a9"
+          "sha": "548dde2836c578ad75d44ac835173f8917126611"
         },
         {
           "path": "skill-card.md",
-          "sha": "9c3764bd537ef2692cff6b678a4a8afbcbc7a9ab"
+          "sha": "84713b861ad4feffd5b47ae43af3defa3297038d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "9cc388596841a0f115df33b4897d12b0414948db"
+          "sha": "9103b718800a2b71e2dff68abec3ca443931b57c"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-conda"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-conda",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@holoscan-install-container",
       "trust": "trusted",
       "name": "holoscan-install-container",
-      "description": "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs.",
+      "description": "Install and verify the Holoscan SDK 5.x CUDA 13 development container after checking release availability and host compatibility.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-install-container",
-      "contentHash": "fe97f699",
+      "contentHash": "792e1d3d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2678b1986feed2d6e3a37f4f72daac739703cd34"
+          "sha": "62a2223db230240a90d5791bfba66e1a9425ca9e"
         },
         {
           "path": "SKILL.md",
-          "sha": "52629e1db86d5b456e961795d84c788b3c22616a"
+          "sha": "eca8ff3e743bb6a149c12787d5488cfa97e0fcda"
         },
         {
           "path": "evals/evals.json",
-          "sha": "a4ff6783f863d4841a4d8d81cafcd416fbcaaa40"
+          "sha": "8013e7b7385bd0d4539488d1f5031e92de1b4de1"
         },
         {
           "path": "skill-card.md",
-          "sha": "322259141bec5aaa4c6984b7176b8120d6cbc8bf"
+          "sha": "6e7799d93b8c629b04d09690285be4c0d9286710"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fa38cea6774318b8ff2b5cc08c1dc3ea0095c51a"
+          "sha": "9e43e0b82601d07ff9779333a6ee3792b59d69fe"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-container"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-container",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@holoscan-install-debian",
       "trust": "trusted",
       "name": "holoscan-install-debian",
-      "description": "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python.",
+      "description": "Install Holoscan SDK 5.x native C++ Debian packages on Ubuntu 24.04, choosing the full SDK or matching modular packages.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-install-debian",
-      "contentHash": "04a88f82",
+      "contentHash": "11180a7c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a8360cfee6d7ac350fc38a4c0f0c538759f67360"
+          "sha": "c4657085d8a972b2067a39a9376db3baef966aa9"
         },
         {
           "path": "SKILL.md",
-          "sha": "d904e68156f32aaec4f6cbca0fba294b2c73ace7"
+          "sha": "bc33d22658e372498a22c0c8e4e670996f1f3d35"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c8672d5a3387011e92763bd7eef9202c4bcff2ce"
+          "sha": "a758484eae883a568797f22669988a1ef7ed94d3"
         },
         {
           "path": "skill-card.md",
-          "sha": "ba98daa2ca9c201d20d125bd28f4217627473c6b"
+          "sha": "377d9c3a32db96b69ea32add814abdd5be7f468f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ae727ee525d87dddd1fd579d34954543d8ce316a"
+          "sha": "8f6c076bcd4a2401e79448a78eee95718ccb7c23"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-debian"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-debian",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@holoscan-install-source",
       "trust": "trusted",
       "name": "holoscan-install-source",
-      "description": "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages don't meet the user's needs.",
+      "description": "Build and verify Holoscan SDK 5.x from an explicit source ref with the repository run wrapper; use for Early Access or SDK development.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-install-source",
-      "contentHash": "a1b2758e",
+      "contentHash": "7ca525c0",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "705afa7fe328296ac6eea7fc71b5191aa514ef6f"
+          "sha": "4ac6458514c80e316942d2a9935b16ce64d04b3d"
         },
         {
           "path": "SKILL.md",
-          "sha": "8be8b19e7c0cc39ceb106d94701a14d862745abd"
+          "sha": "32d6154238fbbdba42e8680a59afd65e6728f0dd"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8fa3c9d1787304a14324eec1c66e9f7957ececd9"
+          "sha": "efdaf3e142f112d055b93e2b21cc10cae971160c"
         },
         {
           "path": "skill-card.md",
-          "sha": "995d2e5211b84d6901f4486ac85280a4e03c8ae3"
+          "sha": "36da635757c83714882c09e1085d66b62ed4331a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "41df14fc7ade7d7fad4a061040f377af71f3e3fc"
+          "sha": "feea4936d92590cc408be5505e4d16f29fcd1d55"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-source"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-source",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@holoscan-install-wheel",
       "trust": "trusted",
       "name": "holoscan-install-wheel",
-      "description": "Install Holoscan SDK Python wheel via pip into a venv. Use for Python installs; not for native C++/apt or Conda installs.",
+      "description": "Install Holoscan SDK 5.x CUDA 13 Python wheels in an isolated environment, choosing the full stack or version-matched components.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-install-wheel",
-      "contentHash": "152e26ee",
+      "contentHash": "c5604dc3",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "fcae97a7172a7e7bb6a9c4bcaae46adec964a66d"
+          "sha": "388dfda86eba1de621ec2249ebd23f5c5b241791"
         },
         {
           "path": "SKILL.md",
-          "sha": "245a70e99fc38f638292b53cf9ebe4f1dabfc2db"
+          "sha": "3c5a6b2298cf89d0332a0ce8a77655fde3528867"
         },
         {
           "path": "evals/evals.json",
-          "sha": "6a973a85d3870f0a6f2fc10a3e0a921e096131e1"
+          "sha": "131bfe8c3bf13337a6311153a3da020e2e33c86d"
         },
         {
           "path": "skill-card.md",
-          "sha": "2eacfedfb5683df39445f81a09387311f09b12d4"
+          "sha": "1c7d67986d21dce02444b9eac9ff75dd9d270514"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "06bfe60da73b053105b7e6a0f86f55b3ee27153a"
+          "sha": "6945b1e7322c7cab23051a16c38bb05a014ad86a"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-wheel"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-install-wheel",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@holoscan-module-lifecycle",
@@ -13335,42 +14299,39 @@
       "id": "NVIDIA/skills@holoscan-setup",
       "trust": "trusted",
       "name": "holoscan-setup",
-      "description": "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill.",
+      "description": "Assess a host and choose a Holoscan SDK 5.x installation method using release availability, CUDA 13 compatibility, and component needs.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/holoscan-setup",
-      "contentHash": "e3a82346",
+      "contentHash": "f82f5bd3",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "ad49dc253794d17f395ef87868ba0aada7832354"
+          "sha": "f0b373cdd970e3118ca781275bcf81229531bb38"
         },
         {
           "path": "SKILL.md",
-          "sha": "65ee361a80806f7edaa6bce468bc2554fce79736"
+          "sha": "e42fcceb011c675d75b17b2bec84fde1f4321e05"
         },
         {
           "path": "evals/evals.json",
-          "sha": "64338668898b51245115afa9db77a08112126572"
-        },
-        {
-          "path": "scripts/check_conda.sh",
-          "sha": "f0754d27e2e35ac85cefc6e2c73b817a295cf616"
+          "sha": "977b229e9c2d06400cae6bdfa1918e19c0b51934"
         },
         {
           "path": "scripts/check_ngc_image.sh",
-          "sha": "d5ccc38acf3b57fb044ea26ba004aa4fde84b91e"
+          "sha": "415e802fbc60f458e67569084fafffe17aa1522f"
         },
         {
           "path": "skill-card.md",
-          "sha": "6335c801e6b686123c3528beb2209e9f8fe50b04"
+          "sha": "8458d6e2951ce2c9528258522049c9a391ce220f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e8778fb3631d1faf57f2684cf7356d29a2654a4d"
+          "sha": "ccbe67860492f478d7f8b71bef682e79e2c5ab36"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-setup"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/holoscan-setup",
+      "version": "2.0.0"
     },
     {
       "id": "NVIDIA/skills@hsb-app",
@@ -22225,273 +23186,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-usd-performance-tuning"
     },
     {
-      "id": "NVIDIA/skills@paidf-augmentation",
-      "trust": "trusted",
-      "name": "paidf-augmentation",
-      "description": "Use when authoring or validating PAIDF augmentation YAML configs, or running remote Cosmos Transfer (including Cosmos3 WSM controls), Cosmos Predict, image-edit, or image-to-video inference.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-augmentation",
-      "contentHash": "29cf4fc8",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "e4fb413269fbc3a43074aa7889a5ee0d597b5b1b"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "e6d8eb643e0f7bf5d9a6793eb82aa1c9013ffac3"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "e92331511d93c1316a0fc53223422511c503cafb"
-        },
-        {
-          "path": "references/captioning-strategy-guide.md",
-          "sha": "da84d012cef91972e8183e428dc37b55e18de51a"
-        },
-        {
-          "path": "references/config-decision-tree.md",
-          "sha": "0e8aafc4186c8c235fb9e81d16dcb1b32e4f20fc"
-        },
-        {
-          "path": "references/configuration-schema.md",
-          "sha": "8ad3b4c0927563314327c9bc0bae528c6ffc1b82"
-        },
-        {
-          "path": "references/evaluator-setup-guide.md",
-          "sha": "efdcbc04736aadb5ce2a5521565a644d5118406d"
-        },
-        {
-          "path": "references/event-video-gen.md",
-          "sha": "7e3ae4df60f79a133f2c3cc577c58758e1b1be9c"
-        },
-        {
-          "path": "references/image-attribute-augmentation.md",
-          "sha": "4f6076e18e987610ee36c1bcd9c5fc910ff79aca"
-        },
-        {
-          "path": "references/pipeline-operations.md",
-          "sha": "6202f9bba0b092e8dd4637ca32775add52f96696"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "cf2d711dd8c5c9c2657e7a8f7900cd63a90a27ab"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "76044acee3aaf877e27426174aebd1e7b880cb3a"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "1c60105d0c7e6bf403ec690310e6b9ca5087539e"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-augmentation",
-      "version": "1.2.0"
-    },
-    {
-      "id": "NVIDIA/skills@paidf-auto-labeling",
-      "trust": "trusted",
-      "name": "paidf-auto-labeling",
-      "description": "Use when a user needs to get started with PAIDF Auto-Labeling, plan a scenario, run or debug a shipped cookbook, author prompts or cookbooks, migrate a pipeline, or configure a stage. Confirm critical inputs (data path, output path, endpoints) and ask when any are missing. This is a router: read the matching reference instead of inventing a workflow.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-auto-labeling",
-      "contentHash": "4feccef3",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "8a9edf356ea96051abd851ae59e9254bd5f3fd4f"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "89ebff5d90d5f28f8800e042a666658ac99d0f33"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "c81cf460466ef573c5a393dbf5438a1314fc8531"
-        },
-        {
-          "path": "references/README.md",
-          "sha": "fb1ede29b6e7d13d6da041ded33222afd8070f75"
-        },
-        {
-          "path": "references/cookbook-authoring.md",
-          "sha": "3960718a239f025c1da69c4a7f595f07a2134131"
-        },
-        {
-          "path": "references/cookbook-authoring/cookbook-schema.md",
-          "sha": "064fb6f4a548547bd75353b4db10df5dfe91551b"
-        },
-        {
-          "path": "references/cookbook-authoring/scenario-authoring.md",
-          "sha": "cc0d7ad4eb845e2ae2dac370158ca4b698765dd0"
-        },
-        {
-          "path": "references/event-and-person-attribute-search.md",
-          "sha": "70184fae521383a14715c54eed7e91a064462b89"
-        },
-        {
-          "path": "references/event-and-person-attribute-search/run-reference.md",
-          "sha": "04e40f3133946a10419df7dd31854324be6c6828"
-        },
-        {
-          "path": "references/event-verification-reasoning.md",
-          "sha": "12c32bcddfb9d89466e897de8b01b499b30cee9c"
-        },
-        {
-          "path": "references/event-verification-reasoning/run-reference.md",
-          "sha": "28d3257cec2b25eab163879f0efb79f766b55bee"
-        },
-        {
-          "path": "references/pipeline-migration.md",
-          "sha": "902710f5a7a1395d4b10bf2230a77fa78f017888"
-        },
-        {
-          "path": "references/pipeline-migration/migration-playbook.md",
-          "sha": "8aa343ac281ee69653bc5bf962b7896d3f7c9acb"
-        },
-        {
-          "path": "references/pipeline-migration/nonlinear-video-pipeline-example.md",
-          "sha": "1fc8920e8adc74458a3d89ac3d29cc7c395b604a"
-        },
-        {
-          "path": "references/pipeline-migration/service-reuse-matrix.md",
-          "sha": "4f0bd1b67c8953214716576e0a6ed3aef469cce4"
-        },
-        {
-          "path": "references/pipeline-migration/sidecar-contracts.md",
-          "sha": "a2aaa6540d11402b430e0b1b3cae788f600eb1ab"
-        },
-        {
-          "path": "references/prompt-authoring.md",
-          "sha": "a59c4ed00c17f1028875760ab921b43f8aee1640"
-        },
-        {
-          "path": "references/prompt-authoring/domain-evidence-checklists.md",
-          "sha": "0b71215abcc5f35749c32f85be8bef6685916c94"
-        },
-        {
-          "path": "references/prompt-authoring/prompt-patterns.md",
-          "sha": "157bec7486a9cb2a36e5f61ed1d02c41b563eda8"
-        },
-        {
-          "path": "references/prompt-authoring/question-bank-authoring.md",
-          "sha": "7bc7f8382b192c8e3b488d0ada4e2090f086baa9"
-        },
-        {
-          "path": "references/scenario-planning.md",
-          "sha": "aa47e4aae9fefded0e18a075a90c0b7f6c4d0f69"
-        },
-        {
-          "path": "references/scenario-planning/annotation-recommendations.md",
-          "sha": "456eb006d200e73dd78c5a0142087839fc3ad8bf"
-        },
-        {
-          "path": "references/scenario-planning/intake-and-decisions.md",
-          "sha": "708178d99996d71c84080f7fe3ea71f47b0b296d"
-        },
-        {
-          "path": "references/scenario-planning/pipeline-composition.md",
-          "sha": "07027a772f2e640e9a6c6a488066c55398726a8f"
-        },
-        {
-          "path": "references/stages/captioning.md",
-          "sha": "21d42beb03ed1b1a23e56993a5f928dadf3de82d"
-        },
-        {
-          "path": "references/stages/detection-and-tracking.md",
-          "sha": "8cdd5e22d182fdfaf68764187555e9255c1f4c2c"
-        },
-        {
-          "path": "references/stages/detection-tracking-patterns.md",
-          "sha": "c2f365a5ebafb85d32ff4cebfcd3c465ea20ada7"
-        },
-        {
-          "path": "references/stages/grounding-2d-patterns.md",
-          "sha": "4b923cf3a84b31f3ba0cbd53d08235f8d722d108"
-        },
-        {
-          "path": "references/stages/grounding-2d.md",
-          "sha": "be82793fdcb08090bdcda7a8a22db7581a309eb4"
-        },
-        {
-          "path": "references/stages/guardrails.md",
-          "sha": "defa9ba63146cde108d72368a44edb35f0b69d88"
-        },
-        {
-          "path": "references/stages/person-attribute-search.md",
-          "sha": "e06b8d861d5e1e86c9978b5c1544a922592260dd"
-        },
-        {
-          "path": "references/stages/reasoning.md",
-          "sha": "54589da275cb044bb0ab8275905f4fbdb8daac82"
-        },
-        {
-          "path": "references/stages/referring-expressions-patterns.md",
-          "sha": "ce31f5474ccf297ab2b5e803b962ee4c775e5bc8"
-        },
-        {
-          "path": "references/stages/referring-expressions.md",
-          "sha": "6c66a93816f0b42a173cf14239d27f85c906d8fb"
-        },
-        {
-          "path": "references/stages/super-resolution.md",
-          "sha": "5bc81b9e6449546ed788e5175a75df4d2f9dca49"
-        },
-        {
-          "path": "references/stages/training-export.md",
-          "sha": "7dc878864f63f2d3881be8225775695a500976a9"
-        },
-        {
-          "path": "references/stages/visual-qa.md",
-          "sha": "3ff0b3044b9bbad8ce01c31b19ee7a2c60f4b763"
-        },
-        {
-          "path": "references/video-data-augmentation.md",
-          "sha": "317b13ab4eb5dad7a38daf18487a8db67923b929"
-        },
-        {
-          "path": "references/video-data-augmentation/run-reference.md",
-          "sha": "943a1abffed3fab03a4bd97d5c4c30b170e2d031"
-        },
-        {
-          "path": "references/workflow-runner-debugging.md",
-          "sha": "c925cd345c53eb5e5a32ba4d149c5011e007c944"
-        },
-        {
-          "path": "references/workflow-runner-debugging/data-handoff.md",
-          "sha": "91e3ad59a0d014d2597bb764e11a3f2e180fea74"
-        },
-        {
-          "path": "references/workflow-runner-debugging/runner-debugging-patterns.md",
-          "sha": "2a0d201f605a5fc24d1da67e60b9d39f04b9b456"
-        },
-        {
-          "path": "references/workflow-stage-integration.md",
-          "sha": "8a2a1a087e084ff28a38aa95909dfef77c1ad63b"
-        },
-        {
-          "path": "references/workflow-stage-integration/stage-service-contract.md",
-          "sha": "7db0a8f09dc32e12d07b9953438c81d9accec42f"
-        },
-        {
-          "path": "references/workflow-stage-integration/validation-checklist.md",
-          "sha": "b56e874b40c1f707d2351bfae02edae908a9d79d"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "5ca3cf0aad5dd6a50b047bb23eec96fc0c21cc66"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "25751578be7682dd75d0d02a34036860bd51f993"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-auto-labeling"
-    },
-    {
       "id": "NVIDIA/skills@paidf-cosmos-predict",
       "trust": "trusted",
       "name": "paidf-cosmos-predict",
@@ -22556,208 +23250,6 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-cosmos-predict",
       "version": "0.1.0"
-    },
-    {
-      "id": "NVIDIA/skills@paidf-curation-and-retrieval",
-      "trust": "trusted",
-      "name": "paidf-curation-and-retrieval",
-      "description": "Use when operating PAIDF Curation and Retrieval or NVIDIA Cosmos Curator pipelines (split, filter, caption, embed, dedup, shard, image annotate) or PAIDF Data Mining nearest-neighbor matching on Curator embeddings. Activate for Make or CLI pipeline config, GPU run preflight, FFmpeg sidecar, SAM3 keys, or Curator-to-TAO handoff. Do not use for generic ETL, vector-database RAG, model training, orchestration, or embeddings outside Cosmos Curator and PAIDF Data Mining.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-curation-and-retrieval",
-      "contentHash": "fa9eefe4",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "f1253e91bf022ad1fcc66cf6d881e6094c6382e7"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "40471272c9ad843af5f131c4e9712a147455e0df"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "9eb669d97ee0b73426f778204e0aa65314d67b8c"
-        },
-        {
-          "path": "references/calibration-config.md",
-          "sha": "dde215f2aba58b5f99b84dd6c355e4fc2bc3ba52"
-        },
-        {
-          "path": "references/capabilities.md",
-          "sha": "0a0d2ec334c6651ee3a37211f20a928ea5331115"
-        },
-        {
-          "path": "references/configuration-decision-tree.md",
-          "sha": "570c5a16bcb624f38b609df89921033fd8ca1610"
-        },
-        {
-          "path": "references/context-understanding.md",
-          "sha": "837b95583eab26817d0040cfa9310c442f424b72"
-        },
-        {
-          "path": "references/cosmos-curator.md",
-          "sha": "85ba4b531848617340ff0893a46061e45f97d2a5"
-        },
-        {
-          "path": "references/curation-retrieval-workflow.md",
-          "sha": "108cc7e2893f96006e5c63fe1740a42f8dcbd6fe"
-        },
-        {
-          "path": "references/data-mining.md",
-          "sha": "a8631f9c3ad2d7e96f2793131e6b642f6234bd38"
-        },
-        {
-          "path": "references/distribution-analysis.md",
-          "sha": "2cb2f0f0cc7dc6bb4d5e61d3bb90134895d9acb8"
-        },
-        {
-          "path": "references/distribution-aware-curation.md",
-          "sha": "d95a57e7e375d96c8829d213fb1c5ad3579825bf"
-        },
-        {
-          "path": "references/ffmpeg-sidecar.md",
-          "sha": "f6da3203a0e0389f93550fe519605148dd756dd3"
-        },
-        {
-          "path": "references/gotchas.md",
-          "sha": "fcf535778cefb0c727185b64b62afe42023c1856"
-        },
-        {
-          "path": "references/image-curation.md",
-          "sha": "bf493b9e50c9ff8ce8418a55a4c7d9b95f4a5b53"
-        },
-        {
-          "path": "references/kpi-metrics.md",
-          "sha": "8d8580374b73a9556ca40ad0edbcc7743681da98"
-        },
-        {
-          "path": "references/restrictive-curation.md",
-          "sha": "a973cadf6fa16778dca8d8ce87a88c991fc921ca"
-        },
-        {
-          "path": "references/running-pipelines.md",
-          "sha": "a7a5dcd3d9d87bcab92ba0b069ff1ba5b43e7755"
-        },
-        {
-          "path": "references/sam3-config.md",
-          "sha": "83f7d824032bcf721837457dbfbc8e454769776a"
-        },
-        {
-          "path": "references/video-curation.md",
-          "sha": "787992b6b1048a673af8125a228737f34649b46d"
-        },
-        {
-          "path": "references/video-lake-curation.md",
-          "sha": "cdb848eadecee21700eef44b0068a7d3f5f1b43d"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "16b7831ffb64c374cc5be86734059b14929a2680"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "690cca904c6368b540732704cedf04079ed067e7"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-curation-and-retrieval",
-      "version": "1.1.0"
-    },
-    {
-      "id": "NVIDIA/skills@paidf-orchestration-setup",
-      "trust": "trusted",
-      "name": "paidf-orchestration-setup",
-      "description": "Audit, prepare, and deploy PAIDF Orchestration on a Kubernetes GPU cluster - single-GPU H100/L40S hosts, managed Kubernetes, kubeadm, and similar. Select for requests to set up, install, deploy, configure, or check a PAIDF Orchestration environment; run a workflow on a new or unverified GPU host; connect via kubeconfig; validate GPU compute; deploy the Airflow controller; or choose external versus in-cluster model services. A plain SSH host is not a supported backend.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-orchestration-setup",
-      "contentHash": "55f47609",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "eb98baed8430f0c14d2ed2ba89956a460d785731"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "521db65110aa88d962d1fba4ee1f34fb47ddff1b"
-        },
-        {
-          "path": "agents/openai.yaml",
-          "sha": "a90a3d59c932bc0319cd26646ef442d658d91753"
-        },
-        {
-          "path": "config/skillspector-baseline.yaml",
-          "sha": "5f011475825798674dd3095451935aed636c3c10"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "ca7dfbcc828431803dbd00deba81b3c503f8b511"
-        },
-        {
-          "path": "references/controller-connection.md",
-          "sha": "f2c69ec642110a7ceb6f6d001b708b9924a48c53"
-        },
-        {
-          "path": "references/deploy-controller.md",
-          "sha": "5ce8827ce025d9e37eb44f864e6483952d49da39"
-        },
-        {
-          "path": "references/topologies.md",
-          "sha": "80dae266edb3a91ee13bf1f25815de5577d07982"
-        },
-        {
-          "path": "scripts/remote_k8s.py",
-          "sha": "f491417a5da29a1f9150f43bcf7d69319b29c9d9"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "6691919b7c4a4fd5025657402eb6460d736eaff9"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "c6c2d20da4c38f1de9521ed3cf60e14ed9de09ef"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-orchestration-setup",
-      "version": "1.0.0"
-    },
-    {
-      "id": "NVIDIA/skills@paidf-orchestration-write-dag",
-      "trust": "trusted",
-      "name": "paidf-orchestration-write-dag",
-      "description": "Use when a user describes a custom PAIDF Orchestration pipeline — a specific ordered combination of stages such as augmentation only, auto-labeling only, detection+captioning only, or image attribute augmentation without full auto-labeling — that no existing DAG in airflow/dags/workflows/ covers, and asks for a new Kubernetes DAG. Also use to check that a generated or existing DAG's model/container/prompt choices match an external spec document (e.g. a PAIDF `launchable.md`).",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/paidf-orchestration-write-dag",
-      "contentHash": "a1ccba12",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "1b33cefb3f88eeafce90f41c5cefa528e5d61216"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "567e0df58a3be4b18b6b97d81d8614a71bfdebe3"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "5e3bd7272d8d53a32487a4b25aa9f9409034f246"
-        },
-        {
-          "path": "references/component-skills-excerpt.md",
-          "sha": "c1c472b93fb18440829bdf1b9391cdeb09dbdea3"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "8b01226f23b89a4868e12f11688ed684fa818313"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "cb0d8bda7ca4863aa7636364345f552d04d21842"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/paidf-orchestration-write-dag",
-      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@physical-ai-defect-image-generation",
@@ -22988,158 +23480,6 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-defect-image-generation",
       "version": "1.0.1"
-    },
-    {
-      "id": "NVIDIA/skills@physical-ai-event-video-generation",
-      "trust": "trusted",
-      "name": "physical-ai-event-video-generation",
-      "description": "Run the PAIDF Orchestration Event Video Generation DAG on Kubernetes - image-to-video anomaly generation, auto-labeling, and anomaly dataset generation. Select for requests about event video generation, anomaly video generation, image-to-video synthesis, Cosmos3 image2video, anomaly dataset creation, safety/surveillance SDG, or generating person-falling, person-climbing, person-running, fighting, smoking/vaping, fire/smoke, or shoplifting video clips from a seed image. Runs environment setup first when controller readiness is unknown. Not for person-crop clothing/attribute augmentation (that is image-attribute-augmentation-workflow) and not for video style transfer.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/physical-ai-event-video-generation",
-      "contentHash": "c96ead9e",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "0085af3f938c2f86205525586d17d3cc08c52fc2"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "8e83d312a76c55d5a52bd0e361927380d040a445"
-        },
-        {
-          "path": "agents/openai.yaml",
-          "sha": "252300c807561034215dc1bb8c45daf4b79a3ff3"
-        },
-        {
-          "path": "assets/variable-distribution.json",
-          "sha": "4440e414807472f879684eb49321042177624a72"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "d8820a1325894fbe54a425b8b3e16b12d57b74d0"
-        },
-        {
-          "path": "references/airflow-direct-api.md",
-          "sha": "7c790cea44d4a8a4fe739206716a41c0eb4228b4"
-        },
-        {
-          "path": "references/outputs.md",
-          "sha": "c4ac3a77c9bea526dc7ff1cf980bf4d898e111af"
-        },
-        {
-          "path": "references/payload-contract.md",
-          "sha": "a3c747e1b6dd0f0e3d13e4317f72c4c5614ecb74"
-        },
-        {
-          "path": "references/setup-and-preflight.md",
-          "sha": "27754f470487df394af6703c2a70b447776b1247"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "7abace1a33961c2abd8be09dfa2ee0fde38e1dd8"
-        },
-        {
-          "path": "scripts/payload.py",
-          "sha": "804e0fe5215b2d585bfab9bb1758720c7c54f465"
-        },
-        {
-          "path": "scripts/summarize_results.py",
-          "sha": "05dcfefcd7577bd6b738fcf1e214721f1fae31e6"
-        },
-        {
-          "path": "scripts/upload_images.py",
-          "sha": "afbc73d4afbc4e48f5da999db6dd5550816d66a2"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "d809b83fe45ad54dfc6302d42e8b3e879f57e140"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "51613609b553deb664e3449dbe5f84fd93b7c522"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-event-video-generation",
-      "version": "1.0.0"
-    },
-    {
-      "id": "NVIDIA/skills@physical-ai-image-attribute-augmentation",
-      "trust": "trusted",
-      "name": "physical-ai-image-attribute-augmentation",
-      "description": "Run the PAIDF Orchestration Image Attribute Augmentation DAG on Kubernetes - person-crop clothing augmentation, attribute search, and augmented dataset generation. Select for requests about image attribute augmentation, person attribute search, person re-identification data, clothing augmentation, attribute captions, augmentation payloads, run status, or result retrieval. Runs environment setup first when controller readiness is unknown. Not for video or defect-image generation.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/physical-ai-image-attribute-augmentation",
-      "contentHash": "c84769c6",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "05ead7762225a28cf6e126587d626aa043d3f77d"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "7842095ba25656ccbbebc76b3b30c0ffcbb6e221"
-        },
-        {
-          "path": "agents/openai.yaml",
-          "sha": "4dd17a2704b0d87a83746eca55d3380980e1f0a6"
-        },
-        {
-          "path": "assets/variable-distribution.json",
-          "sha": "131d30804203959af4c4014a391074601be3a8cc"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "a69144a9f2864131e2ff281cbe269626b2d4fb8f"
-        },
-        {
-          "path": "references/airflow-direct-api.md",
-          "sha": "bac778c42dde86d76d686c9dc9c9a0a2014d872e"
-        },
-        {
-          "path": "references/outputs.md",
-          "sha": "4da31974838fd3d4b5edd864708d7413dd7cdd98"
-        },
-        {
-          "path": "references/payload-contract.md",
-          "sha": "fced3715e65d1806fd14ea28214b205b5a541102"
-        },
-        {
-          "path": "references/setup-and-preflight.md",
-          "sha": "3a86a4fe38085803cd5f4aabfb3f10c5615c0a03"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "dd89dd497464c99e2813ef71725a84643203d2ba"
-        },
-        {
-          "path": "scripts/payload.py",
-          "sha": "7661fa70326d690b63a18fe94503417c7e01a3b3"
-        },
-        {
-          "path": "scripts/summarize_results.py",
-          "sha": "2481f60e80c9e2e939cdf7db22d413dc9d075412"
-        },
-        {
-          "path": "scripts/upload_images.py",
-          "sha": "0af0b97fc6f7ca49174628181be46b23a9529890"
-        },
-        {
-          "path": "scripts/workflow.py",
-          "sha": "f13d121b0b935ea1923a0812454c60908e991718"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "0ab39fdd77fa7f719f24e72bf7a4b0517b70e99d"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "845ad3b475ffcf977e4bfda45c797c30bbf863b9"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-image-attribute-augmentation",
-      "version": "1.0.0"
     },
     {
       "id": "NVIDIA/skills@physical-ai-infrastructure-setup-and-resilient-scaling",
@@ -24442,15 +24782,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/rtx-remix-modding",
-      "contentHash": "ea9ec94e",
+      "contentHash": "3bb2f408",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "73ea2838b23564587a012afdcf1c3489a265a997"
+          "sha": "a4db8ba2bf4a06190cff5510413b7366196ac2ba"
         },
         {
           "path": "SKILL.md",
-          "sha": "0831b352860e796ca020dfd67d34b43340b3caf2"
+          "sha": "4f683ce3a29fa50eff922dd9142558f7e83604d5"
         },
         {
           "path": "evals/EVAL.md",
@@ -24466,11 +24806,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "c5dfef1425feb80785aab2e8e2d1def3c2f90e50"
+          "sha": "f71608c156e858bcac894fb863aef6e87ebc5136"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "9bb34f33669c53ff9cc52ae199ce3f8c7fafe241"
+          "sha": "c41d8c80ef45dc9fe468a8107aee09e25a3f9776"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/rtx-remix-modding"
@@ -33920,15 +34260,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "6eddcd9e",
+      "contentHash": "c0960532",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "ac4b2065b6190f8f04a22deeaa183855ef731ba7"
+          "sha": "a464c2fdb7e3cbec0a83324204e472d83842da7c"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "0a30eaeb6626ffbd3e67fab9d0001ebdfe3d9196"
+          "sha": "f73da6888d8d4e1212572f085aababe73b41aba2"
         },
         {
           "path": "SKILL.md",
@@ -35434,11 +35774,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "25298bb7",
+      "contentHash": "c4df9c92",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b2c0852d712cbd9ab34c8cf810f6c83715a146d6"
+          "sha": "9d3e0f52248c8fc7d8f827708ac72fd9750db129"
+        },
+        {
+          "path": "captain.md",
+          "sha": "15e4beefae62f36cedf35f3cb1169c72543ede73"
         },
         {
           "path": "scripts/install.sh",
@@ -37460,11 +37804,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "16e9d24b",
+      "contentHash": "3845cb47",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "eebbf1b36a1fe2c6940f1bcce1f6ef946f97a1f3"
+          "sha": "924983ab406b878a811a6c7c08eec254aedc8412"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37485,6 +37829,14 @@
         {
           "path": "sections/apple-release.md.tmpl",
           "sha": "fab789fe6e598a611a337604f8099b3636d9cb65"
+        },
+        {
+          "path": "sections/capy-pr.md",
+          "sha": "b0f226edc8c9445e6a99e048b1bf7473bae461e0"
+        },
+        {
+          "path": "sections/capy-pr.md.tmpl",
+          "sha": "d47d43cc743d85eace85a1510d3d7c4bd92c2656"
         },
         {
           "path": "sections/changelog.md",
@@ -37528,7 +37880,7 @@
         },
         {
           "path": "sections/manifest.json",
-          "sha": "1ba0a8c39c42f3bb501ee029dc8624dfa2e9825f"
+          "sha": "32af4c72450f31ab36275618fcff36cfca4011fe"
         },
         {
           "path": "sections/measure.md",
@@ -37548,11 +37900,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "3c8a95c3dfd4cc49c6580ef285ae850e7dc46598"
+          "sha": "256fa1af1eddd04da2c6893c9af7c1f4dd97048e"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "0b37b036bfe18aaf68b1a8487b27aca83abdb4fa"
+          "sha": "d886dae1d05a1ba0900a292f4f5f3fdd3d3a7fc9"
         },
         {
           "path": "sections/review-army.md",
