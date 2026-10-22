@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792689280187,
+  "generatedAt": 1792705222325,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -15307,6 +15307,219 @@
       "version": "0.8.0"
     },
     {
+      "id": "NVIDIA/skills@isaac-humanoid-cloud-control",
+      "trust": "trusted",
+      "name": "isaac-humanoid-cloud-control",
+      "description": "Run streamed Unitree G1 cloud-navigation demos in Isaac Sim with guarded gantry release. Use for demo, destination, Mission Control, or cleanup requests.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/isaac-humanoid-cloud-control",
+      "contentHash": "4b169cd2",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "43cb7e7323a39f6223827ce537e82671abc72ba5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "f91a60118a60c98f03a5b7f070c7f63c418b34a1"
+        },
+        {
+          "path": "assets/browser-viewer.compose.yaml",
+          "sha": "4a9eff23bdf6ab02730bb2dd66d88b993dbc5433"
+        },
+        {
+          "path": "assets/carter_warehouse_navigation.png",
+          "sha": "d2fec120a1e982f8159df7394912c3e00572c401"
+        },
+        {
+          "path": "assets/carter_warehouse_navigation.yaml",
+          "sha": "9c7a394f873fec2ed5f9972dbf0ad3384d22413e"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "a46380bb786ed89b1ff1460936b39845ba7249c2"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1f670415d198fad644c61dca0c1ede18db0084bf"
+        },
+        {
+          "path": "evals/evals.json.license",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "extensions/humanoid_cloud_control.autoplay/config/extension.toml",
+          "sha": "e531eb27d5cefc02dc9832c67242cbb6b49e9684"
+        },
+        {
+          "path": "extensions/humanoid_cloud_control.autoplay/humanoid_cloud_control/autoplay/__init__.py",
+          "sha": "b23958d7c9aaa863dcce4794fbfc5f26c73f1197"
+        },
+        {
+          "path": "extensions/humanoid_cloud_control.autoplay/humanoid_cloud_control/autoplay/extension.py",
+          "sha": "b4e68334a7086855f5bc27135b113eec54450140"
+        },
+        {
+          "path": "references/bootstrap.md",
+          "sha": "0f4fc143ad7a9314ddc0d35a4476b651cf9a7373"
+        },
+        {
+          "path": "references/bring-up-cloud-stack/README.md",
+          "sha": "9bdb49c44de6b591fc285142f3e30108b971da4a"
+        },
+        {
+          "path": "references/bring-up-cloud-stack/scripts/run.py",
+          "sha": "38e52005298d92ed7325668798d5d8eee6f3a119"
+        },
+        {
+          "path": "references/change-fleet-composition/README.md",
+          "sha": "f843b444a8db922750cb55c9efda0b1587d62ea7"
+        },
+        {
+          "path": "references/change-fleet-composition/scripts/run.py",
+          "sha": "a265d9b74c46f464a894c0cb080c4aadc96f817c"
+        },
+        {
+          "path": "references/change-map/README.md",
+          "sha": "4b2ae51d515caeb52aef2497a8f6cece8c0db360"
+        },
+        {
+          "path": "references/change-map/scripts/run.py",
+          "sha": "2a0fcb0bc1d060c55007cde0a7819b1c0f083687"
+        },
+        {
+          "path": "references/cloud-workspace.md",
+          "sha": "f23aeb3678316d7181b1db12d973a22e05f62cdb"
+        },
+        {
+          "path": "references/dependencies.md",
+          "sha": "222555cf96578904c68192f1e0f8d1f314224cbb"
+        },
+        {
+          "path": "references/isaac-ros-activate/README.md",
+          "sha": "c3de8614a7c9574ec363ee2ec0440e0735488b92"
+        },
+        {
+          "path": "references/isaac-ros-activate/scripts/run.py",
+          "sha": "3a9c6297b53492d5ea1da72236e34f8c882aa8d3"
+        },
+        {
+          "path": "references/isaac-ros-setup.md",
+          "sha": "63b917da7f82bb811eccf1990e481ee594023e66"
+        },
+        {
+          "path": "references/isaac-sim-installation/README.md",
+          "sha": "8c943924658a20f5f69094a0ad75b73db7fefca8"
+        },
+        {
+          "path": "references/isaac-sim-remote/README.md",
+          "sha": "05bbb2f554f7ef0cb034f9171713eceae484ae6e"
+        },
+        {
+          "path": "references/isaac-sim-remote/scripts/run.py",
+          "sha": "90da2c33293faccf401f6e2ac3678048f1864097"
+        },
+        {
+          "path": "references/ordered-startup.md",
+          "sha": "f857326c1fadcbcdb1cdaf6f92ca2e595cd70321"
+        },
+        {
+          "path": "references/release-4.6.md",
+          "sha": "d6e0b3d6a1fa4bb59c02ec60ac66354720ab004a"
+        },
+        {
+          "path": "references/submit-and-monitor-mission/README.md",
+          "sha": "eb533bef54d44238bf940caaa43adae77892cabd"
+        },
+        {
+          "path": "references/teardown.md",
+          "sha": "349a234cdda176bcb077b6ae6d833ebde9aa9ccb"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "f23dffd7001cab0004301fb7270b24784648e1f8"
+        },
+        {
+          "path": "scripts/check_runtime.py",
+          "sha": "a1c500a7f1acf6aca7e8eec71328bd352dbce5c5"
+        },
+        {
+          "path": "scripts/doctor.py",
+          "sha": "cad2bdd756d851ac8c009f87aba2bfbe05e74097"
+        },
+        {
+          "path": "scripts/guarded_gantry_release.py",
+          "sha": "ccf17ff774ee6d54f15b60d26c60df0ee94da703"
+        },
+        {
+          "path": "scripts/http_transport.py",
+          "sha": "0953a065da43baa936afe85d79f962b365f7c41d"
+        },
+        {
+          "path": "scripts/play_viewer.py",
+          "sha": "ca093793461c739861c55d27ba0d3d7cbe0e3322"
+        },
+        {
+          "path": "scripts/preflight.py",
+          "sha": "5b501b520074dfe6539fc26c111f020605639482"
+        },
+        {
+          "path": "scripts/prepare_cli_repository.py",
+          "sha": "89e4bfb00bb6b67430d0c7f4eae9fccc91c6cc79"
+        },
+        {
+          "path": "scripts/scene_inventory.py",
+          "sha": "d1087d841ff608bbdde7012ccf7134963a6025ac"
+        },
+        {
+          "path": "scripts/simulation_identity.py",
+          "sha": "aff165dc4822ac73d0524b2a1d157c77d74dc48f"
+        },
+        {
+          "path": "scripts/submit_navigation_mission.py",
+          "sha": "323229100321722e97154753b29ad4e12049b6b1"
+        },
+        {
+          "path": "scripts/suggest_navigation_missions.py",
+          "sha": "967fcfc6af74bc53d39c3ad7a87caa6b01061de9"
+        },
+        {
+          "path": "shared/dependency_manifest.py",
+          "sha": "8070b610b8091ac94ee9ba82c726a84944266a10"
+        },
+        {
+          "path": "shared/simulation_gate.py",
+          "sha": "808a0c238188a94ff2b0634fa7164fb6a7f5fc90"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "c58867847e0bf55ace86578d8cc9c75ce5a2748d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "d373716466255afa6657338e5c8fa3ec81f33fe3"
+        },
+        {
+          "path": "tests/test_dependencies.py",
+          "sha": "a1f4ac52162a3c41b0839a87426d8adde0258fcb"
+        },
+        {
+          "path": "tests/test_io_boundaries.py",
+          "sha": "c3ee725d3267d09be5959711aa40297f7e9262a3"
+        },
+        {
+          "path": "tests/test_security_gates.py",
+          "sha": "ead09ef2bf662807b840aa7bdb7f78f0dcc7048f"
+        },
+        {
+          "path": "upstream-versions.lock.json",
+          "sha": "89e7196ada5e9662a8281eec345150ce45134268"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-humanoid-cloud-control"
+    },
+    {
       "id": "NVIDIA/skills@isaac-mission-control-showcase",
       "trust": "trusted",
       "name": "isaac-mission-control-showcase",
@@ -15314,11 +15527,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/isaac-mission-control-showcase",
-      "contentHash": "eaa7fdf6",
+      "contentHash": "e2032ad3",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "25aff65b0cb4032a9a043130a5e9157696027fc2"
+          "sha": "23a62ef7dc93c0b9b1af25dca949751aae31da9e"
         },
         {
           "path": "SKILL.md",
@@ -15398,7 +15611,7 @@
         },
         {
           "path": "scripts/run.sh",
-          "sha": "947f81fe01d639725282315e18241331da718736"
+          "sha": "6ec2edc36e6573fe792274fd2097434fc24bd9ab"
         },
         {
           "path": "scripts/run_state.py",
@@ -15414,11 +15627,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "c2d1af9185ffa3254e5628f451dd713d6257dae6"
+          "sha": "88d596b5df7a4e4028671562b287093ef3507abd"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "88b73c56b7af02fc91fe9dd68f94e14caf4a883f"
+          "sha": "74c825d270785748ebfc257370c5e2ff6be3afcb"
         },
         {
           "path": "upstream-versions.lock.json",
