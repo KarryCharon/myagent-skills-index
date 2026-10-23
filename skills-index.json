@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792705222325,
+  "generatedAt": 1792731503508,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -18493,43 +18493,55 @@
       "id": "NVIDIA/skills@nemo-relay-get-started",
       "trust": "trusted",
       "name": "nemo-relay-get-started",
-      "description": "Use this skill when first-time NeMo Relay users want to try Relay, choose the least-complex supported quick start, or verify initial value through the CLI, a maintained integration, or direct Python, Node.js, or Rust instrumentation before production setup.",
+      "description": "Use this skill when first-time NeMo Relay users want help selecting and following an appropriate quick-start guide or verifying their first working integration. Do not use it for production rollout or broad integration development.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-relay-get-started",
-      "contentHash": "c209f273",
+      "contentHash": "5c75372b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "5429a29a0b912e9d5411fa6a950876850ab5cea9"
+          "sha": "8d9340d9a8971706a8e869df588d023b13459a20"
         },
         {
           "path": "SKILL.md",
-          "sha": "5ffdafd2b2428cb23a946043885c143e71fd49b9"
+          "sha": "dbf718252c16cbdaac5c8c350e800f11407d40b6"
         },
         {
           "path": "evals/evals.json",
-          "sha": "0575011740302197ac65e34a1caaea77b6d2a735"
+          "sha": "53ae88ab1326f32fba68bafaca79926b23fed995"
+        },
+        {
+          "path": "references/agent-runtimes-try-now.md",
+          "sha": "9769eb5ddacb936332f9f90aac4b0bb1a01f05df"
         },
         {
           "path": "references/built-in-integrations-try-now.md",
-          "sha": "9ed0ff77c79fe98cf6d0848065fbfea0a129539e"
+          "sha": "62e22bbe378da014426fdd9ef7fe1f56d4b81e26"
         },
         {
           "path": "references/cli-try-now.md",
-          "sha": "129333962b69623d584301878f72f2bf691255b6"
+          "sha": "447c5e7b1287a11ef0217e529d442223058b942e"
+        },
+        {
+          "path": "references/first-value.md",
+          "sha": "84424360b3997a1b211b2da2821048f2aed5cee3"
         },
         {
           "path": "references/manual-language-try-now.md",
-          "sha": "1759134c48632ecf29a5e348bd213eff5bafb066"
+          "sha": "a89705d77029dd37e63edc79d7a66fe47aeb923f"
+        },
+        {
+          "path": "references/switchyard-try-now.md",
+          "sha": "c8672b7f0abfd6182c42fcef6fecd6580c78b311"
         },
         {
           "path": "skill-card.md",
-          "sha": "ab673effd368bf1c5fdd6df81aba2f9dd8379a6c"
+          "sha": "c88be996c4a5124b98fbe48f30eae733692e2b80"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "43e584571990050ccb3d21bdbd00fed1eccb59d7"
+          "sha": "2751bdb9ffa561660fb7a466ba5f37262ddf079b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-relay-get-started"
@@ -18538,47 +18550,47 @@
       "id": "NVIDIA/skills@nemo-relay-install",
       "trust": "trusted",
       "name": "nemo-relay-install",
-      "description": "Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations before runtime configuration or quick-start setup.",
+      "description": "Use this skill when choosing or running NeMo Relay installation for an agent runtime, application language, framework integration, or plugin bundle, or checking a runtime's native Relay readiness. Do not use it for first-run instrumentation or export configuration.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-relay-install",
-      "contentHash": "690a51c2",
+      "contentHash": "f2c63ad7",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0a9336e4f689ed3fb7edc1a7dea017d39990840f"
+          "sha": "e951325a07a0022a547c51970a08b8b09d6dbae8"
         },
         {
           "path": "SKILL.md",
-          "sha": "4b0aba700b124c861837652e8f3a0dc8db22343a"
+          "sha": "995c35f615a16a9dbb87a5130a29bb4b005c6b85"
         },
         {
           "path": "assets/codex-desktop-recovery.md",
-          "sha": "af7a26189ddfd879969685dc4aea807b7bbd2c70"
+          "sha": "ab9a197e5ea542fffe4aaf6351fbfd7975efa6c9"
         },
         {
           "path": "evals/evals.json",
-          "sha": "3d89460fddc296f79b0caf97bb5dbafe4108c0fc"
+          "sha": "a59de200f1e3498b2c439c51bc5342baa06fcca3"
         },
         {
           "path": "references/cli-install.md",
-          "sha": "49f43e8089ac52e09aa92be10550dc2e98a2856d"
+          "sha": "66ea8c57e03bb08780f6a8ac70d8f23fdfc78587"
         },
         {
           "path": "references/language-packages.md",
-          "sha": "6df5b69aa2780b3e99f44fedad95587ddda58ef8"
+          "sha": "cf272eb5f5282105ffa252151ca83527650e42be"
         },
         {
           "path": "references/maintained-integrations.md",
-          "sha": "eb0e1f5444ae4ca740452b9ddeed14194eaf0e56"
+          "sha": "2bf2ec0abe9333a5810a53d7329d211cfb7922b8"
         },
         {
           "path": "skill-card.md",
-          "sha": "77078542d5db7e93f5e48a929e2fdd632752d692"
+          "sha": "e43b48c8d6f3130c74203afc6d568ac9d47bf906"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fd77293f8302202c566420a786884e2fc6f42a56"
+          "sha": "35ab0acd34182f40588f6026ebee247eaac32341"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-relay-install"
