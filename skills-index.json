@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792731503508,
+  "generatedAt": 1792755874202,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6047,11 +6047,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-cli",
-      "contentHash": "8bed58ab",
+      "contentHash": "4f2c86d1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "110fa90c128414b9fd95f67b62ff2e7b30b386a0"
+          "sha": "5e79e6348b2b23b7354f17b9526b676ff11136c2"
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/hf-cli"
