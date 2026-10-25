@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792755874202,
+  "generatedAt": 1792903641589,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -34690,7 +34690,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "74df46f2",
+      "contentHash": "f2e48dfc",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -34766,7 +34766,7 @@
         },
         {
           "path": "src/bun-child-config.ts",
-          "sha": "045a97571951b2548b4a39cc451bca3a5bcfb855"
+          "sha": "7c808c02bf1106b4d061f3d39e2c6c0f80abb40a"
         },
         {
           "path": "src/bun-polyfill.cjs",
@@ -34842,7 +34842,7 @@
         },
         {
           "path": "src/cookie-import-native.ts",
-          "sha": "6fc0c41cb33d7fbe5e58cb049c75f05933564b3a"
+          "sha": "7632300a6667faa75709c141fa67fac95c8c859f"
         },
         {
           "path": "src/cookie-import-operation.ts",
@@ -35058,7 +35058,7 @@
         },
         {
           "path": "src/terminal-agent-control.ts",
-          "sha": "1b724783859258f3118d3ed890ff02b130a661bc"
+          "sha": "bda034539afbe84d3cd6c7deaa6f9bf00816afd1"
         },
         {
           "path": "src/terminal-agent.ts",
@@ -35774,7 +35774,7 @@
         },
         {
           "path": "test/sidebar-tabs.test.ts",
-          "sha": "a8ece8f68d009b76ffc641610922480fde60dca8"
+          "sha": "3e0eed5135aed5488b50e34c5755cbb96dd801b5"
         },
         {
           "path": "test/sidebar-ux.test.ts",
@@ -35875,6 +35875,10 @@
         {
           "path": "test/temp-dirs.test.ts",
           "sha": "f534a2cb67f269bb1b8bbcd13519ca35d84b97fe"
+        },
+        {
+          "path": "test/terminal-agent-bun-exe.test.ts",
+          "sha": "5be1b0abf323c60b7d43077c26aeaa6581f7f843"
         },
         {
           "path": "test/terminal-agent-detach-reattach.test.ts",
@@ -38079,15 +38083,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "3845cb47",
+      "contentHash": "bfa41e48",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "924983ab406b878a811a6c7c08eec254aedc8412"
+          "sha": "24d4cfafb8c672b0e7e06c3f75852f83fe2e56fa"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6adf2d0aebcb0b0eb7ae7baf17597b987a7644ea"
+          "sha": "fcff6bc33d5dc6466e96177530a1d0ec1f0cfdfd"
         },
         {
           "path": "sections/adversarial.md",
