@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1792903641589,
+  "generatedAt": 1792928262365,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -36656,15 +36656,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "health",
-      "contentHash": "5e7334c5",
+      "contentHash": "0cacb699",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8eb5007416051578855e182909da54b8a9f6cfe7"
+          "sha": "1078ec6d5677392838319abb851390ece2e028bf"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "c164345084a98fef2106078cce7687e07d98b01f"
+          "sha": "47f83551ee15637191292c93973724a4f39e6d25"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/health"
@@ -36805,15 +36805,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "980397f6",
+      "contentHash": "33b62342",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "dfd43a37aa75cf90b10283cf6364e52c0c4642c2"
+          "sha": "c985f59758a0960a7062dbc281f6da5f8d096aa4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4c7b4a2c510ca33d94c7993342e7bda22a31f579"
+          "sha": "3c957a051fcc1daa73ce8dc9256423dc4cc52ec4"
         },
         {
           "path": "daemon/src/allowlist.ts",
@@ -37011,15 +37011,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "a18a5627",
+      "contentHash": "3fe6a757",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "62d201db94b8d648a5b59fdb9c717cfeadc1432d"
+          "sha": "9c6571b01dd9803c23fc867abe58852e5b2e5145"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "8b292abb2868de600b56236536194f08b159752d"
+          "sha": "6243389b1fe2eacc81a76537f1c8f965659d4a0a"
         },
         {
           "path": "sections/first-run-validation.md",
@@ -37323,15 +37323,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "1c9b6b13",
+      "contentHash": "acb6055b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c22b3db499f43f6c6a627f5d9f7a48c18ab0f0da"
+          "sha": "7e925ebf7c8dbaf4b626fd8ef280fc825bbfe082"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "868a7fe73c02a7ee7ad873bc3682aeef7b57707c"
+          "sha": "881daa3f940c89a3fd2acd281f91881ea831ec57"
         },
         {
           "path": "sections/design-and-handoff.md",
@@ -37531,15 +37531,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "39cba50d",
+      "contentHash": "7afe8863",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8ab0c3fd8d7d7acf42ec836510f5ff7f04dbd595"
+          "sha": "049e21ddc78627307605880d3ff88402295e49e1"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "c30f8d0a53eb4d1557e96a9a007f782e2c454789"
+          "sha": "923bbeeedd641b4246af120160d1fcd43bd4c2a9"
         },
         {
           "path": "sections/checklist.md",
@@ -37617,7 +37617,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "eefed387",
+      "contentHash": "5eaa719b",
       "files": [
         {
           "path": "SKILL.md",
@@ -37641,7 +37641,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "0f43c741ce0661dea3998f52d08883fc2a0a6a21"
+          "sha": "399ee8401fd598b7a0710131e79ec14be46d7e7f"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -38083,7 +38083,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "bfa41e48",
+      "contentHash": "da838d11",
       "files": [
         {
           "path": "SKILL.md",
@@ -38187,11 +38187,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "348458c0817d31f21d384f3f48865a20e8929a29"
+          "sha": "53c6f44c86db38dc8ba178631a235bef0eeac147"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "9d6413919e91b83cd190ee2b242c2b89bd5803b5"
+          "sha": "f6d3a7b2a8362b2e31caabe18fe6ef1b1b77101e"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -38211,7 +38211,7 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "280834f6d1ea8ec756c2a4abf75fe388dcffba01"
+          "sha": "d083d3f19c0ffaefe9a8aeef482f7044d5baaaaf"
         },
         {
           "path": "sections/tests.md.tmpl",
