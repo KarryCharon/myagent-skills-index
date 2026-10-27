@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793054575247,
+  "generatedAt": 1793077879762,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35859,19 +35859,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "c0f372a4",
+      "contentHash": "46343ebc",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f30982f41f4c99de8bedb4a195ccd99cb30a54e6"
+          "sha": "e92d2d09595c48c663272a61ce5f002a7d2df185"
         },
         {
           "path": "captain.md",
-          "sha": "613915a050db395d9c418339a400d7dc824660fd"
+          "sha": "4c9e7245b903dc7fe90563df4821c1c69028f922"
         },
         {
           "path": "scripts/install.sh",
-          "sha": "9559e02472e081209166bdedb8a87f4495128ce7"
+          "sha": "2cb8ae4c27e1614dbe1b600a8163d753569848ed"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/capy/skill/gstack"
@@ -36008,7 +36008,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "a15236c1",
+      "contentHash": "b9c80a03",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
@@ -36016,11 +36016,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "9b3255828a0f8d2b72efe4c4503466ab2f0b00df"
+          "sha": "ef9ef28f9c34ed3d7931e7338bc3b47dc9bb21e8"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "8030addaf086c029fd0a9df9645466000c61318e"
+          "sha": "f7bd58b2bf412a7b236f6e5d252eba0eb0bfd1e1"
         },
         {
           "path": "sections/audit-phases.md",
@@ -36132,6 +36132,55 @@
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-html"
     },
     {
+      "id": "garrytan/gstack@design-motion",
+      "trust": "trusted",
+      "name": "design-motion",
+      "description": "Design motion: animate an approved design into a seamless MP4 and GIF loop. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "design-motion",
+      "contentHash": "ab799bf0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "615ecc3b166e01c0238fcb4533e0397ef475077f"
+        },
+        {
+          "path": "SKILL.md.tmpl",
+          "sha": "818c38ddf7aa5567b37c8b8800c937ea18f5410e"
+        },
+        {
+          "path": "sections/fidelity.md",
+          "sha": "0862dc6ad7ff3cb7da42e8b6fb2ad79390ba546d"
+        },
+        {
+          "path": "sections/fidelity.md.tmpl",
+          "sha": "405f93efc6363f4c261f5772eaec68321763acbf"
+        },
+        {
+          "path": "sections/figma.md",
+          "sha": "9f45dc0962ac6a1f294785ee4d74d16c7c827057"
+        },
+        {
+          "path": "sections/figma.md.tmpl",
+          "sha": "c68b0a5bc49e7e14d7d54617311f591ecb4c90d2"
+        },
+        {
+          "path": "sections/manifest.json",
+          "sha": "eb850392baaf9db83740d5997cdfde1a14be6c92"
+        },
+        {
+          "path": "sections/motion.md",
+          "sha": "82fb2522dc4b19991e887356047fb373ca683cb5"
+        },
+        {
+          "path": "sections/motion.md.tmpl",
+          "sha": "cc2e752503f277f7da59375e649d6f3d5938d052"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-motion"
+    },
+    {
       "id": "garrytan/gstack@design-review",
       "trust": "trusted",
       "name": "design-review",
@@ -36139,15 +36188,27 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-review",
-      "contentHash": "ddbf135b",
+      "contentHash": "4c889bcb",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ce030be9e037bb5f4255b9cd98fb059248580489"
+          "sha": "25dd2b22e404d8f40933958527b4784011113094"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4e7960250dc2b1e94258760ed9f168562c7a2d33"
+          "sha": "ba964e156b54d8651b34fc1d433f84405f7c28e2"
+        },
+        {
+          "path": "sections/craft-audit.md",
+          "sha": "ebcaed021f702f64ad2fa89d6caa1917f8b5c54f"
+        },
+        {
+          "path": "sections/craft-audit.md.tmpl",
+          "sha": "b6bad2b1bd3cad698a43320f79178a7d346208b8"
+        },
+        {
+          "path": "sections/manifest.json",
+          "sha": "22ef3efb8e176f4887411d77b07a31720cd17c3a"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-review"
@@ -36318,15 +36379,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "af22d061",
+      "contentHash": "26042ad7",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c0dc58ba2f70fa692ab881ae5be934443aa13ce9"
+          "sha": "2f5fca02b02fe5f5c9896b87bc7c672179a7c5f3"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "c541639ecaaaa2474960da29a54603e567450c9b"
+          "sha": "39ad672ee2109deb6d294b453cf5722a693278b2"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/eval-plan"
@@ -36829,15 +36890,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "f00afb8d",
+      "contentHash": "90f08961",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "56f3307e53104dded63b2ab973dae9e0c38757d3"
+          "sha": "69f2352133ee28e47eca47bbbe84e9a795f1039c"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6243389b1fe2eacc81a76537f1c8f965659d4a0a"
+          "sha": "2590c1fe57af685d6d3f78b2a5d541f0cf50079c"
         },
         {
           "path": "sections/first-run-validation.md",
@@ -37349,7 +37410,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "3c056974",
+      "contentHash": "fc3594d2",
       "files": [
         {
           "path": "SKILL.md",
@@ -37361,11 +37422,11 @@
         },
         {
           "path": "sections/checklist.md",
-          "sha": "57d62d56399163ecf8188562accc50b374a7641c"
+          "sha": "77f86b7b0ac27c1e636b53edd53ab02bf3545981"
         },
         {
           "path": "sections/checklist.md.tmpl",
-          "sha": "d5ae10109dd806bde3b98e3765a5ee69fb844d79"
+          "sha": "12c0ca59f9d7949d3445acdd59bbe6dc110b1b26"
         },
         {
           "path": "sections/manifest.json",
@@ -37373,11 +37434,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "df90b2cc771b9cc6f3521dde944ac6a635f4097d"
+          "sha": "20705ca96d7fddf18c90ae82e024e16fcecee10f"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "fb2d7b3e8ca63a6446f93afc62c0f5e357fe405b"
+          "sha": "f4cb0e50ede7d58cffc70a5bfda2d15e93c1670d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-design-review"
@@ -37476,15 +37537,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-tune",
-      "contentHash": "81ee8033",
+      "contentHash": "0bc32c8d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "78d6a862f85388f6087adb1cf992090fc33fb43c"
+          "sha": "03215352e1b513b12c233968ce2d992d255cfc92"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "2aa16edd87d5248dcd8b1b0cbce5e7620866a859"
+          "sha": "b88d59bed2b5fc7bf4ca0acd18a83f5b453a3cbb"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-tune"
@@ -38183,6 +38244,27 @@
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/test/fixtures/context-bill/tree-a/beta"
+    },
+    {
+      "id": "garrytan/gstack@ubicloud",
+      "trust": "trusted",
+      "name": "ubicloud",
+      "description": "Run a heavy suite, build or eval on an ephemeral 16-vCPU Ubicloud VM: TTL-named VMs, a reaper, quota preflight and a hang watchdog. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "ubicloud",
+      "contentHash": "3678e000",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "f7fe43453a12a5be410323bbf56a057c69c8f853"
+        },
+        {
+          "path": "SKILL.md.tmpl",
+          "sha": "a5a7fe190a0466f8880e2f4d3b060c0861d32e04"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ubicloud"
     },
     {
       "id": "garrytan/gstack@unfreeze",
