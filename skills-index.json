@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793166505337,
+  "generatedAt": 1793192436841,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -36521,15 +36521,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "gstack-upgrade",
-      "contentHash": "95d854dd",
+      "contentHash": "9b212ac6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "31328f3e187b670312ffe5f581dca4fce74f3875"
+          "sha": "2a3efc40d13617479fda5fc712c49d721ee0c632"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7298daa15a9cdcd51073a78f740a4b015994999f"
+          "sha": "04a618f99492fb37a21cc524434d7a3252099460"
         },
         {
           "path": "migrations/v0.15.2.0.sh",
