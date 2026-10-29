@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793279268522,
+  "generatedAt": 1793314111340,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6039,11 +6039,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-cli",
-      "contentHash": "4f2c86d1",
+      "contentHash": "751d5ee1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5e79e6348b2b23b7354f17b9526b676ff11136c2"
+          "sha": "2a01cd0f144f19d283196b02f3d5726a37733293"
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/hf-cli"
@@ -10105,6 +10105,116 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/deepstream-sop"
+    },
+    {
+      "id": "NVIDIA/skills@dgx-spark-skills",
+      "trust": "trusted",
+      "name": "dgx-spark-skills",
+      "description": "Use for NVIDIA DGX Spark and related GB10 system identification, capacity, troubleshooting, known issues, updates, recovery, playbooks, examples, NVIDIA Sync, clustering, Custom Apps, Field Diagnostics, or support evidence. Always route through this skill. Do not use for Apache Spark or unrelated meanings of spark.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/dgx-spark-skills",
+      "contentHash": "697e6820",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "e2649b7882cc6132f6600cb028be04cd2cdaffb5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "24ce561e697d1a27d8006e3cc529194fd5a410e7"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "aa331da7e6e930ee8e0a3b38db6007c88758f5b6"
+        },
+        {
+          "path": "references/get-spark-support/WORKFLOW.md",
+          "sha": "78ba508af129843f9482de45fe81cf95857385ea"
+        },
+        {
+          "path": "references/get-spark-support/references/evidence-handling.md",
+          "sha": "2c4828736dfeba477e4cb8b957c6219ede2633db"
+        },
+        {
+          "path": "references/get-spark-support/scripts/redact-support-text.py",
+          "sha": "097118f3be28e115f7e745a05e971c297de4727f"
+        },
+        {
+          "path": "references/identify-spark-system/WORKFLOW.md",
+          "sha": "332cb2223c349090657e0ded66ab4aeacbf778c6"
+        },
+        {
+          "path": "references/identify-spark-system/references/spark-systems.yaml",
+          "sha": "894905808183f0a019f946b6e1c3eaf3b0931dc5"
+        },
+        {
+          "path": "references/identify-spark-system/scripts/identify-spark-system.py",
+          "sha": "9c767cc115fd9de6aa7a50c3dea6336be784dd8e"
+        },
+        {
+          "path": "references/known-spark-issues/WORKFLOW.md",
+          "sha": "d70199dd35bce03530aef4cf6fee9e986cfa3a2d"
+        },
+        {
+          "path": "references/known-spark-issues/references/matching-guide.md",
+          "sha": "af039688368c6d72e3ebc3eed8b7e0e4d4c2da30"
+        },
+        {
+          "path": "references/reference-spark-playbooks/WORKFLOW.md",
+          "sha": "e79eb35fa3a8e5d1b3a7265f2f076d952f48a67a"
+        },
+        {
+          "path": "references/run-spark-diagnostics/WORKFLOW.md",
+          "sha": "d3026422fb46e1c830f310e6901737b601a6c3e1"
+        },
+        {
+          "path": "references/run-spark-diagnostics/references/field-diagnostics.md",
+          "sha": "ae1c8f4d27b63a1cb6b1bb9541ce1e28a1c9268e"
+        },
+        {
+          "path": "references/troubleshoot-spark/WORKFLOW.md",
+          "sha": "e3606ed148d1be65bff113d02783cace15d34dfa"
+        },
+        {
+          "path": "references/troubleshoot-spark/references/source-policy.md",
+          "sha": "b2541a5104032089d7ddef47c0dfe795dd38c2ec"
+        },
+        {
+          "path": "references/troubleshoot-spark/references/update-and-recovery.md",
+          "sha": "24e2658861deb0d4c33e88def4eb0eec5f458fa0"
+        },
+        {
+          "path": "references/use-sync/WORKFLOW.md",
+          "sha": "dce7a0b3d8d8dda2f4a1f18ed7f44f0c08ccfc47"
+        },
+        {
+          "path": "references/use-sync/references/client-access.md",
+          "sha": "15a22e5f8c0e780dba081a8f25a4bec14320ce63"
+        },
+        {
+          "path": "references/use-sync/references/cluster-assistant.md",
+          "sha": "3ca53e12c8082062b1ab7028a677e22a44713540"
+        },
+        {
+          "path": "references/use-sync/references/custom-apps.md",
+          "sha": "56d1b1a6ecdb012c7e988c588b394bbd7b7f7fd5"
+        },
+        {
+          "path": "references/use-sync/references/remote-access.md",
+          "sha": "2100514312fa07d57c51f7ffc2d0274cd24c3493"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "c66faf67ba138ea13d390001a57b31a2ff2348e9"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ed9f62c1802e782f086dec3f5e01e43ddff17983"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/dgx-spark-skills",
+      "version": "0.1.5"
     },
     {
       "id": "NVIDIA/skills@dicom-metadata-extract",
@@ -17360,15 +17470,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-fabric-integrate",
-      "contentHash": "822bb711",
+      "contentHash": "5155bff4",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9fe4f0d011f5f41fcf81b2df8b3c686b168f87cb"
+          "sha": "eeffdeaeed6228b75507bb557982d0f210e67a89"
         },
         {
           "path": "SKILL.md",
-          "sha": "709a6d8730d698f705426b03f1249c73cdcebc8c"
+          "sha": "710547c0932e892691b3b4082d7c742cb97a2c4a"
         },
         {
           "path": "evals/evals.json",
@@ -17380,19 +17490,19 @@
         },
         {
           "path": "references/results-and-errors.md",
-          "sha": "f2660d5e3ee6b2b3d1adf64c37decdda441718ae"
+          "sha": "1c8cc99e54643d77b0a4b8c4c7920a6f1f713867"
         },
         {
           "path": "references/sdk-api-inventory.md",
-          "sha": "ba67a6394c524240556761c221b2373dc9fe81bd"
+          "sha": "10b20072d0c960258ae512369f06f154d0b762fe"
         },
         {
           "path": "skill-card.md",
-          "sha": "aae4bd5dfba4583e65428e24f0c3dfd58cae9e9f"
+          "sha": "72d5da1511670a8630bcdd4c31b963968dd3e5a0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8e91f6c8a9e3cd312c4e0a3bc63fcf3f1692f1e9"
+          "sha": "e54a9aacbde8233268bcf6fee08eb3c0e254e673"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-integrate"
@@ -19213,15 +19323,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemotron-voice-agent-builder",
-      "contentHash": "c66519dc",
+      "contentHash": "a44b1847",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b0792116e1b293eb9d7d8edb910ce1888b31cf9e"
+          "sha": "2244e26f745b70da5f0bc6d92c7c6e96acd03a13"
         },
         {
           "path": "SKILL.md",
-          "sha": "858044b21b3c1a74c084b9d2b7399a6cc31420ce"
+          "sha": "57d3637dc992379a5479ef8b06e62df52a05ba49"
         },
         {
           "path": "evals/EVAL.md",
@@ -19325,11 +19435,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "2c9badfb868d1acc5c7681365419bf0d38bcfd96"
+          "sha": "1a6e4d3282abd54be316fd55e3972984254d2a7e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "79a44ac4f6f4b910bfabc573587e7ff19e3ada0b"
+          "sha": "90d4799804e3a93479742252802434064c87523d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-voice-agent-builder"
@@ -33443,23 +33553,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/tilegym-converting-cutile-to-julia",
-      "contentHash": "757ef650",
+      "contentHash": "0ac29f3c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "df2d5edb3bf53f9f513d7705073061686e23871a"
+          "sha": "b12c53a5e30954d35d1b189fae04d279500ccbaf"
         },
         {
           "path": "SKILL.md",
-          "sha": "579497732482eb8e737f60127801324326735536"
+          "sha": "9cc90a6e9c40512e05743450f73890162fbb9fa9"
         },
         {
           "path": "evals/evals.json",
-          "sha": "8b6addcaaa7b136267e05fdca64b7f4f95243633"
+          "sha": "1d066e13dbb3f07d102538ad345d93c2e2077afa"
         },
         {
           "path": "examples/01_add/cutile_julia.jl",
-          "sha": "188610f055cd0f6a8fe71a4b49186ab7b6e3a774"
+          "sha": "5c76ed89d5810cfd0b43c54963ac4f6541dc9aed"
         },
         {
           "path": "examples/01_add/cutile_python.py",
@@ -33467,7 +33577,7 @@
         },
         {
           "path": "examples/02_matmul/cutile_julia.jl",
-          "sha": "3b7f19364ec6dc20c8b9862cb6629dc3e955ddd9"
+          "sha": "4ad8e904782099ad5c4ac17309200ffd334a8407"
         },
         {
           "path": "examples/02_matmul/cutile_python.py",
@@ -33475,7 +33585,7 @@
         },
         {
           "path": "examples/03_softmax/cutile_julia.jl",
-          "sha": "1095f91f7d675e8777047f947de8f4ce4c549d86"
+          "sha": "a449577cba4256b77ed912b11db9139a25ff473d"
         },
         {
           "path": "examples/03_softmax/cutile_python.py",
@@ -33483,35 +33593,35 @@
         },
         {
           "path": "references/api-mapping.md",
-          "sha": "8128839a290771bd0fcf997bbdae2e3477ad97be"
+          "sha": "f334283bb3a9719a1a390a0375f1904060e588a2"
         },
         {
           "path": "references/critical-rules.md",
-          "sha": "9f9b69ed1cfba5512d58c62af399db5a82ad02c4"
+          "sha": "81f8fb9c23fe382f64096fbe207154adf6b1272b"
         },
         {
           "path": "references/debugging.md",
-          "sha": "f6d6ee05c6f7e4bd14e07e95fb3bf580fac2fde6"
+          "sha": "512221d510f39e82c459e0380d08088ce745baf4"
         },
         {
           "path": "references/testing.md",
-          "sha": "364f4549e7068396085c8160663b260f4cc51881"
+          "sha": "ba5adbbcb28822c59a8037068aa4a16a527b8475"
         },
         {
           "path": "scripts/validate_cutile_jl.py",
-          "sha": "10df0bbd5f8d53fc0000af0425f8e823b1e58656"
+          "sha": "710fdbee14db6de0d4b05d94c5ffcd65682f2304"
         },
         {
           "path": "skill-card.md",
-          "sha": "9595e9ce527678f825acc9116bbd3d75ec317086"
+          "sha": "6a024f817c6519f6c39d0007170c37e186eea123"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d0e2b2981a83828f08383867c02c7ae1cbda86b7"
+          "sha": "80c35124f9cd162d01a81149b7593796d2975eff"
         },
         {
           "path": "translations/workflow.md",
-          "sha": "fe71fe544b61deda1e96b24645fa92488d4bbddc"
+          "sha": "becbbf9d47a6b87bf40cb43d7ea75474be81e1ca"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/tilegym-converting-cutile-to-julia"
@@ -38939,7 +39049,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "118535f5",
+      "contentHash": "ad622025",
       "files": [
         {
           "path": "SKILL.md",
@@ -38967,11 +39077,11 @@
         },
         {
           "path": "sections/budget-handoff.md",
-          "sha": "1b036c551a54630e855817b3f8762f1a836d044e"
+          "sha": "5529caca6c38702dacfaee5916f56442de4d619a"
         },
         {
           "path": "sections/budget-handoff.md.tmpl",
-          "sha": "fa41ceb0460cb259021684f528cc74c9b98a3d1e"
+          "sha": "30fff488ed2f0a9498e2f2873206080f199a7894"
         },
         {
           "path": "sections/capy-pr.md",
@@ -39043,11 +39153,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "a19f4aee74f8dd1e1b2fc5695fbcbbc5e7c38609"
+          "sha": "c25c359997cd4e92eb80e9357c083cf91e5a538f"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "c9c727af038ef5ecda64a51939cf534e05f5ec89"
+          "sha": "46b2a7d3cc78da1a328ebfdc7921d7ec02ca2d9b"
         },
         {
           "path": "sections/preamble.md",
@@ -39055,11 +39165,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "c251a9e46146cd6a3e2a121586829d89ce39a64d"
+          "sha": "179588813a2c1a25ee68892ec8c7e7458b1c3a45"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "c1b6476c04bbb1fde0ac7bf048012df5cba36cfb"
+          "sha": "3594068dec7ed537ced95a0996278a4ef103ba13"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -39304,7 +39414,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "write-skill",
-      "contentHash": "e7db4384",
+      "contentHash": "836dc3dd",
       "files": [
         {
           "path": "SKILL.md",
@@ -39316,7 +39426,7 @@
         },
         {
           "path": "references/diet.md",
-          "sha": "fe2b3d4251f23005d37b0fe20e87481f8ba30e63"
+          "sha": "b9fb7776cf95e5825ef525a29f6c684c65d44cdb"
         },
         {
           "path": "sections/preamble.md",
