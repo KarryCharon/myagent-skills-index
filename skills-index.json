@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793253169579,
+  "generatedAt": 1793279268522,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35004,15 +35004,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "f281146c",
+      "contentHash": "ef4ec274",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "f1e1a3f962b2090526ea4118d717a968e60c8f01"
+          "sha": "875ea106846ce4774f84e5bd82df39395a3c6b56"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "b2ff2b00119585edb73fb0f327841f9f3e1cdf66"
+          "sha": "9b3ed37653d6b7e5c775b6075a2fbb7ae09323a8"
         },
         {
           "path": "SKILL.md",
@@ -36546,7 +36546,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "3b01685d",
+      "contentHash": "2f91b6f3",
       "files": [
         {
           "path": "SKILL.md",
@@ -36586,7 +36586,7 @@
         },
         {
           "path": "templates/brief.md",
-          "sha": "d185bc0bfeb2fe72962639d6e152473c20c14f14"
+          "sha": "1f6b0decb154cd9ede83d6d047d440951fa2fd39"
         },
         {
           "path": "templates/flaky-ledger.md",
@@ -36598,7 +36598,7 @@
         },
         {
           "path": "templates/plan-ask.md",
-          "sha": "fb298017fc1a47d2aba90b73118cd6c4f04cb86d"
+          "sha": "854998ffc453c4411fb706dfec5c9ec9d82454d9"
         },
         {
           "path": "templates/report.md",
@@ -36619,15 +36619,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "13d8b210",
+      "contentHash": "8a7c3dbd",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "d0e79339539b20eba4dfed4c9785df214d704315"
+          "sha": "bb629e7538994246d65cb6d9c8392b2238b599e7"
         },
         {
           "path": "captain.md",
-          "sha": "d403cbe55d018d105e6b938a0f84c8679055801c"
+          "sha": "057573665f789df746b94cfc55129d21deff879d"
         },
         {
           "path": "scripts/install.sh",
@@ -38939,23 +38939,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "e1fbc034",
+      "contentHash": "118535f5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5846b96d3dc4e985b8c3eba9c05728ffcc741678"
+          "sha": "2c3b87597e4679ec7bab5ff67e58df1086842263"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "810bbd990d9eb91306d5d359fc956a4a3e49fc86"
+          "sha": "8241784410ebe10826bf65162484d6cae01fe940"
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "620f17248993b4e10ebc1db62d3d3a678281ca54"
+          "sha": "250d9f5a74faba012d64a0c535d9a24051554726"
         },
         {
           "path": "sections/adversarial.md.tmpl",
-          "sha": "df982e2056ac962f0daea67fb5fb29bfc9f6debb"
+          "sha": "417be026e2a3714087ddcb3f677930fa33432c0e"
         },
         {
           "path": "sections/apple-release.md",
@@ -38964,6 +38964,14 @@
         {
           "path": "sections/apple-release.md.tmpl",
           "sha": "fab789fe6e598a611a337604f8099b3636d9cb65"
+        },
+        {
+          "path": "sections/budget-handoff.md",
+          "sha": "1b036c551a54630e855817b3f8762f1a836d044e"
+        },
+        {
+          "path": "sections/budget-handoff.md.tmpl",
+          "sha": "fa41ceb0460cb259021684f528cc74c9b98a3d1e"
         },
         {
           "path": "sections/capy-pr.md",
@@ -39015,7 +39023,7 @@
         },
         {
           "path": "sections/manifest.json",
-          "sha": "32af4c72450f31ab36275618fcff36cfca4011fe"
+          "sha": "c140b56d74460d0642a1b9e9527b6236bee4aa54"
         },
         {
           "path": "sections/measure.md",
@@ -39047,11 +39055,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "06419d04735aacdea25200beeeed4c0bf54a5f28"
+          "sha": "c251a9e46146cd6a3e2a121586829d89ce39a64d"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "704bfb6b11427fb1efe28371f50d10d63c368b1d"
+          "sha": "c1b6476c04bbb1fde0ac7bf048012df5cba36cfb"
         },
         {
           "path": "sections/shared-code-reuse.md",
