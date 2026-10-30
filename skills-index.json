@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793339658693,
+  "generatedAt": 1793365262674,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -36729,15 +36729,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "a44dfd2a",
+      "contentHash": "8cf6ca09",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ed9ab9eb7e63407325eb16725fc486a0b92eaf95"
+          "sha": "11bd23cc72e7535978675f6da3ddcf39d7720b5b"
         },
         {
           "path": "captain.md",
           "sha": "057573665f789df746b94cfc55129d21deff879d"
+        },
+        {
+          "path": "factory.md",
+          "sha": "c301d9f7299acd2c8552a3dd942f7d0c5fa5a30c"
         },
         {
           "path": "scripts/install.sh",
@@ -39049,7 +39053,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "684f5903",
+      "contentHash": "3268f0a2",
       "files": [
         {
           "path": "SKILL.md",
@@ -39061,11 +39065,11 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "9d22801c03a37c50453373cfecf75ebf255446de"
+          "sha": "250d9f5a74faba012d64a0c535d9a24051554726"
         },
         {
           "path": "sections/adversarial.md.tmpl",
-          "sha": "74eda3e95efcfe85d68f21bea683b39be3d40d52"
+          "sha": "417be026e2a3714087ddcb3f677930fa33432c0e"
         },
         {
           "path": "sections/apple-release.md",
@@ -39077,11 +39081,11 @@
         },
         {
           "path": "sections/budget-handoff.md",
-          "sha": "7969a70afdf1cb014ec83001e8a686a25ca45913"
+          "sha": "b828deadab206e53601a2bc39cefef842b58589d"
         },
         {
           "path": "sections/budget-handoff.md.tmpl",
-          "sha": "53ac73b8df6fea6b0e7b35582e671f7e80d49ea5"
+          "sha": "9dfcee28312c488af8608bb2af9be75f74acb252"
         },
         {
           "path": "sections/capy-pr.md",
@@ -39145,11 +39149,11 @@
         },
         {
           "path": "sections/plan-completion.md",
-          "sha": "c58a598ec2c3314f5c327e96b8b52371b0262d51"
+          "sha": "0adfa7866c1331b030e9340763e5001a2427d4f1"
         },
         {
           "path": "sections/plan-completion.md.tmpl",
-          "sha": "fcdb3fb1cbc1b1d4af332b6888cb92ef55a6a229"
+          "sha": "4ade2ac6ccb018d70ae9ce50de39dea3d4f7dc8b"
         },
         {
           "path": "sections/pr-body.md",
@@ -39165,11 +39169,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "c391cf004b29f8334ce6e87914dab3579a636128"
+          "sha": "179588813a2c1a25ee68892ec8c7e7458b1c3a45"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "2ca7dd3d4c64fecd24a778f1a6e620a0ddeffeb7"
+          "sha": "3594068dec7ed537ced95a0996278a4ef103ba13"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -39181,11 +39185,11 @@
         },
         {
           "path": "sections/test-coverage.md",
-          "sha": "487b5766667cc57da73a703cc9e2f3eebde0d630"
+          "sha": "8acd31fe649cbd3e7917cc78f8d74a3fc9fa2754"
         },
         {
           "path": "sections/test-coverage.md.tmpl",
-          "sha": "1e6ea6bed7fa58dc6c8707e4b00320bff0af075c"
+          "sha": "d164dab9bb5fc7f08777e16ccfdae293523ea6bc"
         },
         {
           "path": "sections/tests.md",
