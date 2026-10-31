@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793399112801,
+  "generatedAt": 1793425769738,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35285,7 +35285,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "7727c8fe",
+      "contentHash": "4813232e",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -36193,7 +36193,7 @@
         },
         {
           "path": "test/playwright-core-patch.test.ts",
-          "sha": "d09e136c9a2048010ef141d86961a157d78b002a"
+          "sha": "f0974cbd3b5c25a05ab613e06a1e790c528b7da3"
         },
         {
           "path": "test/poisoned-bundle-probe.test.ts",
@@ -36656,15 +36656,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "a13aa71e",
+      "contentHash": "abd864dc",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9984953c0a9b14474134f9db5a605939f20f071e"
+          "sha": "419f294fd4e155532f5905927c15292b0728ec42"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7cc9f5873897bd2705b9f12cc209837e794e51ef"
+          "sha": "4ccf4b36ea9cce494eeef12d71e13dd1e0d63945"
         },
         {
           "path": "sections/preamble.md",
@@ -36672,7 +36672,7 @@
         },
         {
           "path": "templates/AGENTS.md",
-          "sha": "b9c09f06419522abe5b4e34c5b9acd008b263063"
+          "sha": "c60cb966f10c449cc0fe1e53f6f52641bedf902c"
         },
         {
           "path": "templates/CREW.md",
@@ -36680,7 +36680,7 @@
         },
         {
           "path": "templates/DIGEST.md",
-          "sha": "71246ba6033ed5892b964f05a82757acad7d1e90"
+          "sha": "81cf2d3d28d2577e103d57809930de073b8d48da"
         },
         {
           "path": "templates/NOTES.md",
@@ -36704,15 +36704,15 @@
         },
         {
           "path": "templates/merge-ask.md",
-          "sha": "568a0a287c7a4b3de6e8e44a2cef0e630cc97b38"
+          "sha": "19e6cc3b64c9461c147cb0567b4f4a02e8efbfa4"
         },
         {
           "path": "templates/plan-ask.md",
-          "sha": "854998ffc453c4411fb706dfec5c9ec9d82454d9"
+          "sha": "ba34245c8fffb3672ce7d993fd2ed1a508fec169"
         },
         {
           "path": "templates/report.md",
-          "sha": "5a1580015f7cf7b5b866653312bdd20b55925f01"
+          "sha": "3df4da4bf663099aec5a685d25ccf4487b1cc1ef"
         },
         {
           "path": "templates/slot-call.md",
@@ -36729,19 +36729,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "de01a9e7",
+      "contentHash": "35dac744",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "da5b50ef9aa218458b4e19c4c9ada4e8958fe112"
+          "sha": "9b7e22232ece53664825d5ed38c3e0b7c6f2ae25"
         },
         {
           "path": "captain.md",
-          "sha": "057573665f789df746b94cfc55129d21deff879d"
+          "sha": "dbae2e25cfa13f5f96639248898dc92fcf0df25e"
         },
         {
           "path": "factory.md",
-          "sha": "c301d9f7299acd2c8552a3dd942f7d0c5fa5a30c"
+          "sha": "7e472397c579edb7f11f48d77edc32a8c6f20313"
         },
         {
           "path": "scripts/install.sh",
@@ -38804,7 +38804,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "6cb9e652",
+      "contentHash": "7c064557",
       "files": [
         {
           "path": "SKILL.md",
@@ -38836,7 +38836,7 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "374cc2ab0815d18d42aa0796d10b65faeda83ab4"
+          "sha": "e1e3975f76a8645de07656a7a99331e4ab371f55"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -39053,19 +39053,27 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "71f899d3",
+      "contentHash": "bc1e5852",
       "files": [
         {
+          "path": "DRIVER.md",
+          "sha": "5645d023b050c293b6abab60ef86e087ad6972f5"
+        },
+        {
+          "path": "DRIVER.md.tmpl",
+          "sha": "13e167424f4945c6182c2bc403897cb8931d0f6d"
+        },
+        {
           "path": "SKILL.md",
-          "sha": "f5a058865a13151d2e237aaad13ebc24aa565da7"
+          "sha": "9fe409012a408ccfdd4c0f589426bf9747e4dd2e"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "1e91154c7cab76c8bb175fba74ac5014241c630b"
+          "sha": "8eaf7240370b48b43c4d68ab3e27c1845628f1ae"
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "250d9f5a74faba012d64a0c535d9a24051554726"
+          "sha": "0db5be6c2a6f663f742e256e1a4895e9a85d1b69"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -39081,11 +39089,11 @@
         },
         {
           "path": "sections/budget-handoff.md",
-          "sha": "b828deadab206e53601a2bc39cefef842b58589d"
+          "sha": "c561b04ab32a07ebd7a09d395efcb30266272a99"
         },
         {
           "path": "sections/budget-handoff.md.tmpl",
-          "sha": "9dfcee28312c488af8608bb2af9be75f74acb252"
+          "sha": "1a6df789b26e971359b68f7511dd506d8f24fcad"
         },
         {
           "path": "sections/capy-pr.md",
@@ -39169,11 +39177,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "179588813a2c1a25ee68892ec8c7e7458b1c3a45"
+          "sha": "450f3adaed7a006fb1e0c724660f9a4277d68944"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "3594068dec7ed537ced95a0996278a4ef103ba13"
+          "sha": "8b349c4e9cab2b7061adc04aad37190a54171187"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -39193,11 +39201,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "d083d3f19c0ffaefe9a8aeef482f7044d5baaaaf"
+          "sha": "f8e6cc5aa7babf8c95c8d34fdbdf6457028ea19b"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "5b0fa257fa0e2fffbc689eaab470c173aa71ff06"
+          "sha": "6e30fe09047cdc1fe6f0f919455eeb0cedc2720a"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
