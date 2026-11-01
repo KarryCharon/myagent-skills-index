@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793513530034,
+  "generatedAt": 1793539837799,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -37991,7 +37991,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "3872567c",
+      "contentHash": "9fe02790",
       "files": [
         {
           "path": "SKILL.md",
@@ -38079,7 +38079,7 @@
         },
         {
           "path": "test/cli-exit-codes.test.ts",
-          "sha": "2eb68ffab852a2b798ec3ee9a3f749fc3f15b5bf"
+          "sha": "b9160c79f522400aeec5a37a72c601452cc3f054"
         },
         {
           "path": "test/diagram-prepass.test.ts",
@@ -38779,15 +38779,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "8b0b4bb8",
+      "contentHash": "7ea3af67",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7607330d11081a639d3ebd7edec020fe5611452e"
+          "sha": "0b71c2dfda64cb03d3c5c118ac3cdb015f0f5f07"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4dbc9bf97d5aad7bddcf08f0ea8eebca88ee94ee"
+          "sha": "32dd21b7a2769d0134f29c95c0e13018f571d27b"
         },
         {
           "path": "sections/manifest.json",
@@ -39069,23 +39069,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "308ce6f5",
+      "contentHash": "a6d2b68e",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "bea60744f8f3cc9c43830d2265a9f4c6dd86d38e"
+          "sha": "33a9f442b2869fc674ef84332bdb62af8a950e22"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "2751871bf7e07be4f575c5eed749eb0b0ad3c517"
+          "sha": "5922c459918ae49d4c6c62b1d37fd67d53a0a664"
         },
         {
           "path": "SKILL.md",
-          "sha": "307938c823fd6ee7ed97b3a868b6f2d12eb9978f"
+          "sha": "32de83e7db47b9e1828110bb5c481949b5461412"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "84614fe0a241b7651bfb6d978c3e8494a2bcd2f3"
+          "sha": "4b949194000380ab332031ff6e7635a80a470277"
         },
         {
           "path": "sections/adversarial.md",
@@ -39129,11 +39129,11 @@
         },
         {
           "path": "sections/documentation.md",
-          "sha": "bd669e5082801c2621f55f51cbf5006f689ea047"
+          "sha": "70dea163c4243be5aca15dd49dfa701b47aca8cc"
         },
         {
           "path": "sections/documentation.md.tmpl",
-          "sha": "feb4987f19541012881b6c66d0ff48805e922abd"
+          "sha": "eb77f9f037018f49bb88b6a7c7b0a655909249c7"
         },
         {
           "path": "sections/greptile-early.md",
