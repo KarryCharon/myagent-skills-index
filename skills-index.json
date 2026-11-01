@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793539837799,
+  "generatedAt": 1793570779640,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35285,7 +35285,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "956dd473",
+      "contentHash": "e61b12fc",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -35873,11 +35873,11 @@
         },
         {
           "path": "test/cookie-import-native.test.ts",
-          "sha": "8c6b372c7b154088479d4447ef8ba655b0a43cfa"
+          "sha": "11c462355d42fc8f0b80b595e3549a11366c0a61"
         },
         {
           "path": "test/cookie-import-node.test.ts",
-          "sha": "ab74b4aae9497d42d8b9171abfec4c63c14bd770"
+          "sha": "372eabe0fd8ce5f462ea0ebfc4ccaa8db227cd1a"
         },
         {
           "path": "test/cookie-import-operation.test.ts",
@@ -36517,7 +36517,7 @@
         },
         {
           "path": "test/terminal-agent-publication-lock.test.ts",
-          "sha": "0bbf5d801e58f89923240bd9905ee270dec1d513"
+          "sha": "e423269f3d954f6b78d8c8fff895e378335a090e"
         },
         {
           "path": "test/terminal-agent-ring-buffer-runtime.test.ts",
@@ -36585,7 +36585,7 @@
         },
         {
           "path": "test/xvfb.test.ts",
-          "sha": "d6c508541ed66a2268167f68ed97f703443a3915"
+          "sha": "67f305a6689f4aa139e6e0e4905227937b2bd016"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/browse"
@@ -36733,11 +36733,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "7d37adc0",
+      "contentHash": "e7c80fae",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b513fdbdf1f4085c88a3c3712ef53f11c72402fd"
+          "sha": "7c87a27867d485579c73c52dd548435966576923"
         },
         {
           "path": "captain.md",
@@ -37666,7 +37666,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "07b539b7",
+      "contentHash": "afe6690e",
       "files": [
         {
           "path": "SKILL.md",
@@ -37746,7 +37746,7 @@
         },
         {
           "path": "daemon/test/daemon-integration.test.ts",
-          "sha": "40a081e9019e59bbd49432f6dec9addcc68aef13"
+          "sha": "f07573f4acf10de979b444a9e13485b824286883"
         },
         {
           "path": "daemon/test/devicectl-launch-env.test.ts",
@@ -39069,23 +39069,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "a6d2b68e",
+      "contentHash": "52a42d8c",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "33a9f442b2869fc674ef84332bdb62af8a950e22"
+          "sha": "3dec391343179f9423b0d8789063f894ad6573ad"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "5922c459918ae49d4c6c62b1d37fd67d53a0a664"
+          "sha": "d4a874ae6f99e06da671bcf64beb51777d98f2e6"
         },
         {
           "path": "SKILL.md",
-          "sha": "32de83e7db47b9e1828110bb5c481949b5461412"
+          "sha": "c53c541b5819a722a3e51df9c194ff61f5d1defd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4b949194000380ab332031ff6e7635a80a470277"
+          "sha": "45a5c52325af6f2a33a708bffd9ac0e03e511c45"
         },
         {
           "path": "sections/adversarial.md",
