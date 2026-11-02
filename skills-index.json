@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793599963829,
+  "generatedAt": 1793635349434,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35114,7 +35114,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "6271f038",
+      "contentHash": "e8da8790",
       "files": [
         {
           "path": "DRIVER.md",
@@ -35227,6 +35227,10 @@
         {
           "path": "sections/unattended.md.tmpl",
           "sha": "0e4f68f1b3b09ed2aa5741f8e086118e8c19c279"
+        },
+        {
+          "path": "shadow-decider.md",
+          "sha": "aaafdfcbc4d4918534f16f9f427933c69c9a85da"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/autoplan"
@@ -35293,7 +35297,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "e61b12fc",
+      "contentHash": "71a51a70",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -35301,7 +35305,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "e5792ca58047608b52fee9aa0b94c50ec9419406"
+          "sha": "ca934a60be64ecb8f667ffb20ccefdfcf3ec14e7"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -35325,7 +35329,7 @@
         },
         {
           "path": "sections/command-list.md",
-          "sha": "94b7f8ac21af046b758fe5df370c4cfafcd91d73"
+          "sha": "5c125502b4700e3b31934a24a90206183d5bf407"
         },
         {
           "path": "sections/command-list.md.tmpl",
@@ -35345,11 +35349,11 @@
         },
         {
           "path": "src/browse-client.ts",
-          "sha": "499b366f76a35fefd312ee1335a3b229f70c4c5d"
+          "sha": "9b37e7182d131ec30dc04c2e5e32a7d278f6e626"
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "a6ff2a7c8370bb8ac93561ebff0c4db4060b462e"
+          "sha": "058590a7196016eef672066cfbbef9f852197648"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -35401,11 +35405,11 @@
         },
         {
           "path": "src/cli.ts",
-          "sha": "5bea3006ebc8c37c518ab748d31c8eceb1e11dfd"
+          "sha": "e884952b0eb9f5d7481d426da0276f244679349d"
         },
         {
           "path": "src/commands.ts",
-          "sha": "2d2a26015ba7b52edf4248377af7d62961549243"
+          "sha": "f46bd13945977fe41eca106be0403faafc426c2a"
         },
         {
           "path": "src/config.ts",
@@ -35433,7 +35437,7 @@
         },
         {
           "path": "src/cookie-import-native-job.ts",
-          "sha": "60c678d2f215237ac934dd00fe42bf7c740ab05c"
+          "sha": "429024c6e8b0ab07d295336e84400a0d187bba5b"
         },
         {
           "path": "src/cookie-import-native-qualification.json",
@@ -35441,11 +35445,11 @@
         },
         {
           "path": "src/cookie-import-native-worker.ts",
-          "sha": "1d04e2afeb6dcae3bff6c5b7da5df4f624f330ec"
+          "sha": "e23ca8d6f9ad30ee103c934e6d2b7483fe4220be"
         },
         {
           "path": "src/cookie-import-native.ts",
-          "sha": "7632300a6667faa75709c141fa67fac95c8c859f"
+          "sha": "d0118c7e086dfe1debd5ae258489372135f5b487"
         },
         {
           "path": "src/cookie-import-operation.ts",
@@ -35458,6 +35462,10 @@
         {
           "path": "src/cookie-picker-ui.ts",
           "sha": "5f62886cba136930a369a7484ac7f56c9df35ba8"
+        },
+        {
+          "path": "src/device-emulation.ts",
+          "sha": "567222f30a93d864b943a974e05c7ac04e1bcfda"
         },
         {
           "path": "src/domain-skill-commands.ts",
@@ -35501,7 +35509,7 @@
         },
         {
           "path": "src/meta-commands.ts",
-          "sha": "af49910a9b070028cf6cf653da9266815d04d7b7"
+          "sha": "c01a8a9237d590ccfe76677ccc8e0ab968959718"
         },
         {
           "path": "src/network-capture.ts",
@@ -35549,7 +35557,7 @@
         },
         {
           "path": "src/routes/commands.ts",
-          "sha": "9cc0f1a094ca6bf59def23a6b1674438d7d13f8b"
+          "sha": "48e01ea0da81828f67b9d1cea3f0de169f695cc2"
         },
         {
           "path": "src/routes/core.ts",
@@ -35613,15 +35621,23 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "5cb5507b89eb161c8fccf4cf4b1ac40870dafbd9"
+          "sha": "4d54d50d9e433e95af6d469589502cf83f4b26b6"
         },
         {
           "path": "src/session-cookie-store.ts",
           "sha": "7e0f77c68d1908a088fa8effc1ecdc492d5f5ab4"
         },
         {
+          "path": "src/session-name.ts",
+          "sha": "e4f21818735611c2fc04c45faeb3a35b062901f4"
+        },
+        {
           "path": "src/session-persist.ts",
           "sha": "6259eca2dd7bbbcd885f4519909a9ea42606606e"
+        },
+        {
+          "path": "src/session-tabs.ts",
+          "sha": "ee0de452797537fbbfbe687464699c865311d8e7"
         },
         {
           "path": "src/skill-token.ts",
@@ -35633,7 +35649,7 @@
         },
         {
           "path": "src/snapshot.ts",
-          "sha": "8f0783ca5ea2c2a9ab57c233e68f41e999cd7a52"
+          "sha": "1f6c29aaa24d62e53dab6f83368ff9e549f31781"
         },
         {
           "path": "src/socks-bridge.ts",
@@ -35653,7 +35669,7 @@
         },
         {
           "path": "src/tab-session.ts",
-          "sha": "dccabf28f4263cb77d0a594369bb15f3e2c7ad73"
+          "sha": "0ea85b6adb4745478d1c39548f2cc10483ecbc88"
         },
         {
           "path": "src/telemetry.ts",
@@ -35665,7 +35681,7 @@
         },
         {
           "path": "src/terminal-agent.ts",
-          "sha": "430ff56f22de9dc5309a313b1e236b0bb3d99a80"
+          "sha": "aeb87762b91bc189a1428f7ceda4d98805cc523c"
         },
         {
           "path": "src/terminal-pty-lifecycle.ts",
@@ -35673,7 +35689,11 @@
         },
         {
           "path": "src/token-registry.ts",
-          "sha": "b241e55e4009a1fd0c71621f08fe31d4447d58f2"
+          "sha": "e1d638e6212d3d1079f1a47a7a39d44be96e8ac4"
+        },
+        {
+          "path": "src/touch-commands.ts",
+          "sha": "cb898f41cc6a7bd2c34ce49978ee3a88742a5394"
         },
         {
           "path": "src/tunnel-denial-log.ts",
@@ -35689,7 +35709,7 @@
         },
         {
           "path": "src/write-commands.ts",
-          "sha": "7bd23b50473fa9ad5c332d79c5ec057e420bbf4f"
+          "sha": "e0ccb0b4df2d0b8d3c7c947963d778f24b28939d"
         },
         {
           "path": "src/xprotect-heal.ts",
@@ -35873,7 +35893,7 @@
         },
         {
           "path": "test/cookie-import-native-job.test.ts",
-          "sha": "44b068d52975978ac0f07314c34f127d8c0988c2"
+          "sha": "c835f37514dc48ba46d994e77b0ff2aed10b922e"
         },
         {
           "path": "test/cookie-import-native-qualification.ts",
@@ -36106,6 +36126,10 @@
         {
           "path": "test/fixtures/states.html",
           "sha": "67debbfa249387cc4f7adb9d9342a89dff747a2e"
+        },
+        {
+          "path": "test/fixtures/touch.html",
+          "sha": "9e5855bc243d8bead75314eada55b14da02d834b"
         },
         {
           "path": "test/fixtures/upload-path-validation.ts",
@@ -36376,8 +36400,16 @@
           "sha": "a9e90f8e97253177d886ec88e3a1d41f974e37ec"
         },
         {
+          "path": "test/session-name.test.ts",
+          "sha": "8b2da4ddca6a60f410fbbd222365172ad0229f53"
+        },
+        {
           "path": "test/session-persist.test.ts",
           "sha": "bf7bfa8bdec2633d160ff4122f33ede8869f283a"
+        },
+        {
+          "path": "test/session-tabs.test.ts",
+          "sha": "94254cded932276b9742e82fdeda61d47d0751e7"
         },
         {
           "path": "test/sidebar-tabs.test.ts",
@@ -36557,7 +36589,11 @@
         },
         {
           "path": "test/token-registry.test.ts",
-          "sha": "77b665f749a5bc66f466d6e83686028e7467d7ff"
+          "sha": "5864d82af0a582e95eaf9739674b027f9752b2b0"
+        },
+        {
+          "path": "test/touch-commands.test.ts",
+          "sha": "fce783b1d16a110f3555407cc8e8aa61086288fc"
         },
         {
           "path": "test/tunnel-gate-unit.test.ts",
@@ -36606,7 +36642,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browser-skills/hackernews-frontpage",
-      "contentHash": "ffdebcf5",
+      "contentHash": "2f2de666",
       "files": [
         {
           "path": "SKILL.md",
@@ -36614,7 +36650,7 @@
         },
         {
           "path": "_lib/browse-client.ts",
-          "sha": "499b366f76a35fefd312ee1335a3b229f70c4c5d"
+          "sha": "9b37e7182d131ec30dc04c2e5e32a7d278f6e626"
         },
         {
           "path": "fixtures/hn-2026-04-26.html",
@@ -36741,11 +36777,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "47830dbc",
+      "contentHash": "605442c8",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c6d85c01086292736ee4784072456b1bec9e5285"
+          "sha": "1e32631097461855b9f2432dfc245b3ac2b26b24"
         },
         {
           "path": "captain.md",
@@ -37221,11 +37257,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "devex-review",
-      "contentHash": "4ec0a6a3",
+      "contentHash": "819dc8c2",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b479ffeba727ec9dad68ef2e81b0eb58202480d4"
+          "sha": "f105da25a503916acf3985c86749a96271d3d2f4"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37497,15 +37533,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "health",
-      "contentHash": "278349d5",
+      "contentHash": "6200fd21",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b6c84d87d3cb442608c8cadeb026e1d634cb2376"
+          "sha": "3b1ee34ca9486b35327e5ca89481452aea313487"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "47f83551ee15637191292c93973724a4f39e6d25"
+          "sha": "da8c9c700226375d667c075a9b44e6442940d9df"
         },
         {
           "path": "sections/preamble.md",
@@ -37522,15 +37558,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "investigate",
-      "contentHash": "01324906",
+      "contentHash": "b6cfa3c0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "64a9e825449173961bd379e85c373145c8089dcc"
+          "sha": "fbb91557d4d221cc28fb154fb844fe3fb2c73cca"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4a9b36f36fcb7dbbdc46e15a1e2785beafaf3c60"
+          "sha": "c7469537d6e833bb5836eb0fbcb9afb202bdc966"
         },
         {
           "path": "sections/backlog.md",
@@ -37566,7 +37602,7 @@
         },
         {
           "path": "sections/manifest.json",
-          "sha": "7526091c077bfe5807075c0e15ce3bb3e6ae2068"
+          "sha": "6b42a1c826a735c42d19b4482a9a06338a6bd5ea"
         },
         {
           "path": "sections/polluter.md",
@@ -38620,15 +38656,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-tune",
-      "contentHash": "6baa50f3",
+      "contentHash": "426ad81e",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "86b2cbdb7cea6f567e84e246e68cb70607dc0dda"
+          "sha": "481d7764ec20c700b800872d4665234b6ca917dd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "748dfad62f809e448baab4a2f40f3e8f6feb32ed"
+          "sha": "88b7a8eb33b596f15e4749ae10f7d240edd5acef"
         },
         {
           "path": "sections/preamble.md",
@@ -38690,15 +38726,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "7c5472db",
+      "contentHash": "7d61336d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cdb56114f2e05273c3940f6fb581d78a628f72a5"
+          "sha": "3ac1de3f7804490c17a937246a90a629f396f2ef"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "dfa2352a8bba660291c6ae829995537a8c8b16a7"
+          "sha": "7c411d8c0ce6818327a53ce6185a56a7defba4c8"
         },
         {
           "path": "references/issue-taxonomy.md",
@@ -38774,7 +38810,7 @@
         },
         {
           "path": "templates/qa-report-template.md",
-          "sha": "0b44a194da9dc2876ba1de7721c2d58f65a42923"
+          "sha": "c3d88b74b494e532ace779d33b301305dc5f9762"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qa"
@@ -38787,15 +38823,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "7ea3af67",
+      "contentHash": "da2eabdd",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "0b71c2dfda64cb03d3c5c118ac3cdb015f0f5f07"
+          "sha": "85b3ba8df01abdc4dff2296f0d741bf84f519b9a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "32dd21b7a2769d0134f29c95c0e13018f571d27b"
+          "sha": "00a7d8961111002c57bfcfaa3c939e69009f6de1"
         },
         {
           "path": "sections/manifest.json",
@@ -39077,15 +39113,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "06cb0c5c",
+      "contentHash": "32817a6a",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "ac19dd0bd583c0c61b734483668c755404acb5b4"
+          "sha": "a7da6798b80b547c2a11b9f450e50344cfed16e4"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "0298fb93e5df737f51ebf6317519e29e772fc0f7"
+          "sha": "f7b98d4c82096367075284a0a4af63af73cc2285"
         },
         {
           "path": "SKILL.md",
@@ -39189,11 +39225,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "64e2f50ccc683ba591d11fdf1dd071cbb50e6ffa"
+          "sha": "79af0c5d97f4accd76f12caf14925da00d98b1e8"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "8786e9daa9571dd662b5c94d3fd33816227c9834"
+          "sha": "611c1e553dbc3f941d975972ea85a4faa4141b0b"
         },
         {
           "path": "sections/preamble.md",
