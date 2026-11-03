@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793715733849,
+  "generatedAt": 1793748460713,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -9307,19 +9307,23 @@
       "id": "NVIDIA/skills@data-designer",
       "trust": "trusted",
       "name": "data-designer",
-      "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.",
+      "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline. The argument is the description of the dataset to generate.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/data-designer",
-      "contentHash": "2e944b7f",
+      "contentHash": "4a97ea17",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "ae9cb0e65e9058d23cb1829e95ef6c058b6f4d69"
+          "sha": "846a38e745065332dbdb42aae9a84ecc5ed7fb3a"
         },
         {
           "path": "SKILL.md",
-          "sha": "629dfaeb8937c846b958750d692e8417d96066bf"
+          "sha": "e3a2777269bb097751284dfba00cebc0832e4358"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "4c48860bce456592547ef949bd43a5e95a955e4f"
         },
         {
           "path": "evals/evals.json",
@@ -9343,11 +9347,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "1da239be94aa4928dcd609d4501ada0012d4132f"
+          "sha": "6b8f9ca8ac6982f4e98b9338ae33750ebdedf691"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6760d5090d9473e39595612133d80d7e39550789"
+          "sha": "382f4025521e0fa9074cd566ae4b183f7411cf1c"
         },
         {
           "path": "workflows/autopilot.md",
@@ -22920,103 +22924,123 @@
       "id": "NVIDIA/skills@omniverse-usd-performance-tuning",
       "trust": "trusted",
       "name": "omniverse-usd-performance-tuning",
-      "description": "Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requests; delegates auth/runtime setup to Phase 0 owners.",
+      "description": "Diagnose and optimize USD stages for slow loading, high memory, low FPS or validation; preserve asset boundaries and reuse shared definitions.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/omniverse-usd-performance-tuning",
-      "contentHash": "0712b2af",
+      "contentHash": "1f9db053",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3fdd32852870f82d8c095a88e2c9f51b23ab9490"
+          "sha": "425859c61505c24e2a8ffb8b1c70933b142a70a4"
         },
         {
           "path": "CHANGELOG.md",
-          "sha": "8a2a9b66dd22fa96bd63a57f86a11038d8a7b651"
+          "sha": "20402417fde9f6e39a46a568ee6367ff69af26f0"
         },
         {
           "path": "SKILL.md",
-          "sha": "d882f32f579f0698edf76a9c7182fe3a64720ab6"
+          "sha": "b92671f9ec8c07bbee1dfb07354fde7c3b20c3ab"
         },
         {
           "path": "agents/openai.yaml",
-          "sha": "fcfddcc73a98ee461aca3ff972e5e1d9d0dfba06"
+          "sha": "699c74c29802fb56bc209b693c31a7ca1529bc4b"
+        },
+        {
+          "path": "assets/progress-dashboard/app.js",
+          "sha": "0b7eb26e8ec9a74bac70a70fd98d6b9bb94188d5"
+        },
+        {
+          "path": "assets/progress-dashboard/index.html",
+          "sha": "864ac445b3c188e7def81f38ebd118364aa1ee22"
+        },
+        {
+          "path": "assets/progress-dashboard/styles.css",
+          "sha": "6d04848a6061c3829a054886a61518f63e6d88a3"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "5715c2b9e836e6b3ab2d8bdc875da85f158e5c99"
+        },
+        {
+          "path": "evals/README.md",
+          "sha": "a528579f60048b0112af731a6162c3142d14df6c"
         },
         {
           "path": "evals/evals.json",
-          "sha": "04c5662ecbf95cf96160eff252385deb3b91eb60"
+          "sha": "5daf4c6a09e56f05d0a4ed953917dce556d44ce8"
         },
         {
-          "path": "references/_shared/standard-instructions.md",
-          "sha": "c74b65edc258949a907122cf62d4ddc7dc24e6b3"
+          "path": "evals/files/completed-run/after.usda",
+          "sha": "3cd439c0a709d1bc304630c14bd6f8b2b116d1ef"
         },
         {
-          "path": "references/_shared/standard-output-format.md",
-          "sha": "d72ce87d753186767e8bb49a3ebf7f8830291ef3"
+          "path": "evals/files/completed-run/before.usda",
+          "sha": "3cd439c0a709d1bc304630c14bd6f8b2b116d1ef"
         },
         {
-          "path": "references/briefing-the-skill.md",
-          "sha": "eb68dde23710823af150322866c8e2c856d1d184"
+          "path": "evals/files/completed-run/evidence.json",
+          "sha": "8824705547944b37993b28f6b425e466a9c90084"
         },
         {
-          "path": "references/cad-conversion/README.md",
-          "sha": "69971e7a94e86342ba4e2411056672617400e7a1"
+          "path": "evals/files/factory/cases/factory.usda",
+          "sha": "ad66469b3d87ca0a824fe71616c69a110fe12257"
         },
         {
-          "path": "references/cad-conversion/scripts/conversion-report.schema.json",
-          "sha": "dcb38cca494285457b1e3dd0c27ff60370fa0291"
+          "path": "evals/files/factory/materials.usda",
+          "sha": "0212c44d654d26049c97d90e033012c7e8293622"
         },
         {
-          "path": "references/compare-profiles.md",
-          "sha": "ec2232bf5211a5c74527ae4422b5a4a2074dd356"
+          "path": "references/asset-authoring.md",
+          "sha": "60643e0588abcb24ca89e056e68a3b80c5b7297d"
         },
         {
-          "path": "references/compare-profiles/README.md",
-          "sha": "b790ce9d02eaf7a7872aecec766db811cf82f01b"
+          "path": "references/component_scope.py",
+          "sha": "a6c903de6623aa05a18b3ccac6d98d32cfe8065d"
         },
         {
-          "path": "references/omniverse-authentication/README.md",
-          "sha": "bf258d161a583475ced464d79f21f6b623d6c936"
+          "path": "references/geometry_tolerance.py",
+          "sha": "c56279cc18bb043b538c89b5d2887fe1568298f7"
         },
         {
-          "path": "references/operations/CLASSIFICATION.md",
-          "sha": "76c483b46e8cd103162118b6b7da58dbb941376c"
+          "path": "references/install-standalone.md",
+          "sha": "97cfb6040f0cadbca1f84c80247ce02b02c98090"
         },
         {
-          "path": "references/operations/EXECUTION.md",
-          "sha": "ceaef39cbea05577caf94ef71bb300c2b2cfd5c0"
+          "path": "references/library-reuse.md",
+          "sha": "533b467b2cf8f2509d3552c4bc4b546869282b61"
+        },
+        {
+          "path": "references/operations.md",
+          "sha": "99260cf43dfbc86aad8e048d9e0a1c6ab83f7bd5"
         },
         {
           "path": "references/operations/README.md",
-          "sha": "2168822a3c9bc05b7ccb2d6847358debfbd34ae4"
+          "sha": "e9a928bea1dfe19da2e60c09bde8b5a0ff330aad"
         },
         {
           "path": "references/operations/operations.json",
-          "sha": "9dcf4b469ef1644e229478dfc55fd932f7126f79"
-        },
-        {
-          "path": "references/operations/probe-snapshots/usd-optimize-1.0.4.json",
-          "sha": "080fde4ac00824fb6c252526ea20b8f0bbfb627e"
-        },
-        {
-          "path": "references/operations/probe-snapshots/usd-optimize-1.1.0.json",
-          "sha": "ef9262d18a45b09fde98cfecc23c8f9cd521923c"
+          "sha": "dc222258167002826c7989a107ee209d221ecefa"
         },
         {
           "path": "references/operations/registry-args.json",
-          "sha": "261a5717b76a366522f104e0eeb39c05a1a32b49"
+          "sha": "76fa0b83946b401152bc0e48f914a1fdb727291d"
         },
         {
           "path": "references/operations/scripts/operations.schema.json",
           "sha": "5e51bb00258ae189b8c60b6cc6c3c01a914f475f"
         },
         {
-          "path": "references/optimization-report/README.md",
-          "sha": "083b202cce2abeb222c68aeeb9b30b2a14724966"
+          "path": "references/optimization-report/scripts/apply_palette.py",
+          "sha": "a6458bae0371d8d9c99c61371461ea06b84452b7"
         },
         {
-          "path": "references/optimization-report/references/optimization-report-template.md",
-          "sha": "92c630f363f2cec3a5865e0124684ae2d4c3f502"
+          "path": "references/optimization-report/scripts/asset_results.py",
+          "sha": "30e84d08007971e34940e39b9e11de36915640c6"
+        },
+        {
+          "path": "references/optimization-report/scripts/definition_verification.py",
+          "sha": "d6704e9a1b5f804b4de4d9e46ecbdf054e0a8d6e"
         },
         {
           "path": "references/optimization-report/scripts/descent_convergence_common.py",
@@ -23024,91 +23048,35 @@
         },
         {
           "path": "references/optimization-report/scripts/optimization-report.schema.json",
-          "sha": "055017909d7beae6851e77b7c4bafe5d40977e00"
+          "sha": "1d127f26f9dde0b8e3dcc0b9e2d98127ee44c5d1"
         },
         {
-          "path": "references/optimization-report/scripts/test_validate_report_descent.py",
-          "sha": "9e56f0be1e2861414811250f098f136ef583a316"
+          "path": "references/optimization-report/scripts/structure_conformance.py",
+          "sha": "4589c0bdf04f94a37a67d745c5b7d41f7c041ca7"
         },
         {
           "path": "references/optimization-report/scripts/validate_report.py",
-          "sha": "286824fe8380dc9e73f5023d24658397f8e5e0e6"
+          "sha": "752d74a54238cc9e95e96a159783136a2646cbac"
         },
         {
-          "path": "references/output-workspace.md",
-          "sha": "f117926f57a730526cd3ec2750e54fb892553551"
-        },
-        {
-          "path": "references/profile-stage/README.md",
-          "sha": "5ee11de9306429d1b905fa99680d4798d66f2c11"
-        },
-        {
-          "path": "references/report-templates/README.md",
-          "sha": "c9629aa18c42ca6141da2c06a654a5188641c434"
-        },
-        {
-          "path": "references/report-templates/optimization-report.design-fixture.json",
-          "sha": "603e0b7ed92a9a223c80bd7fd1ab5df12ad8ec07"
-        },
-        {
-          "path": "references/report-templates/optimization-report.design-fixture.manifest.json",
-          "sha": "42f59e4f002e4047347d11ae63ea1e6c7897cf3d"
+          "path": "references/remote-assets.md",
+          "sha": "5bcf3a0961a1496edeb884044a712a4850cd09fd"
         },
         {
           "path": "references/report-templates/optimization-report.html.template",
-          "sha": "166e5469cb582811b6c88f6017869d31d21df95f"
+          "sha": "f989d57a7d73726bb3d1cf38449537d6d246bc64"
         },
         {
           "path": "references/report-templates/optimization-report.md.template",
-          "sha": "777254e9efd3decee86f83fac21cb89323eed3b6"
-        },
-        {
-          "path": "references/report-templates/optimization-report.structural-only-fixture.json",
-          "sha": "04269016a26166ef4564883b5a1063f82fe2a611"
+          "sha": "3b3ce7cd73ae5762502f1decad39a0a043781bfb"
         },
         {
           "path": "references/report-templates/render_preview.py",
-          "sha": "7aca48c73d21e59695e38db80e9152de62752871"
+          "sha": "21cf4bab3de5bb25ec0af0f30ad48cdb08546153"
         },
         {
-          "path": "references/runtime-artifact-token-budget.md",
-          "sha": "698c57e3aeded48bfd050ad7675b56fa22e58797"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/README.md",
-          "sha": "d3d40189e285a3f85b46a32cb0e5c645360fc759"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/install-kit/README.md",
-          "sha": "914bedd50a6413ac86aa772243c8c092a1654820"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/install-usd-optimize-standalone/README.md",
-          "sha": "66a1bf4717bc3b72f3e019db7ffce3b0d070af8d"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/install-usd-validation-nvidia-standalone/README.md",
-          "sha": "674d1257f42109fab2dccf069ac79480afb2a906"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/kit-discovery.md",
-          "sha": "0ecfc2292e67dabb7559e09f9e345e70d82b2deb"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/runtime-context-header.md",
-          "sha": "cea8040140a219eda6fff79f6a75997d595f5063"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/runtime-probe.md",
-          "sha": "5df72048c4d880a52e8c4b947fbbe370684f2991"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/so-validator-auto-registration.md",
-          "sha": "ce69ea39ace66da1cb9b71020a53307cb86f8854"
-        },
-        {
-          "path": "references/setup-usd-performance-tuning/references/standalone-runtime.md",
-          "sha": "401160d386b5f0f77ef9913527415e052dcaceb1"
+          "path": "references/report-templates/theme.css",
+          "sha": "95357a327059762e5498113f7793fc7bcbee9471"
         },
         {
           "path": "references/setup-usd-performance-tuning/scripts/probe-snapshot.schema.json",
@@ -23119,224 +23087,128 @@
           "sha": "2a11e71a60b77195835ffc8588ec53dfca87b687"
         },
         {
-          "path": "references/skill-map.md",
-          "sha": "d87fd8008e4559af0e45706ed4599c76d8803b2e"
+          "path": "references/setup.md",
+          "sha": "a65d9adfff8be93a3ac382532e72eab308094739"
         },
         {
-          "path": "references/upstreams/README.md",
-          "sha": "e4421421e5bb9bd0f7ec0c9d8496699ff5c8abb9"
+          "path": "references/structure.md",
+          "sha": "ff7eb353f25ccf3d2d7151ff60e35d754b1ab3d3"
         },
         {
           "path": "references/upstreams/usd-optimize.md",
-          "sha": "28a01b8ea92bfe6e6796950fe4a73d1c2926f69e"
+          "sha": "97ca726814a9831e93220c0da6888a646ad7720f"
         },
         {
-          "path": "references/usd-optimize-run-operations/README.md",
-          "sha": "352ab237bb8a4e2e78a681e1a57577e2cf500f40"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/batch-mode.md",
-          "sha": "44e732dd78b98e4b975d812c44663b984118f1b8"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/config-from-evidence.md",
-          "sha": "555adb08c623b86db746440ffce88d1a17d90210"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/invocation.md",
-          "sha": "02bed72d84ca6db11b7740076fcfbb13dbf42c59"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/operation-safety.md",
-          "sha": "a85676f23621c470170ece9131e4c301bd2ec4ad"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/pipelines.md",
-          "sha": "6ce4b842f79b17174121065aeaf0e77da04865ce"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/units-and-tolerances.md",
-          "sha": "0836212511e6ad93dbfc66b4084996c626235eab"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/README.md",
-          "sha": "957dae08caf38cccd05ae3f6726932c9b947f66d"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/references/bounding-box-proxy-modes.md",
-          "sha": "f435360f92a62efe3bf34056f8a49a0796a033b8"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/references/decimate-step-recipes.md",
-          "sha": "0f1b8889b7ae3a69f08fff8d3886b877bea32a8f"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/references/decimation-tuning.md",
-          "sha": "7fdd2ef8cff1edc1410c15a48e46ff9a8acf5656"
-        },
-        {
-          "path": "references/usd-optimize-run-operations/references/usd-optimize-create-proxy/references/proxy-config-recipes.md",
-          "sha": "b83a468749c439ad08739cc346d67181c5d0f8e8"
+          "path": "references/usd-optimize-run-operations/scripts/asset_authoring.py",
+          "sha": "b8671650a6aa9a5948f64daa016c620becd251da"
         },
         {
           "path": "references/usd-optimize-run-operations/scripts/batch-plan.schema.json",
-          "sha": "7e397f6478745f4eecd7ac5a562c49c0a4f52f33"
+          "sha": "c32a9a3a38fdea20333ad9f4a4e0303d19e1b874"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/category_publication.py",
+          "sha": "023d9dfb7164b67b9bae0d1486870bd0e347d620"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/current_run_reuse.py",
+          "sha": "e53ba2e0c4b023c6279cfcb6e49302ed11b5a682"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/material_optimization.py",
+          "sha": "e7150fc5912ecf4c423e08a68a0f86543ff5e1c9"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/material_publication.py",
+          "sha": "0bb1a2ceab5017f6813d2de630edaee69efbde9b"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/native_reconstruction.py",
+          "sha": "294692254e937e3b73437634ab0a72bf5166f790"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/native_worker.py",
+          "sha": "6187367955416504201ea5fdf73231594762cf98"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/pack_definitions.py",
+          "sha": "82fd063272202550995b4cb149d087580b50867e"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/persistent_library.py",
+          "sha": "9329702128b93938e142600cd2982aa727ad288c"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/persistent_reuse.py",
+          "sha": "06b6ae4962e77819bba48acd59e0c46c2d0450f6"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/prim_regroup.py",
+          "sha": "678e43a0a918cba40aa7e947d578189f67503b84"
         },
         {
           "path": "references/usd-optimize-run-operations/scripts/run_batch.py",
-          "sha": "4282f891479d4706a9edde31001968e15dce31d8"
+          "sha": "3572fc688110948cba1de308de9920ce649e4b89"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/semantic_library.py",
+          "sha": "d0cac3373c226b65244cacfdfca8c9ae742ed76d"
+        },
+        {
+          "path": "references/usd-optimize-run-operations/scripts/shared_geometry.py",
+          "sha": "b984d2b23a9934fee88d89acf6adbd8232320acb"
         },
         {
           "path": "references/usd-optimize-run-operations/scripts/status.schema.json",
-          "sha": "f3da14e3d58b40c06692758ddb8be5095dae2037"
-        },
-        {
-          "path": "references/usd-structure-assessment/README.md",
-          "sha": "bef299030d5e5a91551efdf79bc564092d6ad664"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/apply-restructure/README.md",
-          "sha": "aed5ed3070231f65be71365f2b2206a10c5663a6"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/apply-restructure/references/mesh-merge-rewrite-spec.md",
-          "sha": "4eda5bd22485b7a57b3897af2427c191a62cc6f4"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/apply-restructure/references/ref-remap-mode.md",
-          "sha": "0ac48f27073829c9a07772fe64db5e22386cf0bb"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/apply-restructure/references/restructure-mode.md",
-          "sha": "b04b5672594c3b108780901ea386bc050a525d7d"
+          "sha": "65153a8b0ecfffc15c6e988b6995ed987903f0f7"
         },
         {
           "path": "references/usd-structure-assessment/references/apply-restructure/scripts/apply-restructure-manifest.schema.json",
-          "sha": "f420d3cee0e3cfc0b80ab7e2c071c86db3b3a802"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/asset-structure-principles.md",
-          "sha": "f6fe0ff087a04d493cae412457872a8b8482d9d3"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/composition-audit.md",
-          "sha": "0457fb945821397f208b29a6d05e4c2c0e685307"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/factory-level-structuring.md",
-          "sha": "ae2d70eab618d7078e4bad0c44ee1b1697e5e31e"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/instancing-readiness/README.md",
-          "sha": "af74eaac4230271ac21876dd1d8b1d893b39fe6d"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/instancing-readiness/references/instancing-guide.md",
-          "sha": "ac0ed3c5c16c8d9cd027cb831f258e6c8e4d0dfa"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/instancing-readiness/references/instancing-tradeoffs.md",
-          "sha": "98a442b8ba50c6fd026b3137effa3275f91f0c3f"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/layer-health.md",
-          "sha": "fc0c05fa7f1de6ccfc7660983149c04cd6a7abd1"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/optimization-tradeoffs.md",
-          "sha": "8d3cc9552d8ca73b967367bbbca79f9925dc7e85"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/restructure-decision/README.md",
-          "sha": "de62b8d6a00e586d72f29b65de8c1e2855239ff2"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-edit-target-planner/README.md",
-          "sha": "068debe7f939d5ec18552a70ce98bc16332fd0ed"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-edit-target-planner/references/output-saving.md",
-          "sha": "b3d84ebbca3dfee0d6028f9863aaa47cbdefa26f"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-edit-target-planner/references/variants-payloads.md",
-          "sha": "4d9113d51cfd939fe136e5924f3afee1f0ef9ef0"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/README.md",
-          "sha": "963d0fb8a92e114b7d1b3a681b332dfcf765fc3c"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/references/instance-candidate-finder-spec.md",
-          "sha": "7aa65ef594001173877d143bd9930325a0302fa3"
+          "sha": "5a35f58c63f10ef58d92878f795036a5111238e0"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/scripts/instance_candidate_finder.py",
-          "sha": "440067c18b681e54e02b6e8c0b56d2d77a23ffa2"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/scripts/select_frontier.py",
-          "sha": "2506d6deccd9810d1534fbad574b804c5165896e"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-mesh-fragmentation-candidates/README.md",
-          "sha": "032d317f71adf3010dc55b6b54d5124164571732"
-        },
-        {
-          "path": "references/usd-structure-assessment/references/usd-mesh-fragmentation-candidates/references/mesh-fragmentation-finder-spec.md",
-          "sha": "d2b8b2077b42cacce32f9e66482cf1f54db0ef43"
+          "sha": "38535fd9880cb3b78a0e50004105484e1f67acdb"
         },
         {
           "path": "references/usd-structure-assessment/references/usd-mesh-fragmentation-candidates/scripts/mesh_fragmentation_finder.py",
-          "sha": "91dd41b9b96f04c0c87e4c73d077142394f81ced"
+          "sha": "d1dd90fefc2d2066c9d66653dff51f0f3476eaa3"
+        },
+        {
+          "path": "references/usd-structure-assessment/scripts/atomic_placement.py",
+          "sha": "1afff7641c05bd91f8d1e6539af3d60298351401"
         },
         {
           "path": "references/usd-structure-assessment/scripts/audit-report.schema.json",
           "sha": "da95f8b93721cf81189b5519ab30d4355ca614ce"
         },
         {
+          "path": "references/usd-structure-assessment/scripts/boundary_reasoning.py",
+          "sha": "57306ee1cf2e7ae462c5f971d3c68663a39fbf9e"
+        },
+        {
+          "path": "references/usd-structure-assessment/scripts/discovery_preview.py",
+          "sha": "2f8b0554aeeab3af799aa2d6860819da3dbee445"
+        },
+        {
           "path": "references/usd-structure-assessment/scripts/optimization-plan.schema.json",
           "sha": "59e6c42cdcebcd53e9cf83e24b6768d310c34dd9"
         },
         {
+          "path": "references/usd-structure-assessment/scripts/structure_assessment.py",
+          "sha": "28320ac3e57571f6ee9bd180014bb302948b6ad2"
+        },
+        {
           "path": "references/usd-structure-assessment/scripts/usd-structure-assessment-report.schema.json",
-          "sha": "2a455a217747d3d5a328085ea78725b5693ba7af"
-        },
-        {
-          "path": "references/usd-validation-runner/README.md",
-          "sha": "4636e2596d49ba6a877560e49d0d818f08849e2b"
-        },
-        {
-          "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/README.md",
-          "sha": "cd048756222c807b0d4d536571854d4de8d9a73f"
-        },
-        {
-          "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/references/follow-up-queries.md",
-          "sha": "48f691491fe544d33bcceafa5a6f81b54eb62329"
-        },
-        {
-          "path": "references/usd-validation-runner/references/usd-optimize-interpret-validators/references/rule-reference.md",
-          "sha": "5d77c3cf02d8a7bf37e2e0f48598fc35bf3f2c37"
-        },
-        {
-          "path": "references/usd-validation-runner/references/usd-optimize-run-validators/README.md",
-          "sha": "d8a5a8e68c9bd1853ce417bb64dbea0a1846f5d4"
-        },
-        {
-          "path": "references/usd-validation-runner/references/usd-optimize-run-validators/references/infrastructure.md",
-          "sha": "88987397c87df788eec17efba980ba83acd40824"
-        },
-        {
-          "path": "references/usd-validation-runner/references/validate-usd-validation-nvidia.md",
-          "sha": "da6843e55764510f75e0ec954c7f6274f19890e2"
+          "sha": "3d6743d708bf0cb91713363662b12344012ee31b"
         },
         {
           "path": "references/usd-validation-runner/references/validator-concepts.json",
-          "sha": "b97cb3bbda1605b9ca6cb04a9547b2da41913a8e"
+          "sha": "5c1055a12a783544bc93be26096cd64505e84149"
         },
         {
           "path": "references/usd-validation-runner/scripts/usd_validation_executor.py",
-          "sha": "c3e9b814887aa4fafdaa9d9665aea3942e7f36a4"
+          "sha": "fddd3739e577500b0f2e7afd4b9497031bc2339d"
         },
         {
           "path": "references/usd-validation-runner/scripts/validation-report.schema.json",
@@ -23351,19 +23223,68 @@
           "sha": "76a29060a3f83a78d4fe5a84320ff50a2b5538c7"
         },
         {
-          "path": "references/workflow.md",
-          "sha": "bab76754006724f3e80da1d9dae70ccfcb5313de"
+          "path": "references/verification.md",
+          "sha": "df8d5b6b0a7e5e289aee27675f89c2f8ca41d693"
+        },
+        {
+          "path": "scripts/animation_context.py",
+          "sha": "4212eb0d5b5e3629482460a2e63afe5d651f804e"
+        },
+        {
+          "path": "scripts/composition_verification.py",
+          "sha": "7400237cb08113c8635c0c76897926decdb48671"
+        },
+        {
+          "path": "scripts/failure_reporting.py",
+          "sha": "a6a2adae794c366a7d3d011c3d32922eea0089cb"
+        },
+        {
+          "path": "scripts/product_clues.py",
+          "sha": "df0afadfe31e49c91753dbf6f7c5381682a94b5b"
+        },
+        {
+          "path": "scripts/progress_dashboard.py",
+          "sha": "e30e30c98fc87cc18eaa20c7c7ae767a65836bbc"
+        },
+        {
+          "path": "scripts/stage_profile.py",
+          "sha": "b228525b8e1268b115587505de0bb3e8798dc96c"
+        },
+        {
+          "path": "scripts/successor_assessment.py",
+          "sha": "d2c86e988d8d82eb2ba750ce8f55914b0a773695"
+        },
+        {
+          "path": "scripts/successor_execution.py",
+          "sha": "5d73669837279d43549802ba7eb1be729af245ad"
+        },
+        {
+          "path": "scripts/successor_progress.py",
+          "sha": "f1ca707c97a6374549b231d4626d99a3c5c10b1c"
+        },
+        {
+          "path": "scripts/successor_reconstruction.py",
+          "sha": "9564da1430b8a29d632d52492215f04b05daaca2"
+        },
+        {
+          "path": "scripts/successor_workflow.py",
+          "sha": "a80beab45e74958cbabac6571c80261e320efef9"
+        },
+        {
+          "path": "scripts/usd_tuning.py",
+          "sha": "7e888c17fb72ef6175fc5396afb1aff4cfd5ad21"
         },
         {
           "path": "skill-card.md",
-          "sha": "21080ad7234f28d27a6b0685a6336d59ad2235d0"
+          "sha": "2dcbf2400f08dd0a6f4d845185833963ddb7ee0e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f9a24369dc1b49e48c56dca8e8bb3338f4099790"
+          "sha": "0e4dbf9926aca15235f3d9aaed9912ca65269693"
         }
       ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-usd-performance-tuning"
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-usd-performance-tuning",
+      "version": "0.5.0"
     },
     {
       "id": "NVIDIA/skills@paidf-cosmos-predict",
@@ -35175,7 +35096,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "fcce7bd3",
+      "contentHash": "4b151b2b",
       "files": [
         {
           "path": "DRIVER.md",
@@ -35227,11 +35148,11 @@
         },
         {
           "path": "sections/ceo-phase.md",
-          "sha": "318f3ec15d2efe66e90155774fcb0c86c220495b"
+          "sha": "3ba3f3ca026193554d38d038313c9e1301d921ab"
         },
         {
           "path": "sections/ceo-phase.md.tmpl",
-          "sha": "a4e0e1311bbf860f329f2bb2e45ce5c098237e57"
+          "sha": "151a737fe7fc147b67879465e2f28df1f63b1586"
         },
         {
           "path": "sections/design-phase.md",
@@ -35358,7 +35279,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "54226d1c",
+      "contentHash": "7e0afd56",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -35414,7 +35335,7 @@
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "058590a7196016eef672066cfbbef9f852197648"
+          "sha": "d672b0ff7c2205fbbbf182d8e7c072442e19c426"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -35806,7 +35727,7 @@
         },
         {
           "path": "test/browser-manager-custom-chromium.test.ts",
-          "sha": "782a8eece89e63d56f6f5d0f19fa90986adcbf3c"
+          "sha": "4cd167320c92ac48a05f0a19dbcbdfda2e81fbda"
         },
         {
           "path": "test/browser-manager-unit.test.ts",
@@ -35958,11 +35879,11 @@
         },
         {
           "path": "test/cookie-import-native-qualification.ts",
-          "sha": "8c703c9fe18266b528ab7751f8c30f3b69ed8d79"
+          "sha": "5ba173c60538da649918c8f5ba28f469598eb349"
         },
         {
           "path": "test/cookie-import-native.test.ts",
-          "sha": "11c462355d42fc8f0b80b595e3549a11366c0a61"
+          "sha": "013d00da12f820ed47a93312a67a6995e3af94ed"
         },
         {
           "path": "test/cookie-import-node.test.ts",
@@ -36286,7 +36207,7 @@
         },
         {
           "path": "test/playwright-core-patch.test.ts",
-          "sha": "f0974cbd3b5c25a05ab613e06a1e790c528b7da3"
+          "sha": "eb34ed1d231a7cad51e7eb45384e70699545fbf2"
         },
         {
           "path": "test/poisoned-bundle-probe.test.ts",
@@ -36370,7 +36291,7 @@
         },
         {
           "path": "test/security-audit-r2.test.ts",
-          "sha": "cd123f5db9a511ea650663b6d8d70fa9b8cf6cea"
+          "sha": "9db45e9a19b2e44cdff393caa39a6b0ea9065fbc"
         },
         {
           "path": "test/security-bench.test.ts",
@@ -36838,7 +36759,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "f7f2d112",
+      "contentHash": "854bce28",
       "files": [
         {
           "path": "SKILL.md",
@@ -36850,7 +36771,7 @@
         },
         {
           "path": "factory.md",
-          "sha": "7e472397c579edb7f11f48d77edc32a8c6f20313"
+          "sha": "3a334a6bd39e20fbe3bbef88d1da0d40cfc6cb24"
         },
         {
           "path": "scripts/install.sh",
@@ -37434,15 +37355,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "ae4fc03f",
+      "contentHash": "436b7461",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "fa6a0f479af4e0052d0f01a4cf87da4695e55d52"
+          "sha": "7dc0e5be62b19e9375a4aff1018e112b5d2dcd9b"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6083aa0ba310450eb11c80fbe5b8d6b59ad64157"
+          "sha": "47b62613d3e42316aa38f41bcc43f955264e0821"
         },
         {
           "path": "sections/preamble.md",
@@ -37615,19 +37536,19 @@
       "id": "garrytan/gstack@investigate",
       "trust": "trusted",
       "name": "investigate",
-      "description": "Systematic debugging with root cause investigation. (gstack)",
+      "description": "Use when a test fails, code errors or output is wrong: find the root cause, then fix it. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "investigate",
-      "contentHash": "365e3c95",
+      "contentHash": "fb0b9322",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cb6a50df2db4951e81ab798492967584e7fd0cfa"
+          "sha": "81e8e62cc8fd14943a291e63236769b8a31a1b70"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "c7469537d6e833bb5836eb0fbcb9afb202bdc966"
+          "sha": "a9f7b2ecb930a3966131716196687a2a7db7ede1"
         },
         {
           "path": "sections/backlog.md",
@@ -38783,19 +38704,19 @@
       "id": "garrytan/gstack@qa",
       "trust": "trusted",
       "name": "qa",
-      "description": "Test the site, API or CLI and fix the bugs it finds. (gstack)",
+      "description": "Use when you test the site, API or CLI and fix bugs. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "e17c45b0",
+      "contentHash": "512d0f5c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5a348f9c7c1931415e0eb352ce298f327251a0df"
+          "sha": "5c8b6ab91da0285eb7d8d5d1b98d68fe28d428cd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7c411d8c0ce6818327a53ce6185a56a7defba4c8"
+          "sha": "7bc6706b127b932fffd80d9d8d62f4ce5263017a"
         },
         {
           "path": "references/issue-taxonomy.md",
@@ -38917,19 +38838,19 @@
       "id": "garrytan/gstack@review",
       "trust": "trusted",
       "name": "review",
-      "description": "Review this PR's diff. (gstack)",
+      "description": "Use when you review this PR's diff. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "99c78675",
+      "contentHash": "a97adc6a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "369f3730a6724c6dec025565464c35ab1cc6a514"
+          "sha": "9b560bd6f8349cf5cd355417031d3628237cc4a7"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "60ca668bdf26490cfd58eed539ace7371576fd75"
+          "sha": "7ae3e4eef4dbfbe10cc65c94c979776ee950f851"
         },
         {
           "path": "TODOS-format.md",
@@ -39174,31 +39095,31 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "d4668771",
+      "contentHash": "6258082a",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "235eecec8adff011c77d349fdbb52b02a8f58324"
+          "sha": "7c17569c312db6da13cb07b23043b2f04a28c317"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "2b451755f1ed12801e3c651fa4c6a295b0a10203"
+          "sha": "f0e38730d9d2df0d7f89c820550f841f05432283"
         },
         {
           "path": "SKILL.md",
-          "sha": "5b0c6f9ec82cee22ccf1708c9638c76ce3e79aea"
+          "sha": "689c4ae68726820860803aff7533eda1ef5c8059"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "0d2e3ca5b9b2dcfa6ffaf67f7a39427a27293191"
+          "sha": "87342a349cbb444c45fa56e86df5643df4881c5f"
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "937c5eb006ff75945afff0a8cc3a53d33bf8301f"
+          "sha": "0c025218e72ac55860afa68cf5c56e2a8ea4e719"
         },
         {
           "path": "sections/adversarial.md.tmpl",
-          "sha": "b4b739e0b498760b89c730b8801c9b6bbae72b42"
+          "sha": "180c7adf5b21c842911ac778922563482e947315"
         },
         {
           "path": "sections/apple-release.md",
@@ -39298,11 +39219,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "76abde9ed6bc3fd73f6133953d68665015b331a4"
+          "sha": "9e85deb0ea8cef24167fbb2048793242d039fcc0"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "c7d1e33d12028bc7d9d967d0c988f2b48da1105e"
+          "sha": "22a09b94b61aad5c55ed5cf9ca04329840a47314"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -39543,19 +39464,19 @@
       "id": "garrytan/gstack@verify",
       "trust": "trusted",
       "name": "verify",
-      "description": "Build loop while coding: run the repo's checks and the tests /ship would pick, fix, repeat until green. (gstack)",
+      "description": "Use when coding: run the checks and tests /ship picks until green. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "verify",
-      "contentHash": "918059b2",
+      "contentHash": "1d54f51f",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ea9e4c937b5f8deb37ca5ebc85330ddc94af701c"
+          "sha": "b321341dcc61e72e74efbd7176168fddfc82d9e4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "8f21e5625a91fb31added4314040872a06532a71"
+          "sha": "78bc39853198a7eedb313115d0b20fdc30e42731"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/verify"
@@ -39568,15 +39489,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "write-skill",
-      "contentHash": "fbe2dbe6",
+      "contentHash": "a0c75931",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9042b9edd13670b6fc784e695e80beba85072516"
+          "sha": "78688ecf5077eec1886efbc8eb4a9ff1b1d8c5e9"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "e9fa9189bc3f12f45e9d6054cc7cf5453d0a1bb5"
+          "sha": "877c8b013f24d779d9d4536bc62d4e9e370a8cc7"
         },
         {
           "path": "references/diet.md",
