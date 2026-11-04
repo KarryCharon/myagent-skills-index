@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793773885694,
+  "generatedAt": 1793821790869,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -20645,11 +20645,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvflare-convert-huggingface",
-      "contentHash": "3024a485",
+      "contentHash": "1353cf28",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "8ec733d37c3f5b7bd5c83673ac02c44fbda3d8dc"
+          "sha": "6279b02b84172c2ec86129af2151a07f9b91dd5f"
         },
         {
           "path": "SKILL.md",
@@ -20668,8 +20668,12 @@
           "sha": "83a5b3db14fdf69f0b3f9659d589ba1735ba1a57"
         },
         {
+          "path": "evals/config.yml",
+          "sha": "97d35222b38f9b0409108d1ff08c02c216f248e1"
+        },
+        {
           "path": "evals/evals.json",
-          "sha": "6fa1c15b2b30858a3c67ad65d62b8a23be30ec0a"
+          "sha": "2783f13f4cd3420427f1f0436f54cf0cd8323f44"
         },
         {
           "path": "evals/files/SOURCE.md",
@@ -20789,11 +20793,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "914d898428cb674b41a7127f0ab06ff349853d42"
+          "sha": "0f007de2c77501d1afbeb0cb7c119d0768ba58eb"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "18b5ff10bdddea4d445541e21dd5d3f8428d4785"
+          "sha": "c737d3dbeec45b9cc88859ecbfa7f9241fc155d9"
         },
         {
           "path": "tests/helper_scripts.md",
@@ -39414,7 +39418,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "aaba70e8",
+      "contentHash": "eefde5bc",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39426,11 +39430,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "811b00bb7646b9c23776e7d8c778bc79dffd42b6"
+          "sha": "d0e3cdcee365e140d7531cf2644e75b3a37c97c4"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "01f47a4aa91fa341c7eef8b13b71de499dfebc38"
+          "sha": "6de46191603342f5de4c07f669125b4a34af19f1"
         },
         {
           "path": "sections/adversarial.md",
@@ -39526,11 +39530,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "898fd5576fade89b6853687e24983bcc2c9068b8"
+          "sha": "850570bdb662da705bb0ebd3df0ba9039a86742e"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "9b510a3f901b99fdc6df8a0e93d5991bd69a0462"
+          "sha": "b7cbe34e6d22d6116ec063aa41362fb1713c1c05"
         },
         {
           "path": "sections/preamble.md",
@@ -39562,11 +39566,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "32cf548d53ea37338519bce95da3f792b451c1c2"
+          "sha": "eff635e9a7892654716df3028a412e535b9b2026"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "165e9f9984ce5b7cf49af300db119cae95ef2422"
+          "sha": "d8a8dc1eaf245f65347c98404ed5bbe1d5466668"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
