@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793748460713,
+  "generatedAt": 1793773885694,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -15159,6 +15159,292 @@
       "version": "0.8.0"
     },
     {
+      "id": "NVIDIA/skills@isaac-cable-insertion-policy-deployment",
+      "trust": "trusted",
+      "name": "isaac-cable-insertion-policy-deployment",
+      "description": "Export a trained Isaac Lab DisplayPort task-space checkpoint with LEAPP, run it through Isaac ROS Deploy and Isaac Sim 6.0 in separate Docker containers, verify training asset parity, and record insertion video and measured results. Use for post-training simulation deployment and testing of cable insertion policies.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/isaac-cable-insertion-policy-deployment",
+      "contentHash": "7588b70a",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha": "ae96a332a7b827e6102fbe0afedf3c9cd6c6d7b5"
+        },
+        {
+          "path": "BENCHMARK.md",
+          "sha": "86d05127735f1bc33d5b81d5b23e2193db89d314"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cfcd0202a8ef4bb6374f023b7956158261cdc0c2"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "3a7aded2af258cacad89790e47734fa05be6f403"
+        },
+        {
+          "path": "evals/README.md",
+          "sha": "f006259c9ad68afa1bc71b793782442d1c4ae9bf"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "5e03829f0ce8cf400a7cd3dacffdae033d16d21c"
+        },
+        {
+          "path": "evals/evals.json.license",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "evals/validation.md",
+          "sha": "c327f8886232e6eaddefe5d9e5e62a1142823336"
+        },
+        {
+          "path": "package.xml",
+          "sha": "b2b2626da74c57284ed60b38815a80cdbd5d47a4"
+        },
+        {
+          "path": "poetry.lock",
+          "sha": "03bdf630814db29b0158daa361e82ef60ad6e31f"
+        },
+        {
+          "path": "poetry.lock.license",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "06552d6bc5bd9daeeaf376177024ef6a8ecb0d22"
+        },
+        {
+          "path": "references/dependencies.md",
+          "sha": "e93a75dac27c80019288e31cebfdaffc3ca14a22"
+        },
+        {
+          "path": "references/interfaces.md",
+          "sha": "7b9b4c5e30e1c079d685800aa6f699abee340171"
+        },
+        {
+          "path": "references/setup.md",
+          "sha": "2e5cf70017744f7b683ad765910190e0d40a7fea"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "82e71e908095a499aa5efcb64bde7f0cffa2d1dc"
+        },
+        {
+          "path": "scripts/deploy.py",
+          "sha": "1958ef55c3cebcd88a73a8f1e551c018b0fe16d8"
+        },
+        {
+          "path": "scripts/export_policy.py",
+          "sha": "ab3f03449d9c515415295a442a1491688b8a7c01"
+        },
+        {
+          "path": "scripts/flange_action_adapter.py",
+          "sha": "2285b3f8fd3d83caa23971473a80765fbd173b1b"
+        },
+        {
+          "path": "scripts/osc_scene_controller.py",
+          "sha": "2e85c3587729777487230458761c1b71a42df3d3"
+        },
+        {
+          "path": "scripts/prepare.py",
+          "sha": "e58c638940fee51a7f9bc08b1f8d1441427d5df3"
+        },
+        {
+          "path": "scripts/scene_security.py",
+          "sha": "d0f68c4dc98f1fdb7bb8d3e0b1fff9219b632673"
+        },
+        {
+          "path": "scripts/sim_record.py",
+          "sha": "931e186b7b07c8825541d12e2443bc7809bdd988"
+        },
+        {
+          "path": "scripts/training_scene_assets.py",
+          "sha": "7739df9e597867db5c706e2ce53680c5e6526241"
+        },
+        {
+          "path": "scripts/training_support.py",
+          "sha": "4587cd5ff9513b225e814021220935a2bbc80790"
+        },
+        {
+          "path": "scripts/validate_export.py",
+          "sha": "df51f38b44e979e6b5e65daff15baa7aa7097eba"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "04f0f9d36148494c5a4bf40f267708c75463ab78"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ccafb7f513e17c82415d06884ee887699f38ffe7"
+        },
+        {
+          "path": "tests/test_contract.py",
+          "sha": "46affb851c9e70271e1ad036cea28ed6405f484e"
+        },
+        {
+          "path": "tests/test_export_compatibility.py",
+          "sha": "cde89a7f43c162922d229fd68cd332ad8e37eef3"
+        },
+        {
+          "path": "tests/test_policy_sync.py",
+          "sha": "8461f81c668e880a2ab96fd784dea7dbe623bb3a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-cable-insertion-policy-deployment"
+    },
+    {
+      "id": "NVIDIA/skills@isaac-cable-insertion-policy-training",
+      "trust": "trusted",
+      "name": "isaac-cable-insertion-policy-training",
+      "description": "Set up the standalone IsaacLabTraining package from NVIDIA-ISAAC-ROS/isaac_ros_manipulation, then launch, monitor, resume, evaluate, and tune DisplayPort insertion policies without a separate Isaac Lab source installation. Use for setup and campaign planning, dependency repair, curriculum or PhysX troubleshooting, video evidence, and long GPU runs.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/isaac-cable-insertion-policy-training",
+      "contentHash": "4dfcd6b6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "dc8af28cad72109cc256e2a0c3ce8ec9b3f1af55"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d7e736eb5e10470b353c98f6a3750b7196a69c38"
+        },
+        {
+          "path": "assets/session-plan.example.json",
+          "sha": "d793d5a3abe3b976318368ddb7f9d32cd3b1edc0"
+        },
+        {
+          "path": "assets/session-plan.example.json.license",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "assets/standalone-supplements.txt",
+          "sha": "d15e46d92307f9bb3cd49591fedc7098fb604d6c"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "b85aabf28cb3ad9f0b6d3fcbfe878ee24fd96a37"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4fdbab2f3481df1abd1921a7e46b379f0450e7a3"
+        },
+        {
+          "path": "evals/evals.json.license",
+          "sha": "52a7a9daf028f654d6a02f65c99cc609a57b492f"
+        },
+        {
+          "path": "logs/.gitignore",
+          "sha": "ca39c528c54f22277b657b8a6d871fe5d15dc5ca"
+        },
+        {
+          "path": "references/environment.md",
+          "sha": "5314aaa5ec320ac4efc563b2b9ccaa8c3fc61c31"
+        },
+        {
+          "path": "references/eula.md",
+          "sha": "54fc1cafe0642eb2f3dc8d5e2b7c4dd2cbbd4890"
+        },
+        {
+          "path": "references/inputs.md",
+          "sha": "bc4474741b24f0dc62b0c47561cac6a174f6fb3e"
+        },
+        {
+          "path": "references/logging.md",
+          "sha": "909c6fe1862fee5e80872e45453e74a471dcb744"
+        },
+        {
+          "path": "references/preflight.md",
+          "sha": "ef7bdcc3028d8c540289355dd7ee0be02518f966"
+        },
+        {
+          "path": "references/run-monitor.md",
+          "sha": "d0f1afd1c85b3697f856b554104ae4a275ce94b3"
+        },
+        {
+          "path": "references/setup.md",
+          "sha": "5989dfe39efa2eb4a8b20f781017ef8734650d9c"
+        },
+        {
+          "path": "references/supervisor.md",
+          "sha": "b3d32f020e578f4b5b045c11d056009e46cb6766"
+        },
+        {
+          "path": "references/tuning.md",
+          "sha": "07ccd4894ebf5b93feb3891369ce071161add823"
+        },
+        {
+          "path": "scripts/checkpoint.py",
+          "sha": "0153c5eb5a8e90b2420897178081b0d1e9cab40e"
+        },
+        {
+          "path": "scripts/evaluate.py",
+          "sha": "96eae0ef62324f8fb61e8287a654ad3f31ca1c40"
+        },
+        {
+          "path": "scripts/launch_environment.py",
+          "sha": "49bf83a5b8baff49b120f1ea4fcc9f73a2b70a9e"
+        },
+        {
+          "path": "scripts/reporting.py",
+          "sha": "a9a4e282975c325f69987b7e0e82ff5a99f8b2b8"
+        },
+        {
+          "path": "scripts/runtime_checks.py",
+          "sha": "897bf79a34a171ae4b6a706b130b6b05a44707d0"
+        },
+        {
+          "path": "scripts/storage.py",
+          "sha": "15b2106b7ae48028268b50a7731d4d6f89bff401"
+        },
+        {
+          "path": "scripts/supervisor.py",
+          "sha": "8f9df83adb8dfc5426564a3f8ffd7201774abafb"
+        },
+        {
+          "path": "scripts/verify_run.py",
+          "sha": "c49013355902bbef6ca0bd3a14d8f49a49c9eba4"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "0a1f112113b8e68fca97ea3c0b0a84c3320e2fb2"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "1f326627ddb556bc1332c9a9f75439097b44b97f"
+        },
+        {
+          "path": "tests/test_dependencies.py",
+          "sha": "4fa739f5cfafdd9e5a505ea04dea58ba0e5ff20c"
+        },
+        {
+          "path": "tests/test_evaluator.py",
+          "sha": "d251f0f82490d73fd360cc640c06baddaf2bcec2"
+        },
+        {
+          "path": "tests/test_launch_environment.py",
+          "sha": "59f6acbd5f7b2b8abac2f65090c5cd0531572f7f"
+        },
+        {
+          "path": "tests/test_monitoring.py",
+          "sha": "fc81cf97674e0140fd356ef3a43134209a0f1010"
+        },
+        {
+          "path": "tests/test_standalone.py",
+          "sha": "2806cad9a79f6159adecdaa6de4ec2eb764661da"
+        },
+        {
+          "path": "tests/test_supervisor.py",
+          "sha": "ec17ef29773f480d3b48614665bf197e6fe8a81a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-cable-insertion-policy-training"
+    },
+    {
       "id": "NVIDIA/skills@isaac-humanoid-cloud-control",
       "trust": "trusted",
       "name": "isaac-humanoid-cloud-control",
@@ -23875,63 +24161,63 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/physical-ai-neural-reconstruction",
-      "contentHash": "8988c0b7",
+      "contentHash": "ed9de851",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "57991ad724a709faf79e09f872ad490000b45475"
+          "sha": "0ae969e18dfd1f0bdf50510adafca7325f8edb76"
         },
         {
           "path": "SKILL.md",
-          "sha": "858cf4d7a6fa1e766f018233ab08cf0b15ec7785"
+          "sha": "ba8c63dff92c3c4828a9bef746ea81684a34a7b4"
         },
         {
           "path": "evals/evals.json",
-          "sha": "1c98f3c5a06cbd0bd1f1fe26e40b52d800682440"
+          "sha": "7563caa2815291a173e7b155f63abcac0cfdf7ae"
         },
         {
           "path": "references/maintenance.md",
-          "sha": "b45f02ccd5161db2233886031116696e05742d8b"
+          "sha": "8a8fa8cbbd4fe0d6a5a712c1ab7b67c770e67d0f"
         },
         {
           "path": "references/mix-ups.md",
-          "sha": "450d5b493402751fdb3e9326bda0e7a04353b94d"
+          "sha": "4b904c7918b9a3bf6c5ac19683b32dd58bb69868"
         },
         {
           "path": "references/prerequisites.md",
-          "sha": "a5b99f43021ac33eacc921fcc766ad12431ee836"
+          "sha": "24e50c4dbcda1c5bf571eb22eecfcb72fcda2719"
         },
         {
           "path": "references/secrets-handling.md",
-          "sha": "a6ac8b0e07577ed5cf660295c71ba62722035c59"
+          "sha": "f0e460171e1fca5827766d165329e2f053f0f8ce"
         },
         {
           "path": "references/teardown.md",
-          "sha": "4f188c228e8a12bff039ff5f6275a0099ea40489"
+          "sha": "4a133d063b7790ecb0ff15d6da47d1a6a600e31c"
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "cd52dd028388dea3416b886936b21b722ed2b77a"
+          "sha": "1398d5c3002f6a2f5259009c5b307cd0705d93b6"
         },
         {
           "path": "references/upstream-fetch.md",
-          "sha": "044c17f3836398328701e474d13aab3d0bb140fc"
+          "sha": "8d10558bc500e26e8c7501962d62cb8ff2cba705"
         },
         {
           "path": "references/what-is-nurec.md",
-          "sha": "f909afdb93305d606fa9c8f928a352aa3698a0cb"
+          "sha": "2d00f45ff43a6b88a8c2d0603ff041dfcefaa78f"
         },
         {
           "path": "references/workflows.md",
-          "sha": "9a22b0b6b923add8edc8a75078c1ea5fc49ab42e"
+          "sha": "75cbd3da201aec14fa3f2c7cce90013a799c92fa"
         },
         {
           "path": "skill-card.md",
-          "sha": "eb9cc8bcefc4f937a548ee07109b5a663456f33f"
+          "sha": "71e0c9cfe4921cef031067c0ff5b465a2cd501f2"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "38b695fc726ed7cd35d4d699273ecd2cf1c4ef05"
+          "sha": "f09be100e5c348241bd5c23313fa6214b39fb5cb"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-neural-reconstruction"
@@ -35096,15 +35382,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "4b151b2b",
+      "contentHash": "11af96b5",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "a2aef2c50ba17e3a528f5ce6e277546567a254bc"
+          "sha": "2ad63e371f81fe58b02e637488ce29007e96fabc"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "2831814f79a09c3f0e4a8430b614f3d1562077cc"
+          "sha": "65b063d39e1f92164bc775e4abb2cd78eca546df"
         },
         {
           "path": "SKILL.md",
@@ -36682,15 +36968,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "bbc5b5bd",
+      "contentHash": "67dd7216",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "897b7b31274dcbc2d5727c5806529c24d0c05d23"
+          "sha": "41dd2db745fd9499d65333cfb7045207c6dde843"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "b234f7d3197c95d7a0509816941aefe14d63976b"
+          "sha": "14f3a1b14882113bae3a0904cf70190634c30367"
         },
         {
           "path": "sections/preamble.md",
@@ -36702,7 +36988,7 @@
         },
         {
           "path": "templates/CREW.md",
-          "sha": "fb6ac2fda6e4b608d67ee44ed1bcddb57c5caa32"
+          "sha": "fa06c29bd7f40f6a945979e1ec240a592e895a14"
         },
         {
           "path": "templates/DIGEST.md",
@@ -36714,7 +37000,7 @@
         },
         {
           "path": "templates/READY.md",
-          "sha": "0129ea56b5628b6dbb943c134a1078b46877d8fe"
+          "sha": "221b1f538de314a05a825412afca690c811dc1c6"
         },
         {
           "path": "templates/automation-flaky-pass.md",
@@ -36741,8 +37027,12 @@
           "sha": "ba34245c8fffb3672ce7d993fd2ed1a508fec169"
         },
         {
+          "path": "templates/postmortem.md",
+          "sha": "5e6bc4b9a737c8436ac0e717015cccbc4a78cff2"
+        },
+        {
           "path": "templates/report.md",
-          "sha": "3df4da4bf663099aec5a685d25ccf4487b1cc1ef"
+          "sha": "13c0319d92f749efbd91ef42926e1eb4eb787dd7"
         },
         {
           "path": "templates/slot-call.md",
@@ -36759,7 +37049,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "854bce28",
+      "contentHash": "e71bc9b8",
       "files": [
         {
           "path": "SKILL.md",
@@ -36767,15 +37057,15 @@
         },
         {
           "path": "captain.md",
-          "sha": "89fa7105814e3557b25f6b3ddd14cf0cdeb9ae41"
+          "sha": "c7b6ff2b36fd9f3c2c90839e09575cfc1aea6322"
         },
         {
           "path": "factory.md",
-          "sha": "3a334a6bd39e20fbe3bbef88d1da0d40cfc6cb24"
+          "sha": "e7db9c720f4fbc358729126de685cf469a3c0a91"
         },
         {
           "path": "scripts/install.sh",
-          "sha": "2cb8ae4c27e1614dbe1b600a8163d753569848ed"
+          "sha": "f7f2eaa1bd4a971f76be5d1f5f523a9efb67e8bd"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/capy/skill/gstack"
@@ -36973,7 +37263,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-consultation",
-      "contentHash": "208973b2",
+      "contentHash": "bf2c7071",
       "files": [
         {
           "path": "SKILL.md",
@@ -36993,11 +37283,11 @@
         },
         {
           "path": "sections/proposal-and-preview.md",
-          "sha": "6f9ae8150ec1a4cafba236d913fdd6f13b1de176"
+          "sha": "6c606f88e496ee0ef643928d013519d990f3416e"
         },
         {
           "path": "sections/proposal-and-preview.md.tmpl",
-          "sha": "7c975d158e69d90810a61dfe5654c76c4e6328c8"
+          "sha": "37f5f98aae815294653277e22bca1ac5fb3803b8"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-consultation"
@@ -37128,11 +37418,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-review",
-      "contentHash": "8c0841b7",
+      "contentHash": "3c2e2714",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "42e47d2515578b1e7ea44653c4adb4ad9628374b"
+          "sha": "784ec2f66aa50ba1e35d3f84366fedf908694c71"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37906,15 +38196,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "b22a748b",
+      "contentHash": "e4f4f335",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "57e64a21aa542a8350882a778085ea4fcb2f098c"
+          "sha": "2243d514068ad8d94559394accc26d3604bd32a8"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f620abfb14783d78d3f94f2b149431ecbf77f704"
+          "sha": "e38c32deadd10243240de2a29f7708688e3c6ce7"
         },
         {
           "path": "sections/canary.md",
@@ -38234,19 +38524,19 @@
       "id": "garrytan/gstack@modernize",
       "trust": "trusted",
       "name": "modernize",
-      "description": "Bring an aging pull request onto its current base and decide whether it should still exist: MODERNIZE, REWORK or CLOSE, with range-diff proof before any push. (gstack)",
+      "description": "Bring an aging PR onto its current base and decide: MODERNIZE, REWORK or CLOSE. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "modernize",
-      "contentHash": "8390cfc8",
+      "contentHash": "0f906ced",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2b50f82ac58e7d2b215b03ba1205c820b8bbe2ea"
+          "sha": "60fc559ce44493196595b609782af6748cf97d36"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "626c49bf8059295f39db130d08ba186c0e48c449"
+          "sha": "93f2883e9509749721661493e314c6aa018b1bea"
         },
         {
           "path": "sections/preamble.md",
@@ -38956,6 +39246,35 @@
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/review"
     },
     {
+      "id": "garrytan/gstack@runaway-stopper",
+      "trust": "trusted",
+      "name": "runaway-stopper",
+      "description": "Find runaway Capy threads and subagents, stop or rotate them safely, and prevent repeats. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "runaway-stopper",
+      "contentHash": "57a2b224",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "fe137aedde6ba5b0013c4af4cc942d361873e2f0"
+        },
+        {
+          "path": "SKILL.md.tmpl",
+          "sha": "64ade4525104b3aa7fcd27b66408d7dc3dafd88d"
+        },
+        {
+          "path": "templates/rotation-handoff.md",
+          "sha": "939bf9b7c2d59beb94e43678b2def2f69ea961b9"
+        },
+        {
+          "path": "templates/successor-brief.md",
+          "sha": "821da75daeccb2aac82d6021cdca65763ac702de"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/runaway-stopper"
+    },
+    {
       "id": "garrytan/gstack@scrape",
       "trust": "trusted",
       "name": "scrape",
@@ -39030,15 +39349,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-gbrain",
-      "contentHash": "efe6b765",
+      "contentHash": "38833124",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "aaeb4348e0636bb7e141161b6eeb9fa92361b6e2"
+          "sha": "c7ba1b72867efd25b5ca8c77a7882d328e0edb98"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "02c0f096a89117fe9bab54c90835fa949213e38c"
+          "sha": "5e3a96fd8b29bf0097f8179f62230c64ede53a6f"
         },
         {
           "path": "memory.md",
@@ -39095,23 +39414,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "6258082a",
+      "contentHash": "aaba70e8",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "7c17569c312db6da13cb07b23043b2f04a28c317"
+          "sha": "aa12f35e4a43aa14e430a00eb68a1fa3d4a77f22"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "f0e38730d9d2df0d7f89c820550f841f05432283"
+          "sha": "ca14f3bc4fffe2c66520bb604cb9047a1e092611"
         },
         {
           "path": "SKILL.md",
-          "sha": "689c4ae68726820860803aff7533eda1ef5c8059"
+          "sha": "811b00bb7646b9c23776e7d8c778bc79dffd42b6"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "87342a349cbb444c45fa56e86df5643df4881c5f"
+          "sha": "01f47a4aa91fa341c7eef8b13b71de499dfebc38"
         },
         {
           "path": "sections/adversarial.md",
@@ -39131,11 +39450,11 @@
         },
         {
           "path": "sections/budget-handoff.md",
-          "sha": "c561b04ab32a07ebd7a09d395efcb30266272a99"
+          "sha": "b3a0d4181abc6b3e10a7125df06954f7aab75828"
         },
         {
           "path": "sections/budget-handoff.md.tmpl",
-          "sha": "1a6df789b26e971359b68f7511dd506d8f24fcad"
+          "sha": "812030d28bab39a772d2aabe89b54bc055cf18d9"
         },
         {
           "path": "sections/capy-pr.md",
@@ -39207,11 +39526,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "63cdda772610faefce3d09f4ff697b7ee40dfa89"
+          "sha": "898fd5576fade89b6853687e24983bcc2c9068b8"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "8bd8c3188edc38e50598dccdf31e10d06d58c1ae"
+          "sha": "9b510a3f901b99fdc6df8a0e93d5991bd69a0462"
         },
         {
           "path": "sections/preamble.md",
@@ -39243,11 +39562,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "55262a6f2b70d8a60ebc2c1bfcfc250f10b7e1b3"
+          "sha": "32cf548d53ea37338519bce95da3f792b451c1c2"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "c408effa6824a42d55a6fe5bc414d62f5cb6871f"
+          "sha": "165e9f9984ce5b7cf49af300db119cae95ef2422"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
@@ -39322,15 +39641,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "sync-gbrain",
-      "contentHash": "1737c59a",
+      "contentHash": "bcf77537",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7b9c4ff205a972c17c87db447fa8677453d39f6e"
+          "sha": "b4d6ebfe46e7dfa1dc309b91869f2b951558d359"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a822ee4818002d8195fbaad4ebd9ed2ae1446778"
+          "sha": "3612a62da1eac6a94a24800ef8c7983397a713ea"
         },
         {
           "path": "sections/preamble.md",
@@ -39422,15 +39741,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ubicloud",
-      "contentHash": "75472aea",
+      "contentHash": "cc1e7944",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b7a277425866998ae1162709a0fe0ad8af7a7f56"
+          "sha": "5bc7ab60b11bf26ed35a0287cfe1608ba6d14807"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "1c339af9f1b7fd20a5a8881930d91636e67b20ab"
+          "sha": "2b8aa447aa07e8d5fed438ed31bc5603ab2ec169"
         },
         {
           "path": "sections/preamble.md",
