@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793821790869,
+  "generatedAt": 1793861631242,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -8661,6 +8661,115 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-importing"
+    },
+    {
+      "id": "NVIDIA/skills@cudf-query-engine-builder",
+      "trust": "trusted",
+      "name": "cudf-query-engine-builder",
+      "description": "Build the first native, single-GPU cuDF path in a query engine, or complete its initial adapter. Use for libcudf C++ or cuDF Java implementation, buffer ownership, worker readiness and CPU/reference comparison, including identifying missing POC inputs. Excludes standalone dataframe analysis, cuDF mainline changes, production integration and distributed or multi-GPU execution. Bundled maintainer evaluations use CPU simulations and source review; they do not run CUDA.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cudf-query-engine-builder",
+      "contentHash": "b35546ce",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "978d5c9fbb7890dfe0ec1f4d4eeaf48cd3c46230"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "511ec418189c4b03f25f711074f122b3f3ca016b"
+        },
+        {
+          "path": "LICENSE-APACHE",
+          "sha": "001a3281169d6ade30cd1a44544029254ba490a8"
+        },
+        {
+          "path": "LICENSE-CC-BY-4.0",
+          "sha": "b20442685375f4dd187888288c53f98217268eef"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "0e2674cce50614a436cbec517b13d68bd9c938c2"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "sha": "7ec7e6711d2a05061b519c747adc7e07c3f198c1"
+        },
+        {
+          "path": "evals/.reference/Dockerfile.cudf-cpp",
+          "sha": "ece3765ddf23ad8ddff8ab3050a670adb0b45089"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "979f0c020c029963fad985bc4bf34d86783f1e42"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "76be7c7c3f7d56ca382bc4df67ed966c8563f289"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "a371e8db1d68ef0b993ecfc4e8d1276dbb4acd16"
+        },
+        {
+          "path": "evals/files/async-copy-cleanup/TASK.md",
+          "sha": "aa4f090f5d97122fdcfc38957f185283f53c0723"
+        },
+        {
+          "path": "evals/files/async-copy-cleanup/adapter.hpp",
+          "sha": "74ac9dd701a0f0fc8a2ce706cee6d5a97084be3c"
+        },
+        {
+          "path": "evals/files/async-copy-cleanup/run_checks.py",
+          "sha": "132129eb1898ccb83b081a8c07989d851285d4fa"
+        },
+        {
+          "path": "evals/files/async-copy-cleanup/sim_backend.hpp",
+          "sha": "469e89af900bec930ae0633d696870a22e0ff58a"
+        },
+        {
+          "path": "evals/files/async-copy-cleanup/test_adapter.cpp",
+          "sha": "6ac3a46c34a38dc41c503adfd1e16572f86c5823"
+        },
+        {
+          "path": "evals/files/worker-result-handoff/TASK.md",
+          "sha": "a76c2d0033f3d11adc32ee8767852fb9c345d0a2"
+        },
+        {
+          "path": "evals/files/worker-result-handoff/adapter.hpp",
+          "sha": "af3eeb0c6066fe31579eebab05b5c3a94c1963a9"
+        },
+        {
+          "path": "evals/files/worker-result-handoff/run_checks.py",
+          "sha": "132129eb1898ccb83b081a8c07989d851285d4fa"
+        },
+        {
+          "path": "evals/files/worker-result-handoff/sim_backend.hpp",
+          "sha": "469e89af900bec930ae0633d696870a22e0ff58a"
+        },
+        {
+          "path": "evals/files/worker-result-handoff/test_adapter.cpp",
+          "sha": "a7f07216c05f515647bed32dd157d83356170d22"
+        },
+        {
+          "path": "evals/grader.py",
+          "sha": "b982df5e98cf96e7d824bd2d242c975df6e4f13e"
+        },
+        {
+          "path": "references/asynchronous-cleanup.md",
+          "sha": "dada579454525adef5a805639ff6ccdbf4b615ab"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "423e33138b5163fab7a0cd578f2faac35406cd16"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "14cd50b3c47353e4174d3f7ced2888d8e3a43378"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudf-query-engine-builder"
     },
     {
       "id": "NVIDIA/skills@cuml",
@@ -35569,7 +35678,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "7e0afd56",
+      "contentHash": "c89d7a83",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -35965,7 +36074,7 @@
         },
         {
           "path": "src/touch-commands.ts",
-          "sha": "cb898f41cc6a7bd2c34ce49978ee3a88742a5394"
+          "sha": "77b7635c2dbb109081b9c0b29361c9fbe98beea6"
         },
         {
           "path": "src/tunnel-denial-log.ts",
@@ -36865,7 +36974,7 @@
         },
         {
           "path": "test/touch-commands.test.ts",
-          "sha": "fce783b1d16a110f3555407cc8e8aa61086288fc"
+          "sha": "0e81d72a6c823b3a3b0c9d7f81c4aca1296b51d5"
         },
         {
           "path": "test/tunnel-gate-unit.test.ts",
@@ -38532,15 +38641,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "modernize",
-      "contentHash": "0f906ced",
+      "contentHash": "52b68f9a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "60fc559ce44493196595b609782af6748cf97d36"
+          "sha": "7322016ed9676260106326c45c0378a6af6a4ff7"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "93f2883e9509749721661493e314c6aa018b1bea"
+          "sha": "a8e4992a9288c5fb8289f13b13fff104c9f7706e"
         },
         {
           "path": "sections/preamble.md",
@@ -38715,15 +38824,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "pair-agent",
-      "contentHash": "0d223e86",
+      "contentHash": "74671fe0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "912a3e476c5c2f19005ac80d3f67c1993a9e55c0"
+          "sha": "e588551be2d1368c95ad1b1dedd06488223419d1"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "0460989aecb534666979e544023ad7b4704bb104"
+          "sha": "3aa0579c6890030bb2c848a3b261da654abb4fd7"
         },
         {
           "path": "sections/preamble.md",
@@ -39418,7 +39527,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "eefde5bc",
+      "contentHash": "96acbcc8",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39430,19 +39539,19 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "d0e3cdcee365e140d7531cf2644e75b3a37c97c4"
+          "sha": "769833bd7e0248c84eeebd1172e9c83ec2b5b78f"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6de46191603342f5de4c07f669125b4a34af19f1"
+          "sha": "10f2071fea3598b3338c7773a483f660706744c5"
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "0c025218e72ac55860afa68cf5c56e2a8ea4e719"
+          "sha": "eaaea2bac1995867a68424b4c53eb9075b3a5816"
         },
         {
           "path": "sections/adversarial.md.tmpl",
-          "sha": "180c7adf5b21c842911ac778922563482e947315"
+          "sha": "206bfef124cb342684e512faadd545de90c3b5b1"
         },
         {
           "path": "sections/apple-release.md",
@@ -39486,11 +39595,11 @@
         },
         {
           "path": "sections/greptile-early.md",
-          "sha": "fa44f339b2ab82c7cbaefe22c82856c84bd476b2"
+          "sha": "19d7663c3c3d21ebcd0e8dba2c10f7009739fadb"
         },
         {
           "path": "sections/greptile-early.md.tmpl",
-          "sha": "c6dabf7d2c5817222294e2271c0d5f8ad6869f1b"
+          "sha": "6353f35cbcb991ac4b4ae4b735e0732bc8d4691b"
         },
         {
           "path": "sections/greptile.md",
@@ -39566,11 +39675,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "eff635e9a7892654716df3028a412e535b9b2026"
+          "sha": "8182b0e80e3aa1eb6ec2ee45bbf07f9d0ab82d92"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "d8a8dc1eaf245f65347c98404ed5bbe1d5466668"
+          "sha": "cb5d10f7894c30ace385de08c95ec2f75a4dadf2"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
