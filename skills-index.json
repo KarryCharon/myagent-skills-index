@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793908829948,
+  "generatedAt": 1793948009928,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -18247,31 +18247,31 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-mbridge-perf-megatron-fsdp",
-      "contentHash": "84aca8e8",
+      "contentHash": "6a3b750b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0a3af580f7baba764913f4ca7f874cb67ac0a6fd"
+          "sha": "af626c5ac5d18cb0e9cc90544d5dc4d428f34e80"
         },
         {
           "path": "SKILL.md",
-          "sha": "023af6b3cf3ef9758bbd840100f6e69762f54bd6"
+          "sha": "c444675f7640079d7d32e5c9668c4657e509190e"
         },
         {
           "path": "card.yaml",
-          "sha": "2638ed1b0463b60a60fdea9ab49b07f51c291540"
+          "sha": "ac077b8345e4b72ec95cc198cdc971639ca1a305"
         },
         {
           "path": "evals/evals.json",
-          "sha": "03718d71e1be4154e6d876cce11a4d9a629b8f9d"
+          "sha": "515d3d6c67b4dc46fd65814a0fd7ca1e8ff72195"
         },
         {
           "path": "skill-card.md",
-          "sha": "74df405ec01260df92f3d1e1c39e7fb5bf9e6960"
+          "sha": "f2ab0910d1891bb7aa33dea2bd5720f60c88f02a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "deb72722023c08c9e1bb1a066f2c5a03e931f39b"
+          "sha": "4e8d3c5197b38411026653edbdbeb0fa0cb9aaad"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-mbridge-perf-megatron-fsdp"
@@ -37094,7 +37094,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "67dd7216",
+      "contentHash": "939018bd",
       "files": [
         {
           "path": "SKILL.md",
@@ -37134,7 +37134,7 @@
         },
         {
           "path": "templates/brief.md",
-          "sha": "6dd212cfdc33b423d23ec4b02fb24ac426f779ce"
+          "sha": "b68b6b5e68401ebc4c7d5b6a061a548a4f34d0ed"
         },
         {
           "path": "templates/flaky-ledger.md",
@@ -37175,11 +37175,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "683effdb",
+      "contentHash": "6b1c0570",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a96d43bc299f7332bad611dec92589ea7c9709a2"
+          "sha": "7dabc7458bd8a274cef55a4875b95278736d0bef"
         },
         {
           "path": "captain.md",
@@ -39214,6 +39214,61 @@
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qa"
     },
     {
+      "id": "garrytan/gstack@gstack-investigate",
+      "trust": "trusted",
+      "name": "gstack-investigate",
+      "description": "Use when a test fails, code errors or output is wrong: find and prove the root cause before any fix, then fix it with a regression test. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "qm/sandbox/skills/gstack-investigate",
+      "contentHash": "c8700882",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "a83316f7ba502e52fdec975a6142289b1fc2e3c3"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qm/sandbox/skills/gstack-investigate"
+    },
+    {
+      "id": "garrytan/gstack@gstack-plan",
+      "trust": "trusted",
+      "name": "gstack-plan",
+      "description": "Use before building a feature: challenge the scope, then review architecture, code quality, tests and performance, and end with a plan to build. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "qm/sandbox/skills/gstack-plan",
+      "contentHash": "a7f2b462",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "b1b80dbeea586bf80dfdb4ee026299e3e91f774c"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qm/sandbox/skills/gstack-plan"
+    },
+    {
+      "id": "garrytan/gstack@gstack-review",
+      "trust": "trusted",
+      "name": "gstack-review",
+      "description": "Use before merging a branch or PR: review the diff for bugs that pass CI but break production, fix the obvious ones and ask about the rest. (gstack)",
+      "repo": "garrytan/gstack",
+      "ref": "HEAD",
+      "path": "qm/sandbox/skills/gstack-review",
+      "contentHash": "30dc6d8c",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "d677617443ab4ab93da99e416995948e50a57749"
+        },
+        {
+          "path": "scripts/diff-base.sh",
+          "sha": "3972c62aae010491edc36d1754e04ac40bdffb04"
+        }
+      ],
+      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qm/sandbox/skills/gstack-review"
+    },
+    {
       "id": "garrytan/gstack@retro",
       "trust": "trusted",
       "name": "retro",
@@ -39540,7 +39595,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "529535b9",
+      "contentHash": "19c69ab9",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39552,11 +39607,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "769833bd7e0248c84eeebd1172e9c83ec2b5b78f"
+          "sha": "847810c4e96a36f316aa1e07dc6d13bf26fa2136"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "10f2071fea3598b3338c7773a483f660706744c5"
+          "sha": "a18af476857b6cdf7de7afbceb7c2d3d56f4367b"
         },
         {
           "path": "sections/adversarial.md",
@@ -39652,11 +39707,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "cf0ac1330dc670c4bf913ab0c780752609d1ec8d"
+          "sha": "45011a42673e1f91118c283b6d61617e4f2d945f"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "c5d88ca1f7d49f151c150ad2d72da82d726b5bef"
+          "sha": "097923aaa12ae03eea3422a900d29034bd5c7ca2"
         },
         {
           "path": "sections/preamble.md",
