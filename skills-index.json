@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793948009928,
+  "generatedAt": 1793993319290,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35691,7 +35691,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "86a2b304",
+      "contentHash": "be78a3ef",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -35739,7 +35739,7 @@
         },
         {
           "path": "src/audit.ts",
-          "sha": "f93b47fb090c99c95dd3c83091a0b097330130df"
+          "sha": "44a9287ec76d5824966690c223b215c4bb71c7e6"
         },
         {
           "path": "src/browse-client.ts",
@@ -35763,7 +35763,7 @@
         },
         {
           "path": "src/buffers.ts",
-          "sha": "27d3796946ef92a32f9d2a188c1653a5f4891648"
+          "sha": "5fcfb92a755a53a51c95e76b3c2446a76af5b48d"
         },
         {
           "path": "src/bun-child-config.ts",
@@ -36015,7 +36015,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "96e02ae09f3efb766564d9706e0591cedef7c3f6"
+          "sha": "db4348312dee829b4dc47714e3fcdb7ee17426dc"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -36122,6 +36122,10 @@
           "sha": "46b52a26f5c08b076388e98fd0185c764e07f2e9"
         },
         {
+          "path": "test/audit-redaction.test.ts",
+          "sha": "b987cdd113520cddfbee70a29a0c6f8a516ef41e"
+        },
+        {
           "path": "test/batch.test.ts",
           "sha": "f8d924f5ba82e8dfdcebd054f3a43b4923ccede7"
         },
@@ -36176,6 +36180,10 @@
         {
           "path": "test/bun-polyfill.test.ts",
           "sha": "86e3c8e6619e4c08d87e2f589f65b88aabe476be"
+        },
+        {
+          "path": "test/bundled-chromium-root-store.test.ts",
+          "sha": "b51f6f6e70d9ff74c86c26721b6aaa08464d758d"
         },
         {
           "path": "test/busy-active-tab.test.ts",
@@ -36291,11 +36299,11 @@
         },
         {
           "path": "test/cookie-import-native-qualification.ts",
-          "sha": "5ba173c60538da649918c8f5ba28f469598eb349"
+          "sha": "ac776c8cdecaa70e2c2f3b4649f0d6624a55582f"
         },
         {
           "path": "test/cookie-import-native.test.ts",
-          "sha": "013d00da12f820ed47a93312a67a6995e3af94ed"
+          "sha": "892b412707eb569aa1b257c47445e98e32363a24"
         },
         {
           "path": "test/cookie-import-node.test.ts",
@@ -36619,7 +36627,7 @@
         },
         {
           "path": "test/playwright-core-patch.test.ts",
-          "sha": "eb34ed1d231a7cad51e7eb45384e70699545fbf2"
+          "sha": "81746a2f381474bedac8a5dec04abd6bf2f6818f"
         },
         {
           "path": "test/poisoned-bundle-probe.test.ts",
@@ -37023,7 +37031,7 @@
         },
         {
           "path": "test/xvfb.test.ts",
-          "sha": "67f305a6689f4aa139e6e0e4905227937b2bd016"
+          "sha": "595bfa9edbd8c7ecd85608d51fc30c8d8a6af225"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/browse"
@@ -37094,7 +37102,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "939018bd",
+      "contentHash": "e0761c77",
       "files": [
         {
           "path": "SKILL.md",
@@ -37134,7 +37142,7 @@
         },
         {
           "path": "templates/brief.md",
-          "sha": "b68b6b5e68401ebc4c7d5b6a061a548a4f34d0ed"
+          "sha": "02e008d81eed61e96deacd893dce458f141f242d"
         },
         {
           "path": "templates/flaky-ledger.md",
@@ -37175,11 +37183,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "6b1c0570",
+      "contentHash": "f9749313",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7dabc7458bd8a274cef55a4875b95278736d0bef"
+          "sha": "03e7fae1ebda237f1d5f99d3c68999564137e543"
         },
         {
           "path": "captain.md",
@@ -37190,8 +37198,12 @@
           "sha": "e7db9c720f4fbc358729126de685cf469a3c0a91"
         },
         {
+          "path": "lane-card.md",
+          "sha": "d04632ea8fe55f17a175da6786b9d9003e7041c4"
+        },
+        {
           "path": "scripts/install.sh",
-          "sha": "f7f2eaa1bd4a971f76be5d1f5f523a9efb67e8bd"
+          "sha": "2d951bdb031df0dded46cf3e583a0bfecc3c83fa"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/capy/skill/gstack"
@@ -39434,15 +39446,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "57a2b224",
+      "contentHash": "ad9ddcdf",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "fe137aedde6ba5b0013c4af4cc942d361873e2f0"
+          "sha": "3ce6adbce77a31e086f5ed1d2c90d8687a11be6e"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "64ade4525104b3aa7fcd27b66408d7dc3dafd88d"
+          "sha": "40f40d7b7cbf8a8bf5470d0201e3b282efe919a5"
         },
         {
           "path": "templates/rotation-handoff.md",
@@ -39484,15 +39496,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-browser-cookies",
-      "contentHash": "342c566d",
+      "contentHash": "ac42e4fc",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "003faa78f2b3f4573241fa7b0d657a8d0046ea2a"
+          "sha": "c193d6c3fc7affaaaad1427f4c09edbbc672ce14"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "eddad8ae455300be3728af10b938d7c62c920a3b"
+          "sha": "b8c81bfa105d55730ee301f88a97ae0e7bc4fcb1"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/setup-browser-cookies"
@@ -39595,7 +39607,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "19c69ab9",
+      "contentHash": "67b147a6",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39655,11 +39667,11 @@
         },
         {
           "path": "sections/documentation.md",
-          "sha": "70dea163c4243be5aca15dd49dfa701b47aca8cc"
+          "sha": "5688b719ff519f8f70627997a80dbab7653c044e"
         },
         {
           "path": "sections/documentation.md.tmpl",
-          "sha": "eb77f9f037018f49bb88b6a7c7b0a655909249c7"
+          "sha": "cf7baabbb0e372b41f2b785b8759bda016e0b0be"
         },
         {
           "path": "sections/greptile-early.md",
@@ -39707,11 +39719,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "45011a42673e1f91118c283b6d61617e4f2d945f"
+          "sha": "fcb16d98be734c212891a8030b2d44ed6c1b62bb"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "097923aaa12ae03eea3422a900d29034bd5c7ca2"
+          "sha": "f6853c840205b4c98e95dead9a7147953d6dcfd4"
         },
         {
           "path": "sections/preamble.md",
