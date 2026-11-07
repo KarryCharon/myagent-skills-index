@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1793993319290,
+  "generatedAt": 1794031442447,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -464,15 +464,15 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/docx",
-      "contentHash": "cee3f717",
+      "contentHash": "ad225115",
       "files": [
         {
           "path": "LICENSE.txt",
-          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+          "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
         },
         {
           "path": "SKILL.md",
-          "sha": "fb954a460a1ea2294e9595e87fecce8df043eeba"
+          "sha": "acc50ea0729fc4b22319b25f1277d0db6f3b429a"
         },
         {
           "path": "scripts/__init__.py",
@@ -836,15 +836,15 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/pdf",
-      "contentHash": "83f91e7f",
+      "contentHash": "a665c65a",
       "files": [
         {
           "path": "LICENSE.txt",
-          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+          "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
         },
         {
           "path": "SKILL.md",
-          "sha": "d3e046a5ae107a6cb23cfb16c219837094ab35d3"
+          "sha": "9f606f1cd68dcab9dabb75b548e90c1de028b8a2"
         },
         {
           "path": "forms.md",
@@ -897,15 +897,15 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/pptx",
-      "contentHash": "7f69526d",
+      "contentHash": "be3c52a1",
       "files": [
         {
           "path": "LICENSE.txt",
-          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+          "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
         },
         {
           "path": "SKILL.md",
-          "sha": "41cd2306977f269bb1d8169a9643b35053aa66bd"
+          "sha": "a90df9c7e8f47c474c58f367faba57b66ff14cbb"
         },
         {
           "path": "scripts/__init__.py",
@@ -1395,15 +1395,15 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/xlsx",
-      "contentHash": "2129552d",
+      "contentHash": "279cf6e5",
       "files": [
         {
           "path": "LICENSE.txt",
-          "sha": "c55ab42224874608473643de0a85736b7fec0730"
+          "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
         },
         {
           "path": "SKILL.md",
-          "sha": "9da54804cc8c938586f89363c8da3b3a6e2a563d"
+          "sha": "cc347203f2247b009b8ea34574bccfa62fce3669"
         },
         {
           "path": "scripts/office/helpers/__init__.py",
@@ -15574,15 +15574,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/isaac-humanoid-cloud-control",
-      "contentHash": "4b169cd2",
+      "contentHash": "dc589bda",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "43cb7e7323a39f6223827ce537e82671abc72ba5"
+          "sha": "6c1f8333c4a27820dda0cfdf5aa7aa1d9d6f7a05"
         },
         {
           "path": "SKILL.md",
-          "sha": "f91a60118a60c98f03a5b7f070c7f63c418b34a1"
+          "sha": "f5ddaa9228f96bc2fd0c6fe684956ff6163ecf6e"
         },
         {
           "path": "assets/browser-viewer.compose.yaml",
@@ -15602,7 +15602,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "1f670415d198fad644c61dca0c1ede18db0084bf"
+          "sha": "0a3287d0d49ccd1d0553e79c4c476193eb724ba6"
         },
         {
           "path": "evals/evals.json.license",
@@ -15610,7 +15610,7 @@
         },
         {
           "path": "extensions/humanoid_cloud_control.autoplay/config/extension.toml",
-          "sha": "e531eb27d5cefc02dc9832c67242cbb6b49e9684"
+          "sha": "b23c857007d86b3b6f5f76f596919d66a7c44968"
         },
         {
           "path": "extensions/humanoid_cloud_control.autoplay/humanoid_cloud_control/autoplay/__init__.py",
@@ -15618,11 +15618,11 @@
         },
         {
           "path": "extensions/humanoid_cloud_control.autoplay/humanoid_cloud_control/autoplay/extension.py",
-          "sha": "b4e68334a7086855f5bc27135b113eec54450140"
+          "sha": "6f82f9a8849f394639ee7c01ee573233db68c749"
         },
         {
           "path": "references/bootstrap.md",
-          "sha": "0f4fc143ad7a9314ddc0d35a4476b651cf9a7373"
+          "sha": "f6d85bf7cb928d1e6efc5e4d27bb9d81aa06567e"
         },
         {
           "path": "references/bring-up-cloud-stack/README.md",
@@ -15666,7 +15666,7 @@
         },
         {
           "path": "references/isaac-ros-setup.md",
-          "sha": "63b917da7f82bb811eccf1990e481ee594023e66"
+          "sha": "d84b637b56d7944a6769df897891909b68474b61"
         },
         {
           "path": "references/isaac-sim-installation/README.md",
@@ -15682,11 +15682,15 @@
         },
         {
           "path": "references/ordered-startup.md",
-          "sha": "f857326c1fadcbcdb1cdaf6f92ca2e595cd70321"
+          "sha": "c9490c09900d7fc9bfac4196b231bde5be899fc3"
+        },
+        {
+          "path": "references/pinocchio-runtime.md",
+          "sha": "b2cb9dba0aa2680a7ea61fb1e6e142491df2ddd6"
         },
         {
           "path": "references/release-4.6.md",
-          "sha": "d6e0b3d6a1fa4bb59c02ec60ac66354720ab004a"
+          "sha": "72638e43b6dde2d32cd816d501ef0d99b2d2adb1"
         },
         {
           "path": "references/submit-and-monitor-mission/README.md",
@@ -15702,7 +15706,7 @@
         },
         {
           "path": "scripts/check_runtime.py",
-          "sha": "a1c500a7f1acf6aca7e8eec71328bd352dbce5c5"
+          "sha": "7db3d876bc123644e19fcface7c3a2e05f115bff"
         },
         {
           "path": "scripts/doctor.py",
@@ -15722,11 +15726,15 @@
         },
         {
           "path": "scripts/preflight.py",
-          "sha": "5b501b520074dfe6539fc26c111f020605639482"
+          "sha": "7d09220aa1d8112e6aefac952367c54b527d8493"
         },
         {
           "path": "scripts/prepare_cli_repository.py",
           "sha": "89e4bfb00bb6b67430d0c7f4eae9fccc91c6cc79"
+        },
+        {
+          "path": "scripts/prepare_simulation.py",
+          "sha": "c59b22acc215fcfe8ff46c5c4f62ddfe5517c995"
         },
         {
           "path": "scripts/scene_inventory.py",
@@ -15754,11 +15762,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "c58867847e0bf55ace86578d8cc9c75ce5a2748d"
+          "sha": "11fb23605c888030f7620bfbaade170c6af43846"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d373716466255afa6657338e5c8fa3ec81f33fe3"
+          "sha": "3868ed3468f9a2f9492d0de108dbdc0c4e6ec679"
         },
         {
           "path": "tests/test_dependencies.py",
@@ -15771,6 +15779,10 @@
         {
           "path": "tests/test_security_gates.py",
           "sha": "ead09ef2bf662807b840aa7bdb7f78f0dcc7048f"
+        },
+        {
+          "path": "tests/test_startup_readiness.py",
+          "sha": "0eb4aab02dcd62073746029503705ae93d513353"
         },
         {
           "path": "upstream-versions.lock.json",
@@ -22823,43 +22835,39 @@
       "id": "NVIDIA/skills@omniverse-realtime-viewer",
       "trust": "trusted",
       "name": "omniverse-realtime-viewer",
-      "description": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
+      "description": "Use as the top-level router for Omniverse Realtime Viewer USD apps, XR delivery, SPG GPU processing, stylized rendering, and focused viewer reference documents.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/omniverse-realtime-viewer",
-      "contentHash": "79ca9f80",
+      "contentHash": "7bd707a4",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a155dae59b5b5a0b49defe441833b3ccb0b71e06"
+          "sha": "0e75d7de287652dd46bedd55ce19080b3e601ea3"
         },
         {
           "path": "SKILL.md",
-          "sha": "da49f034877c07dab76e22fa87fa6b8fffab2d39"
-        },
-        {
-          "path": "agents/openai.yaml",
-          "sha": "44b7d0c53b0f8323df26488d09b62dba9bcce41d"
+          "sha": "5a7c052ef6c1b8e7ad1d4ba510391be694e477a7"
         },
         {
           "path": "evals/evals.json",
-          "sha": "60427180a8ef0cc1f809f29ca5e36b69d07c29b5"
+          "sha": "5e570b689863d267e68383d288a07902b66ea082"
         },
         {
           "path": "references/a2ui-scene-copilot/README.md",
-          "sha": "242609915a321681f6788f8eaaa1cadf4e2770d9"
+          "sha": "82e6ff47d0575e4a7cc3f48f2f8e12fb784212c1"
         },
         {
           "path": "references/aov-switching/README.md",
-          "sha": "1b25fe5e424b091b19fe2bbf39adf938daf7e491"
+          "sha": "47f4702bc2fa0cc2a02a3b4a64b5c55269a1bdd2"
         },
         {
           "path": "references/cae-cfd-visualization/README.md",
-          "sha": "2fe4dba85c68df7b6b22604debc46aeb7c4a11fa"
+          "sha": "932bf180eb545d92454cebe916a2440e46cffb57"
         },
         {
           "path": "references/cae-cfd-visualization/cae-data-ingestion.md",
-          "sha": "6e99e29fc4c421af0ac72ed19bd38099761a526d"
+          "sha": "cfccff0e37f2c46ea72b1e8b3ebface4be8cf6e2"
         },
         {
           "path": "references/cae-cfd-visualization/coordinate-systems-and-up-axis.md",
@@ -22867,11 +22875,11 @@
         },
         {
           "path": "references/cae-cfd-visualization/data-and-operators.md",
-          "sha": "b14dddebe0f12b9f55416369626931d3183c9bfb"
+          "sha": "23c5e1e34d5ae756743a221d2eaed2cbed5ffa1b"
         },
         {
           "path": "references/cae-cfd-visualization/driving-cae-viz-via-ovstage.md",
-          "sha": "1e46248c01faeb3313caef32f8572fb5d303f891"
+          "sha": "37ca9838f08877f4eef57bb5e0a7ecece8aecb4a"
         },
         {
           "path": "references/cae-cfd-visualization/emitter-and-seed-sources.md",
@@ -22883,11 +22891,11 @@
         },
         {
           "path": "references/cae-cfd-visualization/ovstage-render-and-camera.md",
-          "sha": "ca5cf866eaa970308dafcba924ac43dd80e094f3"
+          "sha": "2ddd386cf5f702590f7ded927cf50a40682fd1b4"
         },
         {
           "path": "references/cae-cfd-visualization/ovui-controls.md",
-          "sha": "c75a039f93b65c6bc3398327e9ef4758f721525a"
+          "sha": "6e49bc647df24a1f73e2b0ebdfdba8db42492855"
         },
         {
           "path": "references/cae-cfd-visualization/rtwt-blueprint-recreation.md",
@@ -22895,15 +22903,15 @@
         },
         {
           "path": "references/cae-cfd-visualization/streaming-cae-viewer.md",
-          "sha": "59451170608967964b53da46f5d6fd07ed955df0"
+          "sha": "4cf68552d4a1022a146dc82eccf791e60afb605e"
         },
         {
           "path": "references/cae-cfd-visualization/temporal-playback.md",
-          "sha": "84c5efb25103e81a447275a103ebf3319314d733"
+          "sha": "18fac63cc5076820c10750a0d9f2938571da4ee9"
         },
         {
           "path": "references/cae-cfd-visualization/usd-authoring-and-materials.md",
-          "sha": "de8deb4612edbacf5560d85b8e120c37f12e1891"
+          "sha": "02696222354fbc6d21bf98cfe94763de53f9fdfe"
         },
         {
           "path": "references/cae-cfd-visualization/volume-rendering.md",
@@ -22911,11 +22919,11 @@
         },
         {
           "path": "references/camera-auto-select/README.md",
-          "sha": "edcaa195b405ebb0b17521f7f7f89d48b61f8274"
+          "sha": "5e78afe2a1bc939e9239c3f52e1e6e6cc44b0806"
         },
         {
           "path": "references/camera-controls/README.md",
-          "sha": "f1a86b2929e603f7fa42c8a0c90f1868497118e4"
+          "sha": "231829da2bb590ced79318ca656c27e397972df4"
         },
         {
           "path": "references/camera-picker/README.md",
@@ -22923,11 +22931,11 @@
         },
         {
           "path": "references/cloud-assets/README.md",
-          "sha": "6a8941c8763219622d0e81a164ced1c2c054b585"
+          "sha": "1a85bae84b3c02902a025e29c7753a96c8e8299a"
         },
         {
           "path": "references/cloud-deployment/README.md",
-          "sha": "287643f4b71e72eff2d1f8bdc91426e8b60f7ecc"
+          "sha": "50e3bfc57735347fe5e81c3122e83f808bf32723"
         },
         {
           "path": "references/cloud-deployment/container-image-build.md",
@@ -22939,47 +22947,55 @@
         },
         {
           "path": "references/cloud-deployment/nvcf-self-hosted.md",
-          "sha": "ee783f9ab790e3e00de9707ee792ae91be2ded63"
+          "sha": "0492d7e9f07834396c5fcf6d0c6ec76abab0ef73"
         },
         {
           "path": "references/cloud-deployment/nvcf-viewer-container-contract.md",
-          "sha": "87b6b85b3ee669d41fb61f38f21f61925a53d088"
+          "sha": "fec4c2bad34ca6ffef4a468ff37c2bba7243dab9"
         },
         {
           "path": "references/cloud-deployment/webrtc-network-diagnostics.md",
-          "sha": "28597c24ab3ffdabb70853a3f44cdf761aa139a8"
+          "sha": "48842b16b1706e2bb22ca36e49e61c47be5c4054"
+        },
+        {
+          "path": "references/cloudxr-opaque-data-channel/README.md",
+          "sha": "f4732cd98b3ac911ad5fb0d1beecb6a0a8864727"
         },
         {
           "path": "references/conventions.md",
-          "sha": "fa38662570a0c83a86966516b27e1dd5dbbb74ca"
+          "sha": "3b8d52c2e88eb97f44bb75d91f574a125f69cb83"
         },
         {
           "path": "references/cpp-native-viewer/README.md",
-          "sha": "68958bdbeadafc912bdd111239b1be16374ee8d9"
+          "sha": "fed290eda0e624c48e3d52e92599155751db383a"
+        },
+        {
+          "path": "references/cpp-native-viewer/build-details.md",
+          "sha": "5c8efa941e2ffdc62b561c81c598a5996423bfb0"
         },
         {
           "path": "references/cpp-native-viewer/interaction-features.md",
-          "sha": "f7257cef2666ba8078a55205aa3fefdc07831b8e"
+          "sha": "7affba566f24b07201f1394ca0fe3219f0fe45a3"
         },
         {
           "path": "references/cpp-native-viewer/presentation-loop.md",
-          "sha": "c92e5220f83f312e2a444d118390016726574f37"
+          "sha": "67ac3b077b3a81aea7d7a92f714ce6622db8779e"
         },
         {
           "path": "references/cpp-native-viewer/project-build.md",
-          "sha": "9d0a3d9288bd6ac1d6e469082ea6972c18cec597"
+          "sha": "6eee3d8114a91aaa63b03737827c0c0267eed3fc"
         },
         {
           "path": "references/cpp-native-viewer/renderer-session.md",
-          "sha": "3edf9192e1293ff4176fe6d2d2a6c4e82b83b75a"
+          "sha": "dabeeb3b15811324104e19199b2a0c9ccd7bdc78"
         },
         {
           "path": "references/cpp-native-viewer/validation.md",
-          "sha": "6315d64e21a1b0ce27ff0cb873a4dc5372d4d7b6"
+          "sha": "b884740f2d83641bbec3f454a56d2cc483fa5cad"
         },
         {
           "path": "references/dependencies/README.md",
-          "sha": "a6bdcc87c2abd7454b5fcb2e6994891066b6950c"
+          "sha": "41316e8239c9902879f6ca8377ebf35e6f4dc8c1"
         },
         {
           "path": "references/dependencies/electron-shm.md",
@@ -22987,7 +23003,7 @@
         },
         {
           "path": "references/dependencies/environment-validation.md",
-          "sha": "bf152d96d9d8830ca537f49c57ff0276b9fa5626"
+          "sha": "5fb0a48dd397fd295f4b5759de552d8b2c827d51"
         },
         {
           "path": "references/dependencies/frontend.md",
@@ -22995,23 +23011,31 @@
         },
         {
           "path": "references/dependencies/local-openusd-gpu.md",
-          "sha": "26cf39892652b90f17f95b006df6a2134177f7b6"
+          "sha": "e1a419e16af75cdbf0d1dd1857bd678d9c971fc3"
         },
         {
           "path": "references/dependencies/nvidia-runtime.md",
-          "sha": "ccb262209b378296d4f9209d021084fec4af983d"
+          "sha": "aec8d67c0bdef4469655b6ecb322182304079a15"
         },
         {
           "path": "references/dependencies/ovrtx.md",
-          "sha": "868d79cbc130b24ae9bb87dda8bd76535256e088"
+          "sha": "c405b68e80e6aa7f196e9ffe10d939de0c465141"
         },
         {
           "path": "references/dependencies/ovstream.md",
-          "sha": "e0273b61e0f5e923cbfc7ac7172adfcb9158ebe6"
+          "sha": "f6d0ecfb8aeabba56206f77a11462e3631e4dfc8"
+        },
+        {
+          "path": "references/dependencies/ovxr.md",
+          "sha": "217db7d3892a912e5e05703f7fb47c204acff8e7"
         },
         {
           "path": "references/dependencies/quick-setup.md",
-          "sha": "9027b3948250032abf970fc1ad3dd0f26386797d"
+          "sha": "e24c8b97906ca7177c82eabfed10344b25ce687b"
+        },
+        {
+          "path": "references/dependencies/skia-yoga.md",
+          "sha": "f6f5c9cc242feae13345aa37342a2152e349ad17"
         },
         {
           "path": "references/electron-shm-viewer/README.md",
@@ -23023,7 +23047,7 @@
         },
         {
           "path": "references/electron-shm-viewer/electron-client.md",
-          "sha": "9f7445532236e2fa11f49a26526b0cd2b0f889c0"
+          "sha": "c25951afd0a4003dac329ac638c9278b0fd3a86b"
         },
         {
           "path": "references/electron-shm-viewer/protocol-interaction-lifecycle.md",
@@ -23031,15 +23055,19 @@
         },
         {
           "path": "references/electron-shm-viewer/python-shm-server.md",
-          "sha": "1424a2729db8cbb61ad3367c6ab45d517f5c5037"
+          "sha": "25bce777eb031e33965f0ce3b5a5728fc5970c8b"
         },
         {
           "path": "references/electron-shm-viewer/validation.md",
           "sha": "567a9940802cef6422b130dbfdfbc63956d09640"
         },
         {
+          "path": "references/exact-brep-in-usd/README.md",
+          "sha": "4f00604a45faead557d67497de2ec866ae707719"
+        },
+        {
           "path": "references/gl-viewport-overlay/README.md",
-          "sha": "3d7b79de2e474ef59e84f98f045db799a0c41f81"
+          "sha": "77b4913a73b22ad3c2013c5e39ba4391732dbe45"
         },
         {
           "path": "references/gl-viewport-overlay/architecture.md",
@@ -23059,43 +23087,63 @@
         },
         {
           "path": "references/headless-shm-cli/README.md",
-          "sha": "e2fe4b5927cf5819bdf8809d06ecb21b8acc34dc"
+          "sha": "b89263808ba05e5f1fc1a05f65a4cdf8f09b0e7a"
         },
         {
           "path": "references/huggingface-usd/README.md",
           "sha": "ef462601a140a0a327543a29f29ddffc1199a178"
         },
         {
+          "path": "references/interaction-round-trip/README.md",
+          "sha": "62dc74baea30dadf67619ef96f6fca62a80e570e"
+        },
+        {
           "path": "references/local-viewer/README.md",
-          "sha": "05ff1340eb7d1b88f45e0943c64a3a1e9f3eb719"
+          "sha": "28b3c4c5b404059c6fc180b91871054e8f8374b5"
         },
         {
           "path": "references/native-picking-selection/README.md",
-          "sha": "59724e79b1a8d2bc7c84c6403ea2f35aa1cced4a"
+          "sha": "6668f6378a5bf5556848c18de2c4fc2fb6796761"
+        },
+        {
+          "path": "references/navigation-presets/README.md",
+          "sha": "d8d0ad55292c30e7fdecb6526685a05e1f8497fb"
+        },
+        {
+          "path": "references/navigation-presets/preset-camera-ops.md",
+          "sha": "2c03ed11c44232f3c407e08c87e3768e1789c1f2"
+        },
+        {
+          "path": "references/newton-physics/README.md",
+          "sha": "ca190971fdebc0245a8a2dcf046208cd816f11d8"
         },
         {
           "path": "references/object-selection/README.md",
-          "sha": "834e589c6d2cb4b7e8abea9f5c5396062c0c3282"
+          "sha": "2b5dbe41a353dd160fb08f191c381cdcde632c79"
         },
         {
           "path": "references/ovrtx-rendering/README.md",
-          "sha": "f4b94d14679f6de98ea45071670197609b3b0613"
+          "sha": "734fbece72287e34a4979e90459021c234783997"
         },
         {
           "path": "references/ovstage-data-plane/README.md",
-          "sha": "75dd6f70016d356b6e618560d23fba96f12cfee0"
+          "sha": "5b0bb9f460b6517936cd3c2a0e5f4a8893c86955"
+        },
+        {
+          "path": "references/ovstage-live-geometry/README.md",
+          "sha": "f19afce0f27b7975f310c63d5110cd2b7ebc28b6"
         },
         {
           "path": "references/ovstage-ovrtx-integration/README.md",
-          "sha": "8c25b530c8a239ba99eeb9a8417ee6f913e65463"
+          "sha": "2a50d6f9bee1ae3e601b40ea75ad33f83c82dbce"
         },
         {
           "path": "references/ovstage-population/README.md",
-          "sha": "a17bccfec6f6174aefaedc9cb2ffb06af0e89fab"
+          "sha": "4234a16101ed261bcb3935532a06123841124b15"
         },
         {
           "path": "references/ovstage-runtime/README.md",
-          "sha": "85f1ecebda40bbb76cb3320f591cdd99e558599b"
+          "sha": "d872c96515ac6db68ef83a7eff5c517dade8ab3f"
         },
         {
           "path": "references/ovui-library/README.md",
@@ -23115,7 +23163,7 @@
         },
         {
           "path": "references/ovui-local-viewer-recipe/interaction-features.md",
-          "sha": "0ab2a457d34257c7e8874543e23d6c1a5f2ca11a"
+          "sha": "3ea2744a387a31bfd48f07c8a729fa81f51d998f"
         },
         {
           "path": "references/ovui-local-viewer-recipe/project-structure.md",
@@ -23123,39 +23171,207 @@
         },
         {
           "path": "references/ovui-local-viewer-recipe/setup-shell-renderer.md",
-          "sha": "0da46d5170c157890aab88fca6a1e3db193a0a9e"
+          "sha": "2dca41ffc738f827592e9f697f0a751c91d1a3a5"
         },
         {
           "path": "references/ovui-local-viewer-recipe/validation-build-order.md",
-          "sha": "d914b68a4f799f3e9e7a47d0a27c912778d163b5"
+          "sha": "cd76a6fd784f216edb5db909684be97720ced501"
         },
         {
           "path": "references/ovwidgets-editor-shell/README.md",
-          "sha": "1fee5d8b683ad914b9d55b1309fb4614ab511783"
+          "sha": "2e36b2a7b3594a4c1b4728c1d9f2e9ca1f248f4b"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/README.md",
+          "sha": "ad76d72ce2307a859d2dcd09ee5a9aacc34a5619"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/evidence-gates.md",
+          "sha": "120081a06389a184746e408a1138139c32b3d43f"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/frustum-placement.md",
+          "sha": "8676bc0de9343cff6438a3303aa0f02eb7cc7f78"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/library-only-validation.md",
+          "sha": "dd472984458963fea176f8a522284358f1dfa724"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/owned-orchestration.md",
+          "sha": "708d7d13a63d486232845c13751ce3d754ef6ba4"
+        },
+        {
+          "path": "references/ovxr-composition-ui-validation/viewer-evidence.md",
+          "sha": "51780f2c304f8192ab5c8a1ff2daca1b71dfb0bc"
+        },
+        {
+          "path": "references/ovxr-composition-ui/README.md",
+          "sha": "ca449dc6a0aec92a3d9bbf0cac6ec777cc4a175d"
+        },
+        {
+          "path": "references/ovxr-composition-ui/async-raster-pipeline.md",
+          "sha": "fb0219f980af752c029bcb236ccabc5e1ad34349"
+        },
+        {
+          "path": "references/ovxr-composition-ui/compositor-passes-and-sync.md",
+          "sha": "463ae2e420b4d1f6206da92701d3d90d79a3a390"
+        },
+        {
+          "path": "references/ovxr-composition-ui/depth-tools.md",
+          "sha": "814cd4b87505b513ceee4ceddf142271fae1fcc0"
+        },
+        {
+          "path": "references/ovxr-composition-ui/editor-document-model.md",
+          "sha": "c1821014cc2f226dd8ce788b010d589cc9b997d4"
+        },
+        {
+          "path": "references/ovxr-composition-ui/experience-quality.md",
+          "sha": "7eb0f2633b3fffad13eb14b47d342d1da37639df"
+        },
+        {
+          "path": "references/ovxr-composition-ui/foveation-and-edge-math.md",
+          "sha": "74ac8a80b84083728752795cf1314f8121503806"
+        },
+        {
+          "path": "references/ovxr-composition-ui/library-only-compositor.md",
+          "sha": "efef9387a4e4a5def8d0d0bfcce15b90e5ab37c5"
+        },
+        {
+          "path": "references/ovxr-composition-ui/native-build-and-discovery.md",
+          "sha": "a333dc3b24c98c534a382e8396e011688aae2487"
+        },
+        {
+          "path": "references/ovxr-composition-ui/performance-and-telemetry.md",
+          "sha": "2216fdc50134e5aceda579e1958010257d7c063b"
+        },
+        {
+          "path": "references/ovxr-composition-ui/primary-projection-compositor.md",
+          "sha": "ec4f2208719ee871d51006073d8c26eea8ca4dcf"
+        },
+        {
+          "path": "references/ovxr-composition-ui/primary-projection.md",
+          "sha": "1dad004c5a78c3ee8c5aa45f674544dbcd8a25ee"
+        },
+        {
+          "path": "references/ovxr-composition-ui/projection-and-depth.md",
+          "sha": "d67477e368a260c5faedbbd5f0cad8c044610946"
+        },
+        {
+          "path": "references/ovxr-composition-ui/raster-abi.md",
+          "sha": "6e8a8fd324ae9ea8c5fb323e2f6b8219d8e054cb"
+        },
+        {
+          "path": "references/ovxr-composition-ui/sdk-frame-backend.md",
+          "sha": "df233b0abbadc24af2cd8e0184180ecad6acd278"
+        },
+        {
+          "path": "references/ovxr-composition-ui/skia-yoga.md",
+          "sha": "3c617061bcd1e5f3ecf6a95b5937eb804634e672"
+        },
+        {
+          "path": "references/ovxr-composition-ui/spatial-interaction.md",
+          "sha": "36a9d8ede1570e28978424e3e31db5c9baf7613c"
+        },
+        {
+          "path": "references/ovxr-composition-ui/spatial-surfaces-and-interaction.md",
+          "sha": "39e2758351b4e2fdcc2a6cb59da9abef66bdad52"
+        },
+        {
+          "path": "references/ovxr-composition-ui/telemetry-contract.md",
+          "sha": "1cbbfd1748ea59cdebed1e375bf3bd71c420542f"
+        },
+        {
+          "path": "references/ovxr-composition-ui/validation-and-live-gates.md",
+          "sha": "1e08a734678463e6f9d8b795ae5735eecfd79aee"
+        },
+        {
+          "path": "references/ovxr-foveation-and-display/README.md",
+          "sha": "9b2a159758d8dcbf9880f3d4454be48fa8989839"
+        },
+        {
+          "path": "references/ovxr-frame-loop-and-readback/README.md",
+          "sha": "0f00c7d32788320efca9196337989add28e2ff3d"
+        },
+        {
+          "path": "references/ovxr-library-runtime/README.md",
+          "sha": "5818a0a265635a41595fec7231aa7118f4805f50"
+        },
+        {
+          "path": "references/ovxr-library-runtime/ar-compositing.md",
+          "sha": "afeae457b19315b8177dfc21551381573f90148e"
+        },
+        {
+          "path": "references/ovxr-library-runtime/frame-input-order.md",
+          "sha": "9d726d568e3fc0a27cad2c3d5628c0c19e1c5610"
+        },
+        {
+          "path": "references/ovxr-library-runtime/library-only.md",
+          "sha": "99d4d3f6a7eba804cdf3cc6ff23f5929df738122"
+        },
+        {
+          "path": "references/ovxr-library-runtime/live-ar-controls.md",
+          "sha": "92360d1b9fe67d5f973f2c58617f78c9efeddddb"
+        },
+        {
+          "path": "references/ovxr-library-runtime/mirror-lifetime.md",
+          "sha": "5f0bfbad49c5f2cdc627f32436f0d9b6ca6c5cff"
+        },
+        {
+          "path": "references/ovxr-library-runtime/settings-and-lifetime.md",
+          "sha": "d8b2a9d7fd3a2b07af595c828bd92c73e4cf2c16"
+        },
+        {
+          "path": "references/ovxr-library-runtime/viewer-assembly.md",
+          "sha": "9a3f2a1a4dc013b27788e46e2d55aa7fb236beb4"
+        },
+        {
+          "path": "references/ovxr-openxr-runtime/README.md",
+          "sha": "10e58ae5438fae0685330395b2dcca0182e3a238"
+        },
+        {
+          "path": "references/ovxr-python-interactions/README.md",
+          "sha": "636d52fecd65153d0caf3ff8358ec7090b1c6539"
+        },
+        {
+          "path": "references/ovxr-python-interactions/architecture.md",
+          "sha": "c3b2807aa98c978671965caeb5414f2236eb3e37"
+        },
+        {
+          "path": "references/ovxr-python-interactions/feature-patterns.md",
+          "sha": "14f1a95fbf744dd86af3181977c68ace9d33863f"
         },
         {
           "path": "references/physics-simulation/README.md",
-          "sha": "70d56f9960a4a92ab408f6237098210f0d258028"
+          "sha": "ccce5d98b78bcdd8fb1a39c20baa43678751e97c"
         },
         {
           "path": "references/prim-info-display/README.md",
-          "sha": "d4fadb82fd25bf2d956bf8e8908fade132249295"
+          "sha": "2418ca0a255258ee32ad7fbd48a9ac31b0f57cd3"
         },
         {
           "path": "references/prim-pick-effects/README.md",
-          "sha": "4bc2e991f82bc54daf194d35f500c58546e2d1a8"
+          "sha": "30e9747422c48b9fdde79b88a297795de887fd21"
         },
         {
           "path": "references/prim-transform-safety/README.md",
-          "sha": "959640d83c656879099e8090dacf12a76ef31f09"
+          "sha": "5937019333cb016aab399c707e59d0a1b1e7a358"
+        },
+        {
+          "path": "references/realtime-sim-integration/README.md",
+          "sha": "14cb012eaff506118d04023a5237b30802179f50"
         },
         {
           "path": "references/render-settings/README.md",
-          "sha": "c51f12e780a4e5ed0c20b6777ce50250c7bded33"
+          "sha": "0379b5e923c656d5b53ddcbada27add9306a009e"
         },
         {
           "path": "references/routing.md",
-          "sha": "19b8b6ee08dd2aa80e3ced3b94173d6a32b1282b"
+          "sha": "451301b8a344ece73b09e3313644fd0a6e435ec2"
+        },
+        {
+          "path": "references/section-views/README.md",
+          "sha": "63034df9d2781415aafb5d35dad1678feef03f77"
         },
         {
           "path": "references/seg-outline-highlight/README.md",
@@ -23163,139 +23379,187 @@
         },
         {
           "path": "references/selection-animation/README.md",
-          "sha": "8f550631b656c7dcb87369722b99f5de12096b92"
+          "sha": "784e357d7b029709152424424753c8ed60ebb15d"
         },
         {
           "path": "references/selection-feedback/README.md",
-          "sha": "792fb1c21767b032c31d1d15fbfc829e17826395"
+          "sha": "c186bcbe28fd97c39a1ad4435510177790db096a"
+        },
+        {
+          "path": "references/smlib-brep-pitfalls/README.md",
+          "sha": "cb60e2e5c499da1612a165761c75d4d5c0c8fbf3"
+        },
+        {
+          "path": "references/spg-processing/README.md",
+          "sha": "b025f7a28e28040de2433005c672f132cadd50b2"
         },
         {
           "path": "references/stage-attribute-reads/README.md",
-          "sha": "3b693e4bbf033d2f6302d7645de60bc4c0406047"
+          "sha": "09b255a10a524f5b96a1c1d23c091199cb1807af"
         },
         {
           "path": "references/stage-hierarchy/README.md",
-          "sha": "91d16bb159262f93e09a83b83151a8c184c2a89c"
+          "sha": "8ecac6c58ea7607792515412b7269a2c4dba0a02"
         },
         {
           "path": "references/stage-hierarchy/fallback-worker-protocol.md",
-          "sha": "d78a9a8373ac069a3905ecdecb990e79654b5ff6"
+          "sha": "7db274ba700902af11c8bd1ee48aec8ce5aab0e9"
         },
         {
           "path": "references/stage-loading/README.md",
-          "sha": "6eec915b0436c4450726bdfc54b1fcfbbd33c8f7"
+          "sha": "deb257db930b2c721156ddc3ae6af901febeea8c"
         },
         {
           "path": "references/stage-management/README.md",
-          "sha": "e18861e352839932e8d8d973c0ccac6bac0c99f6"
+          "sha": "0dc54d72ba07bfdc2f0dc25f451b342ad7e3899a"
         },
         {
           "path": "references/stage-queries/README.md",
-          "sha": "09bdda1981d7025a4deb78039bf67badfda7db02"
+          "sha": "543301a948dca68a3b69b82e40b2d0bc020d33e9"
         },
         {
           "path": "references/streaming-client/README.md",
-          "sha": "498485e59ce37809070b27e9b6310ed4a78bb105"
+          "sha": "81d1bbc2bf54122f47d11ff54bfda0efc9400697"
         },
         {
           "path": "references/streaming-lifecycle/README.md",
-          "sha": "0fd635bb721b72fe3d04a73f2e932e328842e5b0"
+          "sha": "426d0dd33dc6505f1fdf3ee7d4c2ec0b5d80eea0"
         },
         {
           "path": "references/streaming-messages/README.md",
-          "sha": "cf397c220ea8924f80313b9dc05b0e45161bbaea"
+          "sha": "4aa6a922751f8982a459a519cb782c932aa2a3ef"
         },
         {
           "path": "references/streaming-messages/server-handler-map.md",
-          "sha": "6beacf99cdd8cc42713cc4c8186c65c20986323d"
+          "sha": "f17da67f5b51a4e1d65c4b17b6c024a4beec04b0"
         },
         {
           "path": "references/streaming-server/README.md",
-          "sha": "8cc9737b742eb866ad8859c9119ce4a01071cfe8"
+          "sha": "048278e42f3b89764e2e6771883278b183afa08e"
         },
         {
           "path": "references/streaming-server/frame-loop-and-continuity.md",
-          "sha": "dd99473e57d97cb0b2068bb0475cc97abd8ef246"
+          "sha": "8e608d04787a700990c659e3f4761334d0d063e9"
         },
         {
           "path": "references/streaming-viewer-recipe/README.md",
-          "sha": "ae2c5aea430ef434c223698a4f3adae04878d611"
+          "sha": "8770fa982aee845401ded6b7ef9c31dd4be0b003"
         },
         {
           "path": "references/streaming-viewer-recipe/client-protocol.md",
-          "sha": "4f4b3fdcdee878c7b43e08dbd56c519aeba14a0e"
+          "sha": "249c8fde05f987ff67afa7bd8a4e3d79a0593ea0"
         },
         {
           "path": "references/streaming-viewer-recipe/interaction-features.md",
-          "sha": "46f04df3015f48eda9ad0598e9251e899f2568ed"
+          "sha": "50c6887a37967470728a4cebc45b41a054983f1e"
         },
         {
           "path": "references/streaming-viewer-recipe/project-structure.md",
-          "sha": "c85e88879f06f69f6a312ef9403c0b22ecffbdd5"
+          "sha": "703f48dd42737a00bc629274f4b68159bb0414ef"
         },
         {
           "path": "references/streaming-viewer-recipe/server-runtime.md",
-          "sha": "9b48f042404bb9bac780644214bd2a8488da5117"
+          "sha": "2d44d0fbb07aca31d363368b9e6eeeedd3e3e2b2"
         },
         {
           "path": "references/streaming-viewer-recipe/validation-build-order.md",
-          "sha": "0dbac30d05e5ee97c27af14b3be179f43423b228"
+          "sha": "f8ce6a36eb041e8ab1660baee565636777d4fc79"
         },
         {
           "path": "references/streaming-vs-local/README.md",
-          "sha": "87f5c7f657624f28b6d94eecc59624615b8732b0"
+          "sha": "60e14e513daf7d5ef966281a2ac31b75f8bd99f9"
+        },
+        {
+          "path": "references/stylized-visualization/README.md",
+          "sha": "6d725b688f105dd33d446801739b11e9773168e3"
+        },
+        {
+          "path": "references/stylized-visualization/aov-guide-contracts.md",
+          "sha": "44d9c65389b8ad74b4c56d0a1db7cfaa4160e453"
+        },
+        {
+          "path": "references/stylized-visualization/implementation.md",
+          "sha": "e21b0e3b70ddae7d4f31acf0a6ded4d514259ed5"
+        },
+        {
+          "path": "references/stylized-visualization/line-compositor-delivery.md",
+          "sha": "18dd97be4fae602b1b37464140993d4461625450"
+        },
+        {
+          "path": "references/stylized-visualization/mesh-xray.md",
+          "sha": "fdb6b309ddd74b64cc9a68cfaf1de2b3a61464c6"
+        },
+        {
+          "path": "references/stylized-visualization/reproduction-validation.md",
+          "sha": "55c1aca2455eed13d5016de6629d42cc879e3f2b"
+        },
+        {
+          "path": "references/stylized-visualization/style-composition-contract.md",
+          "sha": "e2fb7d344c13ca4680501376944c4f895d27b4b0"
+        },
+        {
+          "path": "references/stylized-visualization/style-recipes.md",
+          "sha": "136c056f4f7fe9dac0f280eca67f17530d997eef"
+        },
+        {
+          "path": "references/stylized-visualization/usd-brep-source.md",
+          "sha": "d51cd80825dd1800bc9b549fc67f167673c5b679"
+        },
+        {
+          "path": "references/subprocess-geometry-bridge/README.md",
+          "sha": "c82c2b711623df11b2c4d8f29e7f1e3761be28f0"
         },
         {
           "path": "references/tauri-local-viewer/README.md",
-          "sha": "0287c9f04f145f840038c5cd075a91cc89332235"
+          "sha": "7926f7d5d70a48a01dc23848ba2224268a5b2e64"
         },
         {
           "path": "references/tauri-shm-transform-gizmo/README.md",
-          "sha": "0a1caac1ec8fbdf4be05eaf128f91136e4f08020"
+          "sha": "553de11dc5379deb683d0ba674a8c75076e8c1e2"
         },
         {
           "path": "references/transform-manipulator/README.md",
-          "sha": "20c27122e4a82545b97c98e85858ba175e61848c"
+          "sha": "b6c4af6a47f7ee629327f6d51f16a5177b8a99c2"
         },
         {
           "path": "references/troubleshooting/README.md",
-          "sha": "7482f9283f738f88a7d906c3073883549323c402"
+          "sha": "06e69d6d98ddd7923f1aa927cb042db5b9f12dd1"
         },
         {
           "path": "references/troubleshooting/scenario-playbooks.md",
-          "sha": "8ae16c5a96d292e207e2316a547694d48a522573"
+          "sha": "10147e66a0934b82006b3ba83b59e34f53502bac"
         },
         {
           "path": "references/usd-sample-data/README.md",
-          "sha": "4f1275a80294ccf622d042c2bed736e9d3565976"
+          "sha": "3244de975067c4e00c33a76735e808d8232e908a"
         },
         {
           "path": "references/usd-viewer-app/README.md",
-          "sha": "0923b8c50a47442fd2449caf5efef38e0d6e69e0"
+          "sha": "19f0c3cbf66a4a3d4ccc7c8956fd1f1ef79c8c0b"
         },
         {
           "path": "references/validation.md",
-          "sha": "120a41fca649a60aa7e9a52165b9bdf8f29c05e3"
+          "sha": "c1488994c1cd05189acdc4a35f7e2d7c34623218"
         },
         {
           "path": "references/viewer-backend-interface/README.md",
-          "sha": "5f42bc9dcce0747f9b24df66f38673389c11fa76"
+          "sha": "470765bbc8d3088e251e5f0705fa59c37ddee1b4"
         },
         {
           "path": "references/viewer-control-patterns/README.md",
-          "sha": "23c9facda132ff9fa354e980d626d9335198ff60"
+          "sha": "d28a28f748f104a82e5b7d3b13637a46b9bebad4"
         },
         {
           "path": "references/viewer-data-view-patterns/README.md",
-          "sha": "18e72e9c019f296d2c3195ac5e733461e2ec4d14"
+          "sha": "18ed3c39630c43e3b89c5785e3c734cf2934c471"
         },
         {
           "path": "references/viewer-feedback-status/README.md",
-          "sha": "bf5f4d1af33721dc41f546f70418cc675494328f"
+          "sha": "fb12d53785c0bb32750fe2a93611f9bfe113da99"
         },
         {
           "path": "references/viewer-input-routing/README.md",
-          "sha": "6fe712dbcd9cab799eba8951558b547cc887f34a"
+          "sha": "1a86d867dcd851fdb602724c07ff53052df1f495"
         },
         {
           "path": "references/viewer-layout-patterns/README.md",
@@ -23303,15 +23567,31 @@
         },
         {
           "path": "references/viewer-ux-workflow/README.md",
-          "sha": "a52daf2b68c6a9dd1c3dc77aab0d2c0bc4356cd9"
+          "sha": "e167ff4f650e1cc3eb54c2db9908fa854697c218"
         },
         {
           "path": "references/viewport-overlays/README.md",
-          "sha": "bcd2a5c72767878176e5a71363b9cce21e6649c4"
+          "sha": "312bedb146ac8af96a265fbf920f9fe3d90eca2f"
+        },
+        {
+          "path": "references/viewport-overlays/cuda-compositing.md",
+          "sha": "288f8df3a17eba40387a146490488e718bf1999a"
         },
         {
           "path": "references/viewport-resize/README.md",
-          "sha": "fa855baea9179d769d454f9c03f1fa548fcdb281"
+          "sha": "4fad514623acd6d1822b6f873c021d9a52d42eb4"
+        },
+        {
+          "path": "references/vulkan-compositing/README.md",
+          "sha": "599b540c176d64e12aec0ee6979692c38fb81e5e"
+        },
+        {
+          "path": "references/vulkan-compositing/depth-overlays.md",
+          "sha": "fa9a192272a1d8e82f3c5fc19261ddbd81d7d71d"
+        },
+        {
+          "path": "references/vulkan-compositing/interop-and-lifecycle.md",
+          "sha": "3cbb3eeffcd3505c0b1c3a11d50c7bedc8406976"
         },
         {
           "path": "references/webgl-shm-transport/README.md",
@@ -23319,15 +23599,95 @@
         },
         {
           "path": "references/windows-native-setup/README.md",
-          "sha": "2e6988d7b950c324d3aa9efb904310d782b0c2fd"
+          "sha": "a5fc6c4d263e637cdfd523139d1b2e831be1441d"
+        },
+        {
+          "path": "references/xr-client-connection/README.md",
+          "sha": "3674ea54585d6434dbe23777600ce29972ce7c14"
+        },
+        {
+          "path": "references/xr-client-message-contract/README.md",
+          "sha": "e643cc30abd8093d477b1b5d51ced3066554fbbc"
+        },
+        {
+          "path": "references/xr-desktop-mirror/README.md",
+          "sha": "bae18bbd28d15781e18cce7a3a32e13b77aa017b"
+        },
+        {
+          "path": "references/xr-session-modes-and-passthrough/README.md",
+          "sha": "653589edebcf635d4eb6eb28e933fe065ab80e4c"
+        },
+        {
+          "path": "references/xr-spatial-input/README.md",
+          "sha": "42e23de61b55aae04c406339f389faf130161248"
+        },
+        {
+          "path": "references/xr-spatial-input/advanced-tools.md",
+          "sha": "ad202487f9da6f7800c07be5bc148b0b5ebf22f2"
+        },
+        {
+          "path": "references/xr-spatial-input/controllers.md",
+          "sha": "9b303c4c9a9dd519ccf58c6f5fdfe860c85506e2"
+        },
+        {
+          "path": "references/xr-spatial-input/feature-validation.md",
+          "sha": "c79f6a69bac42d9cb81ad1451f46098cab9082ea"
+        },
+        {
+          "path": "references/xr-spatial-input/gesture-arbitration.md",
+          "sha": "c8855d2daaf0013c4d1142ad158f92316a806883"
+        },
+        {
+          "path": "references/xr-spatial-input/gesture-filtering.md",
+          "sha": "fb7b67a165e26afa1f92ad343901e9b8879245de"
+        },
+        {
+          "path": "references/xr-spatial-input/hand-recognizers.md",
+          "sha": "7616b3aad50bf184dfaca147dd7bf8e4bf3185b3"
+        },
+        {
+          "path": "references/xr-spatial-input/hands.md",
+          "sha": "2735be650b2b88a13f1e52018d89fc2893aa00b2"
+        },
+        {
+          "path": "references/xr-spatial-input/navigation.md",
+          "sha": "0b59c68695f5af52e133cca1548433dc64615a67"
+        },
+        {
+          "path": "references/xr-spatial-input/physics-interaction.md",
+          "sha": "abe0398a3e6de452cefd2bd605a13089b6d42b18"
+        },
+        {
+          "path": "references/xr-spatial-input/simulation-lifecycle.md",
+          "sha": "0676c1117f917eb312bb5a838494f9858e042c13"
+        },
+        {
+          "path": "references/xr-spatial-input/stage-composition.md",
+          "sha": "dcce440e13dbce1f4c448189c967d28bf42bdc8a"
+        },
+        {
+          "path": "references/xr-spatial-input/teleport-acceptance.md",
+          "sha": "1cccf81692ae241993e2a95bdf9fcd932048b266"
+        },
+        {
+          "path": "references/xr-spatial-input/webxr-client.md",
+          "sha": "e8420fb2bb0f6e2830d32d4f40c25e611b1da8ec"
+        },
+        {
+          "path": "references/xr-tracking-anchor-and-scale/README.md",
+          "sha": "e7f57e960c701508d4199946c0cb8d3b7f1b4993"
+        },
+        {
+          "path": "references/xr-viewer-recipe/README.md",
+          "sha": "9a39a326d1ce60613a2f2edac9708639628753dd"
         },
         {
           "path": "skill-card.md",
-          "sha": "c8aa7fa7bd4b01f558e59f5031ab0683226fae03"
+          "sha": "f3e9c5d289adfdd8f1bebf5c9ba017307a3fae33"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "33ea3a67e778bf6aa0c1cc6b1076fb847c898ac3"
+          "sha": "1b0cf977faa45fabd143de8fc102bc5ce6c77d0a"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/omniverse-realtime-viewer"
@@ -35504,11 +35864,11 @@
       "id": "garrytan/gstack@autoplan",
       "trust": "trusted",
       "name": "autoplan",
-      "description": "Auto-review pipeline — reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with auto-decisions using 6 decision principles. (gstack)",
+      "description": "Auto-review pipeline — runs the CEO, design, eng (architecture, edge cases, failure modes, tests) and DX reviews in order, auto-deciding by 6 principles. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "11af96b5",
+      "contentHash": "0dcb7ec7",
       "files": [
         {
           "path": "DRIVER.md",
@@ -35520,11 +35880,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "5413fe13a4550c4b7fcba0b1bd26e28d33f6922c"
+          "sha": "50437330f1e733c62466076022d8c675e5f2b416"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6fa40c659eec7210ce0647838d066f06db7b973a"
+          "sha": "d6047855eef1048aa1f47a29172c39ba4948e999"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -35536,7 +35896,7 @@
         },
         {
           "path": "bin/guard-reasons.ts",
-          "sha": "ad143c2d5d12ee76478d8354b5eed442d4d9d584"
+          "sha": "fde59f000c982caac4946bfc57d0db6686e645ac"
         },
         {
           "path": "bin/owned-read.ts",
@@ -37249,11 +37609,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "3c554a9d",
+      "contentHash": "85d660e4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "8a914356d38e5efbc807f39315ae4303131c8584"
+          "sha": "8d76a43ab3a893e4d98f02928dd6ed7d22607fca"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37667,11 +38027,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "devex-review",
-      "contentHash": "cafc9aa9",
+      "contentHash": "0f3bc45c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1dc425e3c21f8ac65de76b7e4683ccc4a599bd3f"
+          "sha": "d22a5cea18c92fc63bcdde5a4803b27602d1f42a"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -38334,15 +38694,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "e4f4f335",
+      "contentHash": "51842835",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2243d514068ad8d94559394accc26d3604bd32a8"
+          "sha": "0ad025054da1894beb782f874f235c47fd659a2b"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "e38c32deadd10243240de2a29f7708688e3c6ce7"
+          "sha": "a4ec02a53df81707429b575292b857c62ed9a383"
         },
         {
           "path": "sections/canary.md",
@@ -38366,11 +38726,11 @@
         },
         {
           "path": "sections/merge-and-deploy.md",
-          "sha": "46bd99a10cb49fe65de894564dd24577f971d27b"
+          "sha": "e895eed07657d4da99c9d23245d2096720ee745b"
         },
         {
           "path": "sections/merge-and-deploy.md.tmpl",
-          "sha": "c3c69f717bde6d0850cbf611247bfe3444cc9500"
+          "sha": "a4de77cd32a2b4f940923d817f6b04bbf6b3b715"
         },
         {
           "path": "sections/preamble.md",
@@ -38691,7 +39051,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "c3aa690b",
+      "contentHash": "695e9600",
       "files": [
         {
           "path": "SKILL.md",
@@ -38699,15 +39059,15 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "de7f761c045d2cc6718d8c98e40e59e4e4a5fba1"
+          "sha": "fb80d82fef04ee7c2fcabdeb067ecc2877bef507"
         },
         {
           "path": "sections/design-and-handoff.md",
-          "sha": "e201e0c8530a64af3a119a9133e37b8a39e145cb"
+          "sha": "5071a96f91f61b8c11478689ce55bfcb6b5361cf"
         },
         {
           "path": "sections/design-and-handoff.md.tmpl",
-          "sha": "e9d57fe7a5485fe5302c0d9920f2ec8222b12bdc"
+          "sha": "91d5439be44376e0fbd6bd85218e57f418995b0e"
         },
         {
           "path": "sections/manifest.json",
@@ -38874,7 +39234,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "fd87be93",
+      "contentHash": "d66b2dc7",
       "files": [
         {
           "path": "SKILL.md",
@@ -38910,11 +39270,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "9736d5bfbd89aa1bb25f94a455477886e5b0c646"
+          "sha": "981e17a0f79ac6703e7831bf89217338498c8870"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "fd32eeb6fbb2269cbb9984b284612924c73a9693"
+          "sha": "601d20ea363ad7ab86e18f22eec966c6be54fa22"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-ceo-review"
@@ -38927,7 +39287,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "f5ffd0ca",
+      "contentHash": "456ee23e",
       "files": [
         {
           "path": "SKILL.md",
@@ -38955,11 +39315,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "256f8a17a03f0e433df1363b6fe62cb5a15d486b"
+          "sha": "5318555d774f02d1b499f74cbe0f410880d29239"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "9f86e6a9dce3905db7eaf46e1d22899d15c28907"
+          "sha": "c8a5b66c4d43c0031839cda933edd1b3b3e77bc2"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-design-review"
@@ -38972,15 +39332,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-devex-review",
-      "contentHash": "c72e3874",
+      "contentHash": "0b8862ba",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b9e9f11ab30a3d910bbce083d03c4923ae8c6cd5"
+          "sha": "19ca31dafbb2a28f8fa697f97942fe182ab33664"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "18a9197931bb89740a7f436b6348a577ba3e2745"
+          "sha": "8696d983801654da2cfbb277e3e296a0c22e53d8"
         },
         {
           "path": "dx-hall-of-fame.md",
@@ -39004,11 +39364,11 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "166aa0b67ca25862f4fed48aca123dd5db2b4a79"
+          "sha": "b42159ac919c2753ac89b47a0114391f6947ff91"
         },
         {
           "path": "sections/review-sections.md.tmpl",
-          "sha": "7ad879c6a334e2ef86b3a2ec3a1010255079cde1"
+          "sha": "1c0d4d6a0c487379cc1353d78632d63ff1e21631"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-devex-review"
@@ -39136,15 +39496,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "512d0f5c",
+      "contentHash": "f542c618",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5c8b6ab91da0285eb7d8d5d1b98d68fe28d428cd"
+          "sha": "d9b5dd54def0a16b5549ec2e4f6ed60e406f4080"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7bc6706b127b932fffd80d9d8d62f4ce5263017a"
+          "sha": "359b35ff1b2cd77ba99e70477ddd26c1c09b2100"
         },
         {
           "path": "references/issue-taxonomy.md",
@@ -39288,15 +39648,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "bcd75195",
+      "contentHash": "a0b3b95b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "336dee5137f4ed6ea67e013d987f922f5eb8b1e7"
+          "sha": "bf5fc75b3f65b37fcd7fc28b8fc3644febc139f1"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "5db2f220cffed244e60da16672e1088e29fb9439"
+          "sha": "80f170230deb999f4eba870d84764b9543a67e45"
         },
         {
           "path": "sections/manifest.json",
@@ -39607,7 +39967,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "67b147a6",
+      "contentHash": "06d82503",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39619,11 +39979,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "847810c4e96a36f316aa1e07dc6d13bf26fa2136"
+          "sha": "688f0b977ffbe5eb57eb843850f12873d7028aed"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a18af476857b6cdf7de7afbceb7c2d3d56f4367b"
+          "sha": "c96726c0d6acd03fe415ccd4dea3c339c629a322"
         },
         {
           "path": "sections/adversarial.md",
@@ -39797,15 +40157,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "spec",
-      "contentHash": "0bfb26d3",
+      "contentHash": "1b9b5f50",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "722483a88de4726c06ab357236f3e319ae98858b"
+          "sha": "4307940e1095212d4ef14ea73cbf5764b5a0f320"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "aad712c2220b8e0700e7793575a6ed6a8c3126fa"
+          "sha": "58b8eb7d293f1e3cb0ac360b1250b920b79e3600"
         },
         {
           "path": "sections/gate-and-file.md",
@@ -39859,15 +40219,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "test-audit",
-      "contentHash": "5b4cda1c",
+      "contentHash": "ecc5f39b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "3072ea8cfb9f28c0a3addd36c6bad9b0c7cbc11a"
+          "sha": "03c444f6fe901b5af3aaa65581e865f3f39b05ae"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "b063cd16d72c1c11224f745be5c58112b354ec91"
+          "sha": "4c66b7b7c715063301add0e9e60ae0f460044241"
         },
         {
           "path": "sections/preamble.md",
