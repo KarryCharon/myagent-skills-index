@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794056918553,
+  "generatedAt": 1794088522956,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -38732,7 +38732,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "c8899ab4",
+      "contentHash": "4751f7ef",
       "files": [
         {
           "path": "SKILL.md",
@@ -38812,7 +38812,7 @@
         },
         {
           "path": "test/asideClient.test.ts",
-          "sha": "d2ae96622638bdd3bfafbd703681ef0364f968ed"
+          "sha": "451732b6fb6cdb360bc4932bbfcda6228ef7418c"
         },
         {
           "path": "test/cli-args.test.ts",
@@ -38932,7 +38932,7 @@
         },
         {
           "path": "test/setup-smoke.test.ts",
-          "sha": "ce48b7462434b47f24bbdbd54045d9a2ed798806"
+          "sha": "88e0a0d5663d130ba447225d928e6691b20db9c0"
         },
         {
           "path": "test/toc-anchors.test.ts",
@@ -39860,7 +39860,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "dfdaaa08",
+      "contentHash": "dbb79bc0",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39904,11 +39904,11 @@
         },
         {
           "path": "sections/capy-pr.md",
-          "sha": "0a587dfe7127115cda2c6bf14712d1aa7a3abc70"
+          "sha": "89bf352cc8eb378a8e7c9e10914842dc4b8685d1"
         },
         {
           "path": "sections/capy-pr.md.tmpl",
-          "sha": "36d92f732a12ff3511a8b3a82e77d04e045ee160"
+          "sha": "502eb0291f414dbac0fd22dfc150dc5eeb2f76a4"
         },
         {
           "path": "sections/changelog.md",
