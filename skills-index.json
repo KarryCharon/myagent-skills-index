@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794118035941,
+  "generatedAt": 1794144647291,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -36051,7 +36051,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "b942ed5b",
+      "contentHash": "560f18ad",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -36107,7 +36107,7 @@
         },
         {
           "path": "src/browser-manager.ts",
-          "sha": "d672b0ff7c2205fbbbf182d8e7c072442e19c426"
+          "sha": "dd67b248c65e696da56ab44752292ea02a48e600"
         },
         {
           "path": "src/browser-skill-commands.ts",
@@ -36152,6 +36152,10 @@
         {
           "path": "src/chromium-profiles.ts",
           "sha": "d0fd32eaec7b8507c1126b32a681be59f5b269d6"
+        },
+        {
+          "path": "src/chromium-sandbox.ts",
+          "sha": "a00be9fef21994a7388bd3d79b3ab26a5c3fc77b"
         },
         {
           "path": "src/claude-bin.ts",
@@ -36507,7 +36511,7 @@
         },
         {
           "path": "test/browser-manager-unit.test.ts",
-          "sha": "eb944fcea0d50b02063a537f13d0763fb1a01126"
+          "sha": "9b3308bec66dca808528c173ad4fc9910094225f"
         },
         {
           "path": "test/browser-skill-commands.test.ts",
@@ -36580,6 +36584,10 @@
         {
           "path": "test/chromium-profile-isolation.test.ts",
           "sha": "d7c16f232c2850498b8ae1d69316155536ab1396"
+        },
+        {
+          "path": "test/chromium-sandbox.test.ts",
+          "sha": "8ea1a5debcb268f65055070cb1686f303d84ed00"
         },
         {
           "path": "test/claude-bin.test.ts",
