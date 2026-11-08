@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794144647291,
+  "generatedAt": 1794175845356,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -37470,15 +37470,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "7e27cdd6",
+      "contentHash": "a5904342",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "41dd2db745fd9499d65333cfb7045207c6dde843"
+          "sha": "f05b071ac875458962807f915ff2867e9f765737"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "14f3a1b14882113bae3a0904cf70190634c30367"
+          "sha": "986a67f61cb23b943ec2a6f0c7dc8059d7195168"
         },
         {
           "path": "sections/preamble.md",
@@ -37486,15 +37486,15 @@
         },
         {
           "path": "templates/AGENTS.md",
-          "sha": "c60cb966f10c449cc0fe1e53f6f52641bedf902c"
+          "sha": "efa628ffc35bc6687976798283a91bdd6dbc17ca"
         },
         {
           "path": "templates/CREW.md",
-          "sha": "a4e20842c0781749b6cb9376e9a14afbb348b589"
+          "sha": "036a3687e23255e97263d4c8830889fb693ead8b"
         },
         {
           "path": "templates/DIGEST.md",
-          "sha": "23cfc1357ab2acf5470eed9e48a1598134c399b2"
+          "sha": "cee36a98c27e04900def9717570f328607e8edbf"
         },
         {
           "path": "templates/NOTES.md",
@@ -37510,7 +37510,7 @@
         },
         {
           "path": "templates/brief.md",
-          "sha": "8d784f48e4f196a6c66b2276f9e1ff32d93179ac"
+          "sha": "7a7064993b75ddccd80965a571097f80dd7c17a3"
         },
         {
           "path": "templates/flaky-ledger.md",
@@ -37518,7 +37518,7 @@
         },
         {
           "path": "templates/merge-ask.md",
-          "sha": "19e6cc3b64c9461c147cb0567b4f4a02e8efbfa4"
+          "sha": "2aba1ed124bad676975d025860e1439c96b24985"
         },
         {
           "path": "templates/merge-train-peer.md",
@@ -37534,7 +37534,7 @@
         },
         {
           "path": "templates/report.md",
-          "sha": "13c0319d92f749efbd91ef42926e1eb4eb787dd7"
+          "sha": "775dbc1cd2cca5098c796f8970bbcd43f10dfe45"
         },
         {
           "path": "templates/slot-call.md",
@@ -37551,19 +37551,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "6a78b099",
+      "contentHash": "8e7655b2",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "00294e91aa8bc0d6531b6c2e82df6e290f0e1c2f"
+          "sha": "de4a3adb217b2143a7b2abccf63a358c362c9e3d"
         },
         {
           "path": "captain.md",
-          "sha": "c7b6ff2b36fd9f3c2c90839e09575cfc1aea6322"
+          "sha": "d4227c769b85e848d97ee1480b4d537472c5b5eb"
         },
         {
           "path": "factory.md",
-          "sha": "e7db9c720f4fbc358729126de685cf469a3c0a91"
+          "sha": "2bc4b043fab848a9fda3aa6b7926697dc3f44afc"
         },
         {
           "path": "lane-card.md",
@@ -38163,15 +38163,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "436b7461",
+      "contentHash": "798866d4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7dc0e5be62b19e9375a4aff1018e112b5d2dcd9b"
+          "sha": "adca9139cf58144ea15ab089559c0522c1d05c88"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "47b62613d3e42316aa38f41bcc43f955264e0821"
+          "sha": "4472766b092ed5de6ab2bd57114e777e38e2b1b2"
         },
         {
           "path": "sections/preamble.md",
@@ -39561,15 +39561,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "a0b3b95b",
+      "contentHash": "cbba90e9",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "bf5fc75b3f65b37fcd7fc28b8fc3644febc139f1"
+          "sha": "30af82d85435b186134c92e2bcaebb04db7d5e1d"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "80f170230deb999f4eba870d84764b9543a67e45"
+          "sha": "51560fdc8c33ded5398d14044966d0b393b47794"
         },
         {
           "path": "sections/manifest.json",
