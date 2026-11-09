@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794175845356,
+  "generatedAt": 1794206423484,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -35864,27 +35864,27 @@
       "id": "garrytan/gstack@autoplan",
       "trust": "trusted",
       "name": "autoplan",
-      "description": "Auto-review pipeline — runs the CEO, design, eng (architecture, edge cases, failure modes, tests) and DX reviews in order, auto-deciding by 6 principles. (gstack)",
+      "description": "Auto-review pipeline — runs the CEO, design, eng (architecture, edge cases, failure modes, tests) and DX reviews (lean run: one reviewer), auto-deciding. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "11ee148e",
+      "contentHash": "e2a335b2",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "f12ea0bca43b4cbd923b67a2ad58e1c716b53a7e"
+          "sha": "81d661433ab8ad62843095a89d82036c062cfab5"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "eef7e0c437958f896d2b86ac0ec22959c4f36b19"
+          "sha": "b4b64d887dcba7a5bb5fbcf5c70ed68db988a725"
         },
         {
           "path": "SKILL.md",
-          "sha": "50437330f1e733c62466076022d8c675e5f2b416"
+          "sha": "3cadbfe202f77e9a514afbc04d0c575951063949"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "d6047855eef1048aa1f47a29172c39ba4948e999"
+          "sha": "842cc76100dd6f6fb5bf3d98d5af148d172aa13b"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -35976,11 +35976,11 @@
         },
         {
           "path": "sections/unattended.md",
-          "sha": "b8476cf99f3e164f3626997c6ae7f5037f93cf2d"
+          "sha": "06e5a41010b0a4fe14e39926285734b611a0b905"
         },
         {
           "path": "sections/unattended.md.tmpl",
-          "sha": "0e4f68f1b3b09ed2aa5741f8e086118e8c19c279"
+          "sha": "f41f0b09a54ac30e3159bbe57fecab3ddb62a243"
         },
         {
           "path": "shadow-decider.md",
@@ -36051,7 +36051,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "560f18ad",
+      "contentHash": "1270f451",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -36287,7 +36287,7 @@
         },
         {
           "path": "src/project-slug.ts",
-          "sha": "2ad34e754ef720582513eec06aa0efd40ae7ca3f"
+          "sha": "48689a8e40c042ca2d561346d92b0aa2dbf770f4"
         },
         {
           "path": "src/proxy-config.ts",
@@ -36467,7 +36467,7 @@
         },
         {
           "path": "src/write-commands.ts",
-          "sha": "e0ccb0b4df2d0b8d3c7c947963d778f24b28939d"
+          "sha": "eeb28b579b227dc0b5494fedd2ef6215dc7f1188"
         },
         {
           "path": "src/xprotect-heal.ts",
@@ -36627,7 +36627,7 @@
         },
         {
           "path": "test/commands.test.ts",
-          "sha": "427350c8db4e2d00ccb776ed9ea4839adf88b807"
+          "sha": "19ac9a730c4e11e5f29d4da02bb0a4e47b18b136"
         },
         {
           "path": "test/compare-board.test.ts",
@@ -37004,6 +37004,10 @@
         {
           "path": "test/process-liveness-windows.test.ts",
           "sha": "9e00a50e34f1f4c2b7cdeea03d08b46018f749c4"
+        },
+        {
+          "path": "test/project-slug.test.ts",
+          "sha": "9ca616ed9d775409d3e53f9f1d764754a6135c51"
         },
         {
           "path": "test/proxy-config.test.ts",
@@ -37551,7 +37555,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "8e7655b2",
+      "contentHash": "00291a6a",
       "files": [
         {
           "path": "SKILL.md",
@@ -37563,7 +37567,7 @@
         },
         {
           "path": "factory.md",
-          "sha": "2bc4b043fab848a9fda3aa6b7926697dc3f44afc"
+          "sha": "35b426a7f2597a92a34580c8e59aa0159cc51ce6"
         },
         {
           "path": "lane-card.md",
@@ -39880,7 +39884,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "ecee08b3",
+      "contentHash": "0e63aa61",
       "files": [
         {
           "path": "DRIVER.md",
@@ -40028,11 +40032,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "fa8c4b753a78ed239e7b84dd7c494cc183c8efe7"
+          "sha": "2e63156b411db9da67de32c480258ab0b981ab6a"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "cb5d10f7894c30ace385de08c95ec2f75a4dadf2"
+          "sha": "02ea36cbf74bdfc0a5ecb85adb1fc6b35b9f797a"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
