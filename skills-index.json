@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794206423484,
+  "generatedAt": 1794263123945,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -13902,6 +13902,853 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ethos-write"
     },
     {
+      "id": "NVIDIA/skills@fastgen-add-method",
+      "trust": "trusted",
+      "name": "fastgen-add-method",
+      "description": "Implement and validate a new NVIDIA FastGen training method or objective (distillation, consistency, adversarial or fine-tuning variants) from a paper or reference code: FastGenModel subclass, method config, gradients, student sampling and tests. Use it whenever an algorithm is not expressible through the existing method configs.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-add-method",
+      "contentHash": "7e21c2d0",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b2c08d2b9173ed6030d93d485aabc3a873ee30fc"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "c2df0de28e020bbfe1596dbd179b2c951a545541"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "a80cdb4747552b5bce93b29d37de5d4f5b976fc3"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b69a4835d00ec31e081b6f4b5b69a363368286c5"
+        },
+        {
+          "path": "evals/files/config_dmd2.py.txt",
+          "sha": "ceb7fdf0df88f9ae825835aa4a548440cc29bf7a"
+        },
+        {
+          "path": "evals/files/config_sft.py.txt",
+          "sha": "6d28aee2b305a43c1cb914505dcee7f8cab1570d"
+        },
+        {
+          "path": "evals/files/dmd2_change_request.txt",
+          "sha": "43c2633c4a8509afbd0a08f6a14e22676b7dbd71"
+        },
+        {
+          "path": "evals/files/dmd2_cifar10_config.py.txt",
+          "sha": "02c091286e4cfb74aa5fbf1041b400a277bf551b"
+        },
+        {
+          "path": "evals/files/dmd2_phase.py.txt",
+          "sha": "1ea236bab016e599ff003c937374763cb1149107"
+        },
+        {
+          "path": "evals/files/dmd2_recipe_sources.json",
+          "sha": "4228127e438b2eba5584d52b2988399e0e95d493"
+        },
+        {
+          "path": "evals/files/dmd2_sources.json",
+          "sha": "926a1e6b96b53e49d15cc7eee8360b2426800bcb"
+        },
+        {
+          "path": "evals/files/dmd2_student_step.py.txt",
+          "sha": "5631ff42e8cb25c5494fac3f836469a8b06ae426"
+        },
+        {
+          "path": "evals/files/flow_matching_loss.py.txt",
+          "sha": "0f73bf0b015df5bcbf81a13905c1506eab2d5810"
+        },
+        {
+          "path": "evals/files/gan_reduction.py.txt",
+          "sha": "744aae1ab639ee98f7aa2e890c7af3c92b5de0ba"
+        },
+        {
+          "path": "evals/files/prepare_batch.py.txt",
+          "sha": "139e77570f2aa09d2464367b13c5d9fc20caf5cc"
+        },
+        {
+          "path": "evals/files/reward_contract.py.txt",
+          "sha": "85b77f6040b00d230c201b714e78697f6347e85a"
+        },
+        {
+          "path": "evals/files/sft.py.txt",
+          "sha": "8440bc82be9515e704f56ea5f08552321209382c"
+        },
+        {
+          "path": "evals/files/sft_existing_tests.py.txt",
+          "sha": "db473e5df6cb317fc3f834b089ea53d0338dddac"
+        },
+        {
+          "path": "evals/files/sft_multimodal_helpers.py.txt",
+          "sha": "4ee2294bcb654275349ab297676f3d89b5e65ded"
+        },
+        {
+          "path": "evals/files/sft_sources.json",
+          "sha": "be5f4c4f6d330562f6aca89c45d49d8fab74c947"
+        },
+        {
+          "path": "evals/files/trainer_iterations.py.txt",
+          "sha": "29850e1f80a248b71ce8684f8d68639fab8f94ea"
+        },
+        {
+          "path": "evals/files/trainer_step.py.txt",
+          "sha": "13d9bbd340c30de62fed304d1dbfacb7da650996"
+        },
+        {
+          "path": "evals/files/tree_dispatch.py.txt",
+          "sha": "5b2d95c880b822cf62c2f6b631c77baa3db99b4f"
+        },
+        {
+          "path": "references/method-contract.md",
+          "sha": "ad796413323ffa1fc5a4df2bbde4c1d716d3e1f0"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "4f12802360410b423b072a9e85fb11901c6ff394"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "420da4bbabe11d1674ec77ddef857c02cb765743"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-add-method"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-add-modality",
+      "trust": "trusted",
+      "name": "fastgen-add-modality",
+      "description": "Extend NVIDIA FastGen to a new generated or conditioning modality beyond the existing image, video, audio, camera and text paths: representation, loader keys, model state, noise-schedule clock, losses, sampling, serialization and validation. Use it when a new signal type must cross the data, model and output interfaces.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-add-modality",
+      "contentHash": "0eddd0a7",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "bedab1b59a81a232801340d3c1d00a5fa0fcaa1c"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "d2a84528735ad2e521e611a7e7bdfcbbea349833"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "a80cdb4747552b5bce93b29d37de5d4f5b976fc3"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "17b5aeec373b06decb08b07c580b1fe7c6231699"
+        },
+        {
+          "path": "evals/files/clock_proposal.json",
+          "sha": "c3b89f13628f010786440e3c72d14b904f1d3f4d"
+        },
+        {
+          "path": "evals/files/clock_sources.json",
+          "sha": "b046c5400b283f87ed096ceb0fb996e5afa3e529"
+        },
+        {
+          "path": "evals/files/composite_schedule.py.txt",
+          "sha": "ba1b8da1ed7cfc6833f4f98e7561dece1f438c62"
+        },
+        {
+          "path": "evals/files/inference_common_args.py.txt",
+          "sha": "98bb85f9a6b7cb231e0f61d1e393fb0ac0b944ff"
+        },
+        {
+          "path": "evals/files/ltx2_sft_config.py.txt",
+          "sha": "48bc0d3e5109a39ae2f633bf20c1eebedaec2b95"
+        },
+        {
+          "path": "evals/files/ltx_inference_sources.json",
+          "sha": "50892ba5c19222194d04c1ff28d4bc31edd7800b"
+        },
+        {
+          "path": "evals/files/media_existing_tests.py.txt",
+          "sha": "252ef35606c4ac59f1f84b0effef75ab47afb9c6"
+        },
+        {
+          "path": "evals/files/media_sources.json",
+          "sha": "34ddfc2fea5117f6fa6f13cda8312933a559a52b"
+        },
+        {
+          "path": "evals/files/media_tree_utils.py.txt",
+          "sha": "257265c2210ab9c13b6c32398dfcd28c31e5ba3e"
+        },
+        {
+          "path": "evals/files/media_utils.py.txt",
+          "sha": "e479afb991cd039eb40943a172c54e22405edd88"
+        },
+        {
+          "path": "evals/files/model_shape.py.txt",
+          "sha": "430f80ee9c2e20746212e2b1013826a6f763c5f9"
+        },
+        {
+          "path": "evals/files/sft_timestep.py.txt",
+          "sha": "7f98b40a04ef2a63d9503b06a99a088cdacbda1f"
+        },
+        {
+          "path": "evals/files/video_model_inference.py.txt",
+          "sha": "4f0682e79ff697e8f2340697bc0d0e4bfe686c4e"
+        },
+        {
+          "path": "references/modality-contract.md",
+          "sha": "5ec89df2d7d59a6ffdef788e0d291a4f74d094c9"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "b6c7042b0d0de073c286a4d8167ed66d409017fb"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "0899537fd292c9f43837f10faef2299e8f5de772"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-add-modality"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-add-network",
+      "trust": "trusted",
+      "name": "fastgen-add-network",
+      "description": "Integrate a new diffusion or flow model, or a task variant such as I2V, editing or causal generation, into NVIDIA FastGen as a FastGenNetwork adapter with preprocessors, configs, method capabilities, reference parity and trainability. Use it whenever a model family or checkpoint is not yet supported.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-add-network",
+      "contentHash": "2b8554ee",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "34aedd192bf89bbdd31ce1d72b334c0e467ac825"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "1235adcbcb74443a3a4ecdf18967d8a8dca72593"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "57c2c8f1d0c2b503f37de84a55a68f9c3579827f"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "f311977f5b52458736fd1c4441030773a38b9cfc"
+        },
+        {
+          "path": "evals/files/adapter_sources.json",
+          "sha": "ba660806d8861ad1c3e27cf798b3838ae59fbb6d"
+        },
+        {
+          "path": "evals/files/dmd2_feature_consumer.py.txt",
+          "sha": "2307dec8339ba5f09c45f3b0be673bb87fc7768d"
+        },
+        {
+          "path": "evals/files/flux_candidate.py.txt",
+          "sha": "630321cf4e3deffe1727c50495278338fb33d731"
+        },
+        {
+          "path": "evals/files/flux_existing_test.py.txt",
+          "sha": "eba27dcfc2f2600365ca1115e404d1579f64320c"
+        },
+        {
+          "path": "evals/files/flux_preset.py.txt",
+          "sha": "000adc6b4b550a66d08044258fee0dd38d328ba8"
+        },
+        {
+          "path": "evals/files/flux_recipe_sources.json",
+          "sha": "15d985db65ebbbdb3e2d73c2693071dfcb5d59f8"
+        },
+        {
+          "path": "evals/files/flux_sft_config.py.txt",
+          "sha": "4883c4d12219b41fc99e53c2aef99f7079afee43"
+        },
+        {
+          "path": "evals/files/flux_tiny_tests.py.txt",
+          "sha": "b0d08853448534feddf455556795e5cb0f6ca0af"
+        },
+        {
+          "path": "evals/files/fsdp_precision_groups.py.txt",
+          "sha": "16cfb1fd2eb10c9a560a0c75cca7192a11377b86"
+        },
+        {
+          "path": "evals/files/meta_materialization.py.txt",
+          "sha": "713050a2f0b3df9c4394780f3338a128fcff2de2"
+        },
+        {
+          "path": "evals/files/module_precision_contract.py.txt",
+          "sha": "aa352adcb5827fcee1a0cd753fc203f505991f36"
+        },
+        {
+          "path": "evals/files/network_output_contract.py.txt",
+          "sha": "8e888bb00dc9c12ca2904dcc4d1153e607d01306"
+        },
+        {
+          "path": "evals/files/port_manifest.json",
+          "sha": "2bd2b1b0bc580368494ec26482b9bb013802ea19"
+        },
+        {
+          "path": "evals/files/precision_sources.json",
+          "sha": "a258cc657751fa22887f7e8ec667bef0dd9800f2"
+        },
+        {
+          "path": "references/network-contract.md",
+          "sha": "8675a113a1d9b4ff466d941faf4ab2b01532f9db"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "daf3282176346854bc71efb30d8bc719adb961dc"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "bfe157aa626a2af39421285d5e698de34a27ad8d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-add-network"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-configure",
+      "trust": "trusted",
+      "name": "fastgen-configure",
+      "description": "Create or adapt an NVIDIA FastGen experiment config for a network, task, dataset and training objective, and pick a distillation method when none was chosen. Use it whenever a FastGen run needs a new or modified config file or non-trivial overrides.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-configure",
+      "contentHash": "87db30ba",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "a14c974cf278088d38d0b4a5aaaca3d17e7ca485"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2500368b6e3ac511790a653f950db21a47fae770"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "ca10a839abc97bb9f3bd41b23e2bedd2cc686adc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "8e9bccabe5cd957945757087f68e85d5968d8517"
+        },
+        {
+          "path": "evals/files/config_dmd2_wan.py",
+          "sha": "219eaf96fb9ea1c80c793859699db3b20496a696"
+        },
+        {
+          "path": "evals/files/failed_override.txt",
+          "sha": "4eb1aa391587d5305c45ef52be26d031486cd4b6"
+        },
+        {
+          "path": "evals/files/objective_request.json",
+          "sha": "fc21bb5e419b190072701270c45e844d9f982f78"
+        },
+        {
+          "path": "evals/files/objective_source.md",
+          "sha": "bc77b69ab2cbac2d6b510e5dc34aea87235b36c8"
+        },
+        {
+          "path": "evals/files/resolution_source.md",
+          "sha": "e61ebba7ad50042dc77896b03c029eb54bbc03f7"
+        },
+        {
+          "path": "evals/files/schema_source.md",
+          "sha": "2d92047f58a27079d9aff3a6405329dea01e55c5"
+        },
+        {
+          "path": "references/config-contract.md",
+          "sha": "4b1a8dab1a39ad97c77cda110844b14d0a814e26"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9349af3a8b4cb87a29e30656eb19d1cee16ba4d5"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "c5ac187ad27ebea6198139a1f8cbfa69191f808f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-configure"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-dataset",
+      "trust": "trusted",
+      "name": "fastgen-dataset",
+      "description": "Prepare, register or repair datasets for NVIDIA FastGen loaders: class-conditional ZIPs, WebDataset shards of images, prompts, latents, videos, audio or camera data, and KD pairs or trajectories; then verify decoded batches. For experiment configuration over already prepared data, use fastgen-configure.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-dataset",
+      "contentHash": "5e746cd9",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "9e3a783f50ff986e5902d5140460cd9ae61d90a1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "62f1047a9af100f2a9dfaeb9d91bc2da889669a2"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "7130f86aa2a6629c3f054d5f223316aae5af5d52"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "d09a4bb39eb72499f4119159ae6a969b258ddec3"
+        },
+        {
+          "path": "evals/files/prompt_loader_source.md",
+          "sha": "89cd58e59126cb2f3ea410014ea57bdc93728ab2"
+        },
+        {
+          "path": "evals/files/prompts.json",
+          "sha": "ab345bc86621f426983f3ed17754ceb8162dfaa4"
+        },
+        {
+          "path": "evals/files/recipe_source.md",
+          "sha": "6bd051384719a1d17c7d9d6bdbdffbf0810dbe3b"
+        },
+        {
+          "path": "evals/files/resume_inventory.json",
+          "sha": "6bce48eb72e3c03ca17fd7fd297961fdd218e70b"
+        },
+        {
+          "path": "evals/files/resume_source.md",
+          "sha": "e2e59843280c1cab6ad40ac58d6034f4944d0e93"
+        },
+        {
+          "path": "evals/files/shard_inventory.json",
+          "sha": "83d9fe5804044ea28c69711a52fd34e5a4079e58"
+        },
+        {
+          "path": "references/loader-contract.md",
+          "sha": "4b336770f36f3589b4fce7f0ad6fe9c5e3d4e8f2"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "876240453f1b7ef6864641a51bf098e5d8a74eb9"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "790e5f197fba0b3a48ccbd6b9fc733c450fb0796"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-dataset"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-develop",
+      "trust": "trusted",
+      "name": "fastgen-develop",
+      "description": "Implement, refactor or review NVIDIA FastGen library code using its shared design, formatting, documentation and testing conventions. Use for source changes and code reviews; configuring or running an existing workflow alone does not need this skill.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-develop",
+      "contentHash": "16b7b447",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "e0f098dcb04c054fcf9ae50104a8afbc4255d852"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "480b8196f84496a861e06a0756a662cdc620a111"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "cff32ff48ff906bef1d45aea66f041f3d0e0a56b"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ed73e81a5d55e5d0a906a30d695a730603736e2c"
+        },
+        {
+          "path": "evals/files/CONTRIBUTING.md",
+          "sha": "efeed54403d4e8c1457e2af7e812d2d8dd88df03"
+        },
+        {
+          "path": "evals/files/image_text_callers.py.txt",
+          "sha": "4384f2a27e38083d8505100e695c2f5a237a4d35"
+        },
+        {
+          "path": "evals/files/inference_text_reader.py.txt",
+          "sha": "9e6035159a36622dd8740cc590eb5cf3ee14e74f"
+        },
+        {
+          "path": "evals/files/inference_text_sources.json",
+          "sha": "1c776a0c7b387b6ea32f387f39554cbb19fa27a8"
+        },
+        {
+          "path": "evals/files/inference_text_tests.py.txt",
+          "sha": "4f668efd04ec318d7498dd0fbbafa67bd4ab7861"
+        },
+        {
+          "path": "evals/files/inference_usage.md.txt",
+          "sha": "96320287737486360943edd0f09f8febc513a009"
+        },
+        {
+          "path": "evals/files/video_text_callers.py.txt",
+          "sha": "6709a98a7828497491122eedfb06abc31f6f0369"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "752ffd007e00dafeb2bd338dea4f6a03d1384a6a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "67bc68e57bddfd9ff6ceae37e6fac4130161a7ee"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-develop"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-inference",
+      "trust": "trusted",
+      "name": "fastgen-inference",
+      "description": "Generate and inspect NVIDIA FastGen teacher or distilled-student outputs with the inference scripts or ComfyUI nodes: config, checkpoint, prompts, conditioning media, seeds and sampling settings. Use it to prepare or execute sampling; use fastgen-validate to assess existing parity or quality evidence.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-inference",
+      "contentHash": "83118db2",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "56c4b548ed0afb6197e6fe28451d6a4dc4e72c43"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2a0572d653484353816798f8b3577c475a235011"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "a4d4ed516de9a09a518525e8439a87eabfa049e0"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "345cc05d138c1f0265908889f34a340c99538914"
+        },
+        {
+          "path": "evals/files/checkpoint.txt",
+          "sha": "52cde2d4801d37f31fc46647ce39c3619cad07ec"
+        },
+        {
+          "path": "evals/files/config_dmd2_sd15.py",
+          "sha": "71ad65aacc40721794c11d8ec69a7ff449dc9f90"
+        },
+        {
+          "path": "evals/files/inference_source.md",
+          "sha": "fb7f914ea19e779bad983a42a72ac640f9e3a44b"
+        },
+        {
+          "path": "evals/files/input_source.md",
+          "sha": "26cf6a3d9c9b3c1d52a51f8a10447829e4af02d6"
+        },
+        {
+          "path": "evals/files/prompts.txt",
+          "sha": "f04c643170e02d9a4e588debfaed6ea72cc175f3"
+        },
+        {
+          "path": "evals/files/proposed_inference.sh",
+          "sha": "63f9808a9ddd2af2aebd25185cd7d8c3c73d66c0"
+        },
+        {
+          "path": "evals/files/sampling_request.json",
+          "sha": "445f2ff0dab901834c9fa2e048f29d7d7edce691"
+        },
+        {
+          "path": "evals/files/shared_teacher_source.md",
+          "sha": "9e58744f983088a9edc876c624ebcfe413277904"
+        },
+        {
+          "path": "evals/files/source_images.txt",
+          "sha": "78486640789c4243f9ec2d456ad41ce210b57e85"
+        },
+        {
+          "path": "references/weights-and-sampling.md",
+          "sha": "0e4f72101776996d9ac0f42eea39312e3a679be9"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "ad484530f55612bfb1fde7a6caf28ee7f7c2bef5"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "dac1fed7db91d13b0ac6415697bdcc644e1bd351"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-inference"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-runtime",
+      "trust": "trusted",
+      "name": "fastgen-runtime",
+      "description": "Resolve the execution context for an NVIDIA FastGen command: checkout and interpreter, config path and override syntax, output/cache/data roots, run identity, and distributed launch variables. Use it when preparing or debugging execution; method selection belongs to fastgen-configure.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-runtime",
+      "contentHash": "e757a590",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4c6090c079ed98e47bb8cf7760ea880eae052a74"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "7de13dcd782e38a64cdb13bd44dc7bc18bb40fdb"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "b84ee02f9174c89937b67541cc5ac988f14db747"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4dd874adad56049203ddd1974d13c28b55d5d928"
+        },
+        {
+          "path": "evals/files/context.json",
+          "sha": "0a0f1b36b8ea8c8517ba53ee6d8964b502370147"
+        },
+        {
+          "path": "evals/files/dryrun.json",
+          "sha": "ff5b80624ede916d19f85047732bd4c05c521bca"
+        },
+        {
+          "path": "evals/files/identity.json",
+          "sha": "2d07208132b12f02d23541dbd07a22817de69a0c"
+        },
+        {
+          "path": "evals/files/identity_source.md",
+          "sha": "756965b5b1311e880771ff02aab5b9af22f5295c"
+        },
+        {
+          "path": "evals/files/launch.sh",
+          "sha": "5d7816ad116b17ec2d6dbe5b819cd64547c61e35"
+        },
+        {
+          "path": "evals/files/launch_source.md",
+          "sha": "cd2d0090d9a7d87805f43a80f75b3c695542cea7"
+        },
+        {
+          "path": "evals/files/method_selection_source.md",
+          "sha": "4a49cb1e2bed3463f574b6cf31391c728be193d4"
+        },
+        {
+          "path": "evals/files/setup_source.md",
+          "sha": "49d99f2708c02142606327efeaca06c695ffe07d"
+        },
+        {
+          "path": "evals/files/wan_config.py.txt",
+          "sha": "219eaf96fb9ea1c80c793859699db3b20496a696"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "0d7608a56a507dc57dd6ef9f6abdf72cfcc13d5d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "16553b72db770112b1b349938c9172bb2a215592"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-runtime"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-setup",
+      "trust": "trusted",
+      "name": "fastgen-setup",
+      "description": "Set up or repair an NVIDIA FastGen environment for a chosen task: Docker or Conda installation, credentials and model access, weight and dataset downloads, and an optional bounded smoke test. Use it before any FastGen command whenever the environment, access or inputs are not yet known to work.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-setup",
+      "contentHash": "6cae9c73",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "04fa3a8852f39745c9d1795b749de46ce3f607e5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "90216365a23c63e38e16cbd5c28facfb2c0b21c3"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "b2f17444843d91658bc6a08a03e81a825656fe07"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "c4e7287fd7936d29435719d717aad2e1a663f53f"
+        },
+        {
+          "path": "evals/files/access.txt",
+          "sha": "7d0cc3850a0e586753576b9270a1e3005dff0325"
+        },
+        {
+          "path": "evals/files/environment.json",
+          "sha": "0f3667c148cab9747b2d8b0ce702d85e5c300268"
+        },
+        {
+          "path": "evals/files/environment_source.md",
+          "sha": "170da30ca3f30690df5cc3a9890280da3f125ad1"
+        },
+        {
+          "path": "evals/files/flux_config.py.txt",
+          "sha": "4883c4d12219b41fc99e53c2aef99f7079afee43"
+        },
+        {
+          "path": "evals/files/import-origin.json",
+          "sha": "dd88e7894374530172801dd1b09fc112eca31014"
+        },
+        {
+          "path": "evals/files/launch.sh",
+          "sha": "5286dba820afdc49cbeb69bf10db773e4824b844"
+        },
+        {
+          "path": "evals/files/package_init.py.txt",
+          "sha": "a5126c48177daf1aea74c59ae08bbc959c144e33"
+        },
+        {
+          "path": "evals/files/sd15_config.py.txt",
+          "sha": "ab722c6dead33f67779fbd4e4698f40962e76d3b"
+        },
+        {
+          "path": "evals/files/setup-launch.sh",
+          "sha": "7c978e479279f3b534739bcf42219aa559d6a486"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "baee230e8d9bb79796caf7c898d9d4bb8ba527ae"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "021f1678f027a1375752b7d6c568452a9926f650"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-setup"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-train",
+      "trust": "trusted",
+      "name": "fastgen-train",
+      "description": "Run, resume or troubleshoot NVIDIA FastGen training: SFT or distillation with train.py, bounded smoke tests, distributed launches, checkpoints, validation and W&B evidence. Use it whenever training is executed or a training run misbehaves.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-train",
+      "contentHash": "63702279",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "cd8d3d3b71ec9702529465803d27e74d0858adb9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "82bc95cde47292bf3281be0d8373fdce12ae2696"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "226a6bb2cfca554e62ce283f56f0cdf1d7c679d9"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "a97a32eb7228cff4506f49c622f3d87077d1d7bd"
+        },
+        {
+          "path": "evals/files/config_dmd2_wan.txt",
+          "sha": "219eaf96fb9ea1c80c793859699db3b20496a696"
+        },
+        {
+          "path": "evals/files/health-log.txt",
+          "sha": "ccaa06c6231141070c7930340ed90c2d9aa0b753"
+        },
+        {
+          "path": "evals/files/inference_entrypoints.md",
+          "sha": "e0510d6cf5c51534916042b2e6fae3248fe336e9"
+        },
+        {
+          "path": "evals/files/initial_config.py",
+          "sha": "630cdde197678cc4196413bdbefd131f36d7b540"
+        },
+        {
+          "path": "evals/files/resume.json",
+          "sha": "107edbcfb020fdc05cb099671a5bef0063fcaf74"
+        },
+        {
+          "path": "evals/files/source.md",
+          "sha": "9138f6d999e5d43c13985d315f3921d8a977ea9d"
+        },
+        {
+          "path": "references/run-contract.md",
+          "sha": "de6d7f1ae005dedcdcd4ec84812f56f934abb190"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "46205ea290859d6f31df0a8896f2a71ef5db648a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "86b47e3aa17f08d476c5b740041993957b02fe24"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-train"
+    },
+    {
+      "id": "NVIDIA/skills@fastgen-validate",
+      "trust": "trusted",
+      "name": "fastgen-validate",
+      "description": "Validate NVIDIA FastGen integrations and training quality: numerical parity against reference implementations, seeded side-by-side media, gradient and trainability checks, checkpoint round trips and repository tests. Use it whenever a claim about correctness, parity or quality needs evidence.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/fastgen-validate",
+      "contentHash": "213378e9",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "788d90b580e9e309e504210720c78b19b1e30b6b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "51d6b1ff9a599a9f480dd713e9b19eb5f7b5e299"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "6c903d0ad93c726db943db49411f3883a794c399"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "cc972322af01191043c318f1bed53d8e4e29522c"
+        },
+        {
+          "path": "evals/files/noise_schedule_source.md",
+          "sha": "daba5afa91a659d4358e2a0c04e2a576b08da40f"
+        },
+        {
+          "path": "evals/files/parity-manifest.json",
+          "sha": "166df74cc7aae12edf2fa2bf4c45293c8a662d4c"
+        },
+        {
+          "path": "evals/files/reload-evidence.json",
+          "sha": "88fc289de25bcbd0fce71e750b426330a0bfa9ad"
+        },
+        {
+          "path": "evals/files/rf-validation.json",
+          "sha": "67b5965bbe447b96644beb129d929e3e51eec884"
+        },
+        {
+          "path": "evals/files/training_evidence_source.md",
+          "sha": "a4af47f6fd0068e05a10dfb74f26015d2ba0256a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "16688dbc758dc6e66c35a25253d0a177b6dcbddd"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "be950504e28f95f7134fb797760f575c721c03bd"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-validate"
+    },
+    {
       "id": "NVIDIA/skills@foundationpose-pipeline",
       "trust": "trusted",
       "name": "foundationpose-pipeline",
@@ -20630,6 +21477,211 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-segment-ctmr"
+    },
+    {
+      "id": "NVIDIA/skills@nvalchemi-toolkit",
+      "trust": "trusted",
+      "name": "nvalchemi-toolkit",
+      "description": "Build and change NVIDIA ALCHEMI Toolkit (nvalchemi) workflows for atomistic simulation and machine-learned interatomic potentials (MLIPs). Use for batched structure relaxation, molecular dynamics, reaction paths, training or fine-tuning an MLIP, atomistic datasets in Zarr, generative structure workflows, model wrapping, and custom hooks or integrators, with the ALCHEMI Toolkit (nvalchemi), or when the user asks for batched GPU atomistic simulation and nvalchemi is installed or acceptable. Not for other simulation packages the user asked for (ASE-only, OpenMM, LAMMPS, GROMACS) when the request does not involve nvalchemi, ALCHEMI Toolkit-Ops (nvalchemiops) kernel work, or plain PyTorch questions.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvalchemi-toolkit",
+      "contentHash": "b92192c4",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "1947dc4b83c67c01492c941a1bb0118ec782f02f"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "50c0f481b73fe531a11056a4cb0b7a19a03d147c"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "137735b4de74f0bf5629d4a4dfa99a0048bedf43"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ba008bb10ce46babf6752ed7b9f8d881c9a143cb"
+        },
+        {
+          "path": "evals/files/ammonia_dimer.xyz",
+          "sha": "031a8c687d332faac679db06e86196fe13aba6ce"
+        },
+        {
+          "path": "evals/files/ar_scope.extxyz",
+          "sha": "6f1cd29b0f6d2011b9576ce2c3e413632c478c98"
+        },
+        {
+          "path": "evals/files/ar_slab.extxyz",
+          "sha": "34f5bfed06ab65423fbd946001bf10a12bacd72c"
+        },
+        {
+          "path": "evals/files/argon_clusters.xyz",
+          "sha": "e4978fc57204b300a5a67aa9ca0c802f8f683d04"
+        },
+        {
+          "path": "evals/files/argon_fcc32.extxyz",
+          "sha": "3f20836b5f2a4a79d64c64422395cb1aa594f32a"
+        },
+        {
+          "path": "evals/files/argon_frames.extxyz",
+          "sha": "e47982d06cb15e177f7b163ccdc43931ac555966"
+        },
+        {
+          "path": "evals/files/au_fcc.extxyz",
+          "sha": "0c85f7a7feab3ed607f72a5c6343d4e4bd6ec85c"
+        },
+        {
+          "path": "evals/files/co_frames.extxyz",
+          "sha": "77c90c9c76866e93a21a9dff8e6009577fc5bdce"
+        },
+        {
+          "path": "evals/files/cu_fcc.extxyz",
+          "sha": "7a6cccdc7c1d164376f2fb40d447815725894d1b"
+        },
+        {
+          "path": "evals/files/cu_slab.extxyz",
+          "sha": "3bfd2fe65e97e25c132cce053cfa9344f71ed967"
+        },
+        {
+          "path": "evals/files/hcn_product.extxyz",
+          "sha": "16b49cc5c3895d0dfc84b9272fbb6f808ae5910b"
+        },
+        {
+          "path": "evals/files/hcn_reactant.extxyz",
+          "sha": "65d2646e2912b124d68d5a07c389b1722b93a0a2"
+        },
+        {
+          "path": "evals/files/si_diamond.extxyz",
+          "sha": "1695c625adedb3735746139719a71da00ac407cb"
+        },
+        {
+          "path": "evals/files/toy_pair_model.py",
+          "sha": "3757ff03ce3d973423a82e620f4781998e440ffc"
+        },
+        {
+          "path": "evals/files/water.pdb",
+          "sha": "49c83f5c12c5348f42abcabc11607d627a47b859"
+        },
+        {
+          "path": "evals/grader.py",
+          "sha": "b7193bea6722b8cb140b33642b0d3c5281dad6bd"
+        },
+        {
+          "path": "evals/harbor/comp-01/instruction.md",
+          "sha": "5e13d20a9eb5c5efa86db96c7236a85d422f4b0b"
+        },
+        {
+          "path": "evals/harbor/comp-01/task.toml",
+          "sha": "e4a4a66554c6d9309d0e1131df19630b5fb85bcc"
+        },
+        {
+          "path": "evals/harbor/dataset.toml",
+          "sha": "5874977213f2a233d6390e58dbaf86c76b21e4b8"
+        },
+        {
+          "path": "evals/harbor/imp-01/instruction.md",
+          "sha": "137748d24d699f32885ad0e5246aec981b8099f5"
+        },
+        {
+          "path": "evals/harbor/imp-01/task.toml",
+          "sha": "21f7032cda61b965ffc9ccbde220d5f6dc25cb21"
+        },
+        {
+          "path": "evals/harbor/imp-02/instruction.md",
+          "sha": "81851103dab6d0a720439e1d3cd9943537c583d4"
+        },
+        {
+          "path": "evals/harbor/imp-02/task.toml",
+          "sha": "62c50efa0a8797198f48d92d096152f6f5024526"
+        },
+        {
+          "path": "evals/harbor/model-01/instruction.md",
+          "sha": "ed479745aa3088d334a5380a8970b97f786444c1"
+        },
+        {
+          "path": "evals/harbor/model-01/task.toml",
+          "sha": "53465979d713ed7b2930f9a358d5a2bc7efc538d"
+        },
+        {
+          "path": "evals/harbor/neg-01/instruction.md",
+          "sha": "e2da2f960c9be3247b99f59d9632a1678abdec1c"
+        },
+        {
+          "path": "evals/harbor/neg-01/task.toml",
+          "sha": "c26a8b06ea3b6e8f6d178286f327910a0275a421"
+        },
+        {
+          "path": "evals/harbor/neg-03/instruction.md",
+          "sha": "29691434e503ad50ec06ba7575fa1a54fac08531"
+        },
+        {
+          "path": "evals/harbor/neg-03/task.toml",
+          "sha": "6b20e642b278d4e329acbfee7d5bdebbc16fc0bb"
+        },
+        {
+          "path": "evals/harbor/scope-01/instruction.md",
+          "sha": "07ab00a656ef8ea465df10188bdf988c07b62cb1"
+        },
+        {
+          "path": "evals/harbor/scope-01/task.toml",
+          "sha": "906b217c0ac9d1b6d5fe221dfc3e676098e22a8c"
+        },
+        {
+          "path": "evals/harbor/scope-02/instruction.md",
+          "sha": "c1ba6f6f90789b77f65a4d68a11e9e437b592d15"
+        },
+        {
+          "path": "evals/harbor/scope-02/task.toml",
+          "sha": "0d16942ca81c8d99a088fc47742a413e75cb1664"
+        },
+        {
+          "path": "evals/harbor/scope-03/instruction.md",
+          "sha": "8fa9bb3e7fde3d25cf9be48e5ae16796903f6717"
+        },
+        {
+          "path": "evals/harbor/scope-03/task.toml",
+          "sha": "f4ea902c16b48a5145ea0987cface8e7b6d7b3ae"
+        },
+        {
+          "path": "evals/setup_cpu.sh",
+          "sha": "9bae552966bb6155bada92f655eba0c21199561f"
+        },
+        {
+          "path": "references/composition-and-extension.md",
+          "sha": "5558c469d505d193a636103dfb7a3c8711771835"
+        },
+        {
+          "path": "references/data.md",
+          "sha": "972cdad3e08314936de1e89621fa5334ca873c35"
+        },
+        {
+          "path": "references/dynamics-optimization.md",
+          "sha": "3f8de198b0df17f5f8dcf6a6ee467b0fb1c42d84"
+        },
+        {
+          "path": "references/generative-workflows.md",
+          "sha": "343a96182c37106075905a5e51f4a49d55e64eb1"
+        },
+        {
+          "path": "references/models.md",
+          "sha": "e30526dc5dec4d6530f6cdbb1225bb4b421c474b"
+        },
+        {
+          "path": "references/training.md",
+          "sha": "9b134e17170cf3dc756e7db1c1184102f3d493a6"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "763d86908496e7a3d1e6de7b18a2519785099bca"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "5ff7415bb3db96cbc166124f5aff2a35aebdec5a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvalchemi-toolkit"
     },
     {
       "id": "NVIDIA/skills@nvflare-autofl-report",
@@ -35868,7 +36920,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "e2a335b2",
+      "contentHash": "6cd4135a",
       "files": [
         {
           "path": "DRIVER.md",
@@ -35880,11 +36932,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "3cadbfe202f77e9a514afbc04d0c575951063949"
+          "sha": "962e7a4d8466243b3167f592abcaa484397f4825"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "842cc76100dd6f6fb5bf3d98d5af148d172aa13b"
+          "sha": "57c9a5e10d436b0e4f3fedd023b500fcb628d10c"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -36051,7 +37103,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "1270f451",
+      "contentHash": "9c403d62",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -36379,7 +37431,7 @@
         },
         {
           "path": "src/server.ts",
-          "sha": "db4348312dee829b4dc47714e3fcdb7ee17426dc"
+          "sha": "ad4588ec28a91c920449a0e2658fb01d13b56dd3"
         },
         {
           "path": "src/session-cookie-store.ts",
@@ -36923,7 +37975,7 @@
         },
         {
           "path": "test/handoff.test.ts",
-          "sha": "793a40b45e92c94b9bf7df197f1ffcd0f6331a10"
+          "sha": "d0bfeb86af01889496ff204c3c903c522d402fb2"
         },
         {
           "path": "test/headless-gpu-and-reap.test.ts",
@@ -37378,6 +38430,10 @@
           "sha": "2f1016db9d1a549afa67582eb3ec9acc9d9ce3e6"
         },
         {
+          "path": "test/tunnel-start-state.test.ts",
+          "sha": "ad64da13893c78b8b0d1b0c66e033d51d0a8cc3e"
+        },
+        {
           "path": "test/url-validation.test.ts",
           "sha": "4498525433bef0d2efda5638359cee1bc853c2c7"
         },
@@ -37474,15 +38530,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "a5904342",
+      "contentHash": "e48cb467",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f05b071ac875458962807f915ff2867e9f765737"
+          "sha": "2d6544b8442913f2f879cd3bb85b0443af996aaf"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "986a67f61cb23b943ec2a6f0c7dc8059d7195168"
+          "sha": "19a10af2616a05ad669b08ff6c4f02c59b929244"
         },
         {
           "path": "sections/preamble.md",
@@ -37494,7 +38550,7 @@
         },
         {
           "path": "templates/CREW.md",
-          "sha": "036a3687e23255e97263d4c8830889fb693ead8b"
+          "sha": "47c5237520aea8c22edee96d51c7d0f5513162d5"
         },
         {
           "path": "templates/DIGEST.md",
@@ -37506,7 +38562,7 @@
         },
         {
           "path": "templates/READY.md",
-          "sha": "f07b082cb9c6ea9390327724287f19dd9b22bfda"
+          "sha": "ff4f5002fb71fec5315dd8a6b291b00fcc0a2bdc"
         },
         {
           "path": "templates/automation-flaky-pass.md",
@@ -37514,7 +38570,7 @@
         },
         {
           "path": "templates/brief.md",
-          "sha": "7a7064993b75ddccd80965a571097f80dd7c17a3"
+          "sha": "602a74169c8258749f4e5c909b3e4c749e480309"
         },
         {
           "path": "templates/flaky-ledger.md",
@@ -37538,7 +38594,7 @@
         },
         {
           "path": "templates/report.md",
-          "sha": "775dbc1cd2cca5098c796f8970bbcd43f10dfe45"
+          "sha": "bac7b35c868b51549fa5abe3f5e95d291c5d3b77"
         },
         {
           "path": "templates/slot-call.md",
@@ -37555,11 +38611,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "00291a6a",
+      "contentHash": "5f2b4eb5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "de4a3adb217b2143a7b2abccf63a358c362c9e3d"
+          "sha": "fae0748875bd51e3c488861f5d67ba98756768fc"
         },
         {
           "path": "captain.md",
@@ -37567,11 +38623,11 @@
         },
         {
           "path": "factory.md",
-          "sha": "35b426a7f2597a92a34580c8e59aa0159cc51ce6"
+          "sha": "fa10da5d10146743f83cda830a31b909df66e07e"
         },
         {
           "path": "lane-card.md",
-          "sha": "6131f60f75578b355eabc1ee7c38447f1d6007b6"
+          "sha": "7486ff31f31389c61c7e6a25d2d7280fa65c4109"
         },
         {
           "path": "scripts/install.sh",
@@ -39723,15 +40779,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "ad9ddcdf",
+      "contentHash": "b158de1d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "3ce6adbce77a31e086f5ed1d2c90d8687a11be6e"
+          "sha": "a06b76ed0e175c6663e77887e59d18f49a3c2875"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "40f40d7b7cbf8a8bf5470d0201e3b282efe919a5"
+          "sha": "efe81cbb55c138951135c8ef778870671393c0ae"
         },
         {
           "path": "templates/rotation-handoff.md",
@@ -39739,7 +40795,7 @@
         },
         {
           "path": "templates/successor-brief.md",
-          "sha": "821da75daeccb2aac82d6021cdca65763ac702de"
+          "sha": "412ae2f8d3f693fe57969a01109ac2720b4a4669"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/runaway-stopper"
@@ -39884,7 +40940,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "0e63aa61",
+      "contentHash": "6257c77a",
       "files": [
         {
           "path": "DRIVER.md",
@@ -39944,11 +41000,11 @@
         },
         {
           "path": "sections/documentation.md",
-          "sha": "0106c8c30e87141435e92c0b60b13f6fae87ff15"
+          "sha": "c86848ad5f926ab99de48c17701130773d0f94f6"
         },
         {
           "path": "sections/documentation.md.tmpl",
-          "sha": "7fbbad6e67a03cbe6e38bc7033f291876dfb2e5c"
+          "sha": "95ffdd36f18e0f116977a56a590bc20fe023c415"
         },
         {
           "path": "sections/greptile-early.md",
@@ -40008,11 +41064,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "52688b4f7115579c38c578a467f1db4f62bb297c"
+          "sha": "5c06bf26420023b9e1d6af7f27bec595ca019a5b"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "22a09b94b61aad5c55ed5cf9ca04329840a47314"
+          "sha": "d7e7f6ec6a0264bc8d3d7c6f26d168596ebc7271"
         },
         {
           "path": "sections/shared-code-reuse.md",
