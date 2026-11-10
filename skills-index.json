@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794263123945,
+  "generatedAt": 1794295521357,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -40779,15 +40779,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "b158de1d",
+      "contentHash": "a6e9693b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a06b76ed0e175c6663e77887e59d18f49a3c2875"
+          "sha": "c94d9d91d0026e7c10121ead04d37f641b7bb7e0"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "efe81cbb55c138951135c8ef778870671393c0ae"
+          "sha": "40ce382ab6457afabcbb0c9cf296ae8c935969a6"
         },
         {
           "path": "templates/rotation-handoff.md",
