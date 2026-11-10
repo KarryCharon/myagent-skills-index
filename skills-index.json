@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794295521357,
+  "generatedAt": 1794340061455,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6997,15 +6997,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "plugins/nvidia-skills/skills/nvidia-skill-finder",
-      "contentHash": "f30ea061",
+      "contentHash": "72f7db77",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "79fd0d79b6fb76ec8453ed716b8d74d78aea5a94"
+          "sha": "280edff7fb41186410d5a41121382540b9be49da"
         },
         {
           "path": "SKILL.md",
-          "sha": "e9aa2f88736041e0400f5ebdfab5de7febf191a2"
+          "sha": "3083c8e594708e0b1057cf1d45e3fab315bbe2c6"
         },
         {
           "path": "agents/openai.yaml",
@@ -7013,7 +7013,11 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "7c351fc94b3efbeb71ebb04b8b3d39379c30340e"
+          "sha": "21fa07091fcf8413b0dcfc04b3ec42d86d06b343"
+        },
+        {
+          "path": "references/hermes-catalog.md",
+          "sha": "30eb8026f598ce9d53bf88e7fde8dad818195bc3"
         },
         {
           "path": "references/taxonomy-routing.md",
@@ -7021,11 +7025,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b5487a7edc671b91954d1358ab1b584743d21088"
+          "sha": "99e25103657d29a770340c0e996d60c1a36ce13a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "cdde023c342dd5b3defc5318fbdf5bed81acbda9"
+          "sha": "4a6e12ff343516a001454c9e1cb77fbcb397683d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/plugins/nvidia-skills/skills/nvidia-skill-finder"
@@ -8983,15 +8987,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cuopt-numerical-optimization-api",
-      "contentHash": "3fe63ed0",
+      "contentHash": "6db63bf5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a39992fb11c33d3746005d9f5d1e965606b6167c"
+          "sha": "92a6e6707147596a02e2fd57307978a3953d86ef"
         },
         {
           "path": "SKILL.md",
-          "sha": "f3bf4b0034f7a2151455bb0780a42f38301e2c6e"
+          "sha": "a7b809d5d73e53d831e1aab909d5b94f14ff526d"
         },
         {
           "path": "assets/c/README.md",
@@ -8999,7 +9003,7 @@
         },
         {
           "path": "assets/c/lp_basic/README.md",
-          "sha": "4644d85d02f3b3ed9b3810f5c4d2fda1641f3077"
+          "sha": "6235409740215351401aaa26d525e8249bca76bb"
         },
         {
           "path": "assets/c/lp_basic/lp_simple.c",
@@ -9007,7 +9011,7 @@
         },
         {
           "path": "assets/c/lp_duals/README.md",
-          "sha": "faec646357844852db80e91eb0b1a735e03329f1"
+          "sha": "08bd87e84027d1fcd7f52a6839051025fcea203e"
         },
         {
           "path": "assets/c/lp_duals/lp_duals.c",
@@ -9019,7 +9023,7 @@
         },
         {
           "path": "assets/c/milp_basic/README.md",
-          "sha": "11a4534d654db24fbbbbee698bb85da5c98debf8"
+          "sha": "026b2ff5d17147fa767005d9975c9022bd393f39"
         },
         {
           "path": "assets/c/milp_basic/milp_simple.c",
@@ -9027,7 +9031,7 @@
         },
         {
           "path": "assets/c/milp_production_planning/README.md",
-          "sha": "67e25256d66e7c1eb42c82601f6b442bab07605d"
+          "sha": "d669950d77c0375369135a0aae063c8377f8286c"
         },
         {
           "path": "assets/c/milp_production_planning/milp_production.c",
@@ -9035,7 +9039,7 @@
         },
         {
           "path": "assets/c/mps_solver/README.md",
-          "sha": "f4e2ee6015d25f918786fff606a45f9912b73965"
+          "sha": "77044783b762125a1a64df70d309adf0f9759c90"
         },
         {
           "path": "assets/c/mps_solver/data/sample.mps",
@@ -9075,7 +9079,7 @@
         },
         {
           "path": "assets/python/README.md",
-          "sha": "2e7e8681e4dd4f6f2a6f64ce2a0de1d1a084664e"
+          "sha": "d546948d20f4524d959ab37377923c11f576e283"
         },
         {
           "path": "assets/python/least_squares/README.md",
@@ -9107,7 +9111,7 @@
         },
         {
           "path": "assets/python/lp_warmstart/model.py",
-          "sha": "b0e893118fc6073294d4b7526b6af5e57eea4c40"
+          "sha": "e9168e05960b1d67ea633086bf98c90bb3d20fc8"
         },
         {
           "path": "assets/python/maximization_workaround/README.md",
@@ -9143,7 +9147,7 @@
         },
         {
           "path": "assets/python/mps_solver/data/README.md",
-          "sha": "67266feea8c0219b644feed4e70d2fa7a18818f1"
+          "sha": "57bfad701ad40153b3bc90002bb084e828f32d9e"
         },
         {
           "path": "assets/python/mps_solver/data/sample.mps",
@@ -9151,7 +9155,7 @@
         },
         {
           "path": "assets/python/mps_solver/model.py",
-          "sha": "fb8918c11c2c5aa1c552c7b62beb5992e739704c"
+          "sha": "7a84f0a44ecc7d869803097dff14b439723e47fd"
         },
         {
           "path": "assets/python/mps_solver/results.md",
@@ -9159,7 +9163,7 @@
         },
         {
           "path": "assets/python/portfolio/README.md",
-          "sha": "cf2173a455d72d1ae6ba1713860c9957d987c8ec"
+          "sha": "f49963cb5f7fd4e2ee4f24aed08fb134600bea3e"
         },
         {
           "path": "assets/python/portfolio/model.py",
@@ -9171,27 +9175,27 @@
         },
         {
           "path": "references/c_api.md",
-          "sha": "f07529f8fe08247f21d94dd809375b94299c3cb0"
+          "sha": "fa56535a48db47169676a15537af2cb14db18b3d"
         },
         {
           "path": "references/cli_api.md",
-          "sha": "79fdf27a03befbc152274f53b9d09669919c4da0"
+          "sha": "b7ab6643014be87b9846f4518e699a33951d7090"
         },
         {
           "path": "references/python_api.md",
-          "sha": "a80e3227f70df4cc48b439f3f9b2fa4ec40ba1ee"
+          "sha": "ffb1bd84abb4f53039a8746e1abc16a7ee8f6361"
         },
         {
           "path": "references/qp_examples.md",
-          "sha": "80b9802dbbc1f9f0fa95aebeab1d6cd0d7d7d44c"
+          "sha": "e493a1bf93a353ea62b73eaf3837daa655bb5e66"
         },
         {
           "path": "skill-card.md",
-          "sha": "9bc98e36058c9920afaaf48e44281cb97032dc73"
+          "sha": "09e5659593e2e6b4514a87ca324d9909c81c00f6"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "0064a9fc4dd2c9d4e1a7781b3b62e20c2fac577a"
+          "sha": "15ab438aea0262a6a6f8b51ed99f2d8856d52305"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-numerical-optimization-api"
@@ -14216,15 +14220,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/fastgen-configure",
-      "contentHash": "87db30ba",
+      "contentHash": "1c187eb2",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a14c974cf278088d38d0b4a5aaaca3d17e7ca485"
+          "sha": "26ee26e60a4c0ca24a95f3efe5c743de9d54d7f6"
         },
         {
           "path": "SKILL.md",
-          "sha": "2500368b6e3ac511790a653f950db21a47fae770"
+          "sha": "32fbdca156c0e17e0660d7a53caf319d00417c15"
         },
         {
           "path": "evals/config.yml",
@@ -14264,11 +14268,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "9349af3a8b4cb87a29e30656eb19d1cee16ba4d5"
+          "sha": "3bd0c8d5be143d64c58dbbea45db906e749f568f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c5ac187ad27ebea6198139a1f8cbfa69191f808f"
+          "sha": "e8fbca935c304ca7d840056faf0201cb67ac0f04"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-configure"
@@ -14281,15 +14285,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/fastgen-dataset",
-      "contentHash": "5e746cd9",
+      "contentHash": "d07f925f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9e3a783f50ff986e5902d5140460cd9ae61d90a1"
+          "sha": "a35a5f108445875f28e772b63129ed986fe5df5a"
         },
         {
           "path": "SKILL.md",
-          "sha": "62f1047a9af100f2a9dfaeb9d91bc2da889669a2"
+          "sha": "006a9447da411799955d522d1a8ba989ca148eb5"
         },
         {
           "path": "evals/config.yml",
@@ -14329,11 +14333,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "876240453f1b7ef6864641a51bf098e5d8a74eb9"
+          "sha": "4d1e14fd575707bd1caced2a97497083f3329d6d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "790e5f197fba0b3a48ccbd6b9fc733c450fb0796"
+          "sha": "ad3a25680a4a22e506948bab6cc008bdf16666fd"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/fastgen-dataset"
@@ -22775,15 +22779,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-skill-finder",
-      "contentHash": "f30ea061",
+      "contentHash": "72f7db77",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "79fd0d79b6fb76ec8453ed716b8d74d78aea5a94"
+          "sha": "280edff7fb41186410d5a41121382540b9be49da"
         },
         {
           "path": "SKILL.md",
-          "sha": "e9aa2f88736041e0400f5ebdfab5de7febf191a2"
+          "sha": "3083c8e594708e0b1057cf1d45e3fab315bbe2c6"
         },
         {
           "path": "agents/openai.yaml",
@@ -22791,7 +22795,11 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "7c351fc94b3efbeb71ebb04b8b3d39379c30340e"
+          "sha": "21fa07091fcf8413b0dcfc04b3ec42d86d06b343"
+        },
+        {
+          "path": "references/hermes-catalog.md",
+          "sha": "30eb8026f598ce9d53bf88e7fde8dad818195bc3"
         },
         {
           "path": "references/taxonomy-routing.md",
@@ -22799,11 +22807,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b5487a7edc671b91954d1358ab1b584743d21088"
+          "sha": "99e25103657d29a770340c0e996d60c1a36ce13a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "cdde023c342dd5b3defc5318fbdf5bed81acbda9"
+          "sha": "4a6e12ff343516a001454c9e1cb77fbcb397683d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-skill-finder"
@@ -40591,27 +40599,6 @@
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qm/sandbox/skills/gstack-plan"
-    },
-    {
-      "id": "garrytan/gstack@gstack-review",
-      "trust": "trusted",
-      "name": "gstack-review",
-      "description": "Use before merging a branch or PR: review the diff for bugs that pass CI but break production, fix the obvious ones and ask about the rest. (gstack)",
-      "repo": "garrytan/gstack",
-      "ref": "HEAD",
-      "path": "qm/sandbox/skills/gstack-review",
-      "contentHash": "b7bc2e20",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "51961b6013b974677b252088387af13a37a44c9e"
-        },
-        {
-          "path": "scripts/diff-base.sh",
-          "sha": "3972c62aae010491edc36d1754e04ac40bdffb04"
-        }
-      ],
-      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/qm/sandbox/skills/gstack-review"
     },
     {
       "id": "garrytan/gstack@retro",
