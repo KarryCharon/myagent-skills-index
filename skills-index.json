@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794340061455,
+  "generatedAt": 1794467851033,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -40927,7 +40927,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "6257c77a",
+      "contentHash": "ead154a7",
       "files": [
         {
           "path": "DRIVER.md",
@@ -41039,11 +41039,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "a745c52b6f7dd994ccd6ef05695d1ef2f43764f7"
+          "sha": "39d72452fb2516c444e1ff12c099d42bd04bfd65"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "6ea65e08445ef635f5079b67fe9a4df6fc0bed39"
+          "sha": "4fe6e0d5d70b6ee9ee632c63f0f6cefc021df42c"
         },
         {
           "path": "sections/preamble.md",
