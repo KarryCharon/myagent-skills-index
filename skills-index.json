@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794467851033,
+  "generatedAt": 1794513538483,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -19517,31 +19517,31 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-mbridge-recipe-recommender",
-      "contentHash": "3bf9a827",
+      "contentHash": "e05f5fc6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "6cadc19c6053feebec9a0304c2fd8d3712dbcb5e"
+          "sha": "26264a20a90a9e2579dfa621f839ffc78a222e9c"
         },
         {
           "path": "SKILL.md",
-          "sha": "f805bc6a4a86b8598d5730276bd8719e95234d59"
+          "sha": "b98467057f70b5c26a9a0d9ae823513a5aecdfc7"
         },
         {
           "path": "evals/evals.json",
-          "sha": "c9619811084d65757fac34abb8f3fb615095d998"
+          "sha": "74fee8f8cbc5ef21c1873be390cd2c67d6ff85b3"
         },
         {
           "path": "references/recipe-index.md",
-          "sha": "5b58640d637aa62be3d0e8c271f08ce6577312c5"
+          "sha": "8e99936b30fcb52ffa37a83b925041e9b7ca503d"
         },
         {
           "path": "skill-card.md",
-          "sha": "d305ffdc6c073c6ca65d965391e72b161c0b8243"
+          "sha": "554318c3d0b5259db8d4c5a1d7787ee36676bef1"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fc7ae40d3a5bee6b9d0e05c07f9fdd1ce73f11c9"
+          "sha": "59742ef2d21f931a9b8e4c3c8714dbd1d28c3dac"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-mbridge-recipe-recommender"
@@ -20779,6 +20779,80 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemotron-voice-agent-builder"
+    },
+    {
+      "id": "NVIDIA/skills@newton-performance",
+      "trust": "trusted",
+      "name": "newton-performance",
+      "description": "Measure or improve the runtime, startup time, memory use, or throughput of a Newton simulation that already behaves correctly, or review a Newton step loop for performance problems such as CUDA graph capture mistakes and host synchronization. Not for setting up simulations, general solver or API questions, debugging unstable or incorrect physics without a performance goal, or optimizing Warp code that does not use Newton.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/newton-performance",
+      "contentHash": "88ffaae8",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "944aa3016ae2a19f63800c880696794831153f85"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "89c227ddf0ebb242a0fe49094da40a6b4cce77e3"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "4b4e8a105d9ea5810014508cf4a4aec5d5b1819b"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "6aa46ced84707b0b84203313a10f9a29007a1034"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "a5a4ba9edc899403007f3e7266ec6cfd7b30713c"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "1a36096e88a8ec19953ceafaf84259b84f62076d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/newton-performance"
+    },
+    {
+      "id": "NVIDIA/skills@newton-usage",
+      "trust": "trusted",
+      "name": "newton-usage",
+      "description": "Set up, build, or debug physics simulations with the Newton Python package. Use when installing Newton, choosing simulation components, finding examples, or diagnosing simulation and runtime problems.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/newton-usage",
+      "contentHash": "090cfe94",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "bf993c8cd0610540aff6f8279612c8846d998e25"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "fdced49fc96b2d6a14008a19a8118c7d96de82f6"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "7e1a358fdd39f63d309b7f9f56c6b0de8fb8d512"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "029ab9cb13757d5b628039565faab4260f396786"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "170f5ca1d25d3424c0a26f53bd8fa502ef9b3c83"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8660b309150a79d5c604e92d255dbc7c06899765"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/newton-usage"
     },
     {
       "id": "NVIDIA/skills@nv-generate-ct-rflow",
