@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794637801915,
+  "generatedAt": 1794679771654,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -464,7 +464,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/docx",
-      "contentHash": "ad225115",
+      "contentHash": "8e467077",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -472,7 +472,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "acc50ea0729fc4b22319b25f1277d0db6f3b429a"
+          "sha": "8620c46411705b38e4d97f15325fc976911c4f89"
         },
         {
           "path": "scripts/__init__.py",
@@ -492,15 +492,15 @@
         },
         {
           "path": "scripts/office/helpers/__init__.py",
-          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+          "sha": "4902e2ad85e6789b71d7d944bc8e16d978f8cb6e"
         },
         {
           "path": "scripts/office/helpers/pptx_chart.py",
-          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+          "sha": "0e86aed6ed60c248001c7fa007f1ac4bb498d65f"
         },
         {
           "path": "scripts/office/helpers/pptx_slide.py",
-          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+          "sha": "55274b837847f0b918dcf5cc692b775f06723f0a"
         },
         {
           "path": "scripts/office/helpers/pptx_theme.py",
@@ -664,11 +664,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -676,19 +676,19 @@
         },
         {
           "path": "scripts/office/validators/base.py",
-          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+          "sha": "04d6169c1cb489dc94aa78ece22e60ee5911b854"
         },
         {
           "path": "scripts/office/validators/docx.py",
-          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+          "sha": "2acdaf4ef4e5ec84c7191dadf9eeb73b00a81cc2"
         },
         {
           "path": "scripts/office/validators/pptx.py",
-          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+          "sha": "bb06b825e3dad82c3859243f294a963868d7dc8f"
         },
         {
           "path": "scripts/office/validators/redlining.py",
-          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+          "sha": "4406912e654dca3fc1869dc6bdd7099ac6573041"
         },
         {
           "path": "scripts/templates/comments.xml",
@@ -836,23 +836,23 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/pdf",
-      "contentHash": "a665c65a",
+      "contentHash": "550f3d98",
       "files": [
+        {
+          "path": "FORMS.md",
+          "sha": "13493857340a31c41970faf407327b57b0aac8e1"
+        },
         {
           "path": "LICENSE.txt",
           "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
         },
         {
+          "path": "REFERENCE.md",
+          "sha": "7748e376a0f174cb36738599268c30227ebe1f3c"
+        },
+        {
           "path": "SKILL.md",
           "sha": "9f606f1cd68dcab9dabb75b548e90c1de028b8a2"
-        },
-        {
-          "path": "forms.md",
-          "sha": "6e7e1e0d9e6ae17215db3e130aea3c3c546487e6"
-        },
-        {
-          "path": "reference.md",
-          "sha": "41400bf4fc67f15fb062d43695ec92f078226023"
         },
         {
           "path": "scripts/check_bounding_boxes.py",
@@ -897,7 +897,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/pptx",
-      "contentHash": "be3c52a1",
+      "contentHash": "837d9f86",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -905,7 +905,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "a90df9c7e8f47c474c58f367faba57b66ff14cbb"
+          "sha": "785fea6d36f74970eb38dd00af51651ff0792162"
         },
         {
           "path": "scripts/__init__.py",
@@ -913,7 +913,11 @@
         },
         {
           "path": "scripts/add_slide.py",
-          "sha": "f013ea94d1785c8cf767fb69284ffb5b8dd9d390"
+          "sha": "9b418bceb49ef063d8f32d4b98a364de669588d2"
+        },
+        {
+          "path": "scripts/apply_theme.js",
+          "sha": "ea6e45a11ca11a4ce64dd1c1dcd7335ca746831e"
         },
         {
           "path": "scripts/clean.py",
@@ -921,15 +925,15 @@
         },
         {
           "path": "scripts/office/helpers/__init__.py",
-          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+          "sha": "4902e2ad85e6789b71d7d944bc8e16d978f8cb6e"
         },
         {
           "path": "scripts/office/helpers/pptx_chart.py",
-          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+          "sha": "0e86aed6ed60c248001c7fa007f1ac4bb498d65f"
         },
         {
           "path": "scripts/office/helpers/pptx_slide.py",
-          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+          "sha": "55274b837847f0b918dcf5cc692b775f06723f0a"
         },
         {
           "path": "scripts/office/helpers/pptx_theme.py",
@@ -1093,11 +1097,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -1105,19 +1109,23 @@
         },
         {
           "path": "scripts/office/validators/base.py",
-          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+          "sha": "04d6169c1cb489dc94aa78ece22e60ee5911b854"
         },
         {
           "path": "scripts/office/validators/docx.py",
-          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+          "sha": "2acdaf4ef4e5ec84c7191dadf9eeb73b00a81cc2"
         },
         {
           "path": "scripts/office/validators/pptx.py",
-          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+          "sha": "bb06b825e3dad82c3859243f294a963868d7dc8f"
         },
         {
           "path": "scripts/office/validators/redlining.py",
-          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+          "sha": "4406912e654dca3fc1869dc6bdd7099ac6573041"
+        },
+        {
+          "path": "scripts/slide_text.py",
+          "sha": "c583efabc4fc3e5d3b4d569fe9e5ca77d8dc5249"
         },
         {
           "path": "scripts/thumbnail.py",
@@ -1395,7 +1403,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/xlsx",
-      "contentHash": "279cf6e5",
+      "contentHash": "df13b0ce",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -1403,19 +1411,19 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "cc347203f2247b009b8ea34574bccfa62fce3669"
+          "sha": "419ecd344b776826107eef93a9727af3772cb755"
         },
         {
           "path": "scripts/office/helpers/__init__.py",
-          "sha": "d3c5817c7e50b23bdd82032c8f89fed497bce9fa"
+          "sha": "4902e2ad85e6789b71d7d944bc8e16d978f8cb6e"
         },
         {
           "path": "scripts/office/helpers/pptx_chart.py",
-          "sha": "209cb7c58b91b90ee685c082f7e20be21a1a6686"
+          "sha": "0e86aed6ed60c248001c7fa007f1ac4bb498d65f"
         },
         {
           "path": "scripts/office/helpers/pptx_slide.py",
-          "sha": "22f9aee0ff6c4797fa344f064d7cd6a1ab96b05b"
+          "sha": "55274b837847f0b918dcf5cc692b775f06723f0a"
         },
         {
           "path": "scripts/office/helpers/pptx_theme.py",
@@ -1579,11 +1587,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "0b4c99deca54013c550458c9244ee63eea748dca"
+          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "29ca186a12e5c102702029ab9e51e6c3b71b1403"
+          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -1591,23 +1599,23 @@
         },
         {
           "path": "scripts/office/validators/base.py",
-          "sha": "33fc97bbe351949f9a8bd88998c78f81cd842c6a"
+          "sha": "04d6169c1cb489dc94aa78ece22e60ee5911b854"
         },
         {
           "path": "scripts/office/validators/docx.py",
-          "sha": "b18149945a7cf7ebd77c14655eb74d89baca3a00"
+          "sha": "2acdaf4ef4e5ec84c7191dadf9eeb73b00a81cc2"
         },
         {
           "path": "scripts/office/validators/pptx.py",
-          "sha": "318f0e61483972fb08e02be39c94331dba46445e"
+          "sha": "bb06b825e3dad82c3859243f294a963868d7dc8f"
         },
         {
           "path": "scripts/office/validators/redlining.py",
-          "sha": "4185c51f4f10eeaf3227168e440ed378ce120ec6"
+          "sha": "4406912e654dca3fc1869dc6bdd7099ac6573041"
         },
         {
           "path": "scripts/recalc.py",
-          "sha": "6232be2deea56cc97c1d8996e4d68adf2457059c"
+          "sha": "9f1d1b9abf0b602fac6ab75d5d0f9b923287b9fd"
         }
       ],
       "webUrl": "https://github.com/anthropics/skills/tree/HEAD/skills/xlsx"
