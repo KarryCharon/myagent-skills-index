@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794513538483,
+  "generatedAt": 1794637801915,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21564,11 +21564,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvalchemi-toolkit",
-      "contentHash": "b92192c4",
+      "contentHash": "65df0bbb",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "1947dc4b83c67c01492c941a1bb0118ec782f02f"
+          "sha": "d84ceef90e461831e816cfefc8d22cecfea85f51"
         },
         {
           "path": "SKILL.md",
@@ -21728,15 +21728,15 @@
         },
         {
           "path": "references/composition-and-extension.md",
-          "sha": "5558c469d505d193a636103dfb7a3c8711771835"
+          "sha": "d647836167326691774feb47a76e4af5036486cf"
         },
         {
           "path": "references/data.md",
-          "sha": "972cdad3e08314936de1e89621fa5334ca873c35"
+          "sha": "61f3ab344ec2e2b13be01360e933f25d710d0541"
         },
         {
           "path": "references/dynamics-optimization.md",
-          "sha": "3f8de198b0df17f5f8dcf6a6ee467b0fb1c42d84"
+          "sha": "6315d3899c6dc4b3f4a88318ee84535306108dd2"
         },
         {
           "path": "references/generative-workflows.md",
@@ -21752,11 +21752,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "763d86908496e7a3d1e6de7b18a2519785099bca"
+          "sha": "453b1c590ced1cf15261cba569d8a6c9129decb0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5ff7415bb3db96cbc166124f5aff2a35aebdec5a"
+          "sha": "955383e462a441583ca44bca034f2de5dd8ee124"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvalchemi-toolkit"
