@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794810981438,
+  "generatedAt": 1794866973644,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -464,7 +464,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/docx",
-      "contentHash": "8e467077",
+      "contentHash": "d0f933e7",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -472,7 +472,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "8620c46411705b38e4d97f15325fc976911c4f89"
+          "sha": "a95379e1bb058bbca8c51edbd30de4d31ae4785b"
         },
         {
           "path": "scripts/__init__.py",
@@ -664,11 +664,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
+          "sha": "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
+          "sha": "cdd6a91e0bc95f00e339a046517c78a586691330"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -897,7 +897,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/pptx",
-      "contentHash": "837d9f86",
+      "contentHash": "09cbfcd3",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -905,7 +905,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "785fea6d36f74970eb38dd00af51651ff0792162"
+          "sha": "6857031b6d9942039b9fe1871887910e8f5c5ff5"
         },
         {
           "path": "scripts/__init__.py",
@@ -1097,11 +1097,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
+          "sha": "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
+          "sha": "cdd6a91e0bc95f00e339a046517c78a586691330"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -1403,7 +1403,7 @@
       "repo": "anthropics/skills",
       "ref": "HEAD",
       "path": "skills/xlsx",
-      "contentHash": "df13b0ce",
+      "contentHash": "7062cad6",
       "files": [
         {
           "path": "LICENSE.txt",
@@ -1587,11 +1587,11 @@
         },
         {
           "path": "scripts/office/soffice.py",
-          "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57"
+          "sha": "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d"
         },
         {
           "path": "scripts/office/validate.py",
-          "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
+          "sha": "cdd6a91e0bc95f00e339a046517c78a586691330"
         },
         {
           "path": "scripts/office/validators/__init__.py",
@@ -20863,6 +20863,288 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/newton-usage"
     },
     {
+      "id": "NVIDIA/skills@nsight-port-cpu-to-gpu",
+      "trust": "trusted",
+      "name": "nsight-port-cpu-to-gpu",
+      "description": "Guide an agent through GPU-accelerating a codebase: setup interview, flavor-specific translation (Fortran OpenACC, Fortran OpenMP, C++ CUDA, C++ Kokkos), and NVIDIA Nsight Systems (nsys) profile-guided orchestration. Use when porting HPC applications to GPU. Do not use for porting or optimizing  individual standalone kernels.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nsight-port-cpu-to-gpu",
+      "contentHash": "38f8214b",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "3ca70e50b9c8eabc98367d908a3edaf77792fc41"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "55cb0e653663749a8acd0df8f6090fea95c7f9b2"
+        },
+        {
+          "path": "assets/config-template.json",
+          "sha": "88ea449b62ac23541ab099221c2b6dbdaefb0059"
+        },
+        {
+          "path": "assets/nsight-port-gitignore-template",
+          "sha": "3bc3140844108db2c3e25837a2bd6a5647ee9687"
+        },
+        {
+          "path": "assets/progress-template.json",
+          "sha": "d81020fd7bb6737361215722c1d307d7f436f59d"
+        },
+        {
+          "path": "assets/skill_feedback-template.json",
+          "sha": "589225e1b59fc7547bb7b539d5b1cb8c250f7150"
+        },
+        {
+          "path": "assets/test-harness/compare_field.f90",
+          "sha": "cfca82934e17b3b8d9ed369f6b830424c92c415f"
+        },
+        {
+          "path": "assets/test-harness/compare_field.hpp",
+          "sha": "f02ba5c640e92473562b461840299b33e7896c4d"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "1cfe27a1a23c7045a192faa2085065ce3fcac7cb"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "fb12d240873dd7f2531525993a816114aeb67a39"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b3b82e9ac32f90a7ae5a21af4766a61245c5ceb8"
+        },
+        {
+          "path": "evals/files/advection/Makefile",
+          "sha": "f8f43c63974c65f84b263b1fe1dcc4889e56eb28"
+        },
+        {
+          "path": "evals/files/advection/advection_code.f90",
+          "sha": "363792c811c5ef490c5421157c00bc60dbdf3d66"
+        },
+        {
+          "path": "flavors/cpp/cuda/build-integration.md",
+          "sha": "0ee6d82980586021bcf21c5f0e1d5dd0f726f8e3"
+        },
+        {
+          "path": "flavors/cpp/cuda/device-utils.md",
+          "sha": "6afa657cb5dfabc1eed0ed852e6ca7e2f361501b"
+        },
+        {
+          "path": "flavors/cpp/cuda/manifest.json",
+          "sha": "a6ddde3a7620a28e3c39def209862e705d74a633"
+        },
+        {
+          "path": "flavors/cpp/cuda/patterns.md",
+          "sha": "c8e3c35ef1a49dbe68a808e0d7ec8f23dd002fde"
+        },
+        {
+          "path": "flavors/cpp/cuda/refactoring.md",
+          "sha": "656fa36e08f11ef969bf65760fd7051a4eadb436"
+        },
+        {
+          "path": "flavors/cpp/cuda/translation.md",
+          "sha": "ed64e1a3c7ecf40ea5b30b3aa53d8bc0319194b7"
+        },
+        {
+          "path": "flavors/cpp/kokkos/build-integration.md",
+          "sha": "675b682605c70b40b918ac11c9778e1d677dffb7"
+        },
+        {
+          "path": "flavors/cpp/kokkos/device-utils.md",
+          "sha": "767bbf24d3fad8459ada211c5ab553514b967eb0"
+        },
+        {
+          "path": "flavors/cpp/kokkos/manifest.json",
+          "sha": "c6fb013d6b1678d438bc0f8e3e05c3cdb2336898"
+        },
+        {
+          "path": "flavors/cpp/kokkos/nvtx.md",
+          "sha": "4f24f90c99456d71d88931802f86400631324108"
+        },
+        {
+          "path": "flavors/cpp/kokkos/patterns.md",
+          "sha": "05294f3baa333dc973843630e0ac3912c3c9f895"
+        },
+        {
+          "path": "flavors/cpp/kokkos/refactoring.md",
+          "sha": "6316b5d2117852dcc0d09f22ec1603b741053902"
+        },
+        {
+          "path": "flavors/cpp/kokkos/translation.md",
+          "sha": "86308f2d2a974f8e066383f669e19232057f160e"
+        },
+        {
+          "path": "flavors/cpp/nvtx.md",
+          "sha": "c467a8687e02f2b3f41e12f8e566b388eb69cc6f"
+        },
+        {
+          "path": "flavors/cpp/refactoring.md",
+          "sha": "1b74303edcd6658b6718eddd2b1393b5e1e5e66d"
+        },
+        {
+          "path": "flavors/fortran/nvtx.md",
+          "sha": "44f1f6b83175c3b1b9e599db99faf3a2cd0820aa"
+        },
+        {
+          "path": "flavors/fortran/openacc/build-integration.md",
+          "sha": "ce6aa79a6af04f48d1aca6467e3ccf2fc3aba5ec"
+        },
+        {
+          "path": "flavors/fortran/openacc/device-utils-inline.md",
+          "sha": "9475c562812a064ca487722e5c5183c140ae6f67"
+        },
+        {
+          "path": "flavors/fortran/openacc/device-utils-sibling.md",
+          "sha": "167fbe5d77677f0de91de3a77057d227cde9e628"
+        },
+        {
+          "path": "flavors/fortran/openacc/device-utils.md",
+          "sha": "34eb0e843e6065a02abb11e05593144ed289e176"
+        },
+        {
+          "path": "flavors/fortran/openacc/manifest.json",
+          "sha": "24fad4667dcd002a73d346d3af69caff3134a2d5"
+        },
+        {
+          "path": "flavors/fortran/openacc/patterns.md",
+          "sha": "a89705fa7538caaf90e981162bd27df57a146348"
+        },
+        {
+          "path": "flavors/fortran/openacc/refactoring.md",
+          "sha": "4dee98527cd54297639ccf20ad2927a67771cc45"
+        },
+        {
+          "path": "flavors/fortran/openacc/translation-inline.md",
+          "sha": "b7116e77698125e73907d36bf68ef3350f8ddc2b"
+        },
+        {
+          "path": "flavors/fortran/openacc/translation-sibling.md",
+          "sha": "20264b0e66c9995f9347ab3b9a7a52018c33f93e"
+        },
+        {
+          "path": "flavors/fortran/openacc/translation.md",
+          "sha": "b8e561106407764858ac0da81735959805461231"
+        },
+        {
+          "path": "flavors/fortran/openmp/build-integration.md",
+          "sha": "c084805eb303d9c9b3f9268f6964d14d48cd4146"
+        },
+        {
+          "path": "flavors/fortran/openmp/device-utils-inline.md",
+          "sha": "edd47deacbb51941dc99722ab3591a4fadde6af9"
+        },
+        {
+          "path": "flavors/fortran/openmp/device-utils-sibling.md",
+          "sha": "b62ec2d890fb34136e494e75b86b95f68f0ca74c"
+        },
+        {
+          "path": "flavors/fortran/openmp/device-utils.md",
+          "sha": "2a549c93f42ae7f955c834c404f10b98d23a76c0"
+        },
+        {
+          "path": "flavors/fortran/openmp/manifest.json",
+          "sha": "8ba474c66c1cea739e9aabf04a90509647d23d83"
+        },
+        {
+          "path": "flavors/fortran/openmp/patterns.md",
+          "sha": "a56c9511c3216c56c4db13682389ae413376d54b"
+        },
+        {
+          "path": "flavors/fortran/openmp/refactoring.md",
+          "sha": "ff5cbd105a017a3e4d1ebc454b973b8bef3a1738"
+        },
+        {
+          "path": "flavors/fortran/openmp/translation-inline.md",
+          "sha": "6e1bfc31092e0b5126815cff8d9a525e8f170c2d"
+        },
+        {
+          "path": "flavors/fortran/openmp/translation-sibling.md",
+          "sha": "c7029bc4edfc04e7eb233d698cf7e6a62beca62b"
+        },
+        {
+          "path": "flavors/fortran/openmp/translation.md",
+          "sha": "13d711dca6aaab4f95e589044169934df3b4c4df"
+        },
+        {
+          "path": "flavors/fortran/refactoring.md",
+          "sha": "09ef6fbc515a20cc65c7bc23244b9c7aa3dc035e"
+        },
+        {
+          "path": "orchestrators/nsys/orchestrator.md",
+          "sha": "f94c694cde023c319a33b5de830ad892982b4009"
+        },
+        {
+          "path": "orchestrators/nsys/references/iteration-report-template.md",
+          "sha": "9c92ef0ce4288f17872398e2f316f129b6e85d87"
+        },
+        {
+          "path": "orchestrators/nsys/references/planning-from-trace.md",
+          "sha": "0e55bd716e3a3cbf97372c140b716ca4f6257a97"
+        },
+        {
+          "path": "orchestrators/nsys/references/profiling-guide.md",
+          "sha": "65640f41e18b6595187cf88813f2e59965cab9df"
+        },
+        {
+          "path": "references/coverage-set-guide.md",
+          "sha": "9172446d01793851affd070e88cb28500d9a6ea0"
+        },
+        {
+          "path": "references/session-retrospective-template.md",
+          "sha": "beb4293d1e4b6483ff727c78c82d880396062feb"
+        },
+        {
+          "path": "references/setup-guide.md",
+          "sha": "e13d100083abdf0464ad3aad776c73f8998a2b1f"
+        },
+        {
+          "path": "references/skill-feedback-log.md",
+          "sha": "cf795b01ef5f27a8d688646a1a2530458c8a8c05"
+        },
+        {
+          "path": "references/verification-guide.md",
+          "sha": "c0f4d214c6094b79fccff1b96d173a95c24409a8"
+        },
+        {
+          "path": "scripts/gpu-check.sh",
+          "sha": "722dc850e14f25d8ed773ae8736462df9c2fc7e3"
+        },
+        {
+          "path": "scripts/profile-check.sh",
+          "sha": "d50fc090ba28b49584fbc8da3966e94d747b95f6"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2fb325c42178323f382bee244878881f1d318c72"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "582670f680a516bb6e5ad49cce3dba9f69c6d4d7"
+        },
+        {
+          "path": "subskills/refactor-task/workflow.md",
+          "sha": "a58bed3141cf59736d13e3f0c4102543b5962339"
+        },
+        {
+          "path": "subskills/translate-function/workflow.md",
+          "sha": "34b70138e17d911b88173ad7549f47e8b2084c84"
+        },
+        {
+          "path": "subskills/translate-utility/workflow.md",
+          "sha": "770d24e1c632d97f3dc14a83f2df3069cd2366ef"
+        },
+        {
+          "path": "transitions/fortran-to-cpp.md",
+          "sha": "6a6945459e840043820e3498f5c69babceba902a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nsight-port-cpu-to-gpu",
+      "version": "6.0.0"
+    },
+    {
       "id": "NVIDIA/skills@nv-generate-ct-rflow",
       "trust": "trusted",
       "name": "nv-generate-ct-rflow",
@@ -21572,11 +21854,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvalchemi-toolkit",
-      "contentHash": "65df0bbb",
+      "contentHash": "9e10f913",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d84ceef90e461831e816cfefc8d22cecfea85f51"
+          "sha": "c3e351522f93276dc7d0b55f64288739e65fab91"
         },
         {
           "path": "SKILL.md",
@@ -21736,7 +22018,7 @@
         },
         {
           "path": "references/composition-and-extension.md",
-          "sha": "d647836167326691774feb47a76e4af5036486cf"
+          "sha": "7024e672cd9f2c8592c6757981d37d921c7c2e2b"
         },
         {
           "path": "references/data.md",
@@ -21744,7 +22026,7 @@
         },
         {
           "path": "references/dynamics-optimization.md",
-          "sha": "6315d3899c6dc4b3f4a88318ee84535306108dd2"
+          "sha": "11021c02c93e7bbc2752ff89d0113d291707fb63"
         },
         {
           "path": "references/generative-workflows.md",
@@ -21760,11 +22042,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "453b1c590ced1cf15261cba569d8a6c9129decb0"
+          "sha": "943d09f3bcf3725c5cbc5126fb391d9a0e396cb6"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "955383e462a441583ca44bca034f2de5dd8ee124"
+          "sha": "924d830eea16df76ef4e6643f791b5a66cb3f001"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvalchemi-toolkit"
@@ -22723,15 +23005,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-management",
-      "contentHash": "59cd0c6e",
+      "contentHash": "84167d6e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0d4b514bdf4c82a39a032c509c9929a5042ca641"
+          "sha": "889c25e0b35451e84c1a90bfc13f68acb5dab185"
         },
         {
           "path": "SKILL.md",
-          "sha": "c03bf84dacd9d33f02eccb02af1f539a0b93b15c"
+          "sha": "aa2eb623d0eaa909c20fb6b615160d88e8173356"
         },
         {
           "path": "assets/runtime-contract.yaml",
@@ -22755,11 +23037,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "9fbd362d9adf7ef44e23426206b8dc273c840fc7"
+          "sha": "27afa25401b97c59dc4809f63665bbc4e76e7d41"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "adafad32e4ab94c3eb3b30aaa2fe6f8e97ee9373"
+          "sha": "7b91cc2cc7dc8a088ea5682492dbeee57288ae44"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-management",
@@ -22773,15 +23055,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-query",
-      "contentHash": "fa8518ec",
+      "contentHash": "f11e7eab",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3f72a7abf7b49cfb17b9988f17dc1d9986b3bd6d"
+          "sha": "3df35f0ed89d3c11b1898ea169bb0dab4eb07cd1"
         },
         {
           "path": "SKILL.md",
-          "sha": "56ccfb32bd23ffb1ad2aa4c1d0fcd31aaf21323c"
+          "sha": "a6d0967bfb2650fc6b309d5b32f41bbad1e5d94c"
         },
         {
           "path": "assets/runtime-contract.yaml",
@@ -22801,11 +23083,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "f621c0664c5a54654a049632ea438d09b9c25e1c"
+          "sha": "e9f6baa39cb5a6bccacf9aa91019a5020724e98c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "38876f2356484e1156b9a43789a03292a9539deb"
+          "sha": "2e9f68bc03a42048a1c56720c8bee823c98a4a57"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-query",
@@ -22819,15 +23101,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-setup",
-      "contentHash": "a10c63b1",
+      "contentHash": "a5b6a96e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "150e039924171d16502ec026c71afd7fa1b53c05"
+          "sha": "daf4fdda01a3168d30e494ce12959c611a969e72"
         },
         {
           "path": "SKILL.md",
-          "sha": "6a2adaae618f1bc4189bdf30cbaf4c3416d8588b"
+          "sha": "dbc7ffa3a34e35676c4c110d3bb60c1d77803a02"
         },
         {
           "path": "assets/runtime-contract.yaml",
@@ -22839,15 +23121,15 @@
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "692334fffa9ee8630b6a4b1a36545389165f1f4a"
+          "sha": "14a68ec260b35dc98f527ce076a209bd4fb12dea"
         },
         {
           "path": "skill-card.md",
-          "sha": "d5350f78dd847928e3197ad2c259a8156ea2172d"
+          "sha": "4631baab004c3358dc5eac44bacdec259f6c01e3"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "985ade570515a31512c2e789f9440f05a2d2a15a"
+          "sha": "b81c2d62c10e186151106e2b5ca92d695ace0bd2"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-setup",
