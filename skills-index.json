@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794866973644,
+  "generatedAt": 1794949163751,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6226,15 +6226,15 @@
       "id": "huggingface/skills@hf-mem",
       "trust": "trusted",
       "name": "hf-mem",
-      "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+      "description": "Estimate the GPU memory needed to run a Hugging Face model (weights, KV cache and inference overhead) and whether it fits on given GPUs, without downloading it. Use when asked how much VRAM a model needs, whether it fits on a GPU, the longest context that fits, or which GGUF quantization to pick.",
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/hf-mem",
-      "contentHash": "dbad6650",
+      "contentHash": "b5632c54",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "fadc48b0e2a510e21345e3860c69ac799255d9c0"
+          "sha": "d4dac3fd6a8901282affb33f2bf1892c71e24105"
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/hf-mem"
@@ -8526,6 +8526,348 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cdf-video-data-augmentation",
       "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-author-objective",
+      "trust": "trusted",
+      "name": "compileiq-author-objective",
+      "description": "Use when writing the objective_function= passed to Search(). Covers the two legal signatures (compiler-only str vs mixed list), the baseline-knockout branch, per-eval cache busting, framework-specific --apply-controls injection (raw PTXAS, NVCC, Triton, Helion, cuTeDSL/FA4, FlashInfer), correctness-before-timing, INVALID_SCORE handling, and the Debug-pack O0/O3 ACF-injection canary that must pass before launching a search. Triggers on \"objective function\", \"apply-controls\", \"INVALID_SCORE\", \"save_compiler_config\", \"baseline knockout\", \"BASELINE_CONFIG\", \"every config returns the same score\", \"TypeError fromhex\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-author-objective",
+      "contentHash": "37e2619c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "8c5106605e77f1931594db9893387b8828f8b419"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "e1527a0ef8e6d774dbd361eafae4cdf9057584ad"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "e17b70448a494fde8b066deb6cbceb18e4c362a9"
+        },
+        {
+          "path": "evals/files/objective_legacy_nvcc.py",
+          "sha": "9eadb1ec8962165a775d22be90d740e80bd95a81"
+        },
+        {
+          "path": "evals/files/triton_softmax_objective.py",
+          "sha": "8d2ab31b5230e731f0a53047422a504b6941251e"
+        },
+        {
+          "path": "references/templates.md",
+          "sha": "5109a650ae04c51b86c2fd5fe76512e89dddc08f"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "ec31467dc16bb41846ea51669f00610fff761f7a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8cbfac5ba783fc3c7b5141e62d8e66902873908b"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-author-objective",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-booster-pack",
+      "trust": "trusted",
+      "name": "compileiq-booster-pack",
+      "description": "Use BEFORE running a full CompileIQ search. Walks through downloading a Booster Pack from NVIDIA/CompileIQ GitHub Releases, applying ACF candidates one at a time to the user's compiler (raw PTXAS, NVCC, Triton, Helion, FlashInfer), and keeping only candidates that compile, pass correctness, and beat the no-ACF baseline. Includes the mandatory Debug-pack O0/O3 ACF-injection canary that proves the ACF is reaching PTXAS. Triggers on \"booster pack\", \"ACF\", \"apply-controls\", \"speed up without searching\", \"helion fp8\", \"flashinfer batch decode\", \"debug pack\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-booster-pack",
+      "contentHash": "d1bc6d5c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4c2f6efccce50d07cc27f922db304090e2c0dc09"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "0071f2b2d6e48dc472c56e12371536107226dd43"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "10f8b55c12d7340fb3c583cebe2f60c655fc6db7"
+        },
+        {
+          "path": "evals/files/booster-pack-manifest.json",
+          "sha": "d41a7d68f4d4c20de3972176bbd4a14c9a1aeaed"
+        },
+        {
+          "path": "evals/files/candidate_03.acf",
+          "sha": "6c9c7ac4c1d5dc9e35dfadc0af14a256741ce162"
+        },
+        {
+          "path": "evals/files/candidate_07.acf",
+          "sha": "e8165c317d5dd8cdf49141c4ef6786eb33e06b88"
+        },
+        {
+          "path": "evals/files/candidate_11.acf",
+          "sha": "cac669b0636caea5f839c0d4fca2e0c0f0023353"
+        },
+        {
+          "path": "evals/files/mock_bench.py",
+          "sha": "f91c01265caee54fe9262e3e3842180127a55315"
+        },
+        {
+          "path": "scripts/apply_one_acf.sh",
+          "sha": "cda3f736d16d600a9550f7d67f344c6fa53b1122"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9d221331e3d0f94648ed5bbaba633992b60e6caa"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "32bab791ded17fe5614cafe3177b88a4e359b1e2"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-booster-pack",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-bootstrap",
+      "trust": "trusted",
+      "name": "compileiq-bootstrap",
+      "description": "Use when starting a fresh CompileIQ project, hitting a hang on the first evaluation, or before running any other compileiq-* skill. Verifies CUDA 13.3+, ptxas, GPU access, that `from compileiq.ciq import Search` and friends resolve, and that `PtxasSearchSpace().retrieve()` returns a real path. Documents the env vars that control timeouts, caching, and search-space mirroring. Triggers on \"set up compileiq\", \"compileiq doesn't work\", \"first eval hangs\", \"where do search spaces come from\", \"air-gapped compileiq\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-bootstrap",
+      "contentHash": "81f2e4f9",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "89b4316421d34d36807fd31701bbe6159e5797d8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "0fcaaccbbae9ec2bf532ecaf8cf7f332e377ae43"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "3460fcf713df950d238dd3dcd3ab886a2ed61c3b"
+        },
+        {
+          "path": "evals/files/check_env_h100.log",
+          "sha": "70cf7f17ff57b394249bb710951790446ee4342f"
+        },
+        {
+          "path": "evals/files/manifest.json",
+          "sha": "d5ece2d1d9747d4c25b7c6a188493875869d8312"
+        },
+        {
+          "path": "scripts/check_env.sh",
+          "sha": "5e72468248c4795dcef8656a5d40c3dd432c52f1"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "e044fd4f999524b505c1ec91a405cdbd2b3b60d9"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "17e9533fd8ddb295801c0c67a2a35a313a5d363a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-bootstrap",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-debug",
+      "trust": "trusted",
+      "name": "compileiq-debug",
+      "description": "Use when something is wrong: Search() hangs, all evaluations return INVALID_SCORE, scores aren't improving, every config returns the same number, ptxas errors fill the log, CV% is too high, or a winning ACF candidate needs NCU profiling to explain. Symptom-indexed table on top. Triggers on \"compileiq hang\", \"socket timeout\", \"INVALID_SCORE\", \"not converging\", \"every score is the same\", \"TypeError fromhex\", \"ncu profile\", \"register spill\", \"ptxas error\", \"not in expected format\", \"high cv\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-debug",
+      "contentHash": "c52c70cb",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "42db23de07bde3d27657f9f7ceebdb7f2246e67a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "da12d83fbf19e305646f48592757053c1fb97eb7"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1bfcde0b5af36d8a06f48dc1b1fff459f39ad525"
+        },
+        {
+          "path": "evals/files/results_rising_invalid.csv",
+          "sha": "079a23d465969470d94850bb8b93a43323295668"
+        },
+        {
+          "path": "scripts/diagnose_csv.py",
+          "sha": "251d6c4ae81f55da18244a8c2ad02cba6152879d"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "9dff89394ddc0e16af3174e3fe0b87d7fa527acc"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f2ebe047991365f8ce23445f4c08fdec6b1d3d23"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "07117e14e1d9cba71cf742701e98e8300a77f51d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-debug",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-run-search",
+      "trust": "trusted",
+      "name": "compileiq-run-search",
+      "description": "Use when composing the Search(...) call and calling .start(). Covers the four worker classes (MultiProcessWorker / IsoMultiProcessWorker / RayWorker / AsyncWorker) and when to pick each, SearchConfiguration sizing rules, dump_results checkpointing, tracker_config choice (Disabled / Loguru / MLflow), num_workers/task_timeout semantics, and GPU clock locking for stable measurements. Triggers on \"Search()\", \"tuner.start()\", \"pool_size\", \"num_workers\", \"task_timeout\", \"IsoMultiProcessWorker\", \"RayWorker\", \"dump_results\", \"MLflow\", \"GPU clocks\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-run-search",
+      "contentHash": "b267e4ed",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "0421f6f76cacc253d7a4125c897a4a60a1c90be1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "e4d3792d74b00dd69ef666614470a041d4e79210"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "e15f50572d7a62721de5d1202faef188763755d1"
+        },
+        {
+          "path": "evals/files/run_reduction_search.py",
+          "sha": "ae09b4ab41a140248be199e6e7d02ceafe0ac7e6"
+        },
+        {
+          "path": "scripts/smoke_search.py",
+          "sha": "a235644f1eacbdfa85631be62dfe07b79b87c76e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "e20152c277224411f6f7ade73ec5eb662992e580"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8783e45a87f9dc99fd0759f12b736686fe756909"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-run-search",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-search-space",
+      "trust": "trusted",
+      "name": "compileiq-search-space",
+      "description": "Use when picking the search_space= argument for Search(). Covers the three provider classes (PtxasSearchSpace, NvccSearchSpace, LocalSearchSpaceBin), how to pin a version/variant/tag, the attention-focused 'att' variant for attention kernels (FlashAttention, GQA, MHA, MLA, FlashInfer Batch Decode), air-gapped mirroring via CIQ_SEARCH_SPACES_DIR, and custom user-defined search spaces built from compileiq.search_spaces.base primitives. Triggers on \"search space\", \"PtxasSearchSpace\", \"NvccSearchSpace\", \"air-gapped compileiq\", \"offline compileiq\", \"CIQ_SEARCH_SPACES_DIR\", \"attention variant\", \"ptxas att\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-search-space",
+      "contentHash": "445051b0",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "58d3fb02c60c9a9933e66869b5da61430a220965"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "a799de983fbe8ea3c2235eeafb4faf294cd388c6"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "b0f820f7eea187b1811d343aa9c9197de7a8fcfb"
+        },
+        {
+          "path": "evals/files/tune_kernels.py",
+          "sha": "1190e59066400086f062dd63df6ab2105fc0bbaa"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "e53a226f0d077bc36206f45614a9201aa98ffe1f"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "70310274f04e936895fa0345a93b7f045a326583"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-search-space",
+      "version": "1.2.0"
+    },
+    {
+      "id": "NVIDIA/skills@compileiq-validate-result",
+      "trust": "trusted",
+      "name": "compileiq-validate-result",
+      "description": "Use AFTER a Search has completed and BEFORE claiming any speedup or shipping an ACF. Loads the dump_results CSV, extracts top-K candidates (single-objective) or the Pareto front (multi-objective), re-measures each against the no-ACF baseline with 100+ trials on fresh caches, runs Welch's t-test plus Cohen's d, rejects three classic false-positive patterns (lucky-min / higher-variance / multiple-comparisons-of-N), and saves the validated winner as best.acf. Triggers on \"validate result\", \"extract best config\", \"Welch's t-test\", \"is my speedup real\", \"save best ACF\", \"pareto front\", \"claim speedup\", \"ship config\".",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/compileiq-validate-result",
+      "contentHash": "962666ec",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "d1afb7c9d1fa5a0e0e0802e32fc939a180073d0a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b89461c0a06c40a6f6d2e6e901b8cca8f9871e1e"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "95f9891f10bcb29819e12be652ac67f191207623"
+        },
+        {
+          "path": "evals/files/candidate.acf",
+          "sha": "d70361401de451ef88e503d5fcd672d1ad8486c4"
+        },
+        {
+          "path": "evals/files/fake_bench.py",
+          "sha": "26dc5090e78aecbbd8a16badaff24a2537b33ba6"
+        },
+        {
+          "path": "evals/files/results_layernorm.csv",
+          "sha": "d8209f289967ab87db1ad8be9cb2a7b9e6285406"
+        },
+        {
+          "path": "evals/files/samples_attention_candidate.csv",
+          "sha": "0eae30372e6b3ab803b04437b3a5cd75d1659ad8"
+        },
+        {
+          "path": "evals/files/samples_gemm_candidate.csv",
+          "sha": "30356480d7af360418f2a4c1324b1539d65fb776"
+        },
+        {
+          "path": "evals/files/samples_softmax_candidate.csv",
+          "sha": "284adb397173999540227d79337d34afbc5494ea"
+        },
+        {
+          "path": "scripts/requirements.txt",
+          "sha": "475fbd5a77a8859bae6dc34624869932be364a69"
+        },
+        {
+          "path": "scripts/welch_validate.py",
+          "sha": "c55dde12eee0db3ed39853da79ff24b0c0ebe74e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "cd63d1b44a967706f6ef8c04e5d2f6fe0bf681d1"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "850e8f7e4fc8c1bad4438ea708e892315283ece7"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compileiq-validate-result",
+      "version": "1.2.0"
     },
     {
       "id": "NVIDIA/skills@compute-sanitizer-diagnose-cuda-bugs",
@@ -23005,11 +23347,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-management",
-      "contentHash": "84167d6e",
+      "contentHash": "5f40da72",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "889c25e0b35451e84c1a90bfc13f68acb5dab185"
+          "sha": "c81b45d2bd5d365b6dbcc86d5a88a19513095e7b"
         },
         {
           "path": "SKILL.md",
@@ -23033,15 +23375,15 @@
         },
         {
           "path": "references/write-api.md",
-          "sha": "7f0f6575286b9c90e0af11b79b177984f194c6e6"
+          "sha": "2e696c4dda4e00cb21286bfc75de9ea804b553e8"
         },
         {
           "path": "skill-card.md",
-          "sha": "27afa25401b97c59dc4809f63665bbc4e76e7d41"
+          "sha": "6deb397b0a31cf1db67af01f7bc6a7fc969f8f7e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7b91cc2cc7dc8a088ea5682492dbeee57288ae44"
+          "sha": "8f6598d9edb54c48a16871a96f356c750080a6b5"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-management",
@@ -23055,11 +23397,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-query",
-      "contentHash": "f11e7eab",
+      "contentHash": "7fa40809",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3df35f0ed89d3c11b1898ea169bb0dab4eb07cd1"
+          "sha": "24b14479e2cec93a9c95522879ce122b6a329cd3"
         },
         {
           "path": "SKILL.md",
@@ -23079,15 +23421,15 @@
         },
         {
           "path": "references/stack.md",
-          "sha": "baeb33c339d4c611eba3e3ec9b06d376abf89be6"
+          "sha": "de45896c5068fe8aaa2b24f07d8d7ca764973dd7"
         },
         {
           "path": "skill-card.md",
-          "sha": "e9f6baa39cb5a6bccacf9aa91019a5020724e98c"
+          "sha": "5b516a31df55c41c892db7fbc02b246db6433f03"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2e9f68bc03a42048a1c56720c8bee823c98a4a57"
+          "sha": "d2cef89325a75425ce4d1327cc5e8a3bd8769c16"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-query",
@@ -36278,6 +36620,44 @@
       "version": "2026.06.03"
     },
     {
+      "id": "NVIDIA/skills@vss-ask-video",
+      "trust": "trusted",
+      "name": "vss-ask-video",
+      "description": "Use this skill when answering a question about previously analyzed or freshly scoped VSS video, or when reading a stored VSS memory job or record by id, or whenever a question should be answered by running the `vss memory introspect` command. Route through hot context, agent Markdown notes, `vss memory get` or `vss memory query`, `vss memory introspect`, or an exact-window `vss vlm run`. Not for video retrieval or metadata-answerable questions.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-ask-video",
+      "contentHash": "cc3123e2",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "362083b891c9b4793b3f19776df6b76f4eab60d1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "3735a809dd6ee36f4bf66b5f9a678aa33df1577e"
+        },
+        {
+          "path": "evals/base_profile_video_understanding.json",
+          "sha": "2449c1010715e339da188c76023cc0b8951776b9"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "29f4a16e38fb1d63428d43f170ce487c8819ca56"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "fdab0452ea3d30a7b06914e4ae737596c8bded24"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "3f48b1424c3842785f67141fce02d25c4426b6f0"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-ask-video",
+      "version": "3.3.0"
+    },
+    {
       "id": "NVIDIA/skills@vss-build-vision-ai",
       "trust": "trusted",
       "name": "vss-build-vision-ai",
@@ -36553,6 +36933,292 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-build-vision-ai",
+      "version": "3.3.0"
+    },
+    {
+      "id": "NVIDIA/skills@vss-generate-video-report-rag",
+      "trust": "trusted",
+      "name": "vss-generate-video-report-rag",
+      "description": "Generates VSS video summary reports with LVS HITL and optional Enterprise RAG document grounding. Trigger when the user asks for a frag/RAG-assisted video report, knowledge-enhanced analysis, or Enterprise RAG context in a video summary.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-generate-video-report-rag",
+      "contentHash": "8bc88a79",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "e8f99cf772e28698b94bec0bb9d7646fc81c5162"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "cc8a26213e4219f43bccea49faef0da475f18923"
+        },
+        {
+          "path": "config/skillspector-baseline.yml",
+          "sha": "3c723104f8017355cdd18a87c8ea6fc2498e26ce"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "30cdf89a6058cf93734ca637ed7f0ccef9bfaf11"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "fac078190c7329df0224f57fd392a9296fc30499"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "54e1e8493402c0ded85ebb6251c44f7dcdf5fa4e"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-generate-video-report-rag",
+      "version": "3.3.0"
+    },
+    {
+      "id": "NVIDIA/skills@vss-generate-video-report",
+      "trust": "trusted",
+      "name": "vss-generate-video-report",
+      "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics, Mode C SOP compliance via the SOP tools. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-generate-video-report",
+      "contentHash": "8fcbde21",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "90c02f1cbf7b3b42f462ccb5cf2799bb54fb4fd3"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "7bcccc176c01c2e2babbfada4c57eb0b0014f247"
+        },
+        {
+          "path": "config/skillspector-baseline.yml",
+          "sha": "ec728fac07f1f9a5c7926871c88729e455e85c54"
+        },
+        {
+          "path": "evals/base_profile_report.json",
+          "sha": "b338be8b275c4d4ab552e59e2a547788a35e1572"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "62c2f2564eca2d301cbe44ff39a4f04d6b819779"
+        },
+        {
+          "path": "references/default-vlm-prompt.md",
+          "sha": "4c61c974760dbd82bf3166c9c8c42d6377e48062"
+        },
+        {
+          "path": "references/report-templates/incident-range-report.md",
+          "sha": "b477be4c5bc2201ae924df5000d70dfa15116a2f"
+        },
+        {
+          "path": "references/report-templates/sop-compliance-report.md",
+          "sha": "effd476dd728d3a6a7ebf9cee09679a5c91551c9"
+        },
+        {
+          "path": "references/report-templates/video-analysis-report.md",
+          "sha": "9f553821a211355fe42b822946c0a83ccdb6d310"
+        },
+        {
+          "path": "references/report-types/incident-range.md",
+          "sha": "917156d4ab4859137c7548fa39ba40398e400e27"
+        },
+        {
+          "path": "references/report-types/sop-compliance.md",
+          "sha": "690c361e9dbf82d932019a88eff553c0d2aeb179"
+        },
+        {
+          "path": "references/report-types/video-analysis.md",
+          "sha": "8183867e69bb5f8081a7516d15297f4d386a9b9e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9720e5d3aed7c91af793392cb3a12ada1b0f76e8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "e7c026987dd2d40f128fd7fc5dcb121a5c4c946a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-generate-video-report",
+      "version": "3.3.0"
+    },
+    {
+      "id": "NVIDIA/skills@vss-query-analytics",
+      "trust": "trusted",
+      "name": "vss-query-analytics",
+      "description": "Query read-only video analytics with `vss analytics` for incidents, occupancy metrics, average speed, places, and analytics sensors. Load this skill for video-analytics questions about these records and metrics, including requests asking which skill to use for analytics. Not for live VLM, incident-range narrative reports, deployment, or alert-rule management.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-query-analytics",
+      "contentHash": "cbb07020",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "e499ba35bc6fce79565a3ace683b2f374d1f5af1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "1096b2e4c2703e70c0fc040d7efd7d55ae520c62"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "36616e5857e37453fabfa5f56d14aa01da147e33"
+        },
+        {
+          "path": "evals/query_analytics.json",
+          "sha": "67115caeb40b82231cee6acb951337d5bcf8c8c6"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f29ce869b57a4aa7deb33ad240233a001fbffd61"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "d855f56fc202217a9128abcf7b84c483242bb72d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-query-analytics",
+      "version": "3.3.0"
+    },
+    {
+      "id": "NVIDIA/skills@vss-search-archive",
+      "trust": "trusted",
+      "name": "vss-search-archive",
+      "description": "Use this skill to search archived VSS video or indexed live RTSP camera streams already registered in a configured deployment — by natural-language, similarity, attribute, object-ID, or lexical tag query — and for follow-up questions about displayed search results or their verification. For fresh clip Q&A use vss-ask-video; for full-recording summaries use vss-summarize-video; for source ingestion/deletion use vss-manage-video-io-storage; for deployment use vss-build-vision-ai. Route those requests to the named workflow without loading this skill, including when media, the CLI, or the deployment is unavailable. Not for live captioning.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-search-archive",
+      "contentHash": "85eec1bc",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "13a8e80385856822eaff6f9ea781e5f178f1c007"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "5b44777fe24bcf1e20d2da22b81fa4b20ccc1a98"
+        },
+        {
+          "path": "config/skillspector-baseline.yml",
+          "sha": "104a4d7e63c8e61ff3f85d4437f77f799f0879ba"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4bfa5d5d4659c867a039d8085edbbf2a11c2f35e"
+        },
+        {
+          "path": "evals/search.json",
+          "sha": "518e658fbccc8bf01c7f16136bbff7a4047ade58"
+        },
+        {
+          "path": "references/cli_usage.md",
+          "sha": "9781fbd10f7ea5398c6bb3f3c602358af5edb95a"
+        },
+        {
+          "path": "references/result_verification.md",
+          "sha": "99bf46f0c7bd7baa2201b5d0a202954ab20471b4"
+        },
+        {
+          "path": "scripts/select_brev_origin.sh",
+          "sha": "476893268ddd00139c1e7ebd8f731d8d41ad4446"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9938ae82d14cb5674b10ee6b7e88feafea284ee5"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "26cc6c9dd3da81642fd94798f2ccfb427d2db133"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-search-archive",
+      "version": "3.3.0"
+    },
+    {
+      "id": "NVIDIA/skills@vss-summarize-video",
+      "trust": "trusted",
+      "name": "vss-summarize-video",
+      "description": "Use when summarizing a recorded video through HITL-gated LVS, falling back to `vss vlm run` when LVS is not ready. Not for reports, archive search, or live RTSP captioning.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/vss-summarize-video",
+      "contentHash": "a4ad9e8a",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "0e09a79a600d7cdddc6d53fe92142446a71dee65"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "49d8206da2219e26ddf4d6edb8a983becd600a33"
+        },
+        {
+          "path": "assets/video-summarization.env.example",
+          "sha": "c5c025a62c10041b0ff1fab26e6fbd6741cd2cf6"
+        },
+        {
+          "path": "config/skillspector-baseline.yml",
+          "sha": "60ce73bc0584b8e4c26c1f73a2b075cc498eb8e4"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "301116b752cc4f9dc3020ad3012069dde966cfc5"
+        },
+        {
+          "path": "evals/lvs_api_ops.json",
+          "sha": "9edb73b4e551bfe00bc7f094ba6d75a0ee728ca3"
+        },
+        {
+          "path": "evals/lvs_profile_summarize.json",
+          "sha": "eab62c7f880590931d60f2906c8e6e0b833e7add"
+        },
+        {
+          "path": "references/cli_usage.md",
+          "sha": "dfdf4366ab58bd9f95933f43d228c02cfbce5436"
+        },
+        {
+          "path": "references/deploy-lvs-service.md",
+          "sha": "3b51a4f1fd04e82889d65653633b4ed6958b0408"
+        },
+        {
+          "path": "references/end-to-end-example.md",
+          "sha": "4fd2c81357ddd8c3715b6393aaf51a8ec1e5d6f0"
+        },
+        {
+          "path": "references/hitl-prompts.md",
+          "sha": "1ec43efb6816baa32512cd7be43369859e86aa72"
+        },
+        {
+          "path": "references/integrate-lvs-service.md",
+          "sha": "1e7a8d3ecb746770f515cb977470710197a14c78"
+        },
+        {
+          "path": "references/video-summarization-api.md",
+          "sha": "77d91dd170491a7d10ea57b9a23ae3ba3131be85"
+        },
+        {
+          "path": "references/video-summarization-debugging.md",
+          "sha": "b0770f6df18724691b991a2f381e3319be7cb73d"
+        },
+        {
+          "path": "references/video-summarization-deployment.md",
+          "sha": "df7d94f50a48f0cf769249ad5fd8c29399fbb4a6"
+        },
+        {
+          "path": "references/video-summarization-environment-variables.md",
+          "sha": "93816c2c911910d228069011547969bb493241c6"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9b1b8816520b3d685f0110a0772d3a26084f511b"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "8e27dbb064d251d967a6bf66d5c1d582238d4014"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/vss-summarize-video",
       "version": "3.3.0"
     },
     {
@@ -37288,23 +37954,23 @@
       "id": "garrytan/gstack@autoplan",
       "trust": "trusted",
       "name": "autoplan",
-      "description": "Auto-review pipeline — runs the CEO, design, eng and DX reviews in order (lean run: one reviewer), auto-deciding. (gstack)",
+      "description": "Auto-review pipeline — runs the CEO, design, eng and DX reviews in order (lean run: one reviewer), auto-deciding. Use for: run all reviews, automatic review pipeline. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "747fe830",
+      "contentHash": "5d7e5b45",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "81d661433ab8ad62843095a89d82036c062cfab5"
+          "sha": "91d970bc22fda16fa7b5564cc1c594cc83df53df"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "b4b64d887dcba7a5bb5fbcf5c70ed68db988a725"
+          "sha": "c9f84eb4ae25c28d5af9d40d985e64ede80ae992"
         },
         {
           "path": "SKILL.md",
-          "sha": "cb0cef8e099eadf0807d8189744a41b32d0a1e31"
+          "sha": "fea3f5ca2c590de767248a8ee05fd8666ad6839d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37388,7 +38054,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/tasks-aggregator.md",
@@ -37400,11 +38066,11 @@
         },
         {
           "path": "sections/unattended.md",
-          "sha": "06e5a41010b0a4fe14e39926285734b611a0b905"
+          "sha": "a3d181f6ba78702c901725eefce5390c7584d445"
         },
         {
           "path": "sections/unattended.md.tmpl",
-          "sha": "f41f0b09a54ac30e3159bbe57fecab3ddb62a243"
+          "sha": "e5a2cd6f80b21ec24d8207971215e2c2b70161b2"
         },
         {
           "path": "shadow-decider.md",
@@ -37417,15 +38083,15 @@
       "id": "garrytan/gstack@benchmark-models",
       "trust": "trusted",
       "name": "benchmark-models",
-      "description": "Cross-model benchmark for gstack skills. (gstack)",
+      "description": "Cross-model benchmark for gstack skills. Use for: cross model benchmark, compare claude gpt gemini. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "benchmark-models",
-      "contentHash": "2adadf67",
+      "contentHash": "0370809f",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "88f3f73214721d6c4999baac1577e9ee909e247a"
+          "sha": "b9c310ee863f76aac132759cd3179fdfc04dbbca"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37438,15 +38104,15 @@
       "id": "garrytan/gstack@benchmark",
       "trust": "trusted",
       "name": "benchmark",
-      "description": "Web performance regression detection. (gstack)",
+      "description": "Web performance regression detection. Use for: web performance benchmark, check page speed. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "benchmark",
-      "contentHash": "a8076dfc",
+      "contentHash": "e5d55eed",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1795f5270a862372db7f0b3ac2aa5e10c2d4410b"
+          "sha": "38babc3943b0fc5cc83c52d6da46bbbcf4d8918d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -37471,11 +38137,11 @@
       "id": "garrytan/gstack@browse",
       "trust": "trusted",
       "name": "browse",
-      "description": "Drive a real browser through Aside: open a page, read it, click through a flow, take screenshots, check console errors. (gstack)",
+      "description": "Drive a real browser through Aside: open a page, read it, click through a flow, take screenshots, check console errors. Use for: browse a page, open this url, take page screenshot. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "5a238e57",
+      "contentHash": "ea323d85",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -37483,7 +38149,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "fbd8c6cc0fcc28bc88bc01dbbdf399a0b516ec79"
+          "sha": "970ed2c4013028c473c9c1e30001ee1148ea9548"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -38873,15 +39539,15 @@
       "id": "garrytan/gstack@canary",
       "trust": "trusted",
       "name": "canary",
-      "description": "Post-deploy canary monitoring. (gstack)",
+      "description": "Post-deploy canary monitoring. Use for: monitor after deploy, canary check. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "canary",
-      "contentHash": "7f773e18",
+      "contentHash": "5c4ba2cd",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "643b31b0b9cc6fb74b90620337f59efcc7ad87c5"
+          "sha": "9bbe4eaa95c3ef476236ec415ac000b2d6be56eb"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -38889,7 +39555,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/canary"
@@ -38898,23 +39564,23 @@
       "id": "garrytan/gstack@captain",
       "trust": "trusted",
       "name": "captain",
-      "description": "Run a crew of coding agents from one controller (also /crew): lanes send READY blocks and never merge; the controller merges through trains, keeps the digest, relays approvals, fixes flakes daily. (gstack)",
+      "description": "Run a crew of coding agents from one controller (also /crew): lanes send READY blocks and never merge; the controller merges through trains, keeps the digest, relays approvals, fixes flakes daily. Use for: captain, crew. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "bfe962bd",
+      "contentHash": "da524b39",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6ab00a2b4655fecb57b22075afeaa1a9e9583ee9"
+          "sha": "e244f53b51fbcc8934f6dbd17745d236d85d596a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "ae8ea7053eb39ac20bba50430815cd1d867883ac"
+          "sha": "03622be328a86947932a0e092b70893c8fb538c6"
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "templates/AGENTS.md",
@@ -38922,7 +39588,7 @@
         },
         {
           "path": "templates/CREW.md",
-          "sha": "eb931330f2ba32681b0693a890e9f4e15e44b2a7"
+          "sha": "93d344a209451397046c1b3220418beebd377b2f"
         },
         {
           "path": "templates/DIGEST.md",
@@ -38934,7 +39600,7 @@
         },
         {
           "path": "templates/READY.md",
-          "sha": "d31cda187e6e571ddffb30d590aafe70686ff467"
+          "sha": "acbd4b84a3c24b43705763f67910f7042236d5f6"
         },
         {
           "path": "templates/automation-flaky-pass.md",
@@ -38966,7 +39632,7 @@
         },
         {
           "path": "templates/report.md",
-          "sha": "bac7b35c868b51549fa5abe3f5e95d291c5d3b77"
+          "sha": "39292b894caeebf5d3a1ea708b07ad06d940df50"
         },
         {
           "path": "templates/slot-call.md",
@@ -38983,19 +39649,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "5f2b4eb5",
+      "contentHash": "25535c40",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "fae0748875bd51e3c488861f5d67ba98756768fc"
+          "sha": "9c6fcb69725364697deef6b9749fafb1b9a45c5e"
         },
         {
           "path": "captain.md",
-          "sha": "d4227c769b85e848d97ee1480b4d537472c5b5eb"
+          "sha": "0e9374902cf32081844e351ea0d7d1db90f8ae73"
         },
         {
           "path": "factory.md",
-          "sha": "fa10da5d10146743f83cda830a31b909df66e07e"
+          "sha": "cb6aba07200445a083458667b7509127a5121888"
         },
         {
           "path": "lane-card.md",
@@ -39012,15 +39678,15 @@
       "id": "garrytan/gstack@careful",
       "trust": "trusted",
       "name": "careful",
-      "description": "Safety guardrails for destructive commands. (gstack)",
+      "description": "Safety guardrails for destructive commands. Use for: be careful, warn before destructive, safety mode. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "careful",
-      "contentHash": "fe229fa9",
+      "contentHash": "e648c169",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "bf5aaca88c8fd4d49bf30739a8639afbf6e71995"
+          "sha": "f91af40629c49962d2203abb7ce15d76fe160185"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39045,15 +39711,15 @@
       "id": "garrytan/gstack@codex",
       "trust": "trusted",
       "name": "codex",
-      "description": "OpenAI Codex CLI wrapper — three modes. (gstack)",
+      "description": "OpenAI Codex CLI wrapper — three modes. Use for: codex review, second opinion, outside voice challenge. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "5f0c9ad6",
+      "contentHash": "88fc5152",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "456134679041a454a1019df76dd73fa1cb7fb444"
+          "sha": "35ca68472594804e0cb18e763599b21db4467330"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39081,7 +39747,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-mode.md",
@@ -39098,15 +39764,15 @@
       "id": "garrytan/gstack@context-restore",
       "trust": "trusted",
       "name": "context-restore",
-      "description": "Restore working context saved earlier by /context-save. (gstack)",
+      "description": "Restore working context saved earlier by /context-save. Use for: resume where i left off, restore context, where was i. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-restore",
-      "contentHash": "87d36e8a",
+      "contentHash": "391309c0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cafd34abd3ad58b53239fc56fd5dbd6306b80f59"
+          "sha": "e322d4cb51843ff055f619893cd914e015d078f5"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39118,7 +39784,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/transcripts.md",
@@ -39135,15 +39801,15 @@
       "id": "garrytan/gstack@context-save",
       "trust": "trusted",
       "name": "context-save",
-      "description": "Save working context. (gstack)",
+      "description": "Save working context. Use for: save progress, save state, save my work, context save. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "context-save",
-      "contentHash": "6abc585a",
+      "contentHash": "c875d65c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "10a4e8ca6ea7d948a02a6f61fa3c8e8a4a868236"
+          "sha": "fb9b631fa5dfdf5ffc9fa773be3bd59954d9713d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39151,7 +39817,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/context-save"
@@ -39160,11 +39826,11 @@
       "id": "garrytan/gstack@cso",
       "trust": "trusted",
       "name": "cso",
-      "description": "Security audit: supported static findings; qualified profiles add reproduction and repair candidates. (gstack)",
+      "description": "Security audit: supported static findings; qualified profiles add reproduction and repair candidates. Use for: security audit, check for vulnerabilities. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "b9c80a03",
+      "contentHash": "5fea6348",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
@@ -39172,7 +39838,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "ef9ef28f9c34ed3d7931e7338bc3b47dc9bb21e8"
+          "sha": "7852aecf346ccdd0fe7a8aebb9711706c5607c0d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39201,11 +39867,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-consultation",
-      "contentHash": "8a8554a4",
+      "contentHash": "7f347a08",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7d545778d09f464d4bd2e79fb6bb013d8af190a5"
+          "sha": "ef9d9a0f5172bef99f6adfddccc7df7b2066bcd8"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39217,7 +39883,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/proposal-and-preview.md",
@@ -39234,15 +39900,15 @@
       "id": "garrytan/gstack@design-html",
       "trust": "trusted",
       "name": "design-html",
-      "description": "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)",
+      "description": "Design finalization: generates production-quality Pretext-native HTML/CSS. Use for: build the design, code the mockup, make design real. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-html",
-      "contentHash": "19f24e1f",
+      "contentHash": "81d8842e",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "400cb285cf270d62d1d829e292fd11e1f403b385"
+          "sha": "6ea35466d562880fe86ce7fead325efc6f9d1bf2"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39278,7 +39944,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/pretext-patterns.md",
@@ -39299,15 +39965,15 @@
       "id": "garrytan/gstack@design-motion",
       "trust": "trusted",
       "name": "design-motion",
-      "description": "Design motion: animate an approved design into a seamless MP4 and GIF loop. (gstack)",
+      "description": "Design motion: animate an approved design into a seamless MP4 and GIF loop. Use for: animate this design, make a showcase loop. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-motion",
-      "contentHash": "4d65f325",
+      "contentHash": "460011d6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f956277178677ce9c368b0d5f383c4674292a15c"
+          "sha": "46919b3b6f8a42195c5593e2e42c037c3cce141f"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39343,7 +40009,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-motion"
@@ -39352,15 +40018,15 @@
       "id": "garrytan/gstack@design-review",
       "trust": "trusted",
       "name": "design-review",
-      "description": "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions — then fixes them; --build checks UI while you build it. (gstack)",
+      "description": "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions — then fixes them; --build checks UI while you build it. Use for: visual design audit, design qa. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-review",
-      "contentHash": "c327a17c",
+      "contentHash": "67200a98",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7713ee0f5d4c81d1099448c32203ccc6ff1a9df2"
+          "sha": "a35b907952680e4a24d9b93d405e1227c7351dc6"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39396,7 +40062,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/test-bootstrap.md",
@@ -39417,15 +40083,15 @@
       "id": "garrytan/gstack@design-shotgun",
       "trust": "trusted",
       "name": "design-shotgun",
-      "description": "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. (gstack)",
+      "description": "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. Use for: explore design variants, show me design options. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-shotgun",
-      "contentHash": "54bfa0e0",
+      "contentHash": "884a7a80",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cf888a102fd97d4d7dbf6835f192c37297c1da6c"
+          "sha": "1d20e76d20fc08ea1d7b89348dcd1f2f635903e1"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39445,7 +40111,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/design-shotgun"
@@ -39454,15 +40120,15 @@
       "id": "garrytan/gstack@deslop-shared-libs",
       "trust": "trusted",
       "name": "deslop-shared-libs",
-      "description": "Find worthwhile shared-code extractions in recent work. (gstack)",
+      "description": "Find worthwhile shared-code extractions in recent work. Use for: find code worth sharing. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "deslop-shared-libs",
-      "contentHash": "46d991e0",
+      "contentHash": "4d4667ff",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6c65869dec057558f54a8471ab5ee809b2218f35"
+          "sha": "a5988668810021f95bf227e825e3f795d04a2bbd"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39475,15 +40141,15 @@
       "id": "garrytan/gstack@devex-review",
       "trust": "trusted",
       "name": "devex-review",
-      "description": "Live developer experience audit. (gstack)",
+      "description": "Live developer experience audit. Use for: live dx audit, test developer experience. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "devex-review",
-      "contentHash": "fb0701f4",
+      "contentHash": "0179d147",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "d353ba1bba40141620e3668a475f937dfcb45c18"
+          "sha": "2579987b80989763b9ac3750be72b5a95be0336d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39491,7 +40157,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/devex-review"
@@ -39500,15 +40166,15 @@
       "id": "garrytan/gstack@diagram",
       "trust": "trusted",
       "name": "diagram",
-      "description": "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and rendered SVG + PNG. (gstack)",
+      "description": "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and rendered SVG + PNG. Use for: make a diagram, draw a diagram. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "diagram",
-      "contentHash": "f1a136f1",
+      "contentHash": "ea885f9a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "59a7e6455ea6542d8f1098ed5be00c76ae4f5f97"
+          "sha": "6198b894d1bcef66600363461ccfad3104f895b9"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39521,15 +40187,15 @@
       "id": "garrytan/gstack@document-generate",
       "trust": "trusted",
       "name": "document-generate",
-      "description": "Generate missing documentation from scratch for a feature, module, or entire project. (gstack)",
+      "description": "Generate missing documentation from scratch for a feature, module, or entire project. Use for: write docs for this, generate documentation. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "document-generate",
-      "contentHash": "0b30f48b",
+      "contentHash": "b3b83eca",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a1c9da8ba2e8c2c11673ee6fb8be139c5e1b4678"
+          "sha": "bb4749ce3e7001b593d0483fab77a94e50534f0a"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39537,7 +40203,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/document-generate"
@@ -39546,15 +40212,15 @@
       "id": "garrytan/gstack@document-release",
       "trust": "trusted",
       "name": "document-release",
-      "description": "Release documentation audit. (gstack)",
+      "description": "Release documentation audit. Use for: update docs after ship, document what changed. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "document-release",
-      "contentHash": "dc38d84e",
+      "contentHash": "da14368e",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "3d1a91dc17796dbbb6cf8a70b08196ea5124521c"
+          "sha": "66d1cf4e0d9a14404f59aaab20725b015af0bd05"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39574,7 +40240,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/release-body.md",
@@ -39595,11 +40261,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "7fca71ce",
+      "contentHash": "40aa2f59",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c7665440e5d4c613e0b142201216a2d077bd9863"
+          "sha": "e6b9e95c632999c41663791cf1daf572d7c2e379"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39607,7 +40273,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/eval-plan"
@@ -39616,15 +40282,15 @@
       "id": "garrytan/gstack@freeze",
       "trust": "trusted",
       "name": "freeze",
-      "description": "Restrict file edits to a specific directory for the session. (gstack)",
+      "description": "Restrict file edits to a specific directory for the session. Use for: freeze edits to directory, lock editing scope. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "freeze",
-      "contentHash": "7f71b7b6",
+      "contentHash": "ae012c34",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "39230fbb5777e444efcea8c95bd4d6392aa160b6"
+          "sha": "da4b5100801234079968c374efa53d8b7f21f4e6"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39636,7 +40302,7 @@
         },
         {
           "path": "bin/freeze-state.sh",
-          "sha": "ad61b80cd2891c0676e50610ff9020a54225533f"
+          "sha": "98582fa11a451e9ab76d824021bb6498506d514d"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/freeze"
@@ -39645,19 +40311,19 @@
       "id": "garrytan/gstack@gstack-upgrade",
       "trust": "trusted",
       "name": "gstack-upgrade",
-      "description": "Upgrade gstack to the latest version.",
+      "description": "Upgrade gstack to the latest version. Use for: upgrade gstack, update gstack version.",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "gstack-upgrade",
-      "contentHash": "9b212ac6",
+      "contentHash": "b54139cd",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "2a3efc40d13617479fda5fc712c49d721ee0c632"
+          "sha": "7c351ee1cd67d0ae857da4c1b083793c07292974"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "04a618f99492fb37a21cc524434d7a3252099460"
+          "sha": "7b6f24dd47d1042fceb715d598362ee036e5ad2f"
         },
         {
           "path": "migrations/v0.15.2.0.sh",
@@ -39730,15 +40396,15 @@
       "id": "garrytan/gstack@guard",
       "trust": "trusted",
       "name": "guard",
-      "description": "Full safety mode: destructive command warnings + directory-scoped edits. (gstack)",
+      "description": "Full safety mode: destructive command warnings + directory-scoped edits. Use for: full safety mode, guard against mistakes. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "guard",
-      "contentHash": "f45fec05",
+      "contentHash": "73573c93",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ef4b7bd7990e736aeb6e9d178f80427a18666766"
+          "sha": "58e5b7db2fb286f4d3072a36e35891462423b9f3"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39751,15 +40417,15 @@
       "id": "garrytan/gstack@health",
       "trust": "trusted",
       "name": "health",
-      "description": "Code quality dashboard. (gstack)",
+      "description": "Code quality dashboard. Use for: code health check, quality dashboard. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "health",
-      "contentHash": "e1f32ce1",
+      "contentHash": "e588df26",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "0df11a75b50ef256f124284c797dfd34e7f4746a"
+          "sha": "85925eb4fbe76242dfa355f14115a5984fd7f084"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39767,7 +40433,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/health"
@@ -39776,15 +40442,15 @@
       "id": "garrytan/gstack@ios-clean",
       "trust": "trusted",
       "name": "ios-clean",
-      "description": "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. (gstack)",
+      "description": "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. Use for: clean the ios debug bridge, remove debugbridge. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-clean",
-      "contentHash": "2417ce99",
+      "contentHash": "d0bb3147",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "80b44691d1294d87157820300d8fe287e0379cc9"
+          "sha": "c196044c910ee26a8a82b84f23a34bdd01f12d08"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39792,7 +40458,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ios-clean"
@@ -39801,15 +40467,15 @@
       "id": "garrytan/gstack@ios-design-review",
       "trust": "trusted",
       "name": "ios-design-review",
-      "description": "Visual design audit for iOS apps on real hardware. (gstack)",
+      "description": "Visual design audit for iOS apps on real hardware. Use for: review the ios design, audit the iphone app visuals. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-design-review",
-      "contentHash": "72456a9d",
+      "contentHash": "0d5bf3f6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "3d630daa35b32c2b6330ad9c3612e38997fb33cb"
+          "sha": "3cb8262348e6ece263894560ba29624366fc7f2f"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39817,7 +40483,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ios-design-review"
@@ -39826,15 +40492,15 @@
       "id": "garrytan/gstack@ios-fix",
       "trust": "trusted",
       "name": "ios-fix",
-      "description": "Autonomous iOS bug fixer. (gstack)",
+      "description": "Autonomous iOS bug fixer. Use for: fix this ios bug, patch the iphone app. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-fix",
-      "contentHash": "d3934eff",
+      "contentHash": "936ce721",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "af59d324473a126928dc2b4d6d5116044761e5aa"
+          "sha": "8a8af4059c72f14a607f8c8802f07a861e675ad1"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39842,7 +40508,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ios-fix"
@@ -39851,15 +40517,15 @@
       "id": "garrytan/gstack@ios-qa",
       "trust": "trusted",
       "name": "ios-qa",
-      "description": "Live-device iOS QA for SwiftUI apps. (gstack)",
+      "description": "Live-device iOS QA for SwiftUI apps. Use for: ios qa, test the iphone app, test the ipad app. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-qa",
-      "contentHash": "a47242e4",
+      "contentHash": "0bba98f6",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f34efd2755a9f3925f0f29bad820b4a4a414dfe9"
+          "sha": "345e542ef39c5d6508db0557729152ce7a9a7789"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -39999,7 +40665,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "templates/Bridges.swift.template",
@@ -40044,15 +40710,15 @@
       "id": "garrytan/gstack@ios-sync",
       "trust": "trusted",
       "name": "ios-sync",
-      "description": "Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack)",
+      "description": "Regenerate the iOS debug bridge against the latest upstream gstack templates. Use for: resync the ios debug bridge, regenerate ios accessors. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ios-sync",
-      "contentHash": "d3a21ebf",
+      "contentHash": "c1c8f724",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1c49407a56d339811a5d7c5991c312eca7eb2bb6"
+          "sha": "9fdc0db8dda2cc554d38737e1cad581ccb5bd41d"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40060,7 +40726,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ios-sync"
@@ -40069,15 +40735,15 @@
       "id": "garrytan/gstack@land-and-deploy",
       "trust": "trusted",
       "name": "land-and-deploy",
-      "description": "Land and deploy workflow. (gstack)",
+      "description": "Land and deploy workflow. Use for: merge and deploy, land the pr, ship to production. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "288361c9",
+      "contentHash": "7f3042b3",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "08a7ced13f4090c3b1c4cf2c17cbe984303126da"
+          "sha": "8485425aabe0a82dc1fa9347c036ab9c2812f66a"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40113,7 +40779,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/readiness-gate.md",
@@ -40130,15 +40796,15 @@
       "id": "garrytan/gstack@landing-report",
       "trust": "trusted",
       "name": "landing-report",
-      "description": "Read-only queue dashboard for workspace-aware ship. (gstack)",
+      "description": "Read-only queue dashboard for workspace-aware ship. Use for: landing report, version queue, ship queue. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "landing-report",
-      "contentHash": "11171ebb",
+      "contentHash": "caa98a3b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "b07a98cf36dcb806af827e6ff8f2f27e858baabd"
+          "sha": "4f5518acd81c3bba1670e9d5db1bdc830328eea0"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40146,7 +40812,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/landing-report"
@@ -40155,15 +40821,15 @@
       "id": "garrytan/gstack@learn",
       "trust": "trusted",
       "name": "learn",
-      "description": "Manage project learnings.",
+      "description": "Manage project learnings. Use for: show learnings, what have we learned.",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "learn",
-      "contentHash": "5d68e4b6",
+      "contentHash": "c3f93c3c",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9c27e322b90b515350c8910bdb6b63072c067fe5"
+          "sha": "f864820565a54fa59fa4f18b099f3d9cc56aeaea"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40171,7 +40837,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/learn"
@@ -40180,15 +40846,15 @@
       "id": "garrytan/gstack@make-pdf",
       "trust": "trusted",
       "name": "make-pdf",
-      "description": "Turn any markdown file into a publication-quality PDF. (gstack)",
+      "description": "Turn any markdown file into a publication-quality PDF. Use for: markdown to pdf, generate pdf, make pdf, export pdf. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "11dd9267",
+      "contentHash": "422337ec",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "99c6957f07be1b26c372300698676fc2796b7712"
+          "sha": "75d94ee0c5758afafd32e62dc1a037521a417926"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40401,15 +41067,15 @@
       "id": "garrytan/gstack@modernize",
       "trust": "trusted",
       "name": "modernize",
-      "description": "Bring an aging PR onto its current base and decide: MODERNIZE, REWORK or CLOSE. (gstack)",
+      "description": "Bring an aging PR onto its current base and decide: MODERNIZE, REWORK or CLOSE. Use for: modernize this pr, rebase this old pr. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "modernize",
-      "contentHash": "a43dc476",
+      "contentHash": "f4743a45",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ed48ce690e99d64720560fe2743387aa072b6f7a"
+          "sha": "015ea7f0263b73c883bb740951d33883bfd70038"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40417,7 +41083,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/modernize"
@@ -40426,19 +41092,19 @@
       "id": "garrytan/gstack@office-hours",
       "trust": "trusted",
       "name": "office-hours",
-      "description": "YC Office Hours — two modes. (gstack)",
+      "description": "YC Office Hours — two modes. Use for: brainstorm this, is this worth building. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "ccd375e5",
+      "contentHash": "2195a5c4",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c40b91938682df085fcc4e83eb157f921fb26fb3"
+          "sha": "e92e0ee46885bd6c9d2aafefbd5fe79c6cc8e400"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "de7f761c045d2cc6718d8c98e40e59e4e4a5fba1"
+          "sha": "02e36cc837bba5620b4d0b8f15aefec217b2a7db"
         },
         {
           "path": "sections/design-and-handoff.md",
@@ -40470,7 +41136,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/second-opinion.md",
@@ -40495,15 +41161,15 @@
       "id": "garrytan/gstack@open-gstack-browser",
       "trust": "trusted",
       "name": "open-gstack-browser",
-      "description": "Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in.",
+      "description": "Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in. Use for: open gstack browser, launch chromium.",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "open-gstack-browser",
-      "contentHash": "4ce4420e",
+      "contentHash": "d7162fba",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "41371141641bbafd611638ac26112b06d9572ecb"
+          "sha": "eb96dcb864be77b2050672ff3f25b51dd3447aef"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40567,15 +41233,15 @@
       "id": "garrytan/gstack@pair-agent",
       "trust": "trusted",
       "name": "pair-agent",
-      "description": "Pair a remote AI agent with your browser. (gstack)",
+      "description": "Pair a remote AI agent with your browser. Use for: pair with agent, connect remote agent. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "pair-agent",
-      "contentHash": "6ca79016",
+      "contentHash": "d01791d5",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "45720575865b5ec8a87c557df7ecbb078f1f0c36"
+          "sha": "0cd6cba3fad207489ffa58a214a9dd09a24ba299"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40583,7 +41249,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/pair-agent"
@@ -40592,15 +41258,15 @@
       "id": "garrytan/gstack@plan-ceo-review",
       "trust": "trusted",
       "name": "plan-ceo-review",
-      "description": "CEO/founder-mode plan review. (gstack)",
+      "description": "CEO/founder-mode plan review. Use for: think bigger, expand scope, strategy review. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "ca787922",
+      "contentHash": "0a326102",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "69a4dec1efc6dc7a4903b85bca27d030ef4c7ccc"
+          "sha": "364c3c6935f2366a5149447f6b01710c0cb1774e"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40628,7 +41294,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-sections.md",
@@ -40645,15 +41311,15 @@
       "id": "garrytan/gstack@plan-design-review",
       "trust": "trusted",
       "name": "plan-design-review",
-      "description": "Designer's eye plan review — interactive, like CEO and Eng review. (gstack)",
+      "description": "Designer's eye plan review — interactive, like CEO and Eng review. Use for: design plan review, review ux plan. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-design-review",
-      "contentHash": "aa3c47d2",
+      "contentHash": "bd3c7b86",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "61b7a6363deb80b4ca0c058d9bc83b8c9b7eec80"
+          "sha": "488093936b6260ff77eee84c3ec66fd1658b7413"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40673,7 +41339,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-sections.md",
@@ -40690,15 +41356,15 @@
       "id": "garrytan/gstack@plan-devex-review",
       "trust": "trusted",
       "name": "plan-devex-review",
-      "description": "Interactive developer experience plan review. (gstack)",
+      "description": "Interactive developer experience plan review. Use for: developer experience review, dx plan review. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-devex-review",
-      "contentHash": "5ea5dd0c",
+      "contentHash": "3a22f0fd",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "cbe3a2fe1efbe22ab04aae0360fc55e3fe9de0b9"
+          "sha": "b10d454774f0a1ccb4be17664854585ee896f2c4"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40722,7 +41388,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-sections.md",
@@ -40739,19 +41405,19 @@
       "id": "garrytan/gstack@plan-eng-review",
       "trust": "trusted",
       "name": "plan-eng-review",
-      "description": "Eng manager-mode plan review. (gstack)",
+      "description": "Use when you plan a feature before building it, or review a plan: locks in architecture, data flow, diagrams, edge cases, test coverage and performance. Use for: plan a feature, review architecture, eng plan review. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "daaee824",
+      "contentHash": "3c432fda",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "745640604bc77a650c1d301d50e647b945b6f02c"
+          "sha": "b1f1a2a3aed3333be38b4ca04d1d3835dd89ec34"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "2ac3b966d35fa0ff3bfec08eae239396ca745fcd"
+          "sha": "d258ce4d3d5bbf36da0660d275929997e3d2f35e"
         },
         {
           "path": "sections/checklist.md",
@@ -40767,7 +41433,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-sections.md",
@@ -40784,15 +41450,15 @@
       "id": "garrytan/gstack@plan-tune",
       "trust": "trusted",
       "name": "plan-tune",
-      "description": "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)",
+      "description": "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). Use for: tune questions, stop asking me that. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-tune",
-      "contentHash": "39c9d9f6",
+      "contentHash": "2fc3e54a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "d30cacddce9abc93f7b2c9b98d662120df09405a"
+          "sha": "b97f1a4de88777b8e26c014890299b131665acb0"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40800,7 +41466,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/plan-tune"
@@ -40809,15 +41475,15 @@
       "id": "garrytan/gstack@qa-only",
       "trust": "trusted",
       "name": "qa-only",
-      "description": "Report browser/API/CLI/job/worker/webhook bugs. (gstack)",
+      "description": "Report browser/API/CLI/job/worker/webhook bugs. Use for: qa report only, just report bugs, test but dont fix. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa-only",
-      "contentHash": "d3c49538",
+      "contentHash": "4631cc5a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "4854a744afa8aa1ef1c8b7a6089dd37a8195d134"
+          "sha": "d75edf96707c1e91e799a559fcd47ecf559c7a5c"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40837,7 +41503,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/reporting.md",
@@ -40854,15 +41520,15 @@
       "id": "garrytan/gstack@qa",
       "trust": "trusted",
       "name": "qa",
-      "description": "Use when you test the site, API or CLI and fix bugs. (gstack)",
+      "description": "Use when you test the site, API or CLI and fix bugs. Use for: qa test this, find bugs on site, test the site. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "320a27e1",
+      "contentHash": "84dab832",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "38d95e46e620367653f030054b342972ee06a21c"
+          "sha": "102e1d5717f739220af551bffccc68ca087d73a0"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40902,7 +41568,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/qa-patterns.md",
@@ -40968,15 +41634,15 @@
       "id": "garrytan/gstack@retro",
       "trust": "trusted",
       "name": "retro",
-      "description": "Weekly engineering retrospective. (gstack)",
+      "description": "Weekly engineering retrospective. Use for: weekly retro, what did we ship. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "retro",
-      "contentHash": "a7879c8b",
+      "contentHash": "d6ef9cf1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "87f44852c641259c3f8980911530cd3beba566c6"
+          "sha": "46308f6d5867010097c7003bf95c525cf621f24a"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -40988,7 +41654,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/report-format.md",
@@ -41005,19 +41671,19 @@
       "id": "garrytan/gstack@review",
       "trust": "trusted",
       "name": "review",
-      "description": "Use when you review this PR's diff. (gstack)",
+      "description": "Use when you review a diff before it lands: local changes, a branch or a PR. Use for: review my changes, look over my diff, review this pr. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "7d3f8a1f",
+      "contentHash": "017eda35",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "a1809271b328cd358439875b933152895fe6601b"
+          "sha": "493cfbe2c3d8cfab7a61259243fd841e2f6c9c44"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7ae3e4eef4dbfbe10cc65c94c979776ee950f851"
+          "sha": "958d4971433c2b1dc26307c3208944476bb79288"
         },
         {
           "path": "TODOS-format.md",
@@ -41061,7 +41727,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-army.md",
@@ -41126,19 +41792,19 @@
       "id": "garrytan/gstack@runaway-stopper",
       "trust": "trusted",
       "name": "runaway-stopper",
-      "description": "Find runaway Capy threads and subagents, stop or rotate them safely, and prevent repeats. (gstack)",
+      "description": "Find runaway Capy threads and subagents, stop or rotate them safely, and prevent repeats. Use for: find runaway threads, stop runaway jobs. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "4780da81",
+      "contentHash": "6cd2cb86",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "182513520489d160bd07d5e3d294d23b5f4a65c0"
+          "sha": "95ebd5a1e52b3a8f62dd3f7219427948c9481840"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "40ce382ab6457afabcbb0c9cf296ae8c935969a6"
+          "sha": "e85ca270ff545ff42b376557f471dafd057e7a41"
         },
         {
           "path": "templates/rotation-handoff.md",
@@ -41155,15 +41821,15 @@
       "id": "garrytan/gstack@scrape",
       "trust": "trusted",
       "name": "scrape",
-      "description": "Pull data from a web page through the Aside browser — your real, already signed-in sessions. (gstack)",
+      "description": "Pull data from a web page through the Aside browser — your real, already signed-in sessions. Use for: scrape this page, get data from, pull from. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "scrape",
-      "contentHash": "f3115f53",
+      "contentHash": "0bf55d19",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "694f7f905308cfcd31624358fec16ca0be2303c9"
+          "sha": "e0da85af876fddbaf4a5176188a0aeac71dedddd"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41176,15 +41842,15 @@
       "id": "garrytan/gstack@setup-browser-cookies",
       "trust": "trusted",
       "name": "setup-browser-cookies",
-      "description": "Import cookies from your real Chromium browser into the headless browse session. (gstack)",
+      "description": "Import cookies from your real Chromium browser into the headless browse session. Use for: import browser cookies, login to test site. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-browser-cookies",
-      "contentHash": "1767b697",
+      "contentHash": "da832a9a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "aaf4ca2f16a82858c23d152e0cff343326712cd1"
+          "sha": "821cb266467ed97417a34600426d6c89c91a69e5"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41197,15 +41863,15 @@
       "id": "garrytan/gstack@setup-deploy",
       "trust": "trusted",
       "name": "setup-deploy",
-      "description": "Configure deployment settings for /land-and-deploy.",
+      "description": "Configure deployment settings for /land-and-deploy. Use for: configure deploy, setup deployment.",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-deploy",
-      "contentHash": "0f2f4386",
+      "contentHash": "d93f4d02",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c06932f5b4719fdf99e31d107c08e173f6b8bcf6"
+          "sha": "8ab73f4c6aaef4b2efa9a3632bd2760358225505"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41213,7 +41879,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/setup-deploy"
@@ -41222,19 +41888,19 @@
       "id": "garrytan/gstack@setup-gbrain",
       "trust": "trusted",
       "name": "setup-gbrain",
-      "description": "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy. (gstack)",
+      "description": "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy. Use for: setup gbrain, install gbrain, connect gbrain. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "setup-gbrain",
-      "contentHash": "bcb63845",
+      "contentHash": "0656de4e",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7b4355c2dcb42ee97c3ebd94f82e83fd9fae16ba"
+          "sha": "f40480d69489e618380ca050104225c4932f19f0"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "6301aac2e143d7c9fcdd0dfd07f52bf5845e142d"
+          "sha": "fe3d7612709dce45734095f1b5429802b82b3c93"
         },
         {
           "path": "memory.md",
@@ -41270,7 +41936,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/transcript-gate.md",
@@ -41287,27 +41953,27 @@
       "id": "garrytan/gstack@ship",
       "trust": "trusted",
       "name": "ship",
-      "description": "Ship it: merge the base, run tests, review the diff, bump VERSION and CHANGELOG, push and create a PR. (gstack)",
+      "description": "Ship it: merge the base, run tests, review the diff, bump VERSION and CHANGELOG, push and create a PR. Use for: ship it, create a pr, push to main. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "e42ffd57",
+      "contentHash": "ec036b84",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "effbebd92fe02afc777f8d21e93478e56d2b4d29"
+          "sha": "e43f0066039365ceb794e046017c01ac16758833"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "f14197dd3c8f22ee80c673c958d2e53f90116975"
+          "sha": "1dd4beef5286d05d601c2a94d0c1534d3ce2d13b"
         },
         {
           "path": "SKILL.md",
-          "sha": "d64101278054ba74abac777320d166871a093147"
+          "sha": "f074c2fb91d5368c0cd9b816b9e71c8e55072e03"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "36cd866449926f67b6914105f98ad75be1b0bcd4"
+          "sha": "a3fb3b996b42466bf367a68e81540333dec61ab8"
         },
         {
           "path": "sections/adversarial.md",
@@ -41335,11 +42001,11 @@
         },
         {
           "path": "sections/capy-pr.md",
-          "sha": "e9cd5581a62c8608ccfb1d696b401d03e0174bb2"
+          "sha": "42923fb1793bf84d2cd8657ae8b141d364db2285"
         },
         {
           "path": "sections/capy-pr.md.tmpl",
-          "sha": "41a36d84fe19fd5d22468085c4a0634dce0a6c15"
+          "sha": "35f3928fc6204c5fad661c62b3cbb897b917b092"
         },
         {
           "path": "sections/changelog.md",
@@ -41351,11 +42017,11 @@
         },
         {
           "path": "sections/documentation.md",
-          "sha": "c86848ad5f926ab99de48c17701130773d0f94f6"
+          "sha": "b6b773610db0638de423f14b0ac6e00a7d2c8c44"
         },
         {
           "path": "sections/documentation.md.tmpl",
-          "sha": "95ffdd36f18e0f116977a56a590bc20fe023c415"
+          "sha": "b63e52903330c2c4db391373959590c35f2e3c1d"
         },
         {
           "path": "sections/greptile-early.md",
@@ -41403,23 +42069,23 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "39d72452fb2516c444e1ff12c099d42bd04bfd65"
+          "sha": "87bf1c6af1a0d93b3bb23091ec74feaa217eee92"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "4fe6e0d5d70b6ee9ee632c63f0f6cefc021df42c"
+          "sha": "c0bfb63ad706f67f54ca9d4c94d02883b2654605"
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         },
         {
           "path": "sections/review-army.md",
-          "sha": "5c06bf26420023b9e1d6af7f27bec595ca019a5b"
+          "sha": "add34ef9f3849ebd32a2f4357651141da4a1dd5c"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "d7e7f6ec6a0264bc8d3d7c6f26d168596ebc7271"
+          "sha": "24800f01a0e96f43005b4b021239ac157d8601b3"
         },
         {
           "path": "sections/shared-code-reuse.md",
@@ -41439,11 +42105,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "2e63156b411db9da67de32c480258ab0b981ab6a"
+          "sha": "d9643b7eb752e431b3632934f5ae08490c3664ed"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "02ea36cbf74bdfc0a5ecb85adb1fc6b35b9f797a"
+          "sha": "a18b54912c29155b54171705fb0493b39ad2972e"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
@@ -41452,15 +42118,15 @@
       "id": "garrytan/gstack@skillify",
       "trust": "trusted",
       "name": "skillify",
-      "description": "Codify the most recent successful /scrape flow into a permanent browser-skill on disk. (gstack)",
+      "description": "Codify the most recent successful /scrape flow into a permanent browser-skill on disk. Use for: skillify, codify this scrape, save this scrape. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "skillify",
-      "contentHash": "a79827e6",
+      "contentHash": "ea41a911",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "10477485e76d85344fc0340fcd7502924ce23915"
+          "sha": "bfd4d5390efb3ecf02662e447950c79a7c53998a"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41468,7 +42134,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/skillify"
@@ -41477,15 +42143,15 @@
       "id": "garrytan/gstack@spec",
       "trust": "trusted",
       "name": "spec",
-      "description": "Turn vague intent into a precise, executable spec in five phases. (gstack)",
+      "description": "Turn vague intent into a precise, executable spec in five phases. Use for: spec this out, file an issue, write up a ticket. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "spec",
-      "contentHash": "422712dd",
+      "contentHash": "db27b0e3",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1529f557a538f787a5bf4bdd6552c5b6fa809294"
+          "sha": "b546227d64bf57a1036261999b8566b75c8c40b9"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41505,7 +42171,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/spec"
@@ -41514,23 +42180,23 @@
       "id": "garrytan/gstack@sync-gbrain",
       "trust": "trusted",
       "name": "sync-gbrain",
-      "description": "Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. (gstack)",
+      "description": "Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. Use for: sync gbrain, refresh gbrain, reindex repo. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "sync-gbrain",
-      "contentHash": "d0feb9b6",
+      "contentHash": "0d6adb24",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "354f96e6f3d55f74bf383a953032684bd722c6ee"
+          "sha": "45517662984a97dd8a259a292f4f1f968cefcf4a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "3612a62da1eac6a94a24800ef8c7983397a713ea"
+          "sha": "e757826fa0b807663c0901c1f0316cfcb940c424"
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/sync-gbrain"
@@ -41539,15 +42205,15 @@
       "id": "garrytan/gstack@test-audit",
       "trust": "trusted",
       "name": "test-audit",
-      "description": "Find low-value or duplicate tests and the test-only code they keep alive. (gstack)",
+      "description": "Find low-value or duplicate tests and the test-only code they keep alive. Use for: audit the test suite, find low-value tests. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "test-audit",
-      "contentHash": "40a88432",
+      "contentHash": "90902815",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "090bbb322768ce7a44966fd6853aec23572b87a3"
+          "sha": "87f9ed98d16f49d01d90f895d279f7ffa590d690"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41555,7 +42221,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/test-audit"
@@ -41614,15 +42280,15 @@
       "id": "garrytan/gstack@ubicloud",
       "trust": "trusted",
       "name": "ubicloud",
-      "description": "Run a heavy suite, build or eval on an ephemeral 16-vCPU Ubicloud VM: TTL-named VMs, a reaper, quota preflight and a hang watchdog. (gstack)",
+      "description": "Run a heavy suite, build or eval on an ephemeral 16-vCPU Ubicloud VM: TTL-named VMs, a reaper, quota preflight and a hang watchdog. Use for: run on ubicloud, ubicloud vm, remote test run. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ubicloud",
-      "contentHash": "1f39b4a8",
+      "contentHash": "9a5e2302",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "6274dbed6a7e03f61dcba5c86618b887dbdf9a1c"
+          "sha": "3999e650f3e73a0976745aeba3eb508fa0cedc43"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41630,7 +42296,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ubicloud"
@@ -41639,15 +42305,15 @@
       "id": "garrytan/gstack@unfreeze",
       "trust": "trusted",
       "name": "unfreeze",
-      "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. (gstack)",
+      "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. Use for: unfreeze edits, unlock all directories. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "unfreeze",
-      "contentHash": "95981f59",
+      "contentHash": "5f63d930",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ca32654bd899e4f8d97a05934d0111e14b316386"
+          "sha": "5c86cd3aa1b3c962560424a444bfce88713d406c"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41660,19 +42326,19 @@
       "id": "garrytan/gstack@verify",
       "trust": "trusted",
       "name": "verify",
-      "description": "Use when coding: run the checks and tests /ship picks until green. (gstack)",
+      "description": "Use when coding: run the checks and tests /ship picks until green. Use for: verify my change, run the checks, make the tests pass. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "verify",
-      "contentHash": "22782b97",
+      "contentHash": "918b9e55",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ee6e6e266db59422264aeca53ba26459bdcc8352"
+          "sha": "619e582fe653c8c293f5c22d8ac607f3a183bd3f"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "059a412c1dce859f9eb554a8066e91c98742beac"
+          "sha": "2bd61cbdaf4aad3a342f665ecc0d6d49ed6b1c7e"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/verify"
@@ -41681,15 +42347,15 @@
       "id": "garrytan/gstack@write-skill",
       "trust": "trusted",
       "name": "write-skill",
-      "description": "Write a new agent skill or improve one without bloat: the edit ladder, levels, drift and size checks, full diets. (gstack)",
+      "description": "Write a new agent skill or improve one without bloat: the edit ladder, levels, drift and size checks, full diets. Use for: write a skill, improve this skill. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "write-skill",
-      "contentHash": "7c88a161",
+      "contentHash": "b317adee",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "85fc30a8beb555cd56da5b843226ed03999853cd"
+          "sha": "8615374ba1e490b5c00df1771228e25a25ed1849"
         },
         {
           "path": "SKILL.md.tmpl",
@@ -41701,7 +42367,7 @@
         },
         {
           "path": "sections/preamble.md",
-          "sha": "9efe49a9da2558ea97269235c2f41689aad348bb"
+          "sha": "f753a5e1b1ce214a12664ed2cd65aac870084836"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/write-skill"
