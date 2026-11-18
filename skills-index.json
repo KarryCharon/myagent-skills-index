@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794987252427,
+  "generatedAt": 1795034245518,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -11092,19 +11092,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-aes-gcm",
-      "contentHash": "d7f7abd7",
+      "contentHash": "27566ad6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b52e6a87480eac3b2fdea903df8c608b81244c29"
+          "sha": "e25a3803c487c6e49431ef3955cdec17b06b7762"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "d99cd85364c2bcd27a496d13919210a8904d97ec"
+          "sha": "4d27e152259a52ecce5778599471a4675417b9e3"
         },
         {
           "path": "SKILL.md",
-          "sha": "7f7fdb2f7706888f5b918e830558dde4f208aed1"
+          "sha": "0e99ec8ff645b8520a9fe05c603d1832b5a6635c"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11112,7 +11112,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "f2efd810bcd031e26777b115a4e7a952ececf351"
+          "sha": "3ba3bcd2869c81246c7aaea4f284c1dd41238b78"
         },
         {
           "path": "evals/evals.json",
@@ -11120,11 +11120,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "0930c6e7476d667999788431353bef0d17c0014e"
+          "sha": "5ed3331d4189fabf7a5d503c95de100efad57030"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e2072ef85f1d271fb38b0995f5e9f95296677db3"
+          "sha": "e46ca1db93821060418f290bde609cf43ce7d197"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-aes-gcm"
@@ -11137,11 +11137,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-argp",
-      "contentHash": "5b7b9563",
+      "contentHash": "0696e11b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b9f5c323a1fe0c39149899c4c335428e21e001d8"
+          "sha": "da291ac7a45e36f501fd4a006c792665eefba303"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11149,7 +11149,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "ef7ca39a832b9d596f7b54b428d2f81a4ccad949"
+          "sha": "cd80a785db7ed65b472f3d2f403c7fb56463230c"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11157,7 +11157,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "646e211389565153039375d36668d79520d3d4f3"
+          "sha": "e97d73206ea7ab255136af55b36469767851993e"
         },
         {
           "path": "evals/evals.json",
@@ -11165,11 +11165,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "56e37e97bcdcab22f867bf89307e8bf26f66301b"
+          "sha": "505ab0756b21ef9260aac5bfbe8eb067a9940a5d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "774dbc90514950546cbc8d9456399ef528d2ac21"
+          "sha": "fe457ea6c1fcde42cd5b5168598d05423c17518c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-argp"
@@ -11178,15 +11178,15 @@
       "id": "NVIDIA/skills@doca-argus",
       "trust": "trusted",
       "name": "doca-argus",
-      "description": "Use this skill when the user is deploying or operating the DOCA Argus Service — the packaged BlueField-side runtime-security container that watches the BlueField and attached host for suspicious activity, integrity violations, and operational anomalies, and forwards findings to a SIEM (Splunk / ELK / Sentinel / syslog). Covers the four-axis config (detection policy, forwarding, sampling, host coverage), running the NGC container on BlueField Arm, and wiring the forwarder. Trigger even without \"DOCA Argus\" by name — typical implicit phrasings: \"container green but no findings arrive\", \"false-positive flood in Splunk\", or \"runtime security on a fleet of BlueField-3s\". Refuse and route elsewhere for installing DOCA, SIEM-side ingest stanzas, pre-baked detection-rule packs, and metrics observability (DOCA Telemetry). Argus is NVIDIA's currently- promoted runtime-security framework, superseding the older App Shield library; name it first for new runtime-security work.",
+      "description": "Use this skill when the user is deploying or operating the DOCA Argus Service — the packaged BlueField-side runtime-security container that watches the BlueField and attached host for suspicious activity, integrity violations, and operational anomalies, and forwards findings to a SIEM (Splunk / ELK / Sentinel / syslog). Covers the four-axis config (detection policy, forwarding, sampling, host coverage), running the NGC container on BlueField Arm, and wiring the forwarder. Trigger even without \"DOCA Argus\" by name — typical implicit phrasings: \"container green but no findings arrive\", \"false-positive flood in Splunk\", or \"runtime security on a fleet of BlueField-3s\". Refuse and route elsewhere for installing DOCA, SIEM-side ingest stanzas, pre-baked detection-rule packs, and metrics observability (DOCA Telemetry). Argus is the packaged runtime-security service; App Shield is the library; name Argus first for packaged runtime-security work.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-argus",
-      "contentHash": "e356b4d8",
+      "contentHash": "34d27469",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2adcb51d57f0115289da067881ae00552d8de978"
+          "sha": "7c679e25c576f8a032bc2cf5cca73725285bedea"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11194,7 +11194,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "414f727debe2246808a978f8ebdfb274c2f2c856"
+          "sha": "f5c7dc9ef3498d398d6327382aa167dbe1f48dfc"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11202,7 +11202,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "7a2a4cfbaa8d1c06da3b34af8c95c2d04d951410"
+          "sha": "dff36869c75fbe31bf7d6f3be6ebd1b0a45ab18e"
         },
         {
           "path": "evals/evals.json",
@@ -11210,11 +11210,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "23f5e27ac5c4f4dc47a12bb872dc43485b13e71d"
+          "sha": "b9f1943fc5b0ee7717586b0b9c4e8e6659bb11a0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "555d04548ee53f61c1129f21d14f577889c22e95"
+          "sha": "f0d77fa3df6a36122e38268e56030e4ee83e6631"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-argus"
@@ -11227,11 +11227,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-bare-metal-deployment",
-      "contentHash": "582dc68e",
+      "contentHash": "c694cd43",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c2ffded3dd7c9b871e4f6a92f99ee399a08bcb92"
+          "sha": "f114535d5d3b25c7483549bae75584373383a2e9"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11239,11 +11239,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "688c62e16c42856182ff01e28f0dbf58b4bf1191"
+          "sha": "a39961fc11c901b14858589639bff14cfb6d08c4"
         },
         {
           "path": "TASKS.md",
-          "sha": "180ed1ca4ee52632775e012fbb1a7c802a53d665"
+          "sha": "fa58c8fac13b856712b4027ba5b5eded70520ea5"
         },
         {
           "path": "evals/evals.json",
@@ -11251,15 +11251,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "7def3dd1551b1c56bd020df66d9cf248ea5c51ff"
+          "sha": "a924196cc0196234a410cc1b1cd34954e113866b"
         },
         {
           "path": "skill-card.md",
-          "sha": "0ab2b7fb15f7f32943fce5a2d5992051044c916d"
+          "sha": "17d06b1896327d6408fb5149dd3515323391f95a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "31fd0a2d7f6405664fabaeabd594a3f0392c3022"
+          "sha": "e44be64cb72eb269bf79206a780bbf0c73696678"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-bare-metal-deployment"
@@ -11272,11 +11272,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-bench",
-      "contentHash": "f892b52f",
+      "contentHash": "faca8045",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7f3ec74534c90fbf59875732785a6a4dceef907b"
+          "sha": "00b23970da1a9df817349759d12f28ea9534d558"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11284,7 +11284,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "0d4fce3325a2ce24846da8dbf0e792b823aa8922"
+          "sha": "244797f71594ac94c63269c1252f687b63b6418c"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11292,7 +11292,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "4bee5c89186bacbd2939ef8f0d74767aa9cc876f"
+          "sha": "6e7701d7c69b08d44d0e061fa42b6eb15a579fe3"
         },
         {
           "path": "evals/evals.json",
@@ -11300,11 +11300,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "6f1512fe9eb6adeb74c988752fa742109adb7e16"
+          "sha": "cec0935f62907d7d9a9858ffd8e692d09158b2a5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b5be66b6eea7754a93c3d5fef74a2757b57f263e"
+          "sha": "ec3790824a00d2db600e7b7e71018b58a2e3ead2"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-bench"
@@ -11317,11 +11317,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-bf3-deployment",
-      "contentHash": "035016ac",
+      "contentHash": "b952d516",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "22616c2e862d3e9ba5a38ce56de71f7beb074827"
+          "sha": "0e90ce2b21344c11c4fdfbd8c4514acdccc43fca"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11329,11 +11329,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "69b0932aff1aad162282da89d469ceb4cfe54c3b"
+          "sha": "c9ca500aa2aa46417f35e30526763a5d4b07558b"
         },
         {
           "path": "TASKS.md",
-          "sha": "6cb0a8a5a69c82a59556f26a23382ac2d9f1f262"
+          "sha": "633cecd6470cc63243e4ca17306b687519eb489a"
         },
         {
           "path": "evals/evals.json",
@@ -11341,15 +11341,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "9f41d98993a86e326030a0859142dfd56dda5cc4"
+          "sha": "d9561c4c4f5aa2e2dc3963073b0dc3c335f1d2de"
         },
         {
           "path": "skill-card.md",
-          "sha": "1591b4f579d35188e61fa194751e7a4fab5e4a41"
+          "sha": "aad8d479b7ef264a055e2b9553ebdaffb8813058"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ed0bebac4e11bfad1c97a9a2d5841cbf65f59886"
+          "sha": "d887bff84410b703e5cb760ec58ec8fedc4a5654"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-bf3-deployment"
@@ -11358,27 +11358,27 @@
       "id": "NVIDIA/skills@doca-bf4-deployment",
       "trust": "trusted",
       "name": "doca-bf4-deployment",
-      "description": "WARNING: guides IRREVERSIBLE BlueField-4 hardware operations (PLDM firmware burns, ISO reflashes, power cycles, BMC factory resets); every mutating step is governed by doca-hardware-safety (window, rollback). BlueField-4 only: BlueField-3 bring-up is doca-bf3-deployment. Use this skill for BlueField-4 (BF4) day-1 platform bring-up from the BMC: installing the BlueField/DOCA bundle ISO onto the DPU (Grace, the Arm complex) over UEFI HTTP Boot, PXE, or Redfish Virtual Media; the PLDM platform-firmware update via the Redfish UpdateService and pldmtool; and a Grace Ubuntu image with optional cloud-init. Trigger on BlueField-4/BF4 bring-up phrasings even without \"BF4\": {bring up my new BlueField-4}, {the BlueField ISO will not boot over HTTP from the BMC}, {attach BF4 virtual media via Redfish}, {BF4 firmware Task stuck at Running}, {prepare a BlueField-4 host: platform support, version alignment, safest first smoke test}. Route application launch and library APIs to other skills.",
+      "description": "WARNING: guides IRREVERSIBLE BlueField-4 hardware operations (PLDM firmware burns, ISO reflashes, power cycles, BMC factory resets); every mutating step is governed by doca-hardware-safety (window, rollback). BlueField-4 only: BlueField-3 bring-up is doca-bf3-deployment. Use this skill for BlueField-4 (BF4) day-1 platform bring-up from the BMC: installing the BlueField/DOCA bundle ISO onto the DPU (Grace, the Arm complex) over UEFI HTTP Boot, PXE, or Redfish Virtual Media; the PLDM platform-firmware update via the Redfish UpdateService and pldmtool; and a Grace Ubuntu image with optional cloud-init. Trigger on BlueField-4/BF4 bring-up phrasings even without \"BF4\": {bring up my new BlueField-4}, {the BlueField ISO will not boot over HTTP from the BMC}, {attach BF4 virtual media via Redfish}, {BF4 firmware Task stuck at Running}, or preparing a BlueField-4 host (platform support, version alignment, safest first smoke test). Route application launch and library APIs to other skills.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-bf4-deployment",
-      "contentHash": "f99ebe5e",
+      "contentHash": "75301f13",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "082aee32dbbc1a4e4278469dbeac56d7f2beab89"
+          "sha": "20e4b0c8e6579bcf8b467f6825cd10db0a8cf1bc"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "59f95bcb019fd2d632d98ceeb5c4a20bbee2aa88"
+          "sha": "4ee1c5254dfdb075f86235f2e07799376a50a672"
         },
         {
           "path": "SKILL.md",
-          "sha": "9b4d095ddb3de0fd0dcb5d53a145d7a6aeb4c34e"
+          "sha": "18bf485641b28c39d437e8e1d73b10284a88261b"
         },
         {
           "path": "TASKS.md",
-          "sha": "dc49f3d075e2f6ba9b5223488722b39ad167d413"
+          "sha": "2ef778cee5588198a737c16ead743c0d9c987725"
         },
         {
           "path": "evals/evals.json",
@@ -11386,15 +11386,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "cc196dcc05e9d40fe62ff83f44aa1a16c97d4892"
+          "sha": "e6d40be475afe3aa19b9fe2a3d081fe7ac23e2e7"
         },
         {
           "path": "skill-card.md",
-          "sha": "eb53dcefb654f4192a6ad99347baa7ed0b93fda3"
+          "sha": "41f48b9f814e691922a77c92626729eb8dc1709f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d409aeab62d035856450095a0c3b0443b03e9342"
+          "sha": "42ebd338ee55957695d0e73408fc981af7994ab6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-bf4-deployment"
@@ -11407,19 +11407,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-caps",
-      "contentHash": "659dc9c0",
+      "contentHash": "5a02fc4f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "6f9cc31c048d01cb8c655ec8203b9eeda3745f61"
+          "sha": "db4eda2380b269983f7e92591ef6dec54fc98620"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "ce4a0e6895424a8206ebd2a69495e2af8ad37ffb"
+          "sha": "64391d46d71f72670320278fe02771ae436b23c4"
         },
         {
           "path": "SKILL.md",
-          "sha": "3822518a4d139554dbbf2028504792e68e07250f"
+          "sha": "2c5e8f3706c78b0e680271cd117841b32959874a"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11435,11 +11435,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "672701ee2b71851a862a2817effd6cf6c46174ec"
+          "sha": "88d5c2e50c9930186377baacb03fd9915ca5067e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6d71de5714da9c9660ce20a448d33675d1cdb5d6"
+          "sha": "ac41975fa4165e23d85647b8f7108aed91464c60"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-caps"
@@ -11452,19 +11452,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-comch",
-      "contentHash": "dc3aa576",
+      "contentHash": "9f5c6550",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "e3ecf8411b26bb9447236c6c0d7ab304ea0c8851"
+          "sha": "1f7dc8618bd011cb1d9929f1cd21187f3ccb21a5"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "ec27f695d82b6cf57c27a5e40b66c250074e82e2"
+          "sha": "49512fc4cc4dca6963f413f4307dee424a57fc59"
         },
         {
           "path": "SKILL.md",
-          "sha": "16429c5c9aacf6647a24177dd9b0a1e4a4de695f"
+          "sha": "ffdccdcafda566c67f1e82c5c5e1451e4198992f"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11472,7 +11472,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "126efd1e730b1dd0f47f015b60f5e58adfe79dd8"
+          "sha": "afa0ec1ece25e0014abb845a293af3a81322a942"
         },
         {
           "path": "evals/evals.json",
@@ -11480,11 +11480,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "60e2217e60e4054de751d3adadfd95a880d5161e"
+          "sha": "3ff3cdb9ec10fd24a77c9d3da8caeca417060855"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "09da1fadfe22cdb4a204c318755009e3d96b0d05"
+          "sha": "6d062e98a671204ea25ed9d701cef94fd6d895c9"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-comch"
@@ -11497,19 +11497,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-comm-channel-admin",
-      "contentHash": "7296a865",
+      "contentHash": "78b90c3d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "0f0b5c55f5286da0570fbdbb381815555b15e950"
+          "sha": "4205e78e974c14c7dbe20545fd5db0e15e2332a9"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "6ad6b75d855be4e0d4a361a23b7c15b5ddad2337"
+          "sha": "d096b937b1d11da62005f07f02a2a170882fb160"
         },
         {
           "path": "SKILL.md",
-          "sha": "e14e2e53300c0281a7e3085f12cec10e97c06919"
+          "sha": "2648f220bcc7f8f3637b189f8b3d5958d402889d"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11517,7 +11517,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "0f2de123436b01377623e23c6592f1461ad4645d"
+          "sha": "73ef43d3f77dac6deeaedc442c645cc3d036378e"
         },
         {
           "path": "evals/evals.json",
@@ -11525,11 +11525,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "0e802709c9620b47ae237794edfcaa6a196225e5"
+          "sha": "0720638ab77437d8836daa9ecd6f232b08ea20cb"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "00a1a557c6c62fd8ddeae3674d4438706034d5bd"
+          "sha": "dbce941f116d556b6562374cdc5637a89bae88df"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-comm-channel-admin"
@@ -11542,19 +11542,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-common",
-      "contentHash": "95c5c48b",
+      "contentHash": "94ea5caf",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "472103200a964dc5af03d80e72bb6959e9b8ef88"
+          "sha": "8e6658a2f448426d7ba6bff79ad60e1ad700fea6"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "cd3cabe251af5147c0d65aa6881ee5140d45fc1d"
+          "sha": "8a5d836da3f507d17d3558d3e02bc9316b6647b2"
         },
         {
           "path": "SKILL.md",
-          "sha": "0c7951475953545b3ae0fa3c9fd363c7687fc1da"
+          "sha": "834ac9a99461711dd98a13ba14841cceef5cbcf4"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11562,7 +11562,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "0e165a2937176582fc969d200657a3c779d7f9dd"
+          "sha": "46a692c85326069f6559d4102d3d5e375d8c3e08"
         },
         {
           "path": "evals/evals.json",
@@ -11570,11 +11570,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "23571268cc7e17997b53d119f983b7283009dffc"
+          "sha": "51c33a293179da517e8f5a512ba9ecee7a5523f9"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "224d3ca788177898b73910a53efe85b4447e85eb"
+          "sha": "ed4565d671d5db7440b9540d116744172440216f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-common"
@@ -11587,19 +11587,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-compress",
-      "contentHash": "0d0e0f5d",
+      "contentHash": "206e984e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "cd5ee3f3fa7aa5f1e871dc52b806410ca35f02d7"
+          "sha": "88b0c07225215dc25848916687d3ae1dae785d6d"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "c8fd6344f03817b612dfa159937641ae10394d63"
+          "sha": "1eee669cfc90724a47e2fa362ae4ac9b0d8a1b90"
         },
         {
           "path": "SKILL.md",
-          "sha": "075b9492d0641ed93bfe54d45a730789efd81168"
+          "sha": "2a75733c938eabe4f85b1008c00b9a543d3ef095"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11607,7 +11607,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "708350c56c6a843ce92d6ab6984dc2932e2a57d9"
+          "sha": "aaf3745749b35d9fe006270bf9f93b9876abf4a2"
         },
         {
           "path": "evals/evals.json",
@@ -11615,11 +11615,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "4c54ea43c7e1d49296df72251f1975316ce0fbf3"
+          "sha": "81e907dcad8fb41d6226a618ba7afc3c600626bc"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "0761887a4ede3fa3f6a73ddf6a49e2f015af6aa3"
+          "sha": "2a4b627f6abfae8554e979a7235989e2b69960a3"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-compress"
@@ -11632,11 +11632,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-container-deployment",
-      "contentHash": "b29c85b2",
+      "contentHash": "e26b7e0c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "acae9d931b259c0d54eef4bf54217a29e8eeef03"
+          "sha": "e2eaa6ba44bc580c8f7143a1dd84d1aa70cba67c"
         },
         {
           "path": "CAPABILITIES.md",
@@ -11644,11 +11644,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "6afb7f708ac9dd42348b4ba294be7ebf377db9ce"
+          "sha": "54bcbc3b52fc0e978b000dfbee46d96cb99b26eb"
         },
         {
           "path": "TASKS.md",
-          "sha": "3e9969e766a0969a521ed64c414d1e8300952a9c"
+          "sha": "3a1c48d61dc9b305ca34c18ea0065271c3766cf0"
         },
         {
           "path": "evals/evals.json",
@@ -11656,15 +11656,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "dd0378149c56c2b7491c216989b1568afe5ca871"
+          "sha": "11662e60c9335688252a773e1b1f3d46755d01ac"
         },
         {
           "path": "skill-card.md",
-          "sha": "b22f60969ab6ed77b793a3c48fd32c0c4358daa9"
+          "sha": "cb98fb8f4ccd7c1f8d2883fa95b46774302a8e3a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "626315b2b4b9e033530db13de8a0d648c085c587"
+          "sha": "61f4c490a1ba75a7e742ff21cb4d26c42f2c0fca"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-container-deployment"
@@ -11677,23 +11677,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-debug",
-      "contentHash": "a2f3a7ae",
+      "contentHash": "17649494",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7a6209d0cb07b9089fd1d97bede824e098b2ac60"
+          "sha": "98638acb5b960f49210a15bc2174458ec05a05c2"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "454fbcbe2ff0e71c102033891a8bffb425ef1e22"
+          "sha": "501f60a48e845b08a0bd5b49f43373633f566600"
         },
         {
           "path": "SKILL.md",
-          "sha": "1cd0356cb237a634536cd6859ee35d26815fa342"
+          "sha": "bd4459d00b7d81969551a8c71c112f8bf4597b6d"
         },
         {
           "path": "TASKS.md",
-          "sha": "f8a43ac19d20c99dae4dfc6e1dc2b51e7226d498"
+          "sha": "92fac8c231fe74138170a7b44c92f9a53029d0f8"
         },
         {
           "path": "evals/evals.json",
@@ -11701,11 +11701,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "93f521a643f9dc635f1cfd7ebbc708a219e45b3a"
+          "sha": "1bea3cf2970ed68eefe96404c3dabe50a4e902d5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "03d00a7af6866bd162a3f3909ba84e9e9f0e3fa9"
+          "sha": "c57c45f0505972cf4624e20f1e16fb609e518149"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-debug"
@@ -11714,23 +11714,23 @@
       "id": "NVIDIA/skills@doca-devemu",
       "trust": "trusted",
       "name": "doca-devemu",
-      "description": "Use this skill when the user is doing hands-on DOCA Device Emulation on a BlueField DPU — exposing a custom emulated PCIe device the host sees as a real peripheral while DPU-side code runs the backend, picking the sub-library (PCI Generic, virtio-net, virtio-fs), wiring the per-sub-library Core context plus doorbell / DMA primitives, querying `doca_devemu_*_cap_*`, or debugging DOCA_ERROR_* from a `doca_devemu_*` call. Trigger even when the user does not say \"devemu\" — typical implicit phrasings include \"expose a custom PCIe device from BlueField to the host\", \"host should see a virtio NIC backed by my DPU code\", \"lspci does not show my emulated device\", \"device enumerated but no driver binds\", \"DPU sees nothing when host kicks the queue\", or \"virtio feature negotiation failed at bind\". Refuse and route elsewhere for the packaged DOCA SNAP / Virtio-net Services, host-side virtio kernel drivers, backend body design, or standard BlueField NIC behavior — those belong to other skills.",
+      "description": "Use this skill when the user is doing hands-on DOCA Device Emulation on a BlueField DPU — exposing a custom emulated PCIe device the host sees as a real peripheral while DPU-side code runs the backend, picking the sub-library (PCI Generic, virtio-net, virtio-fs, virtio-blk, NVMe), wiring the per-sub-library Core context plus doorbell / DMA primitives, querying `doca_devemu_*_cap_*`, or debugging DOCA_ERROR_* from a `doca_devemu_*` call. Trigger even when the user does not say \"devemu\" — typical implicit phrasings include \"expose a custom PCIe device from BlueField to the host\", \"host should see a virtio NIC backed by my DPU code\", \"lspci does not show my emulated device\", \"device enumerated but no driver binds\", \"DPU sees nothing when host kicks the queue\", or \"virtio feature negotiation failed at bind\". Refuse and route elsewhere for the packaged DOCA SNAP / Virtio-net Services, host-side virtio kernel drivers, backend body design, or standard BlueField NIC behavior — those belong to other skills.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-devemu",
-      "contentHash": "1505fa2e",
+      "contentHash": "774a3b6f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c7ee6bbba13e653c37ba018a6e946e3ac620569c"
+          "sha": "903ab52f7a2a6c49da101c93e6f0eb6050dab4a7"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "5bb4a7aeb3f2ea1ae18bea339b7f1475e1287f07"
+          "sha": "e0bf6233f1661c68ef9828a24723e5c5df26b986"
         },
         {
           "path": "SKILL.md",
-          "sha": "f8f277a2a95d392d0ca7eb8e7c6caf0712af8781"
+          "sha": "f2815b6626d230249ad34e09d55267667cffee1e"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11738,7 +11738,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "9fd11c2d12363dcf8114c3c7a1d579594616ed33"
+          "sha": "76a6ae7c03cd4ad459dcdee8873f6695496716f6"
         },
         {
           "path": "evals/evals.json",
@@ -11746,15 +11746,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "5a5fe08f12e5b01c645babf29adfd150ebe9084b"
+          "sha": "13f65b0c309384b7ba8f28a57d4e9d45da273d45"
         },
         {
           "path": "skill-card.md",
-          "sha": "92c61902c7f9d147434020fc3d340b9535980d8d"
+          "sha": "95005289c1f3ee1a85b4aa6e50c861131b1974b5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2d77af08222c8c2f6cb45078bc183f245428b53b"
+          "sha": "52c3475418ef20f27bb695305c3898333c662367"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-devemu"
@@ -11767,19 +11767,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-dma",
-      "contentHash": "48a286c8",
+      "contentHash": "7c0616a8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "387943e9e4d77b3b21efff74e9ae4827938389a6"
+          "sha": "e80e5d223dfa0af650bbb25e3437811b27c78e5e"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "0a0c950d8d1981b7658dc04ba468009842dbfd96"
+          "sha": "83007f974cc918031e5ba949edcd399292d49149"
         },
         {
           "path": "SKILL.md",
-          "sha": "99dadbacc9c93e595aecc703b2d9c17345f3cf59"
+          "sha": "ae2fec1a07bcd736430f5bdde9badd4c387f4798"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11787,7 +11787,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "ac64c5d5cb44f1b6e0bddc0cada4ad9f61a027ac"
+          "sha": "cf56b51813fbb5ff8dd517966de0c41f03fbd7dd"
         },
         {
           "path": "evals/evals.json",
@@ -11795,11 +11795,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "623d958bed9d1ded94463f3d27cc1079be1fc756"
+          "sha": "95b304f64daab4713d34ae9ca00f7057697c633e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8bac9e3672a34a50fb278ad694f786f365224fe3"
+          "sha": "b0fb4d6132fc913636b7a12f3a5388b20be377fe"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-dma"
@@ -11812,19 +11812,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-dms",
-      "contentHash": "8f5091db",
+      "contentHash": "1b7e3ff8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "59421d4366426400d9d425245de009e672ba2496"
+          "sha": "6bdf8caa4f12d810ab0d9db5eab0b4ae988b348d"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "e2627c353a3d90a74ab86d9728b6bde210e619e6"
+          "sha": "1918e55122c0e6097f8c95a47e34bc412bdfb56f"
         },
         {
           "path": "SKILL.md",
-          "sha": "4232b8b68f52dc05fcb2e2b549f7d2474bf3ccd8"
+          "sha": "09df2f73e0f6d1a06edbe3102202b56eae29a0df"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11832,7 +11832,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "77808240e7033c091d7feca4c1e36831fe193729"
+          "sha": "37768179470e708deac160bb0e78c2cd47b10cc1"
         },
         {
           "path": "evals/evals.json",
@@ -11840,11 +11840,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "991c0cf9a3c776bfc94e8eb393a02705124a873d"
+          "sha": "6a598d03791a9c5f77cee82840bc05ab561d9196"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "67bff2cb46d38e4341777f84d4ef6ac47874836b"
+          "sha": "c916fc032ed51749775111931c916dc539f97641"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-dms"
@@ -11857,19 +11857,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-dpa",
-      "contentHash": "1435cc64",
+      "contentHash": "7dc8ee91",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3f3e2a949a11efb8782a05b4682fe035302213d9"
+          "sha": "03dcd9798c4d62941bb22bc2878ac40ae9f1fbc9"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "aaac53aa5f0db79712b9dda214ff74f2421031d8"
+          "sha": "bf930822baa24b1d901203e79526692edd953156"
         },
         {
           "path": "SKILL.md",
-          "sha": "bb2c44b27c5f3f86bf9650af3822859c2367da85"
+          "sha": "9ad8abc9258815239a5381f8ae9c2a05bab7ba54"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11877,7 +11877,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "088657b94f09e92d354647847d167801e7f74b99"
+          "sha": "d51587a70f42aebf291625cf5e854994d283e29b"
         },
         {
           "path": "evals/evals.json",
@@ -11885,11 +11885,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e164bb01cc1291a03dd7ff49f75ba17a1e3e38b4"
+          "sha": "3d0b524b610c8a54894fee5ebeae511510961a0a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "57c3d8d0c10c0e53fdc68d1ff579eb6e9f683a19"
+          "sha": "68bd6bde25cf0f7a4f98265bb03cc7a7dd253630"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-dpa"
@@ -11902,19 +11902,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-dpdk-bridge",
-      "contentHash": "3fdefe88",
+      "contentHash": "58a91369",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f5cace236369dbaa0e6e0e7ce3a68ba5502827d6"
+          "sha": "04350bf189813a70d174111faaaaadf8e3b9ecf8"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "cff7c89ccd9f0fa96abd43f306e23baf9a39b31e"
+          "sha": "8027055b435d85989bc5d45f97cfbf865f20b772"
         },
         {
           "path": "SKILL.md",
-          "sha": "c33fb26aa95e1f0d087980d9ab7147c244af1123"
+          "sha": "d70851c75d554686f6ade8521b35262087b13eeb"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11922,7 +11922,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "99cadce7a47589969c7309ef1ba33a665aef9eec"
+          "sha": "25e58bb12ca7a000195ef14a3cf95343235c0a4e"
         },
         {
           "path": "evals/evals.json",
@@ -11930,11 +11930,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "fb56a89ea2cb682ea8c95e0f317621fcd1a02d40"
+          "sha": "5f06447cefbf195fa2ecc32e5c41ff06acac3a77"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6afbdfc4f693a2d9e06b4d533ba7c69fe7ab8a37"
+          "sha": "ad7bb9b06f92ecf5dc9fc24a5445778e8d425af5"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-dpdk-bridge"
@@ -11947,19 +11947,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-dts",
-      "contentHash": "eab4b79e",
+      "contentHash": "19d17406",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "349eed16d9aa8903753b88f9247feb5f520cdf7d"
+          "sha": "716376c8835c4c5f1b81661852ff59b6c8f0f9ac"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "c9bf1634f2d105a4935be40e9bc90ace3bab703c"
+          "sha": "d5ba13b798172ef1c723b93933ffc063216cd910"
         },
         {
           "path": "SKILL.md",
-          "sha": "2299af0698c91d1ef36f8a11e837653fc3e0d482"
+          "sha": "9a450d1ec62d0b2fdead719b402f502b61b0887e"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -11967,7 +11967,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "d0f0ff0cd03425ff29724ddb35e887907145e4f5"
+          "sha": "6c90a5a84233eba32be74f3431934ee26e13eb94"
         },
         {
           "path": "evals/evals.json",
@@ -11975,11 +11975,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "1e1526d784c51bd16627d868cc6c50dbfd50d529"
+          "sha": "c25a3961d6cb60f22eb800f0ac391c9f0fe2fc7c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7b472dcdaad40f0e8b4d912355eae1b2a6942b8e"
+          "sha": "5b101ac5ad1cf64cc5255085dde90020f304a8e6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-dts"
@@ -11992,19 +11992,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-erasure-coding",
-      "contentHash": "860fa018",
+      "contentHash": "affb949e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9acd17dd173e0c2072fad16f67d140f4431f9ea0"
+          "sha": "56d9dd2a8e007ffcb8d5e9aeb0a09f4e228d4bbd"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "7bc33244a8a30239da4c81ee1a967bf885913003"
+          "sha": "62517a5768e57bdf091a9155df55ed2464ef4d71"
         },
         {
           "path": "SKILL.md",
-          "sha": "fe85cb50ba73bd29c8f7d5d261f349edd9d37291"
+          "sha": "6a6e6b9f56739521f6e564df620460e87bbe92bd"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12012,7 +12012,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "e342fe4ad0112fd37e02cc1b7b9d353a31dccd3e"
+          "sha": "8cabef9b72acbc6d7ec68344aad8253f748431d3"
         },
         {
           "path": "evals/evals.json",
@@ -12020,11 +12020,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "f33e409fb24834eaa65a8866e6757c8e12e1f35f"
+          "sha": "a4091a590bb6acac9f3757e30920849b04d1fd4e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fc80bf90dae1f3eda9f3947668fc41eb70bec878"
+          "sha": "727372f62dbb46ed6e124fe5fa5c6220a440c3ec"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-erasure-coding"
@@ -12037,19 +12037,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-eth",
-      "contentHash": "5c5fdff8",
+      "contentHash": "61b78e3c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "873341ad7d01d5babcc3fb1621ecb5f390c0935e"
+          "sha": "234272f91b037352223fc4cb6e70730af9637462"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "973a57719b41dc2f5999daa6f81499644c5dfc8a"
+          "sha": "a0f2f29285c71b91996fdcd30854fcacdc137c42"
         },
         {
           "path": "SKILL.md",
-          "sha": "124d4eb357a8534e73fdaf480a3fb57cf7e51bec"
+          "sha": "702ee6ebe298761e5758181a72333f6382f448b0"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12057,7 +12057,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "6e1a7bbab17ddeadc41e5d29b623efd9bfe8b131"
+          "sha": "13accbe6af259500c88f3c4fa5146471920632a3"
         },
         {
           "path": "evals/evals.json",
@@ -12065,11 +12065,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "45b14b003d911db7102c21a5b0be9c069c92d1ba"
+          "sha": "798ef7b2469ba5f55cffd8f697b0a43e4203a665"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "cda56399c62b02d20283130b0c763659b9f6b2c3"
+          "sha": "544258c1f38411a8e4dbbad14fc3994cc11c24df"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-eth"
@@ -12082,19 +12082,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-firefly",
-      "contentHash": "6fe3cff4",
+      "contentHash": "a538cebc",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "20bf095dfdb7e1397c8bb323a90845ae70593acc"
+          "sha": "bda7bfc9419a9a107dafa8a8216f6ebd742a0d85"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "db1feb6586f3c468a587fdf493cba4817093e31d"
+          "sha": "8756a3cd94a52215b53713f8b98e6f54fd19dbcb"
         },
         {
           "path": "SKILL.md",
-          "sha": "edcb9ac7d7b3a8dc1a200deb865cb028ac060d94"
+          "sha": "0a47a4794e08b69e0a4341f165ab48add2837aef"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12102,7 +12102,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "5c90f0893f1e43266a1d7a4f21040f11ba9b3baa"
+          "sha": "f506c91061cb33233445db2260eb81f0efa4c613"
         },
         {
           "path": "evals/evals.json",
@@ -12110,11 +12110,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "8d91f86e3ea7e06804ac0167b16b6ed7f549750b"
+          "sha": "4ff71f46f4c9c08896cd4d4a50849e81da0d8f66"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "a87dd6331d7f9e0c0efdb5d28c3c68ce9904bff0"
+          "sha": "656a8f5f9e7576ae3be48ceadff167da783df838"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-firefly"
@@ -12127,11 +12127,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-flow-tune",
-      "contentHash": "9452deee",
+      "contentHash": "2cb0b131",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d928a72a2edcc2bd54f342100c31feeb4622fae5"
+          "sha": "b72c99943168bfcebe011f75b5c70003a5260549"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12139,7 +12139,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "358ad700f50a24ec72b5053093c3e0a50c57ea8f"
+          "sha": "a4f1b7c9511ea2657ee4246184aaf7b6058b7071"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12147,7 +12147,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "94b176cd44371c50671ec817e17896892d108fdb"
+          "sha": "f491a7cfdb3da13d6991e22123079e217df4d197"
         },
         {
           "path": "evals/evals.json",
@@ -12155,11 +12155,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "f6ece33c53905aa20e2559ed9f8ef3618de73ace"
+          "sha": "ded376435530914ab66ad5ab1a68c2ff3d8ed559"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "f857fb169bcee5e92b8faa9b9aa684ee481a0e89"
+          "sha": "74afc3ecc5592187b3ae51a4b18fbc9adb096f0d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-flow-tune"
@@ -12172,19 +12172,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-flow",
-      "contentHash": "cb0769e3",
+      "contentHash": "20e5a866",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d690b48515b94c80464ae9f572029de89cd951c2"
+          "sha": "aaa408518ff614c34dd4247f72ebcc9e03fc3c72"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "e133f0d28148466acd7d226f5c37456c9e2e64d9"
+          "sha": "7e79950e6fac7acc5a117d62b8a24def4c9b4fbf"
         },
         {
           "path": "SKILL.md",
-          "sha": "98eea0697ed975d3bddff349eebdcfb4a60f8860"
+          "sha": "779feffbb87b11396430b2239378dc7a28c08bbf"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12192,7 +12192,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "32021406ce3524e4dd989cdf4fe3fb092b91fcbc"
+          "sha": "f2d1d84e41e7b909c51bd1a499b4fb14a3e79a9e"
         },
         {
           "path": "evals/evals.json",
@@ -12200,11 +12200,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "5b8732e3f04ccc539872a389f3b701a3cc36cc8c"
+          "sha": "25fafbbcafdb25d7707518561e94d1c1fc75d0ba"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "a990ed85f89be0014aec70a69dad15d85540af5e"
+          "sha": "5e0ac5197142c48e45bb4b07a70d3682f29f650f"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-flow"
@@ -12213,23 +12213,23 @@
       "id": "NVIDIA/skills@doca-gpunetio",
       "trust": "trusted",
       "name": "doca-gpunetio",
-      "description": "Use this skill when the user is doing hands-on DOCA GPUNetIO programming — wiring a CUDA kernel on an NVIDIA GPU to a doca-eth queue via doca_gpu_eth_rxq / doca_gpu_eth_txq, standing up the per-CUDA-device doca_gpu context, designing the persistent CUDA kernel that drains the GPU-visible queue, running the dual capability check (DOCA cap-query plus cudaGetDeviceProperties), registering cudaMalloc pools via doca_buf_arr_create_*, or debugging DOCA_ERROR_* returns from the GPUNetIO API. Trigger even when the user does not explicitly mention \"DOCA GPUNetIO\" or \"persistent kernel\" — typical implicit phrasings include \"CUDA kernel reading packets directly from the NIC\", \"GPU-initiated networking on BlueField\", \"DOCA_ERROR_DRIVER on doca_gpu_create\", \"nvidia_peermem not loaded\", \"kernel-per-packet is too slow\", or \"which GPU supports GPU-side packet I/O\". Refuse and route elsewhere for general CUDA programming, DOCA Ethernet queue bring-up, DOCA DPA, or DOCA install — those belong to other skills.",
+      "description": "Use this skill when the user is doing hands-on DOCA GPUNetIO programming — wiring a CUDA kernel on an NVIDIA GPU to a doca-eth queue via doca_gpu_eth_rxq / doca_gpu_eth_txq, standing up the per-CUDA-device doca_gpu context, designing the persistent CUDA kernel that drains the GPU-visible queue, running the dual capability check (DOCA cap-query plus cudaGetDeviceProperties), registering cudaMalloc pools via doca_buf_arr_create, or debugging DOCA_ERROR_* returns from the GPUNetIO API. Trigger even when the user does not explicitly mention \"DOCA GPUNetIO\" or \"persistent kernel\" — typical implicit phrasings include \"CUDA kernel reading packets directly from the NIC\", \"GPU-initiated networking on BlueField\", \"DOCA_ERROR_DRIVER on doca_gpu_create\", \"nvidia_peermem not loaded\", \"kernel-per-packet is too slow\", or \"which GPU supports GPU-side packet I/O\". Refuse and route elsewhere for general CUDA programming, DOCA Ethernet queue bring-up, DOCA DPA, or DOCA install — those belong to other skills.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-gpunetio",
-      "contentHash": "2e94c1f3",
+      "contentHash": "1b506cb9",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4a77ca24deaa5fdd860f876797e7c67e2d5437ef"
+          "sha": "fac903a126b67fa5938f1a2f9cbef8d1f8d588d7"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "2884298728cd75395fe1ea4715071cc9ec882a47"
+          "sha": "37779aa2698b05fe5cfc2050d4c52630243270c8"
         },
         {
           "path": "SKILL.md",
-          "sha": "8958cfa1e95616b2f623ca5d6345e3d37317ae0f"
+          "sha": "71b91ac5861af65d43f19b7f2982511c0551134d"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12237,7 +12237,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "6728393317c022b7f22f63e83174cab4201da771"
+          "sha": "48b96a3055d9fd04e5d93be2148951608daa6537"
         },
         {
           "path": "evals/evals.json",
@@ -12245,11 +12245,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "720f32c29cd826e57786640d03dc4d402af0d1b8"
+          "sha": "2226b8ea673e113e14d315f791a21527a73b5764"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6ef344f4fe2ee6e91a1401a982d5d14ff2361ee8"
+          "sha": "c0aa744f735a3ea952fc6c9f7dcf222f639b4d0c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-gpunetio"
@@ -12262,23 +12262,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-hardware-safety",
-      "contentHash": "5e15e7af",
+      "contentHash": "0e436457",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "68082a116983b25f3e87662cc8926c579622563e"
+          "sha": "04bb27379f4381b4e05e9eae037766c2ecd1dc35"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "c8fb887a012852bb820c9dbfd96bd4775913343a"
+          "sha": "a930170928690b8c5c9c1a60d975763a6e565eea"
         },
         {
           "path": "SKILL.md",
-          "sha": "21651da85124cb066b2d8b4e8405155a28c5dcdf"
+          "sha": "a7d63c92910a425b5d623448f7485427a685299c"
         },
         {
           "path": "TASKS.md",
-          "sha": "933983812807eec2cb68356ff167e59d3ea359f7"
+          "sha": "3d3071152f13ed5a7b8ddd0c64775970ff210622"
         },
         {
           "path": "evals/evals.json",
@@ -12286,11 +12286,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "dd073f65dcaf437dbe38e71d60a78def01713161"
+          "sha": "36f7e0cca689afce81e7f377262dca6c38940cd4"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "ed571ca82881f3d6e9637538927d019da93c88fe"
+          "sha": "f9310251ad6d41de04fe72ed190a92967ffc106c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-hardware-safety"
@@ -12303,19 +12303,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-mgmt",
-      "contentHash": "b8aeeef7",
+      "contentHash": "855f2fca",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a5134e8c3ae0a9df144605ab7eb5c3e34b585e28"
+          "sha": "8f5b67aa0579bc7fdbef1cd7b96b8f8db629d1e0"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "779962f15b9e4a47e9e4a48a43c28d2d52bdc6a2"
+          "sha": "51ed7b6ad11bbe8a9c8ce44985800a2ba2c2a6e9"
         },
         {
           "path": "SKILL.md",
-          "sha": "fc403631f10090f9f5f7c36981e8a33479fe5864"
+          "sha": "1f3568a40cd2923ebff2395b4234f102e31a388c"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12323,7 +12323,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "102b32a18091a0a8197baec4519ad315c26c078e"
+          "sha": "6bf542cf3800dfa128fe57abd601ed10e94cc4f5"
         },
         {
           "path": "evals/evals.json",
@@ -12331,11 +12331,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "04fbf1ee0e57d6e003fa7842a1fc007b8e315a4e"
+          "sha": "bae9b4dee1a38c3ca6743a01379c348b6585460e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "71b67d8c582b6154d77979b5d9dd90dbfc64c9ed"
+          "sha": "d7bfd8703f8729156f2b6b4ca63c0688877b311b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-mgmt"
@@ -12348,11 +12348,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-ngauge",
-      "contentHash": "43f2abb7",
+      "contentHash": "83e933ba",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "66d27f98564e6c9d3eb8d384a9115c02b811dc3e"
+          "sha": "f86a90339be0e9769b84c4d6145003b5eef71c62"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12360,7 +12360,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "3ca6744423f3306b8eaf5e59900cb496b2f1aada"
+          "sha": "81b077ffc16485e4950e6fd5ecdd0f0cee3d68a3"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12376,11 +12376,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b72d24cfbce04fb2feb42cd321f8a401bb11e38b"
+          "sha": "c6accfffc5efa26aed93c3432b9338b0ebd90c4e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4d5bbca3e8b7d55998d4f319eeaab7faa514fce0"
+          "sha": "43a7b9ded2bbdea0aca24fefde7af991a775bdab"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-ngauge"
@@ -12393,11 +12393,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-pcc-counters",
-      "contentHash": "c60f147a",
+      "contentHash": "2058caf5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a06fdeb58038f0148b71e0910c296f48caf00c58"
+          "sha": "63914b0505d4724c34332736bbab4f2d29f12a2c"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12405,7 +12405,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "841080da6267bf10c403da0f15303a0a05c48364"
+          "sha": "e7b501df85801fe2eb3774f5d3b5ded64dcca782"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12413,7 +12413,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "3bb3e4f7f3e5e5fc465b78719015dcf1c79badfc"
+          "sha": "445eca9240702822276a58b52fe29f550f30e3f4"
         },
         {
           "path": "evals/evals.json",
@@ -12421,11 +12421,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b3f7c6e54635df225ddd65752b42d041fcfdb030"
+          "sha": "9ad347ea9a9885d4be4af46540ced3b9a6dfa741"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "55c241adac42639b4d25352a15811e95d474da5b"
+          "sha": "6311b3cf3dfff5d22fc3d4cb5f18220f37abe6c7"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-pcc-counters"
@@ -12438,19 +12438,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-pcc",
-      "contentHash": "1e286a60",
+      "contentHash": "c2a237be",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "906962f44705d1a02b03cf8a07e325220209d0ab"
+          "sha": "df624239ae4620716a5624b4b5dcea1f8061ea76"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "1ddb44844815e39da1509947ab660d3b84852b37"
+          "sha": "957203e12526df08547a1f2baabfd85c047de80b"
         },
         {
           "path": "SKILL.md",
-          "sha": "ac769ba2fa2e71a27f98e034a6890c2e4b8e8f64"
+          "sha": "85dfc361c58de1c8586687a277cbf22e5fa556ee"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12458,7 +12458,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "aa375de278b3f97d814b33eb2beb1847dfb81f18"
+          "sha": "f3801b440de04afe31275771aa3cd04a7d15a1fb"
         },
         {
           "path": "evals/evals.json",
@@ -12466,11 +12466,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "7fea8eda54387538bccce8b007a8e38d964b31a0"
+          "sha": "cc60e7e6a03afd749e85920f0707b2d6fe858e1a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "08792f1460a03030f5a3a2512beb564bf5208f8b"
+          "sha": "940c372ca8eb966c2418923131cf1880752758ca"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-pcc"
@@ -12483,11 +12483,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-perftest",
-      "contentHash": "1a741b13",
+      "contentHash": "386d02d8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9cac4b1a0d28a5b557b49870e8cf3c1ada3ffa27"
+          "sha": "37384e9e6459672eaf562f2773e99470991fc93c"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12495,7 +12495,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "90941b4dd5f11311e48e52493840299d72f8facf"
+          "sha": "1f3cab029a95438310858cc7f1ea99f7257aa5eb"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12511,11 +12511,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "276c65fd1ff8b22dd8b6f200c0aafbbba76652ef"
+          "sha": "403d1c117bbb282ed2dd21db784df0e9100aa00f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "679bf27bda1ac3b9db4f222683126f5be0bbf0f8"
+          "sha": "6bf23e5b713dbe819c2048b2c051381102b310ae"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-perftest"
@@ -12528,11 +12528,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-pipeline-language-developer-tools",
-      "contentHash": "a010133a",
+      "contentHash": "8ab509b8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "d38f816479eb49f95ac1c0c58fbe738ebb9c1337"
+          "sha": "a8de0e81eb36c7421df963a59f33a0d21ab43554"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12540,7 +12540,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "b401033324acbf85bb773d40de01671c46e74edb"
+          "sha": "c2181a50ae53202ec1a19f1c3c340dc3363f5d46"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12556,11 +12556,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "924457d04fcff2e857afa236d2bba1de5635610d"
+          "sha": "61a8c4e04265c840f172a021c29a911d3de5783d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "bcdc9858ad2134eb0edb020bdb0ff67e88c60d79"
+          "sha": "64dc378d8e59ad5aa080b2c2ccadc6ef4fd1580c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-pipeline-language-developer-tools"
@@ -12573,23 +12573,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-programming-guide",
-      "contentHash": "30e52dea",
+      "contentHash": "503cf983",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "510318f4cf1edc0c745d2e7d072c9bab9dac07aa"
+          "sha": "7ce0f1326ed391d0fb86a093ff9482d0925d290f"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "2cded2983e354035213ab60acb4b1641848634ba"
+          "sha": "76b9dac09e2459fc18e8560c3ebf31e2d01ca8d1"
         },
         {
           "path": "SKILL.md",
-          "sha": "19b3b334b6938a0804f769e37ce01961caf05bca"
+          "sha": "1552db9113bc8fc0721bd00fe7b8a7894c7a0a1c"
         },
         {
           "path": "TASKS.md",
-          "sha": "3a98ee8333de249e35397e46a50a82340978b93e"
+          "sha": "b7debad9be16328dfac96b1f6e325d356ee4bcde"
         },
         {
           "path": "evals/evals.json",
@@ -12597,11 +12597,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "d9a7b49a6e25dd8f69113ea18feeb5e4b01e3e2c"
+          "sha": "4a23c8957bef58d750deedd994b8d7388b75263b"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e8fefd9d80167980c2067bc199e65e65493b795f"
+          "sha": "4834d51f8b9a4b5811a000c0839557f3e8c8ded3"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-programming-guide"
@@ -12614,15 +12614,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-public-knowledge-map",
-      "contentHash": "d4491d39",
+      "contentHash": "c0fb2a58",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "940ed250c62a91dece8a498a8f6fc058f3ee706f"
+          "sha": "a795b19211fa1ebcab7139d86bf6597eab5ef139"
         },
         {
           "path": "SKILL.md",
-          "sha": "69d79a89154c1f8c9731e1b4330896cf2e540e7e"
+          "sha": "730ebcc98a4a238caf4246393ebbea0154951bfe"
         },
         {
           "path": "evals/evals.json",
@@ -12630,23 +12630,23 @@
         },
         {
           "path": "references/external-dpu.md",
-          "sha": "8c6f439cc6eb453f543b3e708a9f22e198891d65"
+          "sha": "e75eef82e7d460753923786cba25da0b5bdbc5b8"
         },
         {
           "path": "references/external-fabric.md",
-          "sha": "e6fff77d140c5ad838f456cb0cc7ec4958427e27"
+          "sha": "ef45b3924953cbc88ec47ceb968bdbf9ef1eb675"
         },
         {
           "path": "references/libraries.md",
-          "sha": "ec3dddb3c0178375fe98b4834fed38b756448fbe"
+          "sha": "cecf313f47b139f812e196f2497ca112c66f70f6"
         },
         {
           "path": "references/map.md",
-          "sha": "9a5c0d3626a95f0309aef39541fa8fb12d720b44"
+          "sha": "2104576871870ed658d93f3ba91707b88b457279"
         },
         {
           "path": "references/services.md",
-          "sha": "fdf69b5d50f9837a25b3b77543245ca88cf47c7d"
+          "sha": "4275244831ea0b42b3f792885c32884c6a6d90d2"
         },
         {
           "path": "references/tools.md",
@@ -12654,11 +12654,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "783f6223ee40b3344bf199a3c4aa0ed60535f07a"
+          "sha": "e0bf793407ace596a7e316c4e653a7d6fbd49b55"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "87e1308cfb49afcca7f0c6dafa0a5f1edfae6cbc"
+          "sha": "3c124636d81204aecbebc7274eb4114109a15b57"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-public-knowledge-map"
@@ -12671,19 +12671,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-rdma",
-      "contentHash": "ca7cd57b",
+      "contentHash": "9401195c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "23cda3f42997a118b6897c1c32c5d728d2a29dfe"
+          "sha": "7cee0b14af1e55042bda681b797097823813ac0d"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "149f9b179ae521105bc489deb6164ceb7f7ae984"
+          "sha": "61cb692743d0f6ca516f788f113d8062764fc397"
         },
         {
           "path": "SKILL.md",
-          "sha": "45b15d5552f1ba645ae626703c6509a708db7912"
+          "sha": "0624b1e6fc2b0d6d7c31cdbcb06affad8d94c5c4"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12691,7 +12691,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "a8a932799afd0d6f0052c70ada624b6d99807391"
+          "sha": "52bf656bb19515857b062c6b5451c5c1948ccc00"
         },
         {
           "path": "evals/evals.json",
@@ -12699,11 +12699,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "556c3f85bb4fb94044ed6e6fdc0b68f44c3f45b2"
+          "sha": "25a3feebda3be7f7358e194a55058d884853028e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "dcf39f9a384475edef80d984c5083e07cd8fcd4f"
+          "sha": "5caec94539c542c16b9b9f516fef8fb07c2f30ab"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-rdma"
@@ -12716,11 +12716,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-rmax",
-      "contentHash": "3b4f582d",
+      "contentHash": "687c6ef8",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "7345fb1865d0e5cdfe8fd3d2627d7c77f7132d1d"
+          "sha": "da0688a2a0c90d3daa9f0f1ca4daf276b5e8bf9e"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12728,7 +12728,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "b0afd559defef9574fbadaa82d427d4deb22c18a"
+          "sha": "bc6715d60337a90e0a460c9f6309f84827bb8180"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12736,7 +12736,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "5b3d0091fa9281b42024421c9166454a9dec624c"
+          "sha": "612b4c48cb091ea9358b7402b2e6d0deaf94ff37"
         },
         {
           "path": "evals/evals.json",
@@ -12744,11 +12744,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "ea287ba4400ac59c78b48eb2b7e7c9fdabf5889b"
+          "sha": "d48e3f036e8cbed2b3bf65d196475156d80708fb"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2e450dcc10f13ccaa3a4c54c963e20a3337a3d6d"
+          "sha": "a6122e7a55ab04fb22f99fd7ff0f7a9180cc7d39"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-rmax"
@@ -12761,23 +12761,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-setup",
-      "contentHash": "4ac9ed73",
+      "contentHash": "55ddc15e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3a3905c0cdb1da3fde53972c034118649f7498e9"
+          "sha": "e3692c6812840e8b34e0cce4cb212f3dea7db7b7"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "2d02c3f796ce98815e8e18eaeb7a770229660923"
+          "sha": "04ecec6a0dd7acbbba1ac655bf63ad0296e221a7"
         },
         {
           "path": "SKILL.md",
-          "sha": "eea0466ba0b30d66eff8797bb7f22148a1bba588"
+          "sha": "18e97d60a1ce4eba33f78a38c9f79880405c89e5"
         },
         {
           "path": "TASKS.md",
-          "sha": "5e580a770b3a9d4d2469ba52603f83e91a128da9"
+          "sha": "ee56c278b06f95a2770dd610ae41b4377147ce83"
         },
         {
           "path": "evals/evals.json",
@@ -12785,7 +12785,7 @@
         },
         {
           "path": "references/command-appendix.md",
-          "sha": "29eb78e5ad5899b41084e61db5b39a2afa6e8d3f"
+          "sha": "532c218192ebe6d391fc62714b28801c1343684f"
         },
         {
           "path": "references/hardware-binding.md",
@@ -12793,19 +12793,19 @@
         },
         {
           "path": "references/no-install.md",
-          "sha": "cc0a889db1787b013ed6caead5fb168d5d34880e"
+          "sha": "83195af5d8a114b3cebc6c7120a044cde2a88247"
         },
         {
           "path": "references/recognize.md",
-          "sha": "c8fb36784d4a18df9e9dc01a9f9b8dd66720f122"
+          "sha": "7d5e50d38b5421ea833090dc41e051b157ca7de9"
         },
         {
           "path": "skill-card.md",
-          "sha": "3d782dedd564452de2bc04bb57f497b354b83040"
+          "sha": "85b5cee24174b6d7d4fe75d8857ab8da6156879a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "a998379b7377d0e07d839709ea61ab9b021ed892"
+          "sha": "2447b85362cb21f44716e18fc0c72f9618c135d8"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-setup"
@@ -12818,19 +12818,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-sha-offload-engine",
-      "contentHash": "e6163240",
+      "contentHash": "cde67431",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "82af8d17f99209e02e2f87421ebe061e6090ceae"
+          "sha": "dd12b3e24f6ad9df86caa74d9b28ea5a2df73dc5"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "76699313019de462b7ec3320ce86519f718495ad"
+          "sha": "16695ba91c221569a8b137f7665b64921cb42d3d"
         },
         {
           "path": "SKILL.md",
-          "sha": "b6ac085f5a748284ceecd4d29c136165c583b3c9"
+          "sha": "99763e61a36cee8f62035adaf179112f3738b99d"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12846,11 +12846,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b1674532ebac11444fa13cfa9ea2fb78cf843d99"
+          "sha": "32cfe89c15d3941947d2e24574f8a9aa8cf9a8f0"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7be5df67989e19dad452d9fbefa8c321503d88e2"
+          "sha": "b852eccaaa9754d1fa9ed195373a82bcf702e8b5"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-sha-offload-engine"
@@ -12863,19 +12863,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-sha",
-      "contentHash": "55b233b6",
+      "contentHash": "44f457fc",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "3d845811a6f99891ba026591b3c99e2d2ab2d0f7"
+          "sha": "af12ac9e6773967f7506721858e557c90a8d715a"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "75d0e0e65b87ff5ef4e6a239ddf3b75039140848"
+          "sha": "b7ae3c4daf1cecab741f2c6cfd81c36e0bf9f898"
         },
         {
           "path": "SKILL.md",
-          "sha": "1c0b46213dd8a14753f181c80748cadb81540f87"
+          "sha": "9aadb2d09de8d67c6cb548e6c7a420fad2e919fa"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12883,7 +12883,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "8945f1d6ef17e38c1099f0387eb214a0ee088829"
+          "sha": "5f9e137a1e00dbc1b7f8a6375c333bdc2cb17307"
         },
         {
           "path": "evals/evals.json",
@@ -12891,11 +12891,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b9e5f09a807ddb6f9c36104b70f7b732e7e4cfda"
+          "sha": "0f34d059e9c642477af9b8a9eb0139c7bca86ece"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "3261ab864455a824cf8bfc8745b0f9e1d99a35c6"
+          "sha": "14b9e013482a9b9d51254346a4892a962657be49"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-sha"
@@ -12908,11 +12908,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-socket-relay",
-      "contentHash": "174e0661",
+      "contentHash": "bd37b5ff",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "401325c1cb991f06b99eb36d1b483af289dbc5fc"
+          "sha": "5a6089a6e59939e48aee718bacc5c75c427f671c"
         },
         {
           "path": "CAPABILITIES.md",
@@ -12920,7 +12920,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "ef6742d8c95ca678ec7a135715c3ab8cf949b656"
+          "sha": "3fab740e9c63218057c21e00b8ee22bbb6698ad1"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12928,7 +12928,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "27205512efbcada3cfe5599e4bc3dd39f486b863"
+          "sha": "24e77f41f84c37a13814879d59341b384301218d"
         },
         {
           "path": "evals/evals.json",
@@ -12936,11 +12936,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "d9603c92ccdd851b245fb5ed35fc553b0344d5e2"
+          "sha": "ae688fabc1709414b9bdb289cbb6cb859d1b3ed9"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "fc6f68d514c0bdfa5c138a8b32bf8fff5ee35cf9"
+          "sha": "8a1e63f22044cc48772ab079473d7a4e48e9e0b6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-socket-relay"
@@ -12953,19 +12953,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-spcx-cc",
-      "contentHash": "036c4634",
+      "contentHash": "24edbf7b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c6c842707806678d3024aab0314c170dba6a066c"
+          "sha": "4a8de9eb349a437e70d1ceb6e54a3382362e504f"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "00eb4075ad64782cf303b2a527e1560b3ce538f4"
+          "sha": "0049051961d509f11ed3f7beba6e254cbd5181a9"
         },
         {
           "path": "SKILL.md",
-          "sha": "25263123c3ebe40f5a4ceed016088caa75f56241"
+          "sha": "b8cb38b5df8e009263182730dc5757d215488591"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -12973,7 +12973,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "9b8ab572ef80beb5426f35edabf7c6a88a78d7ec"
+          "sha": "3d6866843efcd72e81487a9eaab5a487e090bf0b"
         },
         {
           "path": "evals/evals.json",
@@ -12981,11 +12981,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "5a0b52cc693fc548d86d16c7d0e7119447374f24"
+          "sha": "4d956fa71dbb2f6c536517eae6f9b90ea817b154"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "e674f01b4b27b5d18ae9d83ea0c9660fd10e155e"
+          "sha": "2fd5fe2a8aceecb441ad0c281da3bcd138202a49"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-spcx-cc"
@@ -12998,19 +12998,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-sta",
-      "contentHash": "b145e0c7",
+      "contentHash": "7d5c5695",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "79304331a9bdd451d9a3a73f69e73bec59709173"
+          "sha": "534779df700e1a71ec91a2076cae43cbbf6c4d7f"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "7924c65ff16fc63b29a6507dae77dc3c1dc8db0d"
+          "sha": "f84fb66ccb7d4746f517fd31de60faacd7a8f7bf"
         },
         {
           "path": "SKILL.md",
-          "sha": "b2c30d3adc499fe1eaa15205c1acaa8044d60d41"
+          "sha": "58773c173bce7f9cb77b03774ed706cf2adca279"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13018,7 +13018,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "11799ee601106606e331687052c08bf56dff51b2"
+          "sha": "01d9da412772ffca192eb90b3490bd02b6eaa574"
         },
         {
           "path": "evals/evals.json",
@@ -13026,11 +13026,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "bf569b70413bb7d4cf3c54986f6f16f9ff6bcc77"
+          "sha": "7f6750306bfc9ba767382c61c00241e17e41677e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4516af25c2d4d5c8b22dfe7641149d31be656693"
+          "sha": "63c1323814022d6bf92692341ef3eb1aead0f9f6"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-sta"
@@ -13039,35 +13039,35 @@
       "id": "NVIDIA/skills@doca-structured-tools-contract",
       "trust": "trusted",
       "name": "doca-structured-tools-contract",
-      "description": "Not for writing library code (name that library skill). Use this skill whenever another DOCA skill says \"prefer the structured tool per doca-structured-tools-contract\", or when the user wants a one-shot answer consolidating what multiple manual commands would produce — DOCA env / version / devices / capabilities / validate / host vs DPU state. Trigger even without the phrases \"structured tool\" or \"doca-env --json\" — typical phrasings include \"is there one command that tells me everything about my DOCA install\", \"what version is X capability available since\", \"every PF/VF/SF visible on this BlueField with PCIe address\", or \"will this pipe pass validate before commit\". Refuse and route elsewhere for general DOCA orientation, library API how-to, or install-from-scratch guidance — those belong to the per-library skill, doca-public-knowledge-map, or doca-setup.",
+      "description": "Not for writing library code (name that library skill). Use this skill whenever another DOCA skill says \"prefer the structured tool per doca-structured-tools-contract\", or when the user wants a one-shot answer consolidating what multiple manual commands would produce — DOCA env / version / devices / capabilities / validate / host vs DPU state. Trigger even without the phrases \"structured tool\" or \"env report as JSON\" — typical phrasings include \"is there one command that tells me everything about my DOCA install\", \"what version is X capability available since\", \"every PF/VF/SF visible on this BlueField with PCIe address\", or \"will this pipe pass validate before commit\". Refuse and route elsewhere for general DOCA orientation, library API how-to, or install-from-scratch guidance — those belong to the per-library skill, doca-public-knowledge-map, or doca-setup.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-structured-tools-contract",
-      "contentHash": "a50df1e1",
+      "contentHash": "019e4e00",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "8b97fb4d3d8b9b53c09d3afba2d3d71dfbaf85fa"
+          "sha": "a8d2adbf0b0aa546b44beef81407a9bfb1114b4d"
         },
         {
           "path": "SKILL.md",
-          "sha": "f7e25f27e5b8e50104820450a8150e10f8f38a1a"
+          "sha": "ad6db4c0e4f4b6dba39e90f4af2e43281680a036"
         },
         {
           "path": "evals/evals.json",
-          "sha": "0c854c6274bfe1ae964892b92cc1350a13da510c"
+          "sha": "0139daf10f81622364b3799f5433183a703f2631"
         },
         {
           "path": "references/examples.md",
-          "sha": "89ef3a32e63327dbcfea235861be11dc66b65cae"
+          "sha": "59c72fce85830e191b7219392f8bde412b9221c2"
         },
         {
           "path": "skill-card.md",
-          "sha": "af673ad53afa4863e909aad73a17df243420a225"
+          "sha": "7c3c2e8637720b07b8025f6983a27c800fb4a7c3"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "bb40977bc2ed321a47a4362cf36d1c67eda4c137"
+          "sha": "2aeff89524fce0cdee0f26b0effa11d3544e8a68"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-structured-tools-contract"
@@ -13080,19 +13080,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-telemetry-exporter",
-      "contentHash": "56558746",
+      "contentHash": "b55a610f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "40c671a41b920f81e2eae03467f3c1876412e2a0"
+          "sha": "00badb0e969a79afecd02b289167ed4781681169"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "87d3eb0d8cf6b0ecc310bdd071cf5a60f1208f2f"
+          "sha": "d40c455cfdf9e43667f6db1a491821468713d903"
         },
         {
           "path": "SKILL.md",
-          "sha": "21f76bbf0c58607e1fb1d687c4d4ad75d482bc8a"
+          "sha": "bd4880bf3b1412c83a0584d945f07bd976c48c58"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13100,7 +13100,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "7c1ffa9bda139ca5a7ccca97028f87b62b0b5960"
+          "sha": "6aef3c66ebe04b4ffd77bcd9a81853234cb77369"
         },
         {
           "path": "evals/evals.json",
@@ -13108,11 +13108,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "36085f2eccbc23f4ee930bff75d485bce2b60e24"
+          "sha": "9e98b53c13bbfde8e6be3c9ffcbe0ee0ac9b920e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4e211adc022e07dacc010a8d63ea22f7aef69ef4"
+          "sha": "e8b73eafd787afbd122760a40c70cf13bb5f4bb5"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-telemetry-exporter"
@@ -13125,19 +13125,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-telemetry-traceback-application",
-      "contentHash": "60425ee9",
+      "contentHash": "c2ffcdd1",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "049c30f5555bb439718d9d3c6b6ae266f550d8dd"
+          "sha": "f2af3f9f10715e305d51772e70ff4e93c0105149"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "be4d224a41ab4b8f991c04c6f8bf785d8a3e82b5"
+          "sha": "0a376b49283f3a6263252c3c2a3fda85d3c9a300"
         },
         {
           "path": "SKILL.md",
-          "sha": "61d18839f698f0a5ea116b3827f3c872935df722"
+          "sha": "605c5d87805b448e13d71c56c15dd23991497432"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13153,11 +13153,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "39b1066274865a627626c4070a384d344adce91c"
+          "sha": "e8022231632b274ba0e117b9401873f6c00091ce"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "59b2ea101c5f5eb305ba262d991524d1a706cc07"
+          "sha": "39f1eabb0dbaf4175a01020f134d37ba65c40817"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-telemetry-traceback-application"
@@ -13170,11 +13170,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-telemetry-utils",
-      "contentHash": "a3a45e7d",
+      "contentHash": "0a43fd82",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "b71c699be3d2aba33e362a69a7b59413fabcf866"
+          "sha": "15475f446233fb49480f92016e5c0935527cdc01"
         },
         {
           "path": "CAPABILITIES.md",
@@ -13182,7 +13182,7 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "ffd4d7509602f3a90a046088c8e962537d0a2a15"
+          "sha": "2bb8360d2f1e72403087a9a4b4faa180229d2f5b"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13190,7 +13190,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "aae614f09896d4e4408012dde6809385ab41a37c"
+          "sha": "c8b6ceb36eaf57530dd121b319ff2eaaa35850ae"
         },
         {
           "path": "evals/evals.json",
@@ -13198,11 +13198,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e1644295d4848b5e28a00d4c6b2ea6a69e7b7838"
+          "sha": "2145c058a57855145466b8c5aaf63e7bbe6623b5"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1fdbc30837cc18dd28f90b5f8a7d16242e0932c8"
+          "sha": "a8fab3bfd18fa59d3041fbdd9c645340b3abe25d"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-telemetry-utils"
@@ -13215,19 +13215,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-telemetry",
-      "contentHash": "2e4490ee",
+      "contentHash": "ca976e43",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "faa80967731ea033811d06b2472e17f941bcf831"
+          "sha": "852dc292dd25aa87739940d16f99de6d0b25d4cf"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "59f74a39eac755837e2d05ee16fa20dee8a7c2cc"
+          "sha": "54ad682f02f8d74b78bda40b2d14dff8af576937"
         },
         {
           "path": "SKILL.md",
-          "sha": "5384de4dab8ca0bcf179385845b215de22b730c4"
+          "sha": "2498f80a1551fb00d0b58a896eb5e4e16a8cd12b"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13235,7 +13235,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "c562a375701419ccb02cfdf6b329d2826da47a74"
+          "sha": "a1dfa9a2573a0502f5eace85c94cd548a8bd9b21"
         },
         {
           "path": "evals/evals.json",
@@ -13243,15 +13243,15 @@
         },
         {
           "path": "references/details.md",
-          "sha": "75b602d953071b7cba1265218bf6a7e1101dfffe"
+          "sha": "b69efe26aed33d74c5b51ae3724c42cce354e30a"
         },
         {
           "path": "skill-card.md",
-          "sha": "409afab633927d0c0aa303d793e2f45c8ead37a8"
+          "sha": "2ae3198279e24438e24f60366ad3df10e6028517"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c80707dac08016142ea1509930553abc187ae294"
+          "sha": "268792cfe2873dc9eef9d91567dd8ad90e426b6c"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-telemetry"
@@ -13264,19 +13264,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-upgrade",
-      "contentHash": "b8528557",
+      "contentHash": "20fbc27d",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "518f8814c7f373937af020d330b089e3711fc09e"
+          "sha": "fb196770dc0750cc1573d5789f9090b4b2fb1bb2"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "b364d1c026b638b06ab0aef6f794ed0e459e6cc4"
+          "sha": "bea083224d7dd0fed01daa285dbb23b257e0bcbd"
         },
         {
           "path": "SKILL.md",
-          "sha": "2b523bdd9e6ed044b158b4b449fec4203f0798da"
+          "sha": "ea87df43e79ee4b26c3920d3e5537e4e7425ac3b"
         },
         {
           "path": "TASKS.md",
@@ -13288,11 +13288,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "b366ecc2e9f807132ba7f2fa5021ffd3554f5b17"
+          "sha": "1de0d6a6c4af2ca1e44692a352c01b40a425e762"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "c94506540a9883798c1ca8a4e89e985a2c22faee"
+          "sha": "bc8c6854cef2b32881c623b42bfa0a389a316e25"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-upgrade"
@@ -13305,19 +13305,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-urom-svc",
-      "contentHash": "41a8f7cc",
+      "contentHash": "c22f5bd6",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4a1f280be7f367090f018da412588a0373bba68f"
+          "sha": "fb482d37982d0019515b893b57313f9c4a6a93d7"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "73c95554c14426c30a79e6d1e3a586da07a440f6"
+          "sha": "43696d71cf20094911474dd9cac0ff83aed3eea3"
         },
         {
           "path": "SKILL.md",
-          "sha": "7e29f9d4ea4b81038f86e2e7979c945f615dc3af"
+          "sha": "2071c3fdebb9337082cbbeaeddb034a479983667"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13325,7 +13325,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "44bcb765baffccf28d01bafb207f3073256d2c17"
+          "sha": "977f6e615f8d4d4aa903172b709d768bdfaa0f2f"
         },
         {
           "path": "evals/evals.json",
@@ -13333,11 +13333,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "d5bc42a400bb929bac4e9c93cf5974a36f4e4fe2"
+          "sha": "3fed34f014d8d76dac4a72e45b7bf2c335c739fc"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "0fc8489ca11530523fd0418e12d0c1307de3eb02"
+          "sha": "6d0ad1f0e5ad8a9c048872ee6a7a833ed9f651e0"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-urom-svc"
@@ -13350,19 +13350,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-urom",
-      "contentHash": "34c55730",
+      "contentHash": "9257fa30",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "341ba3f1f75e4c2c4dd76b5370a927ed48add2c1"
+          "sha": "620040637f6f0d89668040111880d7b1774265dc"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "df0724ad2a99f272d0a737754aad5b8631598a78"
+          "sha": "a4f6f9cfc489416b64b82b3130674daef736af86"
         },
         {
           "path": "SKILL.md",
-          "sha": "c4007977a12955c2c012345f15c4282b04a23fec"
+          "sha": "bf7bb85ab8ef4b9ac689ea57d6e3d61dcaeae890"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13370,7 +13370,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "187eee3b209abe2745023505cb9a03ca389ef927"
+          "sha": "abf3ac3691febe7758b41d3152d35e2f11346842"
         },
         {
           "path": "evals/evals.json",
@@ -13378,11 +13378,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "cc63afdbcbf183fde7acd98d6076874b2f017378"
+          "sha": "d01690700ba71ce3d2decf3da915a4ccd494efd3"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7f47b7213009fa63eb9c0362c1238fe236807f6f"
+          "sha": "40c5df567d1a05223c64adafc1bdba976fad24d0"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-urom"
@@ -13395,19 +13395,19 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-verbs",
-      "contentHash": "9d840288",
+      "contentHash": "05474c2f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "fd95fc03347114c74dcbb29b0bcfe91371256941"
+          "sha": "d80ab107462e6cd5663ab6992da7116b8dffea4a"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "633789923c271d84360df8b00acf5afa60fd1a31"
+          "sha": "758c351a04fa31a4e5dbe8267c4bbbf61cedbd93"
         },
         {
           "path": "SKILL.md",
-          "sha": "eb0d83280429dc6d3af4b16f4c45026640b83c8f"
+          "sha": "3323ba148d2572f21bc1b45c59777d9a8a455652"
         },
         {
           "path": "SKILLCARD.yaml",
@@ -13415,7 +13415,7 @@
         },
         {
           "path": "TASKS.md",
-          "sha": "e7bc49673097d09b3bacb3cbca91c892f78aaed9"
+          "sha": "206d9ff8b37763cf7f5ce7ae34907c464cf1c907"
         },
         {
           "path": "evals/evals.json",
@@ -13423,7 +13423,7 @@
         },
         {
           "path": "references/command-appendix.md",
-          "sha": "5b645a5074c574df8c02326cd66b7727a4b13c3d"
+          "sha": "8c7d426a6f7e82bb7421bd67fa33a131d4cfabad"
         },
         {
           "path": "references/deferred-topics.md",
@@ -13447,11 +13447,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "73f0d5553defeb38db9eeaf96ab3e40153d558b7"
+          "sha": "05be9eb94877d7e04ed783936205b407dcc8e008"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b04c411f57c57d0b25b3252a3f2df828c615a9d8"
+          "sha": "ab1995dc07313464f641b66f303fa60283fc3751"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-verbs"
@@ -13464,23 +13464,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/doca-version",
-      "contentHash": "7bc98486",
+      "contentHash": "84931c32",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "33d630d57dc8001670813bae06adc4714c1fbcd9"
+          "sha": "9a3f7e2d9a24134bb1ae96ff89041a007c7fd011"
         },
         {
           "path": "CAPABILITIES.md",
-          "sha": "26482a1f98e49a7696d091edb18c5541e7aff77e"
+          "sha": "4ef158185919ad1c09f249694f4d88c89e44688f"
         },
         {
           "path": "SKILL.md",
-          "sha": "d2c8d7028c54cf467354e73ce31fe0d7330aeee8"
+          "sha": "9fdfe418556c999dda87ba055137871eef10eb8a"
         },
         {
           "path": "TASKS.md",
-          "sha": "89b013754d31ac3d0251aee30cbd830e65d98809"
+          "sha": "85df88ee933dd062f135cc216b5b4c57ba130e42"
         },
         {
           "path": "evals/evals.json",
@@ -13488,11 +13488,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "454174a2b1f358db80237be7a38ef01f36c693f9"
+          "sha": "10e4db76170278f3483a534a3e36956e818c5c5c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "1d2d4ff605f800f97d361ac1fc1ffd9367d8e52f"
+          "sha": "cac665e4ed2c310251fed15c8422f964c49084c2"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/doca-version"
@@ -19206,15 +19206,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nemo-fabric-integrate",
-      "contentHash": "618dbce2",
+      "contentHash": "c2f9b847",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9b2fbb0aaa6be182c0ce3afb81c8fa847ece811c"
+          "sha": "fcd123c33bbb16ceacfed9923aaf1086f7b1190c"
         },
         {
           "path": "SKILL.md",
-          "sha": "c24c7cc58055364fc0287a593b746beca8c3a501"
+          "sha": "957afc614da4fcb5984815013bd5a6465b2651ac"
         },
         {
           "path": "evals/evals.json",
@@ -19222,23 +19222,23 @@
         },
         {
           "path": "references/config-mapping.md",
-          "sha": "d93cd7ec7beebd9a4be93facd90b53519d04ddde"
+          "sha": "ee0f6e2297760971831a4572b10922807390b2e4"
         },
         {
           "path": "references/results-and-errors.md",
-          "sha": "1c8cc99e54643d77b0a4b8c4c7920a6f1f713867"
+          "sha": "114dd1bc42532af2ab3efa25ac2b563d2f6d3803"
         },
         {
           "path": "references/sdk-api-inventory.md",
-          "sha": "10b20072d0c960258ae512369f06f154d0b762fe"
+          "sha": "66dd315ee2fa49cd12a9dee45158e10e6f813bcc"
         },
         {
           "path": "skill-card.md",
-          "sha": "41c00c4461ef82465bb5cbb2221458bd97530d72"
+          "sha": "0cb370bd8bc1ec52884fec8ac72ee4fe0c691f3a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "18877c5e25aba7e215036e3ac255d4cf882bd827"
+          "sha": "389f092c1925c9f85e81234517cb1110c74d717b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nemo-fabric-integrate"
@@ -26532,11 +26532,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/physical-ai-physics-selection",
-      "contentHash": "fd89c854",
+      "contentHash": "c224df33",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c00472238d5a54a3eeb656308e3e92ecf85bdc18"
+          "sha": "8ac2a3e4e47d91128bac459a97df0779b9ecc829"
         },
         {
           "path": "SKILL.md",
@@ -26544,7 +26544,7 @@
         },
         {
           "path": "evals/EVAL.md",
-          "sha": "3d12d794371e93d25dbc133e707bd68a04a71512"
+          "sha": "7c523349a275aee8c52a1e09d912ff6f90f7707d"
         },
         {
           "path": "evals/config.yml",
@@ -26572,11 +26572,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "2a6476c630c1aeff4626e6e3520b44aab755b158"
+          "sha": "69fde731d42e0653653642ad0ea6452886619043"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2ddefc2775b198918e18ba17733b0993a2b41243"
+          "sha": "e9b601ddaf978c24137e54d061688c9cf9bf335b"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/physical-ai-physics-selection",
@@ -38114,23 +38114,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "5d7e5b45",
+      "contentHash": "01a78239",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "91d970bc22fda16fa7b5564cc1c594cc83df53df"
+          "sha": "2a42ab5ad732c021aa4ab920021c86f104b6131a"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "c9f84eb4ae25c28d5af9d40d985e64ede80ae992"
+          "sha": "b8c3aa855482d71e3f374329078fccc787206125"
         },
         {
           "path": "SKILL.md",
-          "sha": "fea3f5ca2c590de767248a8ee05fd8666ad6839d"
+          "sha": "5773e89b63750801d7437b0ea921f15758ed1203"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a4b0433d86689f28fa08e61c8244be11e67c5a6a"
+          "sha": "4b5537faf107449363140c036982eec23f273871"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -38142,7 +38142,7 @@
         },
         {
           "path": "bin/guard-reasons.ts",
-          "sha": "ad143c2d5d12ee76478d8354b5eed442d4d9d584"
+          "sha": "e615001327bb00b526a82556aec56b639218fd5d"
         },
         {
           "path": "bin/owned-read.ts",
@@ -38154,7 +38154,7 @@
         },
         {
           "path": "bin/phase-publication-hook.ts",
-          "sha": "1cb6b83470b272090802cf585a0e26dffdd00d74"
+          "sha": "d09e8e6b5f4112df696111d46260da14c44af340"
         },
         {
           "path": "sections/ceo-only.md",
@@ -38222,11 +38222,11 @@
         },
         {
           "path": "sections/unattended.md",
-          "sha": "a3d181f6ba78702c901725eefce5390c7584d445"
+          "sha": "fffa3d9ac4f01a58b58cb0b99047621715ec3651"
         },
         {
           "path": "sections/unattended.md.tmpl",
-          "sha": "e5a2cd6f80b21ec24d8207971215e2c2b70161b2"
+          "sha": "03407417f28f16930b672853a99a654a74f2f220"
         },
         {
           "path": "shadow-decider.md",
@@ -39805,11 +39805,11 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "9807318e",
+      "contentHash": "20fc84ee",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "9c6fcb69725364697deef6b9749fafb1b9a45c5e"
+          "sha": "303cf135b287281a3d28f1d4aa5e5a50d354ef1f"
         },
         {
           "path": "captain.md",
@@ -42113,15 +42113,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "4066a405",
+      "contentHash": "f5904ee7",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "0c72699cee3ccb08659c96d2587cd82010b3fc9c"
+          "sha": "f42ae58e8057986121807a50c7ba298cf7658f19"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "24c053d2ee786545a8e3c85e3ab1323b0b3cfac7"
+          "sha": "6e48a77553b917907ecab13c7131c69d33beb8d2"
         },
         {
           "path": "SKILL.md",
@@ -42133,7 +42133,7 @@
         },
         {
           "path": "sections/adversarial.md",
-          "sha": "cc95f797682813c4607420ed9a331c8c504ddfbc"
+          "sha": "580da4406a3688cb71099d878bd8219c6a081212"
         },
         {
           "path": "sections/adversarial.md.tmpl",
@@ -42225,11 +42225,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "87bf1c6af1a0d93b3bb23091ec74feaa217eee92"
+          "sha": "79bc554f22be66f2115ab27c113e556cd93ea53a"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "c0bfb63ad706f67f54ca9d4c94d02883b2654605"
+          "sha": "bd582d2a8edf84b354ce4f0b668187a6c2a0f6b2"
         },
         {
           "path": "sections/preamble.md",
@@ -42237,11 +42237,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "add34ef9f3849ebd32a2f4357651141da4a1dd5c"
+          "sha": "082eab2ef40523c477240c743b1a87345783543c"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "24800f01a0e96f43005b4b021239ac157d8601b3"
+          "sha": "686aa5151deabad2c3d0bfc04452368608148b62"
         },
         {
           "path": "sections/shared-code-reuse.md",
