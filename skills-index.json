@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1794949163751,
+  "generatedAt": 1794987252427,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -8938,11 +8938,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cudaq-guide",
-      "contentHash": "df83459b",
+      "contentHash": "e2831a5f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2f684c794893b76c26b01f28ea6174c99dd29a15"
+          "sha": "f7137737920bb6a19d26be29875243cb3f8c9dc0"
         },
         {
           "path": "SKILL.md",
@@ -8966,15 +8966,15 @@
         },
         {
           "path": "references/onboarding.md",
-          "sha": "205bcca73f8fd5f052a5e23766dd4e12c756dcac"
+          "sha": "ea557fec83e2693b8cd52ad7be826408ed104f48"
         },
         {
           "path": "skill-card.md",
-          "sha": "4fa85ac3764c17bb44415e47655294898d8a7727"
+          "sha": "d501cee7478fbded099079c5058745b03c9184ef"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d9059cd2f447f863c2272b13c637c15a62f7b22f"
+          "sha": "18678947fbf6d78a09d6a1c5be49791ce892da91"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-guide"
@@ -17117,6 +17117,56 @@
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/isaac-mission-control-showcase",
       "version": "1.0.0"
+    },
+    {
+      "id": "NVIDIA/skills@ising-calibration-setup",
+      "trust": "trusted",
+      "name": "ising-calibration-setup",
+      "description": "Use when connecting to the NVIDIA Ising Calibration model via the hosted API or a self-hosted NIM. Covers auth, keys and connectivity checks only.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/ising-calibration-setup",
+      "contentHash": "3b36939a",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "bca161222c0e4dc35e1e0afaf9d09106b32ca258"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "9e09c9c49f665d951a862f127f57ddfe32270203"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "28815a9d0e924c3b51a17f73f6dd6eaa52470c97"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ef451971ccb0718cec5720633198d6633a3e0995"
+        },
+        {
+          "path": "references/connectivity-checklist.md",
+          "sha": "60fe59e45ac89623cd9d4edbb7747f21efffc2b5"
+        },
+        {
+          "path": "references/hosted-api-quickstart.md",
+          "sha": "bad0ae375cbd54d50f42c6f40b5b30fb26100fb5"
+        },
+        {
+          "path": "references/self-hosted-nim-quickstart.md",
+          "sha": "9d7c919ea438eb4fc29a887c0c6db7163e63f1d5"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2cfffe058cc112ef49e478d5d6c67736244bd810"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "152c952ed61d6575115af7ce22bccd50da2e56c5"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/ising-calibration-setup",
+      "version": "0.1.0"
     },
     {
       "id": "NVIDIA/skills@jetson-build-source",
@@ -36620,6 +36670,112 @@
       "version": "2026.06.03"
     },
     {
+      "id": "NVIDIA/skills@triton-onnx-model-repository",
+      "trust": "trusted",
+      "name": "triton-onnx-model-repository",
+      "description": "Deploy a user's ONNX file as a working Triton Inference Server endpoint, end to end. Use when the user has a .onnx file and wants it served, wants a config.pbtxt generated from the ONNX graph, or wants to debug a Triton load or inference failure on an ONNX model. Use triton-pytorch-model-repository for .pt files and triton-tensorrt-model-repository for .plan engines.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/triton-onnx-model-repository",
+      "contentHash": "a4d5c086",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b018d000bb130d3523b438c4bad4b62eea48a589"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "4d694c21b4fdb0e40937c16dffc01021869db974"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "53ea82b1d6683862c5f75c42d0a05f67c7dde8bc"
+        },
+        {
+          "path": "references/config-pbtxt.md",
+          "sha": "d09de3dc74894d7d4443b4ee206e10d0a3f81c1d"
+        },
+        {
+          "path": "references/datatypes.md",
+          "sha": "ce241d99504a669f2a76761d9482e737cf862dbe"
+        },
+        {
+          "path": "references/errors.md",
+          "sha": "3db4dc534652e9f6fff4c0fa24951b5c96731638"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "93221a2d7e287e197dbac578833324194be78222"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "f4603298d7a26f714aea247ea3f965e3c748a7ad"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/triton-onnx-model-repository"
+    },
+    {
+      "id": "NVIDIA/skills@triton-pytorch-model-repository",
+      "trust": "trusted",
+      "name": "triton-pytorch-model-repository",
+      "description": "Deploy a user's PyTorch model as a working Triton Inference Server endpoint, end to end. Use when the user has a TorchScript .pt file or a PT2 archive (.pt2 from torch.export + AOT Inductor) and wants it served, wants a config.pbtxt written from scratch, or wants to debug a Triton load or inference failure on a PyTorch model. Use triton-onnx-model-repository for .onnx files and triton-tensorrt-model-repository for .plan engines.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/triton-pytorch-model-repository",
+      "contentHash": "b81168e6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "2fd46ff575098b6469fb813150c832a06f12fe92"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "71c8d1e45db948aa8101e51a2eeb70ac03fd55dd"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "ee9520d8652a67b10513e4c8c1bf4ea6e480d1f6"
+        },
+        {
+          "path": "references/config-pbtxt.md",
+          "sha": "fc41ae314c9f5c7db6492e3edd3a4b649669cbc8"
+        },
+        {
+          "path": "references/datatypes.md",
+          "sha": "f80974be46d980764bbc1369650389d6b52ed2bd"
+        },
+        {
+          "path": "references/errors.md",
+          "sha": "0ad63ef79e1c452316f9b247a947a1d2e18967af"
+        },
+        {
+          "path": "references/naming.md",
+          "sha": "56ffff18aee318deaa47c10d98284d387db662de"
+        },
+        {
+          "path": "references/parameters.md",
+          "sha": "465268029e815ad4f14e55dce1063bbc5a0b259e"
+        },
+        {
+          "path": "references/sequence-batching.md",
+          "sha": "b0bf847594067882e26575cf0197c11417547491"
+        },
+        {
+          "path": "references/torch-aoti.md",
+          "sha": "0c7ef1dc034eac205e37c29ed3046f633b56494d"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "2e1680f84df78dad7676046ba8bf2dfa1f9d9ba4"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "092368fcda676d97ae8ceed04a3861165680938b"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/triton-pytorch-model-repository"
+    },
+    {
       "id": "NVIDIA/skills@vss-ask-video",
       "trust": "trusted",
       "name": "vss-ask-video",
@@ -39649,7 +39805,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "25535c40",
+      "contentHash": "9807318e",
       "files": [
         {
           "path": "SKILL.md",
@@ -39657,7 +39813,7 @@
         },
         {
           "path": "captain.md",
-          "sha": "0e9374902cf32081844e351ea0d7d1db90f8ae73"
+          "sha": "6287ee0eaee73e40196c59a5b1fed86d74d995f0"
         },
         {
           "path": "factory.md",
@@ -41096,7 +41252,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "2195a5c4",
+      "contentHash": "2df9a4c5",
       "files": [
         {
           "path": "SKILL.md",
@@ -41108,11 +41264,11 @@
         },
         {
           "path": "sections/design-and-handoff.md",
-          "sha": "e201e0c8530a64af3a119a9133e37b8a39e145cb"
+          "sha": "bbf4ffac8d97e86e929e01d9ed78b9a07ac0d07f"
         },
         {
           "path": "sections/design-and-handoff.md.tmpl",
-          "sha": "e9d57fe7a5485fe5302c0d9920f2ec8222b12bdc"
+          "sha": "9e3c1b06feb29721a65e2d4dfffb86fbec864883"
         },
         {
           "path": "sections/manifest.json",
@@ -41957,23 +42113,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "ec036b84",
+      "contentHash": "4066a405",
       "files": [
         {
           "path": "DRIVER.md",
-          "sha": "e43f0066039365ceb794e046017c01ac16758833"
+          "sha": "0c72699cee3ccb08659c96d2587cd82010b3fc9c"
         },
         {
           "path": "DRIVER.md.tmpl",
-          "sha": "1dd4beef5286d05d601c2a94d0c1534d3ce2d13b"
+          "sha": "24c053d2ee786545a8e3c85e3ab1323b0b3cfac7"
         },
         {
           "path": "SKILL.md",
-          "sha": "f074c2fb91d5368c0cd9b816b9e71c8e55072e03"
+          "sha": "af6d7d213624328b043ff75bd73ace2dbd9c7740"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a3fb3b996b42466bf367a68e81540333dec61ab8"
+          "sha": "4bfb5c8deeb80a1f596fb8139cb6d1320bf43f0d"
         },
         {
           "path": "sections/adversarial.md",
