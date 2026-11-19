@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795034245518,
+  "generatedAt": 1795073449356,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -39838,19 +39838,19 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "careful",
-      "contentHash": "e648c169",
+      "contentHash": "a13e166a",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "f91af40629c49962d2203abb7ce15d76fe160185"
+          "sha": "ddb27d6085e3fabd445e170fcadc1c1f5ae458fe"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "89744fb5610b6eea25f46e655d792dfe6f0a2d9e"
+          "sha": "d925218fc7c0eb7b5f56d9ee169289ffb68bcd1a"
         },
         {
           "path": "bin/check-careful.sh",
-          "sha": "3648065024280a599ae1f04af24265c3e230e7fa"
+          "sha": "389710438d8a9e167330c9f19957670ea9581b63"
         },
         {
           "path": "bin/hook-extract.sh",
@@ -42486,15 +42486,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "verify",
-      "contentHash": "918b9e55",
+      "contentHash": "22f2aeb1",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "619e582fe653c8c293f5c22d8ac607f3a183bd3f"
+          "sha": "470fa0ecfa4b96df4ec64d625b6296ea4ab130b1"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "2bd61cbdaf4aad3a342f665ecc0d6d49ed6b1c7e"
+          "sha": "76a59534d9edad66cb4cac0c5985d15e87951438"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/verify"
