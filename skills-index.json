@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795073449356,
+  "generatedAt": 1795121029688,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -21255,6 +21255,44 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/newton-usage"
     },
     {
+      "id": "NVIDIA/skills@nixl-docs",
+      "trust": "trusted",
+      "name": "nixl-docs",
+      "description": "Find and read NIXL documentation for APIs, architecture, backends, installation and builds, environment variables, telemetry, troubleshooting, examples, benchmarks, and contribution.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nixl-docs",
+      "contentHash": "be180186",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "128f00645c6d83e5cd4afdf6c39ad92d3d71382f"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "5cabd82b61ad6962cac795a04a90211f5d6df50e"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "572fc695a9d7261b4ae6569762b20c04385766a6"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "bf906b4c202032110287a91c916bf696a843c02e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "5a0aacc349ca296ed300294b2dac3e985c121d58"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "f8348af0819612c621abd8de1c1950fa96be8b9a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nixl-docs",
+      "version": "1.0.0"
+    },
+    {
       "id": "NVIDIA/skills@nsight-port-cpu-to-gpu",
       "trust": "trusted",
       "name": "nsight-port-cpu-to-gpu",
@@ -23393,19 +23431,19 @@
       "id": "NVIDIA/skills@nvidia-ontology-management",
       "trust": "trusted",
       "name": "nvidia-ontology-management",
-      "description": "Model and publish semantic definitions in Auto Ontology. Use for terms, relationships, measures, imports, and governed results—not deployment or querying.",
+      "description": "Model and publish Auto Ontology semantics. Use for terms, relationships, measures, imports, MCP write requests, and governed results; not deployment or querying.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-management",
-      "contentHash": "5f40da72",
+      "contentHash": "fe637c64",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c81b45d2bd5d365b6dbcc86d5a88a19513095e7b"
+          "sha": "85e0123c851852e96d1db79563a137c18736eb5c"
         },
         {
           "path": "SKILL.md",
-          "sha": "aa2eb623d0eaa909c20fb6b615160d88e8173356"
+          "sha": "f616fb9ee477fe1733261da68db246f996dc048b"
         },
         {
           "path": "assets/runtime-contract.yaml",
@@ -23413,7 +23451,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "f6464daf3581e754e98a06ded68e8cd40aae8e0a"
+          "sha": "650752aca6c27aa7aea424192724781baa5c2c6f"
         },
         {
           "path": "references/modeling.md",
@@ -23421,53 +23459,53 @@
         },
         {
           "path": "references/publication.md",
-          "sha": "87001d006d531e937f281191fbaddb5fc19de0be"
+          "sha": "a5ff991ef92be563ef6ac9389d92e615d9e9c787"
         },
         {
           "path": "references/write-api.md",
-          "sha": "2e696c4dda4e00cb21286bfc75de9ea804b553e8"
+          "sha": "707d893842dbd0295588cc9f4a2281b144a51589"
         },
         {
           "path": "skill-card.md",
-          "sha": "6deb397b0a31cf1db67af01f7bc6a7fc969f8f7e"
+          "sha": "268c28836e94432450a7d96aabc43f9f7cc3e575"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "8f6598d9edb54c48a16871a96f356c750080a6b5"
+          "sha": "2fa6c3811f32d4eb121823fa866b969364c7c43e"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-management",
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     {
       "id": "NVIDIA/skills@nvidia-ontology-query",
       "trust": "trusted",
       "name": "nvidia-ontology-query",
-      "description": "Query Auto Ontology and validate generated SQL, rows, and answers. Use for MCP or REST access, readiness, authentication, conversations, and grounded questions.",
+      "description": "Query Auto Ontology and validate what it returns. Use for MCP or REST access, readiness, auth, conversations, empty or unanswered ask_question results, and checking generated SQL and rows for wrong measures, units, populations, lineage, joins, source columns, or truncation.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-query",
-      "contentHash": "7fa40809",
+      "contentHash": "a3572f57",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "24b14479e2cec93a9c95522879ce122b6a329cd3"
+          "sha": "4cade19b717a768b95bedfc1fb7c7d4a0d0a712e"
         },
         {
           "path": "SKILL.md",
-          "sha": "a6d0967bfb2650fc6b309d5b32f41bbad1e5d94c"
+          "sha": "a917b35c3315a2034bdd874a70f2f529ea1b23a9"
         },
         {
           "path": "assets/runtime-contract.yaml",
-          "sha": "59d01b68bebae8328165d63627b7ff4e1cc64456"
+          "sha": "77648f456a6f6ddb115ff35f40ee55957fed9787"
         },
         {
           "path": "evals/evals.json",
-          "sha": "9b88823f9143d02d5a02be38f70cf691332ec08e"
+          "sha": "9a261d3bb57da84032e02824d82b6fa8b1daea18"
         },
         {
           "path": "references/query-validation.md",
-          "sha": "e019716893c3bded61054ee4a68184887ad6ca0d"
+          "sha": "8e94013661a39e7384e4648ebb858ae06459031d"
         },
         {
           "path": "references/stack.md",
@@ -23475,15 +23513,15 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "5b516a31df55c41c892db7fbc02b246db6433f03"
+          "sha": "bb9fbd07677e50865bea861bca1751d008093a50"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d2cef89325a75425ce4d1327cc5e8a3bd8769c16"
+          "sha": "8f7f6feb2835b8265a68faaf82dc9d50d1d2b6e4"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-query",
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     {
       "id": "NVIDIA/skills@nvidia-ontology-setup",
@@ -23493,15 +23531,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nvidia-ontology-setup",
-      "contentHash": "a5b6a96e",
+      "contentHash": "652de48e",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "daf4fdda01a3168d30e494ce12959c611a969e72"
+          "sha": "bee5f55c549416030a11e5641ee570cba8bc1a90"
         },
         {
           "path": "SKILL.md",
-          "sha": "dbc7ffa3a34e35676c4c110d3bb60c1d77803a02"
+          "sha": "634711e89cb267c7d6dcc1dd0cac1a3f6f4f6ad1"
         },
         {
           "path": "assets/runtime-contract.yaml",
@@ -23513,19 +23551,19 @@
         },
         {
           "path": "references/troubleshooting.md",
-          "sha": "14a68ec260b35dc98f527ce076a209bd4fb12dea"
+          "sha": "2c61fa926d7a11ba1535300c874840730ef2c2ee"
         },
         {
           "path": "skill-card.md",
-          "sha": "4631baab004c3358dc5eac44bacdec259f6c01e3"
+          "sha": "c96eb1d62a3ecc771e97b3e56f247b86084c3bc8"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b81c2d62c10e186151106e2b5ca92d695ace0bd2"
+          "sha": "5497fd15c70934bc6cf5139fdec5fb3ae73f2720"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvidia-ontology-setup",
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     {
       "id": "NVIDIA/skills@nvidia-skill-finder",
@@ -38114,7 +38152,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "01a78239",
+      "contentHash": "3854e2bf",
       "files": [
         {
           "path": "DRIVER.md",
@@ -38130,7 +38168,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4b5537faf107449363140c036982eec23f273871"
+          "sha": "0491359aed0cdf10d3ad0d77efc1f4c4bc8e1ad9"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -39838,23 +39876,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "careful",
-      "contentHash": "a13e166a",
+      "contentHash": "68ab96df",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ddb27d6085e3fabd445e170fcadc1c1f5ae458fe"
+          "sha": "f5c81f613838f1c82ab0fc507b4dd60e0459d2df"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "d925218fc7c0eb7b5f56d9ee169289ffb68bcd1a"
+          "sha": "7aaf4317d8e7b0c96382eb59e11115267224960e"
         },
         {
           "path": "bin/check-careful.sh",
-          "sha": "389710438d8a9e167330c9f19957670ea9581b63"
+          "sha": "e855884aa6374b0d940a0d3eff7df31f8120b8cd"
         },
         {
           "path": "bin/hook-extract.sh",
-          "sha": "24b0f0136bd3a2f07bd2dcd501dbcfe132da80f9"
+          "sha": "8121d4b6607b8ede5edec1f3ee4e70961aee61f3"
         },
         {
           "path": "bin/mask-commit-message.awk",
@@ -39871,15 +39909,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "88fc5152",
+      "contentHash": "7bae4f30",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "35ca68472594804e0cb18e763599b21db4467330"
+          "sha": "06980f67274f8afec88f40972176988abb73cc2e"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "e9a6b1e38f52f6b23719527b89216fba95780eeb"
+          "sha": "733384e7e5e47f9f1ff764e93f760cacee68d217"
         },
         {
           "path": "sections/challenge-mode.md",
@@ -40556,15 +40594,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "guard",
-      "contentHash": "73573c93",
+      "contentHash": "b0c2c64d",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "58e5b7db2fb286f4d3072a36e35891462423b9f3"
+          "sha": "a6c1230e297f4e5175d66d8aa70ee383b4923d79"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a7a27891369b91ca01f43c3420f7b350e179894a"
+          "sha": "4bb6184292620f5128ea12c923445cc84870d6e1"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/guard"
@@ -40895,7 +40933,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "land-and-deploy",
-      "contentHash": "7f3042b3",
+      "contentHash": "6f7f340b",
       "files": [
         {
           "path": "SKILL.md",
@@ -40903,7 +40941,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a4ec02a53df81707429b575292b857c62ed9a383"
+          "sha": "bb102fbe2133f88b8dae8a6407a04e367faaf5f2"
         },
         {
           "path": "sections/canary.md",
@@ -41227,7 +41265,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "modernize",
-      "contentHash": "f4743a45",
+      "contentHash": "fec4493b",
       "files": [
         {
           "path": "SKILL.md",
@@ -41235,7 +41273,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a8e4992a9288c5fb8289f13b13fff104c9f7706e"
+          "sha": "1977379050569de196c320f3f8d1a805342e7197"
         },
         {
           "path": "sections/preamble.md",
@@ -41252,7 +41290,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "office-hours",
-      "contentHash": "2df9a4c5",
+      "contentHash": "390c508f",
       "files": [
         {
           "path": "SKILL.md",
@@ -41260,7 +41298,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "02e36cc837bba5620b4d0b8f15aefec217b2a7db"
+          "sha": "ac8175634410821855306541df0e8d406eed61cb"
         },
         {
           "path": "sections/design-and-handoff.md",
@@ -41680,7 +41718,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "qa",
-      "contentHash": "84dab832",
+      "contentHash": "52c7bebe",
       "files": [
         {
           "path": "SKILL.md",
@@ -41688,7 +41726,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "7bc6706b127b932fffd80d9d8d62f4ce5263017a"
+          "sha": "8ab00d59d55c0a48ffa580a2abe632995bf9aadd"
         },
         {
           "path": "references/issue-taxonomy.md",
@@ -41831,7 +41869,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "review",
-      "contentHash": "017eda35",
+      "contentHash": "082dd2d9",
       "files": [
         {
           "path": "SKILL.md",
@@ -41839,7 +41877,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "958d4971433c2b1dc26307c3208944476bb79288"
+          "sha": "a1d1a28204b961ca0eaf25e7caa044f5e0de7886"
         },
         {
           "path": "TODOS-format.md",
@@ -41952,7 +41990,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "6cd2cb86",
+      "contentHash": "924bb29a",
       "files": [
         {
           "path": "SKILL.md",
@@ -41960,7 +41998,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "e85ca270ff545ff42b376557f471dafd057e7a41"
+          "sha": "4660263ad3d970e565f92d749b364d5fa2de0b13"
         },
         {
           "path": "templates/rotation-handoff.md",
@@ -42113,7 +42151,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "f5904ee7",
+      "contentHash": "a596a0e8",
       "files": [
         {
           "path": "DRIVER.md",
@@ -42129,7 +42167,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4bfb5c8deeb80a1f596fb8139cb6d1320bf43f0d"
+          "sha": "e2df92afc918f3ceee125902ec1f9a9004f3b925"
         },
         {
           "path": "sections/adversarial.md",
@@ -42157,11 +42195,11 @@
         },
         {
           "path": "sections/capy-pr.md",
-          "sha": "42923fb1793bf84d2cd8657ae8b141d364db2285"
+          "sha": "4d5bf2a4f94298c29bb60973b9d20013cdfa3b42"
         },
         {
           "path": "sections/capy-pr.md.tmpl",
-          "sha": "35f3928fc6204c5fad661c62b3cbb897b917b092"
+          "sha": "fd540494c3716e11ae3f2f8acba9f3d9a5be2557"
         },
         {
           "path": "sections/changelog.md",
@@ -42225,11 +42263,11 @@
         },
         {
           "path": "sections/pr-body.md",
-          "sha": "79bc554f22be66f2115ab27c113e556cd93ea53a"
+          "sha": "74fbaf166051e686d82566c72a0277071f87dd7e"
         },
         {
           "path": "sections/pr-body.md.tmpl",
-          "sha": "bd582d2a8edf84b354ce4f0b668187a6c2a0f6b2"
+          "sha": "65cdf925c6e4cc9d4effd93a16e80a69a64eaa74"
         },
         {
           "path": "sections/preamble.md",
@@ -42507,7 +42545,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "write-skill",
-      "contentHash": "b317adee",
+      "contentHash": "15967772",
       "files": [
         {
           "path": "SKILL.md",
@@ -42515,7 +42553,7 @@
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "877c8b013f24d779d9d4536bc62d4e9e370a8cc7"
+          "sha": "03bddebfb60b3fbdbae271ae1b0ffeb2542900db"
         },
         {
           "path": "references/diet.md",
