@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795159335987,
+  "generatedAt": 1795206386406,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -2302,15 +2302,19 @@
       "repo": "vercel-labs/agent-skills",
       "ref": "HEAD",
       "path": "skills/web-design-guidelines",
-      "contentHash": "0f4a5dbb",
+      "contentHash": "6803d360",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "ceae92ab319216a68274168fba9b63b998b65997"
+          "sha": "6e67f6e080d104973fe89a7903464c74d980edca"
+        },
+        {
+          "path": "references/command.md",
+          "sha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5"
         }
       ],
       "webUrl": "https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/web-design-guidelines",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "vercel-labs/agent-skills@writing-guidelines",
@@ -9126,6 +9130,88 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudf-query-engine-builder"
     },
     {
+      "id": "NVIDIA/skills@cudnn-compile-and-serialize",
+      "trust": "trusted",
+      "name": "cudnn-compile-and-serialize",
+      "description": "Explain or implement cuDNN Frontend C++ parallel plan compilation, graph serialization, cached plan loading, and deviceless ahead-of-time compilation. Adapt the C++ samples into application code with explicit plan selection, tensor bindings, and error handling.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cudnn-compile-and-serialize",
+      "contentHash": "567a679e",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "9a3631b9e074cec8ce8078a011563cfa10949e1b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "50c3e088aaab6293762e650a467a469f60c1f6d5"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "64db93c9a663a51fe86f3ea6f8ec00fd188be752"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "77cd2a5cc0599dff6638c2820ae4435165a407c5"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4b9ab796409cbf634568bed800d4277bf0abcf02"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "a88656f33745a32fae1ff80dfb83aa65a896e15d"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "963c407362ce63be4fd6b7846d27a85c036aca3a"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudnn-compile-and-serialize"
+    },
+    {
+      "id": "NVIDIA/skills@cudnn-install",
+      "trust": "trusted",
+      "name": "cudnn-install",
+      "description": "Install, verify, or upgrade the cuDNN backend and Python or C++ frontend. Check existing PyTorch, JAX, and NVIDIA NGC installations, select package extras, and diagnose cuDNN library conflicts.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/cudnn-install",
+      "contentHash": "53ff5a95",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "9af1262b16b25e99389d586ab4b753309f5f4a0a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "c37ff34d7d627265a590bc566622b45a90d966e1"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "ffb10af282a2928791d7833b4a69dfb5bc210245"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "77cd2a5cc0599dff6638c2820ae4435165a407c5"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1ffc7f2a2e47b26a6f6bd56b6111a04da12ac02e"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f2781203a955803537ac9e83bf310ec7a89de190"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "88b6f793f24a9a9a1e81c0fbbc3472c02d76d27c"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudnn-install"
+    },
+    {
       "id": "NVIDIA/skills@cuml",
       "trust": "trusted",
       "name": "cuml",
@@ -10765,7 +10851,7 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-metadata-extract",
-      "contentHash": "c23933d1",
+      "contentHash": "6048a1c1",
       "files": [
         {
           "path": "AGENTS.md",
@@ -10773,15 +10859,15 @@
         },
         {
           "path": "BENCHMARK.md",
-          "sha": "70d1c1f7f487d08a4275314f6b16d25afbafc7ba"
+          "sha": "69b20f240f6fc979ce6942654e27a17f1e7e6712"
         },
         {
           "path": "SKILL.md",
-          "sha": "1fe5ccbceac7d6ec30d7bc6fd945d754d2cf1c78"
+          "sha": "85fb4567c71b18f74f14734cba170fd0aa010935"
         },
         {
           "path": "evals/baseline.yaml",
-          "sha": "30e0bed4f89c4fa89e14facc984ac3bf01988c07"
+          "sha": "c0f74b9e04fb46f8eef6d6ec1a1850bcb479fddf"
         },
         {
           "path": "evals/evals.json",
@@ -10789,27 +10875,27 @@
         },
         {
           "path": "fixtures/generate_sample.py",
-          "sha": "e4f3447a8dc46dc2ef6bac8dc49971b26456a240"
+          "sha": "b45ee48ceadaaea204549a98bf70afc7cef04172"
         },
         {
           "path": "scripts/extract_metadata.py",
-          "sha": "625839577c4a3d50581880cb5b4a1957809976e8"
+          "sha": "c307cea9f98d2987f110bfc0ab181abbf9a2213c"
         },
         {
           "path": "skill-card.md",
-          "sha": "58b51e201dee61a10f0b58f618141027209d9bd5"
+          "sha": "f6ce3ef214729b709efdd9461e7025b65c04401e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7c3b5abdfc7902c73dce091a5ca311c6d0a5d2fc"
+          "sha": "02ade19691253c1f4150e53f894cd2cbcb433dd8"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "cffd604580db3c0ecb8636cfcc96c573cd4095d8"
+          "sha": "ce11360bb7b332294aa6bbd7782aa01154c4eb34"
         },
         {
           "path": "tests/test_basic.py",
-          "sha": "69f819c30fcef83f99e0d0d27d190c6fd1efe137"
+          "sha": "e7a4545cb01c28cb47076a5bd1e07c117bb6df7c"
         },
         {
           "path": "validators/output_schema.json",
@@ -10826,43 +10912,51 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-preflight",
-      "contentHash": "9cf0eaf5",
+      "contentHash": "0435ea33",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "9b3d5763ce5cbc448e3e08640c9570f6e648db86"
+          "sha": "18075dab593d33b467a0be4a2d024dfde2b94e5e"
         },
         {
           "path": "SKILL.md",
-          "sha": "0b7222d5d808b2154f04edc72d625c9b7562082d"
+          "sha": "731ca98e1107b04165661f5d2ce562f2629f0343"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "20dc034455ec08222716e59b1b265bbfdd27a325"
         },
         {
           "path": "evals/evals.json",
-          "sha": "d883c62d30588e3e7e0d3d50b6523052d80b0c0e"
+          "sha": "04c876167207a4798641da4350c1a3bd36a3a39a"
+        },
+        {
+          "path": "evals/files/prepare_series.py",
+          "sha": "df103d89e922232d6e876e54e6720781292b3f15"
         },
         {
           "path": "fixtures/generate_fixtures.py",
-          "sha": "6f2dca10cc0dbb29a7bd07d550ff6fc1d9ef90db"
+          "sha": "ff7d9358169ca83d921fd253a5c2884d22083b8b"
         },
         {
           "path": "scripts/preflight_series.py",
-          "sha": "1fc1b7681f34129c8dd1dd0ad6cc3e10c7cdbfd1"
+          "sha": "2950a9219d570a0c0197520b5e68872a8f149e63"
         },
         {
           "path": "skill-card.md",
-          "sha": "1b9b0c8cfd15c9dfcebfb5bae7f3ac5d58537bc2"
+          "sha": "d17ea8e2bfa8e8b151eca035643bdc589a608883"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "87d880697f40f46569b31968504fcdfb0b532daa"
+          "sha": "d539f1b02771d617f1af890dda26ae0532aea65a"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "3370916413b4c2eb7dbf9dbc16df5a653f13b1a9"
+          "sha": "dbc0ed7e81805df7be087cfc277f4ae8775b7739"
         },
         {
           "path": "tests/test_preflight_series.py",
-          "sha": "052a554f177252acb633f71556b2f6f731e8d2d9"
+          "sha": "9a655a21f6cba131657ec34e364ea70bcfc823bd"
         },
         {
           "path": "validators/output_schema.json",
@@ -10879,15 +10973,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-to-volume",
-      "contentHash": "02ab8c83",
+      "contentHash": "7573eb12",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "2b5e3630c58dd64c079a3c62a823289ae7ce1e1f"
+          "sha": "a189a45ae59bbf11f3120964d10329fdcdc3cd74"
         },
         {
           "path": "SKILL.md",
-          "sha": "dd2acfeca0edc589d9e2ccbbbbfe441ed9ad8e5b"
+          "sha": "a2c6e84cfd5b64138b2057b5073f3d00cb7b52ce"
         },
         {
           "path": "evals/evals.json",
@@ -10895,27 +10989,27 @@
         },
         {
           "path": "fixtures/generate_fixtures.py",
-          "sha": "2ecdda777c6e1fdbab69b51bea0fa58937029e24"
+          "sha": "1e55a2ef6a1530c36ed35298fa31496a5cf6bcc4"
         },
         {
           "path": "scripts/series_to_volume.py",
-          "sha": "1705cd2810ad1b7dabe9cd68484dc41dec4d36ce"
+          "sha": "10efe50b1e4645da60a52d4ceca65519a5b837ff"
         },
         {
           "path": "skill-card.md",
-          "sha": "0b773078136dc171c760a84e20cf69d576d04c5f"
+          "sha": "de9377099a3060caa2cbd7459817998d428d608a"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2b746345f273308f466104ae68ddd2878c4fe9bb"
+          "sha": "73379de4e92e23129307e2b73d12e478e6fd122f"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "37fae58635bd6fbb48c667c1dcc82096278a1dc4"
+          "sha": "d27f71404092fb2b2ba215552dfcd35dfc56f532"
         },
         {
           "path": "tests/test_orientation_regression.py",
-          "sha": "f496c9e6a8c0d0fdc247c2187c0a74c3c21795d1"
+          "sha": "27211a421d03548765d047907aebb1d6ba2e3013"
         },
         {
           "path": "validators/output_schema.json",
@@ -18787,15 +18881,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/kumo-data-science",
-      "contentHash": "56d38376",
+      "contentHash": "e9251394",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c4ddbcb065dbb0ebc4b1d1412991dce4e781301d"
+          "sha": "6b19118067c0f028d63f3e23f4a7eee41b8bd1a7"
         },
         {
           "path": "SKILL.md",
-          "sha": "6aae6b86b2a8c6ec7349e9fde29c374e0b265080"
+          "sha": "40fb76d168f2de3238690f983340fd50b51c207c"
         },
         {
           "path": "accept/batch_inference.md",
@@ -18827,11 +18921,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "c8ede2982b1c9b37479441306cdb83ff04a205f3"
+          "sha": "a9bef5d2ba44218e4c382e49544141781c3c3cbb"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "99d70d3dc13d54ca2a6aa91f2c175cef0b1f155b"
+          "sha": "e705bba529fb458cb76fc1f3a3c6a4e185814e82"
         },
         {
           "path": "validate/atomic_question_check.md",
@@ -18885,19 +18979,19 @@
       "id": "NVIDIA/skills@kumo-model-explanations",
       "trust": "trusted",
       "name": "kumo-model-explanations",
-      "description": "Inspect and interpret gradient attribution (including requests called radiant attribution), column analysis and sampled explanation subgraphs from a Kumo model trained in a Python notebook. Locate the correct run's explanation artifacts, explain feature scores and cohorts, and identify missing or unsupported explanations without automatically retraining.",
+      "description": "Inspect and interpret gradient attribution (including requests called radiant attribution), column analysis and sampled explanation subgraphs from Kumo training and batch prediction runs in Python. Locate the correct run's explanation artifacts, explain feature scores and cohorts, and identify missing or unsupported explanations without automatically rerunning work.",
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/kumo-model-explanations",
-      "contentHash": "56ed5652",
+      "contentHash": "629d6f22",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "ec640e15642b2be52d4973230bedbafb91324a1b"
+          "sha": "d086fc7ea06ed7c6c8665bb371a4b271dd97dd8a"
         },
         {
           "path": "SKILL.md",
-          "sha": "3c2e2e86d8116de2bb0b4f6af105f24e7388c5e7"
+          "sha": "f35fcbcbd9ef792127f6d799ff5f938556c6f931"
         },
         {
           "path": "evals/evals.json",
@@ -18905,15 +18999,15 @@
         },
         {
           "path": "references/artifacts.md",
-          "sha": "8373bfd94f44cc118fedeb3dd229d07fc9bc3466"
+          "sha": "8f5e6f28b9636b041d01b6ba8712185bbe188f08"
         },
         {
           "path": "skill-card.md",
-          "sha": "a7198593a3338566e884e01eaa3317167f6d91b4"
+          "sha": "29a19fb7500fe7d0117c44925aca9754217c82b1"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "7ad35494e4292af30b576b82d8f7bda855a75510"
+          "sha": "24ea6859ed5fc427793e8ac107340cb7f58c01da"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/kumo-model-explanations"
@@ -19300,15 +19394,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/medtech-model-evidence-export",
-      "contentHash": "e242be3c",
+      "contentHash": "e5463a8f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "49d92097d2fb63f937e5ba054dc2b7233b797453"
+          "sha": "37982aab73c395d223e6ce2d8a1f29d129530e11"
         },
         {
           "path": "SKILL.md",
-          "sha": "3b9c5c879b2695096ec6d2588b10ba2f5660ed09"
+          "sha": "385d95318692549d134f97157c21fb1a165a0f50"
         },
         {
           "path": "evals/evals.json",
@@ -19340,23 +19434,23 @@
         },
         {
           "path": "scripts/export_evidence_pack.py",
-          "sha": "919a4285493681057ca1f7ee5913bd2619d1a644"
+          "sha": "b2ad78e4ed56c50942e05f2a71fb05dacedb9785"
         },
         {
           "path": "skill-card.md",
-          "sha": "ee1f633fe32668df0e4dbd93b005f2813c4cd7a2"
+          "sha": "39de29fea1316e27c4bba772ace85cd5017e1901"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "73ec6c7ee2014f8ba3c1627357bbec373f4817a4"
+          "sha": "0af2f683e4b121383ac784b5a320fc5aa726c146"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "d84f8ee5a3dc411bf6af22b563c818b43bfda63e"
+          "sha": "51832dcfdfadb0c7704bc2f8f5304ebdb2e708eb"
         },
         {
           "path": "tests/test_export_evidence_pack.py",
-          "sha": "d1dac5b0494aa50468420aede2a5c7905d880297"
+          "sha": "d0f383787e74090a040ac532b7d51e92b20017aa"
         },
         {
           "path": "validators/output_schema.json",
@@ -21934,19 +22028,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-ct-rflow",
-      "contentHash": "cb746752",
+      "contentHash": "821533ce",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "4d1c816fd45a14989ed16f40255a760f05bb8aa6"
+          "sha": "17ff26848480feb6445b193d47106f4fe08183b8"
         },
         {
           "path": "SKILL.md",
-          "sha": "2f4c9e74282b189cd6599d88abc2ff319a9ee34c"
+          "sha": "66af93e1a7e9bfc5b8b4e24402b293e99f43e42a"
         },
         {
           "path": "evals/evals.json",
-          "sha": "1ee8682e37b590011e569167fdb263faa68f7b46"
+          "sha": "23f88ca68f39f4c3675fec3c8c99b7e61f59bfbc"
+        },
+        {
+          "path": "evals/files/abdomen_request.json",
+          "sha": "b10de1a8782626bf903d94975b569dc5bc823cf0"
         },
         {
           "path": "fixtures/README.md",
@@ -22006,63 +22104,63 @@
         },
         {
           "path": "scripts/_anatomy.py",
-          "sha": "42e53962d90cfe0b4701267eb89cb57ad9565b6e"
+          "sha": "bbef386ec94cbf2d48edd88769fa708df36f760b"
         },
         {
           "path": "scripts/_summary_card.py",
-          "sha": "8ba6ebeaa7e376bee124f71036ac7d7a8312f6d5"
+          "sha": "dc6413dbf3ba16e22837faaacccce9b572618e0f"
         },
         {
           "path": "scripts/list_anatomies.py",
-          "sha": "6b8c133f245246e8bc128f2ce80625b121cc0c41"
+          "sha": "79d79ca127d15f3ee5022472d28e68b65ff19a3c"
         },
         {
           "path": "scripts/run_ct_from_mask.py",
-          "sha": "113c82de4ddf97f59deb613d89552429a2f1bd37"
+          "sha": "817f28c11dbdab4dd70d4f7fb1c6c08b8bd14575"
         },
         {
           "path": "scripts/run_ct_image.py",
-          "sha": "3ce5c8490ec2928807d858e415a12922382f45d9"
+          "sha": "d5be3832902690454f7133c1c5ade7b99ac04114"
         },
         {
           "path": "scripts/run_ct_mask.py",
-          "sha": "c7cbd569937d01c2379a86e8968c07aff809fbde"
+          "sha": "fce3f27f122faec1e2d3fb4de6541ac220daa26f"
         },
         {
           "path": "scripts/run_rflow_ct.py",
-          "sha": "b68bdd56358dd843254f28e9708b2e17df2f3813"
+          "sha": "b145e173e8e52e71ff7ebb80c31e4b561b6ed15f"
         },
         {
           "path": "scripts/wrapper_utils.py",
-          "sha": "fdb9367a23ec0eb88b71d841a81067b78b93aba3"
+          "sha": "619e277419dba54237d06710a2880bc4a654d061"
         },
         {
           "path": "skill-card.md",
-          "sha": "5f844e1e73ad12d959312ad7b397e57553a09e8b"
+          "sha": "2547dad6e17347bd12adddc657ac945876e9eeba"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "a4f84abd130052ac68a80e17c21f6992338adc52"
+          "sha": "2ea30563a3a0f4f9675c6d84ac0dd5bff2f51299"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "16a976356dc75f0597040a2ddf22c02ef1ed2c93"
+          "sha": "1b33a64578b619ce970b3bb507a45e0c45722b6e"
         },
         {
           "path": "tests/test_run_ct_from_mask.py",
-          "sha": "23228178604ad50c4a10ad366a42da88bf1a81f9"
+          "sha": "6a3b7b42be4a2baef01cadc9b2783a5d86fab771"
         },
         {
           "path": "tests/test_run_ct_image.py",
-          "sha": "78ae05369bbbe33d57fe89934851cf5f6d352214"
+          "sha": "699b418779f6691666a3b43be6d69049de0e876d"
         },
         {
           "path": "tests/test_run_ct_mask.py",
-          "sha": "2311ea542005a216cddddb0fd06ed6f44f5db1a8"
+          "sha": "9a1f574b5cef1bb5d6c82d125e817bb8cfc8712c"
         },
         {
           "path": "tests/test_run_rflow_ct.py",
-          "sha": "279f67580ef9da91fa5d764fb07a4362100760d9"
+          "sha": "c81eaf9f00f906a5ff0e955c251d04d72a7d78ba"
         },
         {
           "path": "validators/output_schema.json",
@@ -22079,15 +22177,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain-finetune",
-      "contentHash": "46d92c30",
+      "contentHash": "e3c9364c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a157db9dccbdec6a36bdff0cfd40c5f76b1a589e"
+          "sha": "a34cbbea53d428045789a8af115bd4fd31f4a068"
         },
         {
           "path": "SKILL.md",
-          "sha": "8e5a8e14a70d818d4b028023059481e2e0019f86"
+          "sha": "4fa4697c31ae405b6d5a3d2909abf42a54840113"
         },
         {
           "path": "evals/evals.json",
@@ -22107,23 +22205,23 @@
         },
         {
           "path": "scripts/run_mr_brain_finetune.py",
-          "sha": "39bf4b93951f7b8ac922600cc26e0d95fdd8ca27"
+          "sha": "acab92254a0e5cdde0a0567f4bf6efadcdf640d6"
         },
         {
           "path": "skill-card.md",
-          "sha": "c0277771a6ad6306119174496631a110fdb7a382"
+          "sha": "0f1b2562668070547b59f7a6dec1f23d365b6f4e"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5b0f70e7fcd9533a0140e82de9e036f43f824937"
+          "sha": "359dd99832f7e0a455da2f4291151e4c40c5ca09"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "360eb6ff4dd30ef74d679e3744abab639111f8a5"
+          "sha": "1b75cf4d756a49a389f1b5a75b2d5f73ca0b5a5e"
         },
         {
           "path": "tests/test_run_mr_brain_finetune.py",
-          "sha": "ddad8428a3f993d576dce78704e829762d6c25ea"
+          "sha": "bdcf045439a6c3e5836c67829e8a6a3f3306bc7d"
         },
         {
           "path": "validators/output_schema.json",
@@ -22140,15 +22238,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr-brain",
-      "contentHash": "852ef26d",
+      "contentHash": "221a9296",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "fc8586d048ce8bc80a05cd1748f24e67ef3e3207"
+          "sha": "dc2a5b9aa42253cdfd40492a14e12e709786b7b3"
         },
         {
           "path": "SKILL.md",
-          "sha": "3fc99cab7b4fe1de0169fb98046b842e02f7d982"
+          "sha": "659590f1af5af7878a2535b6ad503d3d96014c5c"
         },
         {
           "path": "evals/evals.json",
@@ -22180,23 +22278,23 @@
         },
         {
           "path": "scripts/run_mr_brain.py",
-          "sha": "049907cf8b8ddc6d91f40162802d64cfaf00be69"
+          "sha": "11299f8ad45ac6226b6e2e20b0ac465ae14fe50d"
         },
         {
           "path": "skill-card.md",
-          "sha": "29710a27fb5f1de7deb79edd968024c826c23aed"
+          "sha": "635229673e797f7d9d30f763cbaabbe339aa2f5f"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "adde154cbf05757fab0073a530acc9b0e602995a"
+          "sha": "72a7d783b97a8979bfd5c16a82d8186973194cb8"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "b54d86ce32df3ef99b7dd5cb3091ea0cf56f0c67"
+          "sha": "8eccf07e1c8a1e8ae6b3f7737e2c8f50b98079bc"
         },
         {
           "path": "tests/test_run_mr_brain.py",
-          "sha": "08f5262b0e42fc8f0799d7919f31d80045b61e10"
+          "sha": "669f2447b2942612f4cf344d09524349b80c2d1f"
         },
         {
           "path": "validators/output_schema.json",
@@ -22213,19 +22311,23 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-mr",
-      "contentHash": "71e9f160",
+      "contentHash": "5ac5a39a",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "97037e0dd9cd5026ee642459008250b4b2b7a0f5"
+          "sha": "025ad7d4b61cdbfc4d6632f143e4cb5638ff8ec2"
         },
         {
           "path": "SKILL.md",
-          "sha": "a81f3b9e574ca0dd6d540a7850d295ac9f196fa1"
+          "sha": "3417d9345ef178cae4f7aac63a040899117732f8"
         },
         {
           "path": "evals/evals.json",
-          "sha": "9618cc67b6bfad8d9d5d1dde38fd9510c3509073"
+          "sha": "4ae80bcf0db49b5dd71e78ffb6ed733a78ca9e33"
+        },
+        {
+          "path": "evals/files/mr_request.json",
+          "sha": "ac1a85b05b24bb03623d1a0da55872a8ff43ba02"
         },
         {
           "path": "fixtures/README.md",
@@ -22249,23 +22351,23 @@
         },
         {
           "path": "scripts/run_mr.py",
-          "sha": "03616357168a38d8996fa82b98f733524f79706d"
+          "sha": "f61e90b32f757129a72c421fe8f3753eed5ea0c2"
         },
         {
           "path": "skill-card.md",
-          "sha": "c7409bd53adf7fb2f99eee49525fe14366e269aa"
+          "sha": "df9e5c7006adb26454c8b2bd820df63c0d88d3b6"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "75ac25bf8942c88d0262dbc44174ec1edbeba502"
+          "sha": "7aea9857df5ce586c38546e28d4239f039b4c4ba"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "11f8b903f91bd67d1eed350021c4696352e34670"
+          "sha": "9d2bbddaa734417377a80acc268d7ce510316bbe"
         },
         {
           "path": "tests/test_run_mr.py",
-          "sha": "1ca8acf6339d1cdf4fc13acd5687f9d93845edd8"
+          "sha": "be8636e8401d5c9ba3e68ea263d9eef69da716a0"
         },
         {
           "path": "validators/output_schema.json",
@@ -22282,19 +22384,27 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-vae-finetune",
-      "contentHash": "df6eb2f2",
+      "contentHash": "a0b98917",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "8e7be62c6e63e031a264c47f48acca3871ffde2b"
+          "sha": "97cbf8aeab05cf34eadd54ecb23fce54931a97ec"
         },
         {
           "path": "SKILL.md",
-          "sha": "145dde12036a8133a2343b7aea318263c9194072"
+          "sha": "9a6e03f5c1859be7886da509835355584d8b6de2"
+        },
+        {
+          "path": "evals/config.yml",
+          "sha": "ecd3afad8d44367798ffcbe761aca9d11ac065eb"
         },
         {
           "path": "evals/evals.json",
-          "sha": "040eeb1068783d41dfd3057b9655ad4f2746ef60"
+          "sha": "5763e0dc71366b4cbf53277e9224d57c30c77e10"
+        },
+        {
+          "path": "evals/files/prepare_volumes.py",
+          "sha": "b5ebb2cde21bb8418febfaf6c00a5515aca4bf7d"
         },
         {
           "path": "fixtures/README.md",
@@ -22314,23 +22424,23 @@
         },
         {
           "path": "scripts/run_vae_finetune.py",
-          "sha": "137b53f02adc19f6a8374d1eb80bef467d88360a"
+          "sha": "712faeed9ed7986777cca362b6a74fb0e6de5b44"
         },
         {
           "path": "skill-card.md",
-          "sha": "99739f06de96acbe8f5562d3b9af12bf6efb11fa"
+          "sha": "e76365567b1a8c45d917589b99537eb1573fd85d"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "0851aa5aa4c2220ec8b2f94877bd7f7e6137d4e3"
+          "sha": "4f4ae40f28c3f56953fde833d0afb1a1c090d683"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "053428a933d1d6264836974ac1099014b871c3a5"
+          "sha": "ed5027b7e076d5fcc8b7be82ccb80cde122fd4e4"
         },
         {
           "path": "tests/test_run_vae_finetune.py",
-          "sha": "afacdb0ad5ff39f7215f39f656969173c76ca940"
+          "sha": "16052980fb59847c3e42cb7aae59ea3b8f1816a6"
         },
         {
           "path": "validators/output_schema.json",
@@ -22347,11 +22457,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-reason-ct",
-      "contentHash": "7396480a",
+      "contentHash": "139f1067",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "c28941d129a00115a56414fccecb972e99735e79"
+          "sha": "de213d0b0c65ed5a66025ca8bffde45a1112858e"
         },
         {
           "path": "EXAMPLES.md",
@@ -22359,11 +22469,11 @@
         },
         {
           "path": "LICENSE",
-          "sha": "8ca3d202745af1e93de29fe795bd3cbafaa75d8c"
+          "sha": "4082ac2f164e2ca780039c75dc1a045dae009e5a"
         },
         {
           "path": "SKILL.md",
-          "sha": "81583c12ce6951309645b8506a85a104282db4a5"
+          "sha": "2bc8f8e30a28b129e11821be46de959687cde266"
         },
         {
           "path": "evals/evals.json",
@@ -22375,31 +22485,31 @@
         },
         {
           "path": "scripts/run_nv_reason_ct.py",
-          "sha": "294c250739330644141a9fba3ed8e8ee423e267a"
+          "sha": "a3a9f2db0b4b3837b25e372ada3eef2e08412a98"
         },
         {
           "path": "skill-card.md",
-          "sha": "e3051050ebbc85a426d14ab06e9925afada83598"
+          "sha": "1554406a05eab1534302aafe3a855264b58c7f06"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "08dce466433f40976d45650e503a4b8d20073134"
+          "sha": "71d008edb71627ca7faa9f2336778832a20e8a5b"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "767e2198feb870a48c140730e57a2c0a52d21480"
+          "sha": "9e3534386a0813158a1fca98fe4d3469ddaf6b12"
         },
         {
           "path": "tests/conftest.py",
-          "sha": "82e7eada5816c08b707ce02eccdf60f717208252"
+          "sha": "d113dcc4b71de9faa8e6e4a4418341a8e96818f3"
         },
         {
           "path": "tests/test_nv_reason_ct.py",
-          "sha": "39ce5574d394433c656e52f5a03d9dc11b435533"
+          "sha": "7293e65574f809a396c738319ee4eee4d4da5b30"
         },
         {
           "path": "tests/test_upstream_examples.py",
-          "sha": "94b127b163bf5b2076041b9e7bf7ac1c92844980"
+          "sha": "390b2d4664c5abf5946e04be0581bdc628e69bfb"
         },
         {
           "path": "validators/output_schema.json",
@@ -22416,15 +22526,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-reason-cxr",
-      "contentHash": "ee6d5191",
+      "contentHash": "8076c6e5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "076af36d58ef47b46247b28f8da80f45692fc0a8"
+          "sha": "9fb0e5385aa8af2daf82c12e1c8465b622ca6289"
         },
         {
           "path": "SKILL.md",
-          "sha": "5290d86e26277e7989a2117f11626a8acb8c41cd"
+          "sha": "1bccc64e0165fa8377e4626de5751efe193e72f7"
         },
         {
           "path": "evals/evals.json",
@@ -22436,23 +22546,23 @@
         },
         {
           "path": "scripts/run_nv_reason_cxr.py",
-          "sha": "8453ea45c1c24f9a3c49b247c6b98e52e05ec6d4"
+          "sha": "005129def4af35ac2b5c7cbe464f8e4a3aee9293"
         },
         {
           "path": "skill-card.md",
-          "sha": "ea728f85a5e82a1ce27b136307b6e67969b9bd46"
+          "sha": "fbd470367629e847b9a5480dbb569cd8f26bf7ad"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "9bad2bdb692f7a41e433472b20e76d7ff75cfba6"
+          "sha": "19879be97253a7b744e519661c678b82270ca732"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "2b44ff2b5c11bca8025776412dd9ebe97e0abcbd"
+          "sha": "7a6d4b68d56091c03602366b66381c0f70b503ac"
         },
         {
           "path": "tests/test_nv_reason_cxr.py",
-          "sha": "bce335e59a99001e9a8d364f8e660d20ad1b2684"
+          "sha": "52300a986524482baff162d28bd0a5438d2e65fd"
         },
         {
           "path": "validators/output_schema.json",
@@ -22469,15 +22579,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ct-finetune",
-      "contentHash": "0f88d660",
+      "contentHash": "6d17209c",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "33d3e7e5d3c11a2df8dad6b18e84e20853b8d2e1"
+          "sha": "aed234447f42a691e805beb10bea41c8b33da985"
         },
         {
           "path": "SKILL.md",
-          "sha": "8ca09883ee1a9d0d530aec5adbdbc1f31549ef31"
+          "sha": "d82e8227f292c087e557e4b13c8ab6843ced5a22"
         },
         {
           "path": "evals/evals.json",
@@ -22493,23 +22603,23 @@
         },
         {
           "path": "scripts/run_finetune.py",
-          "sha": "f6e39c5ea77f9075f8d0a87fa432d2a393bf1901"
+          "sha": "cb0136882e323e077e86a7ec7c0a3746aeb9f5fa"
         },
         {
           "path": "skill-card.md",
-          "sha": "b6cf1cbb9ecab051713ced6e8d45c0c1106e4f9c"
+          "sha": "282b8c6e65e10a1bce38d2cb061209d2e3597ca4"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "6c554ebb1c14725eaabeb9fd3fa8b47e8a99b2f3"
+          "sha": "80fff1508fabbb1796bda88d27915a8809284630"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "8066974391eb8fbcefe2c1bcaa179c68cea419b3"
+          "sha": "5a30b506cbb163b64771eee6058a73b88f909664"
         },
         {
           "path": "tests/test_run_finetune.py",
-          "sha": "0533b15bfc0302d814fa27fc4bdd4a084e38c444"
+          "sha": "c6a875a9450468d7fd6e33794af60794b346b68e"
         },
         {
           "path": "validators/output_schema.json",
@@ -22526,15 +22636,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ct",
-      "contentHash": "cb5da13a",
+      "contentHash": "25a729ee",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "02ca95e1478ebcd0161e6b45a87f15db26871557"
+          "sha": "a0bbcfd0a94cf3a8227d6b10daa17530d985bbb0"
         },
         {
           "path": "SKILL.md",
-          "sha": "3bd7301c15bc7967a993669376f2f8f080f07edf"
+          "sha": "6c8cce345a8f973ebb3212be9c7c2e5c5243f300"
         },
         {
           "path": "evals/evals.json",
@@ -22542,31 +22652,35 @@
         },
         {
           "path": "fixtures/fetch_spleen_fixture.py",
-          "sha": "d2579639fd9906fd419e8a665e9304a2de7c9bf6"
+          "sha": "5af388d482d2eabdca0f18c7becc566c0984e85d"
         },
         {
           "path": "fixtures/generate_preflight_fixture.py",
-          "sha": "cba0706e768f539ac836d5ef5b6e9fa9e966cebc"
+          "sha": "a38df5ccd37b33c2bb43af69d9653701cc06fb9a"
         },
         {
           "path": "scripts/run_vista3d.py",
-          "sha": "5b51a571210ec99a2f48a2fc15435c815b6d5871"
+          "sha": "b13e94ae65d4e16f29ac4505a18fb6888a8ecefa"
         },
         {
           "path": "skill-card.md",
-          "sha": "13872b60d144eaeb26a55106c0f959c00b39788e"
+          "sha": "63ec74a005272a880ab1083ea11e03998385f4fe"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "919b55331b2aa068e7d1112d0034e22ab2a709ca"
+          "sha": "4546f6ce87551708add87aa111f654a8b5f18441"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "5e4980484c6b78e89be42e675eaad0c2f32cddd4"
+          "sha": "4fa93abf7c10dddf91f5e5d060b022793ca6cd85"
+        },
+        {
+          "path": "tests/test_fetch_spleen_fixture.py",
+          "sha": "01e35894b0a30f55b2723ece96a22eea8a0f25c1"
         },
         {
           "path": "tests/test_run_vista3d.py",
-          "sha": "fdaa721af7372ccca6fdf5961fed1cd2a120cffe"
+          "sha": "39cdf93b48d074329e35e047d155b3d5f7cafc46"
         },
         {
           "path": "validators/output_schema.json",
@@ -22583,15 +22697,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ctmr",
-      "contentHash": "6a70cb92",
+      "contentHash": "36748eff",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "ab7693995ea99b232943e3aa6d0870bc17b9544e"
+          "sha": "cd13cc52c6d9219016b07ba1ff73f972c19ef557"
         },
         {
           "path": "SKILL.md",
-          "sha": "6f91d440c71151e2ceb6ee7bb71bd6f1d210d17e"
+          "sha": "892b570cc0d87646457971c9932054b34c613bb6"
         },
         {
           "path": "evals/evals.json",
@@ -22603,23 +22717,23 @@
         },
         {
           "path": "scripts/run_ctmr.py",
-          "sha": "e78633baad36a363334d86f65465d6eb410ffafd"
+          "sha": "8f1ec2fbc784e467c495c1c92987887843ccf2c1"
         },
         {
           "path": "skill-card.md",
-          "sha": "c9582b40868cff52f6bcf2fd80dc91a8bcc4c1ef"
+          "sha": "e6e85853b2f263571f8bf0957eef21dc5c724088"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "5f38595f4614fe31f5c6b316bde03bce39497510"
+          "sha": "93c97949286646d403f6303d411754588d4430bf"
         },
         {
           "path": "skill_manifest.yaml",
-          "sha": "9ddf53d3262c50248a926c9a5f43a70450602047"
+          "sha": "95c0cbadc76459f3b144559bdeb65aac90016036"
         },
         {
           "path": "tests/test_run_ctmr.py",
-          "sha": "8d0fd0cf503bf1f4a2817223be14fcbd448f35e8"
+          "sha": "f12fc72680974286cc4e9bc13746e219464a3b52"
         },
         {
           "path": "validators/output_schema.json",
@@ -38687,7 +38801,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "6623d804",
+      "contentHash": "376ccd4d",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -38919,7 +39033,7 @@
         },
         {
           "path": "src/port-allocator.ts",
-          "sha": "133747695eef7f08ccbe9e86e4fb46aa13d32ae3"
+          "sha": "f81b768d9dd0fafc3dc766446c0174a9c6529047"
         },
         {
           "path": "src/project-slug.ts",
@@ -39963,7 +40077,7 @@
         },
         {
           "path": "test/terminal-agent-port-range.test.ts",
-          "sha": "73b7c27f42988363319b5b3d31c946581b6c591d"
+          "sha": "e0c5e223e27deabb82ae4e2e219819084bd4de83"
         },
         {
           "path": "test/terminal-agent-publication-lock.test.ts",
@@ -42503,7 +42617,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "e6bd0bf4",
+      "contentHash": "81d48a8a",
       "files": [
         {
           "path": "DRIVER.md",
@@ -42515,11 +42629,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "4fabb920a32a6637f31608a9e2e9aa4c42d1926e"
+          "sha": "884378d695bbfa4786bf03bca2593ccf0e90d45d"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "bcd26eaa47fde50d0ac45a446298554da96a0920"
+          "sha": "5d9ccf55afcfee1b290c8e2d9fcf37152dfe9c16"
         },
         {
           "path": "sections/adversarial.md",
@@ -42651,11 +42765,11 @@
         },
         {
           "path": "sections/tests.md",
-          "sha": "d9643b7eb752e431b3632934f5ae08490c3664ed"
+          "sha": "990c35c9f72e5e45f6d0c5a22227bce2809be483"
         },
         {
           "path": "sections/tests.md.tmpl",
-          "sha": "a18b54912c29155b54171705fb0493b39ad2972e"
+          "sha": "3c57a3a7db4a9c8f120dd2d31e89dbe07ea1a202"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/ship"
