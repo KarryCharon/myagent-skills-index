@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795206386406,
+  "generatedAt": 1795245250473,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -40309,7 +40309,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "20fc84ee",
+      "contentHash": "5298071f",
       "files": [
         {
           "path": "SKILL.md",
@@ -40317,15 +40317,15 @@
         },
         {
           "path": "captain.md",
-          "sha": "6287ee0eaee73e40196c59a5b1fed86d74d995f0"
+          "sha": "f5b8b0bdfcd5d757750b9f19030232cb8ba7ba22"
         },
         {
           "path": "factory.md",
-          "sha": "cb6aba07200445a083458667b7509127a5121888"
+          "sha": "948dea48a593291f07f42a67dea164a9aa282975"
         },
         {
           "path": "lane-card.md",
-          "sha": "7486ff31f31389c61c7e6a25d2d7280fa65c4109"
+          "sha": "d6ad6a55e7c42327b2fc3c86ea3d185bad5a066a"
         },
         {
           "path": "scripts/install.sh",
@@ -40921,15 +40921,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "832969ae",
+      "contentHash": "f59d2276",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c4c4c23cb805ad8a3b7c774246e8f5c457933106"
+          "sha": "4feee367df91cb72d5a3b1409a9c15b4aa22382b"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "c51321370b48ecf1173774b92123feec5b42b317"
+          "sha": "164ce20cb01e538fbab36f0e6db146ae12046600"
         },
         {
           "path": "sections/preamble.md",
@@ -42456,23 +42456,23 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "runaway-stopper",
-      "contentHash": "81d7c489",
+      "contentHash": "3c138aba",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "da448484cd4e5c53d9083bdb67b8017989b40ff2"
+          "sha": "774ce4ebecf432f52de11abd3335f05e15ce238a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "4660263ad3d970e565f92d749b364d5fa2de0b13"
+          "sha": "22d0dc6a6dd60e5c5c5d51c7aa00ba7b386f023f"
         },
         {
           "path": "templates/rotation-handoff.md",
-          "sha": "939bf9b7c2d59beb94e43678b2def2f69ea961b9"
+          "sha": "6444cc567e43c67fa02de2d8355c7ea078f60bec"
         },
         {
           "path": "templates/successor-brief.md",
-          "sha": "412ae2f8d3f693fe57969a01109ac2720b4a4669"
+          "sha": "9d733967d03d85b704b1fe4a6a7d286ace8bff5e"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/runaway-stopper"
