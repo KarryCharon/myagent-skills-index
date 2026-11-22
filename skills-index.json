@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795288861112,
+  "generatedAt": 1795330517244,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -38801,7 +38801,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "f9f4399f",
+      "contentHash": "ecb04056",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -39665,7 +39665,7 @@
         },
         {
           "path": "test/gstack-config.test.ts",
-          "sha": "323eefad3f4b8e1ab50c669b761e82d4aee398bc"
+          "sha": "09ae568acad5436ea5cb2a78c2d7a9e30f95dbfa"
         },
         {
           "path": "test/gstack-update-check.test.ts",
@@ -40921,15 +40921,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "b0d1f537",
+      "contentHash": "25361c7b",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7727e02ee8bde0d8841c97472c05e783e5792acd"
+          "sha": "f949d2f15a5556789034037d42dd7eb4843bfa3f"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "dee55247019cd600d63fb39aabbca88c51cad6a4"
+          "sha": "e0437337d87a9b66dbdb36b3013936cbf6f8b7e2"
         },
         {
           "path": "sections/preamble.md",
@@ -41485,15 +41485,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "learn",
-      "contentHash": "313335b5",
+      "contentHash": "d22ebbea",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "12804cc4c266a8fb81dd29f5d0da00c175a42eb3"
+          "sha": "9a48d218d663db6c6b7bf87134138f4eb0e848f8"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a99a712e40d4548ff5eb9b7ffa1e834b0f5b6340"
+          "sha": "7c86973e2890f888731270e1d0c7fa41f68fe90a"
         },
         {
           "path": "sections/preamble.md",
