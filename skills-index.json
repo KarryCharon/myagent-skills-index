@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795376744122,
+  "generatedAt": 1795419926875,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -40199,19 +40199,19 @@
       "id": "garrytan/gstack@build-check",
       "trust": "trusted",
       "name": "build-check",
-      "description": "Use when coding: run the checks and tests /ship picks until green. Use for: verify my change, run the checks, make the tests pass. (gstack)",
+      "description": "Use when coding: run the checks and tests /ship picks until green. Use for: run the checks, make the tests pass, make it green. (gstack)",
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "build-check",
-      "contentHash": "c8e65f31",
+      "contentHash": "91ecf171",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "814405ec6be6038582056a05dea2c2a0b7bb2c62"
+          "sha": "125b1f79bb4687f17b9334ba5703076c007aa7ee"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "2d0315cf9507f31b75e179cc4ce67393f729e984"
+          "sha": "39b39fbec5a1b3d48e8cd66b5fdf33e5b4256574"
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/build-check"
@@ -40249,15 +40249,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "captain",
-      "contentHash": "bd5d4dad",
+      "contentHash": "ef590cc9",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "7b1fe49c1f40ab9b1861731a30f4bad9aa362866"
+          "sha": "29d9cc3e6d407468973b28a4853d9c33c4b022d8"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "03622be328a86947932a0e092b70893c8fb538c6"
+          "sha": "9b2c90adcd48f8749e262991ef39fbcfa8c6f909"
         },
         {
           "path": "sections/preamble.md",
@@ -40313,7 +40313,7 @@
         },
         {
           "path": "templates/report.md",
-          "sha": "39292b894caeebf5d3a1ea708b07ad06d940df50"
+          "sha": "21d0cb6a6f60b51cbd61d9187e742896660488f3"
         },
         {
           "path": "templates/slot-call.md",
@@ -40330,7 +40330,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "capy/skill/gstack",
-      "contentHash": "744c830c",
+      "contentHash": "aba09151",
       "files": [
         {
           "path": "SKILL.md",
@@ -40342,7 +40342,7 @@
         },
         {
           "path": "factory.md",
-          "sha": "c62eb435383080b092691eade6173dc1b089087d"
+          "sha": "8e7c536bd87e046519147c8a4900e1a2f8301486"
         },
         {
           "path": "lane-card.md",
@@ -40942,15 +40942,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "eval-plan",
-      "contentHash": "16794814",
+      "contentHash": "1f71cc54",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "922f0a876f737a68a54d052e6991e6c2e02d92af"
+          "sha": "34c64502694014bde3ad2d20f510051603632090"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "a3904c54082b19fd3fcf37d2f9fd5b1f0798f741"
+          "sha": "ffb5a0a4f4875545540f8e937b0bda9a24335af3"
         },
         {
           "path": "sections/preamble.md",
@@ -41959,15 +41959,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "87d7e52c",
+      "contentHash": "9d6d1fbb",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "1db0f2efb6ec5c7ef3f18594d2b82fce9f071a31"
+          "sha": "31bdfc0d361ca003252f9e88587007eba70310e0"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "1f55d3a87eeb83ef9ca72203fa547b1505259394"
+          "sha": "105928c95a4d069837e1e474827c691bcf7ce7fa"
         },
         {
           "path": "bin/mode-handoff-hook",
