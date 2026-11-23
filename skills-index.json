@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795419926875,
+  "generatedAt": 1795478317704,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6318,19 +6318,27 @@
       "id": "huggingface/skills@huggingface-gradio",
       "trust": "trusted",
       "name": "huggingface-gradio",
-      "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+      "description": "Build Gradio web UIs and demos in Python. Use when creating, modifying, debugging, or answering questions about Gradio and its capabilities, components, event listeners, or layouts.",
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/huggingface-gradio",
-      "contentHash": "977092ce",
+      "contentHash": "0893fa24",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "81dfb05834ab34a13cb0171a2fb03e4557b1e148"
+          "sha": "638a69b1126dc7206974fc77899e5f83f5d3752b"
         },
         {
-          "path": "examples.md",
-          "sha": "b48c4cdc6dddbef128d026c1ec47442ebca51788"
+          "path": "references/api-signatures.md",
+          "sha": "4f0521192d6eda5359db090e32e63cf53e018d32"
+        },
+        {
+          "path": "references/event-listeners.md",
+          "sha": "5042479dd506fb6f1dd5162379c7912ea9221ddc"
+        },
+        {
+          "path": "references/examples.md",
+          "sha": "e5d1258fec0f53d7cb9e437d73cde72d37290456"
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-gradio"
@@ -8942,11 +8950,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/cudaq-guide",
-      "contentHash": "e2831a5f",
+      "contentHash": "f219c8b5",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "f7137737920bb6a19d26be29875243cb3f8c9dc0"
+          "sha": "60dad64167ff9a114055d76548d7eb9d24579b9e"
         },
         {
           "path": "SKILL.md",
@@ -8962,7 +8970,7 @@
         },
         {
           "path": "evals/evals.json",
-          "sha": "fdfaf3c1d97ac207ea275ac036b03e2e843d4eee"
+          "sha": "a7b02829752d93fe35a4c50ed3682e73e995a63e"
         },
         {
           "path": "references/authoring.md",
@@ -8970,15 +8978,15 @@
         },
         {
           "path": "references/onboarding.md",
-          "sha": "ea557fec83e2693b8cd52ad7be826408ed104f48"
+          "sha": "2f291c82009888cd3898b74b0b1a290eb31e060f"
         },
         {
           "path": "skill-card.md",
-          "sha": "d501cee7478fbded099079c5058745b03c9184ef"
+          "sha": "a2438b1ac97188bfc646bbaf62ff1db10110ac0b"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "18678947fbf6d78a09d6a1c5be49791ce892da91"
+          "sha": "bb330cccbc2e16138e578a8e2877e177a39886ed"
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cudaq-guide"
@@ -9273,116 +9281,6 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuml"
     },
     {
-      "id": "NVIDIA/skills@cuopt-developer",
-      "trust": "trusted",
-      "name": "cuopt-developer",
-      "description": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-developer",
-      "contentHash": "dcd16701",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "516d3c2a686f19da74fc9e875ce586415c80c8d9"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "ecc1187e2946e1c07b5b72edf4cab40f3ab934fe"
-        },
-        {
-          "path": "benchmark/evals.json",
-          "sha": "18af64d0ae2bbc545777bbc3c1ba7b0a796b9673"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "5d2f30d90dc871a582dcf22bb4a1b6f58dcd27ad"
-        },
-        {
-          "path": "references/build_and_test.md",
-          "sha": "d75637a0f572b5ea7ee2fae935e13cbb1e6ae53c"
-        },
-        {
-          "path": "references/contributing.md",
-          "sha": "34fb75aab1247cdd8ba2033ef8a0703eeded06f3"
-        },
-        {
-          "path": "references/conventions.md",
-          "sha": "3686c900d7aafbb0be68528fc2d551f543f21f91"
-        },
-        {
-          "path": "references/first_time_setup.md",
-          "sha": "727c7a7d6344ccf8b2dc3aa5e0d1b84f5237793a"
-        },
-        {
-          "path": "references/python_bindings.md",
-          "sha": "7315e1a09b13a282df8997ba0538bf1016813d8b"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "ae7fcb1831b326384ba76d51f1360424bf135cef"
-        },
-        {
-          "path": "references/vrp_skills.md",
-          "sha": "59f751c1ec42f2a889141f71cef4994ec75100c3"
-        },
-        {
-          "path": "resources/numerical_debugging.md",
-          "sha": "f7fdcd1fa5b1b0f3908769e648fafd2ce52e65bd"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "875d7a00feb0f58db0a7cdf0233b77730f64ba96"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "2159ec420187003cf8a6aeb2c2b5ad3a0f22ef29"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-developer"
-    },
-    {
-      "id": "NVIDIA/skills@cuopt-install",
-      "trust": "trusted",
-      "name": "cuopt-install",
-      "description": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-install",
-      "contentHash": "816d706f",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "e4ebeb227253d98dcd493fc3244e1acce6bdafd0"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "b412dbd2999d398d80741c3d81ba17e12fbcaa16"
-        },
-        {
-          "path": "benchmark/evals.json",
-          "sha": "9a1679bcb462d957e0496efdbb402825065e6d99"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "6d17fa295cf019e5d224425bac62dfd94c0f10a6"
-        },
-        {
-          "path": "references/verification_examples.md",
-          "sha": "5509729d57b839d70173c3fa3ddf102344f76e9f"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "92302b52995b622ee48f49cf9f37d394bb326bc6"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "89408053eb586621be0febb0a4cdecc8293b4ab9"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-install"
-    },
-    {
       "id": "NVIDIA/skills@cuopt-multi-objective-exploration",
       "trust": "trusted",
       "name": "cuopt-multi-objective-exploration",
@@ -9414,398 +9312,6 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-multi-objective-exploration"
-    },
-    {
-      "id": "NVIDIA/skills@cuopt-numerical-optimization-api",
-      "trust": "trusted",
-      "name": "cuopt-numerical-optimization-api",
-      "description": "LP, MILP, and QP (beta) with cuOpt — Python, C, and CLI. Use when the user is solving LP, MILP, or QP with any cuOpt interface.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-numerical-optimization-api",
-      "contentHash": "6db63bf5",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "92a6e6707147596a02e2fd57307978a3953d86ef"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "a7b809d5d73e53d831e1aab909d5b94f14ff526d"
-        },
-        {
-          "path": "assets/c/README.md",
-          "sha": "e354988da1a29be28b498ad520a314f266885f88"
-        },
-        {
-          "path": "assets/c/lp_basic/README.md",
-          "sha": "6235409740215351401aaa26d525e8249bca76bb"
-        },
-        {
-          "path": "assets/c/lp_basic/lp_simple.c",
-          "sha": "f816e5dcd4e4cf86f5e438204953d69a12a492b2"
-        },
-        {
-          "path": "assets/c/lp_duals/README.md",
-          "sha": "08bd87e84027d1fcd7f52a6839051025fcea203e"
-        },
-        {
-          "path": "assets/c/lp_duals/lp_duals.c",
-          "sha": "8fed2507141607bbd16492c76742b3be3bd94915"
-        },
-        {
-          "path": "assets/c/lp_warmstart/README.md",
-          "sha": "1e254b75ea4cc93fa09539507151ce771a7e8a2a"
-        },
-        {
-          "path": "assets/c/milp_basic/README.md",
-          "sha": "026b2ff5d17147fa767005d9975c9022bd393f39"
-        },
-        {
-          "path": "assets/c/milp_basic/milp_simple.c",
-          "sha": "b1ccbf1a3a421af1760d570270487f2841ad30e0"
-        },
-        {
-          "path": "assets/c/milp_production_planning/README.md",
-          "sha": "d669950d77c0375369135a0aae063c8377f8286c"
-        },
-        {
-          "path": "assets/c/milp_production_planning/milp_production.c",
-          "sha": "53ca9e3a9695b421e65e71410bb0a1227704c362"
-        },
-        {
-          "path": "assets/c/mps_solver/README.md",
-          "sha": "77044783b762125a1a64df70d309adf0f9759c90"
-        },
-        {
-          "path": "assets/c/mps_solver/data/sample.mps",
-          "sha": "6baeb6e52423664f7ca0178ccbc37a301c1ab2d0"
-        },
-        {
-          "path": "assets/c/mps_solver/mps_solver.c",
-          "sha": "8fda44d05d9b8297757472f7eff2e8e873f42efa"
-        },
-        {
-          "path": "assets/cli/README.md",
-          "sha": "8680eb9e38c23dcf536faca1913b3878a90746ea"
-        },
-        {
-          "path": "assets/cli/lp_production/README.md",
-          "sha": "de4ca53043fabe52b9d79f98de58147f7143b9b3"
-        },
-        {
-          "path": "assets/cli/lp_production/production.mps",
-          "sha": "40e3217b5219e93fccf5371b287bf71cd7af507e"
-        },
-        {
-          "path": "assets/cli/lp_simple/README.md",
-          "sha": "ed39464a77705f0879e75a6bb30dc149c37b1005"
-        },
-        {
-          "path": "assets/cli/lp_simple/sample.mps",
-          "sha": "6baeb6e52423664f7ca0178ccbc37a301c1ab2d0"
-        },
-        {
-          "path": "assets/cli/milp_facility/README.md",
-          "sha": "ac2a3239084cfeeedd649d233a9b39059fee033a"
-        },
-        {
-          "path": "assets/cli/milp_facility/facility.mps",
-          "sha": "07f6bf3b7f3c559262e2f2512a4b6a17324d090d"
-        },
-        {
-          "path": "assets/python/README.md",
-          "sha": "d546948d20f4524d959ab37377923c11f576e283"
-        },
-        {
-          "path": "assets/python/least_squares/README.md",
-          "sha": "5592ff2ac0c96b7b1b6c8693e388b7465388e6b0"
-        },
-        {
-          "path": "assets/python/least_squares/model.py",
-          "sha": "822d6397d28999255f1a4760aa2be1a4193285aa"
-        },
-        {
-          "path": "assets/python/lp_basic/README.md",
-          "sha": "4c06f2ded62a90084b08d808b3d684badbbfab70"
-        },
-        {
-          "path": "assets/python/lp_basic/model.py",
-          "sha": "d81c6a749d457293b377b76c0d0ed4c7dca1b7e2"
-        },
-        {
-          "path": "assets/python/lp_duals/README.md",
-          "sha": "f0eb9bcf8b748ff2d592420df9cdd4a498a2f152"
-        },
-        {
-          "path": "assets/python/lp_duals/model.py",
-          "sha": "4fa6a50a5b526f49ce6e96eea0eeeb6e58037778"
-        },
-        {
-          "path": "assets/python/lp_warmstart/README.md",
-          "sha": "000e7a42fac1f4e9b433d1be75a2a054886e20fa"
-        },
-        {
-          "path": "assets/python/lp_warmstart/model.py",
-          "sha": "e9168e05960b1d67ea633086bf98c90bb3d20fc8"
-        },
-        {
-          "path": "assets/python/maximization_workaround/README.md",
-          "sha": "bcd0f2c3c19b66fae97dc3bcabf526a66fa5b897"
-        },
-        {
-          "path": "assets/python/maximization_workaround/model.py",
-          "sha": "e18aa613d8ad2a26f2c2b2b0c8dd4481de7c2a71"
-        },
-        {
-          "path": "assets/python/milp_basic/README.md",
-          "sha": "45362da09bf0c0cf893413e4c23db3ae52d000ef"
-        },
-        {
-          "path": "assets/python/milp_basic/incumbent_callback.py",
-          "sha": "38f553f7e18c39eee7cc17a753ec17d0723e2a67"
-        },
-        {
-          "path": "assets/python/milp_basic/model.py",
-          "sha": "5c0bf88e15af64b5d17d683ea77064c1d9b3353f"
-        },
-        {
-          "path": "assets/python/milp_production_planning/README.md",
-          "sha": "42a2a1a9d593c5b62429d90f9d771185317ec58d"
-        },
-        {
-          "path": "assets/python/milp_production_planning/model.py",
-          "sha": "72ded8164dc45f12e27e1b5c7198a1ca4b31cb26"
-        },
-        {
-          "path": "assets/python/mps_solver/README.md",
-          "sha": "f18f4f549e0e0b80a6e80520ed3303c6cf32e2b9"
-        },
-        {
-          "path": "assets/python/mps_solver/data/README.md",
-          "sha": "57bfad701ad40153b3bc90002bb084e828f32d9e"
-        },
-        {
-          "path": "assets/python/mps_solver/data/sample.mps",
-          "sha": "6baeb6e52423664f7ca0178ccbc37a301c1ab2d0"
-        },
-        {
-          "path": "assets/python/mps_solver/model.py",
-          "sha": "7a84f0a44ecc7d869803097dff14b439723e47fd"
-        },
-        {
-          "path": "assets/python/mps_solver/results.md",
-          "sha": "4100dea6b231239cec4945713eff80c35f37f40c"
-        },
-        {
-          "path": "assets/python/portfolio/README.md",
-          "sha": "f49963cb5f7fd4e2ee4f24aed08fb134600bea3e"
-        },
-        {
-          "path": "assets/python/portfolio/model.py",
-          "sha": "0196efdcf8b180cf5dfc1dabaf464fe252f8db36"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "eda09606ae3676632a58f57640719ea1b036c699"
-        },
-        {
-          "path": "references/c_api.md",
-          "sha": "fa56535a48db47169676a15537af2cb14db18b3d"
-        },
-        {
-          "path": "references/cli_api.md",
-          "sha": "b7ab6643014be87b9846f4518e699a33951d7090"
-        },
-        {
-          "path": "references/python_api.md",
-          "sha": "ffb1bd84abb4f53039a8746e1abc16a7ee8f6361"
-        },
-        {
-          "path": "references/qp_examples.md",
-          "sha": "e493a1bf93a353ea62b73eaf3837daa655bb5e66"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "09e5659593e2e6b4514a87ca324d9909c81c00f6"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "15ab438aea0262a6a6f8b51ed99f2d8856d52305"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-numerical-optimization-api"
-    },
-    {
-      "id": "NVIDIA/skills@cuopt-numerical-optimization-formulation",
-      "trust": "trusted",
-      "name": "cuopt-numerical-optimization-formulation",
-      "description": "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-numerical-optimization-formulation",
-      "contentHash": "f5383bc2",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "415e18c2cd923023752336bff3230e6c045daefc"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "0c2939fd7dd83b806c0904c94fe0b743537abca2"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "95899fca47ada97b100be3c392ca89897f530df3"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "7984355bf25a4ccf81e17d987d30780f70a67a62"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "576453c302306207301ed4905dbe53568d38aa35"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-numerical-optimization-formulation"
-    },
-    {
-      "id": "NVIDIA/skills@cuopt-routing-api-python",
-      "trust": "trusted",
-      "name": "cuopt-routing-api-python",
-      "description": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-routing-api-python",
-      "contentHash": "a566990d",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "3d3370862e3562be36d929cb0f5106556bc5cf49"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "0fbf0e7bfb8064998b49ecf38a00f2437ef3ce4d"
-        },
-        {
-          "path": "assets/README.md",
-          "sha": "8c1e376ceb1cc057c86fcc58899c5f0c51bd4f2a"
-        },
-        {
-          "path": "assets/pdp_basic/README.md",
-          "sha": "11109dc4e93f1e204d9fa304ee0376d54284645e"
-        },
-        {
-          "path": "assets/pdp_basic/model.py",
-          "sha": "d85ec5329ba31514494ef94b5166ce7b40f8d273"
-        },
-        {
-          "path": "assets/vrp_basic/README.md",
-          "sha": "8a953d693f6d349f52e288ab6ae48538035013a6"
-        },
-        {
-          "path": "assets/vrp_basic/model.py",
-          "sha": "165f6afc1ed097cb1356bc1cd2c1571001c65c0e"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "fef47f5cb7dd6c38984191cc4ff884aab4ae62ce"
-        },
-        {
-          "path": "references/examples.md",
-          "sha": "ee402bb31447f4668976c2ae9573d3324d860344"
-        },
-        {
-          "path": "references/server_examples.md",
-          "sha": "06d03dbe776613ad0d8275328f512ab52ad51bb7"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "253d42e001abf111b8293ea39f2a1d8e3c53ac61"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "772f6fdca1130b4672fabd7ee53697be4abacb74"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-routing-api-python"
-    },
-    {
-      "id": "NVIDIA/skills@cuopt-server-api-python",
-      "trust": "trusted",
-      "name": "cuopt-server-api-python",
-      "description": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
-      "repo": "NVIDIA/skills",
-      "ref": "HEAD",
-      "path": "skills/cuopt-server-api-python",
-      "contentHash": "585847bd",
-      "files": [
-        {
-          "path": "BENCHMARK.md",
-          "sha": "0bd2c15c404fb9ea0151da091f0cb0fea63ea612"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "97df54537eabafb99f8246ff2980e2a3318b2041"
-        },
-        {
-          "path": "assets/README.md",
-          "sha": "0bc8fb2821b5ce3ebd3b680a54e996f7472fc074"
-        },
-        {
-          "path": "assets/lp_basic/README.md",
-          "sha": "ad313bf0b9733d9feaaa24270f5f813687793574"
-        },
-        {
-          "path": "assets/lp_basic/client.py",
-          "sha": "8d15502c23401eb71be2563d31cd13995459e600"
-        },
-        {
-          "path": "assets/milp_basic/README.md",
-          "sha": "8f528865c1703b294c724f4665e12fd4a59386f5"
-        },
-        {
-          "path": "assets/milp_basic/client.py",
-          "sha": "998cadd91300150ef433e0f2fe04bcbce541374e"
-        },
-        {
-          "path": "assets/pdp_basic/README.md",
-          "sha": "e5c8a5aabb1843c3b044848e569e74f2486b47b8"
-        },
-        {
-          "path": "assets/pdp_basic/client.py",
-          "sha": "c3cb1fc0a93b2455f0211d31bfd8b158e2c159b0"
-        },
-        {
-          "path": "assets/vrp_basic/README.md",
-          "sha": "35c2d6859e9e1374159e1fbcda79bc064be86fcb"
-        },
-        {
-          "path": "assets/vrp_basic/client.py",
-          "sha": "dce9eb8ba9245c0a1e5eb20bb00c1172895e2855"
-        },
-        {
-          "path": "assets/vrp_simple/README.md",
-          "sha": "77af6d1869e0dbb5c6328447d48b6422ea489ceb"
-        },
-        {
-          "path": "assets/vrp_simple/client.py",
-          "sha": "029752de39ef5d443e59cb21f8e9d95c1da87762"
-        },
-        {
-          "path": "evals/evals.json",
-          "sha": "029822f24ec3a78a4f26ff022fa308004bde377d"
-        },
-        {
-          "path": "skill-card.md",
-          "sha": "fb5e18e99dd50762ca30210b498f5043b40ccc77"
-        },
-        {
-          "path": "skill.oms.sig",
-          "sha": "19c84d722f70671b3fe32d465c5b5fe2eebe9c21"
-        }
-      ],
-      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/cuopt-server-api-python"
     },
     {
       "id": "NVIDIA/skills@dali-dynamic-mode",
@@ -19458,6 +18964,104 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/medtech-model-evidence-export"
+    },
+    {
+      "id": "NVIDIA/skills@modelopt-day0-release",
+      "trust": "trusted",
+      "name": "modelopt-day0-release",
+      "description": "Deterministic end-to-end driver for day-0 quantized-checkpoint releases — chains PTQ → evaluation → comparison with enforced gates between stages (the evaluation stage deploys the checkpoint itself), and returns a publish decision (ACCEPT / REGRESSION / INDETERMINATE / ANOMALOUS / INFEASIBLE). Use when the user asks to \"release a model at day-0\", \"quantize and validate model X is within N% of baseline and tell me if it's publishable\", or \"run the full day-0 workflow\". Do NOT use for single-stage requests — quantizing only (use modelopt-ptq), serving only (use modelopt-deployment), evaluating only (use modelopt-evaluation), or comparing two existing runs (use modelopt-compare-results).",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/modelopt-day0-release",
+      "contentHash": "e36d403a",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "3fac41f23e23e048358ba5e086ea8aa55e8974b8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2ba77c7c5973599886470b491a3a3d320863696c"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "816942949dcad62a97b83eeb1bf130119feca9d8"
+        },
+        {
+          "path": "scripts/gate_compare.py",
+          "sha": "06e8f75d9731d8bfcded786d71c81a357ebc47ea"
+        },
+        {
+          "path": "scripts/gate_ptq.py",
+          "sha": "ab01df53b1d9919d7656d689515939c2246579ae"
+        },
+        {
+          "path": "scripts/gate_run.py",
+          "sha": "dbf0e54159ed6977e7ef6862cbb5e34aebb2d53f"
+        },
+        {
+          "path": "scripts/gate_verbosity.py",
+          "sha": "da6061cf68d36ffd0644ca2eebc432330ff43c49"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "3dd557301d972c45aab7faa52306330116c08974"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "7fcaffe4297452e62cdce5f8d034e245360fb6c7"
+        },
+        {
+          "path": "tests/test_agent_definitions.py",
+          "sha": "c29d790d82a5669464d75520f4f1f7494376da24"
+        },
+        {
+          "path": "tests/test_gates.py",
+          "sha": "ddb576dd38d34c72c053eb04f30b1df8c4d68f56"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/modelopt-day0-release"
+    },
+    {
+      "id": "NVIDIA/skills@modelopt-quant-recipe-search",
+      "trust": "trusted",
+      "name": "modelopt-quant-recipe-search",
+      "description": "Use when the user asks to find, search for, or optimize the best quantization recipe for a model, including direct requests like \"find the best quantization recipe and generate a PTQ checkpoint.\" Guides the multi-candidate loop: choose compute-vs-memory success metrics, select ModelOpt recipe baselines, design AutoQuant/manual recipe deltas, interpret sensitivity, and decide next candidates. Do NOT use for a single known PTQ recipe run (use modelopt-ptq), serving (use modelopt-deployment), creating/running evals (use modelopt-evaluation or modelopt-launching-evals), monitoring jobs (use modelopt-monitor), MLflow browsing (use modelopt-accessing-mlflow), or comparing completed baseline-vs-candidate scores only (use modelopt-compare-results).",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/modelopt-quant-recipe-search",
+      "contentHash": "b731b8f5",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4e8c00ead4877ee217862a699189cf5556aa4fb5"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "2f5a5f4cf6f67460a1a0c341cb09db87e076c7ea"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "1594900179160278582f9a01c70c4e6b2842a6be"
+        },
+        {
+          "path": "references/qwen36_case_study.md",
+          "sha": "1fc740968c18bad3ada7ea0b7b3a9efacf94ecf7"
+        },
+        {
+          "path": "references/recipe_iteration.md",
+          "sha": "a1cdbcf71f32ad7e8538c29bd4d221d2654ded3b"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "f3e9a04eaa4dc15a3a10adc157aaabb5f5a74ee9"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "bc445de31b316d260cca21e98f7aeb0c543b0216"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/modelopt-quant-recipe-search"
     },
     {
       "id": "NVIDIA/skills@nemo-automodel-distributed-training",
@@ -37280,6 +36884,123 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/triton-pytorch-model-repository"
     },
     {
+      "id": "NVIDIA/skills@trtllm-serve-config-guide",
+      "trust": "trusted",
+      "name": "trtllm-serve-config-guide",
+      "description": "Generate a source-backed starting `trtllm-serve --config` YAML for basic aggregate single-node PyTorch serving, aligned with checked-in TensorRT-LLM configs and deployment docs. Preserves explicit latency / balanced / throughput objectives. Excludes disaggregated, multi-node, and non-MTP speculative configs.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/trtllm-serve-config-guide",
+      "contentHash": "709c03c4",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "41d1c5e5fea1d592ff4d57a425bfea79c5e99bc6"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "4fbcde0c3d90e4b724cf01e4d85b8356c35b9e17"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "04e9cccd078c6ab8a9c6b0478caa0ace12cf94ff"
+        },
+        {
+          "path": "evals/files/qwen3-32b-hf/config.json",
+          "sha": "12ea4a36c6ac093af8d8dbc3bd435ae8b67067d6"
+        },
+        {
+          "path": "evals/files/trtllm-mini/README.txt",
+          "sha": "288855d5cc862d9b6bbe3f262f834faedee70912"
+        },
+        {
+          "path": "evals/files/trtllm-mini/docs/source/deployment-guide/deployment-guide-for-deepseek-r1-on-trtllm.md",
+          "sha": "571cfed36c481299b8fe2caeebee1f9419246d28"
+        },
+        {
+          "path": "evals/files/trtllm-mini/docs/source/deployment-guide/deployment-guide-for-llama3.3-70b-on-trtllm.md",
+          "sha": "e61c1d05bd9b02201e624d3c1484db01c6bb1a86"
+        },
+        {
+          "path": "evals/files/trtllm-mini/docs/source/legacy/performance/perf-best-practices.md",
+          "sha": "5fd1c1a9b9eb48087dda0f1a613d68209d8d916a"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/gpt-oss-120b-latency.yaml",
+          "sha": "6e22e4e1339dc5312e30f978fb928c29da0c75e3"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/gpt-oss-120b-throughput.yaml",
+          "sha": "7d457d0d4f6c2d9d18099e1d793b1f22b084858d"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/llama-3.3-70b.yaml",
+          "sha": "a921cfb0dcfba9aafab68b7edac971ca3a9ca7b5"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/lookup.yaml",
+          "sha": "b99a8940df4d8012569c6542437f419f53a4053f"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/qwen3-disagg-prefill.yaml",
+          "sha": "3e0228c42d6d79b73fbd44ce2777ffba0205fdd7"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/curated/qwen3.yaml",
+          "sha": "74b8076dff080181bb1b2d58b135eb43fe6447a1"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/deepseek-ai/DeepSeek-R1-0528/B200/1k1k_tp8_conc128.yaml",
+          "sha": "3db82c4881dfd30b13eece32b7f6d6c3e91274c2"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/deepseek-ai/DeepSeek-R1-0528/B200/1k1k_tp8_conc256.yaml",
+          "sha": "346562c8b490a7430e6da796962c582f1d6b6c48"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/deepseek-ai/DeepSeek-R1-0528/B200/1k1k_tp8_conc512.yaml",
+          "sha": "85b625b5253c83e0b141c403b70325bcaa329308"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/deepseek-ai/DeepSeek-R1-0528/B200/1k1k_tp8_conc64.yaml",
+          "sha": "dba5a3430cd8702b8b8bfd583c5679c9ce32c63f"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/lookup.yaml",
+          "sha": "64184f598ab297417b671b0add059ca08c52fbff"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/openai/gpt-oss-120b/H200/1k1k_tp8_conc512.yaml",
+          "sha": "b58369a3691928574d51b921324f559c60f70ba3"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/openai/gpt-oss-120b/H200/1k1k_tp8_conc64_latency.yaml",
+          "sha": "d92bb5f58c8764a5d7262307e810c821942f57ad"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/openai/gpt-oss-120b/H200/1k1k_tp8_conc64_throughput.yaml",
+          "sha": "944513498bccc505480b43aa68877fc41381e864"
+        },
+        {
+          "path": "evals/files/trtllm-mini/examples/configs/database/openai/gpt-oss-120b/H200/1k1k_tp8_conc8.yaml",
+          "sha": "523a9714df67e3da1c7dcf6b7b26a6c947900d5d"
+        },
+        {
+          "path": "references/knob-heuristics.md",
+          "sha": "08017eaead619419962f587201ca59865c45cfac"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "86ef1547a7ed9277e732cd00cb1c25c354ec0150"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "ed1f1262f2f7cbffc1f07adb37cee257f95fb28c"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/trtllm-serve-config-guide"
+    },
+    {
       "id": "NVIDIA/skills@vss-ask-video",
       "trust": "trusted",
       "name": "vss-ask-video",
@@ -38618,7 +38339,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "autoplan",
-      "contentHash": "33dce4eb",
+      "contentHash": "8a0ba1e1",
       "files": [
         {
           "path": "DRIVER.md",
@@ -38630,11 +38351,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "b20173b01ba41d1b514c8ab56a5e7a694a0ef82b"
+          "sha": "be18e58eb568c6f936770762156fd96259cad48a"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "0491359aed0cdf10d3ad0d77efc1f4c4bc8e1ad9"
+          "sha": "5379bd499a6dbc417c557b7b8be0deae5483dc6b"
         },
         {
           "path": "bin/guard-journal.ts",
@@ -40511,7 +40232,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "cso",
-      "contentHash": "5fea6348",
+      "contentHash": "71b89318",
       "files": [
         {
           "path": "ACKNOWLEDGEMENTS.md",
@@ -40519,11 +40240,11 @@
         },
         {
           "path": "SKILL.md",
-          "sha": "7852aecf346ccdd0fe7a8aebb9711706c5607c0d"
+          "sha": "8b7af95f4e12a9e5c544d829fddafc4591f22108"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f7bd58b2bf412a7b236f6e5d252eba0eb0bfd1e1"
+          "sha": "f784cfa28bfb27bd41e8e313dc663793c5d4d68a"
         },
         {
           "path": "sections/audit-phases.md",
@@ -42654,7 +42375,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "ship",
-      "contentHash": "9f1e2af0",
+      "contentHash": "ca609742",
       "files": [
         {
           "path": "DRIVER.md",
@@ -42778,11 +42499,11 @@
         },
         {
           "path": "sections/review-army.md",
-          "sha": "b5adee837ee567f21339cdeb4a7cee393867dd2c"
+          "sha": "9c440837cfdc931037439219a51606302f934e7d"
         },
         {
           "path": "sections/review-army.md.tmpl",
-          "sha": "f40b2e4ae7ec3420670588bd7df1aa77acf3c1c6"
+          "sha": "9202611dcf25bb4270e2a66563a4dc895621b090"
         },
         {
           "path": "sections/shared-code-reuse.md",
