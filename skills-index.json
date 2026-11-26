@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795681625214,
+  "generatedAt": 1795729093060,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -6244,43 +6244,6 @@
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-best"
     },
     {
-      "id": "huggingface/skills@huggingface-community-evals",
-      "trust": "trusted",
-      "name": "huggingface-community-evals",
-      "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
-      "repo": "huggingface/skills",
-      "ref": "HEAD",
-      "path": "skills/huggingface-community-evals",
-      "contentHash": "26f58816",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "a68b2e79958930b3913cb8e7667e07000031e40b"
-        },
-        {
-          "path": "examples/.env.example",
-          "sha": "26d9b9b4b284d58add70f2ed2d581a1ab503fa67"
-        },
-        {
-          "path": "examples/USAGE_EXAMPLES.md",
-          "sha": "64c243344a170b86262f88d3db0c0532426f3bfb"
-        },
-        {
-          "path": "scripts/inspect_eval_uv.py",
-          "sha": "d398bc60b0bf4dcb5571ae144ce5fef5226d2467"
-        },
-        {
-          "path": "scripts/inspect_vllm_uv.py",
-          "sha": "f1454c5a6e2cd2934a60eeab8d5826f6075e102a"
-        },
-        {
-          "path": "scripts/lighteval_vllm_uv.py",
-          "sha": "91ba83b33f68d8b0705c6f9abe089ecf97cbb9d5"
-        }
-      ],
-      "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-community-evals"
-    },
-    {
       "id": "huggingface/skills@huggingface-datasets",
       "trust": "trusted",
       "name": "huggingface-datasets",
@@ -6327,124 +6290,6 @@
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-gradio"
     },
     {
-      "id": "huggingface/skills@huggingface-llm-trainer",
-      "trust": "trusted",
-      "name": "huggingface-llm-trainer",
-      "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
-      "repo": "huggingface/skills",
-      "ref": "HEAD",
-      "path": "skills/huggingface-llm-trainer",
-      "contentHash": "4d2b5044",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "74ad29af05eee633fb4c04376118f751c24cdd5e"
-        },
-        {
-          "path": "references/gguf_conversion.md",
-          "sha": "a99ea0e888a24895ab2017bc8fdab3d809f66f88"
-        },
-        {
-          "path": "references/hardware_guide.md",
-          "sha": "22eba945ad61b93725d547a94bd130c422f98b27"
-        },
-        {
-          "path": "references/hub_saving.md",
-          "sha": "734e49b51de8b0224a3e2ee91084432a2fdb5a76"
-        },
-        {
-          "path": "references/local_training_macos.md",
-          "sha": "fdf5dede51aaf47c3bd31cc9b45fd36e3a8faa24"
-        },
-        {
-          "path": "references/reliability_principles.md",
-          "sha": "bf2f745878edd6a4a7b51b68e806b43ac6e6d856"
-        },
-        {
-          "path": "references/trackio_guide.md",
-          "sha": "dc569c7d2f109cd9be5d11353f85ad53b757e9d4"
-        },
-        {
-          "path": "references/training_methods.md",
-          "sha": "2393d7731cb2c9d1b4c3029f5fbc635d3beba49f"
-        },
-        {
-          "path": "references/training_patterns.md",
-          "sha": "2101e12a766ea675ee0577b2c4d46f6b5277f7a7"
-        },
-        {
-          "path": "references/troubleshooting.md",
-          "sha": "430816ce5340022f7f7422ba5ca4fbc39a8baf8c"
-        },
-        {
-          "path": "references/unsloth.md",
-          "sha": "83e1e116e54106709eafc3ff4273419a5512c8a6"
-        },
-        {
-          "path": "scripts/convert_to_gguf.py",
-          "sha": "db42069a8366a4b460b2615e56eca6600f01aafc"
-        },
-        {
-          "path": "scripts/dataset_inspector.py",
-          "sha": "e29aed3e239f8d6f6fa9038724b77078e93f5ad6"
-        },
-        {
-          "path": "scripts/estimate_cost.py",
-          "sha": "fff8e4eb38ca93356867f11aead4259dbf895cfe"
-        },
-        {
-          "path": "scripts/hf_benchmarks.py",
-          "sha": "60e840c1e1d2709e48aeaae268a5377d2b32a0bc"
-        },
-        {
-          "path": "scripts/train_dpo_example.py",
-          "sha": "84c66f996b06d92a66a34f035de3984cf5d8cb98"
-        },
-        {
-          "path": "scripts/train_grpo_example.py",
-          "sha": "db6bcbd839a7009aec169b290fc6583cf37162cb"
-        },
-        {
-          "path": "scripts/train_sft_example.py",
-          "sha": "e20233be552794829a2a8d37aef071b6d2500cbd"
-        },
-        {
-          "path": "scripts/unsloth_sft_example.py",
-          "sha": "7ee9fc2ba5a59274c53fae5414882eec8f608840"
-        }
-      ],
-      "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-llm-trainer"
-    },
-    {
-      "id": "huggingface/skills@huggingface-local-models",
-      "trust": "trusted",
-      "name": "huggingface-local-models",
-      "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
-      "repo": "huggingface/skills",
-      "ref": "HEAD",
-      "path": "skills/huggingface-local-models",
-      "contentHash": "c010d338",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "ece849559de75eaa8e9709a51e0e957e6ae630d3"
-        },
-        {
-          "path": "references/hardware.md",
-          "sha": "33c15b41a23df195d4a5cb4ebe25c479fb8a6210"
-        },
-        {
-          "path": "references/hub-discovery.md",
-          "sha": "4f286ef4a14e078b98dda09561b720fd02c5bbd2"
-        },
-        {
-          "path": "references/quantization.md",
-          "sha": "2099976e25b87074b0d879a9dec82e2bd19f6002"
-        }
-      ],
-      "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-local-models"
-    },
-    {
       "id": "huggingface/skills@huggingface-lora-space-builder",
       "trust": "trusted",
       "name": "huggingface-lora-space-builder",
@@ -6488,51 +6333,6 @@
         }
       ],
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-lora-space-builder"
-    },
-    {
-      "id": "huggingface/skills@huggingface-paper-publisher",
-      "trust": "trusted",
-      "name": "huggingface-paper-publisher",
-      "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
-      "repo": "huggingface/skills",
-      "ref": "HEAD",
-      "path": "skills/huggingface-paper-publisher",
-      "contentHash": "064b60c1",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "01b7db0cb9e30912eda8aa2b73a744c17ab1e176"
-        },
-        {
-          "path": "examples/example_usage.md",
-          "sha": "8f855bde7a415b54128b1852ad29a4e7fa49539b"
-        },
-        {
-          "path": "references/quick_reference.md",
-          "sha": "8bf8a417572a3b64b67abbc5308c424fd4a6378f"
-        },
-        {
-          "path": "scripts/paper_manager.py",
-          "sha": "1fcf0922e6a894ea46b14fa06635279c9d7bb484"
-        },
-        {
-          "path": "templates/arxiv.md",
-          "sha": "c003030399cc9cb8ba1a09e71266acb4de292ee6"
-        },
-        {
-          "path": "templates/ml-report.md",
-          "sha": "f39a5fe1851f09ff7645aabdd3f82c400f89d2d2"
-        },
-        {
-          "path": "templates/modern.md",
-          "sha": "bf84e55455d4393e78593cf02c07240116fb8c9e"
-        },
-        {
-          "path": "templates/standard.md",
-          "sha": "d35ff043b1977cf2ef7d49d02bcde64b524e6e93"
-        }
-      ],
-      "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-paper-publisher"
     },
     {
       "id": "huggingface/skills@huggingface-papers",
@@ -6625,51 +6425,6 @@
       "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-spaces"
     },
     {
-      "id": "huggingface/skills@huggingface-tool-builder",
-      "trust": "trusted",
-      "name": "huggingface-tool-builder",
-      "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
-      "repo": "huggingface/skills",
-      "ref": "HEAD",
-      "path": "skills/huggingface-tool-builder",
-      "contentHash": "fabe20a9",
-      "files": [
-        {
-          "path": "SKILL.md",
-          "sha": "0634af706451240f82faf0871a15b0faac5f39a2"
-        },
-        {
-          "path": "references/baseline_hf_api.py",
-          "sha": "fa5b9bdfbbab1dd411d24f9fb2189ebb1f396ef5"
-        },
-        {
-          "path": "references/baseline_hf_api.sh",
-          "sha": "2d4d5f289cb0d339ab26907b2d48ccdd470468f3"
-        },
-        {
-          "path": "references/baseline_hf_api.tsx",
-          "sha": "3f273718220dcd8949280ccc1332988b4538132b"
-        },
-        {
-          "path": "references/find_models_by_paper.sh",
-          "sha": "93e923a9e9be10f56d54868f837e163095e9d87f"
-        },
-        {
-          "path": "references/hf_enrich_models.sh",
-          "sha": "877088160b3acb3fb632e9b61ae8313b28e3526a"
-        },
-        {
-          "path": "references/hf_model_card_frontmatter.sh",
-          "sha": "ded41c12de4e0910acfca52d48ddc5fead66fecb"
-        },
-        {
-          "path": "references/hf_model_papers_auth.sh",
-          "sha": "fcd5b1f85d7c7d95c19386969018e320d1ed2cef"
-        }
-      ],
-      "webUrl": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-tool-builder"
-    },
-    {
       "id": "huggingface/skills@huggingface-trackio",
       "trust": "trusted",
       "name": "huggingface-trackio",
@@ -6706,11 +6461,11 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/huggingface-vision-trainer",
-      "contentHash": "b0a73fb5",
+      "contentHash": "ee3c9dcc",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "5a2c554b04218a9c411c184fd749ffb6eb0daabe"
+          "sha": "7c1e16fcbde64948effbba85259e3472e3c5a106"
         },
         {
           "path": "references/finetune_sam2_trainer.md",
@@ -6800,7 +6555,7 @@
       "repo": "huggingface/skills",
       "ref": "HEAD",
       "path": "skills/train-sentence-transformers",
-      "contentHash": "9284dbcf",
+      "contentHash": "1f9330d4",
       "files": [
         {
           "path": "SKILL.md",
@@ -6820,7 +6575,7 @@
         },
         {
           "path": "references/evaluators_multi_vector_encoder.md",
-          "sha": "22567655573fc1cce39864106d1eeab34bb70c3a"
+          "sha": "5d1deb8dafb3a5ef5e8863cae2f98c1b645db365"
         },
         {
           "path": "references/evaluators_sentence_transformer.md",
@@ -6836,7 +6591,7 @@
         },
         {
           "path": "references/hf_jobs_execution.md",
-          "sha": "a8ed3095fb39431eb739f4d265c692d34359f5eb"
+          "sha": "46c4662b4f86ca980a66e00fad0f3f8554877888"
         },
         {
           "path": "references/losses_cross_encoder.md",
@@ -6844,7 +6599,7 @@
         },
         {
           "path": "references/losses_multi_vector_encoder.md",
-          "sha": "c207163dfd0d3be55703c40484ce992045c3a2fe"
+          "sha": "2d1ca2f10c69c9e96ded9d0c7e0b2226febc6d6d"
         },
         {
           "path": "references/losses_sentence_transformer.md",
@@ -6864,7 +6619,7 @@
         },
         {
           "path": "references/training_args.md",
-          "sha": "21696046557edf5e3d162280fad9810796d2989d"
+          "sha": "cbcb95556dde319d5583638b8f0a49e90e03f37c"
         },
         {
           "path": "references/troubleshooting.md",
@@ -20101,15 +19856,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/dicom-series-preflight",
-      "contentHash": "0435ea33",
+      "contentHash": "12c1836b",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "18075dab593d33b467a0be4a2d024dfde2b94e5e"
+          "sha": "593e0e73870a3e3dd2d0e2b3d627a89a5f937f6f"
         },
         {
           "path": "SKILL.md",
-          "sha": "731ca98e1107b04165661f5d2ce562f2629f0343"
+          "sha": "cf9360b8f40d61b2aa4b9150a850f63d62a8eb61"
         },
         {
           "path": "evals/config.yml",
@@ -20133,11 +19888,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "d17ea8e2bfa8e8b151eca035643bdc589a608883"
+          "sha": "152585c0121de72e96e83145e4083e96764d197c"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "d539f1b02771d617f1af890dda26ae0532aea65a"
+          "sha": "e99ec006c70943550bccfd8d8124148f2077dfba"
         },
         {
           "path": "skill_manifest.yaml",
@@ -32460,15 +32215,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-generate-ct-rflow",
-      "contentHash": "821533ce",
+      "contentHash": "80e00aba",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "17ff26848480feb6445b193d47106f4fe08183b8"
+          "sha": "5a0984b407a091e502348fe95020220bbe52d8dc"
         },
         {
           "path": "SKILL.md",
-          "sha": "66af93e1a7e9bfc5b8b4e24402b293e99f43e42a"
+          "sha": "73f0d7420d8548da6973f12d4a0a0f646698f059"
         },
         {
           "path": "evals/evals.json",
@@ -32568,11 +32323,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "2547dad6e17347bd12adddc657ac945876e9eeba"
+          "sha": "8f6bd714e9830e5b191bad2798ed98e3631f98d1"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "2ea30563a3a0f4f9675c6d84ac0dd5bff2f51299"
+          "sha": "b6cab593c27690cd9d1b495171b26775cfe1b7ae"
         },
         {
           "path": "skill_manifest.yaml",
@@ -33004,6 +32759,63 @@
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-reason-cxr"
     },
     {
+      "id": "NVIDIA/skills@nv-reason-pathwsi",
+      "trust": "trusted",
+      "name": "nv-reason-pathwsi",
+      "description": "Run NV-Reason-PathWSI inference on user-provided PNG/JPEG pathology patches or tiles for engineering and research workflows. Not for diagnosis, treatment, clinical reporting, or whole-slide files.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nv-reason-pathwsi",
+      "contentHash": "898a4103",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "d3b02ab46fd57a8369464d45b1504919828407fb"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "4ecf69753eab71ffb365f6d985509f4a0d3de233"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "3164e21d378023bc6e9f884fa26ed3fe0eacec4d"
+        },
+        {
+          "path": "evals/files/synthetic_pathology_input.json",
+          "sha": "6f3f13c5c27ba5f4570c4b8a7778282aab9d956b"
+        },
+        {
+          "path": "fixtures/synthetic_pathology_input.json",
+          "sha": "6f3f13c5c27ba5f4570c4b8a7778282aab9d956b"
+        },
+        {
+          "path": "scripts/run_nv_reason_pathwsi.py",
+          "sha": "a18461c4f0e93f12ef9aec18800a46a5127f3f98"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "29b1d20bfe405b77c10411cf18803a9ffe7142a5"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "90c72e4bb32f6ef3de406b299d1505ae42420f32"
+        },
+        {
+          "path": "skill_manifest.yaml",
+          "sha": "daff2153a683ee34a31db516b6fa1dff015de27b"
+        },
+        {
+          "path": "tests/test_nv_reason_pathwsi.py",
+          "sha": "462e66625f5df4dec98a2c8cc9fbbe9fdafb50bd"
+        },
+        {
+          "path": "validators/output_schema.json",
+          "sha": "f98562afaa496fe7e813972efe1ae70e349f5244"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nv-reason-pathwsi"
+    },
+    {
       "id": "NVIDIA/skills@nv-segment-ct-finetune",
       "trust": "trusted",
       "name": "nv-segment-ct-finetune",
@@ -33068,15 +32880,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ct",
-      "contentHash": "25a729ee",
+      "contentHash": "6248792f",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "a0bbcfd0a94cf3a8227d6b10daa17530d985bbb0"
+          "sha": "48df921828e00c484ba56d047a4ece879eef9728"
         },
         {
           "path": "SKILL.md",
-          "sha": "6c8cce345a8f973ebb3212be9c7c2e5c5243f300"
+          "sha": "57d2cc689fcfac2459de4800f2764c70a007ea98"
         },
         {
           "path": "evals/evals.json",
@@ -33096,11 +32908,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "63ec74a005272a880ab1083ea11e03998385f4fe"
+          "sha": "37d1dde2446a53dd9ea65bad1adbbac8aa5ec396"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "4546f6ce87551708add87aa111f654a8b5f18441"
+          "sha": "2b81ec0d7cd39e344c55178cdda86c73ccedcc0c"
         },
         {
           "path": "skill_manifest.yaml",
@@ -33129,15 +32941,15 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "skills/nv-segment-ctmr",
-      "contentHash": "36748eff",
+      "contentHash": "4a6c4c84",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "cd13cc52c6d9219016b07ba1ff73f972c19ef557"
+          "sha": "41959f48fef534725b500702017783369409ae3e"
         },
         {
           "path": "SKILL.md",
-          "sha": "892b570cc0d87646457971c9932054b34c613bb6"
+          "sha": "9c0386b35208aad912a5c0a737346eb2a7220b71"
         },
         {
           "path": "evals/evals.json",
@@ -33153,11 +32965,11 @@
         },
         {
           "path": "skill-card.md",
-          "sha": "e6e85853b2f263571f8bf0957eef21dc5c724088"
+          "sha": "e4caaace30d84d9e0835ad94f109cdbe6791da40"
         },
         {
           "path": "skill.oms.sig",
-          "sha": "93c97949286646d403f6303d411754588d4430bf"
+          "sha": "539a67f84cfae2bc0f63482f4acaea89a8b4a159"
         },
         {
           "path": "skill_manifest.yaml",
@@ -33378,6 +33190,137 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvalchemi-toolkit"
+    },
+    {
+      "id": "NVIDIA/skills@nvat-corim-attestation",
+      "trust": "trusted",
+      "name": "nvat-corim-attestation",
+      "description": "Use when collecting CMW evidence or performing GPU attestation with the NVIDIA Attestation SDK CoRIM verifier, selecting an appraisal policy, or interpreting EAR results from nvattest.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvat-corim-attestation",
+      "contentHash": "47ce554c",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ce4c4ef18acc3eb2c24e986a8a76f10dea1427c1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "26d1265a0f0baeeb6c420a77cb6006b4d9c581cc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4c661289bb88d641ae688124227e1bfa4cdeaff5"
+        },
+        {
+          "path": "references/corim-workflow.md",
+          "sha": "9567ba139f6725a3c18e83c7af03365621847c0a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "9dabe019a279ca8a965ac2eb92faaf5e6ad206a3"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "dc41b79d265a8236c08ca8c6b7328c22f58b078f"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvat-corim-attestation"
+    },
+    {
+      "id": "NVIDIA/skills@nvat-install-and-guide",
+      "trust": "trusted",
+      "name": "nvat-install-and-guide",
+      "description": "Use when installing or upgrading the NVIDIA Attestation SDK (NVAT or nvattest), checking platform compatibility, or answering questions about its CLI, C API, or Rust bindings from official documentation.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvat-install-and-guide",
+      "contentHash": "23ecff53",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "f9d8e4d11e59496aae11908b4e6078cf81a79906"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "92e53bb39794eec7fb918a6e9288820156d957df"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "33d34f1130bd8e0d5e7c1ae90b4e201a6324e1d4"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "e96f5e741c8e7abf586e30e9991f4fc7a15b87e9"
+        },
+        {
+          "path": "references/install-and-docs.md",
+          "sha": "dd5d006a607745eef689ab053a6180aef24886d5"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "846a5eedf36a61ae1b3fdf4471768cf57a5090b8"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "e3ec1e5cd792f25f686e697864bbec2d60373f10"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvat-install-and-guide"
+    },
+    {
+      "id": "NVIDIA/skills@nvat-troubleshooting",
+      "trust": "trusted",
+      "name": "nvat-troubleshooting",
+      "description": "Use when NVAT installation, linking, evidence collection, CoRIM appraisal, EAR verification, or relying-party policy fails, or when investigating runtime versus reference measurements, measurement indices, and OID meanings.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nvat-troubleshooting",
+      "contentHash": "0427c5a6",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "9a81d3c75464a05fcec11586f884efa75dff2929"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "3aa6e971b1e3f2d608bf5b7e503c1ea5a43a5954"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "0d500f65dae4fd8427801828e25789687ed8bf16"
+        },
+        {
+          "path": "evals/fixtures/digest-mismatch.json",
+          "sha": "ac8ce5bcfabd0e353d7fc9f6a17b776578827d72"
+        },
+        {
+          "path": "evals/fixtures/tcg-mismatch.json",
+          "sha": "4ce817ba2271921517e2b9c64860ac4dca0006f8"
+        },
+        {
+          "path": "references/bug-reports.md",
+          "sha": "d3b7039bfaf4050deef12ade8b9da777c1a99855"
+        },
+        {
+          "path": "references/diagnostics.md",
+          "sha": "e299d2614d39422a9ff3547e3a3ecaa2bb411b8e"
+        },
+        {
+          "path": "references/measurements.md",
+          "sha": "731cea8e842c8793eb9a305f810a6162d171abee"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "c29c6c9faaf920d68c96533216ef13f11890696a"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "be9ffbaabb844df97b5ce87cd91feb4a1eb76efb"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nvat-troubleshooting"
     },
     {
       "id": "NVIDIA/skills@nvflare-autofl-report",
@@ -51022,7 +50965,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "codex",
-      "contentHash": "b00681c2",
+      "contentHash": "c3871f90",
       "files": [
         {
           "path": "SKILL.md",
@@ -51034,19 +50977,19 @@
         },
         {
           "path": "sections/challenge-mode.md",
-          "sha": "4aa34b6b2e2d01e77a189d79624fcd17abe6c336"
+          "sha": "e0256727a6e193a3228ceab5db391a64790e2314"
         },
         {
           "path": "sections/challenge-mode.md.tmpl",
-          "sha": "7f5ac30aec9b07850b8d031e0e630601695d2fe2"
+          "sha": "039cb98416cf34e29015c0b10353e18af1bbff2e"
         },
         {
           "path": "sections/consult-mode.md",
-          "sha": "2b616a41edec69cd8f44782ac78a808a56939c71"
+          "sha": "8367232c9e69f9911d3f6b7cf7cc4d7fb0ccb251"
         },
         {
           "path": "sections/consult-mode.md.tmpl",
-          "sha": "d51562fdbc4f72fe300c04bed8474359b811e329"
+          "sha": "dff18854ecab5fe3238a9795cfcc7a281a38cb99"
         },
         {
           "path": "sections/manifest.json",
@@ -52120,7 +52063,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "make-pdf",
-      "contentHash": "a9900d61",
+      "contentHash": "14aa470c",
       "files": [
         {
           "path": "SKILL.md",
@@ -52164,7 +52107,7 @@
         },
         {
           "path": "src/image-size.ts",
-          "sha": "e4690c1b8c75248d66745569175bab2b42d882b9"
+          "sha": "15219c8e73669d5e975ed3befb6e9843fc5ae199"
         },
         {
           "path": "src/orchestrator.ts",
@@ -52180,7 +52123,7 @@
         },
         {
           "path": "src/render.ts",
-          "sha": "5564d8e3f81d86b60ce073f0651d4b875793d92a"
+          "sha": "a71e7bd3f1c647a69d1078686ae56ea0065136dd"
         },
         {
           "path": "src/setup.ts",
@@ -52188,7 +52131,7 @@
         },
         {
           "path": "src/smartypants.ts",
-          "sha": "62a537b6aa6c36dd977b6c92fe4ab18c88cbfab6"
+          "sha": "b679e3a09d7253f6f671cf48b6e44051b24c130a"
         },
         {
           "path": "src/style-swiss.ts",
@@ -52332,7 +52275,7 @@
         },
         {
           "path": "test/image-policy.test.ts",
-          "sha": "869a6a0af6440f67e4baecb6ef1d3e08484c9677"
+          "sha": "f9996a8c43f33ae442d454595267a0b368f9deae"
         },
         {
           "path": "test/pdftotext.test.ts",
@@ -52344,7 +52287,7 @@
         },
         {
           "path": "test/render.test.ts",
-          "sha": "c4795558ecb7a469974add2dedc45158d66f88ac"
+          "sha": "445cf1bfdf7b48b8058a90b5899d268b6ddb255f"
         },
         {
           "path": "test/setup-smoke.test.ts",
@@ -52580,7 +52523,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-ceo-review",
-      "contentHash": "86f65c42",
+      "contentHash": "b9d8580b",
       "files": [
         {
           "path": "SKILL.md",
@@ -52616,7 +52559,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "6f9c07406df9f5480cbe332fdc0ea7ae9d82d119"
+          "sha": "3155f46342cd26a4905dfa1a7e751756e0298829"
         },
         {
           "path": "sections/review-sections.md.tmpl",
@@ -52727,7 +52670,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "plan-eng-review",
-      "contentHash": "c7e34daf",
+      "contentHash": "ca185eb1",
       "files": [
         {
           "path": "SKILL.md",
@@ -52755,7 +52698,7 @@
         },
         {
           "path": "sections/review-sections.md",
-          "sha": "f42d59a71130ca103c0f6e0a5b126a5b2781bc79"
+          "sha": "cee0f4f8cda9b384fb7da8de21ffad4a06d121f4"
         },
         {
           "path": "sections/review-sections.md.tmpl",
