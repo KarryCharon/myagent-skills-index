@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795643199684,
+  "generatedAt": 1795681625214,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -9413,11 +9413,11 @@
       "repo": "NVIDIA/skills",
       "ref": "HEAD",
       "path": "plugins/nvidia-nvflare/skills/nvflare-autofl-report",
-      "contentHash": "afeb706b",
+      "contentHash": "4d770d93",
       "files": [
         {
           "path": "BENCHMARK.md",
-          "sha": "cbadfdad87f0ace3fd8ff8f34b113813d9e7edf1"
+          "sha": "b08d2e334824437cd31f8fa703decb1bbfd00716"
         },
         {
           "path": "SKILL.md",
@@ -9441,7 +9441,7 @@
         },
         {
           "path": "skill.oms.sig",
-          "sha": "b01e7cf24108108326940c1382c0593bc5f5684c"
+          "sha": "52c5ea9678dfdcae396db8ac656987dbddd4232b"
         },
         {
           "path": "tests/helper_scripts.md",
@@ -18424,6 +18424,44 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/compute-sanitizer-diagnose-cuda-bugs"
+    },
+    {
+      "id": "NVIDIA/skills@convert-hf-to-te",
+      "trust": "trusted",
+      "name": "convert-hf-to-te",
+      "description": "Adapt a Hugging Face PyTorch model for training with compatible Transformer Engine modules. Replace a decoder layer, sublayer or individual operation and map its checkpoint weights. Choose fusions that preserve the requested workload's behavior.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/convert-hf-to-te",
+      "contentHash": "d4d3719a",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "4cd9ff9e03c4896174b121a3439e59df40b6f3f3"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "ec022f7569ac4563643893d47ff79afb12f070ae"
+        },
+        {
+          "path": "evals/EVAL.md",
+          "sha": "3ebf795f3af0cedec0b8bc3d1e7c5b852d9182de"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "5b2e993de3d9141bf3d8a7a2d04cc9332f70876d"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "16a92c3014e7796fa57a11e05814edef8ab099e6"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "c9bb557fe37a00b04294b1887d955abb8c5c40bb"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/convert-hf-to-te",
+      "version": "0.4.0"
     },
     {
       "id": "NVIDIA/skills@cuda-python",
@@ -31429,6 +31467,670 @@
         }
       ],
       "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/newton-usage"
+    },
+    {
+      "id": "NVIDIA/skills@nim-benchmark",
+      "trust": "trusted",
+      "name": "nim-benchmark",
+      "description": "Measures a running NIM endpoint, text or vision-language, for speed with AIPerf and for accuracy with NeMo Gym, against an optional baseline, behind an approved plan id. Use when asked to benchmark a NIM, measure its latency or throughput, or check its accuracy.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nim-benchmark",
+      "contentHash": "279f8767",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "0029c73c9c88c17b3d746f1c148791de368ea533"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "4ec93c1c62634b5d67d91979d18485f27ecfc0e7"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "ca4300366b702a0faab2952cd02b533aed187ffc"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "21b814c15f0a798abb7bfe129f31a9b23711b15a"
+        },
+        {
+          "path": "references/accuracy.md",
+          "sha": "bd0274a3256e8ff4a1921070860b4f61a676975f"
+        },
+        {
+          "path": "references/hook.md",
+          "sha": "678881c29175f4c57a834870da521c234bece381"
+        },
+        {
+          "path": "references/perf.md",
+          "sha": "4435d93daf09bc595c5d289c1a126abad59a7592"
+        },
+        {
+          "path": "scripts/bench_guard.py",
+          "sha": "ddf2ad92b45bc02f6ee4e481dac85740ad2e241c"
+        },
+        {
+          "path": "scripts/nb_accuracy.py",
+          "sha": "317854d0cc44f55b383bc9874456f691741551c3"
+        },
+        {
+          "path": "scripts/nb_common.py",
+          "sha": "fb41186384b5f5ee582075f28c46e91adddfd45e"
+        },
+        {
+          "path": "scripts/nb_compare.py",
+          "sha": "13dea3e47835db2521bdf0a8a536467523bb2c9d"
+        },
+        {
+          "path": "scripts/nb_perf.py",
+          "sha": "937af2d6b3f15fc9f16341fcb7af6b820697530a"
+        },
+        {
+          "path": "scripts/nb_stats.py",
+          "sha": "8f2f0fed34e223e4da94a869b4dd80097fbd0180"
+        },
+        {
+          "path": "scripts/nimbench.py",
+          "sha": "077b413bf672310aade08c8c2c5bbf60e7cd08fb"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "a85872d6b3ec1487a0653894d24f4671d17849c3"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "a015174eca6d65f0e42294a4504a8d8449bcc2e4"
+        },
+        {
+          "path": "tests/fixtures/aiperf_export_1_4.json",
+          "sha": "eaaae66bfdad35d16aea150ad182d241de609244"
+        },
+        {
+          "path": "tests/test_bench_guard.py",
+          "sha": "d82272e698eac12fa51d8046f51877dbe1f9331b"
+        },
+        {
+          "path": "tests/test_kubernetes_probes.py",
+          "sha": "e042df94096767d803e320496d5db77baaed4a9d"
+        },
+        {
+          "path": "tests/test_nb_accuracy.py",
+          "sha": "2603bf77d55fd700815d233dfb9e84bc6847d8a8"
+        },
+        {
+          "path": "tests/test_nb_common.py",
+          "sha": "ec81dfc117a9ffa4d875f527ee371c0145a7d445"
+        },
+        {
+          "path": "tests/test_nb_compare.py",
+          "sha": "7a6b02b27cda4a8bcd63e9b9bf4c279eba8086f4"
+        },
+        {
+          "path": "tests/test_nb_perf.py",
+          "sha": "c88ed279d926e95b0c1bfc3b9cafa2ba9c942d8d"
+        },
+        {
+          "path": "tests/test_nb_stats.py",
+          "sha": "41a68d493c9a915502894bc11739ba7d3bdc08d7"
+        },
+        {
+          "path": "tests/test_nimbench.py",
+          "sha": "0564c168436e06a8a4e4a9c759d7b9a8e297d8fe"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nim-benchmark",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nim-deploy",
+      "trust": "trusted",
+      "name": "nim-deploy",
+      "description": "Deploys and verifies NVIDIA NIM LLMs with Docker, Helm (nim-llm) or the NIM Operator. Use when someone asks to deploy, render, apply, check, troubleshoot, stop or clean up a NIM image on a GPU host or Kubernetes cluster, or asks to free GPUs on such a host by stopping, killing or removing what uses them.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nim-deploy",
+      "contentHash": "64c30b88",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "c09ec4a5a11f37c8b66eb47630ab6ad547304ac6"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "da4d6017e2e5691a0910422b6ac372c758b440cb"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "284d123afa860428eda50cdbd61194a1a53e7ec9"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "497231019e5bea00392f1e941a3f2e6dbf02a51a"
+        },
+        {
+          "path": "references/docker.md",
+          "sha": "300a553b2993d0eaf859f5121a009546a6eb00ec"
+        },
+        {
+          "path": "references/docs-sources.md",
+          "sha": "02637e2711893334edf1583133323511ddd1bd7a"
+        },
+        {
+          "path": "references/handoff.md",
+          "sha": "e2cb9f66780734eff196b9062de3056bfbb1c194"
+        },
+        {
+          "path": "references/hook.md",
+          "sha": "e09b82e31c9df0399f8d2bfa8e2a5062a77c0d07"
+        },
+        {
+          "path": "references/kubernetes.md",
+          "sha": "3ef644992b75d901b4810c245aadb2f3713a8ec5"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha": "92c5dabe7dc024e9230bd552e7a8177380fb6e8a"
+        },
+        {
+          "path": "references/tune-result.schema.json",
+          "sha": "3c899a52ff7823085914fe0305b9b8ced7c2bea7"
+        },
+        {
+          "path": "scripts/approvals.py",
+          "sha": "304dc88ae2858525d4c9cb32927744a5db65f76e"
+        },
+        {
+          "path": "scripts/guard-rules.json",
+          "sha": "a3b0c50bf0a403bb9ccf03b9aaf10faa06a1a953"
+        },
+        {
+          "path": "scripts/guard.py",
+          "sha": "2c2e2bc22bb168c7815180d9a908a17d8d956cef"
+        },
+        {
+          "path": "scripts/handoff.py",
+          "sha": "97aef65dbd5622320e0ab28760309e680fe5c467"
+        },
+        {
+          "path": "scripts/log-triage.json",
+          "sha": "72fda99a96c51ad3c1faf7da67369b5ad8e77f64"
+        },
+        {
+          "path": "scripts/nd_common.py",
+          "sha": "ce71543b2f58369ac06e208d21bf3a2cdef7fc70"
+        },
+        {
+          "path": "scripts/nd_render.py",
+          "sha": "2ec0f06eaadcbf3fac0f656bead53b62f3b7aaf9"
+        },
+        {
+          "path": "scripts/nd_state.py",
+          "sha": "fb50af7eae28ab6355e0940de27a3965f26bc096"
+        },
+        {
+          "path": "scripts/nextstep.py",
+          "sha": "a7db942833d39ec1f7ca64e1178aa1d63f69b6a3"
+        },
+        {
+          "path": "scripts/nimdeploy.py",
+          "sha": "f8f6552ffc2f3b3ff849faa8e9b05e2aacc92daa"
+        },
+        {
+          "path": "scripts/placement.py",
+          "sha": "2bf5eb29653a616ff9e8ef23492f4acfd9c77f35"
+        },
+        {
+          "path": "scripts/render_docker.py",
+          "sha": "dcf04da52c35bf067ea6d1d60d40baf7566f231c"
+        },
+        {
+          "path": "scripts/render_k8s.py",
+          "sha": "8cc5dbf48814026ec581caaf9ac3f95797f73486"
+        },
+        {
+          "path": "scripts/runners/__init__.py",
+          "sha": "c784c4cf8ca3749e01d4a447fd38081ed5057c18"
+        },
+        {
+          "path": "scripts/runners/docker.py",
+          "sha": "cbc60f33cbca86b009a2cc5fbdb285f133085b79"
+        },
+        {
+          "path": "scripts/runners/imageinfo.py",
+          "sha": "53ab61ebad77015dff485a93510886a9a6668b4a"
+        },
+        {
+          "path": "scripts/runners/nimcli.py",
+          "sha": "aba7a3148206e0b44d4473fae49092dc1685319c"
+        },
+        {
+          "path": "scripts/shellparse.py",
+          "sha": "642960fe2db780fb889714902a5520416b2b86e2"
+        },
+        {
+          "path": "scripts/validate.py",
+          "sha": "02d10d2a2722e25f6b1293d68861381e7a0c6ea8"
+        },
+        {
+          "path": "scripts/verify.py",
+          "sha": "a18f5d5350d486c97bf74199b1115b10aebdeabb"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "e2869305d74a66750b0c9849362138361d2c8ac7"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "852d912d62dfb1deb900bf6062ed36e7ba9199b6"
+        },
+        {
+          "path": "tests/_fake_runner.py",
+          "sha": "5df17733ac857b27d9d68d44457697d314d5e182"
+        },
+        {
+          "path": "tests/_testkit.py",
+          "sha": "04eba970b7e12bdaa10378bd448d1fef446c53b6"
+        },
+        {
+          "path": "tests/conftest.py",
+          "sha": "2be4ea2bbd507c75ed303ff2a174a18caf97e35d"
+        },
+        {
+          "path": "tests/fixtures/env-host.json",
+          "sha": "ece754a2101e9f1c85485795fbcfca8f671f874e"
+        },
+        {
+          "path": "tests/fixtures/select-china.json",
+          "sha": "8abb277c887756639f7e164f5df45d61a6526f57"
+        },
+        {
+          "path": "tests/fixtures/select-host.json",
+          "sha": "df1f60a90a324f326aedddb860e8f1359233720e"
+        },
+        {
+          "path": "tests/golden/docker-all-gpus.sh",
+          "sha": "50ed4cceb35ccfc8c5955ff4a7e66b2666a577f6"
+        },
+        {
+          "path": "tests/golden/docker-devices-profile.sh",
+          "sha": "8c1b30c00e339ee0c00379c127307531c3579863"
+        },
+        {
+          "path": "tests/golden/docker-model-free.sh",
+          "sha": "058333c333132cc176d99aec6f18cf0db40b5d6a"
+        },
+        {
+          "path": "tests/golden/helm-basic-cmd.txt",
+          "sha": "7ba9ece06902ffa1d6b11ae38f7ce5b4a8e1f9d2"
+        },
+        {
+          "path": "tests/golden/helm-basic-values.yaml",
+          "sha": "b98a4f052edfe49baf356bcfbc030b6cb81b58d8"
+        },
+        {
+          "path": "tests/golden/helm-model-free-cmd.txt",
+          "sha": "7ba9ece06902ffa1d6b11ae38f7ce5b4a8e1f9d2"
+        },
+        {
+          "path": "tests/golden/helm-model-free-values.yaml",
+          "sha": "6b1d5c3063b0c170e3e993d4e347aaa35c0f4c83"
+        },
+        {
+          "path": "tests/golden/nim-operator-basic.yaml",
+          "sha": "1aa7d933a4941e1ea2badcab8d3ac6e9caba6482"
+        },
+        {
+          "path": "tests/golden/nim-operator-model-free.yaml",
+          "sha": "bffe663bf23ae9d85acf0fc79f6ec25b19dbc51e"
+        },
+        {
+          "path": "tests/golden/nim-operator-profile-pvc.yaml",
+          "sha": "c6b197b5414a9e5b8c20a05b05948c0600b5eaa5"
+        },
+        {
+          "path": "tests/golden/nim-run-basic.sh",
+          "sha": "31542c7223dab016e411f3e3090bfd93ed743b68"
+        },
+        {
+          "path": "tests/golden/nim-run-full.sh",
+          "sha": "b2e2bca73520916a4db16a4278e325a9dd195281"
+        },
+        {
+          "path": "tests/golden/nim-run-model-free.sh",
+          "sha": "70b90d924905b895a8aa5991f92290558b1dea4c"
+        },
+        {
+          "path": "tests/test_approvals.py",
+          "sha": "d5ba685eca41d8c78088652f99e371d4a33baba8"
+        },
+        {
+          "path": "tests/test_defaults.py",
+          "sha": "0b3f78e979d7ef10e20aade387d66abd0b72399e"
+        },
+        {
+          "path": "tests/test_docs_check.py",
+          "sha": "6e35c159c04ab501a8ee831f72e4eab013784ebe"
+        },
+        {
+          "path": "tests/test_docs_sources.py",
+          "sha": "8a5b7b741eefde9ef9829ff4e52d27bccf6de2cd"
+        },
+        {
+          "path": "tests/test_guard.py",
+          "sha": "6d5a766770d40fee3a7d4567f319ee4db7adc20b"
+        },
+        {
+          "path": "tests/test_handoff.py",
+          "sha": "a874fbe9997a913fb0a83eb398de8927eba80ebe"
+        },
+        {
+          "path": "tests/test_hook_fail_closed.py",
+          "sha": "45c2236a772e43c3e33aafe52c0466290c11142f"
+        },
+        {
+          "path": "tests/test_install_locations.py",
+          "sha": "8de0806d8f26c3c39ecff18924a01de5b5144893"
+        },
+        {
+          "path": "tests/test_nd_common.py",
+          "sha": "38ee25f5209e4d37450cd7709275f5d3c09a8647"
+        },
+        {
+          "path": "tests/test_nd_render.py",
+          "sha": "868c179bcabd6a8a021b58d0c7156057cc3c38d5"
+        },
+        {
+          "path": "tests/test_nd_state.py",
+          "sha": "642f684bb2a1b718b1d6ff79039f7b145b2504be"
+        },
+        {
+          "path": "tests/test_nextstep.py",
+          "sha": "112deeb7c59235835d5666c0088133ede70b8291"
+        },
+        {
+          "path": "tests/test_nimdeploy.py",
+          "sha": "1a0cd5918f251379aefc3ebc88e64f77d351ec39"
+        },
+        {
+          "path": "tests/test_placement.py",
+          "sha": "bb6556c0c188c80c6533484afb2b2930fa4c57f4"
+        },
+        {
+          "path": "tests/test_port_resolution.py",
+          "sha": "78f7ebc6ad21ed40c068914ca3eccd7ce0fc09e8"
+        },
+        {
+          "path": "tests/test_render_docker.py",
+          "sha": "ea03b42b0bc719ae12308a0c13e94b100c4dcdcf"
+        },
+        {
+          "path": "tests/test_render_k8s.py",
+          "sha": "f1db7108ce24b4a80a2b4e0f4941586d5102268d"
+        },
+        {
+          "path": "tests/test_review_fixes.py",
+          "sha": "3feb1f1daf8d38f254a1d0dc15bc9f5bcfa348cb"
+        },
+        {
+          "path": "tests/test_runner_nimcli.py",
+          "sha": "a0b4b6dd7887da76a670c55d69953723cb1262ad"
+        },
+        {
+          "path": "tests/test_runners.py",
+          "sha": "d826cf75320c1a06c18dd5fda132b4158b4502b2"
+        },
+        {
+          "path": "tests/test_shellparse.py",
+          "sha": "8d86e4215b7b2e824a61931ff97a35581ccee10a"
+        },
+        {
+          "path": "tests/test_validate.py",
+          "sha": "3acf0957800da03ce0ba5337d790642c17fc3891"
+        },
+        {
+          "path": "tests/test_verify.py",
+          "sha": "f70e2f64ac803a4f55691802cf2dd8d2eca34ff3"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nim-deploy",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nim-smoke-check",
+      "trust": "trusted",
+      "name": "nim-smoke-check",
+      "description": "Tests which features of a running NVIDIA NIM LLM or VLM work, local, Kubernetes or hosted: health, chat, streaming, tools, reasoning, JSON schema, images, concurrency. Use when asked to smoke test or smoke check a NIM or its URL, or why a feature fails (before a restart or fix), or after a deploy.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nim-smoke-check",
+      "contentHash": "67e59fe8",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "b218665cab4cb1947513415a8dc0bcf7ba8a9b9b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "3b0b4b349e15cfb28f8f7d4f619e33358abe4c47"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "9e8d87bec8f51f54058286c369483d52dcc364ec"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "3f3ecda19081ab09aa900ae6e9caf68b02a407db"
+        },
+        {
+          "path": "references/access.md",
+          "sha": "f710d44f9c463add38186c4d7607376ee591b535"
+        },
+        {
+          "path": "references/checks.md",
+          "sha": "3e4fca9c2eaf1d9e61362e7cf92f15797f78e698"
+        },
+        {
+          "path": "references/model-features.md",
+          "sha": "cd7311f543d67cf66515a9300d8eaae6cb29c987"
+        },
+        {
+          "path": "references/security.md",
+          "sha": "17d2ad48284980bcac0401e54ee9ea4d8ac6744a"
+        },
+        {
+          "path": "scripts/model_features.json",
+          "sha": "baf0e11c3874fb217cb8c02dd11988e5125ffd2f"
+        },
+        {
+          "path": "scripts/nimsmoke.py",
+          "sha": "1218fee770ab5bc40bc65ec3500f47b3efd0cf05"
+        },
+        {
+          "path": "scripts/nsc_access.py",
+          "sha": "573d1201db0b03b78303d4b9d029c043a8a636dd"
+        },
+        {
+          "path": "scripts/nsc_checks.py",
+          "sha": "d4f9f3629a1a6c143ac0123526ed26a336e76330"
+        },
+        {
+          "path": "scripts/nsc_common.py",
+          "sha": "c783403f5f099eb117b99106cdf07c1b776fd855"
+        },
+        {
+          "path": "scripts/nsc_features.py",
+          "sha": "9a6e86b35384d28569644dce9028178c70e0fdc3"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "b04be9817b93e29ee97ef8e80330b51024350510"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "75d0f31a8f969992f78325a8f67421e546612525"
+        },
+        {
+          "path": "tests/conftest.py",
+          "sha": "7652f3517121971528029f83cfa58bf80e8dd54a"
+        },
+        {
+          "path": "tests/nsc_testkit.py",
+          "sha": "7bc863a7631d25fa50a1bf7c146230886bb69590"
+        },
+        {
+          "path": "tests/test_nimsmoke.py",
+          "sha": "b12804c85748e21548447a7f44d415495f67ee0e"
+        },
+        {
+          "path": "tests/test_nsc_access.py",
+          "sha": "be0abafface0428135b132418c489934b4f864a2"
+        },
+        {
+          "path": "tests/test_nsc_checks.py",
+          "sha": "13caf2e19f51a8863240a264cc4ff539babf4cb4"
+        },
+        {
+          "path": "tests/test_nsc_common.py",
+          "sha": "f00b79e0656ffbbad76eadc7ca5e521285e1bb5b"
+        },
+        {
+          "path": "tests/test_nsc_features.py",
+          "sha": "08e1668693cca75e14e72a5605af45bca59919c3"
+        },
+        {
+          "path": "tests/test_nsc_security.py",
+          "sha": "0894e52edd35a095ab1bab0e347d7e6f47599f3b"
+        },
+        {
+          "path": "tests/test_nsc_testkit.py",
+          "sha": "4bcff692dcd4cc2bf2c5dce6b4a0220468a63dbc"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nim-smoke-check",
+      "version": "0.1.0"
+    },
+    {
+      "id": "NVIDIA/skills@nim-tune",
+      "trust": "trusted",
+      "name": "nim-tune",
+      "description": "Tunes a running vLLM-backed NVIDIA NIM's runtime settings on measured AIPerf evidence, one setting per candidate, against the untuned NIM, on the NIM Operator or Docker. Use when asked to tune or speed up a NIM's engine settings or speculative decoding for a GPU budget, workload and latency target, or to pick or recommend the fastest configuration that still meets a latency target (never one that breaks it).",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nim-tune",
+      "contentHash": "0158ba73",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "ddb99a8271603318ce2abd7af968f65b71579132"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "91b595b1a2095f0c5cbd49ee8a4dbab8043ea75c"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "8b02715b4904aa1fdec9c9f42cd22de07e8f97e4"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "4778f9120b48d26e6f0d3e597e90e892c714561f"
+        },
+        {
+          "path": "references/campaign.md",
+          "sha": "20d3be2ba8dfd48c8c25c86e86f98b33a8c505e3"
+        },
+        {
+          "path": "references/hook.md",
+          "sha": "3026113a9a5b1f908769482511d63f8989e0c751"
+        },
+        {
+          "path": "references/nim-knobs.md",
+          "sha": "8bbca177a10e023c1057bf4dd1524b08b933d731"
+        },
+        {
+          "path": "references/planning.md",
+          "sha": "c8c0d2c4a79a6c0fdabfbf0704a91565d8f0bef0"
+        },
+        {
+          "path": "references/recommended-config.schema.json",
+          "sha": "3c899a52ff7823085914fe0305b9b8ced7c2bea7"
+        },
+        {
+          "path": "scripts/check_nim_engagement.py",
+          "sha": "4b7c3c0da790865a217962b753fe34ca8ed67381"
+        },
+        {
+          "path": "scripts/compare_aiperf.py",
+          "sha": "3a25935ab17c554e89bdfde8ad4a2155fc2e6f1b"
+        },
+        {
+          "path": "scripts/prep_dataset.py",
+          "sha": "103ea44a8c782c7dd5f54c138f2fba21cf9ec425"
+        },
+        {
+          "path": "scripts/run_campaign.py",
+          "sha": "a41b26b9d77ca7ce94942128f691dd7646218a6b"
+        },
+        {
+          "path": "scripts/targets.py",
+          "sha": "60fbe34f7529bcbea681c6db872409a480b021e2"
+        },
+        {
+          "path": "scripts/tune_guard.py",
+          "sha": "7727cc2f242291983aa463f3cb3fc6292150d32d"
+        },
+        {
+          "path": "scripts/write_recommended.py",
+          "sha": "84c4788856fbcab084df362c7ec4e373ad5e94f9"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "8ac0884af6968d2c2f64f9b53f7a714a75dbe50f"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "cd792c7640a8ce6401463d4cd0bbc31332d7b209"
+        },
+        {
+          "path": "tests/test_check_nim_engagement.py",
+          "sha": "8e1494c652ddf15eb0cded3c127dd630cfcb59b5"
+        },
+        {
+          "path": "tests/test_compare_aiperf.py",
+          "sha": "84f096d4c7d609811c9b0571719a802b31cc9694"
+        },
+        {
+          "path": "tests/test_docker_target.py",
+          "sha": "d82a75ce1203969dad6961ea4079508dab553fad"
+        },
+        {
+          "path": "tests/test_prep_dataset.py",
+          "sha": "47dee8d44c95bb55e5f8835370f39603deaf7244"
+        },
+        {
+          "path": "tests/test_run_campaign.py",
+          "sha": "e88cdaec169e81dc8ddbc562b021eac654ca902b"
+        },
+        {
+          "path": "tests/test_targets_fixes.py",
+          "sha": "0dd0a7c97273fb61c10f1bd5adbfa407011caca1"
+        },
+        {
+          "path": "tests/test_tune_guard.py",
+          "sha": "43477546dca9a9a1f09676f2c74d1b6d16b9f6bf"
+        },
+        {
+          "path": "tests/test_write_recommended.py",
+          "sha": "40311b6555978119c6e6a6f150b656331a32661c"
+        },
+        {
+          "path": "tests/testenv.py",
+          "sha": "c12558f2e651f3812462d881d6b24c647a53792d"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nim-tune",
+      "version": "0.1.0"
     },
     {
       "id": "NVIDIA/skills@nixl-docs",
@@ -48725,7 +49427,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "browse",
-      "contentHash": "f2beaf0a",
+      "contentHash": "9924ee94",
       "files": [
         {
           "path": "PLAN-snapshot-dropdown-interactive.md",
@@ -49789,7 +50491,7 @@
         },
         {
           "path": "test/server-auth.test.ts",
-          "sha": "f52914a7653f2a326532ff22b33e0d74cab7491a"
+          "sha": "27f9f40d1bcd540678b045b898bd16f145df9e49"
         },
         {
           "path": "test/server-embedder-terminal-port.test.ts",
@@ -50037,7 +50739,7 @@
         },
         {
           "path": "test/token-registry.test.ts",
-          "sha": "5864d82af0a582e95eaf9739674b027f9752b2b0"
+          "sha": "ec0471d1d244272523464003c5e6ed6c1f68cc0f"
         },
         {
           "path": "test/touch-commands.test.ts",
@@ -50426,43 +51128,6 @@
         }
       ],
       "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/context-save"
-    },
-    {
-      "id": "garrytan/gstack@cso",
-      "trust": "trusted",
-      "name": "cso",
-      "description": "Security audit: supported static findings; qualified profiles add reproduction and repair candidates. Use for: security audit, check for vulnerabilities. (gstack)",
-      "repo": "garrytan/gstack",
-      "ref": "HEAD",
-      "path": "cso",
-      "contentHash": "71b89318",
-      "files": [
-        {
-          "path": "ACKNOWLEDGEMENTS.md",
-          "sha": "a07f0860c8085eec8b69785fd496d099e5887e75"
-        },
-        {
-          "path": "SKILL.md",
-          "sha": "8b7af95f4e12a9e5c544d829fddafc4591f22108"
-        },
-        {
-          "path": "SKILL.md.tmpl",
-          "sha": "f784cfa28bfb27bd41e8e313dc663793c5d4d68a"
-        },
-        {
-          "path": "sections/audit-phases.md",
-          "sha": "ef80711b3fe05d61df12fde9db146961cafc7175"
-        },
-        {
-          "path": "sections/audit-phases.md.tmpl",
-          "sha": "6578ca2cba0f18d92200d28a1ba9c8b75c3bbddd"
-        },
-        {
-          "path": "sections/manifest.json",
-          "sha": "1b463c8f57069152b6b10960f8db5b2e751f7a8d"
-        }
-      ],
-      "webUrl": "https://github.com/garrytan/gstack/tree/HEAD/cso"
     },
     {
       "id": "garrytan/gstack@design-consultation",
@@ -52635,7 +53300,7 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "spec",
-      "contentHash": "dee3654c",
+      "contentHash": "efd3f657",
       "files": [
         {
           "path": "SKILL.md",
@@ -52647,11 +53312,11 @@
         },
         {
           "path": "sections/gate-and-file.md",
-          "sha": "f882b041997d80c7078900a56e6423a381ccfba0"
+          "sha": "5dc609393dcb472ccd271153b9a0e69282f1565b"
         },
         {
           "path": "sections/gate-and-file.md.tmpl",
-          "sha": "20737e226fb8bbac9052fe80d6c39d5aa14229f5"
+          "sha": "37aa8c152bc6ed084d08b28546fecdda1e2b0923"
         },
         {
           "path": "sections/manifest.json",
