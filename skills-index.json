@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1795729093060,
+  "generatedAt": 1795814528335,
   "skills": [
     {
       "id": "anthropics/skills@academy-guide",
@@ -31652,6 +31652,480 @@
       "version": "0.1.0"
     },
     {
+      "id": "NVIDIA/skills@nim-select",
+      "trust": "trusted",
+      "name": "nim-select",
+      "description": "Checks if an NVIDIA NIM fits a GPU host or cluster before a pull, never from memory; lists models that fit; picks the NGC or China distributor image, tag and profile. Use when asked which NIM or profile to use, what fits these GPUs, if a model can run here, or to pull one to test fit. Not to deploy.",
+      "repo": "NVIDIA/skills",
+      "ref": "HEAD",
+      "path": "skills/nim-select",
+      "contentHash": "c45aa840",
+      "files": [
+        {
+          "path": "BENCHMARK.md",
+          "sha": "c2e9fe06e0cb141721aacd69665beb651b407555"
+        },
+        {
+          "path": "SKILL.md",
+          "sha": "b25be2525500c18acd28b359fa829966f1ab73a1"
+        },
+        {
+          "path": "config/skillspector-baseline.yaml",
+          "sha": "68e053cbcd5c64a1479c661ec384111985c2246b"
+        },
+        {
+          "path": "evals/evals.json",
+          "sha": "98418f7fedc509e6d80868b5de88335c37a82b7a"
+        },
+        {
+          "path": "references/china-distributors.md",
+          "sha": "10fbcdd6d9a85f59b8bfb38ad2e670b27b678f53"
+        },
+        {
+          "path": "references/fit-rules.md",
+          "sha": "e600e561d2c1255d0953f4f1171d5c29b9f30692"
+        },
+        {
+          "path": "references/list-mode.md",
+          "sha": "9a8718b6d313ee3c581800536de48938a93c8ffb"
+        },
+        {
+          "path": "references/metadata-api.md",
+          "sha": "0603cfc27d3359f0dca53b619ddd991eacbbe0d3"
+        },
+        {
+          "path": "references/security.md",
+          "sha": "3d3d2231893f40579ce6c21cc7af37c2d2ddd6a3"
+        },
+        {
+          "path": "scripts/choose.py",
+          "sha": "432bfac66ba240f37f58c7eaeb134e99272d24a0"
+        },
+        {
+          "path": "scripts/cnd.py",
+          "sha": "6ccb024eac875c8b410ff3c9065d0e62d7a56eba"
+        },
+        {
+          "path": "scripts/env_inspect.py",
+          "sha": "3a27600c16a276a32ee247220331264811a71173"
+        },
+        {
+          "path": "scripts/fit.py",
+          "sha": "12fe6c74fd5b25ae4ec1b6b0ae25446a0f9263df"
+        },
+        {
+          "path": "scripts/gpu_pci.json",
+          "sha": "a2017f8cf89eef7fdcf90c05df70d0b2351f46dc"
+        },
+        {
+          "path": "scripts/listing.py",
+          "sha": "a27176d2ced97124e9ffa5f37ab55c5599b98a69"
+        },
+        {
+          "path": "scripts/locality.py",
+          "sha": "cb5a9947fc52d8577f3304280eb796ad3e39eda5"
+        },
+        {
+          "path": "scripts/ngc_api.py",
+          "sha": "6e492e3080b5a378364ea88b2227b26eaf99c939"
+        },
+        {
+          "path": "scripts/nimselect.py",
+          "sha": "75af350866b34db612e54790b1218c9f0f92d568"
+        },
+        {
+          "path": "scripts/ns_common.py",
+          "sha": "1dfc1b6f176ead91eb31b6a3b90352467ad71dde"
+        },
+        {
+          "path": "scripts/registry_labels.py",
+          "sha": "e2a9a0466f8e53e240fec9ae3fc8fc81d3c8682a"
+        },
+        {
+          "path": "skill-card.md",
+          "sha": "a0314e0f8343de338703a0c2a7f8e7dfd239db26"
+        },
+        {
+          "path": "skill.oms.sig",
+          "sha": "a0d1aa17262e322a7d99cb5a81ffa71c7f4d63a0"
+        },
+        {
+          "path": "tests/conftest.py",
+          "sha": "9c9602236407eaeef8db47f704543b9e97650196"
+        },
+        {
+          "path": "tests/fixtures/cnd/lichan-404-repository.json",
+          "sha": "a6b0ee57075ac80f54eb147346eeab7597825044"
+        },
+        {
+          "path": "tests/fixtures/cnd/lichan-404.json",
+          "sha": "e93d0b41cbc47291420c2bacb7e5b8d8f79d08fa"
+        },
+        {
+          "path": "tests/fixtures/cnd/lichan-artifact-qwen3.5-35b-a3b-1.0.0.json",
+          "sha": "63ffdeb7f6fb40c4490002fbefecee68152a0717"
+        },
+        {
+          "path": "tests/fixtures/cnd/lichan-artifacts-qwen3.5-35b-a3b.json",
+          "sha": "b5516f4b530ddbd56b2a1d8816df2ed282a7f136"
+        },
+        {
+          "path": "tests/fixtures/cnd/lichan-repositories.json",
+          "sha": "7c895ea225cc6f316ba47f85efa1013c3981bafe"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-glm-5.1.json",
+          "sha": "950650bdc422747d7e44e1e3485dede397452d0d"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-glm-5.json",
+          "sha": "76b7c4d8b3b0d68e88af605edb2a58fc5b927a25"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-qwen3.6-27b-fp8-dgx-spark.json",
+          "sha": "152dab0874501f67501cc3851bfe4dcdc362465a"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-qwen3.6-27b-fp8.json",
+          "sha": "c63226fd36dc08564f6cd378274b316d2b41656f"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-qwen3.6-27b.json",
+          "sha": "d2f731e0653c8eb1308d783b070938fe6fcd0918"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-qwen3.6-35b-a3b-dgx-spark.json",
+          "sha": "11b4db3ce7f537a31a4caafdc9845ec6736e2b7e"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-detail-qwen3.6-35b-a3b-spark-container.json",
+          "sha": "4a838077f6ba8d02a17c78f3b8b50769e27a8bef"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-list-glm.json",
+          "sha": "07eb7fbd3cdf901c752d4b8716ee99afd4879aa0"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-search-glm5_1.json",
+          "sha": "f40ccfda3d683afc80733fbcc52b2f8edd57e364"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgc-search-qwen3.6-27b.json",
+          "sha": "2806554ab1014ef132bb32f0e577b37f9c64eeb1"
+        },
+        {
+          "path": "tests/fixtures/cnd/tgcr-401.json",
+          "sha": "afb6254113b3e8082088a85176bb8ad36f830bcf"
+        },
+        {
+          "path": "tests/fixtures/cnd/turingcm-artifacts-qwen3.6-27b.json",
+          "sha": "2988512c2367db0874beaac82c34d16bd088fe39"
+        },
+        {
+          "path": "tests/fixtures/cnd/turingcm-child-qwen3.6-27b.json",
+          "sha": "dc3c46f451d8b796cccc15ea8db727f89b002f27"
+        },
+        {
+          "path": "tests/fixtures/cnd/turingcm-detail-llama-3.1-8b-instruct.json",
+          "sha": "94badafc97653e03eac2c068d09253ccb9c996bd"
+        },
+        {
+          "path": "tests/fixtures/cnd/turingcm-detail-qwen3.6-27b.json",
+          "sha": "72bed45195d02ee2fc8a6255dec62c761b534044"
+        },
+        {
+          "path": "tests/fixtures/cnd/turingcm-simple-list.json",
+          "sha": "4e96414c4e5b2e79a8c965e92ec2da1968bfbd90"
+        },
+        {
+          "path": "tests/fixtures/env/docker-info-h100nvl.json",
+          "sha": "a68bb7eda4025eff103f96e2e3b12854ab9cad24"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-cordoned.json",
+          "sha": "b2c9e6cbc32549e06a1a475be22324af97934588"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-gb10.json",
+          "sha": "be08023d7853cdcc0a444fa10f3f1758534b15b7"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-h100nvl.json",
+          "sha": "c315ce4c8560cbb5e5094c0f10c8f4532b0fbdbe"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-mig.json",
+          "sha": "c228cae6e77d31a59b052c69eec5de957ca88331"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-no-gfd.json",
+          "sha": "15d42ebdbe85612ef2ffa4b3a7cfe385e5a81b4a"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-nodes-notready.json",
+          "sha": "f2ef4ebb7edf86a31a98f1fe6906821b1a17756e"
+        },
+        {
+          "path": "tests/fixtures/env/kubectl-resourcequota.json",
+          "sha": "74e59bea7f122da2bbad5204d83ff3fedfa77767"
+        },
+        {
+          "path": "tests/fixtures/env/meminfo-gb10.txt",
+          "sha": "a55bf03f5b7a17fb04b42f2406586d94fe5425db"
+        },
+        {
+          "path": "tests/fixtures/env/meminfo-h100nvl.txt",
+          "sha": "dd8ae13c74ed14e2f5ab1969076b1f44934b742a"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-busy.csv",
+          "sha": "9c55de0460895dde1720c524c00625868276f5ea"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-gb10.csv",
+          "sha": "7fbe929dafd012064d5c71f0ab15cad9c094e5f1"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-h100nvl-8-units.csv",
+          "sha": "b43d85ce8f0767e6909f148e96956167a94c534f"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-h100nvl-8.csv",
+          "sha": "a6324adee6a5933241b2190935683430bfc545b7"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-mig.csv",
+          "sha": "6ee486c5af0caf4d091bf2dd11335cddc90f7321"
+        },
+        {
+          "path": "tests/fixtures/env/nvidia-smi-mixed.csv",
+          "sha": "19f89767a43ae1034c8e14131e282d31e85118a6"
+        },
+        {
+          "path": "tests/fixtures/list/images-meta__llama-3.1-8b-instruct.json",
+          "sha": "095d648bbe04c6a3bf3e2b3a8e356eec5e5f29af"
+        },
+        {
+          "path": "tests/fixtures/list/images-openai__gpt-oss-20b.json",
+          "sha": "bd0d3443714a8fb4b0e12153756f8b03234e256e"
+        },
+        {
+          "path": "tests/fixtures/list/images-qwen__qwen3.6-35b-a3b.json",
+          "sha": "f659c17bbad21babb36c23693c3d4bc52c8d48d6"
+        },
+        {
+          "path": "tests/fixtures/list/lichan-artifacts-qwen3.6-35b-a3b-spark.json",
+          "sha": "37ab2176aeba45aac3cb6888129eb32c787c07e4"
+        },
+        {
+          "path": "tests/fixtures/list/lichan-repositories.json",
+          "sha": "d6db1cda32ac75f2e7a894e8aaa31ad440b76da7"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-404.json",
+          "sha": "7fb0431e4ff0050cde646ff692ae06cfa3f6237d"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-meta__llama-3.1-8b-instruct-2.1.4.json",
+          "sha": "cf49966028ed8bbcf508d9bfd027a13b9483602b"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-meta__llama-3.1-8b-instruct-2.1.5.json",
+          "sha": "03cce16e1efc663ab32fc877bde13f6ab2445f9b"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-meta__llama-3.1-8b-instruct-2.1.6.json",
+          "sha": "c16af70b833ee03dcdc93a8ed0a269cc60a676ce"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-meta__llama-3.1-8b-instruct-dgx-spark-1.0.0-variant.json",
+          "sha": "48fc17e79b46072785f75d4cf6fafccb359d72af"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-meta__llama-4-scout-17b-16e-instruct-1.3.2.json",
+          "sha": "33563a4829f00cd877f3ec1b0d2f26abf15d55a3"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-openai__gpt-oss-20b-2.1.5.json",
+          "sha": "afbc0d0a656b47255fe386c8e4c224b33d693d93"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-qwen__qwen3-32b-1.0.0.json",
+          "sha": "bfdd489548d6b902f123e485f7746f2c0dfd17c8"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-qwen__qwen3-32b-dgx-spark-1.1.0.json",
+          "sha": "8805ffbf913c60d4b3459aa021dabda2cf163d4f"
+        },
+        {
+          "path": "tests/fixtures/list/metadata-qwen__qwen3.6-35b-a3b-1.7.0-variant.json",
+          "sha": "3c19540b312480cfcd4b65506d1875507af4b01a"
+        },
+        {
+          "path": "tests/fixtures/list/ngc-catalog.json",
+          "sha": "91627493c6f838aafa24663c03e0a010624bcf3f"
+        },
+        {
+          "path": "tests/fixtures/list/repo-403-not-a-catalog-artifact.json",
+          "sha": "2aec9bd588d3b4254f21869aaf76fe289ed49edc"
+        },
+        {
+          "path": "tests/fixtures/list/repo-meta__llama-3.1-8b-base.json",
+          "sha": "6622b83dfd38922e50847bd9ee434cfda857c8fe"
+        },
+        {
+          "path": "tests/fixtures/list/repo-meta__llama-3.1-8b-instruct-dgx-spark.json",
+          "sha": "dc25ad426fc708e252d1ba364e0f255f8ed04c24"
+        },
+        {
+          "path": "tests/fixtures/list/repo-meta__llama-3.1-8b-instruct.json",
+          "sha": "12974300ec2aa09c94da164186f9b7f801f45111"
+        },
+        {
+          "path": "tests/fixtures/list/repo-meta__llama-4-scout-17b-16e-instruct.json",
+          "sha": "808b7ee892cea73b72fa6a611ea75f0635705083"
+        },
+        {
+          "path": "tests/fixtures/list/repo-openai__gpt-oss-20b.json",
+          "sha": "460ecbd73c8b53bebb80afd9b5dbd4c95162c423"
+        },
+        {
+          "path": "tests/fixtures/list/repo-qwen__qwen3-32b-dgx-spark.json",
+          "sha": "7f2135313e4ee98cf84c7ac88284fe79720450cd"
+        },
+        {
+          "path": "tests/fixtures/list/repo-qwen__qwen3-32b.json",
+          "sha": "8cb95da365ba1c4f12194dc9b5c34be81376fd03"
+        },
+        {
+          "path": "tests/fixtures/list/repo-qwen__qwen3.6-35b-a3b.json",
+          "sha": "3bf92a19e9ddbefcea1b1ac5d7cd6b0035e0a730"
+        },
+        {
+          "path": "tests/fixtures/list/tgc-detail-100335.json",
+          "sha": "8f84a84f4ccc45aac01d5ff4081ed3095748b8be"
+        },
+        {
+          "path": "tests/fixtures/list/tgc-detail-100339.json",
+          "sha": "0282e813ea708c0176f3024a6d9814b821bb34f3"
+        },
+        {
+          "path": "tests/fixtures/list/tgc-detail-100373.json",
+          "sha": "7ad22686088aa094ee51216052a58377817aacc5"
+        },
+        {
+          "path": "tests/fixtures/list/tgc-list.json",
+          "sha": "72b21297ecab1f106af0bf585b3d6c1adb232046"
+        },
+        {
+          "path": "tests/fixtures/list/turingcm-artifacts-qwen3.5-35b-a3b.json",
+          "sha": "fe7a377ff37a0341fb6817ad2e3bec6fedebc8ec"
+        },
+        {
+          "path": "tests/fixtures/list/turingcm-detail-qwen3.5-35b-a3b.json",
+          "sha": "9f7a1c70f674f79ae9e682d2fcc6e2713fdc71bc"
+        },
+        {
+          "path": "tests/fixtures/list/turingcm-simple-list.json",
+          "sha": "4fca5c7ab5b36de54aa4a48fc5c0405d4f481ed8"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-gpt-oss-20b-latest.json",
+          "sha": "297fd1ab6cef28f2ebce6b8813a87d614555ccd7"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-llama-3.1-8b-instruct-1.15.5.json",
+          "sha": "0cac86622e71fd8df174c2e71ce297ff3a7d13b8"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-llama-3.1-8b-instruct-2.1.4.json",
+          "sha": "3cac1046161581562980008e94cd5d4beab5904c"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-llama-3.3-70b-instruct-latest.json",
+          "sha": "d76ff2aac51de5becec2fa39db305a5c0c86848f"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-llama-3.3-nemotron-super-49b-v1-1.10.1.json",
+          "sha": "63b28a46a158cf70dadf2017c5a05d816ba2b6d9"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-nemotron-3.5-lightning-30b-a3b-2.1.5.json",
+          "sha": "07e4a8369fec5d8c76d54a04243b445e218896bb"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-nemotron-3.5-lightning-30b-a3b-2.1.6.json",
+          "sha": "3e12f5f518b96f10493cdb0fd7bb6976703477d8"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-not-found.json",
+          "sha": "16febfc4865410d5269fd59ed53faeac3f460164"
+        },
+        {
+          "path": "tests/fixtures/ngc/metadata-qwen3.5-35b-a3b-1.7.0-variant.json",
+          "sha": "6724cc2346595b5dbb487268eff424451b838f90"
+        },
+        {
+          "path": "tests/fixtures/ngc/repo-llama-3.1-8b-instruct.json",
+          "sha": "34db5c123fbdc6d2f30854287839607125837377"
+        },
+        {
+          "path": "tests/fixtures/ngc/search-llama.json",
+          "sha": "21ef529438c8428c92f17cdc359b0c3e80b21745"
+        },
+        {
+          "path": "tests/ns_testkit.py",
+          "sha": "6a9bf3a082311e0f668ccd4a138710d987d2d908"
+        },
+        {
+          "path": "tests/test_choose.py",
+          "sha": "17fb928f875eb6ff267b743839a2351f3936182b"
+        },
+        {
+          "path": "tests/test_cnd.py",
+          "sha": "4f36857acf6026d1fa1ce9b7fba1ab7b957b5ed5"
+        },
+        {
+          "path": "tests/test_env_inspect.py",
+          "sha": "750fee0e28c8d7b78d11f704d4475fcc69e7b92f"
+        },
+        {
+          "path": "tests/test_fit.py",
+          "sha": "ee3822d2921575468c45c39617053b3b6cbf8fcd"
+        },
+        {
+          "path": "tests/test_listing.py",
+          "sha": "639b50b76397b3c127666997e1ff50623dd2782d"
+        },
+        {
+          "path": "tests/test_locality.py",
+          "sha": "a49b851a9f0a78b3c2b271d5126efe3c6912e52d"
+        },
+        {
+          "path": "tests/test_ngc_api.py",
+          "sha": "8854e69b12ff5d30b85563b9fe15ae02a9bb93d7"
+        },
+        {
+          "path": "tests/test_nimselect.py",
+          "sha": "7855cff22e0ee592b189c2d61248505c78625774"
+        },
+        {
+          "path": "tests/test_ns_common.py",
+          "sha": "98e05abaa271207948ffdce5d03f715249c9d3d0"
+        },
+        {
+          "path": "tests/test_registry_labels.py",
+          "sha": "a85093593fff7a936d97b7439affb2a78f9eb99b"
+        },
+        {
+          "path": "tests/test_security.py",
+          "sha": "78a508fdf271adeb3672b1c3d378a05ce27d8e2e"
+        }
+      ],
+      "webUrl": "https://github.com/NVIDIA/skills/tree/HEAD/skills/nim-select",
+      "version": "0.1.0"
+    },
+    {
       "id": "NVIDIA/skills@nim-smoke-check",
       "trust": "trusted",
       "name": "nim-smoke-check",
@@ -51117,15 +51591,15 @@
       "repo": "garrytan/gstack",
       "ref": "HEAD",
       "path": "design-html",
-      "contentHash": "b4402b76",
+      "contentHash": "f8aeb5ac",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "c33fce0f5dc37abc653cff8fcf702c08b303a8e2"
+          "sha": "7ba21d2e93dcd47c469062795062c89cdf53c1dd"
         },
         {
           "path": "SKILL.md.tmpl",
-          "sha": "f38a84a8026a1419d254ef55858231b6a82dbb87"
+          "sha": "63ea3b20c1e8bc3409e0989b9450b44ec84c7901"
         },
         {
           "path": "sections/craft.md",
@@ -51161,11 +51635,15 @@
         },
         {
           "path": "sections/pretext-patterns.md",
-          "sha": "059379350236931ad30e0c3566e31bca654fa531"
+          "sha": "4ecf69589f6ceb07227a01c689ccf25a2f2f01ad"
         },
         {
           "path": "sections/pretext-patterns.md.tmpl",
-          "sha": "527443fc18bad419c90596130d453aadb27358c6"
+          "sha": "8361bf4aa5150e762072fe76fd1296bfb0f91b55"
+        },
+        {
+          "path": "vendor/pretext-embed.html",
+          "sha": "65717889f8a2653f8c77b3cef724a3f381ef6b04"
         },
         {
           "path": "vendor/pretext.js",
